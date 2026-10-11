@@ -1,10 +1,10 @@
 {
   "active_stage": "input",
-  "active_module": "model-library",
+  "active_module": "",
   "active_step": "",
-  "selected_variant_id": "",
-  "selected_job_id": "sammi_interactive_render_b564ee59a350",
+  "selected_variant_id": "baseline_gem__all",
+  "selected_job_id": "user_workflow_5fe5d0aae2e3",
   "notes": "",
-  "updated_at": 1782632425.9356935,
+  "updated_at": 1791701889.864277,
   "status": "default"
 }

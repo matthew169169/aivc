@@ -1,9 +1,9 @@
 backend,available,status,detail,path
-cobrapy,True,available,Local Python import check,
-troppo_fastcore,True,available,TROPPO FASTcore import check,
-matlab,True,available,MATLAB command for GECKO external runner,D:\Matlab\bin\matlab.EXE
-gecko_home,True,available,GECKO_HOME environment path,D:\MatExt\GECKO
-docker,True,available,Docker command for GECKO runDLKcat,C:\Program Files\Docker\Docker\resources\bin\docker.EXE
-pytfa_python,False,missing,Missing Python modules: pytfa,D:\anaconda\python.exe
+cobrapy,False,missing,Local Python import check,
+troppo_fastcore,False,missing,TROPPO FASTcore import check,
+matlab,False,missing,MATLAB command for GECKO external runner,
+gecko_home,False,missing,GECKO_HOME environment path,
+docker,False,missing,Docker command for GECKO runDLKcat,
+pytfa_python,False,missing,"Missing Python modules: cobra, pytfa",/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
 pytfa_thermo_db,False,missing,PYTFA_THERMO_DB environment path,
 memote,False,missing,MEMOTE command for standardized GEM QC,
