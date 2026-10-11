@@ -1,0 +1,785 @@
+{
+  "version": "20260908-r2",
+  "created_at": "2026-09-08T12:38:01.936286+00:00",
+  "total_files": 29235,
+  "uncompressed_gb": 37.69,
+  "compressed_gb": 6.71,
+  "categories": {
+    "case_studies": 14846,
+    "paper": 7323,
+    ".python": 2295,
+    "user_runs": 2080,
+    "resources": 1599,
+    "examples": 483,
+    "vendor": 139,
+    "frontend": 113,
+    "tools": 87,
+    ".deps_troppo": 72,
+    "omics_router": 55,
+    "docs": 44,
+    "presentation_omics_gem_router": 26,
+    "fig": 24,
+    "api": 15,
+    "deployment": 13,
+    "output": 3,
+    "CONTEXT.md": 1,
+    "README.md": 1,
+    "requirements-optional.txt": 1,
+    "requirements.txt": 1,
+    "local_backend_config.json": 1,
+    "api_workspace_config.json": 1,
+    "THIRD_PARTY_PACKAGES.json": 1,
+    "VALIDATION.json": 1,
+    "PATH-MIGRATION.json": 1,
+    "安装.bat": 1,
+    "启动.bat": 1,
+    "停止.bat": 1,
+    "诊断.bat": 1
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/auth/session"
+    },
+    {
+      "method": "GET",
+      "path": "/api/case-studies"
+    },
+    {
+      "method": "GET",
+      "path": "/api/case-studies/qa-matrix"
+    },
+    {
+      "method": "GET",
+      "path": "/api/case-studies/{case_id}/readiness"
+    },
+    {
+      "method": "GET",
+      "path": "/api/environment/backend"
+    },
+    {
+      "method": "GET",
+      "path": "/api/files"
+    },
+    {
+      "method": "GET",
+      "path": "/api/health"
+    },
+    {
+      "method": "GET",
+      "path": "/api/jobs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/jobs/{job_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/jobs/{job_id}/logs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/projects"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/atlas-summary"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/curation-workspaces"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/curation-workspaces/{workspace_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/model/{model_id}/suggestions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/search"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/species"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/{resource_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/resources/{resource_id}/curation-template"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/archived"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/archived/{run_id}/archive-manifest"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/analysis/summary"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/annotation-groups"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/atlas-resource-manifest"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/gecko/status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/import-manifest"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/ml-hybrid/profile-comparison"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles/{profile_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles/{profile_id}/exports"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles/{profile_id}/external-results"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles/{profile_id}/external-results/{import_id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/model-comparison/pair"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/model-comparison/summary"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/summary"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/variants"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/verify/summary"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/visualizations/reactions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/visualizations/sammi-native-exports"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/workflow/parameter-schema"
+    },
+    {
+      "method": "GET",
+      "path": "/api/runs/{run_id}/workflow/state-summary"
+    },
+    {
+      "method": "GET",
+      "path": "/api/workspace"
+    },
+    {
+      "method": "GET",
+      "path": "/api/workspace/example-presets"
+    },
+    {
+      "method": "GET",
+      "path": "/api/workspace/run-packages"
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login"
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/logout"
+    },
+    {
+      "method": "POST",
+      "path": "/api/case-studies/{case_id}/prepare-lite"
+    },
+    {
+      "method": "POST",
+      "path": "/api/case-studies/{case_id}/prepare-preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/environment/backend/repair"
+    },
+    {
+      "method": "POST",
+      "path": "/api/environment/external-dependencies/config"
+    },
+    {
+      "method": "POST",
+      "path": "/api/environment/external-dependencies/deep-check"
+    },
+    {
+      "method": "POST",
+      "path": "/api/projects"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resources/candidate-package/preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resources/candidate-package/stage"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resources/curation-preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resources/curation-workspaces"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resources/curation-workspaces/{workspace_id}/curated-files"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resources/curation-workspaces/{workspace_id}/mapping-preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resources/curation-workspaces/{workspace_id}/stage-run-package"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/archived/{run_id}/restore"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/archive"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/gecko/adapter-preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/gecko/adapter-probe"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/gecko/external-run"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles/{profile_id}/export"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/ml-hybrid/profiles/{profile_id}/external-results"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/pipeline"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/reports"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/visualizations/filter-preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/visualizations/interactive-render"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/visualizations/sammi"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/visualizations/sammi-native-export"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/workflow/parameter-preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/workflow/run"
+    },
+    {
+      "method": "POST",
+      "path": "/api/runs/{run_id}/workflow/state"
+    },
+    {
+      "method": "POST",
+      "path": "/api/workspace/import-example-preset"
+    },
+    {
+      "method": "POST",
+      "path": "/api/workspace/import-run-package"
+    },
+    {
+      "method": "POST",
+      "path": "/api/workspace/reset"
+    },
+    {
+      "method": "POST",
+      "path": "/api/workspace/root"
+    },
+    {
+      "method": "POST",
+      "path": "/api/workspace/upload-run-package"
+    }
+  ],
+  "endpoint_count": 82,
+  "docs": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 25990,
+      "preview": "# 架构说明\n\n本文档记录当前 Omics-GEM Studio 的工程结构和模块边界。它描述的是现状，不是理想化重写方案。\n\n## 顶层结构\n\n```text\nD:\\generate\n  api/             FastAPI HTTP 层和后端服务聚合\n  frontend/        React / Vite 前端\n  omics_router/    workflow、模型、可视化、报告核心库\n  resources/       Resource Atlas index、cache、case manifest\n  case_studies/    本地 case study 原始材料和转换数据\n  user_runs/       Run Package 与演示运行结果\n  tools/           harvesting、case、部署、QA 与维护脚本\n "
+    },
+    {
+      "path": "CASE_STUDY_SPEC.md",
+      "size": 2507,
+      "preview": "# Case Study Spec\n\n## Current Note: Shewanella Integrated Overview\n\n`shewanella_integrated_overview` is the default visible Shewanella demo case.\nIt is a composite display case, not a physical merge of run packages:\n\n- `Input`, `Model Generator`, and `Model Compare` use `shewanella_gecko_case`.\n- `Analysis` and `Summary` use `shewanella_transcriptional_triggers_case`.\n- The legacy source cases `sh"
+    },
+    {
+      "path": "CLEANUP_CANDIDATES.md",
+      "size": 1519,
+      "preview": "# 清理候选清单\n\n本文件列出候选，不等于已删除。默认策略是先隔离归档，确认无问题后再决定是否删除。\n\n## 已确定可隔离\n\n| 路径 | 类型 | 原因 |\n| --- | --- | --- |\n| `debug.log` | 临时日志 | 根目录调试输出，不是运行输入 |\n| `gurobi.log` | 求解器日志 | 可再生成，不是配置 |\n| `__pycache__/` | Python cache | 可再生成 |\n| `.pytest_cache/` | pytest cache | 可再生成 |\n| `api/__pycache__/` | Python cache | 可再生成 |\n| `omics_router/__pycache__/` | Python cache | 可再生成 |\n| `tools/__pycache__/` | Python cache | "
+    },
+    {
+      "path": "CLEANUP_DEPENDENCY_AUDIT.md",
+      "size": 2232,
+      "preview": "# 第二批清理候选依赖审计\n\n本文件只记录依赖审计结论，不移动文件、不删除文件。\n\n## 目录概览\n\n| 目录 | 文件数 | 体积 | 初步结论 |\n|---|---:|---:|---|\n| `.runtime_cache/` | 6676 | 1447.6 MiB | 运行缓存和 vendor cache，当前有代码直接读取，不能移动 |\n| `.tmp/` | 6208 | 1076.1 MiB | 浏览器/渲染/演示临时输出，需进一步按子目录审计 |\n| `tmp/` | 1 | 4.2 MiB | 小型临时目录，后续可单独确认 |\n| `desktop_staging/` | 6399 | 1630.7 MiB | 桌面 staging 产物，被 installer/检查脚本引用 |\n| `desktop_dist/` | 81 | 387.5 MiB | Electron r"
+    },
+    {
+      "path": "CLEANUP_MANIFEST.md",
+      "size": 3791,
+      "preview": "# 清理归档记录\n\n清理策略：不直接删除文件。可再生成的缓存、日志和临时输出统一移动到 `_cleanup_quarantine/YYYYMMDD/`，并在这里记录原路径、归档路径、原因和恢复方式。\n\n## 2026-06-23\n\n| 原路径 | 归档路径 | 原因 | 可恢复 |\n| --- | --- | --- | --- |\n| `debug.log` | `_cleanup_quarantine/20260623/root_logs/debug.log` | 根目录临时调试日志 | 是 |\n| `gurobi.log` | `_cleanup_quarantine/20260623/root_logs/gurobi.log` | 求解器临时日志 | 是 |\n| `.pytest_cache/` | `_cleanup_quarantine/20260623/python_cach"
+    },
+    {
+      "path": "CURRENT_PROJECT_AUDIT.md",
+      "size": 3231,
+      "preview": "# 当前项目审查报告\n\n审查日期：2026-06-23  \n项目根目录：`D:\\generate`\n\n## 结论\n\n当前项目已经从原型发展成包含 Web 前端、FastAPI 后端、Resource Atlas、Model Generator、Model Compare、case study、桌面打包和公网演示脚本的综合应用。主要问题不是功能缺失，而是长期迭代后边界变厚：\n\n- `frontend/src/App.tsx` 约 1.34 万行，是前端主要复杂度来源。\n- `api/services.py` 约 8900 行，聚合了 resources、case、workflow、compare、summary 等多种服务。\n- 根目录同时承载源码、缓存、桌面构建、case 数据、论文材料、运行结果和部署文件。\n- 当前 `.git` 目录存在但 `git status` 无法识别为有效仓库"
+    },
+    {
+      "path": "ENZYME_CONSTRAINTS.md",
+      "size": 1498,
+      "preview": "# Enzyme Constraint Bridge\n\nThis module prepares lightweight enzyme-capacity inputs for GECKO,\nsMOMENT, AutoPACMEN, ECMpy, or a future full ecGEM backend.\n\nIt does not yet rewrite the GEM into an enzyme-constrained model. Instead, it\nturns absolute proteomics and kcat priors into auditable reaction capacity\ntables and reports whether the data are strong enough for a prototype ecGEM.\n\n## Run\n\n```po"
+    },
+    {
+      "path": "EVIDENCE_MODE_COMPARISON.md",
+      "size": 3301,
+      "preview": "# Evidence Mode Comparison\n\nThis module compares the downstream inputs created from three evidence modes:\n\n- `transcriptomics`\n- `relative_proteomics`\n- `consensus`\n\nIt is designed to answer a practical question before users over-interpret a\ncontext model: which reactions would change if the downstream reconstruction\nused a different omics evidence layer?\n\n## Run\n\nGenerate constraints first:\n\n```p"
+    },
+    {
+      "path": "FRONTEND_PREVIEW_GUIDE.md",
+      "size": 2226,
+      "preview": "# Omics-GEM Studio 前端预览包使用指南\n\n这个压缩包只包含前端，用来让别人试用页面结构、导航和操作逻辑。它不包含后端、数据库、case studies、user_runs 或资源缓存。\n\n## 包内内容\n\n- `dist/`：已经构建好的静态前端文件。\n- `source/`：轻量前端源码，不含 `node_modules`。\n- `FRONTEND_PREVIEW_GUIDE.md`：本说明。\n\n## 最简单预览\n\n如果只想看页面壳、路由和交互布局：\n\n```powershell\ncd dist\npython -m http.server 4173\n```\n\n然后打开：\n\n```text\nhttp://127.0.0.1:4173\n```\n\n注意：这个模式没有后端数据。涉及资源搜索、case study、上传、Model Compare、Summary 等 API 的功"
+    },
+    {
+      "path": "GECKO_EXPORT.md",
+      "size": 3610,
+      "preview": "# GECKO Export Package\n\nThis module exports a portable GECKO 3 input package plus a generated\nModelAdapter profile. It does not require MATLAB, RAVEN, or GECKO at export\ntime. The goal is to make enzyme-constraint inputs and GECKO adapter parameters\nauditable before the user chooses to run MATLAB externally.\n\n## Run\n\n```powershell\npython tools\\export_gecko_inputs.py\npython tools\\build_cobra_report"
+    },
+    {
+      "path": "GECKO_EXTERNAL_RUNNER.md",
+      "size": 2264,
+      "preview": "# GECKO External Runner\n\nThis module stages or executes a MATLAB/GECKO run from an exported\n`gecko_package`.\n\nIt is intentionally an external adapter. Omics-GEM Studio remains usable\nwithout MATLAB, RAVEN, solver-specific setup, or GECKO. When those tools are\nunavailable, the runner writes a `skipped` manifest plus the command it would\nexecute.\n\n## Run\n\nStage or run with the current environment:\n\n"
+    },
+    {
+      "path": "LEGACY_README_ARCHIVE.md",
+      "size": 52212,
+      "preview": "# Omics-GEM Router\n\n## Current Engineering Entry\n\nThe current engineering documentation starts at:\n\n```text\ndocs/README.md\n```\n\nUse it for the maintained project overview, architecture, workflow specs,\nResource Atlas / Model Generator / Model Compare specs, testing guidance, and\ncleanup/recovery notes. Some older sections below are retained as historical\ndesktop/runtime notes and may contain legac"
+    },
+    {
+      "path": "LOCAL_CLOUDFLARE_TUNNEL_DEPLOYMENT.md",
+      "size": 3550,
+      "preview": "# Local Cloudflare Tunnel Deployment\n\nThis guide exposes your local Omics-GEM Studio to classmates through a temporary\nCloudflare HTTPS URL. It keeps FastAPI local and exposes only the Caddy reverse\nproxy.\n\n## 1. Install/check dependencies\n\nRun:\n\n```powershell\npowershell -NoProfile -ExecutionPolicy Bypass -File tools\\check_public_demo_dependencies.ps1\n```\n\nIf dependencies are missing and `winget` "
+    },
+    {
+      "path": "LOGIN_AND_NETWORK_DEPLOYMENT.md",
+      "size": 2198,
+      "preview": "# Login And Network Deployment\n\nOmics-GEM Studio supports a first-pass shared-password access gate for lab or\nsmall public demos. This is not a multi-user permission system; it protects the\nwhole app with one shared password.\n\n## Local Mode\n\nAuthentication is disabled by default. In local desktop mode, start the app as\nusual and it opens without a login page.\n\n```powershell\npowershell -NoProfile -"
+    },
+    {
+      "path": "MEMOTE_EXTERNAL_RUNNER.md",
+      "size": 1420,
+      "preview": "# MEMOTE External Runner\n\nThis module stages or executes a MEMOTE snapshot report for a GEM.\n\nIt complements the router's lightweight `model_qc` module. Lightweight QC gives\nfast local checks that are easy to summarize in CSV; MEMOTE provides a broader\nstandardized HTML report when the local environment has MEMOTE installed.\n\n## Run\n\nStage or run with the current environment:\n\n```powershell\npython"
+    },
+    {
+      "path": "MODEL_COMPARE_SPEC.md",
+      "size": 2628,
+      "preview": "# Model Compare Spec\n\n## 目标\n\nModel Compare 用于解释 Model Generator 在上游如何修改模型。当前默认产品形态是左右双网络对比，而不是旧的 Difference Map / Constraint Evidence / Behavior 工作区。\n\n核心问题是：用户选择 reference variant 和 target variant 后，能看到哪些 reaction 被新增、删除、修改 bounds，哪些 reaction 被 proteomics / kcat / annotation / package-ready 证据映射，以及缺失的 ecModel/capacity 证据为什么不可用。\n\n## 事实层\n\n- `workflow_results/model_edit_reaction_index.csv` 是新版 Compar"
+    },
+    {
+      "path": "MODEL_GENERATOR_SPEC.md",
+      "size": 944,
+      "preview": "# Model Generator Spec\n\n## 目标\n\nModel Generator 用于在生成模型前确认当前模型、omics 输入和可用方法。页面分为两块：\n\n- Model & Omics Dossier\n- Method Workbench\n\n## Dossier\n\n必须显示：\n\n- 模型名称、物种、格式、source file\n- reaction / metabolite / gene 规模\n- 上传或 staged omics 类型\n- omics rows、unique genes/proteins、conditions、files 等可发现计数\n- Atlas provenance 和 case story\n\n没有统计字段时显示 `not indexed` 或 `row count only`，不能填假数字。\n\n## Method Workbench\n\n正式可选路线"
+    },
+    {
+      "path": "MODEL_QC.md",
+      "size": 1736,
+      "preview": "# GEM Model QC\n\nThis module runs lightweight, local quality checks before omics integration.\nIt is meant to answer a practical question: is the model structure healthy\nenough for TROPPO, enzyme constraints, thermodynamic constraints, or later\nMEMOTE-style validation?\n\n## Run\n\n```powershell\npython tools\\run_model_qc.py\npython tools\\build_cobra_report.py\n```\n\nThe default output directory is:\n\n```tex"
+    },
+    {
+      "path": "MULTI_OMICS_CONFLICT_QC.md",
+      "size": 2644,
+      "preview": "# Multi-Omics Conflict QC\n\nThis module compares transcriptomics-derived reaction evidence with\nrelative-proteomics-derived reaction evidence.\n\nIt is designed as a caution layer. When modalities disagree, the router should\nmake the disagreement visible instead of silently deleting or forcing a\nreaction.\n\n## Inputs\n\nGenerated reaction-level tables:\n\n- `reaction_expression_evidence.csv`\n- `relative_p"
+    },
+    {
+      "path": "PIPELINE_ORCHESTRATOR.md",
+      "size": 4176,
+      "preview": "# Pipeline Orchestrator\n\nThe pipeline orchestrator turns the separate router modules into one auditable\nworkflow.\n\nIt records each step as `completed`, `skipped`, `dry_run`, `failed`,\n`input_missing`, or `missing_outputs`. External tools such as GECKO, pyTFA, and\nMEMOTE can safely report `skipped` when their local environment is incomplete.\n\n## Run\n\nRun the full E. coli demo pipeline:\n\n```powershe"
+    },
+    {
+      "path": "PROJECT_OVERVIEW.md",
+      "size": 1407,
+      "preview": "# Omics-GEM Studio 项目总览\n\nOmics-GEM Studio 是一个面向多组学约束代谢模型构建、比较和解释的本地 Web 应用。当前产品主线是：\n\n```text\nInput -> Model Generator -> Analysis -> Summary\n```\n\n`Model Compare` 是 `Model Generator` 内部的核心工作区，用于解释 reference model 与 target model 的 reaction-level 差异。\n\n## 核心能力\n\n- **Input**：资源图谱、用户上传、Run Package 创建、Atlas curated evidence handoff。\n- **Resource Atlas**：本地 metadata harvesting cache、微生物资源地图、资源检索、curation w"
+    },
+    {
+      "path": "PYTFA_EXPORT.md",
+      "size": 2212,
+      "preview": "# pyTFA Export Package\n\nThis module exports a portable input package for a future pyTFA or\nthermodynamic flux analysis run.\n\nIt does not require pyTFA at export time. The goal is to make intracellular\nmetabolomics bounds auditable, unit-normalized, and easy to hand off to a local\npyTFA environment with a thermodynamic database.\n\n## Run\n\n```powershell\npython tools\\export_pytfa_inputs.py\npython tool"
+    },
+    {
+      "path": "PYTFA_EXTERNAL_RUNNER.md",
+      "size": 1751,
+      "preview": "# pyTFA External Runner\n\nThis module stages or executes a Python/pyTFA run from an exported\n`pytfa_package`.\n\nIt is intentionally an external adapter. The router remains usable without\npyTFA or a thermodynamic database. When those tools are unavailable, the runner\nwrites a `skipped` manifest plus the command it would execute.\n\n## Run\n\nStage or run with the current environment:\n\n```powershell\npytho"
+    },
+    {
+      "path": "QA_LOG.md",
+      "size": 153429,
+      "preview": "# QA Log\n\n## 2026-06-26 Shewanella Integrated Case Routing\n\n- Scope: added visible composite case `shewanella_integrated_overview`.\n- Case list: pass. Default `/api/case-studies` exposes one visible Shewanella entry; `shewanella_gecko_oxygen` and `shewanella_transcriptional_triggers_lac_lb` remain direct-readiness source cases.\n- Backend readiness: pass. Integrated ladder maps Input/Generator/Comp"
+    },
+    {
+      "path": "README.md",
+      "size": 2747,
+      "preview": "# Omics-GEM Studio 文档导航\n\n本目录是当前工程文档入口。文档以中文为主，保留 API、artifact、method id、CSV 字段等英文技术术语。\n\n## 快速入口\n\n- [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)：项目目标、四阶段 workflow、核心能力边界。\n- [RESEARCH_INTERESTS.md](RESEARCH_INTERESTS.md)：由当前项目凝练出的研究兴趣、核心科学问题、方法路线与长期目标。\n- [ARCHITECTURE.md](ARCHITECTURE.md)：前端、FastAPI、tools、resources、case studies、user runs 的工程结构。\n- [WORKFLOW_SPEC.md](WORKFLOW_SPEC.md)：`Input -> Model Ge"
+    },
+    {
+      "path": "RECOVERY_AND_BACKUP.md",
+      "size": 2227,
+      "preview": "# 恢复与备份说明\n\n## 当前回滚基线\n\n当前项目目录存在 `.git/`，但本轮审查中 `git status` 返回 `not a git repository`。因此现阶段不能把 git 当作可靠回滚手段使用。\n\n本轮不重新初始化 git、不移动 `.git/`、不改写 refs。后续如果要正式多人协作，建议先在外部完成一次完整目录备份，再单独修复版本库。\n\n## 清理恢复方式\n\n工程治理采用隔离归档策略：不直接删除疑似废弃文件，而是移动到：\n\n```text\nD:\\generate\\_cleanup_quarantine\\YYYYMMDD\\\n```\n\n已归档文件记录在：\n\n```text\nD:\\generate\\docs\\CLEANUP_MANIFEST.md\n```\n\n恢复步骤：\n\n1. 在 `CLEANUP_MANIFEST.md` 中找到原路径和归档路径。\n2. 确认当前原"
+    },
+    {
+      "path": "RELATIVE_PROTEOMICS.md",
+      "size": 2157,
+      "preview": "# Relative Proteomics Evidence\n\nThis module turns relative proteomics into context-specific reaction evidence.\n\nRelative proteomics is treated differently from absolute proteomics:\n\n- it should not create absolute flux upper bounds by itself;\n- it can support reaction weights, FASTCORE core reactions, and CORDA\n  confidence tiers;\n- it can be combined with transcriptomics for condition-specific mo"
+    },
+    {
+      "path": "RESEARCH_INTERESTS.md",
+      "size": 9945,
+      "preview": "# 研究兴趣与方向\n\n## 一句话定位\n\n我的研究聚焦于**多组学证据驱动的微生物代谢模型构建、比较与解释**：将基因组尺度代谢模型（Genome-scale Metabolic Model, GEM）、转录组、蛋白组、代谢组、酶动力学和动态培养数据连接起来，形成可审计、可复现、能够解释环境响应与代谢重编程的计算工作流。\n\n这一方向位于计算系统生物学、代谢工程、生物信息学与科学软件工程的交叉地带。我的目标不仅是运行单个 FBA 或组学分析算法，而是研究从公共资源发现、证据整理、模型约束、变体生成、反应级比较到结果报告的完整证据链。\n\n## 核心研究问题\n\n### 1. 异构组学证据如何可靠地转化为代谢模型约束\n\n公共数据库和实验数据在尺度、格式、质量与可用性上差异很大。转录组提供表达变化，蛋白组更接近酶丰度，kcat 描述催化潜力，代谢组和通量数据则反映系统状态。我的一个核心兴趣是建立透明"
+    },
+    {
+      "path": "RESOURCE_ATLAS_HARVESTING.md",
+      "size": 18699,
+      "preview": "# Resource Atlas Metadata Harvesting\n\nThis document records the local metadata harvesting workflow for the\nModel & Omics Resource Atlas. The pipeline is metadata-only: it refreshes\nsearchable public-resource metadata and never downloads raw omics data,\nprocessed matrices, model files, FASTQ, SRA, mzML, or supplementary archives.\n\n## Commands\n\nRefresh all cached metadata from deterministic offline "
+    },
+    {
+      "path": "RESOURCE_ATLAS_LINEAGE_TREE_QA.md",
+      "size": 7191,
+      "preview": "# Resource Atlas Lineage Tree QA\n\nDate: 2026-06-25\n\n## Checks Run\n\n- `D:\\generate\\.venv\\Scripts\\python.exe tools\\prepare_lineage_tree_images.py`\n- `D:\\generate\\.venv\\Scripts\\python.exe -m py_compile tools\\prepare_lineage_tree_images.py api\\services.py api\\resource_atlas_helpers.py`\n- `npm.cmd run typecheck`\n- `npm.cmd run build`\n- `D:\\generate\\.venv\\Scripts\\python.exe -m pytest tests\\test_fastapi_"
+    },
+    {
+      "path": "RESOURCE_ATLAS_LINEAGE_TREE_SPEC.md",
+      "size": 4105,
+      "preview": "# Resource Atlas Lineage Tree Spec\n\n## Purpose\n\nThe Species Resource Lineage Tree turns the old Draw_Trees model lineage view into a resource-aware Deep Dive navigator. It helps users answer whether a species has models, omics evidence, annotation resources, workflow-ready inputs, curation-only metadata, and method support.\n\n## Data Contract\n\n`/api/resources/atlas-summary` returns these lineage fi"
+    },
+    {
+      "path": "RESOURCE_ATLAS_SPEC.md",
+      "size": 6372,
+      "preview": "# Resource Atlas Spec\n\n## Target Registry Review v1.3 Contract\n\n- `scope_*` rows and other abstract discovery scopes are not promotable organism targets. They belong in `microbial_harvest_scopes.csv`, not `organism_targets.csv`.\n- Promotion dry-runs must mark abstract scopes as `rejected: abstract_scope_not_promotable`; they must not appear in `rows_to_add`.\n- Taxonomy candidate merging prioritize"
+    },
+    {
+      "path": "RESOURCE_ATLAS_TARGET_MODE.md",
+      "size": 10781,
+      "preview": "# Resource Atlas Metadata Harvesting Target Mode\n\n## Summary\n\nThe `Model & Omics Resource Atlas` is a microbial metadata aggregation and\nworkflow-entry system. It should help users find, compare, and stage public\nmodel and omics evidence for microbial organisms without pretending that\nmetadata is already upload-ready data.\n\nThe Atlas harvests metadata from public sources, caches it locally, normal"
+    },
+    {
+      "path": "SUMMARY_PANEL_BOUNDARY.md",
+      "size": 3365,
+      "preview": "# Summary Panel Boundary\n\n## Scope\n\n`frontend/src/features/summary/CasePanels.tsx` owns the pure display layer for:\n\n- case readiness strip\n- case story card\n- case QA matrix\n- final readiness decision panel\n- report exit shell and report preset grid\n- model comparison summary card\n- report and traceability file panels\n- evidence detail panels for failed jobs, SAMMI checks, and readiness flags\n- i"
+    },
+    {
+      "path": "TECH_DEBT_REGISTER.md",
+      "size": 4003,
+      "preview": "# 技术债登记表\n\n## P0: 演示稳定性\n\n| 问题 | 影响 | 当前处理 |\n| --- | --- | --- |\n| `.git` 目录存在但不是可用仓库 | 无可靠 git diff / rollback 基线 | 不做不可逆删除；大改前建议外部备份或重新初始化仓库 |\n| 缺失证据曾显示为 `0` | 用户会把“未生成”误解为真实零值 | 已统一为 `not generated`、`reaction-level unavailable`、`external pending` 等状态标签 |\n| case study 依赖分散 | 下拉选择后可能无法完整展示 | 使用 case manifest、readiness、prepare-lite、QA matrix 作为事实源 |\n\n## P1: Model Compare 收口后剩余项\n\n| 问题 | 影响 | 当前处理 |\n|"
+    },
+    {
+      "path": "TESTING_QA.md",
+      "size": 15471,
+      "preview": "# Testing 与 QA\n\n## Resource Atlas Metadata Expansion Checks\n\nWhen changing Resource Atlas metadata quality, canonical linking, taxonomy queue/cache, or organism target registry expansion, run:\n\n```powershell\nD:\\generate\\.venv\\Scripts\\python.exe -m py_compile tools\\update_resource_cache.py tools\\run_resource_harvest_plan.py tools\\run_resource_continuation_plan.py tools\\resource_atlas_quality.py too"
+    },
+    {
+      "path": "TRANSCRIPTOMICS_FLUX_METHODS.md",
+      "size": 2977,
+      "preview": "# Transcriptomics Flux Methods\n\nThis module adds a flux-oriented transcriptomics layer next to the existing\ncontext-model layer.\n\n## Implemented workflows\n\n### E-Flux\n\nEntry point:\n\n```bash\npython tools/run_transcriptomics_flux.py\n```\n\nInputs:\n\n- `examples/ecoli/generated_constraints/reaction_expression_evidence.csv`\n- `examples/ecoli/generated_constraints/exchange_bounds.csv`\n- `examples/ecoli/ge"
+    },
+    {
+      "path": "TROPPO_FASTCORE.md",
+      "size": 4115,
+      "preview": "# TROPPO FASTcore Backend\n\nThis optional backend connects the router's context-specific constraint tables\nto TROPPO FASTcore.\n\n## Inputs\n\nRun the constraint builder first:\n\n```powershell\npython tools\\build_ecoli_demo_constraints.py\n```\n\nThe FASTcore runner then reads:\n\n- `examples\\ecoli\\iJO1366 (1).xml`\n- `examples\\ecoli\\generated_constraints\\consensus_fastcore_core_reactions.csv`\n- `examples\\ecol"
+    },
+    {
+      "path": "TROPPO_METHOD_MATRIX.md",
+      "size": 1453,
+      "preview": "# TROPPO Method Matrix\n\nThe FASTcore backend is already executable in this project. This module extends\nthe TROPPO layer by preparing method-specific inputs for:\n\n- FASTcore\n- iMAT\n- GIMME\n- CORDA\n\nThe goal is to make the next algorithm integrations explicit and auditable\nwithout pretending that every method is already equally connected.\n\n## Run\n\n```powershell\npython tools\\prepare_troppo_methods.p"
+    },
+    {
+      "path": "USER_UPLOAD_WORKFLOW.md",
+      "size": 1426,
+      "preview": "# User Upload Workflow\n\nThe Streamlit app now supports a staging workflow for custom user data.\n\n## What It Does\n\nThe `Data Check` tab still inspects uploaded model and omics tables. It now also\nadds a `User Upload Workflow` section that lets the user:\n\n1. Review inferred omics roles for each uploaded table.\n2. Override the role with a selectbox.\n3. Ignore files that should not enter the run packa"
+    },
+    {
+      "path": "WORKFLOW_SPEC.md",
+      "size": 1333,
+      "preview": "# Workflow Spec\n\n## 阶段\n\n当前稳定产品流程为四阶段：\n\n1. `Input`\n2. `Model Generator`\n3. `Analysis`\n4. `Summary`\n\n`Model Compare` 是 `Model Generator` 内部页面，不是顶层阶段。\n\n## Input\n\n输入来源包括用户上传和 Resource Atlas。上传文件必须有明确 role/type。Atlas metadata-only/raw-only 资源只能进入 provenance 或 curation workspace，不能直接进入可导入 input map。\n\n## Model Generator\n\n展示当前模型和 omics dossier，并让用户选择建模方法。`Baseline GEM` 是 reference，不作为普通用户方法卡展示。GECKO-ready"
+    },
+    {
+      "path": "分发说明.md",
+      "size": 2653,
+      "preview": "# Omics-GEM Studio 分发说明\n\n更新时间：2026-05-21\n\n## 最推荐发给别人的内容\n\n如果对方只是想使用软件，不参与开发，优先发送：\n\n```text\nD:\\generate\\desktop_installer\\Omics-GEM-Studio-Setup.exe\nD:\\generate\\docs\\快速入门.md\nD:\\generate\\docs\\详细使用手册.md\n```\n\n这是当前最接近普通 Windows 软件的分发方式。安装器会安装 Electron 桌面壳、React 前端、FastAPI 后端源码、bootstrap 脚本和基础 requirements。首次启动时会自动准备项目本地 `.venv`。\n\n## 备选：便携 zip 包\n\n如果对方电脑或安全策略不允许运行安装器，可以发送：\n\n```text\nD:\\generate\\desktop_ins"
+    },
+    {
+      "path": "快速入门.md",
+      "size": 2647,
+      "preview": "# Omics-GEM Studio 快速入门\n\n这份文档给第一次使用的人看，目标是几分钟内把软件打开，并跑通一个 E. coli demo。\n\n## 1. 安装或启动\n\n### 推荐方式：安装器\n\n运行：\n\n```text\nOmics-GEM-Studio-Setup.exe\n```\n\n安装完成后，从桌面或开始菜单打开 Omics-GEM Studio。\n\n### 便携方式：解压 zip\n\n如果拿到的是 zip 包，先解压，然后双击：\n\n```text\nstart_omics_gem_studio.bat\n```\n\n首次启动可能较慢，因为软件会创建或修复本地 Python `.venv` 并安装基础依赖。\n\n## 2. 语言切换\n\n默认语言是简体中文。\n\n语言选项有两个位置：\n\n- 顶部右侧：`语言 / Language`\n- 左侧 sidebar 底部：`语言 / Language` "
+    },
+    {
+      "path": "详细使用手册.md",
+      "size": 8359,
+      "preview": "# Omics-GEM Studio 详细使用手册\n\n更新时间：2026-05-21\n\n## 1. 软件定位\n\nOmics-GEM Studio 是一个面向多组学数据整合进 GEM / GSMM 的工作台。它的目标不是只运行某一个算法，而是把以下步骤组织成可解释、可复现的流程：\n\n```text\n数据管理 -> 证据准备 -> 模型变体生成 -> 分析选择 -> 报告与可视化\n```\n\n目前主要包含：\n\n- 多组学数据上传与 run package 管理\n- model variant registry\n- transcriptomics / proteomics / consensus evidence\n- E-Flux / Delta-FBA-lite\n- TROPPO FASTcore context model\n- UniProt / GPR model check\n- kcat "
+    }
+  ],
+  "doc_count": 44,
+  "cases": [
+    "pcsecyeast_artemisinic_acid",
+    "putida_acetate_isoprenol_case_inputs",
+    "shewanella_fresh_workflow_inputs",
+    "shewanella_gecko_case_study",
+    "shewanella_gecko_case_study_archived_20260522_025521",
+    "shewanella_gecko_case_study_archived_20260522_025634",
+    "shewanella_gecko_case_study_archived_20260522_025826",
+    "shewanella_gecko_case_study_archived_20260522_025843",
+    "shewanella_transcriptional_triggers_case_inputs",
+    "synechocystis_spkb_case_inputs"
+  ],
+  "runs": [
+    "putida_acetate_isoprenol_case",
+    "shewanella_fresh_workflow_demo",
+    "shewanella_gecko_case",
+    "shewanella_transcriptional_triggers_case",
+    "synechocystis_spkb_case",
+    "user_run_20260508_023003",
+    "user_run_20260508_023032",
+    "user_run_20260508_171335",
+    "user_run_20260508_171828",
+    "user_run_20260515_020713",
+    "user_run_20260515_020824",
+    "user_run_20260515_023335",
+    "user_run_20260515_170929"
+  ],
+  "tools_py": [
+    "audit_resource_atlas_target_mode.py",
+    "build_cobra_report.py",
+    "build_condition_dashboard.py",
+    "build_ecoli_demo_constraints.py",
+    "build_ecoli_real_data_pack.py",
+    "build_microbe_target_registry.py",
+    "build_resource_quality_report.py",
+    "build_resource_taxonomy_cache.py",
+    "build_shewanella_kegg_pathway_maps.py",
+    "check_resource_curation_workspace.py",
+    "check_run_package_resolver.py",
+    "compare_evidence_modes.py",
+    "enrich_taxonomy_targets.py",
+    "export_gecko_inputs.py",
+    "export_minn_inputs.py",
+    "export_pytfa_inputs.py",
+    "hash_auth_password.py",
+    "localize_shewanella_reports.py",
+    "measure_desktop_shells.py",
+    "microbe_target_registry.py",
+    "package_shewanella_case_study.py",
+    "package_shewanella_dfba_lite_bundle.py",
+    "plot_shewanella_dfba_lite.py",
+    "prepare_case_gecko_readiness.py",
+    "prepare_lineage_tree_images.py",
+    "prepare_putida_acetate_isoprenol_case.py",
+    "prepare_shewanella_case_study.py",
+    "prepare_shewanella_fresh_workflow_inputs.py",
+    "prepare_shewanella_transcriptional_trigger_case.py",
+    "prepare_shewanella_trigger_round2.py",
+    "prepare_synechocystis_spkb_case.py",
+    "prepare_troppo_methods.py",
+    "probe_shewanella_dfba_sources.py",
+    "promote_organism_targets.py",
+    "refresh_case_edit_provenance.py",
+    "resource_atlas_quality.py",
+    "resource_post_harvest_qa.py",
+    "resource_taxonomy.py",
+    "review_taxonomy_targets.py",
+    "run_cobra_baseline.py",
+    "run_context_feasibility.py",
+    "run_dlkcat_external.py",
+    "run_ecoli_pipeline.py",
+    "run_enzyme_constraints.py",
+    "run_gecko_external.py",
+    "run_memote_cli.py",
+    "run_memote_external.py",
+    "run_model_qc.py",
+    "run_pytfa_external.py",
+    "run_resource_continuation_plan.py",
+    "run_resource_harvest_plan.py",
+    "run_resource_post_harvest_qa.py",
+    "run_shewanella_dfba_lite.py",
+    "run_transcriptomics_flux.py",
+    "run_troppo_fastcore.py",
+    "run_user_package.py",
+    "smoke_desktop_runtime.py",
+    "smoke_resource_live_connectors.py",
+    "start_streamlit.py",
+    "update_resource_cache.py"
+  ],
+  "omics_modules": [
+    "__init__.py",
+    "cobra_runner.py",
+    "condition_env.py",
+    "config.py",
+    "constraints.py",
+    "context.py",
+    "dlkcat_bridge.py",
+    "dlkcat_runner.py",
+    "enzyme_constraints.py",
+    "evidence_comparison.py",
+    "evidence_modes.py",
+    "gecko_adapter.py",
+    "gecko_export.py",
+    "gecko_runner.py",
+    "hybrid_graph_adapter.py",
+    "hybrid_readiness.py",
+    "hybrid_runner.py",
+    "id_mapping.py",
+    "interpretation.py",
+    "kcat_prior_merge.py",
+    "local_config.py",
+    "memote_runner.py",
+    "minn_export.py",
+    "ml_analysis.py",
+    "ml_features.py",
+    "ml_hybrid_profile.py",
+    "model_edit.py",
+    "model_generation.py",
+    "model_qc.py",
+    "omics_conflict.py",
+    "omics_qc.py",
+    "pipeline.py",
+    "production_analysis.py",
+    "production_gecko_bridge.py",
+    "production_readiness.py",
+    "pytfa_runner.py",
+    "reaction_drilldown.py",
+    "report.py",
+    "report_builder.py",
+    "rules.py",
+    "sammi_interactive_render.py",
+    "sammi_native_export.py",
+    "sammi_visualization.py",
+    "shewanella_case.py",
+    "thermo_export.py",
+    "transcriptomics_flux.py",
+    "transcriptomics_flux_drilldown.py",
+    "troppo_methods.py",
+    "troppo_runner.py",
+    "uniprot_cache.py",
+    "uniprot_model_check.py",
+    "upload_workflow.py",
+    "user_pipeline.py",
+    "validators.py",
+    "variant_comparison.py"
+  ],
+  "validation": {
+    "passed": true,
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "checks": [
+      "dependency_check",
+      "scientific_smoke",
+      "regression_tests",
+      "frontend_typecheck",
+      "frontend_build"
+    ],
+    "regression": "................................................................. [ 20%]\r\n........................................................................ [ 43%]\r\n........................................................................ [ 66%]\r\n................................................................",
+    "acceptance": [
+      "Chinese and space path",
+      "no Python or Node in PATH",
+      "network proxies unavailable",
+      "occupied port",
+      "duplicate start",
+      "owned stop",
+      "repeat install",
+      "relocate and reinstall",
+      "browser and API HTTP",
+      "diagnostics"
+    ],
+    "browser_checks": [
+      "Workflow and DataHub rendered with API ready and Runs 15",
+      "Resource Atlas rendered organisms, resources and filters",
+      "No browser console errors after removing build-machine absolute paths",
+      "Screenshot visually inspected at output/playwright/portable-browser.png"
+    ],
+    "limitations": [
+      "Existing TROPPO adapter fails on a degenerate toy input where every reaction is protected as core (empty LP9 support set). The standard three-reaction FASTcore smoke passes; algorithms were not modified for packaging.",
+      "External MATLAB/GECKO/commercial solver/pyTFA/DLKcat environments are not bundled.",
+      "External historical source references may not exist on the target; migration reports list them without enabling old machine settings."
+    ]
+  },
+  "mutable_roots": [
+    "resources",
+    "case_studies",
+    "user_runs",
+    "atlas_curation_workspaces",
+    "examples",
+    "output",
+    "paper",
+    "fig",
+    "presentation_omics_gem_router"
+  ]
+}

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Omics-GEM Studio — Bundle Showcase · 20260908-r2</title>
+<meta name="description" content="Local-first workbench for genome-scale metabolic models + omics. Bundle 20260908-r2 showcase: workflow, architecture, API, cases, validation, docs." />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top"><span class="brand-mark">◈</span> Omics-GEM Studio</a>
+    <nav class="nav-links">
+      <a href="#workflow">Workflow</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#atlas">Atlas</a>
+      <a href="#api">API</a>
+      <a href="#cases">Cases</a>
+      <a href="#validation">Validation</a>
+      <a href="#bundle">Bundle</a>
+      <a href="#docs">Docs</a>
+    </nav>
+    <span class="pill" id="version-pill">20260908-r2</span>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-badges">
+      <span class="badge">local-first</span>
+      <span class="badge">Windows · Browser</span>
+      <span class="badge">FastAPI + React/Vite</span>
+      <span class="badge ok">✔ release checks passed</span>
+    </div>
+    <h1>Omics-GEM <span class="grad">Studio</span></h1>
+    <p class="lede">A local-first research workbench for combining genome-scale metabolic models with omics evidence.<br/>This site documents the full <code>Omics-GEM-Studio-Windows-Browser-20260908-r2.zip</code> bundle.</p>
+    <div class="hero-cta">
+      <a class="btn primary" href="#workflow">Explore workflow</a>
+      <a class="btn ghost" href="#docs">Browse 44 docs</a>
+      <a class="btn ghost" href="#api">82 API endpoints</a>
+    </div>
+    <div class="stat-grid" id="stat-grid">
+      <div class="stat"><div class="stat-num" id="st-files">29,235</div><div class="stat-label">files in bundle</div></div>
+      <div class="stat"><div class="stat-num" id="st-uncomp">37.69 GB</div><div class="stat-label">uncompressed</div></div>
+      <div class="stat"><div class="stat-num" id="st-endpoints">82</div><div class="stat-label">API endpoints</div></div>
+      <div class="stat"><div class="stat-num">315</div><div class="stat-label">regression tests passed</div></div>
+      <div class="stat"><div class="stat-num">10</div><div class="stat-label">case studies</div></div>
+      <div class="stat"><div class="stat-num">:8765</div><div class="stat-label">default local port</div></div>
+    </div>
+    <p class="hero-note">Source bundle root <code>D:\generate</code> · Python 3.13.15 · Frontend build 847&nbsp;KB JS · Tested at <code>http://127.0.0.1:8765</code>. Full 6.3&nbsp;GB zip is NOT in this repo (GitHub limit) — this site carries all metadata, docs, API, cases &amp; validation.</p>
+  </div>
+</section>
+
+<section class="section" id="workflow">
+  <div class="wrap">
+    <p class="kicker">Workflow spec</p>
+    <h2>Input → Model Generator → Analysis → Summary</h2>
+    <p class="muted"><code>Model Compare</code> lives inside Model Generator. <code>Resource Atlas</code> lives inside Input.</p>
+    <div class="cards4">
+      <div class="card stage"><div class="stage-n">01</div><h3>Input</h3><p>Resource Atlas discovery, user uploads with explicit role/type, Run Package creation, Atlas curated-evidence handoff.</p><p class="rule">metadata-only / raw-only → provenance or curation only, never direct import.</p></div>
+      <div class="card stage"><div class="stage-n">02</div><h3>Model Generator</h3><p>Model + omics dossier, routes: E-Flux, FASTcore, Consensus, GECKO-ready (guarded). Baseline GEM is reference, not a method card.</p><p class="rule">GECKO-ready needs kcat + protein pool.</p></div>
+      <div class="card stage"><div class="stage-n">03</div><h3>Analysis</h3><p>Method workbench: FBA/pFBA, evidence comparison, ML/PCA/LASSO. Aggregates existing outputs — no heavy external auto-run.</p></div>
+      <div class="card stage"><div class="stage-n">04</div><h3>Summary</h3><p>Reports, risks, missing items, case QA matrix, Atlas provenance, next-step guidance.</p></div>
+    </div>
+    <div class="status-strip">
+      <span><i class="dot ready"></i>ready</span><span><i class="dot partial"></i>partial</span><span><i class="dot"></i>not generated</span><span>package-ready only</span><span>reaction-level unavailable</span><span>external pending</span><span>evidence-only case</span>
+    </div>
+    <p class="muted small">Rule: real <code>0</code> only when artifact exists and field is explicitly zero. Never use <code>0</code> for missing ecModel / capacity / FVA / validation / behavior evidence.</p>
+  </div>
+</section>
+
+<section class="section alt" id="architecture">
+  <div class="wrap">
+    <p class="kicker">Architecture</p>
+    <h2>FastAPI × React × omics_router</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Backend</h3>
+        <ul class="tight">
+          <li><code>api/main.py</code> — FastAPI app, routes, auth entry (82 endpoints)</li>
+          <li><code>api/services.py</code> — main service aggregation (417 KB)</li>
+          <li><code>api/browser_app.py</code> — serves <code>frontend/dist</code> + API on one port, SPA fallback</li>
+          <li><code>api/resource_curation_workspace.py</code> — typed create/query/execute curation lifecycle</li>
+          <li><code>api/run_package_resolver.py</code> — read-only package identity &amp; readiness</li>
+          <li><code>omics_router/</code> — 30+ domain modules: cobra, gecko, pytfa, ml, qc, constraints</li>
+          <li><code>.deps_troppo/</code> — vendored troppo + cobamp adapters</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Frontend</h3>
+        <ul class="tight">
+          <li><code>App.tsx</code> — shell, routing, state, API calls (kept central)</li>
+          <li><code>features/</code> — pure display: input, resource-atlas, model-generator, model-compare, analysis, summary, workflow</li>
+          <li><code>*Adapter.ts</code> — pure data shaping, no fetch / no state</li>
+          <li><code>domain/</code> — workflowRouting, caseContext, workflowRuntime, modelCompareWorkspace</li>
+          <li>Build: Vite 7.3.3, 2,488 modules, <code>index-D6lmiGWb.js</code> 847 KB</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Data flow</h3>
+      <ol class="tight">
+        <li>Input upload or Atlas staging creates <code>user_runs/{run_id}</code>.</li>
+        <li>Model Generator reads run package → variants, summary, comparison artifacts.</li>
+        <li>Model Compare reads pair summary, annotation groups, graph, ReactionDiff.</li>
+        <li>Analysis aggregates outputs; Summary renders report + QA matrix + gaps.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="atlas">
+  <div class="wrap">
+    <p class="kicker">Resource Atlas · Model Compare · Generator</p>
+    <h2>Discovery with strict readiness</h2>
+    <div class="grid3">
+      <div class="card"><h3>Resource Lineage Atlas</h3><p>Default first view: taxonomy-grouped species/strain tree, resource-type child nodes, counts, image placeholders, click → inspector.</p><p class="rule">Search Results, Landscape, Deep Dive are folded assistants — never steal first paint.</p></div>
+      <div class="card"><h3>Readiness ladder</h3><p><code>ready_for_import</code> = local file or processed matrix only. <code>ready_for_reference</code>, <code>package_ready</code>, <code>metadata_only</code>, <code>raw_data_only</code>, <code>license_limited</code> stay as discovery/curation clues.</p><p class="rule">ready_violation_count must be 0.</p></div>
+      <div class="card"><h3>Model Compare</h3><p>ReactionDiff Difference Map, Constraint Evidence, Behavior, side-by-side. Coverage / ranking / detail rows via adapters; fact layer stays in place.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="api">
+  <div class="wrap">
+    <p class="kicker">HTTP surface</p>
+    <h2>API endpoints <span class="count" id="api-count">82</span></h2>
+    <div class="toolbar">
+      <input id="api-search" type="search" placeholder="Filter endpoints… e.g. gecko, runs, resources" />
+      <div class="seg" id="api-seg">
+        <button data-f="ALL" class="on">All</button><button data-f="GET">GET</button><button data-f="POST">POST</button>
+      </div>
+    </div>
+    <div class="table-wrap"><table id="api-table"><thead><tr><th>Method</th><th>Path</th></tr></thead><tbody></tbody></table></div>
+    <p class="muted small">Source: <code>OmicsGEM/api/main.py</code> route decorators. Auth: <code>POST /api/auth/login</code> → session → <code>GET /api/auth/session</code>.</p>
+  </div>
+</section>
+
+<section class="section" id="cases">
+  <div class="wrap">
+    <p class="kicker">Evidence</p>
+    <h2>Case studies &amp; runs</h2>
+    <div class="grid2">
+      <div class="card"><h3>Case studies <span class="count" id="case-count"></span></h3><ul id="case-list" class="chips"></ul>
+      <p class="muted small">Flagship: <b>Shewanella GECKO ecModel</b> (Input/Generator/Compare) + <b>transcriptional-trigger</b> run (Analysis/Summary/report preset <code>shewanella_trigger_reproduction_report</code>). P. putida &amp; Synechocystis shown as evidence-integration / package-ready.</p></div>
+      <div class="card"><h3>User runs <span class="count" id="run-count"></span></h3><ul id="run-list" class="chips"></ul>
+      <p class="muted small">Each run package: identity, artifact inventory, stage readiness, variant + paper/report context via Run Package Resolver.</p></div>
+    </div>
+    <div class="card"><h3>omics_router modules</h3><ul id="omics-list" class="chips small"></ul></div>
+  </div>
+</section>
+
+<section class="section alt" id="validation">
+  <div class="wrap">
+    <p class="kicker">Release QA</p>
+    <h2>Validation <span class="badge ok">passed</span></h2>
+    <div class="grid3">
+      <div class="card"><h3>Checks</h3><ul class="tight"><li>dependency_check — No broken requirements</li><li>scientific_smoke — imports, FBA, fastcore, model_qc, report</li><li>regression_tests — <b>315 passed</b> in 22.44s</li><li>frontend_typecheck — clean</li><li>frontend_build — 2,488 modules in 8.63s</li></ul></div>
+      <div class="card"><h3>Acceptance</h3><ul class="tight" id="accept-list"></ul><p class="muted small">Target: <code>D:\generate\.release-build\验收 空格 v6 已移动</code> — Chinese + space path, no PATH Python/Node, proxies off, occupied port, duplicate start, relocate + reinstall.</p></div>
+      <div class="card"><h3>Browser</h3><ul class="tight" id="browser-list"></ul><p class="muted small">Edge via Playwright, isolated headless, <code>http://127.0.0.1:8765</code>.</p></div>
+    </div>
+    <div class="card warn"><h3>Known limitations</h3><ul class="tight" id="limit-list"></ul></div>
+  </div>
+</section>
+
+<section class="section" id="bundle">
+  <div class="wrap">
+    <p class="kicker">Bundle inventory</p>
+    <h2>What is inside the 37.7 GB zip</h2>
+    <div class="card"><div id="cat-bars" class="bars"></div>
+    <p class="muted small">Full zip (6.3 GB compressed) is excluded from git — see <code>.gitignore</code>. This page ships the manifest, docs and generated index instead.</p></div>
+    <div class="grid2">
+      <div class="card"><h3>Mutable roots</h3><ul id="roots-list" class="tight"></ul></div>
+      <div class="card"><h3>Run it (Windows)</h3><pre><code>cd D:\generate
+.\start_omics_gem_browser_app.ps1
+# → http://127.0.0.1:8765
+# backend smoke:
+D:\generate\.venv\Scripts\python.exe -m pytest tests\test_fastapi_api.py</code></pre></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="docs">
+  <div class="wrap">
+    <p class="kicker">Knowledge base</p>
+    <h2>Docs library <span class="count" id="doc-count"></span></h2>
+    <div class="toolbar"><input id="doc-search" type="search" placeholder="Search docs… e.g. atlas, gecko, deployment" /></div>
+    <div id="doc-grid" class="doc-grid"></div>
+    <div class="card doc-reader hidden" id="doc-reader">
+      <div class="doc-reader-head"><h3 id="doc-title"></h3><button class="btn ghost small" id="doc-close">Close</button></div>
+      <pre id="doc-body"></pre>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <p><b>Omics-GEM Studio</b> bundle showcase · <span id="foot-version"></span> · generated from zip manifest + docs (no binaries committed).</p>
+    <p class="muted small">Boundaries: never mark metadata-only as ready_for_import · never use 0 for missing evidence · quarantine before delete (<code>_cleanup_quarantine/YYYYMMDD/</code>) · external MATLAB/GECKO/RAVEN stay guarded.</p>
+  </div>
+</footer>
+</main>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
