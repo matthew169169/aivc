@@ -40,4 +40,4 @@ python run_local.py
 
 ## GitHub Pages note
 
-Pages is static. DataHub / run packages / SAMMI jobs return unreachable until `run_local.py` is used. Model library trees and the original studio shell still load on Pages.
+Pages is static, so the live site no longer waits for a shared-password session. DataHub / run packages / SAMMI jobs still return unreachable until `run_local.py` is used. Model library trees and the original studio shell load without a login gate.
