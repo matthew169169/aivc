@@ -36,6 +36,19 @@ curl https://aivc.onrender.com/api/case-studies
 - FastAPI backend: `api/`
 - Router library used by the backend: `omics_router/`
 - Compact resource atlas indexes: `resources/` (full Windows runtime, MATLAB/GECKO, and large run packages are not in git)
+- Seeded demo Run Packages in `user_runs/` (from the release bundle):
+  `shewanella_gecko_case`, `putida_acetate_isoprenol_case`,
+  `synechocystis_spkb_case` — all verify `ready` (comparison, analysis,
+  reports, SAMMI checker passed, 0 failed jobs). Open any of them (or its
+  case) in Input and the Summary "Issues to fix" panel clears.
+- Clone fixes vs the Windows bundle:
+  - `relocate_package_path` (`omics_router/constraints.py`): run packages
+    store `D:\generate` absolute model paths; the backend re-anchors them
+    under the package on any machine (also unblocks FBA/SAMMI on Render).
+  - Server-aware environment check (`api/services.py`): the current
+    interpreter counts when it satisfies `requirements.txt` instead of
+    demanding a Windows `.venv`; install `requirements-optional.txt`
+    (COBRA) for full `ready` status.
 
 ## Run the original app locally
 

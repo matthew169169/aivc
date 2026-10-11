@@ -1,0 +1,7 @@
+condition,product_reaction_id,product_name,cobra_growth_coupling_label,cobra_max_product_flux_at_high_growth,gecko_max_product_flux,gecko_solve_status,flux_ratio_gecko_to_cobra,comparison_label,guidance,gecko_source_file
+default,R_EX_cpd00047_e0,formate,growth_coupled_possible,2.6382500000000255,,,,cobra_only_no_gecko_target_result,No enzyme-constrained product result was found; treat production ranking as COBRApy-only.,
+default,R_EX_cpd00029_e0,acetate,growth_coupled_possible,0.6395757575757964,,,,cobra_only_no_gecko_target_result,No enzyme-constrained product result was found; treat production ranking as COBRApy-only.,
+default,R_EX_cpd00020_e0,pyruvate,growth_coupled_possible,0.4490638297870955,,,,cobra_only_no_gecko_target_result,No enzyme-constrained product result was found; treat production ranking as COBRApy-only.,
+default,R_EX_cpd00036_e0,succinate,growth_coupled_possible,0.3247076923077306,,,,cobra_only_no_gecko_target_result,No enzyme-constrained product result was found; treat production ranking as COBRApy-only.,
+default,R_EX_cpd00015_c0,FAD,no_product_flux,0.0,,,,cobra_only_no_gecko_target_result,No enzyme-constrained product result was found; treat production ranking as COBRApy-only.,
+default,R_EX_cpd00050_p0,FMN,no_product_flux,0.0,,,,cobra_only_no_gecko_target_result,No enzyme-constrained product result was found; treat production ranking as COBRApy-only.,

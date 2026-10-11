@@ -1,0 +1,7 @@
+order,layer,status,title,detail,next_step
+1,model_qc_fairness,ready,Model construction fairness is summarized.,"5 QC layer row(s) cover structure, objective, exchange bounds, evidence, and enzyme/proteome readiness.",Use QC rows to separate model construction differences from downstream behavior differences.
+2,phenotype_exchange,ready,Phenotype and exchange behavior are available.,"1 condition row(s) summarize objective, oxygen, byproduct, and production target context.",Compare highO2/lowO2 only as oxygen-condition behavior.
+3,pathway_flux,ready,Pathway-level flux summaries are available.,6 pathway-condition row(s) were derived from pFBA and KEGG/pathway hints.,"Use pathway flux to choose submaps for visualization, not as a causal mechanism claim."
+4,fva_oxygen_essentiality,partial,Sensitivity analyses are targeted and bounded.,FVA available: False; planned oxygen sweep points: 0; essentiality scopes: 3.,"Run targeted FVA, oxygen sweep, or deletion only for selected reactions when needed."
+5,enzyme_allocation,ready,Enzyme/proteome allocation is handled as an independent GECKO layer.,3 enzyme allocation row(s) summarize proteomics/kcat/capacity readiness.,Do not mix GECKO enzyme pseudo reactions into conventional GEM structural diff.
+1,model_structure,same_source,Conventional GEM structure is unchanged or same-source.,2 same-source/reference row(s); compare constraints and behavior instead.,Use reaction drilldown when structural-change rows exist; otherwise focus on condition and evidence layers.

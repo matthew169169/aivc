@@ -1,0 +1,2 @@
+query_id,reaction_id,gene_id,substrate_id,substrate_name,substrate_smiles,predicted_kcat,unit,confidence,dlkcat_status,note
+R_PFK__b3916__M_f6p_c,R_PFK,b3916,M_f6p_c,D-fructose 6-phosphate,C(C(C(C(C(C=O)O)O)O)O)OP(=O)(O)O,42.0,per_s,0.5,predicted,Example row; replace with DLKcat output.

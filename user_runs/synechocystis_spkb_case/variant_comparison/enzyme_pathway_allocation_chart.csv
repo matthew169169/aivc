@@ -1,0 +1,2 @@
+pathway_group,pathway_id,allocation_source,kcat_prior_count,gene_count,reaction_count,capacity_sum,usage_sum,highO2_protein_abundance,lowO2_protein_abundance,delta_low_minus_high,mean_kcat_per_s,mean_kcat_confidence,status,guidance
+not_available,,not_available,0,0,0,,,,,,,,not_available,"No reaction-level enzyme capacity, kcat-prior, or proteomics-pathway mapping data were available."

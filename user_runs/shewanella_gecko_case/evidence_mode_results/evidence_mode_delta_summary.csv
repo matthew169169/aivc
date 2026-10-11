@@ -1,0 +1,4 @@
+condition,reaction_delta_count,evidence_change_count,decision_change_count,core_change_count,conflict_softened_count,delete_candidate_softened_count,ml_consensus_disagreement_count,ml_soft_prior_added_count,relative_proteomics_missing_reaction_count,status
+highO2,0,0,0,0,0,0,0,0,2094,summary
+lowO2,0,0,0,0,0,0,0,0,2094,summary
+ALL,0,0,0,0,0,0,0,0,4188,summary

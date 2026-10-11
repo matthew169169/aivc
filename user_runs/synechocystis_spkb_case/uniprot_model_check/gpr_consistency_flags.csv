@@ -1,0 +1,864 @@
+reaction_id,reaction_name,has_gpr,gene_count,annotated_gene_count,uniprot_coverage_fraction,flag,severity,status,genes,annotated_genes,uniprot_ids,gpr_rule
+R_34DHOXPEGOX,"3,4-Dihydroxyphenylethyleneglycol NAD+ oxidoreductase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0990,,,G_sll0990
+R_34HPPOR,4 Hydroxyphenylpyruvateoxygen oxidoreductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ppd,,,G_ppd
+R_3HAD100,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD120,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD121,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD140,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD141,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD160,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD161,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD180,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD181,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD40,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD60,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3HAD80,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabZ,,,G_fabZ
+R_3OAR100,3-oxoacyl-[acyl-carrier-protein] reductase (n-C10:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR120,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR121,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR140,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR141,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR160,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR161,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR180,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR181,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR40,3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR60,3-oxoacyl-[acyl-carrier-protein] reductase (n-C6:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAR80,3-oxoacyl-[acyl-carrier-protein] reductase (n-C8:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_3OAS100,3-oxoacyl-[acyl-carrier-protein] synthase (n-C10:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS120,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS121,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS140,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS141,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS160,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS161,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS180,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS181,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS60,3-oxoacyl-[acyl-carrier-protein] synthase (n-C6:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_3OAS80,3-oxoacyl-[acyl-carrier-protein] synthase (n-C8:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_AACOAR_syn,Acetoacetyl CoA reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_ABTA,4-aminobutyrate transaminase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argD;G_hemL,,,(G_argD OR G_hemL)
+R_ABUTD,Aminobutyraldehyde dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_ACACT1r,Acetyl-CoA C-acetyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thl,,,G_thl
+R_ACBIPGT,Adenosyl cobinamide phosphate guanyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cobU,,,G_cobU
+R_ACCOAC,Acetyl-CoA carboxylase,True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_accA;G_accB;G_accC;G_accD,,,(G_accA AND G_accB AND G_accC AND G_accD)
+R_ACGK,Acetylglutamate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argB,,,G_argB
+R_ACGS,N-acetylglutamate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argJ,,,G_argJ
+R_ACHBS,2-aceto-2-hydroxybutanoate synthase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvB;G_ilvG;G_ilvN,,,(G_ilvB AND G_ilvG AND G_ilvN)
+R_ACKr,Acetate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ackA,,,G_ackA
+R_ACLS,Acetolactate synthase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvB;G_ilvG;G_ilvN,,,(G_ilvB AND G_ilvG AND G_ilvN)
+R_ACOATA,Acetyl-CoA ACP transacylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,G_fabF
+R_ACONT,Aconitate hydratase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0665,,,G_slr0665
+R_ACOTA,Acetylornithine transaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argD,,,G_argD
+R_ACP1_FMN,Acid phosphatase (FMN),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1108,,,G_sll1108
+R_ACS,Acetyl-CoA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_acs,,,G_acs
+R_ACt2rpp,Acetate reversible transport via proton symport (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_ACtex,Acetate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_ADCL,4-aminobenzoate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0887,,,G_slr0887
+R_ADCPS1,Adenosylcobinamide-phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiB,,,G_cbiB
+R_ADCPS2,Adenosylcobinamide-phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiB,,,G_cbiB
+R_ADCS,4-amino-4-deoxychorismate synthase,False,0,0,,missing_gpr,high,review,,,,
+R_ADCYRS,Adenosylcobyric acid synthase (glutamine-hydrolysing),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiP,,,G_cbiP
+R_ADK1,Adenylate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_adk,,,G_adk
+R_ADMDC,Adenosylmethionine decarboxylase,False,0,0,,missing_gpr,high,review,,,,
+R_ADNCYC,Adenylate cyclase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1161,,,G_sll1161
+R_ADOCBLS,Adenosylcobalamin 5'-phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0636,,,G_slr0636
+R_ADPRDP,ADPribose diphosphatase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1054;G_slr1134,,,(G_sll1054 OR G_slr1134)
+R_ADPT,Adenine phosphoribosyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apt,,,G_apt
+R_ADPT2,Adenine phosphoribosyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apt,,,G_apt
+R_ADSK,Adenylyl-sulfate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysC,,,G_cysC
+R_ADSL1r,Adenylsuccinate lyase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purB,,,G_purB
+R_ADSL2r,Adenylosuccinate lyase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purB,,,G_purB
+R_ADSS,Adenylosuccinate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purA,,,G_purA
+R_AGMT,Agmatinase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0228;G_speB,,,(G_speB OR G_sll0228)
+R_AGPAT160,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT161,1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT180,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT181,1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT181_9,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT182_9_12,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT183_6_9_12,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT183_9_12_15,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPAT184_6_9_12_15,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 4),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1848,,,G_sll1848
+R_AGPR,N-acetyl-g-glutamyl-phosphate reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argC,,,G_argC
+R_AGTi,Alanine glyoxylate aminotransferase  irreversible ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1559,,,G_sll1559
+R_AHCi,Adenosylhomocysteinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ahcY,,,G_ahcY
+R_AHMMPS,4 amino 5 hydroxymethyl 2 methylpyrimidine synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thiC,,,G_thiC
+R_AHSERL2,O acetylhomoserine  thiol  lyase,False,0,0,,missing_gpr,high,review,,,,
+R_AICART,Phosphoribosylaminoimidazolecarboxamide formyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purH,,,G_purH
+R_AIRCr,Phosphoribosylaminoimidazole carboxylase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purE;G_purK,,,(G_purE AND G_purK)
+R_AKGt2rpp,2-oxoglutarate reversible transport via symport (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_AKGtex,Alpha-ketoglutarate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_ALAALAr,D-alanine-D-alanine ligase (reversible),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ddlA,,,G_ddlA
+R_ALAD_L,L-alanine dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1682,,,G_sll1682
+R_ALAR,Alanine racemase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_alr,,,G_alr
+R_ALATRS,Alanyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_alaS,,,G_alaS
+R_ALAabcpp,L-alanine transport via ABC system (periplasm),True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_livF;G_livH;G_natA;G_natB;G_sll0146,,,(G_natB AND G_sll0146 AND G_livH AND G_natA AND G_livF)
+R_ALAtex,L-alanine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_ALCD19,Alcohol dehydrogenase (glycerol),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0990,,,G_sll0990
+R_ALCD2y,"Alcohol dehydrogenase (ethanol, NADP)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0942,,,G_slr0942
+R_ALDD20x,"Aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_ALDD2x,"Aldehyde dehydrogenase (acetaldehyde, NAD)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_AMID,GUANIDINOBUTANAMIDE-NH3-RXN,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nylA,,,G_nylA
+R_AMID2,Amidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nylA,,,G_nylA
+R_AMID3,Amidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nylA,,,G_nylA
+R_AMPN,AMP nucleosidase,False,0,0,,missing_gpr,high,review,,,,
+R_ANPRT,Anthranilate phosphoribosyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_trpD,,,G_trpD
+R_ANS,Anthranilate synthase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_trpE;G_trpG,,,((G_trpE OR G_trpE) AND G_trpG)
+R_AOXSr,8-amino-7-oxononanoate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bioF,,,G_bioF
+R_APRAUR,5-amino-6-(5-phosphoribosylamino)uracil reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ribG,,,G_ribG
+R_ARGDC,Arginine decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_speA,,,(G_speA OR G_speA)
+R_ARGDr,Arginine deiminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1336,,,G_sll1336
+R_ARGN,Arginase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ycf32,,,G_ycf32
+R_ARGSL,Argininosuccinate lyase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argH,,,G_argH
+R_ARGSS,Argininosuccinate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argG,,,G_argG
+R_ARGTRS,Arginyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argS,,,G_argS
+R_ARGabcpp,L-arginine transport via ABC system (periplasm),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glnH_glnP;G_slr1735,,,(G_slr1735 AND G_glnH_glnP)
+R_ARGtex,L-arginine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_ASAD,Aspartate-semialdehyde dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_asd,,,G_asd
+R_ASNN,L-asparaginase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0422,,,G_sll0422
+R_ASNS1,Asparagine synthase (glutamine-hydrolysing),False,0,0,,missing_gpr,high,review,,,,
+R_ASNTRS,Asparaginyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_asnS,,,G_asnS
+R_ASP1DC,Aspartate 1-decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_panD,,,G_panD
+R_ASPCT,Aspartate carbamoyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pyrB,,,G_pyrB
+R_ASPK,Aspartate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_lysC,,,G_lysC
+R_ASPO6,L-aspartate oxidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nadB,,,G_nadB
+R_ASPTA,Aspartate transaminase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aspC;G_sll0480,,,(G_aspC OR G_sll0480 OR G_aspC)
+R_ASPTRS,Aspartyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aspS,,,G_aspS
+R_ATPPRT,ATP phosphoribosyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisG,,,G_hisG
+R_ATPS4rpp_1,ATP synthase (four protons for one ATP) (periplasm),True,10,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_atp1;G_atpA;G_atpB;G_atpC;G_atpD;G_atpE;G_atpF;G_atpG;G_atpH;G_atpI,,,(G_atpI AND G_atpG AND G_atpF AND G_atpA AND G_atpD AND G_atpC AND G_atpB AND G_atpE AND G_atpH AND G_atp1)
+R_ATPSu,ATP synthetase(u),True,10,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_atp1;G_atpA;G_atpB;G_atpC;G_atpD;G_atpE;G_atpF;G_atpG;G_atpH;G_atpI,,,(G_atpI AND G_atpG AND G_atpF AND G_atpA AND G_atpD AND G_atpC AND G_atpB AND G_atpE AND G_atpH AND G_atp1)
+R_BAMPPALDOX,Beta-Aminopropion aldehyde NAD+ oxidoreductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_BCAROHX,Beta-carotene hydroxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bhy,,,G_bhy
+R_BCAROHX2,Beta-carotene hydroxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bhy,,,G_bhy
+R_BCAROKE,Beta-carotene ketolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_crtO,,,G_crtO
+R_BCT1_syn,Bicarbonate transport via ABC system (periplasm),True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cmpA;G_cmpB;G_nrtC;G_nrtD,,,(G_cmpA AND G_cmpB AND G_nrtC AND G_nrtD)
+R_BILIRED,Nad(p)h biliverdin reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bvdR,,,G_bvdR
+R_BIOMASS_Ec_SynAuto,Autotrophic Biomass Ecuation,False,0,0,,missing_gpr,high,review,,,,
+R_BIOMASS_Ec_SynHetero,Heterotrophic Biomass Ecuation,False,0,0,,missing_gpr,high,review,,,,
+R_BIOMASS_Ec_SynMixo,Mixotrophic Biomass Ecuation,False,0,0,,missing_gpr,high,review,,,,
+R_BPNT,"3',5'-bisphosphate nucleotidase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysQ,,,G_cysQ
+R_BTS4,Biotin synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bioB,,,G_bioB
+R_CA2abcpp,Calcium transport via ABC system (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pma1,,,G_pma1
+R_CA2t3pp,Calcium (Ca+2) transport out via proton antiport (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1336,,,G_slr1336
+R_CA2tex,Calcium (Ca+2) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_CAT,Catalase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_katG,,,G_katG
+R_CBFC2,Cytochrome b6/f complex,True,22,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apcA;G_apcB;G_apcC;G_apcD;G_apcE;G_apcF;G_cpcA;G_cpcB;G_cpcC;G_cpcD;G_cpcE;G_cpcF;G_cpcG;G_petA;G_petB;G_petC;G_petD;G_petE;G_petG;G_petM;G_ssl3803;G_ycf6,,,(G_petA AND G_petB AND G_petC AND G_petC AND G_petC AND G_petD AND G_petE AND G_petG AND G_ssl3803 AND G_petM AND G_ycf6 AND G_cpcA AND G_cpcB AND G_cpcC AND G_cpcC AND G_cpcD AND G_cpcE AND G_cpcF AND G_cpcG AND G_cpcG AND G_apcA AND G_apcB AND G_apcC AND G_apcD AND G_apcE AND G_apcF)
+R_CBFC2pp,Cytochrome b6/f complex periplasm,True,22,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apcA;G_apcB;G_apcC;G_apcD;G_apcE;G_apcF;G_cpcA;G_cpcB;G_cpcC;G_cpcD;G_cpcE;G_cpcF;G_cpcG;G_petA;G_petB;G_petC;G_petD;G_petE;G_petG;G_petM;G_ssl3803;G_ycf6,,,(G_petA AND G_petB AND G_petC AND G_petC AND G_petC AND G_petD AND G_petE AND G_petG AND G_ssl3803 AND G_petM AND G_ycf6 AND G_cpcA AND G_cpcB AND G_cpcC AND G_cpcC AND G_cpcD AND G_cpcE AND G_cpcF AND G_cpcG AND G_cpcG AND G_apcA AND G_apcB AND G_apcC AND G_apcD AND G_apcE AND G_apcF)
+R_CBFCpp,Cytochrome b6/f complex periplasm,True,22,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apcA;G_apcB;G_apcC;G_apcD;G_apcE;G_apcF;G_cpcA;G_cpcB;G_cpcC;G_cpcD;G_cpcE;G_cpcF;G_cpcG;G_petA;G_petB;G_petC;G_petD;G_petE;G_petG;G_petM;G_ssl3803;G_ycf6,,,(G_petA AND G_petB AND G_petC AND G_petC AND G_petC AND G_petD AND G_petE AND G_petG AND G_ssl3803 AND G_petM AND G_ycf6 AND G_cpcA AND G_cpcB AND G_cpcC AND G_cpcC AND G_cpcD AND G_cpcE AND G_cpcF AND G_cpcG AND G_cpcG AND G_apcA AND G_apcB AND G_apcC AND G_apcD AND G_apcE AND G_apcF)
+R_CBFCu,Cytochrome b6/f complex,True,22,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apcA;G_apcB;G_apcC;G_apcD;G_apcE;G_apcF;G_cpcA;G_cpcB;G_cpcC;G_cpcD;G_cpcE;G_cpcF;G_cpcG;G_petA;G_petB;G_petC;G_petD;G_petE;G_petG;G_petM;G_ssl3803;G_ycf6,,,(G_petA AND G_petB AND G_petC AND G_petC AND G_petC AND G_petD AND G_petE AND G_petG AND G_ssl3803 AND G_petM AND G_ycf6 AND G_cpcA AND G_cpcB AND G_cpcC AND G_cpcC AND G_cpcD AND G_cpcE AND G_cpcF AND G_cpcG AND G_cpcG AND G_apcA AND G_apcB AND G_apcC AND G_apcD AND G_apcE AND G_apcF)
+R_CBMKr,Carbamate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_arcC,,,G_arcC
+R_CBPS,Carbamoyl-phosphate synthase (glutamine-hydrolysing),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_carA;G_carB,,,(G_carB AND G_carA)
+R_CDPMEK,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0711,,,G_sll0711
+R_CHORM,Chorismate mutase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aroH,,,G_aroH
+R_CHORS,Chorismate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aroC,,,G_aroC
+R_CHPHYS,Chlorophyll a synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_chlG,,,G_chlG
+R_CITt_kt,Citrate proton symport periplasm ,False,0,0,,missing_gpr,high,review,,,,
+R_CITtex,Citrate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_CO2tex,CO2 transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_CO2tpp,CO2 transporter via diffusion (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_COBALT2abcpp,Cobalt (Co+2) ABC transporter (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0797,,,G_slr0797
+R_COBALT2tex,Cobalt (Co+2) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_COCHL,Cobaltochelatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cobN,,,G_cobN
+R_COt_1,Co transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_CPPPGO,Coproporphyrinogen oxidase (O2 required),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemF,,,G_hemF
+R_CPPPGO2,Oxygen Independent coproporphyrinogen-III oxidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemN,,,(G_hemN OR G_hemN)
+R_CS,Citrate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gltA,,,G_gltA
+R_CSND,Cytosine deaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_codA,,,G_codA
+R_CTPS1,CTP synthase  NH3 ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pyrG,,,G_pyrG
+R_CTPS2,CTP synthase (glutamine),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pyrG,,,G_pyrG
+R_CU2abcu_syn,Copper (Cu+2) ABC transporter (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1920,,,G_sll1920
+R_CU2tex,Copper (Cu+2) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_CUabcpp,Copper transport via ABC system (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1950,,,G_slr1950
+R_CYNTAH,Cyanate aminohydrolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cynS,,,G_cynS
+R_CYNTt2pp,Cyanate transport via proton symport (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_CYNTtex,Cyanate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_CYO1b2_syn,"Cytochrome c oxidase, synechocystis (2 protons)",True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ctaC;G_ctaD;G_ctaE,,,((G_ctaD OR G_ctaD) AND (G_ctaC OR G_ctaC) AND (G_ctaE OR G_ctaE))
+R_CYO1b2pp_syn,"Cytochrome c oxidase, synechocystis (2 protons periplasm)",True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ctaC;G_ctaD;G_ctaE,,,((G_ctaD OR G_ctaD) AND (G_ctaC OR G_ctaC) AND (G_ctaE OR G_ctaE))
+R_CYO1b_syn,"Cytochrome c oxidase, synechocystis (2 protons)",True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ctaC;G_ctaD;G_ctaE,,,((G_ctaD OR G_ctaD) AND (G_ctaC OR G_ctaC) AND (G_ctaE OR G_ctaE))
+R_CYO1bpp_syn,"Cytochrome c oxidase, synechocystis (2 protons)",True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ctaC;G_ctaD;G_ctaE,,,((G_ctaD OR G_ctaD) AND (G_ctaC OR G_ctaC) AND (G_ctaE OR G_ctaE))
+R_CYPHYC,Cyanophycinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr2001,,,G_slr2001
+R_CYPHYS,Cyanophycin sinthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr2002,,,G_slr2002
+R_CYRDAAT,"Cob(I)yrinic acid a,c-diamide adenosyltransferase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cobA,,,G_cobA
+R_CYRDAR,"Cob(II)yrinic acid a,c-diamide reductase",False,0,0,,missing_gpr,high,review,,,,
+R_CYSS,Cysteine synthase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysK;G_cysM,,,(G_cysK OR G_cysM)
+R_CYSTA,Cysteine transaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aspC,,,G_aspC
+R_CYSTL,Cystathionine b-lyase,False,0,0,,missing_gpr,high,review,,,,
+R_CYSTRS,Cysteinyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysS,,,G_cysS
+R_CYTBDpp_1,Cytochrome oxidase bd (plastocianine-8  2 protons) (periplasm),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cydA;G_cydB,,,(G_cydA AND G_cydB)
+R_CYTBDu,Cytochrome oxidase bd (plastocianine-8  2 protons) (lumen),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cydA;G_cydB,,,(G_cydA AND G_cydB)
+R_CYTDH,Cytidine hydrolase,False,0,0,,missing_gpr,high,review,,,,
+R_CYTK1,Cytidylate kinase (CMP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_panC_kcy,,,G_panC_kcy
+R_Cobalt2abcppI,Cobalt II transport via ABC system periplasm I,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiM;G_sll0384;G_sll0385,,,(G_cbiM AND G_sll0384 AND G_sll0385)
+R_Cotpp,Co transport via diffusion (periplasm to cytosol),False,0,0,,missing_gpr,high,review,,,,
+R_DADK,Deoxyadenylate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_adk,,,G_adk
+R_DAPDC,Diaminopimelate decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_lysA,,,G_lysA
+R_DAPE,Diaminopimelate epimerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_dapF,,,G_dapF
+R_DASYN160,CDP-diacylglycerol synthetase (n-C16:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN161,CDP-diacylglycerol synthetase (n-C16:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN180,CDP-diacylglycerol synthetase (n-C18:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN181,CDP-diacylglycerol synthetase (n-C18:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN181_9,CDP-diacylglycerol synthetase (n-C18 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN182_9_12,CDP-diacylglycerol synthetase (n-C18 2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN183_6_9_12,CDP-diacylglycerol synthetase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN183_9_12_15,CDP-diacylglycerol synthetase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DASYN184_6_9_12_15,CDP-diacylglycerol synthetase (n-C18 4),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cdsA,,,G_cdsA
+R_DB4PS,"3,4-Dihydroxy-2-butanone-4-phosphate synthase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ribA,,,G_ribA
+R_DBTS,Dethiobiotin synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0523,,,G_slr0523
+R_DCTPD,DCTP deaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1258,,,G_sll1258
+R_DCTPD2,DCTP deaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1258,,,G_sll1258
+R_DDPA,3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ccmA,,,G_ccmA
+R_DDPGA,2-dehydro-3-deoxy-phosphogluconate aldolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_eda,,,G_eda
+R_DES_12,Stearoyl-CoA desaturase (delta-12 desaturase),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_desA,,,G_desA
+R_DES_15,Stearoyl-CoA desaturase (delta-15 desaturase),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_desB,,,G_desB
+R_DES_6,Stearoyl-CoA desaturase (delta-6 desaturase),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_desD_des6_,,,G_desD_des6_
+R_DES_6B,Stearoyl-CoA desaturase (delta-6 desaturase),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_desD_des6_,,,G_desD_des6_
+R_DES_9,Stearoyl-CoA desaturase (delta-9 desaturase),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_desC_des9_,,,G_desC_des9_
+R_DGDG160,Digalactosyldiacylglycerol synthase (n-C16 0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG161,Digalactosyldiacylglycerol synthase (n-C16 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG180,Digalactosyldiacylglycerol synthase (n-C18 0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG181,Digalactosyldiacylglycerol synthase (n-C18 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG181_9,Digalactosyldiacylglycerol synthase (n-C18 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG182_9_12,Digalactosyldiacylglycerol synthase (n-C18 2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG183_6_9_12,Digalactosyldiacylglycerol synthase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG183_9_12_15,Digalactosyldiacylglycerol synthase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DGDG184_6_9_12_15,Digalactosyldiacylglycerol synthase (n-C18 4),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_DHAD1,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvD,,,G_ilvD
+R_DHAD2,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvD,,,G_ilvD
+R_DHDPRy,Dihydrodipicolinate reductase (NADPH),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_dapB,,,G_dapB
+R_DHDPS,Dihydrodipicolinate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_dapA,,,G_dapA
+R_DHFR,Dihydrofolate reductase,False,0,0,,missing_gpr,high,review,,,,
+R_DHFS,Dihydrofolate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folP,,,G_folP
+R_DHNAPHT,"1,4-dihydroxy-2-naphthoate phytyltransferase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_menA,,,G_menA
+R_DHNPA_1,Dihydroneopterin aldolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1626,,,G_slr1626
+R_DHORDi,Dihydoorotic acid dehydrogenase  irreversible ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pyrD,,,G_pyrD
+R_DHORTS,Dihydroorotase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pyrC,,,(G_pyrC OR G_pyrC)
+R_DHPPDA,Diaminohydroxyphosphoribosylaminopyrimidine deaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ribG,,,G_ribG
+R_DHQS,3-dehydroquinate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aroB,,,G_aroB
+R_DHQTi,"3-dehydroquinate dehydratase, irreversible",True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aroQ;G_eno,,,(G_aroQ OR G_eno)
+R_DMATT,Dimethylallyltranstransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_crtE,,,G_crtE
+R_DMPPS_syn,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0348,,,G_slr0348
+R_DMTPHT,Demethylphylloquinone methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gerCb,,,G_gerCb
+R_DM_5mdru1p_c,5mdru1p Demand reaction,False,0,0,,missing_gpr,high,review,,,,
+R_DM_PHB_c,PHB Demand reaction,False,0,0,,missing_gpr,high,review,,,,
+R_DM_cyanphy_c,Cyanphy Demand reaction,False,0,0,,missing_gpr,high,review,,,,
+R_DNAMTn2r,DNA (cytosine-5-)-methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0214,,,G_slr0214
+R_DNMPPA,Dihydroneopterin monophosphate dephosphorylase,False,0,0,,missing_gpr,high,review,,,,
+R_DNTPPA,Dihydroneopterin triphosphate pyrophosphatase,False,0,0,,missing_gpr,high,review,,,,
+R_DPCOAK,Dephospho-CoA kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0553,,,G_slr0553
+R_DPGM,Diphosphoglyceromutase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_yibO,,,G_yibO
+R_DPPS,Decaprenyl synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0506,,,G_sll0506
+R_DPR,2-dehydropantoate 2-reductase,False,0,0,,missing_gpr,high,review,,,,
+R_DRBK,Deoxyribokinase,False,0,0,,missing_gpr,high,review,,,,
+R_DRPA,Deoxyribose-phosphate aldolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_deoC,,,G_deoC
+R_DTMPK,DTMP kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0379,,,G_slr0379
+R_DVOCHR,Divinyl protochlorophyllide a 8-vinyl-reductase,False,0,0,,missing_gpr,high,review,,,,
+R_DXPRIi,1-deoxy-D-xylulose reductoisomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0019,,,G_sll0019
+R_DXPS,1-deoxy-D-xylulose 5-phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1945,,,G_sll1945
+R_EAR100y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C10:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR120y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR121y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR140y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR141y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR160y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR161y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR180y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR181y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR40y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR60y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C6:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EAR80y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_envM,,,G_envM
+R_EHGLAT,L erythro 4 Hydroxyglutamate2 oxoglutarate aminotransferase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aspC;G_sll0480,,,(G_aspC OR G_sll0480 OR G_aspC)
+R_ENO,Enolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_eno,,,G_eno
+R_EX_ac_e,Acetate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_akg_e,2-Oxoglutarate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_ala__L_e,L-Alanine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_arg__L_e,L-Arginine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_ca2_e,Calcium exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_cit_e,Citrate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_co2_e,CO2 exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_co_e,EX co LPAREN e RPAREN ,False,0,0,,missing_gpr,high,review,,,,
+R_EX_cobalt2_e,Co2+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_cu2_e,Cu2+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_cynt_e,Cyanate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_fe2_e,Fe2+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_fe3_e,Fe3+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_fru_e,D-Fructose exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_fum_e,Fumarate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_glc__D_e,D-Glucose exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_glcglyc_e,Glcglyc exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_gln__L_e,L-Glutamine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_glu__L_e,L-Glutamate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_gly_e,Glycine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_h2_e,H2 exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_h2o_e,H2O exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_h_e,H+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_hco3_e,EX hco3 LPAREN e RPAREN ,False,0,0,,missing_gpr,high,review,,,,
+R_EX_his__L_e,L-Histidine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_k_e,K+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_leu__L_e,L-Leucine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_lys__L_e,L-Lysine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_mal__L_e,L-Malate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_mg2_e,Mg exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_mn2_e,Mn2+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_mobd_e,Molybdate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_na1_e,Sodium exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_nh4_e,Ammonia exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_ni2_e,Ni2+ exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_no3_e,Nitrate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_o2_e,O2 exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_photon_e,Photon exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_pi_e,Phosphate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_pro__L_e,L-Proline exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_ptrc_e,Putrescine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_pyr_e,Pyruvate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_ser__L_e,L-Serine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_so4_e,Sulfate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_spmd_e,Spermidine exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_succ_e,Succinate exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_sucr_e,Sucrose exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_urea_e,Urea exchange,False,0,0,,missing_gpr,high,review,,,,
+R_EX_zn2_e,Zinc exchange,False,0,0,,missing_gpr,high,review,,,,
+R_FBA,Fructose-bisphosphate aldolase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbbA;G_fda,,,(G_fda OR G_cbbA)
+R_FBA2,D Fructose 1 phosphate D glyceraldehyde 3 phosphate lyase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbbA,,,G_cbbA
+R_FBA3,"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbbA;G_fda,,,(G_fda OR G_cbbA)
+R_FBP,Fructose-bisphosphatase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fbp;G_glpX,,,(G_fbp OR G_glpX)
+R_FCLT,Ferrochelatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemH,,,G_hemH
+R_FDH6pp,Formate Dehydrogenase (ferrocytochrome c6) (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1359,,,G_sll1359
+R_FE2abcpp,Iron (II) transport via ABC system (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1392,,,G_sll1392
+R_FE2tex,Iron (II) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_FE3abcpp,Iron (III) transport via ABC system (periplasm to cytoplasm),True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hitB;G_sll1878;G_slr0513;G_sufA,,,((G_sufA AND G_hitB AND G_sll1878) OR (G_slr0513 AND G_hitB AND G_sll1878))
+R_FE3tex,Iron (III) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_FMETTRS,Methionyl-tRNA formyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fmt,,,G_fmt
+R_FMNAT,FMN adenylyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1882,,,G_slr1882
+R_FNOR,Ferredoxin---NADP+ reductase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_isiB;G_petF;G_petH,,,((G_petF OR G_petF OR G_petF OR G_petF) AND G_isiB AND G_petH)
+R_FOLD3,Dihydropteroate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folK,,,G_folK
+R_FOMETRi,Aminomethyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gcvT,,,G_gcvT
+R_FQR,Cyclic Electron Flow,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ssr2016,,,G_ssr2016
+R_FRTT,Farnesyltranstransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_crtE,,,G_crtE
+R_FRUt3,D-fructose transport in via proton symport (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glcP,,,G_glcP
+R_FRUtex,D-fructose transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_FTHFD,Formyltetrahydrofolate deformylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purU,,,G_purU
+R_FTHFLi,Formate-tetrahydrofolate ligase,False,0,0,,missing_gpr,high,review,,,,
+R_FTR,Ferredoxin thioredoxin reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ftrC,,,G_ftrC
+R_FUM,Fumarase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fumC,,,G_fumC
+R_FUMtex,Fumarate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_FUMtpp,Fumarate transport via diffusion (periplasm to cytosol),False,0,0,,missing_gpr,high,review,,,,
+R_G1PACT,Glucosamine-1-phosphate N-acetyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glmU,,,G_glmU
+R_G1PTT,Glucose-1-phosphate thymidylyltransferase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rfbA;G_rfbF,,,(G_rfbA OR G_rfbF)
+R_G1SAT,Glutamate-1-semialdehyde aminotransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemL,,,G_hemL
+R_G3PAT160,Glycerol-3-phosphate acyltransferase (C16:0),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT161,Glycerol-3-phosphate acyltransferase (C16:1),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT180,Glycerol-3-phosphate acyltransferase (C18:0),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT181,Glycerol-3-phosphate acyltransferase (C18:1),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT181_9,Glycerol-3-phosphate acyltransferase (C18 1),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT182_9_12,Glycerol-3-phosphate acyltransferase (C18 2),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT183_6_9_12,Glycerol-3-phosphate acyltransferase (C18 3),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT183_9_12_15,Glycerol-3-phosphate acyltransferase (C18 3),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PAT184_6_9_12_15,Glycerol-3-phosphate acyltransferase (C18 4),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1510;G_sll1973,,,(G_sll1510 OR G_sll1973)
+R_G3PD,Glycerol-3-phosphate dehydrogenase (FAD),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glpD,,,G_glpD
+R_G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gpsA,,,G_gpsA
+R_G5SADs,L-glutamate 5-semialdehyde dehydratase (spontaneous),False,0,0,,missing_gpr,high,review,,,,
+R_G5SD,Glutamate-5-semialdehyde dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_proA,,,(G_proA OR G_proA)
+R_G6PBDH,Beta-D-Glucose-6-phosphate NADP+ 1-oxoreductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_zwf,,,G_zwf
+R_G6PDH2r,Glucose 6-phosphate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_zwf,,,G_zwf
+R_G6PI3,Glucose 6 phosphate isomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgi,,,G_pgi
+R_GALKr,Galactokinase,False,0,0,,missing_gpr,high,review,,,,
+R_GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),False,0,0,,missing_gpr,high,review,,,,
+R_GAPD,Glyceraldehyde-3-phosphate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gap1,,,G_gap1
+R_GAPDi_nadp,Glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gap2,,,G_gap2
+R_GARFT,Phosphoribosylglycinamide formyltransferase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purN;G_purT,,,(G_purN OR G_purT)
+R_GCALDD,Glycolaldehyde dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_GCATENEC,Gamma carotene bcyclase,False,0,0,,missing_gpr,high,review,,,,
+R_GF6PTA,Glutamine-fructose-6-phosphate transaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glmS,,,G_glmS
+R_GFUCS,GDP-L-fucose synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1213,,,G_sll1213
+R_GGDPR,Geranylgeranyl diphosphate reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1091,,,G_sll1091
+R_GGPP,Glucosylglycerol 3-phosphatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_stpA,,,G_stpA
+R_GGPS,Glucosylglycerol-phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_otsA,,,G_otsA
+R_GHMT2r,"Glycine hydroxymethyltransferase, reversible",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gylA,,,G_gylA
+R_GK1,Guanylate kinase (GMP:ATP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gmk,,,G_gmk
+R_GLBRAN2,"1,4-alpha-glucan branching enzyme (glycogen -> bglycogen)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glgB,,,G_glgB
+R_GLCGLYCabcpp_syn,Glucosylglycerol ABC transporter (periplasm),True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ggtA;G_slr0529;G_slr0530;G_slr0531,,,(G_ggtA AND G_slr0529 AND G_slr0530 AND G_slr0531)
+R_GLCGLYCtex,Glucosylglycerol transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_GLCP,Glycogen phosphorylase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glgB;G_glgP,,,(G_glgB OR G_glgP OR G_glgP)
+R_GLCP2,Glycogen phosphorylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glgP,,,(G_glgP OR G_glgP)
+R_GLCS1,Glycogen synthase (ADPGlc),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glgA,,,(G_glgA OR G_glgA)
+R_GLCt2pp,D-glucose transport in via proton symport (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glcP,,,G_glcP
+R_GLCtex,Glucose transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_GLGC,Glucose-1-phosphate adenylyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_agp,,,G_agp
+R_GLMS_syn,L-glutamate ferredoxin oxidoreductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gltB,,,G_gltB
+R_GLNS,Glutamine synthetase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glnA;G_glnN,,,(G_glnN OR G_glnA)
+R_GLNTRAT,Glutamyl-tRNA(Gln) amidotransferase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pet112;G_slr0033;G_slr0877,,,(G_slr0877 AND G_pet112 AND G_slr0033)
+R_GLNabcpp,L-glutamine transport via ABC system (periplasm),True,7,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glnH_glnP;G_livF;G_livH;G_natA;G_natB;G_sll0146;G_slr1735,,,((G_natB AND G_sll0146 AND G_livH AND G_natA AND G_livF) OR (G_slr1735 AND G_glnH_glnP))
+R_GLNtex,L-glutamine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_GLU5K,Glutamate 5-kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_proB,,,G_proB
+R_GLUCYS,Gamma-glutamylcysteine synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ggt,,,G_ggt
+R_GLUDC,Glutamate Decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gad,,,G_gad
+R_GLUDy,Glutamate dehydrogenase (NADP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gdhA,,,G_gdhA
+R_GLUK_syn,Glucokinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glk,,,G_glk
+R_GLUN,Glutaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr2079,,,G_slr2079
+R_GLUPRT,Glutamine phosphoribosyldiphosphate amidotransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purF,,,G_purF
+R_GLUR,Glutamate racemase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murI,,,G_murI
+R_GLUSx,Glutamate synthase  NADH2 ,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gltB;G_gltD,,,(G_gltB AND G_gltD)
+R_GLUTRR,Glutamyl-tRNA reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemA,,,G_hemA
+R_GLUTRS,Glutamyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gltX,,,G_gltX
+R_GLUt2rpp,"L-glutamate transport via proton symport, reversible (periplasm)",True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glnH;G_sll1102;G_sll1103,,,(G_sll1102 AND G_sll1103 AND G_glnH)
+R_GLUt4pp,Na+/glutamate symport (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gltS,,,G_gltS
+R_GLUtex,L-glutamate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_GLXCL,Glyoxalate carboligase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvB;G_ilvG;G_ilvN,,,(G_ilvB AND G_ilvG AND G_ilvN)
+R_GLXO3r,Glyoxylate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1556,,,G_sll1556
+R_GLYALDDr,D-Glyceraldehyde dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_GLYCDx,Glycerol dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gldA,,,G_gldA
+R_GLYCK,Glycerate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1840,,,G_slr1840
+R_GLYCL,Glycine Cleavage System,True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gcvH;G_gcvP;G_gcvT;G_phdD,,,(G_gcvP AND G_gcvT AND G_gcvH AND G_phdD)
+R_GLYCLTDx,Glycolate dehydrogenase (NAD),True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glcD;G_glcE;G_glcF;G_slr0806,,,((G_glcD OR G_slr0806) AND G_glcE AND G_glcF)
+R_GLYCL_2,"Glycine cleavage system, cytosol",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gcvT,,,G_gcvT
+R_GLYCTO1,Glycolate oxidase,True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glcD;G_glcE;G_glcF;G_slr0806,,,((G_glcD OR G_slr0806) AND G_glcE AND G_glcF)
+R_GLYK,Glycerol kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glpK,,,G_glpK
+R_GLYOX,Hydroxyacylglutathione hydrolase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_HAGH1;G_slr1259,,,(G_HAGH1 OR G_slr1259)
+R_GLYTRS,Glycyl-tRNA synthetase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glyQ;G_glyS,,,(G_glyQ AND G_glyS)
+R_GLYabcpp,Glycine transport via ABC system,True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_livF;G_livH;G_natA;G_natB;G_sll0146,,,(G_natB AND G_sll0146 AND G_livH AND G_natA AND G_livF)
+R_GLYtex,Glycine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_GMAND,GDP-D-mannose dehydratase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rfbD;G_yefA,,,(G_rfbD OR G_yefA)
+R_GMPS,GMP synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_guaA,,,G_guaA
+R_GMPS2,GMP synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_guaA,,,G_guaA
+R_GND,Phosphogluconate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gnd,,,G_gnd
+R_GRTT,Geranyltranstransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pys,,,G_pys
+R_GTHPi,Glutathione peridoxase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1171;G_slr1992,,,(G_slr1992 OR G_slr1171)
+R_GTHRDH_syn,Glutathione hydralase (periplasmic),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ggt,,,G_ggt
+R_GTHS,Glutathione synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gshB,,,G_gshB
+R_GTPCI,GTP cyclohydrolase I,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folE,,,G_folE
+R_GTPCII,GTP cyclohydrolase II,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ribA,,,G_ribA
+R_GUACYC,Guanylate cyclase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cyaA,,,(G_cyaA OR G_cyaA)
+R_H2ASE_syn,Bidirectional [NiFe] Hydrogenase,True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hoxF;G_hoxH;G_hoxU;G_hoxY;G_sll1220,,,(G_sll1220 AND G_hoxF AND G_hoxU AND G_hoxY AND G_hoxH)
+R_H2CO3_NAt_syn,Bicarbonate transport (Na/HCO3 cotransport periplasme),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0834;G_slr1512,,,(G_slr1512 OR G_sll0834)
+R_H2Otex,H2O transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_H2Otpp,H2O transport via diffusion (periplasm),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apqZ,,,G_apqZ
+R_H2Otu_syn,H2O transport via diffusion (tilacoid),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_apqZ,,,G_apqZ
+R_H2tex,Hydrogen transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_H2tpp,Hydrogen transport diffusion (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_HCO3E,HCO3 equilibration reaction,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_icfA,,,(G_icfA OR G_icfA)
+R_HCO3tex,Bicarbonate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_HEMEAS,Heme A synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1898,,,G_sll1898
+R_HEMEOS,Heme O synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ctaB,,,G_ctaB
+R_HEX1,Hexokinase (D-glucose:ATP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glk,,,G_glk
+R_HEX7,Hexokinase (D-fructose:ATP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cscK,,,G_cscK
+R_HGPHT,Homogenitisate phytyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1736,,,G_slr1736
+R_HIBDkt,3-hydroxyisobutyrate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_mmsB,,,G_mmsB
+R_HISTD,Histidinol dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisD,,,(G_hisD OR G_hisD)
+R_HISTP,Histidinol-phosphatase,False,0,0,,missing_gpr,high,review,,,,
+R_HISTRS,Histidyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisS,,,G_hisS
+R_HISabcpp,L-histidine transport via ABC system (periplasm),True,7,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glnH_glnP;G_livF;G_livH;G_natA;G_natB;G_sll0146;G_slr1735,,,((G_natB AND G_sll0146 AND G_livH AND G_natA AND G_livF) OR (G_slr1735 AND G_glnH_glnP))
+R_HIStex,L-histidine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_HMBS,Hydroxymethylbilane synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemC,,,G_hemC
+R_HOXG,Heme oxygenase 1,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ho1;G_ho2,,,(G_ho1 OR G_ho2)
+R_HPPK,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folK,,,G_folK
+R_HPROa,L hydroxyproline reductase  NAD ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_proC,,,G_proC
+R_HPROb,L hydroxyproline reductase  NADP ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_proC,,,G_proC
+R_HPYRRx,Hydroxypyruvate reductase (NADH),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ddh;G_serA,,,(G_serA OR G_ddh)
+R_HSDxi,Homoserine dehydrogenase  NADH   irreversible,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thrA,,,G_thrA
+R_HSERTA,Homoserine O trans acetylase,False,0,0,,missing_gpr,high,review,,,,
+R_HSK,Homoserine kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thrB,,,G_thrB
+R_HSTPT,Histidinol-phosphate transaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisC,,,(G_hisC OR G_hisC)
+R_Htex,Proton transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_ICDHyr,Isocitrate dehydrogenase (NADP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_icd,,,G_icd
+R_ICHORS,Isochorismate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_entC,,,G_entC
+R_IG3PS,Imidazole-glycerol-3-phosphate synthase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisF;G_hisH,,,(G_hisF OR G_hisH)
+R_IGPDH,Imidazoleglycerol-phosphate dehydratase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisB,,,G_hisB
+R_IGPS,Indole-3-glycerol-phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_trpC,,,G_trpC
+R_ILETA,Isoleucine transaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvE,,,G_ilvE
+R_ILETRS,Isoleucyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ileS,,,G_ileS
+R_IMACTD,Imidazole acetaldeyde dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_IMPC,IMP cyclohydrolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purH,,,G_purH
+R_IMPD,IMP dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_guaB,,,G_guaB
+R_IPDDI,Isopentenyl-diphosphate D-isomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1556,,,G_sll1556
+R_IPDPS_syn,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0348,,,G_slr0348
+R_IPMD,3-isopropylmalate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_leuB,,,G_leuB
+R_IPPMIa,3-isopropylmalate dehydratase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_leuC;G_leuD,,,(G_leuC AND G_leuD)
+R_IPPMIb,2-isopropylmalate hydratase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_leuC;G_leuD,,,(G_leuC AND G_leuD)
+R_IPPS,2-isopropylmalate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_leuA,,,(G_leuA OR G_leuA)
+R_KARA1,"Ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvC,,,G_ilvC
+R_KARA2,Ketol-acid reductoisomerase (2-Acetolactate),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvC,,,G_ilvC
+R_KAS14,Beta-ketoacyl-ACP synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabH,,,G_fabH
+R_KAS15,Beta-ketoacyl-ACP synthase (2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabF,,,(G_fabF OR G_fabF)
+R_Kt2pp,Potassium transport in via proton symport (periplasm),True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ntpJ;G_sll0493;G_slr1508,,,(G_sll0493 AND G_ntpJ AND G_slr1508)
+R_Ktex,Potassium transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_LALDO,D-Lactaldehyde NAD+ oxidoreductase (glutathione-formylating),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0990,,,G_sll0990
+R_LCARS,"Lacaldehyde reductase (S-propane-1,2-diol forming)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_LDH_D,D-lactate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ddh,,,G_ddh
+R_LEUTA,Leucine transaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvE,,,G_ilvE
+R_LEUTAi,Leucine transaminase (irreversible),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvE,,,G_ilvE
+R_LEUTRS,Leucyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_leuS,,,G_leuS
+R_LEUabcpp,L-leucine transport via ABC system (periplasm),True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_livF;G_livH;G_natA;G_natB;G_sll0146,,,(G_natB AND G_sll0146 AND G_livH AND G_natA AND G_livF)
+R_LEUtex,L-leucine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_LGTHL,Lactoylglutathione lyase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0381,,,G_slr0381
+R_LPADSS,Lipid A disaccaride synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_lpxB,,,G_lpxB
+R_LTHRK,L threonine kinase,False,0,0,,missing_gpr,high,review,,,,
+R_LYCOPC,Lycopene cyclase,False,0,0,,missing_gpr,high,review,,,,
+R_LYSDC,Lysine decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cad,,,G_cad
+R_LYSTRS,Lysyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_lysS,,,G_lysS
+R_LYSabcpp,L-lysine transport via ABC system (periplasm),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glnH_glnP;G_slr1735,,,(G_slr1735 AND G_glnH_glnP)
+R_LYStex,L-lysine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_MALT,Alpha glucosidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_malQ,,,G_malQ
+R_MALtex,Malate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_MALtpp,Malate transport via diffusion (periplasm to cytosol),False,0,0,,missing_gpr,high,review,,,,
+R_MAN1PT,Mannose 1 phosphate guanylyltransferase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1496;G_sll1558,,,(G_sll1496 OR G_sll1558)
+R_MAN1PT2,Mannose-1-phosphate guanylyltransferase (GDP),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_manA;G_rfbM,,,(G_rfbM OR G_rfbM OR G_manA)
+R_MAN6PI,Mannose-6-phosphate isomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rfbM,,,G_rfbM
+R_MCOATA,Malonyl-CoA-ACP transacylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabD,,,G_fabD
+R_MDH,Malate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_citH,,,G_citH
+R_ME2,Malic enzyme (NADP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_me,,,G_me
+R_MECDPDH_syn,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gcpE,,,G_gcpE
+R_MECDPS,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1542,,,G_slr1542
+R_MEHLER,Mehler reaction,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0550;G_sll1521,,,(G_sll1521 OR G_sll0550)
+R_MEPCT,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0951,,,G_slr0951
+R_METAT,Methionine adenosyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_metX,,,G_metX
+R_METS,Methionine synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_metH,,,G_metH
+R_METTRS,Methionyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_metS,,,G_metS
+R_MG2tex,Magnesium (Mg+2) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_MG2uabcpp,"Magnesium (Mg+2) ABC transporter (ubtake, periplasm)",True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_mgtC;G_mgtE,,,(G_mgtC OR G_mgtE)
+R_MGDG160,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C16 0)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG161,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C16 1)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG180,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 0)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG181,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 1)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG181_9,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 1)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG182_9_12,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 2)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG183_6_9_12,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 3)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG183_9_12_15,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 3)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGDG184_6_9_12_15,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 4)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1508,,,G_slr1508
+R_MGSA,Methylglyoxal synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0036,,,G_sll0036
+R_MI1PP,Myo-inositol 1-phosphatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_suhB,,,G_suhB
+R_MI1PS,Myo Inositol 1 phosphate synthase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvB;G_sll1722,,,(G_sll1722 OR G_ilvB)
+R_MNt2pp,Manganese (Mn+2) transport in via proton symport (periplasm),True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_mntA;G_mntB;G_mntC,,,(G_mntA AND G_mntB AND G_mntC)
+R_MNtex,Manganese (Mn+2) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_MOBDabcpp,Molybdate transport via ABC system (periplasm),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_modA;G_sll0739,,,(G_modA AND G_sll0739)
+R_MOBDtex,Molybdate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_MOHMT,3-methyl-2-oxobutanoate hydroxymethyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_panB,,,G_panB
+R_MPBQ,2-methyl-6-phytylbenzoquinone methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0418,,,G_sll0418
+R_MPML,Mg-protoporphyrin IX magnesium-lyase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_chlD;G_chlH;G_chlI,,,(G_chlI AND G_chlH AND G_chlD)
+R_MPOMC1," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_AT103;G_sll1214,,,(G_sll1214 OR G_AT103)
+R_MPOMC2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH h2o oxidoreductase (hydroxylating)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bchE,,,G_bchE
+R_MPOMMM,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_AT103;G_sll1214,,,(G_sll1214 OR G_AT103)
+R_MPOMMM2,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH ",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bchE,,,G_bchE
+R_MPOMOR,Magnesium-protoporphyrin-IX 13-monomethyl ester NADPH oxygen oxidoreductase (hydroxylating),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_AT103;G_sll1214,,,(G_sll1214 OR G_AT103)
+R_MPOMOR2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_bchE,,,G_bchE
+R_MPOMT,S-adenosyl-L-methionine magnesium-protoporphyrin-IX O-methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_chlM,,,G_chlM
+R_MTAP,5  methylthioadenosine phosphorylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0135,,,G_sll0135
+R_MTHFC,Methenyltetrahydrofolate cyclohydrolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folD,,,G_folD
+R_MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folD,,,G_folD
+R_MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fabG,,,G_fabG
+R_MTHFR2,"5,10-methylenetetrahydrofolate reductase (NADH)",False,0,0,,missing_gpr,high,review,,,,
+R_MTRI,5-methylthioribose-1-phosphate isomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1938,,,G_slr1938
+R_NABTNO,N4 AcetylaminobutanalNAD oxidoreductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0091,,,G_slr0091
+R_NADH5,NADH dehydrogenase (ubiquinone-8 ),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndh;G_ndhB,,,(G_ndh OR G_ndh OR G_ndh OR G_ndhB)
+R_NADK,NAD kinase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1415;G_slr0400,,,(G_sll1415 OR G_slr0400)
+R_NADN,NAD nucleosidase,False,0,0,,missing_gpr,high,review,,,,
+R_NADS2,Nicotinate-mononucleotide adenylyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nadE,,,G_nadE
+R_NADTRHD,NAD transhydrogenase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pntA;G_pntB,,,(G_pntA AND G_pntB)
+R_NAR_syn,Ferredoxin-nitrate reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_narB,,,G_narB
+R_NAt3pp,Sodium transport out via proton antiport (cytoplasm to periplasm),True,6,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_napA;G_sll0273;G_sll0556;G_sll0689;G_slr1595;G_slr1727,,,(G_slr1727 OR G_sll0273 OR G_slr1595 OR G_sll0689 OR G_napA OR G_sll0556)
+R_NAtex,Sodium transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_NDH1_1p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),True,18,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hoxF;G_hoxU;G_ndhA;G_ndhB;G_ndhC;G_ndhD;G_ndhD2;G_ndhE;G_ndhF;G_ndhG;G_ndhH;G_ndhI;G_ndhJ;G_ndhK;G_sll1220;G_sll1262;G_sll8031;G_slr1623,,,((G_ndhD OR G_ndhD2) AND G_ndhF AND G_ndhA AND G_ndhB AND G_ndhC AND G_ndhE AND G_ndhG AND G_ndhH AND G_ndhI AND G_ndhJ AND (G_ndhK OR G_sll8031) AND G_slr1623 AND G_sll1262 AND G_sll1220 AND G_hoxF AND G_hoxU)
+R_NDH1_1u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),True,18,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hoxF;G_hoxU;G_ndhA;G_ndhB;G_ndhC;G_ndhD;G_ndhD2;G_ndhE;G_ndhF;G_ndhG;G_ndhH;G_ndhI;G_ndhJ;G_ndhK;G_sll1220;G_sll1262;G_sll8031;G_slr1623,,,((G_ndhD OR G_ndhD2) AND G_ndhF AND G_ndhA AND G_ndhB AND G_ndhC AND G_ndhE AND G_ndhG AND G_ndhH AND G_ndhI AND G_ndhJ AND (G_ndhK OR G_sll8031) AND G_slr1623 AND G_sll1262 AND G_sll1220 AND G_hoxF AND G_hoxU)
+R_NDH1_2p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),True,18,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hoxF;G_hoxU;G_ndhA;G_ndhB;G_ndhC;G_ndhD;G_ndhD2;G_ndhE;G_ndhF;G_ndhG;G_ndhH;G_ndhI;G_ndhJ;G_ndhK;G_sll1220;G_sll1262;G_sll8031;G_slr1623,,,((G_ndhD OR G_ndhD2) AND G_ndhF AND G_ndhA AND G_ndhB AND G_ndhC AND G_ndhE AND G_ndhG AND G_ndhH AND G_ndhI AND G_ndhJ AND (G_ndhK OR G_sll8031) AND G_slr1623 AND G_sll1262 AND G_sll1220 AND G_hoxF AND G_hoxU)
+R_NDH1_2u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),True,18,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hoxF;G_hoxU;G_ndhA;G_ndhB;G_ndhC;G_ndhD;G_ndhD2;G_ndhE;G_ndhF;G_ndhG;G_ndhH;G_ndhI;G_ndhJ;G_ndhK;G_sll1220;G_sll1262;G_sll8031;G_slr1623,,,((G_ndhD OR G_ndhD2) AND G_ndhF AND G_ndhA AND G_ndhB AND G_ndhC AND G_ndhE AND G_ndhG AND G_ndhH AND G_ndhI AND G_ndhJ AND (G_ndhK OR G_sll8031) AND G_slr1623 AND G_sll1262 AND G_sll1220 AND G_hoxF AND G_hoxU)
+R_NDH1_3u,Active co2 transporter facilitator (tilacoide),True,19,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hoxF;G_hoxU;G_ndhA;G_ndhB;G_ndhC;G_ndhD3;G_ndhE;G_ndhF;G_ndhG;G_ndhH;G_ndhI;G_ndhJ;G_ndhK;G_sll1220;G_sll1262;G_sll1734;G_sll1735;G_sll8031;G_slr1623,,,(G_ndhA AND G_ndhB AND G_ndhC AND G_ndhE AND G_ndhG AND G_ndhH AND G_ndhI AND G_ndhJ AND (G_ndhK OR G_sll8031) AND G_slr1623 AND G_sll1262 AND G_sll1220 AND G_hoxF AND G_hoxU AND G_ndhD3 AND G_ndhF AND G_sll1734 AND G_sll1735)
+R_NDH1_4pp,Active co2 transporter facilitator (periplasm) ,True,18,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hoxF;G_hoxU;G_ndhA;G_ndhB;G_ndhC;G_ndhD;G_ndhE;G_ndhF;G_ndhG;G_ndhH;G_ndhI;G_ndhJ;G_ndhK;G_sll1220;G_sll1262;G_sll8031;G_slr1302;G_slr1623,,,(G_ndhA AND G_ndhB AND G_ndhC AND G_ndhE AND G_ndhG AND G_ndhH AND G_ndhI AND G_ndhJ AND (G_ndhK OR G_sll8031) AND G_slr1623 AND G_sll1262 AND G_sll1220 AND G_hoxF AND G_hoxU AND G_ndhD AND G_ndhF AND G_slr1302)
+R_NDH2_syn,NADH dehydrogenase 2 (plastoquinone-8) (tilacoide),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndh,,,(G_ndh OR G_ndh OR G_ndh)
+R_NDPK1,Nucleoside-diphosphate kinase (ATP:GDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK10,Nucleoside-diphosphate kinase (ATP dIDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK2,Nucleoside-diphosphate kinase (ATP:UDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK3,Nucleoside-diphosphate kinase (ATP:CDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK4,Nucleoside-diphosphate kinase (ATP:dTDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK5,Nucleoside-diphosphate kinase (ATP:dGDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK6,Nucleoside-diphosphate kinase (ATP:dUDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK7,Nucleoside-diphosphate kinase (ATP:dCDP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK8,Nucleoside-diphosphate kinase (ATP:dADP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NDPK9,Nucleoside diphosphate kinase  ATPIDP ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ndkR,,,G_ndkR
+R_NH4tex,Ammonia transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_NH4tpp_1,Ammonia ireversible transport (periplasm),True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_amt1;G_amt2;G_amt3,,,(G_amt1 OR G_amt3 OR G_amt2)
+R_NI2tex,Nickel transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_NI2uabcpp,"Nickel transport via ABC system (uptake, periplasm)",True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiM;G_sll0384;G_sll0385,,,(G_cbiM AND G_sll0384 AND G_sll0385)
+R_NMNAT,Nicotinamide-nucleotide adenylyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0787,,,G_slr0787
+R_NMNS,NMN synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0788,,,G_slr0788
+R_NNATr,Nicotinate-nucleotide adenylyltransferase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1916;G_slr0787,,,(G_slr0787 OR G_sll1916)
+R_NNDPR,Nicotinate-nucleotide diphosphorylase (carboxylating),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nadC,,,G_nadC
+R_NO3abcpp,Nitrate transport via ABC system (periplasm),True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nrtA;G_nrtC;G_nrtD,,,(G_nrtA AND G_nrtC AND G_nrtD)
+R_NO3tex,Nitrate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_NOR_syn,Ferredoxin-Nitrite Reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nirA,,,G_nirA
+R_NPHS,Naphthoate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_menB,,,G_menB
+R_NTD4,5'-nucleotidase (CMP),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1108;G_sll1459,,,(G_sll1108 OR G_sll1459)
+R_NTD7,5'-nucleotidase (AMP),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1108;G_sll1459,,,(G_sll1108 OR G_sll1459)
+R_NTPP2,Nucleoside triphosphate pyrophosphorylase (gtp),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1005,,,G_sll1005
+R_NTPP4,Nucleoside triphosphate pyrophosphorylase (ctp),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1005,,,G_sll1005
+R_NTPP8,Nucleoside triphosphate pyrophosphorylase (utp),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1005,,,G_sll1005
+R_NTPTP1,Nucleoside triphosphate tripolyhydrolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_dgt,,,G_dgt
+R_O2tex,Oxygen transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_O2tpp,O2 transport via diffusion (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_O2tu,"O2 transport (diffusion), lumen",False,0,0,,missing_gpr,high,review,,,,
+R_OCBT,Ornithine carbamoyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_argF,,,G_argF
+R_OMCDC,2-Oxo-4-methyl-3-carboxypentanoate decarboxylation,False,0,0,,missing_gpr,high,review,,,,
+R_OMPDC,Orotidine-5'-phosphate decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pyrF,,,G_pyrF
+R_OPHBDC,Octaprenyl-hydroxybenzoate decarboxylase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0936;G_ubiX,,,(G_sll0936 OR G_ubiX)
+R_ORNTA,Ornithine transaminase,False,0,0,,missing_gpr,high,review,,,,
+R_ORNTAC,Ornithine transacetylase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ama;G_argJ,,,(G_argJ OR G_ama)
+R_ORPT,Orotate phosphoribosyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_umpS,,,G_umpS
+R_OXADC,Oxalate decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1358,,,G_sll1358
+R_OXGDC2,2-oxoglutarate decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_menD,,,G_menD
+R_P5CD,1-pyrroline-5-carboxylate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_putA,,,G_putA
+R_P5CR,Pyrroline-5-carboxylate reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_proC,,,G_proC
+R_P5CRx,Pyrroline-5-carboxylate reductase(nadh),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_proC,,,G_proC
+R_PANTS,Pantothenate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_panC_kcy,,,G_panC_kcy
+R_PAPA160,Phosphatidate phosphatase (n-C16:0),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA161,Phosphatidate phosphatase (n-C16:1),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA180,Phosphatidate phosphatase (n-C18:0),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA181,Phosphatidate phosphatase (n-C18:1),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA181_9,Phosphatidate phosphatase (n-C18 1),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA182_9_12,Phosphatidate phosphatase (n-C18 2),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA183_6_9_12,Phosphatidate phosphatase (n-C18 3),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA183_9_12_15,Phosphatidate phosphatase (n-C18 3),False,0,0,,missing_gpr,high,review,,,,
+R_PAPA184_6_9_12_15,Phosphatidate phosphatase (n-C18 4),False,0,0,,missing_gpr,high,review,,,,
+R_PAPPT3,"Phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_mraY,,,G_mraY
+R_PAPSR,Phosphoadenylyl-sulfate reductase (thioredoxin),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysH,,,G_cysH
+R_PC11M,Precorrin-4 C11-methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiF,,,G_cbiF
+R_PC17M,Precorrin-3B C17-methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiH,,,G_cbiH
+R_PC20M,Precorrin-2 C20-methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiL,,,G_cbiL
+R_PC6AR,Precorrin-6A reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0252,,,G_slr0252
+R_PC6YM,"Precorrin-6Y C5,15-methyltransferase (decarboxylating)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiE,,,G_cbiE
+R_PC8XM,Precorrin-8X methylmutase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiC;G_merR;G_slr1467,,,(G_merR OR G_cbiC OR G_slr1467)
+R_PDH,Pyruvate dehydrogenase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_odhB;G_pdhB;G_phdD,,,(G_pdhB AND G_odhB AND G_phdD)
+R_PDHa,Pyruvate dehydrogenase (lipoamide),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pdhB,,,G_pdhB
+R_PDHbr,Pyruvate dehydrogenase (dihydrolipoamide) reversible,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_odhB,,,G_odhB
+R_PDHcr,Pyruvate dehydrogenase (dihydrolipoamide dehydrogenase) reversible,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_phdD,,,G_phdD
+R_PDX5POi,Pyridoxine 5'-phosphate oxidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pdxH,,,G_pdxH
+R_PDX5PS,Pyridoxine 5'-phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pdxA,,,G_pdxA
+R_PFK,Phosphofructokinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pfkA,,,(G_pfkA OR G_pfkA)
+R_PFK_2,Phosphofructokinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pfkA,,,G_pfkA
+R_PFK_3,Phosphofructokinase (s7p),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pfkA,,,G_pfkA
+R_PGAMT,Phosphoglucosamine mutase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgm;G_sll1758,,,(G_pgm OR G_sll1758)
+R_PGCD,Phosphoglycerate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_serA,,,G_serA
+R_PGI,Glucose-6-phosphate isomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgi,,,G_pgi
+R_PGK,Phosphoglycerate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgk,,,G_pgk
+R_PGL,6-phosphogluconolactonase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_devB,,,G_devB
+R_PGLYCP,Phosphoglycolate phosphatase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbbZp;G_slr0458,,,(G_cbbZp OR G_slr0458)
+R_PGM,Phosphoglycerate mutase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gpmB;G_ntcB;G_yibO,,,(G_gpmB OR G_yibO OR G_ntcB)
+R_PGMT,Phosphoglucomutase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgm;G_sll1758,,,(G_pgm OR G_sll1758)
+R_PGPP160,Phosphatidylglycerol phosphate phosphatase (n-C16:0),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP161,Phosphatidylglycerol phosphate phosphatase (n-C16:1),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP180,Phosphatidylglycerol phosphate phosphatase (n-C18:0),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP181,Phosphatidylglycerol phosphate phosphatase (n-C18:1),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP181_9,Phosphatidylglycerol phosphate phosphatase (n-C18 1),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP182_9_12,Phosphatidylglycerol phosphate phosphatase (n-C18 2),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP183_6_9_12,Phosphatidylglycerol phosphate phosphatase (n-C18 3),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP183_9_12_15,Phosphatidylglycerol phosphate phosphatase (n-C18 3),False,0,0,,missing_gpr,high,review,,,,
+R_PGPP184_6_9_12_15,Phosphatidylglycerol phosphate phosphatase (n-C18 4),False,0,0,,missing_gpr,high,review,,,,
+R_PGSA160,Phosphatidylglycerol synthase (n-C16:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA161,Phosphatidylglycerol synthase (n-C16:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA180,Phosphatidylglycerol synthase (n-C18:0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA181,Phosphatidylglycerol synthase (n-C18:1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA181_9,Phosphatidylglycerol synthase (n-C18 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA182_9_12,Phosphatidylglycerol synthase (n-C18 2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA183_6_9_12,Phosphatidylglycerol synthase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA183_9_12_15,Phosphatidylglycerol synthase (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PGSA184_6_9_12_15,Phosphatidylglycerol synthase (n-C18 4),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pgsA,,,G_pgsA
+R_PHBS_syn,PHB synthetasa,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_phbC;G_slr1829,,,(G_slr1829 AND G_phbC)
+R_PHCD,L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_putA,,,G_putA
+R_PHETA1,Phenylalanine transaminase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aspC;G_hisC;G_sll0480,,,(G_aspC OR G_sll0480 OR G_aspC OR G_hisC OR G_hisC)
+R_PHETRS,Phenylalanyl-tRNA synthetase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pheS;G_pheT,,,(G_pheS AND G_pheT)
+R_PHOtex,Photon transport ext,False,0,0,,missing_gpr,high,review,,,,
+R_PHOtpp,Photon transport pp,False,0,0,,missing_gpr,high,review,,,,
+R_PHYTEDH1,Phytoene dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pds,,,G_pds
+R_PHYTEDH2,Phytoene dehydrogenase(2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pds,,,G_pds
+R_PHYTES,Geranylgeranyl-diphosphate geranylgeranyl-diphosphate geranylgeranyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pys,,,G_pys
+R_PHYTES2,Prephytoene diphosphate geranylgeranyl-diphosphategeranylgeranyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pys,,,G_pys
+R_PHYTFDH1,Phytofluene dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pds,,,G_pds
+R_PHYTFDH2,Phytofluene dehydrogenase(2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pds,,,G_pds
+R_PItex,Phosphate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_PIuabcpp,"Phosphate transport via ABC system (uptake, periplasm)",True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pstA;G_pstB;G_pstC;G_pstS;G_sphX,,,((G_sphX OR G_pstS OR G_pstS) AND (G_pstC OR G_pstC) AND (G_pstA OR G_pstA) AND (G_pstB OR G_pstB OR G_pstB))
+R_PMANM,Phosphomannomutase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1496;G_slr1334,,,(G_sll1496 OR G_slr1334)
+R_PMDPHT,Pyrimidine phosphatase,False,0,0,,missing_gpr,high,review,,,,
+R_PNTK,Pantothenate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0812,,,G_slr0812
+R_POR_1,Protochlorophyllide oxidoreductase ,True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_chlB;G_chlL;G_chlN;G_pcr,,,((G_chlL AND G_chlN AND G_chlB) OR G_pcr)
+R_POR_syn,Pyruvate-ferredoxin oxidoreductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nifJ,,,G_nifJ
+R_PPA,Inorganic diphosphatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ppa,,,G_ppa
+R_PPBNGS,Porphobilinogen synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemB,,,G_hemB
+R_PPC,Phosphoenolpyruvate carboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ppc,,,G_ppc
+R_PPCDC,Phosphopantothenoylcysteine decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_dfp,,,G_dfp
+R_PPK2,Polyphosphate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ppk,,,G_ppk
+R_PPM,Phosphopentomutase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1758,,,G_sll1758
+R_PPNCL,Phosphopantothenate-cysteine ligase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_dfp,,,G_dfp
+R_PPND,Prephenate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_tyrA,,,G_tyrA
+R_PPNDH,Prephenate dehydratase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pheA,,,G_pheA
+R_PPOR,"Phenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ppd,,,G_ppd
+R_PPPGO,Protoporphyrinogen oxidase (aerobic),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1790,,,G_slr1790
+R_PPS,Phosphoenolpyruvate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ppsA,,,G_ppsA
+R_PPTGF_Syn,Flypase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0488,,,G_slr0488
+R_PPTGS_Syn,Peptidoglycan subunit synthesis Synechocystis sp. PCC6803,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ftsI,,,G_ftsI
+R_PRAGSr,Phosphoribosylglycinamide synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purD,,,G_purD
+R_PRAIS,Phosphoribosylaminoimidazole synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purM,,,G_purM
+R_PRAIi,Phosphoribosylanthranilate isomerase (irreversible),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_trpF,,,G_trpF
+R_PRAMPC,Phosphoribosyl-AMP cyclohydrolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisI,,,G_hisI
+R_PRASCSi,Phosphoribosylaminoimidazolesuccinocarboxamide synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purC,,,G_purC
+R_PRATPP,Phosphoribosyl-ATP pyrophosphatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisI,,,G_hisI
+R_PRFGS,Phosphoribosylformylglycinamidine synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_purL,,,(G_purL OR G_purL)
+R_PRMICI,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisA,,,G_hisA
+R_PROD2,Proline dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_putA,,,G_putA
+R_PROTRS,Prolyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_proS,,,G_proS
+R_PROabcpp,L-proline transport via ABC system (periplasm),True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_livF;G_livH;G_natA;G_natB;G_sll0146,,,(G_natB AND G_sll0146 AND G_livH AND G_natA AND G_livF)
+R_PROtex,L-proline transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_PRPPS,Phosphoribosylpyrophosphate synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_prsA,,,G_prsA
+R_PRUK,Phosphoribulokinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_prk,,,G_prk
+R_PSCVT,3-phosphoshikimate 1-carboxyvinyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aroA,,,G_aroA
+R_PSI,Photosystem I (plastocyanin),True,11,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_psaA;G_psaB;G_psaC;G_psaD;G_psaE;G_psaF;G_psaI;G_psaJ;G_psaK;G_psaL;G_psaM,,,(G_psaA AND G_psaB AND G_psaC AND G_psaD AND G_psaE AND G_psaF AND G_psaI AND G_psaJ AND (G_psaK OR G_psaK) AND G_psaL AND G_psaM)
+R_PSII,Photosystem II,True,25,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_psb13;G_psbA1;G_psbA2;G_psbA3;G_psbB;G_psbC;G_psbD;G_psbD2;G_psbE;G_psbF;G_psbH;G_psbI;G_psbJ;G_psbK;G_psbL;G_psbM;G_psbN;G_psbO;G_psbU;G_psbV;G_psbX;G_psbZ;G_sll1418;G_slr1739;G_ycf32,,,(G_psbA3 AND G_psbA1 AND G_psbA2 AND G_psbD AND G_psbD2 AND G_psbB AND G_psbC AND G_psbE AND G_psbF AND G_psbH AND G_psbI AND G_psbJ AND G_psbK AND G_psbL AND G_psbM AND G_psbN AND G_psbO AND G_sll1418 AND G_psbU AND G_psbV AND G_psb13 AND G_slr1739 AND G_psbX AND G_ycf32 AND G_psbZ)
+R_PSI_2,Photosystem I (ferrocytochrome),True,11,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_psaA;G_psaB;G_psaC;G_psaD;G_psaE;G_psaF;G_psaI;G_psaJ;G_psaK;G_psaL;G_psaM,,,(G_psaA AND G_psaB AND G_psaC AND G_psaD AND G_psaE AND G_psaF AND G_psaI AND G_psaJ AND (G_psaK OR G_psaK) AND G_psaL AND G_psaM)
+R_PTAr,Phosphotransacetylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pta,,,G_pta
+R_PTHPS,6-pyruvoyltetrahydropterin synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folC,,,G_folC
+R_PTPATi,Pantetheine-phosphate adenylyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_kdtB,,,G_kdtB
+R_PTRCabcpp,Putrescine transport via ABC system (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_PTRCt2pp,Putrescine transport in via proton symport,False,0,0,,missing_gpr,high,review,,,,
+R_PTRCtex,Putrescine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_PUNP1,Purine-nucleoside phosphorylase (Adenosine),False,0,0,,missing_gpr,high,review,,,,
+R_PUTA3,PUTA3,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_putA,,,G_putA
+R_PYAM5PO,Pyridoxamine 5'-phosphate oxidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pdxH,,,G_pdxH
+R_PYDXNO,Pyridoxine oxidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pdxH,,,G_pdxH
+R_PYDXO,Pyridoxal oxidase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pdxH,,,G_pdxH
+R_PYK,Pyruvate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pykF,,,(G_pykF OR G_pykF)
+R_PYK2,Pyruvate kinase(2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pykF,,,(G_pykF OR G_pykF)
+R_PYK3,Pyruvate kinase(3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pykF,,,(G_pykF OR G_pykF)
+R_PYK4,Pyruvate kinase(4),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pykF,,,(G_pykF OR G_pykF)
+R_PYK5,Pyruvate kinase(5),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pykF,,,(G_pykF OR G_pykF)
+R_PYRt2rpp,Pyruvate reversible transport via proton symport (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_PYRtex,Pyruvate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_QULNS,Quinolinate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nadA,,,G_nadA
+R_R05217,Precorrin 3A + Oxygen <=> Precorrin 3B,False,0,0,,missing_gpr,high,review,,,,
+R_R05219,Precorrin 5 <=> Precorrin 6X,False,0,0,,missing_gpr,high,review,,,,
+R_R05224_1,"Hydrogenobyrinate  <=> Hydrogenobyrinate a,c diamide",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cbiA,,,G_cbiA
+R_RBCh,Ribulose-bisphosphate carboxylase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rbcL;G_rbcS,,,(G_rbcL AND G_rbcS)
+R_RBFK,Riboflavin kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1882,,,G_slr1882
+R_RBFSa,Riboflavin synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ribH,,,G_ribH
+R_RBFSb,Riboflavin synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ribC,,,G_ribC
+R_RBK,Ribokinase,False,0,0,,missing_gpr,high,review,,,,
+R_RBPC,Ribulose-bisphosphate carboxylase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rbcL;G_rbcS,,,(G_rbcL AND G_rbcS)
+R_RNDR1,Ribonucleoside-diphosphate reductase (ADP),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nrdA;G_slr0591,,,(G_nrdA AND G_slr0591)
+R_RNDR2,Ribonucleoside-diphosphate reductase (GDP),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nrdA;G_slr0591,,,(G_nrdA AND G_slr0591)
+R_RNDR3,Ribonucleoside-diphosphate reductase (CDP),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nrdA;G_slr0591,,,(G_nrdA AND G_slr0591)
+R_RNDR4,Ribonucleoside-diphosphate reductase (UDP),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_nrdA;G_slr0591,,,(G_nrdA AND G_slr0591)
+R_RPE,Ribulose 5-phosphate 3-epimerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cfxE,,,G_cfxE
+R_RPI,Ribose-5-phosphate isomerase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rpiA;G_rpiB,,,(G_rpiA OR G_rpiB)
+R_SADT,Sulfate adenylyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_met3,,,G_met3
+R_SBP,Sedoheptulose-bisphosphatase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_fbp;G_glpX,,,(G_fbp OR G_glpX)
+R_SDPDS,Succinyl-diaminopimelate desuccinylase,False,0,0,,missing_gpr,high,review,,,,
+R_SDPTA,Succinyldiaminopimelate transaminase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aspC;G_sll0938,,,(G_aspC OR G_sll0938)
+R_SERAT,Serine O-acetyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysE,,,G_cysE
+R_SERD_L,L-serine deaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvA,,,G_ilvA
+R_SERTRS,Seryl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_serS,,,G_serS
+R_SERabcpp,L-serine transport via ABC system (periplasm),True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_livF;G_livH;G_natA;G_natB;G_sll0146,,,(G_natB AND G_sll0146 AND G_livH AND G_natA AND G_livF)
+R_SERtex,L-serine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_SHCHCS2,"2-succinyl-6-hydroxy-2,4-cyclohexadiene 1-carboxylate synthase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_menD,,,G_menD
+R_SHK3Dr,Shikimate dehydrogenase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aroE,,,G_aroE
+R_SHKK,Shikimate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aroK,,,G_aroK
+R_SK_dna5mtc_c,Dna5mtc  Demand reaction,False,0,0,,missing_gpr,high,review,,,,
+R_SK_dna_c,Sink dna,False,0,0,,missing_gpr,high,review,,,,
+R_SK_phbg_c,Phbg sink reaction,False,0,0,,missing_gpr,high,review,,,,
+R_SK_precyanphy_c,Precyanphy sink reaction,False,0,0,,missing_gpr,high,review,,,,
+R_SK_rdmbzi_c,Rdmbzi sink reaction,False,0,0,,missing_gpr,high,review,,,,
+R_SO4tex,Sulfate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_SPMDabcpp,Spermidine transport via ABC system (periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_SPMDt2pp,Spermidine transport in via proton symport,False,0,0,,missing_gpr,high,review,,,,
+R_SPMDtex,Spermidine transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_SPMS,Spermidine synthase,False,0,0,,missing_gpr,high,review,,,,
+R_SPP,Sucrose-phosphate phosphatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0953,,,G_slr0953
+R_SPS,Sucrose phosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sps,,,G_sps
+R_SPT_syn,Serine-glyoxilate aminotransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1559,,,G_sll1559
+R_SQD1,UDP-6-sulfo-6-deoxyglucose sulfohydrolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sqdB,,,G_sqdB
+R_SQD2_160,Sulfoquinovosyltransferase  (n-C16 0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_161,Sulfoquinovosyltransferase  (n-C16 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_180,Sulfoquinovosyltransferase  (n-C18 0),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_181,Sulfoquinovosyltransferase  (n-C18 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_181_9,Sulfoquinovosyltransferase  (n-C18 1),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_182_9_12,Sulfoquinovosyltransferase  (n-C18 2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_183_6_9_12,Sulfoquinovosyltransferase  (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_183_9_12_15,Sulfoquinovosyltransferase  (n-C18 3),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQD2_184_6_9_12_15,Sulfoquinovosyltransferase  (n-C18 4),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0384,,,G_slr0384
+R_SQLC,Squalene mutase (cyclizing),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_shc,,,G_shc
+R_SQLC2,Squalene mutase (cyclizing),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_shc,,,G_shc
+R_SQLS,Squalene synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0513,,,G_sll0513
+R_SSALy,Succinate-semialdehyde dehydrogenase (NADP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_gabD,,,G_gabD
+R_SUCBZL,O-succinylbenzoate-CoA ligase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_menE,,,G_menE
+R_SUCBZS,O-succinylbenzoate-CoA synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0409,,,G_sll0409
+R_SUCCtex,Succinate transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_SUCCtpp,Succinate transport via diffusion (periplasm to cytosol),False,0,0,,missing_gpr,high,review,,,,
+R_SUCDi,Succinate dehydrogenase (irreversible),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_frdA;G_sdhB,,,(G_frdA AND G_sdhB AND G_sdhB)
+R_SUCDpp_syn,Succinate dehydrogenase (periplasm),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_frdA;G_sdhB,,,(G_frdA AND G_sdhB AND G_sdhB)
+R_SUCDu_syn,Succinate dehydrogenase (tilacoild),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_frdA;G_sdhB,,,(G_frdA AND G_sdhB AND G_sdhB)
+R_SUCOAS,Succinyl-CoA synthetase (ADP-forming),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sucC;G_sucD,,,(G_sucC AND G_sucD)
+R_SUCRabcpp_syn,Sucrose ABC transporter (periplasm),True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ggtA;G_slr0529;G_slr0530;G_slr0531,,,(G_ggtA AND G_slr0529 AND G_slr0530 AND G_slr0531)
+R_SUCRtex,Sucrose transport transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_SULR_syn,Ferredoxin-sulfite reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sir,,,G_sir
+R_SULabcpp,Sulfate transport via ABC system (periplasm),True,4,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysA;G_cysT;G_cysW;G_sbpA,,,(G_sbpA AND G_cysT AND G_cysW AND G_cysA)
+R_T2DECAI,Trans-2-decenoyl-ACP isomerase,False,0,0,,missing_gpr,high,review,,,,
+R_TALA,Transaldolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_talB,,,G_talB
+R_TDPDRE,"DTDP-4-dehydrorhamnose 3,5-epimerase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rfbC,,,(G_rfbC OR G_rfbC)
+R_TDPDRR,DTDP-4-dehydrorhamnose reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rfbD,,,G_rfbD
+R_TDPGDH,"DTDPglucose 4,6-dehydratase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_rfbB,,,(G_rfbB OR G_rfbB)
+R_THDPS,Tetrahydrodipicolinate succinylase,False,0,0,,missing_gpr,high,review,,,,
+R_THFGLUS,TetrahydrofolateL glutamate gamma ligase  ADP forming ,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_folC,,,G_folC
+R_THRD_L,L-threonine deaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvA,,,G_ilvA
+R_THRPDC,L threonine phosphate decarboxylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hisC,,,G_hisC
+R_THRS,Threonine synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thrC,,,(G_thrC OR G_thrC)
+R_THRTRS,Threonyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thrS,,,G_thrS
+R_THZPSN,Thiazole phosphate synthesis,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thiG;G_ycf40,,,(G_thiG OR G_ycf40)
+R_THZSN_1,Thiazole synthesis from xylulose,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thiG;G_ycf40,,,(G_thiG OR G_ycf40)
+R_TKT1,Transketolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_tktA,,,G_tktA
+R_TKT2,Transketolase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_tktA,,,G_tktA
+R_TMDK1,Thymidine kinase (ATP:thymidine),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0379,,,G_slr0379
+R_TMDS,Thymidylate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll1635,,,G_sll1635
+R_TMK,Thiamine kinase,False,0,0,,missing_gpr,high,review,,,,
+R_TMPK,Thiamine-phosphate kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1787,,,G_slr1787
+R_TMPPP,Thiamine-phosphate diphosphorylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_thiE,,,G_thiE
+R_TOCOPHOM1,Tocopherol O-methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_erg6,,,G_erg6
+R_TOCOPHOM2,Tocopherol O-methyltransferase(2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_erg6,,,G_erg6
+R_TOCOPHS1,Tocopherol cyclase (g),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1737,,,G_slr1737
+R_TOCOPHS2,Tocopherol cyclase (d),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1737,,,G_slr1737
+R_TPI,Triose-phosphate isomerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_tpi,,,G_tpi
+R_TRDR,Thioredoxin reductase (NADPH),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0600,,,G_slr0600
+R_TRPS1,Tryptophan synthase (indoleglycerol phosphate),True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_trpA;G_trpB,,,(G_trpA AND G_trpB)
+R_TRPTRS,Tryptophanyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_trpS,,,G_trpS
+R_TRSARr,Tartronate semialdehyde reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_mmsB,,,G_mmsB
+R_TYRTA,Tyrosine transaminase,True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_aspC;G_hisC;G_sll0480,,,(G_aspC OR G_sll0480 OR G_aspC OR G_hisC OR G_hisC)
+R_TYRTRS,Tyrosyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_tyrS,,,(G_tyrS OR G_tyrS)
+R_U23GAAT,UDP-3-O-(3-hydroxymyristoyl)glucosamine acyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_lpxD,,,G_lpxD
+R_UAAGDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murE,,,G_murE
+R_UAG2EMA,UDP-N-acetyl-D-glucosamine 2-epimerase (Hydrolysis),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0624,,,G_slr0624
+R_UAGAAT,UDP-N-acetylglucosamine acyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_lpxA,,,G_lpxA
+R_UAGCVT,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murZ,,,G_murZ
+R_UAGDP,UDP-N-acetylglucosamine diphosphorylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_glmU,,,G_glmU
+R_UAGPT3,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murG,,,G_murG
+R_UAMAGS,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murD,,,G_murD
+R_UAMAS,UDP-N-acetylmuramoyl-L-alanine synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murC,,,G_murC
+R_UAPGR,UDP-N-acetylenolpyruvoylglucosamine reductase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr1424,,,G_slr1424
+R_UDCPDP,Undecaprenyl-diphosphatase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0210,,,G_sll0210
+R_UDPDPS,Undecaprenyl-diphosphate synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_sll0506,,,G_sll0506
+R_UDPG4E,UDPglucose 4-epimerase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_galE,,,(G_galE OR G_galE OR G_galE)
+R_UGLDDS2_1,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine synthetase (gamma-glutamate),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murF,,,G_murF
+R_UGLT,UDPglucose--hexose-1-phosphate uridylyltransferase,False,0,0,,missing_gpr,high,review,,,,
+R_UGMDDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_murF,,,G_murF
+R_UHGADA,UDP-3-O-acetylglucosamine deacetylase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_lpxC,,,G_lpxC
+R_UMPK,UMP kinase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_panC_kcy,,,G_panC_kcy
+R_UPP3MT,Uroporphyrinogen methyltransferase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_cysG,,,G_cysG
+R_UPP3S,Uroporphyrinogen-III synthase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemD,,,G_hemD
+R_UPPDC1,Uroporphyrinogen decarboxylase (uroporphyrinogen III),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemE,,,G_hemE
+R_UPPDC2,Uroporphyrinogen decarboxylase (uroporphyrinogen I),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_hemE,,,G_hemE
+R_UPPRT,Uracil phosphoribosyltransferase,True,2,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_pyrR;G_upp,,,(G_upp OR G_pyrR)
+R_UREA,Urease,True,7,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ureA;G_ureB;G_ureC;G_ureD;G_ureE;G_ureF;G_ureG,,,(G_ureA AND G_ureB AND G_ureC AND G_ureD AND G_ureE AND G_ureF AND G_ureG)
+R_UREAabcpp,Urea transport via ABC system (periplasm),True,5,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_amiC;G_braG_or_livF;G_livG;G_livH;G_slr1201,,,(G_amiC AND G_livH AND G_slr1201 AND G_livG AND G_braG_or_livF)
+R_UREAtex,Urea transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,
+R_URIDK2r,Uridylate kinase (dUMP),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0379,,,G_slr0379
+R_USHD,UDP-sugar hydrolase,False,0,0,,missing_gpr,high,review,,,,
+R_VALTA,Valine transaminase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_ilvE,,,G_ilvE
+R_VALTRS,Valyl-tRNA synthetase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_valS,,,G_valS
+R_ZCAROTDH1,Zeta-carotene desaturase,True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_crtQ,,,G_crtQ
+R_ZCAROTDH2,Zeta-carotene desaturase(2),True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_crtQ,,,G_crtQ
+R_ZN2abcpp,"Zinc (Zn+2) ABC transporter, efflux (periplasm)",True,1,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr0798,,,G_slr0798
+R_ZNabcpp,Zinc (Zn+2) transport via ABC system (periplasm),True,3,0,0.0,gpr_without_uniprot_annotation,medium,inconclusive,G_slr2044;G_slr2045;G_zntC,,,(G_zntC AND G_slr2045 AND G_slr2044)
+R_Zn2tex,Zinc (Zn+2) transport via diffusion (extracellular to periplasm),False,0,0,,missing_gpr,high,review,,,,

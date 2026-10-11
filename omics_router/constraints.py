@@ -20,6 +20,43 @@ CORE_NS = "{http://www.sbml.org/sbml/level3/version1/core}"
 FBC_NS = "{http://www.sbml.org/sbml/level3/version1/fbc/version2}"
 
 
+def relocate_package_path(package: str | Path, value: object) -> Path | None:
+    """Re-anchor a stored run-package path on the current machine.
+
+    Run packages created on another machine (e.g. Windows ``D:\\generate``)
+    store absolute source paths. When the stored path does not exist here,
+    progressively strip leading segments and resolve the remainder under
+    ``package`` (longest match wins), then fall back to a basename lookup
+    under the known model locations. Returns None when nothing matches so
+    callers can keep their missing-artifact messaging.
+    """
+    raw = str(value or "").strip()
+    if not raw:
+        return None
+    direct = Path(raw)
+    if not direct.is_absolute():
+        direct = Path(package) / direct
+    if direct.exists():
+        return direct.resolve()
+    text = raw.replace("\\", "/")
+    parts = [part for part in text.split("/") if part not in ("", ".")]
+    if parts:
+        start = 1 if parts[0].endswith(":") else 0
+        for index in range(start, len(parts)):
+            candidate = Path(package).joinpath(*parts[index:])
+            if candidate.exists():
+                return candidate.resolve()
+        name = parts[-1]
+        for base in (
+            Path(package) / "inputs" / "model",
+            Path(package) / "workflow_results" / "model_artifacts",
+        ):
+            hit = base / name
+            if hit.exists():
+                return hit.resolve()
+    return None
+
+
 @dataclass(slots=True)
 class SbmlModelIndex:
     """Small identifier index extracted from an SBML/FBC model."""

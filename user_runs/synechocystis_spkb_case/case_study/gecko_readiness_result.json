@@ -1,0 +1,10 @@
+{
+  "case_id": "synechocystis_spkb_carbon_limitation",
+  "run_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case",
+  "model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "reactions_with_ec": 579,
+  "kcat_priors": 454,
+  "kcat_candidates": 548,
+  "protein_abundance": null,
+  "gecko_export": null
+}

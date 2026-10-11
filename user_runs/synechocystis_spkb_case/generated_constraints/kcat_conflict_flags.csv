@@ -1,0 +1,455 @@
+model_target_id,target_id,candidate_count,positive_candidate_count,min_kcat_per_s,max_kcat_per_s,min_candidate_evidence_tier,min_candidate_source_tier,min_candidate_original_source,max_candidate_evidence_tier,max_candidate_source_tier,max_candidate_original_source,fold_range,log10_range,selected_kcat_per_s,selected_kcat_evidence_tier,selected_source_tier,flag,severity,status,guidance
+R_34DHOXPEGOX,34DHOXPEGOX,1,0,,,,,,,,,,,433.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_34HPPOR,34HPPOR,1,0,,,,,,,,,,,9.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3HAD100,3HAD100,1,0,,,,,,,,,,,73.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3HAD120,3HAD120,1,0,,,,,,,,,,,73.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3HAD140,3HAD140,1,0,,,,,,,,,,,73.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3HAD160,3HAD160,1,0,,,,,,,,,,,73.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3HAD60,3HAD60,1,0,,,,,,,,,,,73.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3HAD80,3HAD80,1,0,,,,,,,,,,,73.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAR100,3OAR100,2,0,,,,,,,,,,,344.7,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_3OAR120,3OAR120,2,0,,,,,,,,,,,344.7,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_3OAR121,3OAR121,1,0,,,,,,,,,,,344.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAR140,3OAR140,2,0,,,,,,,,,,,344.7,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_3OAR141,3OAR141,1,0,,,,,,,,,,,344.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAR160,3OAR160,2,0,,,,,,,,,,,344.7,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_3OAR161,3OAR161,1,0,,,,,,,,,,,344.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAR180,3OAR180,1,0,,,,,,,,,,,344.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAR181,3OAR181,1,0,,,,,,,,,,,344.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAR40,3OAR40,1,0,,,,,,,,,,,344.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAR60,3OAR60,2,0,,,,,,,,,,,344.7,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_3OAR80,3OAR80,2,0,,,,,,,,,,,344.7,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_3OAS121,3OAS121,1,0,,,,,,,,,,,551.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAS141,3OAS141,1,0,,,,,,,,,,,551.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAS161,3OAS161,1,0,,,,,,,,,,,551.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAS180,3OAS180,1,0,,,,,,,,,,,551.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_3OAS181,3OAS181,1,0,,,,,,,,,,,0.047,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AACOAR_syn,AACOAR_syn,1,0,,,,,,,,,,,300.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ABTA,ABTA,1,0,,,,,,,,,,,47.4,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ABUTD,ABUTD,2,0,,,,,,,,,,,240.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ACACT1r,ACACT1r,1,0,,,,,,,,,,,5000000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACBIPGT,ACBIPGT,1,0,,,,,,,,,,,0.093,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACCOAC,ACCOAC,1,0,,,,,,,,,,,30.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACGK,ACGK,1,0,,,,,,,,,,,187.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACGS,ACGS,1,0,,,,,,,,,,,0.78,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACHBS,ACHBS,1,0,,,,,,,,,,,121.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACKr,ACKr,2,0,,,,,,,,,,,2135.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ACLS,ACLS,1,0,,,,,,,,,,,121.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACOATA,ACOATA,5,0,,,,,,,,,,,551.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ACONT,ACONT,1,0,,,,,,,,,,,5.3,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACOTA,ACOTA,1,0,,,,,,,,,,,1.55,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ACP1_FMN,ACP1_FMN,2,0,,,,,,,,,,,22.25,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ACS,ACS,1,0,,,,,,,,,,,9400.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADCS,ADCS,1,0,,,,,,,,,,,2.2,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADCYRS,ADCYRS,1,0,,,,,,,,,,,8.4,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADK1,ADK1,1,0,,,,,,,,,,,879.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADMDC,ADMDC,1,0,,,,,,,,,,,6.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADNCYC,ADNCYC,1,0,,,,,,,,,,,0.00045,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADOCBLS,ADOCBLS,1,0,,,,,,,,,,,0.67,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADPRDP,ADPRDP,1,0,,,,,,,,,,,20.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADPT,ADPT,2,0,,,,,,,,,,,15.9,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ADPT2,ADPT2,1,0,,,,,,,,,,,17.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADSK,ADSK,1,0,,,,,,,,,,,272.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADSL1r,ADSL1r,1,0,,,,,,,,,,,7.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADSL2r,ADSL2r,1,0,,,,,,,,,,,7.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ADSS,ADSS,1,0,,,,,,,,,,,5.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AGMT,AGMT,1,0,,,,,,,,,,,3.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AGTi,AGTi,1,0,,,,,,,,,,,131.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AHCi,AHCi,1,0,,,,,,,,,,,6666.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AIRCr,AIRCr,1,0,,,,,,,,,,,77.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ALAALAr,ALAALAr,1,0,,,,,,,,,,,48.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ALAD_L,ALAD_L,1,0,,,,,,,,,,,2871.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ALAR,ALAR,1,0,,,,,,,,,,,9.7,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ALATRS,ALATRS,1,0,,,,,,,,,,,120.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ALCD19,ALCD19,2,0,,,,,,,,,,,266.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ALCD2y,ALCD2y,5,0,,,,,,,,,,,433.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ALDD20x,ALDD20x,1,0,,,,,,,,,,,240.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ALDD2x,ALDD2x,2,0,,,,,,,,,,,240.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_AMID,AMID,1,0,,,,,,,,,,,305.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AMID2,AMID2,2,0,,,,,,,,,,,305.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_AMID3,AMID3,1,0,,,,,,,,,,,305.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AMPN,AMPN,1,0,,,,,,,,,,,62.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ANPRT,ANPRT,1,0,,,,,,,,,,,4.1,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ANS,ANS,1,0,,,,,,,,,,,138.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_AOXSr,AOXSr,1,0,,,,,,,,,,,0.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ARGDC,ARGDC,1,0,,,,,,,,,,,11.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ARGDr,ARGDr,1,0,,,,,,,,,,,29.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ARGN,ARGN,1,0,,,,,,,,,,,2200.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ARGSL,ARGSL,1,0,,,,,,,,,,,2500.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ARGTRS,ARGTRS,1,0,,,,,,,,,,,1.8,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASAD,ASAD,1,0,,,,,,,,,,,330.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASNN,ASNN,2,0,,,,,,,,,,,4.65,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ASNS1,ASNS1,1,0,,,,,,,,,,,6.6,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASNTRS,ASNTRS,1,0,,,,,,,,,,,10.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASP1DC,ASP1DC,2,0,,,,,,,,,,,59.26,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ASPCT,ASPCT,1,0,,,,,,,,,,,417.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASPK,ASPK,1,0,,,,,,,,,,,245.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASPO6,ASPO6,1,0,,,,,,,,,,,10.6,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASPTA,ASPTA,1,0,,,,,,,,,,,670.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ASPTRS,ASPTRS,2,0,,,,,,,,,,,18.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ATPPRT,ATPPRT,1,0,,,,,,,,,,,2.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_BILIRED,BILIRED,1,0,,,,,,,,,,,7.1,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_BPNT,BPNT,1,0,,,,,,,,,,,22.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_BTS4,BTS4,1,0,,,,,,,,,,,13.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CA2abcpp,CA2abcpp,1,0,,,,,,,,,,,149.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CA2tex,CA2tex,1,0,,,,,,,,,,,149.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CAT,CAT,2,0,,,,,,,,,,,175000.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_CBMKr,CBMKr,1,0,,,,,,,,,,,319.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CBPS,CBPS,1,0,,,,,,,,,,,2660.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CHORM,CHORM,1,0,,,,,,,,,,,366000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CHORS,CHORS,1,0,,,,,,,,,,,0.87,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CPPPGO,CPPPGO,1,0,,,,,,,,,,,16.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CPPPGO2,CPPPGO2,1,0,,,,,,,,,,,900.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CS,CS,2,0,,,,,,,,,,,942.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_CSND,CSND,1,0,,,,,,,,,,,186.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CTPS1,CTPS1,1,0,,,,,,,,,,,14.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CTPS2,CTPS2,1,0,,,,,,,,,,,14.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CYRDAAT,CYRDAAT,1,0,,,,,,,,,,,297.6,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CYSS,CYSS,2,0,,,,,,,,,,,733.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_CYSTA,CYSTA,1,0,,,,,,,,,,,670.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CYSTL,CYSTL,1,0,,,,,,,,,,,45.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_CYSTRS,CYSTRS,2,0,,,,,,,,,,,0.11,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_CYTDH,CYTDH,2,0,,,,,,,,,,,42.7,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_CYTK1,CYTK1,2,0,,,,,,,,,,,410.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_DADK,DADK,1,0,,,,,,,,,,,879.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DAPDC,DAPDC,1,0,,,,,,,,,,,15.65,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DAPE,DAPE,1,0,,,,,,,,,,,128.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DASYN160,DASYN160,1,0,,,,,,,,,,,8.92,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DASYN161,DASYN161,1,0,,,,,,,,,,,8.92,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DASYN180,DASYN180,1,0,,,,,,,,,,,8.92,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DASYN181,DASYN181,1,0,,,,,,,,,,,8.92,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DCTPD,DCTPD,1,0,,,,,,,,,,,24.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DCTPD2,DCTPD2,1,0,,,,,,,,,,,24.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DDPA,DDPA,1,0,,,,,,,,,,,0.032,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DDPGA,DDPGA,1,0,,,,,,,,,,,13.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHAD1,DHAD1,1,0,,,,,,,,,,,75.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHAD2,DHAD2,1,0,,,,,,,,,,,75.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHFR,DHFR,1,0,,,,,,,,,,,284.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHFS,DHFS,1,0,,,,,,,,,,,2.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHORDi,DHORDi,1,0,,,,,,,,,,,6.15,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHORTS,DHORTS,1,0,,,,,,,,,,,195.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHQS,DHQS,1,0,,,,,,,,,,,25000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DHQTi,DHQTi,1,0,,,,,,,,,,,20.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DMATT,DMATT,1,0,,,,,,,,,,,1.4,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DNAMTn2r,DNAMTn2r,1,0,,,,,,,,,,,0.145,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DNTPPA,DNTPPA,1,0,,,,,,,,,,,11.6,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DPCOAK,DPCOAK,1,0,,,,,,,,,,,0.0481,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DPGM,DPGM,1,0,,,,,,,,,,,23.4,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DPPS,DPPS,1,0,,,,,,,,,,,11.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DPR,DPR,1,0,,,,,,,,,,,40.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DRBK,DRBK,1,0,,,,,,,,,,,47.81,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DRPA,DRPA,1,0,,,,,,,,,,,320.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DTMPK,DTMPK,1,0,,,,,,,,,,,38.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DXPRIi,DXPRIi,1,0,,,,,,,,,,,17.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_DXPS,DXPS,1,0,,,,,,,,,,,26.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_EAR121y,EAR121y,1,0,,,,,,,,,,,130.2,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_EAR141y,EAR141y,1,0,,,,,,,,,,,130.2,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_EAR160y,EAR160y,1,0,,,,,,,,,,,130.2,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_EAR161y,EAR161y,1,0,,,,,,,,,,,130.2,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_EAR180y,EAR180y,1,0,,,,,,,,,,,130.2,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_EAR181y,EAR181y,1,0,,,,,,,,,,,130.2,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ENO,ENO,1,0,,,,,,,,,,,230.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_EX_ca2_e,EX_ca2_e,1,0,,,,,,,,,,,149.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FBA,FBA,1,0,,,,,,,,,,,64.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FBA2,FBA2,1,0,,,,,,,,,,,64.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FBA3,FBA3,1,0,,,,,,,,,,,64.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FBP,FBP,1,0,,,,,,,,,,,175.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FCLT,FCLT,1,0,,,,,,,,,,,0.052,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FMETTRS,FMETTRS,1,0,,,,,,,,,,,41.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FNOR,FNOR,1,0,,,,,,,,,,,225.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FOLD3,FOLD3,1,0,,,,,,,,,,,0.1243,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FOMETRi,FOMETRi,1,0,,,,,,,,,,,20.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FRTT,FRTT,1,0,,,,,,,,,,,3.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FTHFLi,FTHFLi,1,0,,,,,,,,,,,16.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_FUM,FUM,1,0,,,,,,,,,,,1150.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G1PACT,G1PACT,2,0,,,,,,,,,,,853.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_G1PTT,G1PTT,1,0,,,,,,,,,,,41.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G1SAT,G1SAT,1,0,,,,,,,,,,,0.95,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G3PAT160,G3PAT160,1,0,,,,,,,,,,,0.0918,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G3PAT161,G3PAT161,1,0,,,,,,,,,,,0.0918,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G3PAT180,G3PAT180,1,0,,,,,,,,,,,0.0918,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G3PAT181,G3PAT181,1,0,,,,,,,,,,,0.0918,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G3PD,G3PD,1,0,,,,,,,,,,,33.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G3PD1ir,G3PD1ir,1,0,,,,,,,,,,,19000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_G6PBDH,G6PBDH,2,0,,,,,,,,,,,8000.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_G6PDH2r,G6PDH2r,2,0,,,,,,,,,,,8000.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_G6PI3,G6PI3,1,0,,,,,,,,,,,3330.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GALKr,GALKr,1,0,,,,,,,,,,,146.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GALUi,GALUi,2,0,,,,,,,,,,,6.35,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GAPD,GAPD,1,0,,,,,,,,,,,442.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GAPDi_nadp,GAPDi_nadp,1,0,,,,,,,,,,,430.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GARFT,GARFT,1,0,,,,,,,,,,,40.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GF6PTA,GF6PTA,1,0,,,,,,,,,,,35.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GFUCS,GFUCS,1,0,,,,,,,,,,,0.75,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GHMT2r,GHMT2r,1,0,,,,,,,,,,,640.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GK1,GK1,1,0,,,,,,,,,,,1500.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLBRAN2,GLBRAN2,1,0,,,,,,,,,,,1000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLCP2,GLCP2,1,0,,,,,,,,,,,312.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLCS1,GLCS1,1,0,,,,,,,,,,,412.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLGC,GLGC,1,0,,,,,,,,,,,370.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLMS_syn,GLMS_syn,1,0,,,,,,,,,,,3.67,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLNS,GLNS,1,0,,,,,,,,,,,52.7,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLNTRAT,GLNTRAT,1,0,,,,,,,,,,,11.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLUCYS,GLUCYS,1,0,,,,,,,,,,,0.42,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLUDC,GLUDC,1,0,,,,,,,,,,,59.26,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLUDy,GLUDy,3,0,,,,,,,,,,,28650.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GLUN,GLUN,8,0,,,,,,,,,,,3.67,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GLUR,GLUR,1,0,,,,,,,,,,,26.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLUSx,GLUSx,1,0,,,,,,,,,,,70.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLUTRR,GLUTRR,1,0,,,,,,,,,,,0.15,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLUTRS,GLUTRS,2,0,,,,,,,,,,,3.61,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GLXCL,GLXCL,1,0,,,,,,,,,,,18.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLYALDDr,GLYALDDr,1,0,,,,,,,,,,,240.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLYCDx,GLYCDx,1,0,,,,,,,,,,,98.44,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLYCK,GLYCK,1,0,,,,,,,,,,,350.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLYCL,GLYCL,3,0,,,,,,,,,,,899.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GLYCLTDx,GLYCLTDx,2,0,,,,,,,,,,,760000.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GLYCL_2,GLYCL_2,3,0,,,,,,,,,,,899.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GLYCTO1,GLYCTO1,1,0,,,,,,,,,,,2.51,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLYK,GLYK,1,0,,,,,,,,,,,4900.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLYOX,GLYOX,1,0,,,,,,,,,,,394.9,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GLYTRS,GLYTRS,1,0,,,,,,,,,,,15.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GMAND,GMAND,1,0,,,,,,,,,,,8.82,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GMPS,GMPS,1,0,,,,,,,,,,,3.05,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GMPS2,GMPS2,1,0,,,,,,,,,,,3.05,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GND,GND,2,0,,,,,,,,,,,325.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_GRTT,GRTT,1,0,,,,,,,,,,,43.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GTHPi,GTHPi,1,0,,,,,,,,,,,670.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GTHRDH_syn,GTHRDH_syn,1,0,,,,,,,,,,,12.45,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GTHS,GTHS,1,0,,,,,,,,,,,5.4,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GTPCI,GTPCI,1,0,,,,,,,,,,,0.039,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_GUACYC,GUACYC,2,0,,,,,,,,,,,0.00045,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_HCO3E,HCO3E,1,0,,,,,,,,,,,20000.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HEX1,HEX1,2,0,,,,,,,,,,,1492.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_HEX7,HEX7,2,0,,,,,,,,,,,8897.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_HIBDkt,HIBDkt,1,0,,,,,,,,,,,45500.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HISTD,HISTD,1,0,,,,,,,,,,,9.34,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HISTP,HISTP,1,0,,,,,,,,,,,1800.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HISTRS,HISTRS,1,0,,,,,,,,,,,142.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HMBS,HMBS,1,0,,,,,,,,,,,0.25,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HPROa,HPROa,1,0,,,,,,,,,,,4170.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HPROb,HPROb,1,0,,,,,,,,,,,4170.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HPYRRx,HPYRRx,2,0,,,,,,,,,,,25.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_HSDxi,HSDxi,1,0,,,,,,,,,,,70.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HSERTA,HSERTA,1,0,,,,,,,,,,,122.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HSK,HSK,1,0,,,,,,,,,,,40.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_HSTPT,HSTPT,1,0,,,,,,,,,,,3100.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ICDHyr,ICDHyr,1,0,,,,,,,,,,,36.4,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ICHORS,ICHORS,1,0,,,,,,,,,,,50.4,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IGPDH,IGPDH,1,0,,,,,,,,,,,1000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IGPS,IGPS,1,0,,,,,,,,,,,11.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ILETA,ILETA,1,0,,,,,,,,,,,700.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ILETRS,ILETRS,1,0,,,,,,,,,,,104.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IMACTD,IMACTD,1,0,,,,,,,,,,,240.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IMPC,IMPC,1,0,,,,,,,,,,,8.6,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IMPD,IMPD,1,0,,,,,,,,,,,24.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IPDDI,IPDDI,1,0,,,,,,,,,,,29900.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IPMD,IPMD,1,0,,,,,,,,,,,107.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_IPPS,IPPS,1,0,,,,,,,,,,,450.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_KARA1,KARA1,2,0,,,,,,,,,,,78.3,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_KARA2,KARA2,1,0,,,,,,,,,,,78.3,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_KAS14,KAS14,4,0,,,,,,,,,,,551.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_KAS15,KAS15,1,0,,,,,,,,,,,28.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LDH_D,LDH_D,1,0,,,,,,,,,,,29000.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LEUTA,LEUTA,1,0,,,,,,,,,,,700.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LEUTAi,LEUTAi,1,0,,,,,,,,,,,700.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LEUTRS,LEUTRS,1,0,,,,,,,,,,,171.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LGTHL,LGTHL,1,0,,,,,,,,,,,6700.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LTHRK,LTHRK,1,0,,,,,,,,,,,0.408,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LYSDC,LYSDC,1,0,,,,,,,,,,,636.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_LYSTRS,LYSTRS,1,0,,,,,,,,,,,221.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MALT,MALT,1,0,,,,,,,,,,,330.1,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MAN1PT,MAN1PT,1,0,,,,,,,,,,,195.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MAN6PI,MAN6PI,1,0,,,,,,,,,,,63970.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MCOATA,MCOATA,2,0,,,,,,,,,,,1580.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_MDH,MDH,2,0,,,,,,,,,,,0.00483,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_ME2,ME2,1,0,,,,,,,,,,,140.1,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MECDPS,MECDPS,1,0,,,,,,,,,,,2.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MEHLER,MEHLER,1,0,,,,,,,,,,,68.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MEPCT,MEPCT,1,0,,,,,,,,,,,54.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_METAT,METAT,1,0,,,,,,,,,,,7.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_METS,METS,1,0,,,,,,,,,,,8.33,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_METTRS,METTRS,1,0,,,,,,,,,,,42.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MGSA,MGSA,1,0,,,,,,,,,,,327.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MI1PP,MI1PP,1,0,,,,,,,,,,,268.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MI1PS,MI1PS,1,0,,,,,,,,,,,9.6,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MOHMT,MOHMT,1,0,,,,,,,,,,,0.783,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MPML,MPML,1,0,,,,,,,,,,,0.0188,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MPOMT,MPOMT,1,0,,,,,,,,,,,0.14,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MTAP,MTAP,1,0,,,,,,,,,,,132.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MTHFC,MTHFC,2,0,,,,,,,,,,,134.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_MTHFD,MTHFD,1,0,,,,,,,,,,,136.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MTHFD2i,MTHFD2i,1,0,,,,,,,,,,,1.63,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_MTHFR2,MTHFR2,1,0,,,,,,,,,,,160.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NABTNO,NABTNO,1,0,,,,,,,,,,,240.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NADK,NADK,1,0,,,,,,,,,,,30.33,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NADN,NADN,2,0,,,,,,,,,,,8390.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_NADS2,NADS2,1,0,,,,,,,,,,,6.4,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NADTRHD,NADTRHD,2,0,,,,,,,,,,,259.5,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_NAR_syn,NAR_syn,1,0,,,,,,,,,,,1090.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK1,NDPK1,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK10,NDPK10,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK2,NDPK2,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK3,NDPK3,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK4,NDPK4,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK5,NDPK5,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK6,NDPK6,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK7,NDPK7,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK8,NDPK8,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NDPK9,NDPK9,1,0,,,,,,,,,,,2085.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NMNAT,NMNAT,2,0,,,,,,,,,,,53.9,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_NMNS,NMNS,1,0,,,,,,,,,,,0.0433,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NNATr,NNATr,2,0,,,,,,,,,,,53.9,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_NNDPR,NNDPR,1,0,,,,,,,,,,,1.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NOR_syn,NOR_syn,1,0,,,,,,,,,,,138.2,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NPHS,NPHS,1,0,,,,,,,,,,,0.462,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NTD4,NTD4,2,0,,,,,,,,,,,757.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_NTD7,NTD7,1,0,,,,,,,,,,,757.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NTPP2,NTPP2,1,0,,,,,,,,,,,960000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NTPP4,NTPP4,2,0,,,,,,,,,,,960000.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_NTPP8,NTPP8,1,0,,,,,,,,,,,960000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_NTPTP1,NTPTP1,1,0,,,,,,,,,,,4000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_OCBT,OCBT,1,0,,,,,,,,,,,3400.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_OMCDC,OMCDC,1,0,,,,,,,,,,,107.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_OMPDC,OMPDC,1,0,,,,,,,,,,,570.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ORNTA,ORNTA,1,0,,,,,,,,,,,4.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ORPT,ORPT,1,0,,,,,,,,,,,10.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_OXADC,OXADC,1,0,,,,,,,,,,,57.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_P5CD,P5CD,1,0,,,,,,,,,,,25.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_P5CR,P5CR,1,0,,,,,,,,,,,4170.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_P5CRx,P5CRx,1,0,,,,,,,,,,,4170.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PANTS,PANTS,1,0,,,,,,,,,,,6.08,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PAPA160,PAPA160,1,0,,,,,,,,,,,354.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PAPPT3,PAPPT3,1,0,,,,,,,,,,,5.33,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PAPSR,PAPSR,1,0,,,,,,,,,,,3.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PC8XM,PC8XM,1,0,,,,,,,,,,,0.00142,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PDH,PDH,3,0,,,,,,,,,,,899.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PDHa,PDHa,1,0,,,,,,,,,,,486.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PDHbr,PDHbr,1,0,,,,,,,,,,,2.4,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PDHcr,PDHcr,1,0,,,,,,,,,,,899.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PDX5POi,PDX5POi,1,0,,,,,,,,,,,33.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PFK,PFK,1,0,,,,,,,,,,,357.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PFK_2,PFK_2,1,0,,,,,,,,,,,357.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PFK_3,PFK_3,1,0,,,,,,,,,,,357.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGAMT,PGAMT,1,0,,,,,,,,,,,7.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGCD,PGCD,1,0,,,,,,,,,,,3850.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGI,PGI,1,0,,,,,,,,,,,3330.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGK,PGK,1,0,,,,,,,,,,,540.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGLYCP,PGLYCP,1,0,,,,,,,,,,,292.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGM,PGM,3,0,,,,,,,,,,,3200.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PGMT,PGMT,2,0,,,,,,,,,,,398.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PGPP160,PGPP160,1,0,,,,,,,,,,,24.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGPP161,PGPP161,1,0,,,,,,,,,,,24.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGPP180,PGPP180,1,0,,,,,,,,,,,24.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PGPP181,PGPP181,1,0,,,,,,,,,,,24.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PHCD,PHCD,1,0,,,,,,,,,,,25.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PHETA1,PHETA1,4,0,,,,,,,,,,,3100.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PHETRS,PHETRS,1,0,,,,,,,,,,,603.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PMANM,PMANM,1,0,,,,,,,,,,,134.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PMDPHT,PMDPHT,1,0,,,,,,,,,,,2.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PNTK,PNTK,1,0,,,,,,,,,,,2.12,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_POR_1,POR_1,1,0,,,,,,,,,,,0.165,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_POR_syn,POR_syn,2,0,,,,,,,,,,,109.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PPA,PPA,1,0,,,,,,,,,,,916.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPBNGS,PPBNGS,1,0,,,,,,,,,,,16.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPC,PPC,1,0,,,,,,,,,,,540.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPCDC,PPCDC,1,0,,,,,,,,,,,2.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPM,PPM,2,0,,,,,,,,,,,398.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PPNCL,PPNCL,1,0,,,,,,,,,,,2.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPND,PPND,1,0,,,,,,,,,,,356.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPNDH,PPNDH,2,0,,,,,,,,,,,1932.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PPOR,PPOR,1,0,,,,,,,,,,,9.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPPGO,PPPGO,1,0,,,,,,,,,,,14.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PPS,PPS,1,0,,,,,,,,,,,1570.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PRAGSr,PRAGSr,1,0,,,,,,,,,,,7.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PRAIi,PRAIi,1,0,,,,,,,,,,,130.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PRAMPC,PRAMPC,1,0,,,,,,,,,,,9.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PRFGS,PRFGS,1,0,,,,,,,,,,,0.05,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PRMICI,PRMICI,1,0,,,,,,,,,,,32.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PROTRS,PROTRS,1,0,,,,,,,,,,,210.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PRPPS,PRPPS,1,0,,,,,,,,,,,311.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PSCVT,PSCVT,1,0,,,,,,,,,,,100.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PTAr,PTAr,1,0,,,,,,,,,,,5190.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PTHPS,PTHPS,1,0,,,,,,,,,,,0.032,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PTPATi,PTPATi,1,0,,,,,,,,,,,4.853,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PUNP1,PUNP1,1,0,,,,,,,,,,,7000.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PUTA3,PUTA3,1,0,,,,,,,,,,,25.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PYAM5PO,PYAM5PO,1,0,,,,,,,,,,,33.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PYDXNO,PYDXNO,2,0,,,,,,,,,,,33.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_PYDXO,PYDXO,1,0,,,,,,,,,,,33.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PYK,PYK,1,0,,,,,,,,,,,3204.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PYK2,PYK2,1,0,,,,,,,,,,,3204.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PYK3,PYK3,1,0,,,,,,,,,,,3204.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PYK4,PYK4,1,0,,,,,,,,,,,3204.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_PYK5,PYK5,1,0,,,,,,,,,,,3204.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RBCh,RBCh,1,0,,,,,,,,,,,14.28,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RBFK,RBFK,1,0,,,,,,,,,,,6.8,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RBFSa,RBFSa,2,0,,,,,,,,,,,2.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_RBFSb,RBFSb,1,0,,,,,,,,,,,2.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RBK,RBK,1,0,,,,,,,,,,,47.81,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RBPC,RBPC,1,0,,,,,,,,,,,14.28,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RNDR1,RNDR1,1,0,,,,,,,,,,,12.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RNDR2,RNDR2,1,0,,,,,,,,,,,12.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RNDR3,RNDR3,1,0,,,,,,,,,,,12.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RNDR4,RNDR4,1,0,,,,,,,,,,,12.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RPE,RPE,1,0,,,,,,,,,,,7100.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_RPI,RPI,1,0,,,,,,,,,,,52000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SADT,SADT,1,0,,,,,,,,,,,260.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SBP,SBP,2,0,,,,,,,,,,,175.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_SDPDS,SDPDS,1,0,,,,,,,,,,,140.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SDPTA,SDPTA,1,0,,,,,,,,,,,24.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SERAT,SERAT,1,0,,,,,,,,,,,200.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SERD_L,SERD_L,3,0,,,,,,,,,,,375.8,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_SERTRS,SERTRS,1,0,,,,,,,,,,,7.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SHK3Dr,SHK3Dr,2,0,,,,,,,,,,,428.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_SHKK,SHKK,1,0,,,,,,,,,,,60.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SPMS,SPMS,1,0,,,,,,,,,,,22.7,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SPT_syn,SPT_syn,1,0,,,,,,,,,,,19.82,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SQD1,SQD1,1,0,,,,,,,,,,,0.1,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SQLC,SQLC,1,0,,,,,,,,,,,1.98,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SQLS,SQLS,1,0,,,,,,,,,,,3.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SSALy,SSALy,2,0,,,,,,,,,,,83.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_SUCBZL,SUCBZL,1,0,,,,,,,,,,,2.62,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SUCBZS,SUCBZS,1,0,,,,,,,,,,,120.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SUCOAS,SUCOAS,1,0,,,,,,,,,,,280.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_SULR_syn,SULR_syn,1,0,,,,,,,,,,,243.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TALA,TALA,1,0,,,,,,,,,,,22.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TDPDRE,TDPDRE,1,0,,,,,,,,,,,39.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TDPDRR,TDPDRR,1,0,,,,,,,,,,,29.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TDPGDH,TDPGDH,1,0,,,,,,,,,,,4.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_THFGLUS,THFGLUS,1,0,,,,,,,,,,,2.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_THRD_L,THRD_L,1,0,,,,,,,,,,,287.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_THRS,THRS,1,0,,,,,,,,,,,4080.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_THRTRS,THRTRS,1,0,,,,,,,,,,,90.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TMDK1,TMDK1,2,0,,,,,,,,,,,412.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_TMDS,TMDS,1,0,,,,,,,,,,,48.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TMPK,TMPK,1,0,,,,,,,,,,,0.063,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TPI,TPI,1,0,,,,,,,,,,,1548000.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TRDR,TRDR,1,0,,,,,,,,,,,1600.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TRPS1,TRPS1,1,0,,,,,,,,,,,14.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TRPTRS,TRPTRS,1,0,,,,,,,,,,,24.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TRSARr,TRSARr,1,0,,,,,,,,,,,243.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_TYRTA,TYRTA,4,0,,,,,,,,,,,3100.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_TYRTRS,TYRTRS,1,0,,,,,,,,,,,45.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_U23GAAT,U23GAAT,1,0,,,,,,,,,,,23.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UAAGDS,UAAGDS,1,0,,,,,,,,,,,1.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UAG2EMA,UAG2EMA,3,0,,,,,,,,,,,62300.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_UAGAAT,UAGAAT,1,0,,,,,,,,,,,10.5,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UAGCVT,UAGCVT,1,0,,,,,,,,,,,8.9,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UAGDP,UAGDP,1,0,,,,,,,,,,,330.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UAGPT3,UAGPT3,1,0,,,,,,,,,,,14.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UAMAS,UAMAS,1,0,,,,,,,,,,,28.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UGLT,UGLT,1,0,,,,,,,,,,,987.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UHGADA,UHGADA,1,0,,,,,,,,,,,3.3,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UMPK,UMPK,3,0,,,,,,,,,,,410.0,organism_database,organism_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_UPP3MT,UPP3MT,1,0,,,,,,,,,,,38.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UPP3S,UPP3S,1,0,,,,,,,,,,,890.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UPPDC1,UPPDC1,1,0,,,,,,,,,,,0.317,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UPPDC2,UPPDC2,1,0,,,,,,,,,,,0.317,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UPPRT,UPPRT,1,0,,,,,,,,,,,6.1,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_UREA,UREA,1,0,,,,,,,,,,,5913.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_URIDK2r,URIDK2r,2,0,,,,,,,,,,,500.0,homology_database,homology_database,insufficient_numeric_kcat_candidates,low,inconclusive,Numeric kcat candidates are insufficient for conflict assessment.
+R_VALTA,VALTA,1,0,,,,,,,,,,,700.0,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_VALTRS,VALTRS,1,0,,,,,,,,,,,0.074,organism_database,organism_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ZN2abcpp,ZN2abcpp,1,0,,,,,,,,,,,300.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.
+R_ZNabcpp,ZNabcpp,1,0,,,,,,,,,,,300.0,homology_database,homology_database,single_kcat_candidate,info,usable,Only one kcat candidate is available; no within-reaction conflict can be assessed.

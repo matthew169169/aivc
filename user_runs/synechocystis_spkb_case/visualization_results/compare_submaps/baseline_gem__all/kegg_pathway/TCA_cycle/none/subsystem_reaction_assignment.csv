@@ -1,0 +1,17 @@
+reaction_id,cobra_reaction_id,reaction_name,grouping_mode,group_id,group_label,subsystem,compartment,selected_reaction,reactants,products
+R_ACONT,ACONT,Aconitate hydratase,subsystem,unannotated,unannotated,unannotated,c,True,M_cit_c,M_icit_c
+R_CS,CS,Citrate synthase,subsystem,unannotated,unannotated,unannotated,c,True,M_accoa_c;M_h2o_c;M_oaa_c,M_cit_c;M_coa_c;M_h_c
+R_IPMD,IPMD,3-isopropylmalate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,True,M_3c2hmp_c;M_nad_c,M_3c4mop_c;M_h_c;M_nadh_c
+R_IPPMIa,IPPMIa,3-isopropylmalate dehydratase,subsystem,unannotated,unannotated,unannotated,c,True,M_3c2hmp_c,M_2ippm_c;M_h2o_c
+R_IPPS,IPPS,2-isopropylmalate synthase,subsystem,unannotated,unannotated,unannotated,c,True,M_3mob_c;M_accoa_c;M_h2o_c,M_3c3hmp_c;M_coa_c;M_h_c
+R_MDH,MDH,Malate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,True,M_mal__L_c;M_nad_c,M_h_c;M_nadh_c;M_oaa_c
+R_IPPMIb,IPPMIb,2-isopropylmalate hydratase,subsystem,unannotated,unannotated,unannotated,c,True,M_2ippm_c;M_h2o_c,M_3c3hmp_c
+R_EX_fum_e,EX_fum_e,Fumarate exchange,subsystem,unannotated,unannotated,unannotated,e,True,M_fum_e,
+R_EX_cit_e,EX_cit_e,Citrate exchange,subsystem,unannotated,unannotated,unannotated,e,True,M_cit_e,
+R_CITtex,CITtex,Citrate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,True,M_cit_e,M_cit_p
+R_MALtpp,MALtpp,Malate transport via diffusion (periplasm to cytosol),subsystem,unannotated,unannotated,unannotated,c,True,M_h_p;M_mal__L_p,M_h_c;M_mal__L_c
+R_MALtex,MALtex,Malate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,True,M_mal__L_e,M_mal__L_p
+R_CITt_kt,CITt_kt,Citrate proton symport periplasm ,subsystem,unannotated,unannotated,unannotated,c,True,M_cit_p;M_h_p,M_cit_c;M_h_c
+R_FUMtpp,FUMtpp,Fumarate transport via diffusion (periplasm to cytosol),subsystem,unannotated,unannotated,unannotated,c,True,M_fum_p;M_h_p,M_fum_c;M_h_c
+R_FUMtex,FUMtex,Fumarate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,True,M_fum_e,M_fum_p
+R_EX_mal__L_e,EX_mal__L_e,L-Malate exchange,subsystem,unannotated,unannotated,unannotated,e,True,M_mal__L_e,

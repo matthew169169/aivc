@@ -1,0 +1,2 @@
+condition,condition_group,status,target_count,comparable_count,within_fva_count,within_fva_fraction,mean_fva_width,guidance
+targeted_scope,combined,not_available,6,0,0,,,"Targeted FVA was not generated. Run FVA for selected exchange, production-target, and pathway representative reactions if flexibility is needed."

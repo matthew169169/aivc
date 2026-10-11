@@ -16,7 +16,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from .constraints import CORE_NS, read_csv_records, write_csv, write_json
+from .constraints import CORE_NS, read_csv_records, relocate_package_path, write_csv, write_json
 from .model_generation import read_model_variant_registry, resolve_analysis_variant, safe_variant_dir_name
 
 
@@ -578,6 +578,9 @@ def resolve_variant_model_path(package: Path, variant: dict[str, str]) -> Path |
         value = str(variant.get(key, "")).strip()
         if not value:
             continue
+        relocated = relocate_package_path(package, value)
+        if relocated is not None:
+            return relocated
         path = Path(value)
         if not path.is_absolute():
             path = package / value
@@ -589,6 +592,9 @@ def resolve_variant_model_path(package: Path, variant: dict[str, str]) -> Path |
                 value = row.get(key, "")
                 if not value:
                     continue
+                relocated = relocate_package_path(package, value)
+                if relocated is not None:
+                    return relocated
                 path = Path(value)
                 if not path.is_absolute():
                     path = package / value

@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.2.0",
+  "cobra_available": true,
+  "status": "skipped_no_targets",
+  "message": "No production_targets table is configured; skipped production analysis.",
+  "model_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+  "exchange_bounds_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\exchange_bounds.csv",
+  "production_targets_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\production_targets.csv",
+  "semantic_label_count": 2927,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_analysis_summary.csv",
+    "production_targets": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_targets.csv",
+    "production_envelope": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_envelope.csv",
+    "production_target_ranking": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_target_ranking.csv",
+    "fseof_lite_reaction_targets": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\fseof_lite_reaction_targets.csv",
+    "production_design_targets": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_design_targets.csv",
+    "production_gene_targets": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_gene_targets.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_analysis_manifest.json"
+  }
+}

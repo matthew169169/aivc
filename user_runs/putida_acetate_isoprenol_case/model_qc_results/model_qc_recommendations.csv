@@ -1,0 +1,2 @@
+severity,topic,recommendation
+info,model_structure,"Model structure is suitable for the next integration modules, with normal biological validation still required."

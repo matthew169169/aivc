@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SAMMI native session export</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #172033; background: #f8fafc; }
+    main { max-width: 980px; margin: 0 auto; padding: 32px; }
+    h1 { margin: 0 0 8px; }
+    .card { background: white; border: 1px solid #d9e2ec; border-radius: 8px; padding: 18px; margin: 18px 0; }
+    .button { display: inline-block; background: #0f766e; color: white; padding: 10px 14px; border-radius: 6px; text-decoration: none; font-weight: 700; margin-right: 8px; }
+    .button.secondary { background: #334155; }
+    .status { display: inline-block; padding: 4px 8px; border-radius: 999px; background: #e2e8f0; font-weight: 700; }
+    .status.passed { background: #dcfce7; color: #166534; }
+    .status.failed { background: #fee2e2; color: #991b1b; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; border-bottom: 1px solid #e2e8f0; padding: 8px; vertical-align: top; }
+    th { width: 220px; color: #475569; }
+    code { overflow-wrap: anywhere; }
+    .muted { color: #64748b; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SAMMI native session export</h1>
+    <p class="muted">SAMMI-native session JSON generated. Open local SAMMI and use Load SAMMI Model to select this JSON.</p>
+    <div class="card">
+      <h2>How to open</h2>
+      <ol>
+        <li>Open local SAMMI with the button below.</li>
+        <li>In SAMMI, choose <strong>Load SAMMI Model</strong>.</li>
+        <li>Select <code>sammi_native_session.json</code> from this output folder.</li>
+      </ol>
+      <p><a class="button" href="file:///D:/generate/.runtime_cache/sammi_vendor/sammi_standalone/index.html" target="_blank" rel="noreferrer">Open Local SAMMI</a><a class="button secondary" href="file:///D:/generate/user_runs/shewanella_gecko_case/visualization_results/sammi/baseline_gem__all/sammi_native_session.json" target="_blank" rel="noreferrer">Open Session JSON</a><a class="button secondary" href="file:///D:/generate/user_runs/shewanella_gecko_case/visualization_results/sammi/baseline_gem__all/sammi_native_export_check.md" target="_blank" rel="noreferrer">Open Check Report</a></p>
+      <p><strong>Checker:</strong> <span class="status passed">passed</span> SAMMI native session structure looks loadable.</p>
+    </div>
+    <div class="card">
+      <h2>Common failure checks</h2>
+      <ul>
+        <li>If the checker is <code>failed</code>, re-run Preview / Validate Filter and export a non-empty reaction list.</li>
+        <li>If local SAMMI does not open, configure <code>SAMMI_STANDALONE_HOME</code> or use the lightweight viewer.</li>
+        <li>If SAMMI opens but the map is empty, confirm you selected this export's <code>sammi_native_session.json</code>.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Export files</h2>
+      <table><tr><th>SAMMI native session</th><td><code>D:\generate\user_runs\shewanella_gecko_case\visualization_results\sammi\baseline_gem__all\sammi_native_session.json</code></td></tr>
+<tr><th>Export manifest</th><td><code>D:\generate\user_runs\shewanella_gecko_case\visualization_results\sammi\baseline_gem__all\sammi_native_export_manifest.json</code></td></tr>
+<tr><th>Export summary</th><td><code>D:\generate\user_runs\shewanella_gecko_case\visualization_results\sammi\baseline_gem__all\sammi_native_export_summary.csv</code></td></tr>
+<tr><th>Checker report</th><td><code>D:\generate\user_runs\shewanella_gecko_case\visualization_results\sammi\baseline_gem__all\sammi_native_export_check.md</code></td></tr>
+<tr><th>Source graph</th><td><code>D:\generate\user_runs\shewanella_gecko_case\visualization_results\sammi\baseline_gem__all\network_graph.json</code></td></tr>
+<tr><th>Local SAMMI index</th><td><code>D:\generate\.runtime_cache\sammi_vendor\sammi_standalone\index.html</code></td></tr></table>
+    </div>
+  </main>
+</body>
+</html>

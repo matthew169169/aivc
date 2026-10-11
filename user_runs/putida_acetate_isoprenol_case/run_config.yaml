@@ -1,0 +1,210 @@
+schema_version: putida_acetate_isoprenol_case_v1
+case_study:
+  case_id: putida_acetate_isoprenol_mixed_carbon
+  title: Pseudomonas putida acetate tolerance / isoprenol mixed-carbon case study
+  organism: Pseudomonas putida KT2440
+  focus: WT/PT/Sigma-class acetate tolerance and isoprenol production from glucose/acetate carbon sources
+  primary_model: iJN1463.xml
+default_workflow:
+  model_generation_methods:
+    - baseline_gem
+    - consensus_evidence
+  analysis_modules:
+    - fba_pfba
+    - evidence_comparison
+    - ml_pca_lasso
+    - condition_interpretation
+    - readiness_gate
+  method_hints:
+    - Use absolute and relative proteomics as the primary context evidence.
+    - "Interpret glucose, acetate, and glucose+acetate as condition labels only unless explicit uptake bounds are added."
+    - Do not mark GECKO-ready as ready unless kcat and enzyme capacity evidence are added later.
+atlas_curated_sources:
+  []
+input_summary:
+  row_count: 34600
+  unique_protein_groups: 1730
+  unique_gene_symbols: 1729
+  strains:
+    - PT
+    - WT
+    - Σ1
+    - Σ2
+    - Σ3
+    - Σ4
+    - Σ5
+  strain_aliases:
+    PT: PT
+    WT: WT
+    Σ1: sigma1
+    Σ2: sigma2
+    Σ3: sigma3
+    Σ4: sigma4
+    Σ5: sigma5
+  conditions:
+    - Acetate
+    - Glucose
+    - Glucose + Acetate
+  samples:
+    - 2H_ac
+    - 2H_glu
+    - 2H_gluAc
+    - 4P_ac
+    - 4P_glu
+    - 4P_gluAc
+    - 5G_ac
+    - 5G_glu
+    - 5G_gluAc
+    - 5H_ac
+    - 5H_glu
+    - 5H_gluAc
+    - 5P_ac
+    - 5P_glu
+    - 5P_gluAc
+    - PreALE_ac
+    - PreALE_glu
+    - WT_ac
+    - WT_glu
+    - WT_gluAc
+input_mapping_preview:
+  model_file: "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\model\\iJN1463.xml"
+  model_gene_count: 6722
+  model_reaction_count: 3098
+  model_metabolite_count: 2153
+  rows:
+    -
+      file_name: absolute_proteomics_putida.csv
+      role: absolute_proteomics
+      source_sheet: Sheet1
+      row_count: 34600
+      unique_gene_or_protein_ids: 3459
+      mapped_gene_or_protein_ids: 222
+      gene_mapping_fraction: 0.0642
+      unique_reaction_ids: 0
+      mapped_reaction_ids: 0
+      reaction_mapping_fraction: ""
+      mapping_status: mapping_partial
+    -
+      file_name: relative_proteomics_putida_condition_response.csv
+      role: relative_proteomics
+      source_sheet: Sheet1
+      row_count: 32870
+      unique_gene_or_protein_ids: 3459
+      mapped_gene_or_protein_ids: 222
+      gene_mapping_fraction: 0.0642
+      unique_reaction_ids: 0
+      mapped_reaction_ids: 0
+      reaction_mapping_fraction: ""
+      mapping_status: mapping_partial
+    -
+      file_name: relative_proteomics_putida_strain_response.csv
+      role: relative_proteomics
+      source_sheet: Sheet1
+      row_count: 46710
+      unique_gene_or_protein_ids: 3459
+      mapped_gene_or_protein_ids: 222
+      gene_mapping_fraction: 0.0642
+      unique_reaction_ids: 0
+      mapped_reaction_ids: 0
+      reaction_mapping_fraction: ""
+      mapping_status: mapping_partial
+    -
+      file_name: putida_condition_summary.csv
+      role: custom_annotation
+      source_sheet: Sheet1
+      row_count: 20
+      unique_gene_or_protein_ids: 0
+      mapped_gene_or_protein_ids: 0
+      gene_mapping_fraction: ""
+      unique_reaction_ids: 0
+      mapped_reaction_ids: 0
+      reaction_mapping_fraction: ""
+      mapping_status: not_model_mapped_evidence
+    -
+      file_name: putida_marker_annotation.csv
+      role: custom_annotation
+      source_sheet: paper text
+      row_count: 6
+      unique_gene_or_protein_ids: 6
+      mapped_gene_or_protein_ids: 5
+      gene_mapping_fraction: 0.8333
+      unique_reaction_ids: 0
+      mapped_reaction_ids: 0
+      reaction_mapping_fraction: ""
+      mapping_status: mapping_ready
+  warnings:
+    - Protein.Group values are UniProt accessions; model gene mapping may be partial without a dedicated UniProt-to-locus alias table.
+    - "No kcat, enzyme capacity, uptake-bound, growth, or isoprenol titer table is inferred from the supplementary proteomics file."
+run_id: putida_acetate_isoprenol_case
+upload_package:
+  run_id: putida_acetate_isoprenol_case
+  input_file_map: "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\input_file_map.csv"
+  input_rows:
+    -
+      kind: model
+      role: gem
+      original_name: iJN1463.xml
+      saved_name: model__iJN1463.xml
+      path: "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml"
+      relative_path: inputs\model\model__iJN1463.xml
+      size_bytes: 10702784
+      columns: ""
+      inspection_status: ok
+      details: Pseudomonas putida KT2440 SBML model for acetate/isoprenol case.
+    -
+      kind: omics_table
+      role: absolute_proteomics
+      original_name: absolute_proteomics_putida.csv
+      saved_name: absolute_proteomics__absolute_proteomics_putida.csv
+      path: "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\absolute_proteomics__absolute_proteomics_putida.csv"
+      relative_path: inputs\omics\absolute_proteomics__absolute_proteomics_putida.csv
+      size_bytes: 10515157
+      columns: protein_id;gene_id;sample;condition;strain;strain_alias;value;unit;top3_counts_mean;top3_counts_std;protein_abundance_percent;protein_abundance_percent_std;log10_abundance;log10_abundance_std;cv_percent;sem_percent;protein_name;protein_description;source_sheet
+      inspection_status: ok
+      details: Absolute Top3 protein abundance table from File S1.
+    -
+      kind: omics_table
+      role: relative_proteomics
+      original_name: relative_proteomics_putida_condition_response.csv
+      saved_name: relative_proteomics__relative_proteomics_putida_condition_response.csv
+      path: "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\relative_proteomics__relative_proteomics_putida_condition_response.csv"
+      relative_path: inputs\omics\relative_proteomics__relative_proteomics_putida_condition_response.csv
+      size_bytes: 7716598
+      columns: protein_id;gene_id;sample;condition;reference_condition;strain;strain_alias;contrast;value;value_type;target_abundance_percent;reference_abundance_percent;protein_name;protein_description;source_sheet
+      inspection_status: ok
+      details: Within-strain condition log2 protein abundance response.
+    -
+      kind: omics_table
+      role: relative_proteomics
+      original_name: relative_proteomics_putida_strain_response.csv
+      saved_name: relative_proteomics__relative_proteomics_putida_strain_response.csv
+      path: "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\relative_proteomics__relative_proteomics_putida_strain_response.csv"
+      relative_path: inputs\omics\relative_proteomics__relative_proteomics_putida_strain_response.csv
+      size_bytes: 9699688
+      columns: protein_id;gene_id;sample;condition;strain;reference_strain;strain_alias;contrast;value;value_type;target_abundance_percent;reference_abundance_percent;protein_name;protein_description;source_sheet
+      inspection_status: ok
+      details: Between-strain log2 protein abundance response.
+    -
+      kind: omics_table
+      role: custom_annotation
+      original_name: putida_condition_summary.csv
+      saved_name: custom_annotation__putida_condition_summary.csv
+      path: "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\custom_annotation__putida_condition_summary.csv"
+      relative_path: inputs\omics\custom_annotation__putida_condition_summary.csv
+      size_bytes: 3589
+      columns: condition_id;condition;strain;strain_alias;sample;carbon_source;protein_rows;unique_proteins;unique_gene_symbols;total_percent_abundance;mean_percent_abundance;source_sheet;note
+      inspection_status: ok
+      details: Carbon source condition and strain grouping summary.
+    -
+      kind: omics_table
+      role: custom_annotation
+      original_name: putida_marker_annotation.csv
+      saved_name: custom_annotation__putida_marker_annotation.csv
+      path: "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\custom_annotation__putida_marker_annotation.csv"
+      relative_path: inputs\omics\custom_annotation__putida_marker_annotation.csv
+      size_bytes: 2059
+      columns: gene_id;gene_symbol;custom_group;pathway_hint;evidence_note;reaction_id;subsystem;kegg_pathway;model_annotation_hint;observed_in_proteomics;observed_rows;source_sheet
+      inspection_status: ok
+      details: Curated acetate/gluconate/isoprenol marker annotation from paper narrative.
+  condition_files:
+    []

@@ -1,0 +1,17 @@
+selection_type,selection_id,label,selected,selected_model_variant_id,description
+model_generation,baseline_gem,Baseline GEM,True,,Register the uploaded GEM as the unmodified baseline model.
+model_generation,eflux,E-Flux / Delta-FBA-ready model,False,,Use transcriptomics evidence to build reaction-level expression constraints.
+model_generation,fastcore,TROPPO FASTcore context model,False,,Use high-confidence reactions as FASTcore core reactions for a context-specific model.
+model_generation,consensus_evidence,Consensus evidence context model,True,,"Combine transcriptomics, relative proteomics, and ML-derived evidence modes."
+model_generation,enzyme_gecko,Enzyme-capacity / GECKO-ready model,False,,Use absolute proteomics and kcat priors to prepare enzyme capacity checks and GECKO input.
+analysis,fba_pfba,FBA / pFBA / optional FVA,True,,Run condition-specific COBRApy baseline flux analysis.
+analysis,eflux_delta_fba,E-Flux / Delta-FBA,False,,Analyze transcriptomics-constrained flux changes.
+analysis,evidence_comparison,Evidence Mode Comparison,True,,"Compare transcriptomics, relative proteomics, consensus, and ML-derived evidence modes."
+analysis,ml_pca_lasso,ML PCA / LASSO-lite,True,,"Build feature matrices, PCA summaries, clusters, and LASSO-lite coefficients."
+analysis,condition_interpretation,Condition Interpretation Dashboard,True,,"Summarize omics coverage, conflicts, consensus softening, and guidance labels."
+analysis,minn_export,MINN-style Export,False,,"Export graph nodes, edges, omics tensor, labels, and target priors."
+analysis,production_ecfactory,Production Analysis / ecFactory-lite,False,,"Run production envelope, FSEOF-lite, KO/KD/OE ranking, and gene target aggregation."
+analysis,readiness_gate,Production Readiness Gate,True,,"Grade production targets using semantic, UniProt, kcat, and enzyme-constrained evidence."
+analysis,hybrid_minn,ML + GEM Hybrid Runner,False,,"Score targets with readiness priors, omics features, graph neighbors, and LOOCV sanity checks."
+analysis,hybrid_graph_adapter,PyG / DGL Graph Adapter,False,,Export sparse/dense graph artifacts and optional PyG/DGL objects.
+report_builder,full_audit_report,Report Builder Preset,True,,Selected report preset for report_results output.

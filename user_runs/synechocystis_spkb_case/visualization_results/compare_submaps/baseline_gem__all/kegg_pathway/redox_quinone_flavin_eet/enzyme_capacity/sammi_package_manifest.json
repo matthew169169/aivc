@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case",
+  "output_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity",
+  "variant_id": "baseline_gem__all",
+  "generation_method": "baseline_gem",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "enzyme_capacity",
+  "overlay_status": "overlay_missing",
+  "reaction_count": 115,
+  "group_count": 1,
+  "overlay_count": 0,
+  "overlay_summary_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 0,
+  "overlay_unmatched_reaction_count": 0,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "source_file_missing:D:\\generate\\user_runs\\synechocystis_spkb_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+  "overlay_source_file": "D:\\generate\\user_runs\\synechocystis_spkb_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+  "overlay_source_status": "missing",
+  "top_highlighted_reactions": "",
+  "warning_reactions": "",
+  "selected_reaction_count": 230,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R_34DHOXPEGOX;R_34HPPOR;R_ADPRDP;R_ADPT;R_ADPT2;R_ALCD2y;R_ALDD20x;R_ALDD2x;R_ATPPRT;R_ATPS4rpp_1;R_ATPSu;R_BAMPPALDOX;R_BILIRED;R_CBFC2;R_CBFC2pp;R_CBFCpp;R_CBFCu;R_CO2tex;R_CO2tpp;R_CPPPGO;R_CPPPGO2;R_CYO1b2_syn;R_CYO1b2pp_syn;R_CYO1b_syn;R_CYO1bpp_syn;R_CYTBDpp_1;R_CYTBDu;R_DHDPRy;R_DMTPHT;R_EAR100y;R_EAR120y;R_EAR121y;R_EAR140y;R_EAR141y;R_EAR160y;R_EAR161y;R_EAR180y;R_EAR181y;R_EAR40y;R_EAR60y;R_EAR80y;R_EX_co2_e;R_EX_cobalt2_e;R_EX_o2_e;R_FDH6pp;R_FNOR;R_G3PD1ir;R_G6PBDH;R_GAPDi_nadp;R_GK1;R_GLCS1;R_GLUDy;R_GLUSx;R_GLYCLTDx;R_HEX1;R_HEX7;R_HOXG;R_HPROa;R_HPROb;R_HPYRRx;R_HSDxi;R_ICDHyr;R_LALDO;R_ME2;R_MPBQ;R_MPOMC1;R_MPOMC2;R_MPOMMM;R_MPOMMM2;R_MPOMOR;R_MPOMOR2;R_MTHFD;R_MTHFD2i;R_MTHFR2;R_MTRI;R_NABTNO;R_NADH5;R_NADK;R_NADN;R_NADS2;R_NADTRHD;R_NDH1_1p;R_NDH1_1u;R_NDH1_2p;R_NDH1_2u;R_NDH1_3u;R_NDH1_4pp;R_NDH2_syn;R_NDPK1;R_NDPK10;R_NDPK2;R_NDPK3;R_NDPK4;R_NDPK5;R_NDPK6;R_NDPK7;R_NDPK8;R_NDPK9;R_O2tex;R_O2tpp;R_O2tu;R_P5CRx;R_PPOR;R_PRATPP;R_PSI_2;R_R05217;R_RBFK;R_RBFSa;R_RBFSb;R_RNDR1;R_SSALy;R_SUCOAS;R_THFGLUS;R_TMDK1;R_TRDR",
+  "filter_matched_reaction_ids": "R_34DHOXPEGOX;R_34HPPOR;R_ADPRDP;R_ADPT;R_ADPT2;R_ALCD2y;R_ALDD20x;R_ALDD2x;R_ATPPRT;R_ATPS4rpp_1;R_ATPSu;R_BAMPPALDOX;R_BILIRED;R_CBFC2;R_CBFC2pp;R_CBFCpp;R_CBFCu;R_CO2tex;R_CO2tpp;R_CPPPGO;R_CPPPGO2;R_CYO1b2_syn;R_CYO1b2pp_syn;R_CYO1b_syn;R_CYO1bpp_syn;R_CYTBDpp_1;R_CYTBDu;R_DHDPRy;R_DMTPHT;R_EAR100y;R_EAR120y;R_EAR121y;R_EAR140y;R_EAR141y;R_EAR160y;R_EAR161y;R_EAR180y;R_EAR181y;R_EAR40y;R_EAR60y;R_EAR80y;R_EX_co2_e;R_EX_cobalt2_e;R_EX_o2_e;R_FDH6pp;R_FNOR;R_G3PD1ir;R_G6PBDH;R_GAPDi_nadp;R_GK1;R_GLCS1;R_GLUDy;R_GLUSx;R_GLYCLTDx;R_HEX1;R_HEX7;R_HOXG;R_HPROa;R_HPROb;R_HPYRRx;R_HSDxi;R_ICDHyr;R_LALDO;R_ME2;R_MPBQ;R_MPOMC1;R_MPOMC2;R_MPOMMM;R_MPOMMM2;R_MPOMOR;R_MPOMOR2;R_MTHFD;R_MTHFD2i;R_MTHFR2;R_MTRI;R_NABTNO;R_NADH5;R_NADK;R_NADN;R_NADS2;R_NADTRHD;R_NDH1_1p;R_NDH1_1u;R_NDH1_2p;R_NDH1_2u;R_NDH1_3u;R_NDH1_4pp;R_NDH2_syn;R_NDPK1;R_NDPK10;R_NDPK2;R_NDPK3;R_NDPK4;R_NDPK5;R_NDPK6;R_NDPK7;R_NDPK8;R_NDPK9;R_O2tex;R_O2tpp;R_O2tu;R_P5CRx;R_PPOR;R_PRATPP;R_PSI_2;R_R05217;R_RBFK;R_RBFSa;R_RBFSb;R_RNDR1;R_SSALy;R_SUCOAS;R_THFGLUS;R_TMDK1;R_TRDR",
+  "filter_missing_reaction_ids": "",
+  "filter_suggested_reactions": "R_PFK;R_PGI;R_GAPD;R_TPI;R_CS;R_PYK;R_34DHOXPEGOX;R_34HPPOR",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\redox_quinone_flavin_eet\\enzyme_capacity\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

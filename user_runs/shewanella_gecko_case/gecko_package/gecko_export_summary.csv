@@ -1,0 +1,17 @@
+file_role,path,exists,size_bytes
+model,D:\generate\user_runs\shewanella_gecko_case\gecko_package\model.xml,True,7019570
+protein_abundance,D:\generate\user_runs\shewanella_gecko_case\gecko_package\protein_abundance.tsv,True,2061312
+kcat_table,D:\generate\user_runs\shewanella_gecko_case\gecko_package\kcat_table.tsv,True,197912
+conditions,D:\generate\user_runs\shewanella_gecko_case\gecko_package\conditions.tsv,True,142
+reaction_enzyme_capacity,D:\generate\user_runs\shewanella_gecko_case\gecko_package\reaction_enzyme_capacity.csv,True,0
+enzyme_qc_summary,D:\generate\user_runs\shewanella_gecko_case\gecko_package\enzyme_qc_summary.csv,True,369
+enzyme_qc_recommendations,D:\generate\user_runs\shewanella_gecko_case\gecko_package\enzyme_qc_recommendations.csv,True,930
+protocol_template,D:\generate\user_runs\shewanella_gecko_case\gecko_package\protocol_template.m,True,2963
+adapter_config,D:\generate\user_runs\shewanella_gecko_case\gecko_package\gecko_adapter_config.json,True,870
+adapter_summary,D:\generate\user_runs\shewanella_gecko_case\gecko_package\gecko_adapter_summary.csv,True,364
+adapter_file,D:\generate\user_runs\shewanella_gecko_case\gecko_package\generated_adapter.m,True,1401
+protocol_config,D:\generate\user_runs\shewanella_gecko_case\gecko_package\gecko_protocol_config.json,True,363
+adapter_readiness,D:\generate\user_runs\shewanella_gecko_case\gecko_package\gecko_adapter_readiness.csv,True,105
+readme,D:\generate\user_runs\shewanella_gecko_case\gecko_package\README.md,True,2018
+summary,D:\generate\user_runs\shewanella_gecko_case\gecko_package\gecko_export_summary.csv,True,
+manifest,D:\generate\user_runs\shewanella_gecko_case\gecko_package\gecko_export_manifest.json,True,4229

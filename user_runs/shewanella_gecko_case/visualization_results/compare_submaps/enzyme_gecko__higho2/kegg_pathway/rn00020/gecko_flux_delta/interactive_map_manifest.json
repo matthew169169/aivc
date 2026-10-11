@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "Interactive reaction network graph generated.",
+  "variant_id": "enzyme_gecko__higho2",
+  "grouping_mode": "subsystem",
+  "overlay_source": "gecko_flux_delta",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn00020\\gecko_flux_delta",
+  "source_sammi_manifest_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn00020\\gecko_flux_delta\\sammi_package_manifest.json",
+  "source_overlay_status": "available",
+  "files": {
+    "graph": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn00020\\gecko_flux_delta\\network_graph.json",
+    "html": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn00020\\gecko_flux_delta\\interactive_map.html",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn00020\\gecko_flux_delta\\interactive_map_manifest.json",
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn00020\\gecko_flux_delta\\interactive_map_summary.csv"
+  },
+  "summary": {
+    "status": "completed",
+    "message": "Interactive reaction network graph generated.",
+    "reaction_count_available": 18,
+    "reaction_count_rendered": 18,
+    "metabolite_count_rendered": 35,
+    "node_count": 53,
+    "link_count": 81,
+    "overlay_count_available": 18,
+    "warning_count": 0,
+    "production_candidate_count": 0,
+    "ko_candidate_count": 0,
+    "kd_candidate_count": 0,
+    "oe_candidate_count": 0,
+    "top_production_reactions": "",
+    "production_warning_reactions": "",
+    "needs_filtering": false
+  }
+}

@@ -1,0 +1,2 @@
+condition,condition_group,comparison_axis,fba_status,objective_value,fba_row_count,production_target_count,growth_coupled_possible_count,production_review_required_count,top_product_name,top_product_flux,delta_fba_status,behavior_status,guidance
+default,default,condition,optimal,0.06315,1,0,0,0,,,,partial,default has FBA behavior output; compare with matching condition rows before drawing conclusions.

@@ -1,0 +1,20 @@
+{
+  "kcat_source_mode": "local",
+  "kcat_source_databases": [
+    "GECKO max_KCAT local cache"
+  ],
+  "kcat_mapping_status": "ready",
+  "adapter_status": "ready",
+  "gecko_external_status": "adapter_ready_external_run_pending",
+  "ecmodel_status": "not_run",
+  "gecko_readiness": {
+    "mode": "adapter_ready_guarded",
+    "kcat_priors": 454,
+    "kcat_candidates": 548,
+    "protein_abundance": {
+      "status": "not_available"
+    },
+    "adapter_config": "D:\\generate\\user_runs\\synechocystis_spkb_case\\case_study\\gecko_adapter_config.json",
+    "adapter_notes": "D:\\generate\\user_runs\\synechocystis_spkb_case\\case_study\\adapter_design_notes.md"
+  }
+}

@@ -1,0 +1,2 @@
+condition,status,objective_value,pfba_status,pfba_total_flux_objective,fva_status,objective_override_status,applied_bounds,failed_bounds
+default,optimal,0.586117544847982,optimal,407.081636794595,skipped,default_objective,0,0

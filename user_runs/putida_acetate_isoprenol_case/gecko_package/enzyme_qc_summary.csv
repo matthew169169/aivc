@@ -1,0 +1,4 @@
+condition,protein_count,mapped_protein_count,mapped_protein_fraction,kcat_prior_count,mapped_kcat_prior_count,mapped_kcat_prior_fraction,capacity_reaction_count,ready_capacity_count,ready_capacity_fraction,mean_kcat_confidence,exceeds_capacity_count,enzyme_readiness
+Acetate,12110,4256,0.3514450867052023,745,745,1.0,745,383,0.5140939597315436,0.6484563758389261,0,prototype
+Glucose,12110,4256,0.3514450867052023,745,745,1.0,745,383,0.5140939597315436,0.6484563758389261,0,prototype
+Glucose + Acetate,10380,3648,0.3514450867052023,745,745,1.0,745,383,0.5140939597315436,0.6484563758389261,0,prototype

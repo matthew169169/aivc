@@ -1,0 +1,2 @@
+reaction_id,name,objective_coefficient,lower_bound,upper_bound
+bio1,Shewanella_oneidensis_MR-1_biomass_from_iSO783,1.0,0.0,1000.0

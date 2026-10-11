@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "model_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+  "package_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case",
+  "annotation_sources": [
+    {
+      "role": "uniprot_gene_coverage",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\uniprot_model_check\\uniprot_gene_coverage.csv",
+      "rows": 1462
+    }
+  ],
+  "files": {
+    "input": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_input.tsv",
+    "input_coverage": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_input_coverage.csv",
+    "prediction_import_template": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_prediction_import_template.csv",
+    "prediction_import": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_prediction_import.csv",
+    "prediction_normalized": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_prediction_normalized.csv",
+    "reaction_kcat_priors": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_reaction_kcat_priors.csv",
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_bridge_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_bridge_manifest.json"
+  },
+  "summary": {
+    "status": "needs_sequence_or_smiles",
+    "input_query_count": 10189,
+    "ready_query_count": 0,
+    "reaction_count": 2927,
+    "ready_reaction_count": 0,
+    "missing_sequence_count": 8965,
+    "missing_substrate_count": 0,
+    "prediction_import_row_count": 0,
+    "prediction_mapped_count": 0,
+    "reaction_kcat_prior_count": 0,
+    "guidance": "Provide protein sequences and substrate names or SMILES before running DLKcat."
+  }
+}

@@ -1,0 +1,17 @@
+parameter,value
+ec_model_mode,full_ecModel
+adapter_class_name,SynechocystisSpkBGeckoAdapter
+model_id,synechocystis_spkb_carbon_limitation
+organism_name,Synechocystis sp. PCC 6803
+bio_rxn,R_BIOMASS_Ec_SynAuto
+c_source,R_EX_hco3_e
+enzyme_comp,cytoplasm
+sigma,0.5
+Ptot,0.5
+f,0.5
+gR_exp,0.1
+kegg_id,syn
+uniprot_type,taxonomy
+uniprot_id,1148
+uniprot_reviewed,False
+proteomics_integration,True

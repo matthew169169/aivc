@@ -1,0 +1,3 @@
+condition,protein_count,mapped_protein_count,mapped_protein_fraction,kcat_prior_count,mapped_kcat_prior_count,mapped_kcat_prior_fraction,capacity_reaction_count,ready_capacity_count,ready_capacity_fraction,mean_kcat_confidence,exceeds_capacity_count,enzyme_readiness
+highO2,5066,0,0.0,1116,0,0.0,0,0,,,0,insufficient
+lowO2,4887,0,0.0,1116,0,0.0,0,0,,,0,insufficient

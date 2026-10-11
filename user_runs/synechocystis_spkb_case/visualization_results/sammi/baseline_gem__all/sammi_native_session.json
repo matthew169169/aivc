@@ -1,0 +1,1710 @@
+{
+  "baseline_gem__all": {
+    "nodes": [
+      {
+        "id": "GLYCTO1",
+        "name": "Glycolate oxidase",
+        "class": "GLYCTO1",
+        "index": 0,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -390.0,
+        "fy": -190.0,
+        "x": -390.0,
+        "y": -190.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "GLYCTO1"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_GLYCTO1",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "glyclt_c": -1,
+          "glx_c": 1,
+          "h2o2_c": 1
+        }
+      },
+      {
+        "id": "glyclt_c",
+        "name": "glyclt_c",
+        "class": "glyclt_c",
+        "index": 1,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -303.333,
+        "fy": -21.333,
+        "x": -303.333,
+        "y": -21.333,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "glyclt",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_glyclt_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "glx_c",
+        "name": "glx_c",
+        "class": "glx_c",
+        "index": 2,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -294.0,
+        "fy": -254.0,
+        "x": -294.0,
+        "y": -254.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "glx",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_glx_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "h2o2_c",
+        "name": "h2o2_c",
+        "class": "h2o2_c",
+        "index": 3,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -294.0,
+        "fy": -222.0,
+        "x": -294.0,
+        "y": -222.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "h2o2",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_h2o2_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "GAPD",
+        "name": "Glyceraldehyde-3-phosphate dehydrogenase",
+        "class": "GAPD",
+        "index": 4,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -130.0,
+        "fy": -190.0,
+        "x": -130.0,
+        "y": -190.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "GAPD"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_GAPD",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "g3p_c": -1,
+          "13dpg_c": 1
+        }
+      },
+      {
+        "id": "g3p_c",
+        "name": "g3p_c",
+        "class": "g3p_c",
+        "index": 5,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -226.0,
+        "fy": -254.0,
+        "x": -226.0,
+        "y": -254.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "g3p",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_g3p_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "13dpg_c",
+        "name": "13dpg_c",
+        "class": "13dpg_c",
+        "index": 6,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 0.0,
+        "fy": -53.0,
+        "x": 0.0,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "13dpg",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_13dpg_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "PFK",
+        "name": "Phosphofructokinase",
+        "class": "PFK",
+        "index": 7,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 130.0,
+        "fy": -190.0,
+        "x": 130.0,
+        "y": -190.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "PFK"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_PFK",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "f6p_c": -1,
+          "fdp_c": 1
+        }
+      },
+      {
+        "id": "f6p_c",
+        "name": "f6p_c",
+        "class": "f6p_c",
+        "index": 8,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 260.0,
+        "fy": -53.0,
+        "x": 260.0,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "f6p",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_f6p_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fdp_c",
+        "name": "fdp_c",
+        "class": "fdp_c",
+        "index": 9,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 226.0,
+        "fy": -254.0,
+        "x": 226.0,
+        "y": -254.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fdp",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fdp_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "PFK_2",
+        "name": "Phosphofructokinase",
+        "class": "PFK_2",
+        "index": 10,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 390.0,
+        "fy": -190.0,
+        "x": 390.0,
+        "y": -190.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "PFK",
+          "2"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_PFK_2",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "tag6p__D_c": -1,
+          "tagdp__D_c": 1
+        }
+      },
+      {
+        "id": "tag6p__D_c",
+        "name": "tag6p__D_c",
+        "class": "tag6p__D_c",
+        "index": 11,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 294.0,
+        "fy": -254.0,
+        "x": 294.0,
+        "y": -254.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "tag6p",
+          "D",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_tag6p__D_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "tagdp__D_c",
+        "name": "tagdp__D_c",
+        "class": "tagdp__D_c",
+        "index": 12,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 486.0,
+        "fy": -254.0,
+        "x": 486.0,
+        "y": -254.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "tagdp",
+          "D",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_tagdp__D_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "PGI",
+        "name": "Glucose-6-phosphate isomerase",
+        "class": "PGI",
+        "index": 13,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 390.0,
+        "fy": 0.0,
+        "x": 390.0,
+        "y": 0.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "PGI"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_PGI",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "g6p_c": -1,
+          "f6p_c": 1
+        }
+      },
+      {
+        "id": "g6p_c",
+        "name": "g6p_c",
+        "class": "g6p_c",
+        "index": 14,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 294.0,
+        "fy": -64.0,
+        "x": 294.0,
+        "y": -64.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "g6p",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_g6p_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "PGK",
+        "name": "Phosphoglycerate kinase",
+        "class": "PGK",
+        "index": 15,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 130.0,
+        "fy": 0.0,
+        "x": 130.0,
+        "y": 0.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "PGK"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_PGK",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "3pg_c": -1,
+          "13dpg_c": 1
+        }
+      },
+      {
+        "id": "3pg_c",
+        "name": "3pg_c",
+        "class": "3pg_c",
+        "index": 16,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 34.0,
+        "fy": -64.0,
+        "x": 34.0,
+        "y": -64.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "3pg",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_3pg_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "PGLYCP",
+        "name": "Phosphoglycolate phosphatase",
+        "class": "PGLYCP",
+        "index": 17,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -130.0,
+        "fy": 0.0,
+        "x": -130.0,
+        "y": 0.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "PGLYCP"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_PGLYCP",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "2pglyc_c": -1,
+          "glyclt_c": 1
+        }
+      },
+      {
+        "id": "2pglyc_c",
+        "name": "2pglyc_c",
+        "class": "2pglyc_c",
+        "index": 18,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -226.0,
+        "fy": -64.0,
+        "x": -226.0,
+        "y": -64.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "2pglyc",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_2pglyc_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "GCALDD",
+        "name": "Glycolaldehyde dehydrogenase",
+        "class": "GCALDD",
+        "index": 19,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -390.0,
+        "fy": 0.0,
+        "x": -390.0,
+        "y": 0.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "GCALDD"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_GCALDD",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "gcald_c": -1,
+          "glyclt_c": 1
+        }
+      },
+      {
+        "id": "gcald_c",
+        "name": "gcald_c",
+        "class": "gcald_c",
+        "index": 20,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -486.0,
+        "fy": -64.0,
+        "x": -486.0,
+        "y": -64.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "gcald",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_gcald_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "PFK_3",
+        "name": "Phosphofructokinase (s7p)",
+        "class": "PFK_3",
+        "index": 21,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -390.0,
+        "fy": 190.0,
+        "x": -390.0,
+        "y": 190.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "PFK",
+          "3"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_PFK_3",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "s7p_c": -1,
+          "s17bp_c": 1
+        }
+      },
+      {
+        "id": "s7p_c",
+        "name": "s7p_c",
+        "class": "s7p_c",
+        "index": 22,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -486.0,
+        "fy": 126.0,
+        "x": -486.0,
+        "y": 126.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "s7p",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_s7p_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "s17bp_c",
+        "name": "s17bp_c",
+        "class": "s17bp_c",
+        "index": 23,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -294.0,
+        "fy": 126.0,
+        "x": -294.0,
+        "y": 126.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "s17bp",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_s17bp_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      }
+    ],
+    "links": [
+      {
+        "index": 0,
+        "source": {
+          "index": 1
+        },
+        "target": {
+          "index": 0
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 1,
+        "source": {
+          "index": 0
+        },
+        "target": {
+          "index": 2
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 2,
+        "source": {
+          "index": 0
+        },
+        "target": {
+          "index": 3
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 3,
+        "source": {
+          "index": 5
+        },
+        "target": {
+          "index": 4
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 4,
+        "source": {
+          "index": 4
+        },
+        "target": {
+          "index": 6
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 5,
+        "source": {
+          "index": 8
+        },
+        "target": {
+          "index": 7
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 6,
+        "source": {
+          "index": 7
+        },
+        "target": {
+          "index": 9
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 7,
+        "source": {
+          "index": 11
+        },
+        "target": {
+          "index": 10
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 8,
+        "source": {
+          "index": 10
+        },
+        "target": {
+          "index": 12
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 9,
+        "source": {
+          "index": 14
+        },
+        "target": {
+          "index": 13
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 10,
+        "source": {
+          "index": 13
+        },
+        "target": {
+          "index": 8
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 11,
+        "source": {
+          "index": 16
+        },
+        "target": {
+          "index": 15
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 12,
+        "source": {
+          "index": 15
+        },
+        "target": {
+          "index": 6
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 13,
+        "source": {
+          "index": 18
+        },
+        "target": {
+          "index": 17
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 14,
+        "source": {
+          "index": 17
+        },
+        "target": {
+          "index": 1
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 15,
+        "source": {
+          "index": 20
+        },
+        "target": {
+          "index": 19
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 16,
+        "source": {
+          "index": 19
+        },
+        "target": {
+          "index": 1
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 17,
+        "source": {
+          "index": 22
+        },
+        "target": {
+          "index": 21
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 18,
+        "source": {
+          "index": 21
+        },
+        "target": {
+          "index": 23
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      }
+    ],
+    "suspended": [],
+    "text": [],
+    "shapes": []
+  },
+  "selected": [],
+  "count": 0,
+  "currentparsed": "baseline_gem__all",
+  "backups": [],
+  "rxncolorbreaks": [
+    -1,
+    0,
+    1
+  ],
+  "rxncolor": [
+    [
+      37,
+      99,
+      235
+    ],
+    [
+      148,
+      163,
+      184
+    ],
+    [
+      249,
+      115,
+      22
+    ]
+  ],
+  "metcolorbreaks": [
+    0,
+    1
+  ],
+  "metcolor": [
+    [
+      100,
+      116,
+      139
+    ],
+    [
+      20,
+      184,
+      166
+    ]
+  ],
+  "backupgraph": [],
+  "backupgraphcount": -1,
+  "backupparsing": false,
+  "fluxobj": {},
+  "concobj": {},
+  "sizerxnobj": {
+    "ttls": [
+      "Omics-GEM overlay size"
+    ],
+    "GLYCTO1": [
+      1.0
+    ],
+    "GAPD": [
+      1.0
+    ],
+    "PFK": [
+      1.0
+    ],
+    "PFK_2": [
+      1.0
+    ],
+    "PGI": [
+      1.0
+    ],
+    "PGK": [
+      1.0
+    ],
+    "PGLYCP": [
+      1.0
+    ],
+    "GCALDD": [
+      1.0
+    ],
+    "PFK_3": [
+      1.0
+    ]
+  },
+  "sizemetobj": {},
+  "linkwidthobj": {},
+  "textsts": [
+    "class",
+    "name",
+    "subsystem",
+    "compartment",
+    "#64748b",
+    "#2563eb",
+    "#94a3b8",
+    "#f97316",
+    "#94a3b8",
+    "#0f766e",
+    "#cbd5e1",
+    "name",
+    "class",
+    "class",
+    "#2563eb",
+    "#64748b",
+    "#64748b"
+  ],
+  "numsts": [
+    5,
+    14,
+    1,
+    1,
+    30,
+    0,
+    30,
+    0.4,
+    0.02,
+    0.1,
+    3,
+    0,
+    40,
+    4,
+    1,
+    2,
+    1,
+    5,
+    2,
+    1,
+    5,
+    1,
+    0,
+    5
+  ],
+  "checksts": [
+    true,
+    true,
+    false,
+    true,
+    false,
+    false
+  ]
+}

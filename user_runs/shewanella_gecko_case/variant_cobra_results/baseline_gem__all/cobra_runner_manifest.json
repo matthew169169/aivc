@@ -1,0 +1,32 @@
+{
+  "cobra_available": true,
+  "status": "completed",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "exchange_bounds_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\exchange_bounds.csv",
+  "flux_targets_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\flux_validation_targets.csv",
+  "condition_count": 1,
+  "conditions": [
+    "default"
+  ],
+  "run_pfba": true,
+  "run_fva": false,
+  "fva_fraction_of_optimum": 0.95,
+  "objective_reaction_id": "",
+  "objective_direction": "max",
+  "fva_reaction_scope": "targets",
+  "loopless": false,
+  "pfba_factor": "",
+  "fva_processes": 1,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\fba_summary.csv",
+    "predicted_fluxes": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\predicted_fluxes.csv",
+    "flux_validation": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\flux_validation_comparison.csv",
+    "flux_validation_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\flux_validation_summary.csv",
+    "pfba_fluxes": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\pfba_fluxes.csv",
+    "pfba_validation": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\pfba_validation_comparison.csv",
+    "pfba_validation_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\pfba_validation_summary.csv",
+    "target_fva": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\target_fva.csv",
+    "target_fva_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\target_fva_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\variant_cobra_results\\baseline_gem__all\\cobra_runner_manifest.json"
+  }
+}

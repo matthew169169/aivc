@@ -1,0 +1,7 @@
+chart_id,status,row_count,guidance
+qc_matrix,ready,5,Traffic-light matrix for model fairness and construction readiness.
+condition_exchange_bars,ready,28,"Grouped bars for growth objective, oxygen, CO2, and byproduct flux metrics."
+pathway_flux_delta,missing,0,Top pathway flux delta chart for highO2 versus lowO2 oxygen conditions.
+enzyme_allocation,ready,2,GECKO/proteome allocation chart remains independent of conventional GEM structural diff.
+enzyme_pathway_allocation,ready,40,Pathway-level enzyme resource distribution uses reaction-level capacity when available; otherwise kcat/proteomics pathway coverage proxy.
+sensitivity_strip,partial,13,Sensitivity strip shows available/planned/not_available states without implying full-model scans were run.

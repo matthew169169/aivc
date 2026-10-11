@@ -1,0 +1,3 @@
+condition,cluster_id,pc1,pc2,distance_to_centroid,method,sample_status,status
+highO2,cluster_2,48.558688,-0.103363,0.0,kmeans_on_pca,low_n_exploratory,exploratory_cluster
+lowO2,cluster_1,-48.559576,-0.103361,0.0,kmeans_on_pca,low_n_exploratory,exploratory_cluster

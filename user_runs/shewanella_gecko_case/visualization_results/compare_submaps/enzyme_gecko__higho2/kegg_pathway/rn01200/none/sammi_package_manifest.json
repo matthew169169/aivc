@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none",
+  "variant_id": "enzyme_gecko__higho2",
+  "generation_method": "enzyme_gecko",
+  "generation_status": "staged",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "overlay_status": "not_selected",
+  "reaction_count": 87,
+  "group_count": 1,
+  "overlay_count": 0,
+  "overlay_summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 0,
+  "overlay_unmatched_reaction_count": 0,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "overlay_not_selected",
+  "overlay_source_file": "",
+  "overlay_source_status": "not_selected",
+  "top_highlighted_reactions": "",
+  "warning_reactions": "",
+  "selected_reaction_count": 348,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R00009;R00149;R00199;R00200;R00209;R00214;R00216;R00220;R00230;R00235;R00238;R00248;R00258;R00267;R00315;R00341;R00342;R00345;R00351;R00354;R00355;R00369;R00405;R00409;R00472;R00475;R00479;R00519;R00527;R00582;R00586;R00658;R00705;R00709;R00740;R00762;R00897;R00931;R00943;R00945;R01015;R01049;R01056;R01061;R01063;R01067;R01068;R01082;R01171;R01175;R01220;R01221;R01324;R01334;R01512;R01513;R01514;R01518;R01523;R01528;R01529;R01641;R01655;R01829;R01845;R01975;R01977;R02035;R02036;R02736;R03026;R03045;R03158;R03425;R03815;R04125;R04173;R04424;R04425;R05076;R05605;R06982;R06983;R07168;R08549;R08575;R10221;R_rxn00006_c0;R_rxn00113_c0;R_rxn00147_c0;R_rxn00148_c0;R_rxn00154_c0;R_rxn00159_c0;R_rxn00161_c0;R_rxn00165_c0;R_rxn00173_c0;R_rxn00175_c0;R_rxn00178_c0;R_rxn00184_c0;R_rxn00191_c0;R_rxn00198_c0;R_rxn00225_c0;R_rxn00247_c0;R_rxn00248_c0;R_rxn00251_c0;R_rxn00256_c0;R_rxn00259_c0;R_rxn00260_c0;R_rxn00272_c0;R_rxn00285_c0;R_rxn00289_c0;R_rxn00330_c0;R_rxn00333_c0;R_rxn00336_c0;R_rxn00371_c0;R_rxn00377_c0;R_rxn00420_c0;R_rxn00423_c0;R_rxn00459_c0;R_rxn00501_c0;R_rxn00505_c0;R_rxn00532_c0;R_rxn00549_c0;R_rxn00649_c0;R_rxn00679_c0;R_rxn00690_c0;R_rxn00692_c0;R_rxn00747_c0;R_rxn00770_c0;R_rxn00777_c0;R_rxn00781_c0;R_rxn00782_c0;R_rxn00785_c0;R_rxn00786_c0;R_rxn00799_c0;R_rxn00868_c0;R_rxn00872_c0;R_rxn00907_c0;R_rxn00908_c0;R_rxn00973_c0;R_rxn00980_c0;R_rxn01100_c0;R_rxn01101_c0;R_rxn01102_c0;R_rxn01106_c0;R_rxn01111_c0;R_rxn01115_c0;R_rxn01116_c0;R_rxn01200_c0;R_rxn01211_c0;R_rxn01333_c0;R_rxn01334_c0;R_rxn01345_c0;R_rxn01451_c0;R_rxn01453_c0;R_rxn01476_c0;R_rxn01477_c0;R_rxn01975_c0;R_rxn02167_c0;R_rxn02181_c0;R_rxn02261_c0;R_rxn02914_c0;R_rxn03060_c0;R_rxn03061_c0;R_rxn03440_c0;R_rxn03884_c0;R_rxn04791_c0;R_rxn04792_c0;R_rxn04954_c0;R_rxn06377_c0;R_rxn06493_c0;R_rxn06600_c0;R_rxn08094_c0;R_rxn11040_c0;rxn00006_c0;rxn00113_c0;rxn00147_c0;rxn00148_c0;rxn00154_c0;rxn00159_c0;rxn00161_c0;rxn00165_c0;rxn00173_c0;rxn00175_c0;rxn00178_c0;rxn00184_c0;rxn00191_c0;rxn00198_c0;rxn00225_c0;rxn00247_c0;rxn00248_c0;rxn00251_c0;rxn00256_c0;rxn00259_c0;rxn00260_c0;rxn00272_c0;rxn00285_c0;rxn00289_c0;rxn00330_c0;rxn00333_c0;rxn00336_c0;rxn00371_c0;rxn00377_c0;rxn00420_c0;rxn00423_c0;rxn00459_c0;rxn00501_c0;rxn00505_c0;rxn00532_c0;rxn00549_c0;rxn00649_c0;rxn00679_c0;rxn00690_c0;rxn00692_c0;rxn00747_c0;rxn00770_c0;rxn00777_c0;rxn00781_c0;rxn00782_c0;rxn00785_c0;rxn00786_c0;rxn00799_c0;rxn00868_c0;rxn00872_c0;rxn00907_c0;rxn00908_c0;rxn00973_c0;rxn00980_c0;rxn01100_c0;rxn01101_c0;rxn01102_c0;rxn01106_c0;rxn01111_c0;rxn01115_c0;rxn01116_c0;rxn01200_c0;rxn01211_c0;rxn01333_c0;rxn01334_c0;rxn01345_c0;rxn01451_c0;rxn01453_c0;rxn01476_c0;rxn01477_c0;rxn01975_c0;rxn02167_c0;rxn02181_c0;rxn02261_c0;rxn02914_c0;rxn03060_c0;rxn03061_c0;rxn03440_c0;rxn03884_c0;rxn04791_c0;rxn04792_c0;rxn04954_c0;rxn06377_c0;rxn06493_c0;rxn06600_c0;rxn08094_c0;rxn11040_c0",
+  "filter_matched_reaction_ids": "R_rxn00006_c0;R_rxn00113_c0;R_rxn00147_c0;R_rxn00148_c0;R_rxn00154_c0;R_rxn00159_c0;R_rxn00161_c0;R_rxn00165_c0;R_rxn00173_c0;R_rxn00175_c0;R_rxn00178_c0;R_rxn00184_c0;R_rxn00191_c0;R_rxn00198_c0;R_rxn00225_c0;R_rxn00247_c0;R_rxn00248_c0;R_rxn00251_c0;R_rxn00256_c0;R_rxn00259_c0;R_rxn00260_c0;R_rxn00272_c0;R_rxn00285_c0;R_rxn00289_c0;R_rxn00330_c0;R_rxn00333_c0;R_rxn00336_c0;R_rxn00371_c0;R_rxn00377_c0;R_rxn00420_c0;R_rxn00423_c0;R_rxn00459_c0;R_rxn00501_c0;R_rxn00505_c0;R_rxn00532_c0;R_rxn00549_c0;R_rxn00649_c0;R_rxn00679_c0;R_rxn00690_c0;R_rxn00692_c0;R_rxn00747_c0;R_rxn00770_c0;R_rxn00777_c0;R_rxn00781_c0;R_rxn00782_c0;R_rxn00785_c0;R_rxn00786_c0;R_rxn00799_c0;R_rxn00868_c0;R_rxn00872_c0;R_rxn00907_c0;R_rxn00908_c0;R_rxn00973_c0;R_rxn00980_c0;R_rxn01100_c0;R_rxn01101_c0;R_rxn01102_c0;R_rxn01106_c0;R_rxn01111_c0;R_rxn01115_c0;R_rxn01116_c0;R_rxn01200_c0;R_rxn01211_c0;R_rxn01333_c0;R_rxn01334_c0;R_rxn01345_c0;R_rxn01451_c0;R_rxn01453_c0;R_rxn01476_c0;R_rxn01477_c0;R_rxn01975_c0;R_rxn02167_c0;R_rxn02181_c0;R_rxn02261_c0;R_rxn02914_c0;R_rxn03060_c0;R_rxn03061_c0;R_rxn03440_c0;R_rxn03884_c0;R_rxn04791_c0;R_rxn04792_c0;R_rxn04954_c0;R_rxn06377_c0;R_rxn06493_c0;R_rxn06600_c0;R_rxn08094_c0;R_rxn11040_c0",
+  "filter_missing_reaction_ids": "R00009;R00149;R00199;R00200;R00209;R00214;R00216;R00220;R00230;R00235;R00238;R00248;R00258;R00267;R00315;R00341;R00342;R00345;R00351;R00354;R00355;R00369;R00405;R00409;R00472;R00475;R00479;R00519;R00527;R00582;R00586;R00658;R00705;R00709;R00740;R00762;R00897;R00931;R00943;R00945;R01015;R01049;R01056;R01061;R01063;R01067;R01068;R01082;R01171;R01175;R01220;R01221;R01324;R01334;R01512;R01513;R01514;R01518;R01523;R01528;R01529;R01641;R01655;R01829;R01845;R01975;R01977;R02035;R02036;R02736;R03026;R03045;R03158;R03425;R03815;R04125;R04173;R04424;R04425;R05076;R05605;R06982;R06983;R07168;R08549;R08575;R10221",
+  "filter_suggested_reactions": "R_rxn00423_c0;R_rxn00247_c0;R_rxn00973_c0;R_rxn00501_c0;R_rxn04792_c0;R_rxn00165_c0;R_rxn06493_c0;R_rxn00649_c0",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01200\\none\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

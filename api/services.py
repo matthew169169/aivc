@@ -25,6 +25,7 @@ from pathlib import Path
 from typing import Any, Callable, Iterable
 
 from omics_router.local_config import apply_local_backend_env, load_local_backend_config, save_local_backend_config
+from omics_router.constraints import relocate_package_path
 from omics_router.gecko_adapter import build_gecko_adapter_files, run_gecko_adapter_probe
 from omics_router.gecko_runner import run_shewanella_gecko_external_workflow, validate_gecko_package
 from omics_router.ml_hybrid_profile import (
@@ -1448,7 +1449,12 @@ def backend_environment_readiness() -> dict[str, Any]:
     python_found = Path(sys.executable).exists()
     venv_exists = venv_python.exists()
     requirements_installed = not missing_required
-    if not python_found or not venv_exists:
+    # Server deployments (Render/Docker/local run_local.py) use the current
+    # interpreter as the runtime; there is no project-local .venv by design.
+    # Treat such an interpreter as the environment when it satisfies
+    # requirements.txt, instead of reporting a missing desktop environment.
+    runtime_self_sufficient = bool(python_found and requirements_installed)
+    if not python_found or (not venv_exists and not runtime_self_sufficient):
         status = "missing_environment"
         recommendation = "Create or repair the project-local .venv before starting the desktop backend."
     elif not requirements_installed:
@@ -3282,6 +3288,9 @@ def _variant_model_path(package: Path, row: dict[str, str]) -> Path | None:
         value = str(row.get(key) or "").strip()
         if not value:
             continue
+        relocated = relocate_package_path(package, value)
+        if relocated is not None:
+            return relocated
         candidate = Path(value)
         if not candidate.is_absolute():
             candidate = package / value

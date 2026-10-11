@@ -1,0 +1,5 @@
+source,condition_count,feature_count,value_count,status
+ALL,2,8919,33183,available
+eflux_flux,2,2094,4188,available
+relative_proteomics_gene,1,2391,2391,available
+transcriptomics_gene,2,4434,26604,available

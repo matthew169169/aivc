@@ -1,0 +1,1 @@
+D:\Matlab\bin\matlab.EXE -batch "run('D:\generate\user_runs\shewanella_gecko_case\gecko_package\shewanella_gecko_external_protocol.m')"

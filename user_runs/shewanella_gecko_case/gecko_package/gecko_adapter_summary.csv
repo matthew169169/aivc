@@ -1,0 +1,17 @@
+parameter,value
+ec_model_mode,full_ecModel
+adapter_class_name,ShewanellaGeckoAdapter
+model_id,iLJ1162_shewanella
+organism_name,shewanella oneidensis
+bio_rxn,bio1
+c_source,EX_cpd00159_e0
+enzyme_comp,c0
+sigma,0.5
+Ptot,0.48
+f,0.5
+gR_exp,0.15
+kegg_id,son
+uniprot_type,proteome
+uniprot_id,UP000008186
+uniprot_reviewed,False
+proteomics_integration,True

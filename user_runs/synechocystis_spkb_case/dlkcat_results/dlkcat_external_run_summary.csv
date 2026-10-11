@@ -1,0 +1,2 @@
+status,message,input_status,input_query_count,ready_query_count,matlab_path,gecko_home,gecko_home_exists,docker_path,return_code,timeout_seconds
+skipped,External GECKO/DLKcat execution is disabled; staged input only.,not_ready,3594,0,D:\Matlab\bin\matlab.EXE,,False,C:\Program Files\Docker\Docker\resources\bin\docker.EXE,,7200

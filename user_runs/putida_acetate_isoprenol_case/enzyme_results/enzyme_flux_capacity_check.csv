@@ -1,0 +1,2236 @@
+condition,reaction_id,cobra_reaction_id,predicted_flux,enzyme_capacity_mmol_per_gDW_per_h,usage_fraction,status
+Acetate,R_34HPPOR,34HPPOR,,835.2119312385207,,no_flux
+Acetate,R_3HAD100,3HAD100,,8649.565579951777,,no_flux
+Acetate,R_3HAD120,3HAD120,,8649.565579951777,,no_flux
+Acetate,R_3HAD140,3HAD140,,8649.565579951777,,no_flux
+Acetate,R_3HAD160,3HAD160,,8649.565579951777,,no_flux
+Acetate,R_3HAD60,3HAD60,,8649.565579951777,,no_flux
+Acetate,R_3HAD80,3HAD80,,8649.565579951777,,no_flux
+Acetate,R_3HBCOAHL,3HBCOAHL,,,,no_capacity
+Acetate,R_3HLYTCL,3HLYTCL,,,,no_capacity
+Acetate,R_3MBZALDH,3MBZALDH,,,,no_capacity
+Acetate,R_3MBZDH,3MBZDH,,,,no_capacity
+Acetate,R_3MCAT23DOX,3MCAT23DOX,,,,no_capacity
+Acetate,R_3OAR100,3OAR100,,99048.69754954561,,no_flux
+Acetate,R_3OAR120,3OAR120,,99048.69754954561,,no_flux
+Acetate,R_3OAR121,3OAR121,,99048.69754954561,,no_flux
+Acetate,R_3OAR140,3OAR140,,99048.69754954561,,no_flux
+Acetate,R_3OAR141,3OAR141,,99048.69754954561,,no_flux
+Acetate,R_3OAR160,3OAR160,,99048.69754954561,,no_flux
+Acetate,R_3OAR161,3OAR161,,99048.69754954561,,no_flux
+Acetate,R_3OAR180,3OAR180,,99048.69754954561,,no_flux
+Acetate,R_3OAR181,3OAR181,,99048.69754954561,,no_flux
+Acetate,R_3OAR40,3OAR40,,99048.69754954561,,no_flux
+Acetate,R_3OAR60,3OAR60,,99048.69754954561,,no_flux
+Acetate,R_3OAR80,3OAR80,,99048.69754954561,,no_flux
+Acetate,R_3OAS121,3OAS121,,229364.21355782822,,no_flux
+Acetate,R_3OAS141,3OAS141,,229364.21355782822,,no_flux
+Acetate,R_3OAS161,3OAS161,,229364.21355782822,,no_flux
+Acetate,R_3OAS180,3OAS180,,229364.21355782822,,no_flux
+Acetate,R_3OAS181,3OAS181,,19.564642535785712,,no_flux
+Acetate,R_3OXCOAT,3OXCOAT,,,,no_capacity
+Acetate,R_4CMCOAS,4CMCOAS,,,,no_capacity
+Acetate,R_4HBHYOX,4HBHYOX,,,,no_capacity
+Acetate,R_4HTHRS,4HTHRS,,1401890.473984384,,no_flux
+Acetate,R_4MBZALDH,4MBZALDH,,,,no_capacity
+Acetate,R_4MBZDH,4MBZDH,,,,no_capacity
+Acetate,R_4MCAT23DOX,4MCAT23DOX,,,,no_capacity
+Acetate,R_4OD2,4OD2,,,,no_capacity
+Acetate,R_4OT,4OT,,,,no_capacity
+Acetate,R_4OT2,4OT2,,,,no_capacity
+Acetate,R_A5PISO,A5PISO,,30598.5431813136,,no_flux
+Acetate,R_AACTOOR,AACTOOR,,,,no_capacity
+Acetate,R_AADSACYCL,AADSACYCL,,,,no_capacity
+Acetate,R_AASAD3,AASAD3,,7071.05223341424,,no_flux
+Acetate,R_ABTA,ABTA,,,,no_capacity
+Acetate,R_ABUTD,ABUTD,,42.219175009927426,,no_flux
+Acetate,R_ACACT1r,ACACT1r,,754959211.4904519,,no_flux
+Acetate,R_ACALD,ACALD,,,,no_capacity
+Acetate,R_ACBIPGT,ACBIPGT,,,,no_capacity
+Acetate,R_ACCOAC,ACCOAC,,7008.807711256683,,no_flux
+Acetate,R_ACGK,ACGK,,48219.685818779595,,no_flux
+Acetate,R_ACGS,ACGS,,85.41850472590471,,no_flux
+Acetate,R_ACHBS,ACHBS,,,,no_capacity
+Acetate,R_ACLS,ACLS,,20907.746874655386,,no_flux
+Acetate,R_ACOAD1f,ACOAD1f,,295.8105150668834,,no_flux
+Acetate,R_ACOAD3f,ACOAD3f,,9601.839440373244,,no_flux
+Acetate,R_ACOAD5f,ACOAD5f,,9601.839440373244,,no_flux
+Acetate,R_ACOAD6f,ACOAD6f,,9601.839440373244,,no_flux
+Acetate,R_ACOAD7f,ACOAD7f,,19834.10315545686,,no_flux
+Acetate,R_ACOATA,ACOATA,,229364.21355782822,,no_flux
+Acetate,R_ACODA,ACODA,,3422732.749916198,,no_flux
+Acetate,R_ACONTa,ACONTa,,18280.361461761087,,no_flux
+Acetate,R_ACONTb,ACONTb,,18280.361461761087,,no_flux
+Acetate,R_ACOTA,ACOTA,,,,no_capacity
+Acetate,R_ACPS1,ACPS1,,,,no_capacity
+Acetate,R_ACS,ACS,,126126.47572363883,,no_flux
+Acetate,R_ACS2,ACS2,,9588.65899731009,,no_flux
+Acetate,R_ADA,ADA,,9143.455837257048,,no_flux
+Acetate,R_ADCS,ADCS,,4.503925447300304,,no_flux
+Acetate,R_ADCYRS,ADCYRS,,,,no_capacity
+Acetate,R_ADD,ADD,,863.5486068520544,,no_flux
+Acetate,R_ADK1,ADK1,,148990.6905012271,,no_flux
+Acetate,R_ADK3,ADK3,,84701.92751633149,,no_flux
+Acetate,R_ADNCYC,ADNCYC,,,,no_capacity
+Acetate,R_ADNK1,ADNK1,,13264321.849057512,,no_flux
+Acetate,R_ADNUC,ADNUC,,,,no_capacity
+Acetate,R_ADOCBIK,ADOCBIK,,,,no_capacity
+Acetate,R_ADOCBLS,ADOCBLS,,,,no_capacity
+Acetate,R_ADPRDP,ADPRDP,,9546.798507508367,,no_flux
+Acetate,R_ADPT,ADPT,,5178.77809685059,,no_flux
+Acetate,R_ADSELK,ADSELK,,51015.88178283929,,no_flux
+Acetate,R_ADSK,ADSK,,51015.88178283929,,no_flux
+Acetate,R_ADSL1r,ADSL1r,,2075.6450489975114,,no_flux
+Acetate,R_ADSL2r,ADSL2r,,2075.6450489975114,,no_flux
+Acetate,R_ADSS,ADSS,,3866.192709870629,,no_flux
+Acetate,R_AGMDA,AGMDA,,631.9455055255883,,no_flux
+Acetate,R_AGMT,AGMT,,,,no_capacity
+Acetate,R_AGPOP,AGPOP,,939839.984588008,,no_flux
+Acetate,R_AHCi,AHCi,,,,no_capacity
+Acetate,R_AIRC2,AIRC2,,3893.078651630143,,no_flux
+Acetate,R_AIRC3,AIRC3,,3872.3036626704748,,no_flux
+Acetate,R_AKGDH,AKGDH,,1382526.077755093,,no_flux
+Acetate,R_ALAALAr,ALAALAr,,2320.1236214000724,,no_flux
+Acetate,R_ALAR,ALAR,,381.24109496408465,,no_flux
+Acetate,R_ALATA_L,ALATA_L,,689.1306986894141,,no_flux
+Acetate,R_ALATRS,ALATRS,,47295.92827129897,,no_flux
+Acetate,R_ALCD19,ALCD19,,282191.6286976204,,no_flux
+Acetate,R_ALCD2x,ALCD2x,,5199.184879944222,,no_flux
+Acetate,R_ALDD19xr,ALDD19xr,,1380.6961803988418,,no_flux
+Acetate,R_ALDD20x,ALDD20x,,145.3392974871203,,no_flux
+Acetate,R_ALDD2x,ALDD2x,,145.3392974871203,,no_flux
+Acetate,R_ALDD2y,ALDD2y,,,,no_capacity
+Acetate,R_ALLTAMH,ALLTAMH,,7629.5395705654355,,no_flux
+Acetate,R_ALLTN,ALLTN,,,,no_capacity
+Acetate,R_AMALT1,AMALT1,,173542.77428128303,,no_flux
+Acetate,R_AMAOTr,AMAOTr,,64.95466937298059,,no_flux
+Acetate,R_AMID4,AMID4,,,,no_capacity
+Acetate,R_AMPN,AMPN,,12656.636146365847,,no_flux
+Acetate,R_AMPTASECG,AMPTASECG,,19690047.124238778,,no_flux
+Acetate,R_ANPRT,ANPRT,,710.1129883095559,,no_flux
+Acetate,R_ANS,ANS,,93064.09060560881,,no_flux
+Acetate,R_ANS2,ANS2,,93064.09060560881,,no_flux
+Acetate,R_AOBUTDs,AOBUTDs,,,,no_capacity
+Acetate,R_AOXSr2,AOXSr2,,22.843886724607696,,no_flux
+Acetate,R_AP4AH,AP4AH,,8471.810438069435,,no_flux
+Acetate,R_APPAT,APPAT,,1290.7228246393104,,no_flux
+Acetate,R_APPLDHr,APPLDHr,,,,no_capacity
+Acetate,R_APSR,APSR,,543.6321242974861,,no_flux
+Acetate,R_ARGDC,ARGDC,,1907.573974220515,,no_flux
+Acetate,R_ARGDCpp,ARGDCpp,,1907.573974220515,,no_flux
+Acetate,R_ARGDI,ARGDI,,14269.79055800074,,no_flux
+Acetate,R_ARGDr,ARGDr,,14269.79055800074,,no_flux
+Acetate,R_ARGSL,ARGSL,,797264.3966123369,,no_flux
+Acetate,R_ARGTRS,ARGTRS,,6775.294096309108,,no_flux
+Acetate,R_AROH,AROH,,421525.50108659215,,no_flux
+Acetate,R_ARUH,ARUH,,,,no_capacity
+Acetate,R_ASAD,ASAD,,51442.69100373599,,no_flux
+Acetate,R_ASNN,ASNN,,,,no_capacity
+Acetate,R_ASNNpp,ASNNpp,,4002003.720897764,,no_flux
+Acetate,R_ASNS1,ASNS1,,,,no_capacity
+Acetate,R_ASPCT,ASPCT,,94308.55207884317,,no_flux
+Acetate,R_ASPK,ASPK,,116447.7423307849,,no_flux
+Acetate,R_ASPO1,ASPO1,,1154.1110968219937,,no_flux
+Acetate,R_ASPO6,ASPO6,,1154.1110968219937,,no_flux
+Acetate,R_ASPT,ASPT,,46819.68398188561,,no_flux
+Acetate,R_ASPTA,ASPTA,,,,no_capacity
+Acetate,R_ASPTRS,ASPTRS,,10383.861455465576,,no_flux
+Acetate,R_ASR,ASR,,,,no_capacity
+Acetate,R_ATHRDHr,ATHRDHr,,8603.548579802462,,no_flux
+Acetate,R_ATPM,ATPM,,,,no_capacity
+Acetate,R_ATPPRT,ATPPRT,,758.8906329498394,,no_flux
+Acetate,R_ATPS4rpp,ATPS4rpp,,61594.953731548936,,no_flux
+Acetate,R_BACCL,BACCL,,,,no_capacity
+Acetate,R_BDH,BDH,,,,no_capacity
+Acetate,R_BETALDHx,BETALDHx,,6543.88543540896,,no_flux
+Acetate,R_BETALDHy,BETALDHy,,6543.88543540896,,no_flux
+Acetate,R_BPNT,BPNT,,215.67722939753045,,no_flux
+Acetate,R_BTDD_RR,BTDD_RR,,,,no_capacity
+Acetate,R_BZ12DOX,BZ12DOX,,,,no_capacity
+Acetate,R_BZALDH,BZALDH,,,,no_capacity
+Acetate,R_BZDH,BZDH,,,,no_capacity
+Acetate,R_CA2tex,CA2tex,,,,no_capacity
+Acetate,R_CAFFCOA,CAFFCOA,,,,no_capacity
+Acetate,R_CAT,CAT,,2400821241.1657133,,no_flux
+Acetate,R_CAT23DOX,CAT23DOX,,,,no_capacity
+Acetate,R_CATDOX,CATDOX,,110.55089734282564,,no_flux
+Acetate,R_CBIAT,CBIAT,,,,no_capacity
+Acetate,R_CBIuabcpp,CBIuabcpp,,,,no_capacity
+Acetate,R_CBL1abcpp,CBL1abcpp,,,,no_capacity
+Acetate,R_CBLAT,CBLAT,,,,no_capacity
+Acetate,R_CBMKr,CBMKr,,181148.61162125025,,no_flux
+Acetate,R_CBPS,CBPS,,1097323.8800605882,,no_flux
+Acetate,R_CDGR,CDGR,,0.37573598573252326,,no_flux
+Acetate,R_CDGS,CDGS,,,,no_capacity
+Acetate,R_CFAS160E,CFAS160E,,35208.38789985498,,no_flux
+Acetate,R_CFAS160G,CFAS160G,,35208.38789985498,,no_flux
+Acetate,R_CFAS180E,CFAS180E,,,,no_capacity
+Acetate,R_CFAS180G,CFAS180G,,,,no_capacity
+Acetate,R_CHLP,CHLP,,,,no_capacity
+Acetate,R_CHOLD,CHOLD,,,,no_capacity
+Acetate,R_CHORM,CHORM,,79854209.83317429,,no_flux
+Acetate,R_CHORS,CHORS,,98.07680186316344,,no_flux
+Acetate,R_CHRPL,CHRPL,,,,no_capacity
+Acetate,R_CPPPGO,CPPPGO,,971.7703221271789,,no_flux
+Acetate,R_CPPPGO2,CPPPGO2,,102561.28002368758,,no_flux
+Acetate,R_CS,CS,,4914861.607339153,,no_flux
+Acetate,R_CSND,CSND,,24598.318384433307,,no_flux
+Acetate,R_CSPMDDC,CSPMDDC,,2248.13484368925,,no_flux
+Acetate,R_CTECOAI6,CTECOAI6,,71904.79204557465,,no_flux
+Acetate,R_CTECOAI7,CTECOAI7,,71904.79204557465,,no_flux
+Acetate,R_CTECOAI8,CTECOAI8,,71904.79204557465,,no_flux
+Acetate,R_CTPS1,CTPS1,,4333.288048679646,,no_flux
+Acetate,R_CTPS2,CTPS2,,4333.288048679646,,no_flux
+Acetate,R_CYANST,CYANST,,42971.129454717906,,no_flux
+Acetate,R_CYRDAAT,CYRDAAT,,,,no_capacity
+Acetate,R_CYSDS,CYSDS,,,,no_capacity
+Acetate,R_CYSS,CYSS,,3868879.3750097924,,no_flux
+Acetate,R_CYSSADS,CYSSADS,,96.47629898078367,,no_flux
+Acetate,R_CYSTGL,CYSTGL,,761.776478924312,,no_flux
+Acetate,R_CYSTL,CYSTL,,,,no_capacity
+Acetate,R_CYSTRS,CYSTRS,,1583.6284589615939,,no_flux
+Acetate,R_CYSTS,CYSTS,,1306.065579558263,,no_flux
+Acetate,R_CYTDH,CYTDH,,,,no_capacity
+Acetate,R_CYTK1,CYTK1,,14208.54517818732,,no_flux
+Acetate,R_CYTK2,CYTK2,,14208.54517818732,,no_flux
+Acetate,R_CYTOM,CYTOM,,1.8578164064951592,,no_flux
+Acetate,R_DADA,DADA,,9143.455837257048,,no_flux
+Acetate,R_DADK,DADK,,148990.6905012271,,no_flux
+Acetate,R_DAGK160,DAGK160,,,,no_capacity
+Acetate,R_DAPDC,DAPDC,,,,no_capacity
+Acetate,R_DAPE,DAPE,,6750.379886530443,,no_flux
+Acetate,R_DASYN120,DASYN120,,,,no_capacity
+Acetate,R_DASYN140,DASYN140,,,,no_capacity
+Acetate,R_DASYN141,DASYN141,,,,no_capacity
+Acetate,R_DASYN160,DASYN160,,,,no_capacity
+Acetate,R_DASYN161,DASYN161,,,,no_capacity
+Acetate,R_DASYN180,DASYN180,,,,no_capacity
+Acetate,R_DASYN181,DASYN181,,,,no_capacity
+Acetate,R_DCTPD,DCTPD,,3333.667777691946,,no_flux
+Acetate,R_DCTPD2,DCTPD2,,3333.667777691946,,no_flux
+Acetate,R_DDGLK,DDGLK,,124.47212145266292,,no_flux
+Acetate,R_DDPA,DDPA,,9327.300007805388,,no_flux
+Acetate,R_DGK1,DGK1,,9455.314293149453,,no_flux
+Acetate,R_DHACOAH,DHACOAH,,,,no_capacity
+Acetate,R_DHAD1_copy1,DHAD1_copy1,,42229.1079158133,,no_flux
+Acetate,R_DHAD1_copy2,DHAD1_copy2,,42229.1079158133,,no_flux
+Acetate,R_DHAD2,DHAD2,,42229.1079158133,,no_flux
+Acetate,R_DHFR,DHFR,,,,no_capacity
+Acetate,R_DHFS,DHFS,,33.87469238311255,,no_flux
+Acetate,R_DHORDfum,DHORDfum,,33363.02642044921,,no_flux
+Acetate,R_DHORTS,DHORTS,,37540.84226359615,,no_flux
+Acetate,R_DHPM1,DHPM1,,,,no_capacity
+Acetate,R_DHPM2,DHPM2,,,,no_capacity
+Acetate,R_DHQS,DHQS,,5302342.721290594,,no_flux
+Acetate,R_DHQTi_copy1,DHQTi_copy1,,,,no_capacity
+Acetate,R_DHQTi_copy2,DHQTi_copy2,,,,no_capacity
+Acetate,R_DHSKDH,DHSKDH,,183.57618645522464,,no_flux
+Acetate,R_DMATT,DMATT,,59.48014380301435,,no_flux
+Acetate,R_DNTPPA,DNTPPA,,,,no_capacity
+Acetate,R_DPCOAK,DPCOAK,,0.09847218818870208,,no_flux
+Acetate,R_DPR,DPR,,5345.096811406014,,no_flux
+Acetate,R_DTMPK,DTMPK,,,,no_capacity
+Acetate,R_DURAD,DURAD,,254.3349661742291,,no_flux
+Acetate,R_DURAD2,DURAD2,,254.3349661742291,,no_flux
+Acetate,R_DUTPDP,DUTPDP,,40010079.20364428,,no_flux
+Acetate,R_DXPRIi,DXPRIi,,818.8182590606234,,no_flux
+Acetate,R_DXPS,DXPS,,6110.246782807495,,no_flux
+Acetate,R_E4PD,E4PD,,11171.80508247777,,no_flux
+Acetate,R_EAR121x,EAR121x,,,,no_capacity
+Acetate,R_EAR121y,EAR121y,,,,no_capacity
+Acetate,R_EAR141y,EAR141y,,,,no_capacity
+Acetate,R_EAR160y,EAR160y,,,,no_capacity
+Acetate,R_EAR161y,EAR161y,,,,no_capacity
+Acetate,R_EAR180y,EAR180y,,,,no_capacity
+Acetate,R_EAR181y,EAR181y,,,,no_capacity
+Acetate,R_ECOAH1,ECOAH1,,754600.8454116139,,no_flux
+Acetate,R_ECOAH12,ECOAH12,,,,no_capacity
+Acetate,R_ECOAH2,ECOAH2,,754600.8454116139,,no_flux
+Acetate,R_ECOAH3,ECOAH3,,754600.8454116139,,no_flux
+Acetate,R_ECOAH4,ECOAH4,,754600.8454116139,,no_flux
+Acetate,R_ECOAH5,ECOAH5,,754600.8454116139,,no_flux
+Acetate,R_ECOAH6,ECOAH6,,754600.8454116139,,no_flux
+Acetate,R_ECOAH7,ECOAH7,,754600.8454116139,,no_flux
+Acetate,R_ECOAH8,ECOAH8,,754600.8454116139,,no_flux
+Acetate,R_ECOAH9ir,ECOAH9ir,,,,no_capacity
+Acetate,R_EDA,EDA,,88752.44977958548,,no_flux
+Acetate,R_EGMEACPR,EGMEACPR,,,,no_capacity
+Acetate,R_ENO,ENO,,113546.63577871349,,no_flux
+Acetate,R_EPMEACPR,EPMEACPR,,,,no_capacity
+Acetate,R_ETHAAL,ETHAAL,,75469.86398111038,,no_flux
+Acetate,R_ETHP,ETHP,,,,no_capacity
+Acetate,R_EX_ca2_e,EX_ca2_e,,,,no_capacity
+Acetate,R_EX_oaa_e,EX_oaa_e,,,,no_capacity
+Acetate,R_FA140ACPHi,FA140ACPHi,,,,no_capacity
+Acetate,R_FA141ACPHi,FA141ACPHi,,,,no_capacity
+Acetate,R_FA160ACPHi,FA160ACPHi,,,,no_capacity
+Acetate,R_FA161ACPHi,FA161ACPHi,,,,no_capacity
+Acetate,R_FACOAE100,FACOAE100,,7521.810226808294,,no_flux
+Acetate,R_FACOAE120,FACOAE120,,7521.810226808294,,no_flux
+Acetate,R_FACOAE140,FACOAE140,,7521.810226808294,,no_flux
+Acetate,R_FACOAE160,FACOAE160,,7521.810226808294,,no_flux
+Acetate,R_FACOAE180,FACOAE180,,7521.810226808294,,no_flux
+Acetate,R_FACOAE1829Z12Z,FACOAE1829Z12Z,,7521.810226808294,,no_flux
+Acetate,R_FACOAL141,FACOAL141,,,,no_capacity
+Acetate,R_FACOAL160,FACOAL160,,,,no_capacity
+Acetate,R_FACOAL180,FACOAL180,,,,no_capacity
+Acetate,R_FACOAL1821,FACOAL1821,,,,no_capacity
+Acetate,R_FACOAL80,FACOAL80,,,,no_capacity
+Acetate,R_FALDH2,FALDH2,,6245574.910074387,,no_flux
+Acetate,R_FBA,FBA,,,,no_capacity
+Acetate,R_FBP,FBP,,30473.32537060755,,no_flux
+Acetate,R_FCLT,FCLT,,11.919428093300388,,no_flux
+Acetate,R_FDH,FDH,,429.5839907928715,,no_flux
+Acetate,R_FDMO,FDMO,,3.5212508042529955,,no_flux
+Acetate,R_FDMO2,FDMO2,,3.5212508042529955,,no_flux
+Acetate,R_FDMO4,FDMO4,,3.5212508042529955,,no_flux
+Acetate,R_FEROpp,FEROpp,,,,no_capacity
+Acetate,R_FERULCOAS,FERULCOAS,,,,no_capacity
+Acetate,R_FMETTRS,FMETTRS,,1321.3299660224552,,no_flux
+Acetate,R_FMNRx,FMNRx,,1112.4256800060982,,no_flux
+Acetate,R_FMNRx2_copy1,FMNRx2_copy1,,,,no_capacity
+Acetate,R_FMNRx2_copy2,FMNRx2_copy2,,2440.1595561424087,,no_flux
+Acetate,R_FOLD3,FOLD3,,9.319518687456103,,no_flux
+Acetate,R_FOMETRi,FOMETRi,,,,no_capacity
+Acetate,R_FTHFCL,FTHFCL,,673.5138147274936,,no_flux
+Acetate,R_FUM,FUM,,402857.05032802996,,no_flux
+Acetate,R_G1PACT,G1PACT,,166543.72603986572,,no_flux
+Acetate,R_G1PTT,G1PTT,,,,no_capacity
+Acetate,R_G1SAT,G1SAT,,176.85197233551887,,no_flux
+Acetate,R_G3PAT120,G3PAT120,,2.248487389478739,,no_flux
+Acetate,R_G3PAT140,G3PAT140,,2.248487389478739,,no_flux
+Acetate,R_G3PAT141,G3PAT141,,2.248487389478739,,no_flux
+Acetate,R_G3PAT160,G3PAT160,,2.248487389478739,,no_flux
+Acetate,R_G3PAT161,G3PAT161,,2.248487389478739,,no_flux
+Acetate,R_G3PAT180,G3PAT180,,2.248487389478739,,no_flux
+Acetate,R_G3PAT181,G3PAT181,,2.248487389478739,,no_flux
+Acetate,R_G6PBDH,G6PBDH,,,,no_capacity
+Acetate,R_G6PDH2r,G6PDH2r,,,,no_capacity
+Acetate,R_G6PI,G6PI,,,,no_capacity
+Acetate,R_GALCTD,GALCTD,,,,no_capacity
+Acetate,R_GALUi,GALUi,,91376.36540839431,,no_flux
+Acetate,R_GAPD,GAPD,,,,no_capacity
+Acetate,R_GAPDi_nadp,GAPDi_nadp,,40511.852033218514,,no_flux
+Acetate,R_GARFT,GARFT,,109.18607144970528,,no_flux
+Acetate,R_GDPDPK,GDPDPK,,20735.216416067327,,no_flux
+Acetate,R_GDPTPDP,GDPTPDP,,417.0256975132048,,no_flux
+Acetate,R_GF6PTA,GF6PTA,,7189.885831355264,,no_flux
+Acetate,R_GGPTRCS,GGPTRCS,,1498.2176852962386,,no_flux
+Acetate,R_GHMT2r,GHMT2r,,,,no_capacity
+Acetate,R_GK1,GK1,,9455.314293149453,,no_flux
+Acetate,R_GLCRD,GLCRD,,,,no_capacity
+Acetate,R_GLGC,GLGC,,,,no_capacity
+Acetate,R_GLNS_copy1,GLNS_copy1,,44600.811022176524,,no_flux
+Acetate,R_GLNS_copy2,GLNS_copy2,,44600.811022176524,,no_flux
+Acetate,R_GLNTRAT,GLNTRAT,,1891.7790805828326,,no_flux
+Acetate,R_GLNTRS,GLNTRS,,554.3728511940582,,no_flux
+Acetate,R_GLUCYS_copy1,GLUCYS_copy1,,383248.5792199733,,no_flux
+Acetate,R_GLUCYS_copy2,GLUCYS_copy2,,383248.5792199733,,no_flux
+Acetate,R_GLUDxi,GLUDxi,,7403236.7642197795,,no_flux
+Acetate,R_GLUDy,GLUDy,,5709095.815594466,,no_flux
+Acetate,R_GLUNpp,GLUNpp,,4371354.877100179,,no_flux
+Acetate,R_GLUR,GLUR,,,,no_capacity
+Acetate,R_GLUSy,GLUSy,,7505.249816632594,,no_flux
+Acetate,R_GLUTCOADHc,GLUTCOADHc,,,,no_capacity
+Acetate,R_GLUTRR,GLUTRR,,2.69836680657299,,no_flux
+Acetate,R_GLUTRS,GLUTRS,,763.9361059777069,,no_flux
+Acetate,R_GLXCL,GLXCL,,,,no_capacity
+Acetate,R_GLYALDDr,GLYALDDr,,145.3392974871203,,no_flux
+Acetate,R_GLYCK,GLYCK,,,,no_capacity
+Acetate,R_GLYCL,GLYCL,,1382526.077755093,,no_flux
+Acetate,R_GLYCLTDx,GLYCLTDx,,51280907.4290699,,no_flux
+Acetate,R_GLYCLTDy,GLYCLTDy,,,,no_capacity
+Acetate,R_GLYCTO1,GLYCTO1,,,,no_capacity
+Acetate,R_GLYK,GLYK,,158968.6035816955,,no_flux
+Acetate,R_GLYO1,GLYO1,,20274.9669581535,,no_flux
+Acetate,R_GLYOX,GLYOX,,67306.48859190325,,no_flux
+Acetate,R_GLYPHEHYc,GLYPHEHYc,,4337517.627368541,,no_flux
+Acetate,R_GLYTRS,GLYTRS,,2980.0842293378178,,no_flux
+Acetate,R_GMAND,GMAND,,3687.0165502798186,,no_flux
+Acetate,R_GMPS2,GMPS2,,1495.4970152074238,,no_flux
+Acetate,R_GND,GND,,,,no_capacity
+Acetate,R_GNK,GNK,,25.931691969305003,,no_flux
+Acetate,R_GNNUC,GNNUC,,,,no_capacity
+Acetate,R_GPDDA2,GPDDA2,,23399.848855625816,,no_flux
+Acetate,R_GPDDA4,GPDDA4,,350.9977328343872,,no_flux
+Acetate,R_GRTT,GRTT,,1848.1330395936604,,no_flux
+Acetate,R_GTHOr,GTHOr,,73364.12262626969,,no_flux
+Acetate,R_GTHPi,GTHPi,,3583.509746475242,,no_flux
+Acetate,R_GTHRDHpp,GTHRDHpp,,,,no_capacity
+Acetate,R_GTHS,GTHS,,8457.592791900895,,no_flux
+Acetate,R_GTPCI,GTPCI,,,,no_capacity
+Acetate,R_GTPCII2,GTPCII2,,17797.017999945256,,no_flux
+Acetate,R_GTPDPDP,GTPDPDP,,303265.8402280435,,no_flux
+Acetate,R_GTPDPK,GTPDPK,,20735.216416067327,,no_flux
+Acetate,R_GUACYC,GUACYC,,641772.1732845041,,no_flux
+Acetate,R_GUAD,GUAD,,,,no_capacity
+Acetate,R_GUAPRT,GUAPRT,,525.1145474221254,,no_flux
+Acetate,R_GUDBUTNAH,GUDBUTNAH,,,,no_capacity
+Acetate,R_HACD1i,HACD1i,,6058644.5149511965,,no_flux
+Acetate,R_HACD2i,HACD2i,,6058644.5149511965,,no_flux
+Acetate,R_HACD3i,HACD3i,,6058644.5149511965,,no_flux
+Acetate,R_HACD4i,HACD4i,,6058644.5149511965,,no_flux
+Acetate,R_HACD5i,HACD5i,,6058644.5149511965,,no_flux
+Acetate,R_HACD6i,HACD6i,,6058644.5149511965,,no_flux
+Acetate,R_HACD7i,HACD7i,,6058644.5149511965,,no_flux
+Acetate,R_HACD8i,HACD8i,,6058644.5149511965,,no_flux
+Acetate,R_HACD9,HACD9,,,,no_capacity
+Acetate,R_HADPCOADH3,HADPCOADH3,,2886640.863742456,,no_flux
+Acetate,R_HCO3E,HCO3E,,3175680580.0982714,,no_flux
+Acetate,R_HCYSMT,HCYSMT,,12.725767185439485,,no_flux
+Acetate,R_HCYSMT2,HCYSMT2,,12.725767185439485,,no_flux
+Acetate,R_HDH,HDH,,8190.173927440747,,no_flux
+Acetate,R_HEX1,HEX1,,30578.78469269485,,no_flux
+Acetate,R_HGNTOR,HGNTOR,,9391.11993857337,,no_flux
+Acetate,R_HIBDkt,HIBDkt,,5259879.420213445,,no_flux
+Acetate,R_HISDr,HISDr,,10237.442661582534,,no_flux
+Acetate,R_HISTD,HISTD,,8190.173927440747,,no_flux
+Acetate,R_HISTP,HISTP,,5841.4548225592325,,no_flux
+Acetate,R_HISTRS,HISTRS,,27996.891552381137,,no_flux
+Acetate,R_HMBS,HMBS,,9.941735829889781,,no_flux
+Acetate,R_HMGL,HMGL,,7396.72947399837,,no_flux
+Acetate,R_HMPK1,HMPK1,,30.537409573869176,,no_flux
+Acetate,R_HMSD2,HMSD2,,,,no_capacity
+Acetate,R_HMSH,HMSH,,,,no_capacity
+Acetate,R_HMSH2,HMSH2,,,,no_capacity
+Acetate,R_HOPNTAL,HOPNTAL,,,,no_capacity
+Acetate,R_HOPNTAL2,HOPNTAL2,,,,no_capacity
+Acetate,R_HPYRRx,HPYRRx,,1686.8719549036152,,no_flux
+Acetate,R_HPYRRy,HPYRRy,,,,no_capacity
+Acetate,R_HSDy,HSDy,,14434.282184916054,,no_flux
+Acetate,R_HSERTA,HSERTA,,5734.6694462502,,no_flux
+Acetate,R_HSK,HSK,,686.7237595109118,,no_flux
+Acetate,R_HSTPT,HSTPT,,559092.8200444017,,no_flux
+Acetate,R_HXAND,HXAND,,20132.56314949612,,no_flux
+Acetate,R_HXPRT,HXPRT,,315.06872845327524,,no_flux
+Acetate,R_ICDHyr,ICDHyr,,253082.9169379101,,no_flux
+Acetate,R_ICL,ICL,,248261.83725824856,,no_flux
+Acetate,R_IGPDH,IGPDH,,195919.92438480392,,no_flux
+Acetate,R_IGPS,IGPS,,903.9131378206663,,no_flux
+Acetate,R_ILETA,ILETA,,495976.8470325672,,no_flux
+Acetate,R_ILETRS,ILETRS,,1478.4664400514123,,no_flux
+Acetate,R_IMPC,IMPC,,3253.288858719887,,no_flux
+Acetate,R_IMPD,IMPD,,10589.365773493253,,no_flux
+Acetate,R_INSH,INSH,,,,no_capacity
+Acetate,R_IPDDI,IPDDI,,,,no_capacity
+Acetate,R_IPMD,IPMD,,39253.47754781288,,no_flux
+Acetate,R_IPPS,IPPS,,183525.81942809993,,no_flux
+Acetate,R_KARA1,KARA1,,164523.00220162308,,no_flux
+Acetate,R_KARA2,KARA2,,164523.00220162308,,no_flux
+Acetate,R_KAS14,KAS14,,229364.21355782822,,no_flux
+Acetate,R_KAS15,KAS15,,5337.77714983972,,no_flux
+Acetate,R_KAT1,KAT1,,,,no_capacity
+Acetate,R_KDOCT2,KDOCT2,,2876.9372867444395,,no_flux
+Acetate,R_KDOPP,KDOPP,,257.80468028752716,,no_flux
+Acetate,R_KDOPS,KDOPS,,,,no_capacity
+Acetate,R_LALGP,LALGP,,19005175.919917427,,no_flux
+Acetate,R_LCADi,LCADi,,807853.1024557817,,no_flux
+Acetate,R_LDH_D,LDH_D,,39851.98956552483,,no_flux
+Acetate,R_LEUTA,LEUTA,,495976.8470325672,,no_flux
+Acetate,R_LEUTRS,LEUTRS,,59391.51980254922,,no_flux
+Acetate,R_LGTHL,LGTHL,,34871.794131799856,,no_flux
+Acetate,R_LLEUDr,LLEUDr,,,,no_capacity
+Acetate,R_LSERDHr,LSERDHr,,7137.034617336133,,no_flux
+Acetate,R_LTDCL,LTDCL,,,,no_capacity
+Acetate,R_LYSDC,LYSDC,,,,no_capacity
+Acetate,R_LYSMO,LYSMO,,,,no_capacity
+Acetate,R_LYSRC,LYSRC,,,,no_capacity
+Acetate,R_LYSTRS,LYSTRS,,64714.17720641426,,no_flux
+Acetate,R_L_LACD2,L_LACD2,,61457.251275888295,,no_flux
+Acetate,R_MACACI,MACACI,,,,no_capacity
+Acetate,R_MACCOAT,MACCOAT,,,,no_capacity
+Acetate,R_MALEI,MALEI,,,,no_capacity
+Acetate,R_MALS,MALS,,179980.26406681375,,no_flux
+Acetate,R_MAN1PT,MAN1PT,,59454.45538203463,,no_flux
+Acetate,R_MAN6PI,MAN6PI,,418.82158462076455,,no_flux
+Acetate,R_MBCOAi,MBCOAi,,4254.66811236752,,no_flux
+Acetate,R_MCCC,MCCC,,59.720010983499314,,no_flux
+Acetate,R_MCITL2,MCITL2,,,,no_capacity
+Acetate,R_MCITS,MCITS,,5912.8263224974235,,no_flux
+Acetate,R_MCOATA,MCOATA,,111995.3461396209,,no_flux
+Acetate,R_MCSNAH,MCSNAH,,24598.318384433307,,no_flux
+Acetate,R_MDDCP1pp,MDDCP1pp,,107628.52882664108,,no_flux
+Acetate,R_MDDCP2pp,MDDCP2pp,,107628.52882664108,,no_flux
+Acetate,R_MDDCP3pp,MDDCP3pp,,107628.52882664108,,no_flux
+Acetate,R_MDDCP4pp,MDDCP4pp,,107628.52882664108,,no_flux
+Acetate,R_MDDCP5pp,MDDCP5pp,,107628.52882664108,,no_flux
+Acetate,R_MDH,MDH,,6020223.109771124,,no_flux
+Acetate,R_ME2,ME2,,2889395.7806803104,,no_flux
+Acetate,R_MECDPS_copy1,MECDPS_copy1,,,,no_capacity
+Acetate,R_MECDPS_copy2,MECDPS_copy2,,,,no_capacity
+Acetate,R_MEPCT,MEPCT,,,,no_capacity
+Acetate,R_METAT,METAT,,4340.7155921690755,,no_flux
+Acetate,R_METGL,METGL,,,,no_capacity
+Acetate,R_METS,METS,,1248.1253641254755,,no_flux
+Acetate,R_METSOXR1,METSOXR1,,1132.1755149696314,,no_flux
+Acetate,R_METSOXR2,METSOXR2,,1132.1755149696314,,no_flux
+Acetate,R_METTRS,METTRS,,18459.548277526756,,no_flux
+Acetate,R_MGCH,MGCH,,142.30821260432126,,no_flux
+Acetate,R_MI1PP,MI1PP,,113051.71425568571,,no_flux
+Acetate,R_MLDCP1App,MLDCP1App,,,,no_capacity
+Acetate,R_MLDCP1Bpp,MLDCP1Bpp,,,,no_capacity
+Acetate,R_MLDCP2App,MLDCP2App,,,,no_capacity
+Acetate,R_MLDCP2Bpp,MLDCP2Bpp,,,,no_capacity
+Acetate,R_MLDCP3App,MLDCP3App,,,,no_capacity
+Acetate,R_MMSAD3,MMSAD3,,,,no_capacity
+Acetate,R_MMTSAO,MMTSAO,,,,no_capacity
+Acetate,R_MOHMT,MOHMT,,96.5204427201889,,no_flux
+Acetate,R_MPTAT,MPTAT,,,,no_capacity
+Acetate,R_MSULR,MSULR,,,,no_capacity
+Acetate,R_MTHFC,MTHFC,,,,no_capacity
+Acetate,R_MTHFD,MTHFD,,,,no_capacity
+Acetate,R_MTHFR2,MTHFR2,,32279.64563220801,,no_flux
+Acetate,R_MTI,MTI,,6309.889019916971,,no_flux
+Acetate,R_MTOLDOX,MTOLDOX,,,,no_capacity
+Acetate,R_MUCCYCI,MUCCYCI,,,,no_capacity
+Acetate,R_MUCCY_kt,MUCCY_kt,,69609.8483799076,,no_flux
+Acetate,R_MUCLI,MUCLI,,,,no_capacity
+Acetate,R_NADDP,NADDP,,48488070.32924464,,no_flux
+Acetate,R_NADH16pp,NADH16pp,,58916.36741657353,,no_flux
+Acetate,R_NADHPO,NADHPO,,478.97640865125834,,no_flux
+Acetate,R_NADK,NADK,,,,no_capacity
+Acetate,R_NADN,NADN,,,,no_capacity
+Acetate,R_NADS1,NADS1,,1033.0441375669934,,no_flux
+Acetate,R_NADTRHD,NADTRHD,,98753.50501889359,,no_flux
+Acetate,R_NAMNPP,NAMNPP,,6.962373996038481,,no_flux
+Acetate,R_NDP8,NDP8,,2709.0157794134147,,no_flux
+Acetate,R_NDPK1,NDPK1,,1543716.6030543516,,no_flux
+Acetate,R_NDPK2,NDPK2,,1543716.6030543516,,no_flux
+Acetate,R_NDPK3,NDPK3,,1543716.6030543516,,no_flux
+Acetate,R_NDPK4,NDPK4,,1543716.6030543516,,no_flux
+Acetate,R_NDPK5,NDPK5,,1543716.6030543516,,no_flux
+Acetate,R_NDPK6,NDPK6,,1543716.6030543516,,no_flux
+Acetate,R_NDPK7,NDPK7,,1543716.6030543516,,no_flux
+Acetate,R_NDPK8,NDPK8,,1543716.6030543516,,no_flux
+Acetate,R_NITR,NITR,,,,no_capacity
+Acetate,R_NMNAT,NMNAT,,1751.6291223837777,,no_flux
+Acetate,R_NMNDA,NMNDA,,59.246193181881075,,no_flux
+Acetate,R_NNATr,NNATr,,1751.6291223837777,,no_flux
+Acetate,R_NNDMBRT,NNDMBRT,,,,no_capacity
+Acetate,R_NNDPR,NNDPR,,871.6619664488038,,no_flux
+Acetate,R_NODOx,NODOx,,1371.6500225869104,,no_flux
+Acetate,R_NODOy,NODOy,,1371.6500225869104,,no_flux
+Acetate,R_NTD1,NTD1,,29582.55515440823,,no_flux
+Acetate,R_NTD10,NTD10,,29582.55515440823,,no_flux
+Acetate,R_NTD10pp,NTD10pp,,,,no_capacity
+Acetate,R_NTD11,NTD11,,29582.55515440823,,no_flux
+Acetate,R_NTD11pp,NTD11pp,,,,no_capacity
+Acetate,R_NTD1pp,NTD1pp,,,,no_capacity
+Acetate,R_NTD2,NTD2,,29582.55515440823,,no_flux
+Acetate,R_NTD2pp,NTD2pp,,,,no_capacity
+Acetate,R_NTD3,NTD3,,29582.55515440823,,no_flux
+Acetate,R_NTD3pp,NTD3pp,,,,no_capacity
+Acetate,R_NTD4,NTD4,,29582.55515440823,,no_flux
+Acetate,R_NTD4pp,NTD4pp,,,,no_capacity
+Acetate,R_NTD5,NTD5,,29582.55515440823,,no_flux
+Acetate,R_NTD5pp,NTD5pp,,,,no_capacity
+Acetate,R_NTD6,NTD6,,29582.55515440823,,no_flux
+Acetate,R_NTD6pp,NTD6pp,,,,no_capacity
+Acetate,R_NTD7,NTD7,,29582.55515440823,,no_flux
+Acetate,R_NTD7pp,NTD7pp,,,,no_capacity
+Acetate,R_NTD8,NTD8,,29582.55515440823,,no_flux
+Acetate,R_NTD8pp,NTD8pp,,,,no_capacity
+Acetate,R_NTD9,NTD9,,29582.55515440823,,no_flux
+Acetate,R_NTD9pp,NTD9pp,,,,no_capacity
+Acetate,R_NTP1,NTP1,,12742.869553386801,,no_flux
+Acetate,R_NTP10,NTP10,,86064.25767712473,,no_flux
+Acetate,R_NTP3,NTP3,,731212.6641177719,,no_flux
+Acetate,R_NTP5,NTP5,,145274.41441623968,,no_flux
+Acetate,R_NTPP1,NTPP1,,82258751.66920124,,no_flux
+Acetate,R_NTPP10,NTPP10,,14534.653634729188,,no_flux
+Acetate,R_NTPP11,NTPP11,,14534.653634729188,,no_flux
+Acetate,R_NTPP2,NTPP2,,82258751.66920124,,no_flux
+Acetate,R_NTPP3,NTPP3,,82258751.66920124,,no_flux
+Acetate,R_NTPP4,NTPP4,,82258751.66920124,,no_flux
+Acetate,R_NTPP5,NTPP5,,82258751.66920124,,no_flux
+Acetate,R_NTPP6,NTPP6,,82258751.66920124,,no_flux
+Acetate,R_NTPP7,NTPP7,,82258751.66920124,,no_flux
+Acetate,R_NTPP8,NTPP8,,82258751.66920124,,no_flux
+Acetate,R_NTPP9,NTPP9,,13828808.215401407,,no_flux
+Acetate,R_NTPTP1,NTPTP1,,107887.08138815852,,no_flux
+Acetate,R_NTRIR2x,NTRIR2x,,,,no_capacity
+Acetate,R_OAADC,OAADC,,1248861.8636902275,,no_flux
+Acetate,R_OAAtex,OAAtex,,,,no_capacity
+Acetate,R_OARGDC,OARGDC,,,,no_capacity
+Acetate,R_OCAALD,OCAALD,,,,no_capacity
+Acetate,R_OCBT,OCBT,,3501.634783761772,,no_flux
+Acetate,R_OCOAT1,OCOAT1,,,,no_capacity
+Acetate,R_OCTDPS,OCTDPS,,183.25557998398497,,no_flux
+Acetate,R_OHPBAT,OHPBAT,,425.4072858385091,,no_flux
+Acetate,R_OMAHY,OMAHY,,,,no_capacity
+Acetate,R_OMCDC,OMCDC,,,,no_capacity
+Acetate,R_OMPDC,OMPDC,,42314.928200720075,,no_flux
+Acetate,R_OP4ENH,OP4ENH,,,,no_capacity
+Acetate,R_OP4ENH2,OP4ENH2,,,,no_capacity
+Acetate,R_OPAH,OPAH,,,,no_capacity
+Acetate,R_ORNDC,ORNDC,,7815.18524467607,,no_flux
+Acetate,R_ORPT,ORPT,,529.2352448864137,,no_flux
+Acetate,R_P5CD,P5CD,,5519.422090948804,,no_flux
+Acetate,R_P5CR,P5CR,,,,no_capacity
+Acetate,R_PACCOAL,PACCOAL,,,,no_capacity
+Acetate,R_PANTS,PANTS,,776.6471968229349,,no_flux
+Acetate,R_PAPA160,PAPA160,,,,no_capacity
+Acetate,R_PAPPT3,PAPPT3,,,,no_capacity
+Acetate,R_PAPSR,PAPSR,,559.6213044238829,,no_flux
+Acetate,R_PAPSR2,PAPSR2,,559.6213044238829,,no_flux
+Acetate,R_PC,PC,,,,no_capacity
+Acetate,R_PC8XM,PC8XM,,,,no_capacity
+Acetate,R_PCADYOX,PCADYOX,,,,no_capacity
+Acetate,R_PDE1,PDE1,,,,no_capacity
+Acetate,R_PDE4,PDE4,,240448.43498350465,,no_flux
+Acetate,R_PDH,PDH,,44.465108891531465,,no_flux
+Acetate,R_PDHa,PDHa,,93.96766701274781,,no_flux
+Acetate,R_PDHbr,PDHbr,,627.7427137627972,,no_flux
+Acetate,R_PDHcr,PDHcr,,1382526.077755093,,no_flux
+Acetate,R_PDX5POi,PDX5POi,,1922.133717493755,,no_flux
+Acetate,R_PERD,PERD,,47.13281622775167,,no_flux
+Acetate,R_PGAMT,PGAMT,,1466.6261051968606,,no_flux
+Acetate,R_PGCD,PGCD,,2294420.568871566,,no_flux
+Acetate,R_PGI,PGI,,,,no_capacity
+Acetate,R_PGK,PGK,,127440.17575899624,,no_flux
+Acetate,R_PGLYCP,PGLYCP,,2186.743325692224,,no_flux
+Acetate,R_PGM,PGM,,836938.2519396689,,no_flux
+Acetate,R_PGMT,PGMT,,13304.93026651707,,no_flux
+Acetate,R_PGPP120,PGPP120,,,,no_capacity
+Acetate,R_PGPP120pp,PGPP120pp,,,,no_capacity
+Acetate,R_PGPP160,PGPP160,,,,no_capacity
+Acetate,R_PGPP160pp,PGPP160pp,,,,no_capacity
+Acetate,R_PGPP161,PGPP161,,,,no_capacity
+Acetate,R_PGPP161pp,PGPP161pp,,,,no_capacity
+Acetate,R_PGPP180,PGPP180,,,,no_capacity
+Acetate,R_PGPP180pp,PGPP180pp,,,,no_capacity
+Acetate,R_PGPP181,PGPP181,,,,no_capacity
+Acetate,R_PGPP181pp,PGPP181pp,,,,no_capacity
+Acetate,R_PHETA1,PHETA1,,,,no_capacity
+Acetate,R_PHETRS,PHETRS,,109628.79356496358,,no_flux
+Acetate,R_PLIPA1E160pp,PLIPA1E160pp,,,,no_capacity
+Acetate,R_PLIPA1E180pp,PLIPA1E180pp,,,,no_capacity
+Acetate,R_PMANM,PMANM,,425.352698317257,,no_flux
+Acetate,R_PMDPHT,PMDPHT,,,,no_capacity
+Acetate,R_PMEACPE,PMEACPE,,417.60912707895676,,no_flux
+Acetate,R_PMPK,PMPK,,6.157193976870832,,no_flux
+Acetate,R_PNTK,PNTK,,,,no_capacity
+Acetate,R_PPA,PPA,,2549563.5638894783,,no_flux
+Acetate,R_PPA2,PPA2,,1545677.5082590603,,no_flux
+Acetate,R_PPBNGS,PPBNGS,,,,no_capacity
+Acetate,R_PPC,PPC,,75835.17171680073,,no_flux
+Acetate,R_PPCDC,PPCDC,,,,no_capacity
+Acetate,R_PPCK,PPCK,,,,no_capacity
+Acetate,R_PPCSCT,PPCSCT,,9758.196055256645,,no_flux
+Acetate,R_PPGPPDP,PPGPPDP,,417.0256975132048,,no_flux
+Acetate,R_PPM,PPM,,5160.728779072722,,no_flux
+Acetate,R_PPNCL2,PPNCL2,,,,no_capacity
+Acetate,R_PPND,PPND,,47875.31472173817,,no_flux
+Acetate,R_PPNDH,PPNDH,,421525.50108659215,,no_flux
+Acetate,R_PPPGO,PPPGO,,,,no_capacity
+Acetate,R_PPRGL,PPRGL,,1031.0285744249866,,no_flux
+Acetate,R_PPS,PPS,,1106105.023986059,,no_flux
+Acetate,R_PPYRDC,PPYRDC,,,,no_capacity
+Acetate,R_PRAIi_copy1,PRAIi_copy1,,1750.6445194070634,,no_flux
+Acetate,R_PRAIi_copy2,PRAIi_copy2,,1750.6445194070634,,no_flux
+Acetate,R_PRAMPC_copy1,PRAMPC_copy1,,472.716868690475,,no_flux
+Acetate,R_PRAMPC_copy2,PRAMPC_copy2,,472.716868690475,,no_flux
+Acetate,R_PRFGS,PRFGS,,16.299839992643676,,no_flux
+Acetate,R_PRMICI_copy1,PRMICI_copy1,,4019.9102154398593,,no_flux
+Acetate,R_PRMICI_copy2,PRMICI_copy2,,4019.9102154398593,,no_flux
+Acetate,R_PROTRS,PROTRS,,3361.3951956870033,,no_flux
+Acetate,R_PRPPS,PRPPS,,121145.8946228358,,no_flux
+Acetate,R_PSCVT_copy1,PSCVT_copy1,,3522.4185501531597,,no_flux
+Acetate,R_PSCVT_copy2,PSCVT_copy2,,3522.4185501531597,,no_flux
+Acetate,R_PSERT,PSERT,,425.4072858385091,,no_flux
+Acetate,R_PSP_L,PSP_L,,157286.40207792787,,no_flux
+Acetate,R_PTA2,PTA2,,108521.83518522099,,no_flux
+Acetate,R_PTAr,PTAr,,108521.83518522099,,no_flux
+Acetate,R_PTOLDOX,PTOLDOX,,,,no_capacity
+Acetate,R_PTPATi,PTPATi,,1290.7228246393104,,no_flux
+Acetate,R_PUTA3,PUTA3,,5519.422090948804,,no_flux
+Acetate,R_PYAM5PO,PYAM5PO,,1922.133717493755,,no_flux
+Acetate,R_PYDAMK,PYDAMK,,,,no_capacity
+Acetate,R_PYDXK,PYDXK,,,,no_capacity
+Acetate,R_PYDXNK,PYDXNK,,,,no_capacity
+Acetate,R_PYK,PYK,,939839.984588008,,no_flux
+Acetate,R_PYNP2r,PYNP2r,,,,no_capacity
+Acetate,R_PYRZAM,PYRZAM,,,,no_capacity
+Acetate,R_RBFK,RBFK,,160.95340348793187,,no_flux
+Acetate,R_RBFSa,RBFSa,,,,no_capacity
+Acetate,R_RBFSb,RBFSb,,919.0820307538166,,no_flux
+Acetate,R_RBK,RBK,,,,no_capacity
+Acetate,R_RHACOAR100,RHACOAR100,,86204.26244520942,,no_flux
+Acetate,R_RHACOAR140,RHACOAR140,,86204.26244520942,,no_flux
+Acetate,R_RHACOAR60,RHACOAR60,,86204.26244520942,,no_flux
+Acetate,R_RHACOAR80,RHACOAR80,,86204.26244520942,,no_flux
+Acetate,R_RNDR1,RNDR1,,2246.2790544563913,,no_flux
+Acetate,R_RNDR2,RNDR2,,2246.2790544563913,,no_flux
+Acetate,R_RNDR3,RNDR3,,2246.2790544563913,,no_flux
+Acetate,R_RNDR4,RNDR4,,2246.2790544563913,,no_flux
+Acetate,R_RPE,RPE,,1099388.6513357128,,no_flux
+Acetate,R_RPI,RPI,,3745639.25415529,,no_flux
+Acetate,R_S7PI,S7PI,,,,no_capacity
+Acetate,R_SADT,SADT,,48765.18111594932,,no_flux
+Acetate,R_SARCOX,SARCOX,,,,no_capacity
+Acetate,R_SDPDS,SDPDS,,6682.272462377855,,no_flux
+Acetate,R_SDPTA,SDPTA,,3326.1430425534672,,no_flux
+Acetate,R_SELADT,SELADT,,48765.18111594932,,no_flux
+Acetate,R_SELCYSS,SELCYSS,,2.170205444306706,,no_flux
+Acetate,R_SELMETAT,SELMETAT,,4340.7155921690755,,no_flux
+Acetate,R_SERAT_copy1,SERAT_copy1,,16492.190277954163,,no_flux
+Acetate,R_SERAT_copy2,SERAT_copy2,,16492.190277954163,,no_flux
+Acetate,R_SERD_L,SERD_L,,,,no_capacity
+Acetate,R_SERTRS,SERTRS,,1629.6430074969182,,no_flux
+Acetate,R_SERTRS2,SERTRS2,,1629.6430074969182,,no_flux
+Acetate,R_SFGTHi,SFGTHi,,2658.190379809416,,no_flux
+Acetate,R_SHK3Dr,SHK3Dr,,6565.909275994232,,no_flux
+Acetate,R_SHKK,SHKK,,370.0620033142695,,no_flux
+Acetate,R_SHSL1,SHSL1,,7681.246162486812,,no_flux
+Acetate,R_SHSL2r,SHSL2r,,,,no_capacity
+Acetate,R_SLCYSS,SLCYSS,,72721.92566490553,,no_flux
+Acetate,R_SOTA,SOTA,,,,no_capacity
+Acetate,R_SPODM,SPODM,,41348025.23866481,,no_flux
+Acetate,R_SSALx,SSALx,,360.31403578402427,,no_flux
+Acetate,R_SSALy,SSALy,,20878.97475833174,,no_flux
+Acetate,R_SUCOAS,SUCOAS,,425486.2256227648,,no_flux
+Acetate,R_SULR,SULR,,341621.5414700176,,no_flux
+Acetate,R_TALA,TALA,,5880.069975493477,,no_flux
+Acetate,R_TAUDO,TAUDO,,,,no_capacity
+Acetate,R_TDP,TDP,,73407.92361008913,,no_flux
+Acetate,R_TDPDRE,TDPDRE,,916.3262290315602,,no_flux
+Acetate,R_TDPDRR,TDPDRR,,2048.21916153517,,no_flux
+Acetate,R_TDPGDH,TDPGDH,,,,no_capacity
+Acetate,R_THD2pp,THD2pp,,98753.50501889359,,no_flux
+Acetate,R_THFAT,THFAT,,,,no_capacity
+Acetate,R_THIORDXi,THIORDXi,,9849.221546167531,,no_flux
+Acetate,R_THRA,THRA,,10624.718141663983,,no_flux
+Acetate,R_THRD_L,THRD_L,,,,no_capacity
+Acetate,R_THRS,THRS,,1401890.473984384,,no_flux
+Acetate,R_THRTRS,THRTRS,,19721.196922631483,,no_flux
+Acetate,R_TMDS,TMDS,,2084.781084410137,,no_flux
+Acetate,R_TMPK,TMPK,,,,no_capacity
+Acetate,R_TPI,TPI,,89930103.11061144,,no_flux
+Acetate,R_TRDR,TRDR,,322412.55827001925,,no_flux
+Acetate,R_TRPS1_copy1,TRPS1_copy1,,9186.344966227223,,no_flux
+Acetate,R_TRPS1_copy2,TRPS1_copy2,,9186.344966227223,,no_flux
+Acetate,R_TRPS2,TRPS2,,9186.344966227223,,no_flux
+Acetate,R_TRPS3,TRPS3,,9186.344966227223,,no_flux
+Acetate,R_TRPTRS,TRPTRS,,5979.275356129331,,no_flux
+Acetate,R_TRSARr,TRSARr,,29344.992992385658,,no_flux
+Acetate,R_TRYPTAOX,TRYPTAOX,,1296431.680078579,,no_flux
+Acetate,R_TYRTA,TYRTA,,,,no_capacity
+Acetate,R_TYRTRS,TYRTRS,,9155.006789081954,,no_flux
+Acetate,R_UAAGDS,UAAGDS,,207.15338093367222,,no_flux
+Acetate,R_UAG2E,UAG2E,,,,no_capacity
+Acetate,R_UAGCVT,UAGCVT,,904.8685620244547,,no_flux
+Acetate,R_UAGDP,UAGDP,,64430.74981612624,,no_flux
+Acetate,R_UAGPT3,UAGPT3,,774.8345080765185,,no_flux
+Acetate,R_UAMAS,UAMAS,,3936.9086499594464,,no_flux
+Acetate,R_UDCPDPS,UDCPDPS,,,,no_capacity
+Acetate,R_UGLYCH,UGLYCH,,,,no_capacity
+Acetate,R_UMPK,UMPK,,91147.93107563969,,no_flux
+Acetate,R_UNK3,UNK3,,,,no_capacity
+Acetate,R_UPP3MT,UPP3MT,,6869.043775034692,,no_flux
+Acetate,R_UPP3S,UPP3S,,,,no_capacity
+Acetate,R_UPPDC1,UPPDC1,,34.53628828674555,,no_flux
+Acetate,R_UPPN,UPPN,,10897.525686624298,,no_flux
+Acetate,R_UPPRT,UPPRT,,2659.698922528997,,no_flux
+Acetate,R_UREA,UREA,,,,no_capacity
+Acetate,R_URIDK2r,URIDK2r,,83591.27941639736,,no_flux
+Acetate,R_URIH,URIH,,,,no_capacity
+Acetate,R_VALDHr,VALDHr,,,,no_capacity
+Acetate,R_VALTA,VALTA,,495976.8470325672,,no_flux
+Acetate,R_VALTRS_copy1,VALTRS_copy1,,25339.007509652896,,no_flux
+Acetate,R_VALTRS_copy2,VALTRS_copy2,,25339.007509652896,,no_flux
+Acetate,R_VNDH_2,VNDH_2,,,,no_capacity
+Acetate,R_XAND,XAND,,20132.56314949612,,no_flux
+Acetate,R_XPPT,XPPT,,525.1145474221254,,no_flux
+Acetate,R_XTSNH,XTSNH,,,,no_capacity
+Acetate,R_ZN2abcpp,ZN2abcpp,,,,no_capacity
+Acetate,R_ZNabcpp,ZNabcpp,,26067.062783568657,,no_flux
+Glucose,R_34HPPOR,34HPPOR,,293.9535794617876,,no_flux
+Glucose,R_3HAD100,3HAD100,,17530.961783867948,,no_flux
+Glucose,R_3HAD120,3HAD120,,17530.961783867948,,no_flux
+Glucose,R_3HAD140,3HAD140,,17530.961783867948,,no_flux
+Glucose,R_3HAD160,3HAD160,,17530.961783867948,,no_flux
+Glucose,R_3HAD60,3HAD60,,17530.961783867948,,no_flux
+Glucose,R_3HAD80,3HAD80,,17530.961783867948,,no_flux
+Glucose,R_3HBCOAHL,3HBCOAHL,,,,no_capacity
+Glucose,R_3HLYTCL,3HLYTCL,,,,no_capacity
+Glucose,R_3MBZALDH,3MBZALDH,,,,no_capacity
+Glucose,R_3MBZDH,3MBZDH,,,,no_capacity
+Glucose,R_3MCAT23DOX,3MCAT23DOX,,,,no_capacity
+Glucose,R_3OAR100,3OAR100,,85616.13606372886,,no_flux
+Glucose,R_3OAR120,3OAR120,,85616.13606372886,,no_flux
+Glucose,R_3OAR121,3OAR121,,85616.13606372886,,no_flux
+Glucose,R_3OAR140,3OAR140,,85616.13606372886,,no_flux
+Glucose,R_3OAR141,3OAR141,,85616.13606372886,,no_flux
+Glucose,R_3OAR160,3OAR160,,85616.13606372886,,no_flux
+Glucose,R_3OAR161,3OAR161,,85616.13606372886,,no_flux
+Glucose,R_3OAR180,3OAR180,,85616.13606372886,,no_flux
+Glucose,R_3OAR181,3OAR181,,85616.13606372886,,no_flux
+Glucose,R_3OAR40,3OAR40,,85616.13606372886,,no_flux
+Glucose,R_3OAR60,3OAR60,,85616.13606372886,,no_flux
+Glucose,R_3OAR80,3OAR80,,85616.13606372886,,no_flux
+Glucose,R_3OAS121,3OAS121,,226507.95512144326,,no_flux
+Glucose,R_3OAS141,3OAS141,,226507.95512144326,,no_flux
+Glucose,R_3OAS161,3OAS161,,226507.95512144326,,no_flux
+Glucose,R_3OAS180,3OAS180,,226507.95512144326,,no_flux
+Glucose,R_3OAS181,3OAS181,,19.32100524629371,,no_flux
+Glucose,R_3OXCOAT,3OXCOAT,,,,no_capacity
+Glucose,R_4CMCOAS,4CMCOAS,,,,no_capacity
+Glucose,R_4HBHYOX,4HBHYOX,,,,no_capacity
+Glucose,R_4HTHRS,4HTHRS,,1388182.9608683973,,no_flux
+Glucose,R_4MBZALDH,4MBZALDH,,,,no_capacity
+Glucose,R_4MBZDH,4MBZDH,,,,no_capacity
+Glucose,R_4MCAT23DOX,4MCAT23DOX,,,,no_capacity
+Glucose,R_4OD2,4OD2,,,,no_capacity
+Glucose,R_4OT,4OT,,,,no_capacity
+Glucose,R_4OT2,4OT2,,,,no_capacity
+Glucose,R_A5PISO,A5PISO,,30004.60825561322,,no_flux
+Glucose,R_AACTOOR,AACTOOR,,,,no_capacity
+Glucose,R_AADSACYCL,AADSACYCL,,,,no_capacity
+Glucose,R_AASAD3,AASAD3,,2994.3904432186823,,no_flux
+Glucose,R_ABTA,ABTA,,,,no_capacity
+Glucose,R_ABUTD,ABUTD,,21.299547690168538,,no_flux
+Glucose,R_ACACT1r,ACACT1r,,244874380.299172,,no_flux
+Glucose,R_ACALD,ACALD,,,,no_capacity
+Glucose,R_ACBIPGT,ACBIPGT,,,,no_capacity
+Glucose,R_ACCOAC,ACCOAC,,6611.349456752983,,no_flux
+Glucose,R_ACGK,ACGK,,60795.72906151796,,no_flux
+Glucose,R_ACGS,ACGS,,63.96425487809407,,no_flux
+Glucose,R_ACHBS,ACHBS,,,,no_capacity
+Glucose,R_ACLS,ACLS,,39867.23276420787,,no_flux
+Glucose,R_ACOAD1f,ACOAD1f,,87.04551156270784,,no_flux
+Glucose,R_ACOAD3f,ACOAD3f,,2825.4473166422017,,no_flux
+Glucose,R_ACOAD5f,ACOAD5f,,2825.4473166422017,,no_flux
+Glucose,R_ACOAD6f,ACOAD6f,,2825.4473166422017,,no_flux
+Glucose,R_ACOAD7f,ACOAD7f,,11029.658933803143,,no_flux
+Glucose,R_ACOATA,ACOATA,,226507.95512144326,,no_flux
+Glucose,R_ACODA,ACODA,,4921807.7624662835,,no_flux
+Glucose,R_ACONTa,ACONTa,,5956.938489620731,,no_flux
+Glucose,R_ACONTb,ACONTb,,5956.938489620731,,no_flux
+Glucose,R_ACOTA,ACOTA,,,,no_capacity
+Glucose,R_ACPS1,ACPS1,,,,no_capacity
+Glucose,R_ACS,ACS,,121556.57930097908,,no_flux
+Glucose,R_ACS2,ACS2,,702.1129292440925,,no_flux
+Glucose,R_ADA,ADA,,20665.358522611124,,no_flux
+Glucose,R_ADCS,ADCS,,44.1402501307208,,no_flux
+Glucose,R_ADCYRS,ADCYRS,,,,no_capacity
+Glucose,R_ADD,ADD,,1951.7283049132727,,no_flux
+Glucose,R_ADK1,ADK1,,369594.6095064794,,no_flux
+Glucose,R_ADK3,ADK3,,210116.32149316627,,no_flux
+Glucose,R_ADNCYC,ADNCYC,,,,no_capacity
+Glucose,R_ADNK1,ADNK1,,32904215.945829835,,no_flux
+Glucose,R_ADNUC,ADNUC,,,,no_capacity
+Glucose,R_ADOCBIK,ADOCBIK,,,,no_capacity
+Glucose,R_ADOCBLS,ADOCBLS,,,,no_capacity
+Glucose,R_ADPRDP,ADPRDP,,15771.979796400507,,no_flux
+Glucose,R_ADPT,ADPT,,8933.186003151715,,no_flux
+Glucose,R_ADSELK,ADSELK,,74256.55882646314,,no_flux
+Glucose,R_ADSK,ADSK,,74256.55882646314,,no_flux
+Glucose,R_ADSL1r,ADSL1r,,3311.04356752141,,no_flux
+Glucose,R_ADSL2r,ADSL2r,,3311.04356752141,,no_flux
+Glucose,R_ADSS,ADSS,,2969.7279012815516,,no_flux
+Glucose,R_AGMDA,AGMDA,,262.23306021617066,,no_flux
+Glucose,R_AGMT,AGMT,,,,no_capacity
+Glucose,R_AGPOP,AGPOP,,1801485.6455028227,,no_flux
+Glucose,R_AHCi,AHCi,,,,no_capacity
+Glucose,R_AIRC2,AIRC2,,5826.918109279857,,no_flux
+Glucose,R_AIRC3,AIRC3,,3367.1300762778283,,no_flux
+Glucose,R_AKGDH,AKGDH,,1104516.5024092859,,no_flux
+Glucose,R_ALAALAr,ALAALAr,,5853.247638321292,,no_flux
+Glucose,R_ALAR,ALAR,,158.27454738339074,,no_flux
+Glucose,R_ALATA_L,ALATA_L,,748.1830283076214,,no_flux
+Glucose,R_ALATRS,ALATRS,,39384.012715656565,,no_flux
+Glucose,R_ALCD19,ALCD19,,83512.01611283825,,no_flux
+Glucose,R_ALCD2x,ALCD2x,,3408.578459777994,,no_flux
+Glucose,R_ALDD19xr,ALDD19xr,,268.8501052583736,,no_flux
+Glucose,R_ALDD20x,ALDD20x,,43.01182784758962,,no_flux
+Glucose,R_ALDD2x,ALDD2x,,43.01182784758962,,no_flux
+Glucose,R_ALDD2y,ALDD2y,,,,no_capacity
+Glucose,R_ALLTAMH,ALLTAMH,,2053.2748016359956,,no_flux
+Glucose,R_ALLTN,ALLTN,,,,no_capacity
+Glucose,R_AMALT1,AMALT1,,61884.04565844766,,no_flux
+Glucose,R_AMAOTr,AMAOTr,,29.747953119107265,,no_flux
+Glucose,R_AMID4,AMID4,,,,no_capacity
+Glucose,R_AMPN,AMPN,,9077.996036841818,,no_flux
+Glucose,R_AMPTASECG,AMPTASECG,,11195052.023746422,,no_flux
+Glucose,R_ANPRT,ANPRT,,786.6838912215559,,no_flux
+Glucose,R_ANS,ANS,,83409.8454563477,,no_flux
+Glucose,R_ANS2,ANS2,,83409.8454563477,,no_flux
+Glucose,R_AOBUTDs,AOBUTDs,,,,no_capacity
+Glucose,R_AOXSr2,AOXSr2,,35.211239592235664,,no_flux
+Glucose,R_AP4AH,AP4AH,,13824.011252706274,,no_flux
+Glucose,R_APPAT,APPAT,,1041.7170150348452,,no_flux
+Glucose,R_APPLDHr,APPLDHr,,,,no_capacity
+Glucose,R_APSR,APSR,,538.9656459942933,,no_flux
+Glucose,R_ARGDC,ARGDC,,1950.1040413600124,,no_flux
+Glucose,R_ARGDCpp,ARGDCpp,,1950.1040413600124,,no_flux
+Glucose,R_ARGDI,ARGDI,,9379.7368581221,,no_flux
+Glucose,R_ARGDr,ARGDr,,9379.7368581221,,no_flux
+Glucose,R_ARGSL,ARGSL,,804134.2516428379,,no_flux
+Glucose,R_ARGTRS,ARGTRS,,7584.888318670826,,no_flux
+Glucose,R_AROH,AROH,,354502.9685092464,,no_flux
+Glucose,R_ARUH,ARUH,,,,no_capacity
+Glucose,R_ASAD,ASAD,,60082.73333321115,,no_flux
+Glucose,R_ASNN,ASNN,,,,no_capacity
+Glucose,R_ASNNpp,ASNNpp,,1309675.6102455056,,no_flux
+Glucose,R_ASNS1,ASNS1,,,,no_capacity
+Glucose,R_ASPCT,ASPCT,,95022.66141067987,,no_flux
+Glucose,R_ASPK,ASPK,,121344.66533746391,,no_flux
+Glucose,R_ASPO1,ASPO1,,792.8561138056361,,no_flux
+Glucose,R_ASPO6,ASPO6,,792.8561138056361,,no_flux
+Glucose,R_ASPT,ASPT,,46374.70705514739,,no_flux
+Glucose,R_ASPTA,ASPTA,,,,no_capacity
+Glucose,R_ASPTRS,ASPTRS,,11390.948556813742,,no_flux
+Glucose,R_ASR,ASR,,,,no_capacity
+Glucose,R_ATHRDHr,ATHRDHr,,8671.127577996122,,no_flux
+Glucose,R_ATPM,ATPM,,,,no_capacity
+Glucose,R_ATPPRT,ATPPRT,,706.6146618606117,,no_flux
+Glucose,R_ATPS4rpp,ATPS4rpp,,47855.81054534773,,no_flux
+Glucose,R_BACCL,BACCL,,,,no_capacity
+Glucose,R_BDH,BDH,,,,no_capacity
+Glucose,R_BETALDHx,BETALDHx,,11523.232108619199,,no_flux
+Glucose,R_BETALDHy,BETALDHy,,11523.232108619199,,no_flux
+Glucose,R_BPNT,BPNT,,723.7971425110227,,no_flux
+Glucose,R_BTDD_RR,BTDD_RR,,,,no_capacity
+Glucose,R_BZ12DOX,BZ12DOX,,,,no_capacity
+Glucose,R_BZALDH,BZALDH,,,,no_capacity
+Glucose,R_BZDH,BZDH,,,,no_capacity
+Glucose,R_CA2tex,CA2tex,,,,no_capacity
+Glucose,R_CAFFCOA,CAFFCOA,,,,no_capacity
+Glucose,R_CAT,CAT,,1754040819.209246,,no_flux
+Glucose,R_CAT23DOX,CAT23DOX,,,,no_capacity
+Glucose,R_CATDOX,CATDOX,,207.82869596776504,,no_flux
+Glucose,R_CBIAT,CBIAT,,,,no_capacity
+Glucose,R_CBIuabcpp,CBIuabcpp,,,,no_capacity
+Glucose,R_CBL1abcpp,CBL1abcpp,,,,no_capacity
+Glucose,R_CBLAT,CBLAT,,,,no_capacity
+Glucose,R_CBMKr,CBMKr,,117904.62729244865,,no_flux
+Glucose,R_CBPS,CBPS,,1260923.6115235388,,no_flux
+Glucose,R_CDGR,CDGR,,0.6894515495099871,,no_flux
+Glucose,R_CDGS,CDGS,,,,no_capacity
+Glucose,R_CFAS160E,CFAS160E,,7128.518476871779,,no_flux
+Glucose,R_CFAS160G,CFAS160G,,7128.518476871779,,no_flux
+Glucose,R_CFAS180E,CFAS180E,,,,no_capacity
+Glucose,R_CFAS180G,CFAS180G,,,,no_capacity
+Glucose,R_CHLP,CHLP,,,,no_capacity
+Glucose,R_CHOLD,CHOLD,,,,no_capacity
+Glucose,R_CHORM,CHORM,,67157394.65547836,,no_flux
+Glucose,R_CHORS,CHORS,,95.13787909583729,,no_flux
+Glucose,R_CHRPL,CHRPL,,,,no_capacity
+Glucose,R_CPPPGO,CPPPGO,,1465.9327535817151,,no_flux
+Glucose,R_CPPPGO2,CPPPGO2,,169422.4025371944,,no_flux
+Glucose,R_CS,CS,,1786296.4949104725,,no_flux
+Glucose,R_CSND,CSND,,15996.57769805994,,no_flux
+Glucose,R_CSPMDDC,CSPMDDC,,3384.8554605863233,,no_flux
+Glucose,R_CTECOAI6,CTECOAI6,,29237.45089078556,,no_flux
+Glucose,R_CTECOAI7,CTECOAI7,,29237.45089078556,,no_flux
+Glucose,R_CTECOAI8,CTECOAI8,,29237.45089078556,,no_flux
+Glucose,R_CTPS1,CTPS1,,4797.360804188138,,no_flux
+Glucose,R_CTPS2,CTPS2,,4797.360804188138,,no_flux
+Glucose,R_CYANST,CYANST,,69646.59916375554,,no_flux
+Glucose,R_CYRDAAT,CYRDAAT,,,,no_capacity
+Glucose,R_CYSDS,CYSDS,,,,no_capacity
+Glucose,R_CYSS,CYSS,,3287813.24058233,,no_flux
+Glucose,R_CYSSADS,CYSSADS,,133.94473379059343,,no_flux
+Glucose,R_CYSTGL,CYSTGL,,480.393075082619,,no_flux
+Glucose,R_CYSTL,CYSTL,,,,no_capacity
+Glucose,R_CYSTRS,CYSTRS,,2445.50562795858,,no_flux
+Glucose,R_CYSTS,CYSTS,,5422.148451284628,,no_flux
+Glucose,R_CYTDH,CYTDH,,,,no_capacity
+Glucose,R_CYTK1,CYTK1,,65463.44437511846,,no_flux
+Glucose,R_CYTK2,CYTK2,,65463.44437511846,,no_flux
+Glucose,R_CYTOM,CYTOM,,4.461864419424121,,no_flux
+Glucose,R_DADA,DADA,,20665.358522611124,,no_flux
+Glucose,R_DADK,DADK,,369594.6095064794,,no_flux
+Glucose,R_DAGK160,DAGK160,,,,no_capacity
+Glucose,R_DAPDC,DAPDC,,,,no_capacity
+Glucose,R_DAPE,DAPE,,4389.338408460189,,no_flux
+Glucose,R_DASYN120,DASYN120,,,,no_capacity
+Glucose,R_DASYN140,DASYN140,,,,no_capacity
+Glucose,R_DASYN141,DASYN141,,,,no_capacity
+Glucose,R_DASYN160,DASYN160,,,,no_capacity
+Glucose,R_DASYN161,DASYN161,,,,no_capacity
+Glucose,R_DASYN180,DASYN180,,,,no_capacity
+Glucose,R_DASYN181,DASYN181,,,,no_capacity
+Glucose,R_DCTPD,DCTPD,,3105.7037411665374,,no_flux
+Glucose,R_DCTPD2,DCTPD2,,3105.7037411665374,,no_flux
+Glucose,R_DDGLK,DDGLK,,13518.298269865594,,no_flux
+Glucose,R_DDPA,DDPA,,8696.68869313764,,no_flux
+Glucose,R_DGK1,DGK1,,72528.22650036668,,no_flux
+Glucose,R_DHACOAH,DHACOAH,,,,no_capacity
+Glucose,R_DHAD1_copy1,DHAD1_copy1,,35862.2553991438,,no_flux
+Glucose,R_DHAD1_copy2,DHAD1_copy2,,35862.2553991438,,no_flux
+Glucose,R_DHAD2,DHAD2,,35862.2553991438,,no_flux
+Glucose,R_DHFR,DHFR,,,,no_capacity
+Glucose,R_DHFS,DHFS,,96.79185027347775,,no_flux
+Glucose,R_DHORDfum,DHORDfum,,37831.665988675406,,no_flux
+Glucose,R_DHORTS,DHORTS,,33745.611003312646,,no_flux
+Glucose,R_DHPM1,DHPM1,,,,no_capacity
+Glucose,R_DHPM2,DHPM2,,,,no_capacity
+Glucose,R_DHQS,DHQS,,5604811.098012413,,no_flux
+Glucose,R_DHQTi_copy1,DHQTi_copy1,,,,no_capacity
+Glucose,R_DHQTi_copy2,DHQTi_copy2,,,,no_capacity
+Glucose,R_DHSKDH,DHSKDH,,15.605977050327613,,no_flux
+Glucose,R_DMATT,DMATT,,49.55499644203463,,no_flux
+Glucose,R_DNTPPA,DNTPPA,,,,no_capacity
+Glucose,R_DPCOAK,DPCOAK,,1.8013394043029969,,no_flux
+Glucose,R_DPR,DPR,,8181.666067010222,,no_flux
+Glucose,R_DTMPK,DTMPK,,,,no_capacity
+Glucose,R_DURAD,DURAD,,193.2490847385713,,no_flux
+Glucose,R_DURAD2,DURAD2,,193.2490847385713,,no_flux
+Glucose,R_DUTPDP,DUTPDP,,75815155.32514928,,no_flux
+Glucose,R_DXPRIi,DXPRIi,,1922.803879162366,,no_flux
+Glucose,R_DXPS,DXPS,,4144.629420714538,,no_flux
+Glucose,R_E4PD,E4PD,,9535.641367460285,,no_flux
+Glucose,R_EAR121x,EAR121x,,,,no_capacity
+Glucose,R_EAR121y,EAR121y,,,,no_capacity
+Glucose,R_EAR141y,EAR141y,,,,no_capacity
+Glucose,R_EAR160y,EAR160y,,,,no_capacity
+Glucose,R_EAR161y,EAR161y,,,,no_capacity
+Glucose,R_EAR180y,EAR180y,,,,no_capacity
+Glucose,R_EAR181y,EAR181y,,,,no_capacity
+Glucose,R_ECOAH1,ECOAH1,,306830.80407052184,,no_flux
+Glucose,R_ECOAH12,ECOAH12,,,,no_capacity
+Glucose,R_ECOAH2,ECOAH2,,306830.80407052184,,no_flux
+Glucose,R_ECOAH3,ECOAH3,,306830.80407052184,,no_flux
+Glucose,R_ECOAH4,ECOAH4,,306830.80407052184,,no_flux
+Glucose,R_ECOAH5,ECOAH5,,306830.80407052184,,no_flux
+Glucose,R_ECOAH6,ECOAH6,,306830.80407052184,,no_flux
+Glucose,R_ECOAH7,ECOAH7,,306830.80407052184,,no_flux
+Glucose,R_ECOAH8,ECOAH8,,306830.80407052184,,no_flux
+Glucose,R_ECOAH9ir,ECOAH9ir,,,,no_capacity
+Glucose,R_EDA,EDA,,1022821.505710743,,no_flux
+Glucose,R_EGMEACPR,EGMEACPR,,,,no_capacity
+Glucose,R_ENO,ENO,,135576.8181244092,,no_flux
+Glucose,R_EPMEACPR,EPMEACPR,,,,no_capacity
+Glucose,R_ETHAAL,ETHAAL,,1139.1636800582992,,no_flux
+Glucose,R_ETHP,ETHP,,,,no_capacity
+Glucose,R_EX_ca2_e,EX_ca2_e,,,,no_capacity
+Glucose,R_EX_oaa_e,EX_oaa_e,,,,no_capacity
+Glucose,R_FA140ACPHi,FA140ACPHi,,,,no_capacity
+Glucose,R_FA141ACPHi,FA141ACPHi,,,,no_capacity
+Glucose,R_FA160ACPHi,FA160ACPHi,,,,no_capacity
+Glucose,R_FA161ACPHi,FA161ACPHi,,,,no_capacity
+Glucose,R_FACOAE100,FACOAE100,,8938.802090276386,,no_flux
+Glucose,R_FACOAE120,FACOAE120,,8938.802090276386,,no_flux
+Glucose,R_FACOAE140,FACOAE140,,8938.802090276386,,no_flux
+Glucose,R_FACOAE160,FACOAE160,,8938.802090276386,,no_flux
+Glucose,R_FACOAE180,FACOAE180,,8938.802090276386,,no_flux
+Glucose,R_FACOAE1829Z12Z,FACOAE1829Z12Z,,8938.802090276386,,no_flux
+Glucose,R_FACOAL141,FACOAL141,,,,no_capacity
+Glucose,R_FACOAL160,FACOAL160,,,,no_capacity
+Glucose,R_FACOAL180,FACOAL180,,,,no_capacity
+Glucose,R_FACOAL1821,FACOAL1821,,,,no_capacity
+Glucose,R_FACOAL80,FACOAL80,,,,no_capacity
+Glucose,R_FALDH2,FALDH2,,6356487.419414144,,no_flux
+Glucose,R_FBA,FBA,,,,no_capacity
+Glucose,R_FBP,FBP,,33898.50971662384,,no_flux
+Glucose,R_FCLT,FCLT,,10.637282110012201,,no_flux
+Glucose,R_FDH,FDH,,352.1604643604395,,no_flux
+Glucose,R_FDMO,FDMO,,35.534506546351125,,no_flux
+Glucose,R_FDMO2,FDMO2,,35.534506546351125,,no_flux
+Glucose,R_FDMO4,FDMO4,,35.534506546351125,,no_flux
+Glucose,R_FEROpp,FEROpp,,,,no_capacity
+Glucose,R_FERULCOAS,FERULCOAS,,,,no_capacity
+Glucose,R_FMETTRS,FMETTRS,,3746.099666549159,,no_flux
+Glucose,R_FMNRx,FMNRx,,2634.767677967513,,no_flux
+Glucose,R_FMNRx2_copy1,FMNRx2_copy1,,,,no_capacity
+Glucose,R_FMNRx2_copy2,FMNRx2_copy2,,5779.4903903803515,,no_flux
+Glucose,R_FOLD3,FOLD3,,17.36087812418724,,no_flux
+Glucose,R_FOMETRi,FOMETRi,,,,no_capacity
+Glucose,R_FTHFCL,FTHFCL,,569.6505258452049,,no_flux
+Glucose,R_FUM,FUM,,611295.0674417899,,no_flux
+Glucose,R_G1PACT,G1PACT,,180973.99459225635,,no_flux
+Glucose,R_G1PTT,G1PTT,,,,no_capacity
+Glucose,R_G1SAT,G1SAT,,296.0895472935389,,no_flux
+Glucose,R_G3PAT120,G3PAT120,,4.824536352455493,,no_flux
+Glucose,R_G3PAT140,G3PAT140,,4.824536352455493,,no_flux
+Glucose,R_G3PAT141,G3PAT141,,4.824536352455493,,no_flux
+Glucose,R_G3PAT160,G3PAT160,,4.824536352455493,,no_flux
+Glucose,R_G3PAT161,G3PAT161,,4.824536352455493,,no_flux
+Glucose,R_G3PAT180,G3PAT180,,4.824536352455493,,no_flux
+Glucose,R_G3PAT181,G3PAT181,,4.824536352455493,,no_flux
+Glucose,R_G6PBDH,G6PBDH,,,,no_capacity
+Glucose,R_G6PDH2r,G6PDH2r,,,,no_capacity
+Glucose,R_G6PI,G6PI,,,,no_capacity
+Glucose,R_GALCTD,GALCTD,,,,no_capacity
+Glucose,R_GALUi,GALUi,,86180.45753403429,,no_flux
+Glucose,R_GAPD,GAPD,,,,no_capacity
+Glucose,R_GAPDi_nadp,GAPDi_nadp,,85325.96795388282,,no_flux
+Glucose,R_GARFT,GARFT,,1857.5454685790996,,no_flux
+Glucose,R_GDPDPK,GDPDPK,,15584.935163456537,,no_flux
+Glucose,R_GDPTPDP,GDPTPDP,,334.9193098757246,,no_flux
+Glucose,R_GF6PTA,GF6PTA,,6724.280179540666,,no_flux
+Glucose,R_GGPTRCS,GGPTRCS,,874.9590171166026,,no_flux
+Glucose,R_GHMT2r,GHMT2r,,,,no_capacity
+Glucose,R_GK1,GK1,,72528.22650036668,,no_flux
+Glucose,R_GLCRD,GLCRD,,,,no_capacity
+Glucose,R_GLGC,GLGC,,,,no_capacity
+Glucose,R_GLNS_copy1,GLNS_copy1,,58755.67301694653,,no_flux
+Glucose,R_GLNS_copy2,GLNS_copy2,,58755.67301694653,,no_flux
+Glucose,R_GLNTRAT,GLNTRAT,,2057.308203201216,,no_flux
+Glucose,R_GLNTRS,GLNTRS,,766.2041510070534,,no_flux
+Glucose,R_GLUCYS_copy1,GLUCYS_copy1,,548890.6819964328,,no_flux
+Glucose,R_GLUCYS_copy2,GLUCYS_copy2,,548890.6819964328,,no_flux
+Glucose,R_GLUDxi,GLUDxi,,6045121.928973042,,no_flux
+Glucose,R_GLUDy,GLUDy,,4979575.69892104,,no_flux
+Glucose,R_GLUNpp,GLUNpp,,1430547.6120300936,,no_flux
+Glucose,R_GLUR,GLUR,,,,no_capacity
+Glucose,R_GLUSy,GLUSy,,13922.773953748687,,no_flux
+Glucose,R_GLUTCOADHc,GLUTCOADHc,,,,no_capacity
+Glucose,R_GLUTRR,GLUTRR,,1.7119619720717778,,no_flux
+Glucose,R_GLUTRS,GLUTRS,,791.8630005933983,,no_flux
+Glucose,R_GLXCL,GLXCL,,,,no_capacity
+Glucose,R_GLYALDDr,GLYALDDr,,43.01182784758962,,no_flux
+Glucose,R_GLYCK,GLYCK,,,,no_capacity
+Glucose,R_GLYCL,GLYCL,,1104516.5024092859,,no_flux
+Glucose,R_GLYCLTDx,GLYCLTDx,,61795584.5131673,,no_flux
+Glucose,R_GLYCLTDy,GLYCLTDy,,,,no_capacity
+Glucose,R_GLYCTO1,GLYCTO1,,,,no_capacity
+Glucose,R_GLYK,GLYK,,323992.9899141392,,no_flux
+Glucose,R_GLYO1,GLYO1,,328493.1116551206,,no_flux
+Glucose,R_GLYOX,GLYOX,,204172.5241642314,,no_flux
+Glucose,R_GLYPHEHYc,GLYPHEHYc,,2466156.3878397914,,no_flux
+Glucose,R_GLYTRS,GLYTRS,,3240.5847155924594,,no_flux
+Glucose,R_GMAND,GMAND,,4312.782650759161,,no_flux
+Glucose,R_GMPS2,GMPS2,,1930.089215571012,,no_flux
+Glucose,R_GND,GND,,,,no_capacity
+Glucose,R_GNK,GNK,,6035.339064061582,,no_flux
+Glucose,R_GNNUC,GNNUC,,,,no_capacity
+Glucose,R_GPDDA2,GPDDA2,,38149.261963307414,,no_flux
+Glucose,R_GPDDA4,GPDDA4,,572.2389294496111,,no_flux
+Glucose,R_GRTT,GRTT,,1539.744532306076,,no_flux
+Glucose,R_GTHOr,GTHOr,,93152.04651740444,,no_flux
+Glucose,R_GTHPi,GTHPi,,16327.51503078499,,no_flux
+Glucose,R_GTHRDHpp,GTHRDHpp,,,,no_capacity
+Glucose,R_GTHS,GTHS,,5475.010782197167,,no_flux
+Glucose,R_GTPCI,GTPCI,,,,no_capacity
+Glucose,R_GTPCII2,GTPCII2,,37651.41126216333,,no_flux
+Glucose,R_GTPDPDP,GTPDPDP,,246976.42438229057,,no_flux
+Glucose,R_GTPDPK,GTPDPK,,15584.935163456537,,no_flux
+Glucose,R_GUACYC,GUACYC,,275485.1767334781,,no_flux
+Glucose,R_GUAD,GUAD,,,,no_capacity
+Glucose,R_GUAPRT,GUAPRT,,8119.466697105414,,no_flux
+Glucose,R_GUDBUTNAH,GUDBUTNAH,,,,no_capacity
+Glucose,R_HACD1i,HACD1i,,2463525.9546865616,,no_flux
+Glucose,R_HACD2i,HACD2i,,2463525.9546865616,,no_flux
+Glucose,R_HACD3i,HACD3i,,2463525.9546865616,,no_flux
+Glucose,R_HACD4i,HACD4i,,2463525.9546865616,,no_flux
+Glucose,R_HACD5i,HACD5i,,2463525.9546865616,,no_flux
+Glucose,R_HACD6i,HACD6i,,2463525.9546865616,,no_flux
+Glucose,R_HACD7i,HACD7i,,2463525.9546865616,,no_flux
+Glucose,R_HACD8i,HACD8i,,2463525.9546865616,,no_flux
+Glucose,R_HACD9,HACD9,,,,no_capacity
+Glucose,R_HADPCOADH3,HADPCOADH3,,603749.6441624123,,no_flux
+Glucose,R_HCO3E,HCO3E,,2502321917.0660553,,no_flux
+Glucose,R_HCYSMT,HCYSMT,,52.83119003815792,,no_flux
+Glucose,R_HCYSMT2,HCYSMT2,,52.83119003815792,,no_flux
+Glucose,R_HDH,HDH,,12377.53582728257,,no_flux
+Glucose,R_HEX1,HEX1,,204779.6232114163,,no_flux
+Glucose,R_HGNTOR,HGNTOR,,88.21121353698051,,no_flux
+Glucose,R_HIBDkt,HIBDkt,,3037798.534822015,,no_flux
+Glucose,R_HISDr,HISDr,,2936.86332164468,,no_flux
+Glucose,R_HISTD,HISTD,,12377.53582728257,,no_flux
+Glucose,R_HISTP,HISTP,,174139.55722770814,,no_flux
+Glucose,R_HISTRS,HISTRS,,32945.98981622626,,no_flux
+Glucose,R_HMBS,HMBS,,21.87457749088794,,no_flux
+Glucose,R_HMGL,HMGL,,16976.600101807642,,no_flux
+Glucose,R_HMPK1,HMPK1,,33.373231800610405,,no_flux
+Glucose,R_HMSD2,HMSD2,,,,no_capacity
+Glucose,R_HMSH,HMSH,,,,no_capacity
+Glucose,R_HMSH2,HMSH2,,,,no_capacity
+Glucose,R_HOPNTAL,HOPNTAL,,,,no_capacity
+Glucose,R_HOPNTAL2,HOPNTAL2,,,,no_capacity
+Glucose,R_HPYRRx,HPYRRx,,2032.7494905647136,,no_flux
+Glucose,R_HPYRRy,HPYRRy,,,,no_capacity
+Glucose,R_HSDy,HSDy,,19724.57549154473,,no_flux
+Glucose,R_HSERTA,HSERTA,,6175.266225043076,,no_flux
+Glucose,R_HSK,HSK,,4035.171916850697,,no_flux
+Glucose,R_HSTPT,HSTPT,,966963.7142177928,,no_flux
+Glucose,R_HXAND,HXAND,,1617.4555489203228,,no_flux
+Glucose,R_HXPRT,HXPRT,,4871.680018263249,,no_flux
+Glucose,R_ICDHyr,ICDHyr,,363612.0318504641,,no_flux
+Glucose,R_ICL,ICL,,1190.4187346598007,,no_flux
+Glucose,R_IGPDH,IGPDH,,180434.33282540625,,no_flux
+Glucose,R_IGPS,IGPS,,1795.002321213968,,no_flux
+Glucose,R_ILETA,ILETA,,585248.0800692429,,no_flux
+Glucose,R_ILETRS,ILETRS,,1581.8760328014475,,no_flux
+Glucose,R_IMPC,IMPC,,4531.191592524031,,no_flux
+Glucose,R_IMPD,IMPD,,9844.15067955291,,no_flux
+Glucose,R_INSH,INSH,,,,no_capacity
+Glucose,R_IPDDI,IPDDI,,,,no_capacity
+Glucose,R_IPMD,IPMD,,48830.812317374264,,no_flux
+Glucose,R_IPPS,IPPS,,167841.54264133793,,no_flux
+Glucose,R_KARA1,KARA1,,137650.15905402644,,no_flux
+Glucose,R_KARA2,KARA2,,137650.15905402644,,no_flux
+Glucose,R_KAS14,KAS14,,226507.95512144326,,no_flux
+Glucose,R_KAS15,KAS15,,3678.269689734962,,no_flux
+Glucose,R_KAT1,KAT1,,,,no_capacity
+Glucose,R_KDOCT2,KDOCT2,,3251.105979696917,,no_flux
+Glucose,R_KDOPP,KDOPP,,222.99692576725232,,no_flux
+Glucose,R_KDOPS,KDOPS,,,,no_capacity
+Glucose,R_LALGP,LALGP,,10805658.909876982,,no_flux
+Glucose,R_LCADi,LCADi,,239076.6927440839,,no_flux
+Glucose,R_LDH_D,LDH_D,,25471.686175590283,,no_flux
+Glucose,R_LEUTA,LEUTA,,585248.0800692429,,no_flux
+Glucose,R_LEUTRS,LEUTRS,,53729.69586689976,,no_flux
+Glucose,R_LGTHL,LGTHL,,46322.54202333613,,no_flux
+Glucose,R_LLEUDr,LLEUDr,,,,no_capacity
+Glucose,R_LSERDHr,LSERDHr,,7193.094468110419,,no_flux
+Glucose,R_LTDCL,LTDCL,,,,no_capacity
+Glucose,R_LYSDC,LYSDC,,,,no_capacity
+Glucose,R_LYSMO,LYSMO,,,,no_capacity
+Glucose,R_LYSRC,LYSRC,,,,no_capacity
+Glucose,R_LYSTRS,LYSTRS,,77621.51081702345,,no_flux
+Glucose,R_L_LACD2,L_LACD2,,54177.20261644535,,no_flux
+Glucose,R_MACACI,MACACI,,,,no_capacity
+Glucose,R_MACCOAT,MACCOAT,,,,no_capacity
+Glucose,R_MALEI,MALEI,,,,no_capacity
+Glucose,R_MALS,MALS,,22936.808602835343,,no_flux
+Glucose,R_MAN1PT,MAN1PT,,47809.962093975075,,no_flux
+Glucose,R_MAN6PI,MAN6PI,,336.7929948427034,,no_flux
+Glucose,R_MBCOAi,MBCOAi,,1592.174586938958,,no_flux
+Glucose,R_MCCC,MCCC,,18.766386125880626,,no_flux
+Glucose,R_MCITL2,MCITL2,,,,no_capacity
+Glucose,R_MCITS,MCITS,,3903.575181879954,,no_flux
+Glucose,R_MCOATA,MCOATA,,346018.507230167,,no_flux
+Glucose,R_MCSNAH,MCSNAH,,15996.57769805994,,no_flux
+Glucose,R_MDDCP1pp,MDDCP1pp,,120902.98056439255,,no_flux
+Glucose,R_MDDCP2pp,MDDCP2pp,,120902.98056439255,,no_flux
+Glucose,R_MDDCP3pp,MDDCP3pp,,120902.98056439255,,no_flux
+Glucose,R_MDDCP4pp,MDDCP4pp,,120902.98056439255,,no_flux
+Glucose,R_MDDCP5pp,MDDCP5pp,,120902.98056439255,,no_flux
+Glucose,R_MDH,MDH,,1560438.1756705602,,no_flux
+Glucose,R_ME2,ME2,,6159891.072631299,,no_flux
+Glucose,R_MECDPS_copy1,MECDPS_copy1,,,,no_capacity
+Glucose,R_MECDPS_copy2,MECDPS_copy2,,,,no_capacity
+Glucose,R_MEPCT,MEPCT,,,,no_capacity
+Glucose,R_METAT,METAT,,6137.134675633813,,no_flux
+Glucose,R_METGL,METGL,,,,no_capacity
+Glucose,R_METS,METS,,1406.4784106225752,,no_flux
+Glucose,R_METSOXR1,METSOXR1,,1868.0597453575958,,no_flux
+Glucose,R_METSOXR2,METSOXR2,,1868.0597453575958,,no_flux
+Glucose,R_METTRS,METTRS,,16442.83283036559,,no_flux
+Glucose,R_MGCH,MGCH,,69.62233168457115,,no_flux
+Glucose,R_MI1PP,MI1PP,,121667.9791634053,,no_flux
+Glucose,R_MLDCP1App,MLDCP1App,,,,no_capacity
+Glucose,R_MLDCP1Bpp,MLDCP1Bpp,,,,no_capacity
+Glucose,R_MLDCP2App,MLDCP2App,,,,no_capacity
+Glucose,R_MLDCP2Bpp,MLDCP2Bpp,,,,no_capacity
+Glucose,R_MLDCP3App,MLDCP3App,,,,no_capacity
+Glucose,R_MMSAD3,MMSAD3,,,,no_capacity
+Glucose,R_MMTSAO,MMTSAO,,,,no_capacity
+Glucose,R_MOHMT,MOHMT,,69.41911602925535,,no_flux
+Glucose,R_MPTAT,MPTAT,,,,no_capacity
+Glucose,R_MSULR,MSULR,,,,no_capacity
+Glucose,R_MTHFC,MTHFC,,,,no_capacity
+Glucose,R_MTHFD,MTHFD,,,,no_capacity
+Glucose,R_MTHFR2,MTHFR2,,48355.47841320304,,no_flux
+Glucose,R_MTI,MTI,,251.87352796093805,,no_flux
+Glucose,R_MTOLDOX,MTOLDOX,,,,no_capacity
+Glucose,R_MUCCYCI,MUCCYCI,,,,no_capacity
+Glucose,R_MUCCY_kt,MUCCY_kt,,27401.63979718805,,no_flux
+Glucose,R_MUCLI,MUCLI,,,,no_capacity
+Glucose,R_NADDP,NADDP,,54189671.19852808,,no_flux
+Glucose,R_NADH16pp,NADH16pp,,31185.09702617913,,no_flux
+Glucose,R_NADHPO,NADHPO,,6352.040313212441,,no_flux
+Glucose,R_NADK,NADK,,,,no_capacity
+Glucose,R_NADN,NADN,,,,no_capacity
+Glucose,R_NADS1,NADS1,,1223.4323866015645,,no_flux
+Glucose,R_NADTRHD,NADTRHD,,30227.15454053328,,no_flux
+Glucose,R_NAMNPP,NAMNPP,,5.7594000231251865,,no_flux
+Glucose,R_NDP8,NDP8,,5133.317808473649,,no_flux
+Glucose,R_NDPK1,NDPK1,,2245608.060962285,,no_flux
+Glucose,R_NDPK2,NDPK2,,2245608.060962285,,no_flux
+Glucose,R_NDPK3,NDPK3,,2245608.060962285,,no_flux
+Glucose,R_NDPK4,NDPK4,,2245608.060962285,,no_flux
+Glucose,R_NDPK5,NDPK5,,2245608.060962285,,no_flux
+Glucose,R_NDPK6,NDPK6,,2245608.060962285,,no_flux
+Glucose,R_NDPK7,NDPK7,,2245608.060962285,,no_flux
+Glucose,R_NDPK8,NDPK8,,2245608.060962285,,no_flux
+Glucose,R_NITR,NITR,,,,no_capacity
+Glucose,R_NMNAT,NMNAT,,2659.5219598395215,,no_flux
+Glucose,R_NMNDA,NMNDA,,124.0650904360487,,no_flux
+Glucose,R_NNATr,NNATr,,2659.5219598395215,,no_flux
+Glucose,R_NNDMBRT,NNDMBRT,,,,no_capacity
+Glucose,R_NNDPR,NNDPR,,1325.8369753845207,,no_flux
+Glucose,R_NODOx,NODOx,,47115.760042603244,,no_flux
+Glucose,R_NODOy,NODOy,,47115.760042603244,,no_flux
+Glucose,R_NTD1,NTD1,,43057.989974704615,,no_flux
+Glucose,R_NTD10,NTD10,,43057.989974704615,,no_flux
+Glucose,R_NTD10pp,NTD10pp,,,,no_capacity
+Glucose,R_NTD11,NTD11,,43057.989974704615,,no_flux
+Glucose,R_NTD11pp,NTD11pp,,,,no_capacity
+Glucose,R_NTD1pp,NTD1pp,,,,no_capacity
+Glucose,R_NTD2,NTD2,,43057.989974704615,,no_flux
+Glucose,R_NTD2pp,NTD2pp,,,,no_capacity
+Glucose,R_NTD3,NTD3,,43057.989974704615,,no_flux
+Glucose,R_NTD3pp,NTD3pp,,,,no_capacity
+Glucose,R_NTD4,NTD4,,43057.989974704615,,no_flux
+Glucose,R_NTD4pp,NTD4pp,,,,no_capacity
+Glucose,R_NTD5,NTD5,,43057.989974704615,,no_flux
+Glucose,R_NTD5pp,NTD5pp,,,,no_capacity
+Glucose,R_NTD6,NTD6,,43057.989974704615,,no_flux
+Glucose,R_NTD6pp,NTD6pp,,,,no_capacity
+Glucose,R_NTD7,NTD7,,43057.989974704615,,no_flux
+Glucose,R_NTD7pp,NTD7pp,,,,no_capacity
+Glucose,R_NTD8,NTD8,,43057.989974704615,,no_flux
+Glucose,R_NTD8pp,NTD8pp,,,,no_capacity
+Glucose,R_NTD9,NTD9,,43057.989974704615,,no_flux
+Glucose,R_NTD9pp,NTD9pp,,,,no_capacity
+Glucose,R_NTP1,NTP1,,18720.449239916124,,no_flux
+Glucose,R_NTP10,NTP10,,126436.32271880712,,no_flux
+Glucose,R_NTP3,NTP3,,691949.6364165541,,no_flux
+Glucose,R_NTP5,NTP5,,213421.49737497218,,no_flux
+Glucose,R_NTPP1,NTPP1,,63831397.281588525,,no_flux
+Glucose,R_NTPP10,NTPP10,,53183.04644275492,,no_flux
+Glucose,R_NTPP11,NTPP11,,53183.04644275492,,no_flux
+Glucose,R_NTPP2,NTPP2,,63831397.281588525,,no_flux
+Glucose,R_NTPP3,NTPP3,,63831397.281588525,,no_flux
+Glucose,R_NTPP4,NTPP4,,63831397.281588525,,no_flux
+Glucose,R_NTPP5,NTPP5,,63831397.281588525,,no_flux
+Glucose,R_NTPP6,NTPP6,,63831397.281588525,,no_flux
+Glucose,R_NTPP7,NTPP7,,63831397.281588525,,no_flux
+Glucose,R_NTPP8,NTPP8,,63831397.281588525,,no_flux
+Glucose,R_NTPP9,NTPP9,,50600321.689836204,,no_flux
+Glucose,R_NTPTP1,NTPTP1,,107327.96568615758,,no_flux
+Glucose,R_NTRIR2x,NTRIR2x,,,,no_capacity
+Glucose,R_OAADC,OAADC,,14392422.688237472,,no_flux
+Glucose,R_OAAtex,OAAtex,,,,no_capacity
+Glucose,R_OARGDC,OARGDC,,,,no_capacity
+Glucose,R_OCAALD,OCAALD,,,,no_capacity
+Glucose,R_OCBT,OCBT,,6634.971457045819,,no_flux
+Glucose,R_OCOAT1,OCOAT1,,,,no_capacity
+Glucose,R_OCTDPS,OCTDPS,,432.4506904138688,,no_flux
+Glucose,R_OHPBAT,OHPBAT,,497.8317472143343,,no_flux
+Glucose,R_OMAHY,OMAHY,,,,no_capacity
+Glucose,R_OMCDC,OMCDC,,,,no_capacity
+Glucose,R_OMPDC,OMPDC,,96355.99964459726,,no_flux
+Glucose,R_OP4ENH,OP4ENH,,,,no_capacity
+Glucose,R_OP4ENH2,OP4ENH2,,,,no_capacity
+Glucose,R_OPAH,OPAH,,,,no_capacity
+Glucose,R_ORNDC,ORNDC,,11949.988577067428,,no_flux
+Glucose,R_ORPT,ORPT,,1840.828594800581,,no_flux
+Glucose,R_P5CD,P5CD,,2484.3457454022705,,no_flux
+Glucose,R_P5CR,P5CR,,,,no_capacity
+Glucose,R_PACCOAL,PACCOAL,,,,no_capacity
+Glucose,R_PANTS,PANTS,,733.8113359692272,,no_flux
+Glucose,R_PAPA160,PAPA160,,,,no_capacity
+Glucose,R_PAPPT3,PAPPT3,,,,no_capacity
+Glucose,R_PAPSR,PAPSR,,554.8175767588314,,no_flux
+Glucose,R_PAPSR2,PAPSR2,,554.8175767588314,,no_flux
+Glucose,R_PC,PC,,,,no_capacity
+Glucose,R_PC8XM,PC8XM,,,,no_capacity
+Glucose,R_PCADYOX,PCADYOX,,,,no_capacity
+Glucose,R_PDE1,PDE1,,,,no_capacity
+Glucose,R_PDE4,PDE4,,217103.6324716415,,no_flux
+Glucose,R_PDH,PDH,,131.07692158245888,,no_flux
+Glucose,R_PDHa,PDHa,,218.9018563752086,,no_flux
+Glucose,R_PDHbr,PDHbr,,1850.497716458243,,no_flux
+Glucose,R_PDHcr,PDHcr,,1104516.5024092859,,no_flux
+Glucose,R_PDX5POi,PDX5POi,,2522.6663158736355,,no_flux
+Glucose,R_PERD,PERD,,31.304555021604312,,no_flux
+Glucose,R_PGAMT,PGAMT,,2033.519457980694,,no_flux
+Glucose,R_PGCD,PGCD,,2598879.3740282943,,no_flux
+Glucose,R_PGI,PGI,,,,no_capacity
+Glucose,R_PGK,PGK,,277138.86877707805,,no_flux
+Glucose,R_PGLYCP,PGLYCP,,52827.1190222467,,no_flux
+Glucose,R_PGM,PGM,,1253742.674286762,,no_flux
+Glucose,R_PGMT,PGMT,,15809.67168270086,,no_flux
+Glucose,R_PGPP120,PGPP120,,,,no_capacity
+Glucose,R_PGPP120pp,PGPP120pp,,,,no_capacity
+Glucose,R_PGPP160,PGPP160,,,,no_capacity
+Glucose,R_PGPP160pp,PGPP160pp,,,,no_capacity
+Glucose,R_PGPP161,PGPP161,,,,no_capacity
+Glucose,R_PGPP161pp,PGPP161pp,,,,no_capacity
+Glucose,R_PGPP180,PGPP180,,,,no_capacity
+Glucose,R_PGPP180pp,PGPP180pp,,,,no_capacity
+Glucose,R_PGPP181,PGPP181,,,,no_capacity
+Glucose,R_PGPP181pp,PGPP181pp,,,,no_capacity
+Glucose,R_PHETA1,PHETA1,,,,no_capacity
+Glucose,R_PHETRS,PHETRS,,116551.3363201162,,no_flux
+Glucose,R_PLIPA1E160pp,PLIPA1E160pp,,,,no_capacity
+Glucose,R_PLIPA1E180pp,PLIPA1E180pp,,,,no_capacity
+Glucose,R_PMANM,PMANM,,423.6187289542542,,no_flux
+Glucose,R_PMDPHT,PMDPHT,,,,no_capacity
+Glucose,R_PMEACPE,PMEACPE,,779.1421872820313,,no_flux
+Glucose,R_PMPK,PMPK,,6.728974877006797,,no_flux
+Glucose,R_PNTK,PNTK,,,,no_capacity
+Glucose,R_PPA,PPA,,2663911.685028469,,no_flux
+Glucose,R_PPA2,PPA2,,1258783.0662065132,,no_flux
+Glucose,R_PPBNGS,PPBNGS,,,,no_capacity
+Glucose,R_PPC,PPC,,32222.52014022239,,no_flux
+Glucose,R_PPCDC,PPCDC,,,,no_capacity
+Glucose,R_PPCK,PPCK,,,,no_capacity
+Glucose,R_PPCSCT,PPCSCT,,7159.888530768214,,no_flux
+Glucose,R_PPGPPDP,PPGPPDP,,334.9193098757246,,no_flux
+Glucose,R_PPM,PPM,,5139.690836609725,,no_flux
+Glucose,R_PPNCL2,PPNCL2,,,,no_capacity
+Glucose,R_PPND,PPND,,78974.70575001581,,no_flux
+Glucose,R_PPNDH,PPNDH,,354502.9685092464,,no_flux
+Glucose,R_PPPGO,PPPGO,,,,no_capacity
+Glucose,R_PPRGL,PPRGL,,1792.472078920463,,no_flux
+Glucose,R_PPS,PPS,,1090342.4228565441,,no_flux
+Glucose,R_PPYRDC,PPYRDC,,,,no_capacity
+Glucose,R_PRAIi_copy1,PRAIi_copy1,,4823.15442964947,,no_flux
+Glucose,R_PRAIi_copy2,PRAIi_copy2,,4823.15442964947,,no_flux
+Glucose,R_PRAMPC_copy1,PRAMPC_copy1,,1058.8778510491038,,no_flux
+Glucose,R_PRAMPC_copy2,PRAMPC_copy2,,1058.8778510491038,,no_flux
+Glucose,R_PRFGS,PRFGS,,23.919104630753065,,no_flux
+Glucose,R_PRMICI_copy1,PRMICI_copy1,,12233.492673764105,,no_flux
+Glucose,R_PRMICI_copy2,PRMICI_copy2,,12233.492673764105,,no_flux
+Glucose,R_PROTRS,PROTRS,,3492.1751153224736,,no_flux
+Glucose,R_PRPPS,PRPPS,,175825.38930034556,,no_flux
+Glucose,R_PSCVT_copy1,PSCVT_copy1,,5810.551223393468,,no_flux
+Glucose,R_PSCVT_copy2,PSCVT_copy2,,5810.551223393468,,no_flux
+Glucose,R_PSERT,PSERT,,497.8317472143343,,no_flux
+Glucose,R_PSP_L,PSP_L,,200929.31161174207,,no_flux
+Glucose,R_PTA2,PTA2,,393199.52879597957,,no_flux
+Glucose,R_PTAr,PTAr,,393199.52879597957,,no_flux
+Glucose,R_PTOLDOX,PTOLDOX,,,,no_capacity
+Glucose,R_PTPATi,PTPATi,,1041.7170150348452,,no_flux
+Glucose,R_PUTA3,PUTA3,,2484.3457454022705,,no_flux
+Glucose,R_PYAM5PO,PYAM5PO,,2522.6663158736355,,no_flux
+Glucose,R_PYDAMK,PYDAMK,,,,no_capacity
+Glucose,R_PYDXK,PYDXK,,,,no_capacity
+Glucose,R_PYDXNK,PYDXNK,,,,no_capacity
+Glucose,R_PYK,PYK,,1801485.6455028227,,no_flux
+Glucose,R_PYNP2r,PYNP2r,,,,no_capacity
+Glucose,R_PYRZAM,PYRZAM,,,,no_capacity
+Glucose,R_RBFK,RBFK,,440.2285434562488,,no_flux
+Glucose,R_RBFSa,RBFSa,,,,no_capacity
+Glucose,R_RBFSb,RBFSb,,968.1217271906155,,no_flux
+Glucose,R_RBK,RBK,,,,no_capacity
+Glucose,R_RHACOAR100,RHACOAR100,,74513.60841055601,,no_flux
+Glucose,R_RHACOAR140,RHACOAR140,,74513.60841055601,,no_flux
+Glucose,R_RHACOAR60,RHACOAR60,,74513.60841055601,,no_flux
+Glucose,R_RHACOAR80,RHACOAR80,,74513.60841055601,,no_flux
+Glucose,R_RNDR1,RNDR1,,2660.843636761126,,no_flux
+Glucose,R_RNDR2,RNDR2,,2660.843636761126,,no_flux
+Glucose,R_RNDR3,RNDR3,,2660.843636761126,,no_flux
+Glucose,R_RNDR4,RNDR4,,2660.843636761126,,no_flux
+Glucose,R_RPE,RPE,,1110010.8959382756,,no_flux
+Glucose,R_RPI,RPI,,6968572.823976522,,no_flux
+Glucose,R_S7PI,S7PI,,,,no_capacity
+Glucose,R_SADT,SADT,,70980.53417235447,,no_flux
+Glucose,R_SARCOX,SARCOX,,,,no_capacity
+Glucose,R_SDPDS,SDPDS,,10171.826722180287,,no_flux
+Glucose,R_SDPTA,SDPTA,,3797.2573387382,,no_flux
+Glucose,R_SELADT,SELADT,,70980.53417235447,,no_flux
+Glucose,R_SELCYSS,SELCYSS,,1.8774453324582616,,no_flux
+Glucose,R_SELMETAT,SELMETAT,,6137.134675633813,,no_flux
+Glucose,R_SERAT_copy1,SERAT_copy1,,15784.643216971635,,no_flux
+Glucose,R_SERAT_copy2,SERAT_copy2,,15784.643216971635,,no_flux
+Glucose,R_SERD_L,SERD_L,,,,no_capacity
+Glucose,R_SERTRS,SERTRS,,1589.0477808094904,,no_flux
+Glucose,R_SERTRS2,SERTRS2,,1589.0477808094904,,no_flux
+Glucose,R_SFGTHi,SFGTHi,,3765.113635608021,,no_flux
+Glucose,R_SHK3Dr,SHK3Dr,,22388.051146527312,,no_flux
+Glucose,R_SHKK,SHKK,,3181.1571764331497,,no_flux
+Glucose,R_SHSL1,SHSL1,,4843.963507083075,,no_flux
+Glucose,R_SHSL2r,SHSL2r,,,,no_capacity
+Glucose,R_SLCYSS,SLCYSS,,126051.49827700248,,no_flux
+Glucose,R_SOTA,SOTA,,,,no_capacity
+Glucose,R_SPODM,SPODM,,77296112.29800263,,no_flux
+Glucose,R_SSALx,SSALx,,195.2852022957053,,no_flux
+Glucose,R_SSALy,SSALy,,6379.693140245318,,no_flux
+Glucose,R_SUCOAS,SUCOAS,,545590.7068304127,,no_flux
+Glucose,R_SULR,SULR,,412557.03403068293,,no_flux
+Glucose,R_TALA,TALA,,6267.628303182391,,no_flux
+Glucose,R_TAUDO,TAUDO,,,,no_capacity
+Glucose,R_TDP,TDP,,268603.37430354714,,no_flux
+Glucose,R_TDPDRE,TDPDRE,,11819.317525117756,,no_flux
+Glucose,R_TDPDRR,TDPDRR,,1317.2985507246076,,no_flux
+Glucose,R_TDPGDH,TDPGDH,,,,no_capacity
+Glucose,R_THD2pp,THD2pp,,30227.15454053328,,no_flux
+Glucose,R_THFAT,THFAT,,,,no_capacity
+Glucose,R_THIORDXi,THIORDXi,,79783.6652410176,,no_flux
+Glucose,R_THRA,THRA,,4733.043617082411,,no_flux
+Glucose,R_THRD_L,THRD_L,,,,no_capacity
+Glucose,R_THRS,THRS,,1388182.9608683973,,no_flux
+Glucose,R_THRTRS,THRTRS,,27572.814268440256,,no_flux
+Glucose,R_TMDS,TMDS,,2720.1244280515593,,no_flux
+Glucose,R_TMPK,TMPK,,,,no_capacity
+Glucose,R_TPI,TPI,,186938806.00902367,,no_flux
+Glucose,R_TRDR,TRDR,,319019.9808882543,,no_flux
+Glucose,R_TRPS1_copy1,TRPS1_copy1,,30267.39619134198,,no_flux
+Glucose,R_TRPS1_copy2,TRPS1_copy2,,30267.39619134198,,no_flux
+Glucose,R_TRPS2,TRPS2,,30267.39619134198,,no_flux
+Glucose,R_TRPS3,TRPS3,,30267.39619134198,,no_flux
+Glucose,R_TRPTRS,TRPTRS,,6312.239936345547,,no_flux
+Glucose,R_TRSARr,TRSARr,,28802.118452229835,,no_flux
+Glucose,R_TRYPTAOX,TRYPTAOX,,504430.8777741216,,no_flux
+Glucose,R_TYRTA,TYRTA,,,,no_capacity
+Glucose,R_TYRTRS,TYRTRS,,8647.355647840322,,no_flux
+Glucose,R_UAAGDS,UAAGDS,,200.8767173232457,,no_flux
+Glucose,R_UAG2E,UAG2E,,,,no_capacity
+Glucose,R_UAGCVT,UAGCVT,,1571.28085063956,,no_flux
+Glucose,R_UAGDP,UAGDP,,70013.38595011088,,no_flux
+Glucose,R_UAGPT3,UAGPT3,,623.3866004328349,,no_flux
+Glucose,R_UAMAS,UAMAS,,3437.101457056082,,no_flux
+Glucose,R_UDCPDPS,UDCPDPS,,,,no_capacity
+Glucose,R_UGLYCH,UGLYCH,,,,no_capacity
+Glucose,R_UMPK,UMPK,,108727.67030523358,,no_flux
+Glucose,R_UNK3,UNK3,,,,no_capacity
+Glucose,R_UPP3MT,UPP3MT,,4322.03822042059,,no_flux
+Glucose,R_UPP3S,UPP3S,,,,no_capacity
+Glucose,R_UPPDC1,UPPDC1,,50.93093655646561,,no_flux
+Glucose,R_UPPN,UPPN,,2932.7608416700805,,no_flux
+Glucose,R_UPPRT,UPPRT,,2870.343848619172,,no_flux
+Glucose,R_UREA,UREA,,,,no_capacity
+Glucose,R_URIDK2r,URIDK2r,,99713.5641097153,,no_flux
+Glucose,R_URIH,URIH,,,,no_capacity
+Glucose,R_VALDHr,VALDHr,,,,no_capacity
+Glucose,R_VALTA,VALTA,,585248.0800692429,,no_flux
+Glucose,R_VALTRS_copy1,VALTRS_copy1,,24172.219453351816,,no_flux
+Glucose,R_VALTRS_copy2,VALTRS_copy2,,24172.219453351816,,no_flux
+Glucose,R_VNDH_2,VNDH_2,,,,no_capacity
+Glucose,R_XAND,XAND,,1617.4555489203228,,no_flux
+Glucose,R_XPPT,XPPT,,8119.466697105414,,no_flux
+Glucose,R_XTSNH,XTSNH,,,,no_capacity
+Glucose,R_ZN2abcpp,ZN2abcpp,,,,no_capacity
+Glucose,R_ZNabcpp,ZNabcpp,,4731.7900488947025,,no_flux
+Glucose + Acetate,R_34HPPOR,34HPPOR,,530.1347837821928,,no_flux
+Glucose + Acetate,R_3HAD100,3HAD100,,13337.7202507236,,no_flux
+Glucose + Acetate,R_3HAD120,3HAD120,,13337.7202507236,,no_flux
+Glucose + Acetate,R_3HAD140,3HAD140,,13337.7202507236,,no_flux
+Glucose + Acetate,R_3HAD160,3HAD160,,13337.7202507236,,no_flux
+Glucose + Acetate,R_3HAD60,3HAD60,,13337.7202507236,,no_flux
+Glucose + Acetate,R_3HAD80,3HAD80,,13337.7202507236,,no_flux
+Glucose + Acetate,R_3HBCOAHL,3HBCOAHL,,,,no_capacity
+Glucose + Acetate,R_3HLYTCL,3HLYTCL,,,,no_capacity
+Glucose + Acetate,R_3MBZALDH,3MBZALDH,,,,no_capacity
+Glucose + Acetate,R_3MBZDH,3MBZDH,,,,no_capacity
+Glucose + Acetate,R_3MCAT23DOX,3MCAT23DOX,,,,no_capacity
+Glucose + Acetate,R_3OAR100,3OAR100,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR120,3OAR120,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR121,3OAR121,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR140,3OAR140,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR141,3OAR141,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR160,3OAR160,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR161,3OAR161,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR180,3OAR180,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR181,3OAR181,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR40,3OAR40,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR60,3OAR60,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAR80,3OAR80,,78453.69034137783,,no_flux
+Glucose + Acetate,R_3OAS121,3OAS121,,246993.53308821062,,no_flux
+Glucose + Acetate,R_3OAS141,3OAS141,,246993.53308821062,,no_flux
+Glucose + Acetate,R_3OAS161,3OAS161,,246993.53308821062,,no_flux
+Glucose + Acetate,R_3OAS180,3OAS180,,246993.53308821062,,no_flux
+Glucose + Acetate,R_3OAS181,3OAS181,,21.06841389318675,,no_flux
+Glucose + Acetate,R_3OXCOAT,3OXCOAT,,,,no_capacity
+Glucose + Acetate,R_4CMCOAS,4CMCOAS,,,,no_capacity
+Glucose + Acetate,R_4HBHYOX,4HBHYOX,,,,no_capacity
+Glucose + Acetate,R_4HTHRS,4HTHRS,,1543439.2801862482,,no_flux
+Glucose + Acetate,R_4MBZALDH,4MBZALDH,,,,no_capacity
+Glucose + Acetate,R_4MBZDH,4MBZDH,,,,no_capacity
+Glucose + Acetate,R_4MCAT23DOX,4MCAT23DOX,,,,no_capacity
+Glucose + Acetate,R_4OD2,4OD2,,,,no_capacity
+Glucose + Acetate,R_4OT,4OT,,,,no_capacity
+Glucose + Acetate,R_4OT2,4OT2,,,,no_capacity
+Glucose + Acetate,R_A5PISO,A5PISO,,30670.706965581947,,no_flux
+Glucose + Acetate,R_AACTOOR,AACTOOR,,,,no_capacity
+Glucose + Acetate,R_AADSACYCL,AADSACYCL,,,,no_capacity
+Glucose + Acetate,R_AASAD3,AASAD3,,2154.365465592112,,no_flux
+Glucose + Acetate,R_ABTA,ABTA,,,,no_capacity
+Glucose + Acetate,R_ABUTD,ABUTD,,29.24408820801976,,no_flux
+Glucose + Acetate,R_ACACT1r,ACACT1r,,215378458.0676685,,no_flux
+Glucose + Acetate,R_ACALD,ACALD,,,,no_capacity
+Glucose + Acetate,R_ACBIPGT,ACBIPGT,,,,no_capacity
+Glucose + Acetate,R_ACCOAC,ACCOAC,,6386.150704003136,,no_flux
+Glucose + Acetate,R_ACGK,ACGK,,58758.05260998038,,no_flux
+Glucose + Acetate,R_ACGS,ACGS,,85.13388367746973,,no_flux
+Glucose + Acetate,R_ACHBS,ACHBS,,,,no_capacity
+Glucose + Acetate,R_ACLS,ACLS,,43998.78565084134,,no_flux
+Glucose + Acetate,R_ACOAD1f,ACOAD1f,,97.69165813311038,,no_flux
+Glucose + Acetate,R_ACOAD3f,ACOAD3f,,3171.0151204255553,,no_flux
+Glucose + Acetate,R_ACOAD5f,ACOAD5f,,3171.0151204255553,,no_flux
+Glucose + Acetate,R_ACOAD6f,ACOAD6f,,3171.0151204255553,,no_flux
+Glucose + Acetate,R_ACOAD7f,ACOAD7f,,13559.02868370385,,no_flux
+Glucose + Acetate,R_ACOATA,ACOATA,,224994.90653798968,,no_flux
+Glucose + Acetate,R_ACODA,ACODA,,4204470.659268971,,no_flux
+Glucose + Acetate,R_ACONTa,ACONTa,,19842.252961641047,,no_flux
+Glucose + Acetate,R_ACONTb,ACONTb,,19842.252961641047,,no_flux
+Glucose + Acetate,R_ACOTA,ACOTA,,,,no_capacity
+Glucose + Acetate,R_ACPS1,ACPS1,,,,no_capacity
+Glucose + Acetate,R_ACS,ACS,,55131.47869049759,,no_flux
+Glucose + Acetate,R_ACS2,ACS2,,733.4135681187774,,no_flux
+Glucose + Acetate,R_ADA,ADA,,19246.302749745188,,no_flux
+Glucose + Acetate,R_ADCS,ADCS,,3.564238395518856,,no_flux
+Glucose + Acetate,R_ADCYRS,ADCYRS,,,,no_capacity
+Glucose + Acetate,R_ADD,ADD,,1817.7063708092678,,no_flux
+Glucose + Acetate,R_ADK1,ADK1,,203104.2929587036,,no_flux
+Glucose + Acetate,R_ADK3,ADK3,,115465.77200608506,,no_flux
+Glucose + Acetate,R_ADNCYC,ADNCYC,,,,no_capacity
+Glucose + Acetate,R_ADNK1,ADNK1,,18081939.896152917,,no_flux
+Glucose + Acetate,R_ADNUC,ADNUC,,,,no_capacity
+Glucose + Acetate,R_ADOCBIK,ADOCBIK,,,,no_capacity
+Glucose + Acetate,R_ADOCBLS,ADOCBLS,,,,no_capacity
+Glucose + Acetate,R_ADPRDP,ADPRDP,,12847.495328273653,,no_flux
+Glucose + Acetate,R_ADPT,ADPT,,7945.281302574598,,no_flux
+Glucose + Acetate,R_ADSELK,ADSELK,,76838.370433186,,no_flux
+Glucose + Acetate,R_ADSK,ADSK,,76838.370433186,,no_flux
+Glucose + Acetate,R_ADSL1r,ADSL1r,,2871.883918979054,,no_flux
+Glucose + Acetate,R_ADSL2r,ADSL2r,,2871.883918979054,,no_flux
+Glucose + Acetate,R_ADSS,ADSS,,3058.8937422168788,,no_flux
+Glucose + Acetate,R_AGMDA,AGMDA,,282.7807032314284,,no_flux
+Glucose + Acetate,R_AGMT,AGMT,,,,no_capacity
+Glucose + Acetate,R_AGPOP,AGPOP,,2076423.7388542092,,no_flux
+Glucose + Acetate,R_AHCi,AHCi,,,,no_capacity
+Glucose + Acetate,R_AIRC2,AIRC2,,4978.730091646577,,no_flux
+Glucose + Acetate,R_AIRC3,AIRC3,,2881.6554083102665,,no_flux
+Glucose + Acetate,R_AKGDH,AKGDH,,2285438.3605718864,,no_flux
+Glucose + Acetate,R_ALAALAr,ALAALAr,,7876.405610635078,,no_flux
+Glucose + Acetate,R_ALAR,ALAR,,67.89589281136045,,no_flux
+Glucose + Acetate,R_ALATA_L,ALATA_L,,1075.4293943636264,,no_flux
+Glucose + Acetate,R_ALATRS,ALATRS,,43413.66218178536,,no_flux
+Glucose + Acetate,R_ALCD19,ALCD19,,123533.01689473851,,no_flux
+Glucose + Acetate,R_ALCD2x,ALCD2x,,5067.414916397266,,no_flux
+Glucose + Acetate,R_ALDD19xr,ALDD19xr,,225.09613763971106,,no_flux
+Glucose + Acetate,R_ALDD20x,ALDD20x,,63.62414779916984,,no_flux
+Glucose + Acetate,R_ALDD2x,ALDD2x,,63.62414779916984,,no_flux
+Glucose + Acetate,R_ALDD2y,ALDD2y,,,,no_capacity
+Glucose + Acetate,R_ALLTAMH,ALLTAMH,,3379.610971873276,,no_flux
+Glucose + Acetate,R_ALLTN,ALLTN,,,,no_capacity
+Glucose + Acetate,R_AMALT1,AMALT1,,75708.55891529552,,no_flux
+Glucose + Acetate,R_AMAOTr,AMAOTr,,56.18688638233734,,no_flux
+Glucose + Acetate,R_AMID4,AMID4,,,,no_capacity
+Glucose + Acetate,R_AMPN,AMPN,,10240.55979588338,,no_flux
+Glucose + Acetate,R_AMPTASECG,AMPTASECG,,11221455.907623665,,no_flux
+Glucose + Acetate,R_ANPRT,ANPRT,,812.1387172258425,,no_flux
+Glucose + Acetate,R_ANS,ANS,,82114.68641662403,,no_flux
+Glucose + Acetate,R_ANS2,ANS2,,82114.68641662403,,no_flux
+Glucose + Acetate,R_AOBUTDs,AOBUTDs,,,,no_capacity
+Glucose + Acetate,R_AOXSr2,AOXSr2,,39.40717211506508,,no_flux
+Glucose + Acetate,R_AP4AH,AP4AH,,12777.336785336733,,no_flux
+Glucose + Acetate,R_APPAT,APPAT,,1183.6370222695311,,no_flux
+Glucose + Acetate,R_APPLDHr,APPLDHr,,,,no_capacity
+Glucose + Acetate,R_APSR,APSR,,551.589343516195,,no_flux
+Glucose + Acetate,R_ARGDC,ARGDC,,1537.902342389074,,no_flux
+Glucose + Acetate,R_ARGDCpp,ARGDCpp,,1537.902342389074,,no_flux
+Glucose + Acetate,R_ARGDI,ARGDI,,19038.84539435347,,no_flux
+Glucose + Acetate,R_ARGDr,ARGDr,,19038.84539435347,,no_flux
+Glucose + Acetate,R_ARGSL,ARGSL,,866416.3326924538,,no_flux
+Glucose + Acetate,R_ARGTRS,ARGTRS,,8206.7089224485,,no_flux
+Glucose + Acetate,R_AROH,AROH,,333877.6207283039,,no_flux
+Glucose + Acetate,R_ARUH,ARUH,,,,no_capacity
+Glucose + Acetate,R_ASAD,ASAD,,47324.62652219004,,no_flux
+Glucose + Acetate,R_ASNN,ASNN,,,,no_capacity
+Glucose + Acetate,R_ASNNpp,ASNNpp,,1569052.7475856643,,no_flux
+Glucose + Acetate,R_ASNS1,ASNS1,,,,no_capacity
+Glucose + Acetate,R_ASPCT,ASPCT,,113759.88000413432,,no_flux
+Glucose + Acetate,R_ASPK,ASPK,,103869.55738740496,,no_flux
+Glucose + Acetate,R_ASPO1,ASPO1,,717.4966328898327,,no_flux
+Glucose + Acetate,R_ASPO6,ASPO6,,717.4966328898327,,no_flux
+Glucose + Acetate,R_ASPT,ASPT,,21946.126786167733,,no_flux
+Glucose + Acetate,R_ASPTA,ASPTA,,,,no_capacity
+Glucose + Acetate,R_ASPTRS,ASPTRS,,13108.944118152003,,no_flux
+Glucose + Acetate,R_ASR,ASR,,,,no_capacity
+Glucose + Acetate,R_ATHRDHr,ATHRDHr,,8637.040700382446,,no_flux
+Glucose + Acetate,R_ATPM,ATPM,,,,no_capacity
+Glucose + Acetate,R_ATPPRT,ATPPRT,,646.6615321573523,,no_flux
+Glucose + Acetate,R_ATPS4rpp,ATPS4rpp,,55099.59632522051,,no_flux
+Glucose + Acetate,R_BACCL,BACCL,,,,no_capacity
+Glucose + Acetate,R_BDH,BDH,,,,no_capacity
+Glucose + Acetate,R_BETALDHx,BETALDHx,,21030.07532639723,,no_flux
+Glucose + Acetate,R_BETALDHy,BETALDHy,,21030.07532639723,,no_flux
+Glucose + Acetate,R_BPNT,BPNT,,527.9316439214149,,no_flux
+Glucose + Acetate,R_BTDD_RR,BTDD_RR,,,,no_capacity
+Glucose + Acetate,R_BZ12DOX,BZ12DOX,,,,no_capacity
+Glucose + Acetate,R_BZALDH,BZALDH,,,,no_capacity
+Glucose + Acetate,R_BZDH,BZDH,,,,no_capacity
+Glucose + Acetate,R_CA2tex,CA2tex,,,,no_capacity
+Glucose + Acetate,R_CAFFCOA,CAFFCOA,,,,no_capacity
+Glucose + Acetate,R_CAT,CAT,,1587359294.5821285,,no_flux
+Glucose + Acetate,R_CAT23DOX,CAT23DOX,,,,no_capacity
+Glucose + Acetate,R_CATDOX,CATDOX,,211.7788583046922,,no_flux
+Glucose + Acetate,R_CBIAT,CBIAT,,,,no_capacity
+Glucose + Acetate,R_CBIuabcpp,CBIuabcpp,,,,no_capacity
+Glucose + Acetate,R_CBL1abcpp,CBL1abcpp,,,,no_capacity
+Glucose + Acetate,R_CBLAT,CBLAT,,,,no_capacity
+Glucose + Acetate,R_CBMKr,CBMKr,,202150.62196997987,,no_flux
+Glucose + Acetate,R_CBPS,CBPS,,1330256.879150314,,no_flux
+Glucose + Acetate,R_CDGR,CDGR,,0.9766387453455969,,no_flux
+Glucose + Acetate,R_CDGS,CDGS,,,,no_capacity
+Glucose + Acetate,R_CFAS160E,CFAS160E,,21377.982822615115,,no_flux
+Glucose + Acetate,R_CFAS160G,CFAS160G,,21377.982822615115,,no_flux
+Glucose + Acetate,R_CFAS180E,CFAS180E,,,,no_capacity
+Glucose + Acetate,R_CFAS180G,CFAS180G,,,,no_capacity
+Glucose + Acetate,R_CHLP,CHLP,,,,no_capacity
+Glucose + Acetate,R_CHOLD,CHOLD,,,,no_capacity
+Glucose + Acetate,R_CHORM,CHORM,,63250108.274616584,,no_flux
+Glucose + Acetate,R_CHORS,CHORS,,97.0775503741219,,no_flux
+Glucose + Acetate,R_CHRPL,CHRPL,,,,no_capacity
+Glucose + Acetate,R_CPPPGO,CPPPGO,,1171.3313592237696,,no_flux
+Glucose + Acetate,R_CPPPGO2,CPPPGO2,,240957.77898098459,,no_flux
+Glucose + Acetate,R_CS,CS,,5025339.244429621,,no_flux
+Glucose + Acetate,R_CSND,CSND,,17644.07574025066,,no_flux
+Glucose + Acetate,R_CSPMDDC,CSPMDDC,,2704.2978474757415,,no_flux
+Glucose + Acetate,R_CTECOAI6,CTECOAI6,,42397.559079914936,,no_flux
+Glucose + Acetate,R_CTECOAI7,CTECOAI7,,42397.559079914936,,no_flux
+Glucose + Acetate,R_CTECOAI8,CTECOAI8,,42397.559079914936,,no_flux
+Glucose + Acetate,R_CTPS1,CTPS1,,5547.298038974576,,no_flux
+Glucose + Acetate,R_CTPS2,CTPS2,,5547.298038974576,,no_flux
+Glucose + Acetate,R_CYANST,CYANST,,54188.14441480707,,no_flux
+Glucose + Acetate,R_CYRDAAT,CYRDAAT,,,,no_capacity
+Glucose + Acetate,R_CYSDS,CYSDS,,,,no_capacity
+Glucose + Acetate,R_CYSS,CYSS,,2771249.865820731,,no_flux
+Glucose + Acetate,R_CYSSADS,CYSSADS,,136.532522595546,,no_flux
+Glucose + Acetate,R_CYSTGL,CYSTGL,,624.3312230827255,,no_flux
+Glucose + Acetate,R_CYSTL,CYSTL,,,,no_capacity
+Glucose + Acetate,R_CYSTRS,CYSTRS,,2194.0693096329064,,no_flux
+Glucose + Acetate,R_CYSTS,CYSTS,,3594.1326412170197,,no_flux
+Glucose + Acetate,R_CYTDH,CYTDH,,,,no_capacity
+Glucose + Acetate,R_CYTK1,CYTK1,,50840.38523652706,,no_flux
+Glucose + Acetate,R_CYTK2,CYTK2,,50840.38523652706,,no_flux
+Glucose + Acetate,R_CYTOM,CYTOM,,2.149810873269771,,no_flux
+Glucose + Acetate,R_DADA,DADA,,19246.302749745188,,no_flux
+Glucose + Acetate,R_DADK,DADK,,203104.2929587036,,no_flux
+Glucose + Acetate,R_DAGK160,DAGK160,,,,no_capacity
+Glucose + Acetate,R_DAPDC,DAPDC,,,,no_capacity
+Glucose + Acetate,R_DAPE,DAPE,,7633.390264178876,,no_flux
+Glucose + Acetate,R_DASYN120,DASYN120,,,,no_capacity
+Glucose + Acetate,R_DASYN140,DASYN140,,,,no_capacity
+Glucose + Acetate,R_DASYN141,DASYN141,,,,no_capacity
+Glucose + Acetate,R_DASYN160,DASYN160,,,,no_capacity
+Glucose + Acetate,R_DASYN161,DASYN161,,,,no_capacity
+Glucose + Acetate,R_DASYN180,DASYN180,,,,no_capacity
+Glucose + Acetate,R_DASYN181,DASYN181,,,,no_capacity
+Glucose + Acetate,R_DCTPD,DCTPD,,2709.2200294828262,,no_flux
+Glucose + Acetate,R_DCTPD2,DCTPD2,,2709.2200294828262,,no_flux
+Glucose + Acetate,R_DDGLK,DDGLK,,6281.275953469082,,no_flux
+Glucose + Acetate,R_DDPA,DDPA,,8770.076111906668,,no_flux
+Glucose + Acetate,R_DGK1,DGK1,,76989.9608041585,,no_flux
+Glucose + Acetate,R_DHACOAH,DHACOAH,,,,no_capacity
+Glucose + Acetate,R_DHAD1_copy1,DHAD1_copy1,,42827.47240580571,,no_flux
+Glucose + Acetate,R_DHAD1_copy2,DHAD1_copy2,,42827.47240580571,,no_flux
+Glucose + Acetate,R_DHAD2,DHAD2,,42827.47240580571,,no_flux
+Glucose + Acetate,R_DHFR,DHFR,,,,no_capacity
+Glucose + Acetate,R_DHFS,DHFS,,80.43159167046302,,no_flux
+Glucose + Acetate,R_DHORDfum,DHORDfum,,32391.70486172078,,no_flux
+Glucose + Acetate,R_DHORTS,DHORTS,,39867.15796658627,,no_flux
+Glucose + Acetate,R_DHPM1,DHPM1,,,,no_capacity
+Glucose + Acetate,R_DHPM2,DHPM2,,,,no_capacity
+Glucose + Acetate,R_DHQS,DHQS,,4075486.7868791902,,no_flux
+Glucose + Acetate,R_DHQTi_copy1,DHQTi_copy1,,,,no_capacity
+Glucose + Acetate,R_DHQTi_copy2,DHQTi_copy2,,,,no_capacity
+Glucose + Acetate,R_DHSKDH,DHSKDH,,27.430259001246995,,no_flux
+Glucose + Acetate,R_DMATT,DMATT,,77.57268944730274,,no_flux
+Glucose + Acetate,R_DNTPPA,DNTPPA,,,,no_capacity
+Glucose + Acetate,R_DPCOAK,DPCOAK,,1.211623713560467,,no_flux
+Glucose + Acetate,R_DPR,DPR,,10282.812707363757,,no_flux
+Glucose + Acetate,R_DTMPK,DTMPK,,,,no_capacity
+Glucose + Acetate,R_DURAD,DURAD,,112.62671556211279,,no_flux
+Glucose + Acetate,R_DURAD2,DURAD2,,112.62671556211279,,no_flux
+Glucose + Acetate,R_DUTPDP,DUTPDP,,63599954.042902805,,no_flux
+Glucose + Acetate,R_DXPRIi,DXPRIi,,867.0388012606614,,no_flux
+Glucose + Acetate,R_DXPS,DXPS,,4888.098514154944,,no_flux
+Glucose + Acetate,R_E4PD,E4PD,,9285.531315238015,,no_flux
+Glucose + Acetate,R_EAR121x,EAR121x,,,,no_capacity
+Glucose + Acetate,R_EAR121y,EAR121y,,,,no_capacity
+Glucose + Acetate,R_EAR141y,EAR141y,,,,no_capacity
+Glucose + Acetate,R_EAR160y,EAR160y,,,,no_capacity
+Glucose + Acetate,R_EAR161y,EAR161y,,,,no_capacity
+Glucose + Acetate,R_EAR180y,EAR180y,,,,no_capacity
+Glucose + Acetate,R_EAR181y,EAR181y,,,,no_capacity
+Glucose + Acetate,R_ECOAH1,ECOAH1,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH12,ECOAH12,,,,no_capacity
+Glucose + Acetate,R_ECOAH2,ECOAH2,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH3,ECOAH3,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH4,ECOAH4,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH5,ECOAH5,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH6,ECOAH6,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH7,ECOAH7,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH8,ECOAH8,,444938.82834421843,,no_flux
+Glucose + Acetate,R_ECOAH9ir,ECOAH9ir,,,,no_capacity
+Glucose + Acetate,R_EDA,EDA,,572142.9340964104,,no_flux
+Glucose + Acetate,R_EGMEACPR,EGMEACPR,,,,no_capacity
+Glucose + Acetate,R_ENO,ENO,,111318.5184284838,,no_flux
+Glucose + Acetate,R_EPMEACPR,EPMEACPR,,,,no_capacity
+Glucose + Acetate,R_ETHAAL,ETHAAL,,13532.714834335335,,no_flux
+Glucose + Acetate,R_ETHP,ETHP,,,,no_capacity
+Glucose + Acetate,R_EX_ca2_e,EX_ca2_e,,,,no_capacity
+Glucose + Acetate,R_EX_oaa_e,EX_oaa_e,,,,no_capacity
+Glucose + Acetate,R_FA140ACPHi,FA140ACPHi,,,,no_capacity
+Glucose + Acetate,R_FA141ACPHi,FA141ACPHi,,,,no_capacity
+Glucose + Acetate,R_FA160ACPHi,FA160ACPHi,,,,no_capacity
+Glucose + Acetate,R_FA161ACPHi,FA161ACPHi,,,,no_capacity
+Glucose + Acetate,R_FACOAE100,FACOAE100,,8824.737898796451,,no_flux
+Glucose + Acetate,R_FACOAE120,FACOAE120,,8824.737898796451,,no_flux
+Glucose + Acetate,R_FACOAE140,FACOAE140,,8824.737898796451,,no_flux
+Glucose + Acetate,R_FACOAE160,FACOAE160,,8824.737898796451,,no_flux
+Glucose + Acetate,R_FACOAE180,FACOAE180,,8824.737898796451,,no_flux
+Glucose + Acetate,R_FACOAE1829Z12Z,FACOAE1829Z12Z,,8824.737898796451,,no_flux
+Glucose + Acetate,R_FACOAL141,FACOAL141,,,,no_capacity
+Glucose + Acetate,R_FACOAL160,FACOAL160,,,,no_capacity
+Glucose + Acetate,R_FACOAL180,FACOAL180,,,,no_capacity
+Glucose + Acetate,R_FACOAL1821,FACOAL1821,,,,no_capacity
+Glucose + Acetate,R_FACOAL80,FACOAL80,,,,no_capacity
+Glucose + Acetate,R_FALDH2,FALDH2,,7200532.246228922,,no_flux
+Glucose + Acetate,R_FBA,FBA,,,,no_capacity
+Glucose + Acetate,R_FBP,FBP,,35549.27165402561,,no_flux
+Glucose + Acetate,R_FCLT,FCLT,,15.07201379137217,,no_flux
+Glucose + Acetate,R_FDH,FDH,,648.0656130928427,,no_flux
+Glucose + Acetate,R_FDMO,FDMO,,308.6144239812854,,no_flux
+Glucose + Acetate,R_FDMO2,FDMO2,,308.6144239812854,,no_flux
+Glucose + Acetate,R_FDMO4,FDMO4,,308.6144239812854,,no_flux
+Glucose + Acetate,R_FEROpp,FEROpp,,,,no_capacity
+Glucose + Acetate,R_FERULCOAS,FERULCOAS,,,,no_capacity
+Glucose + Acetate,R_FMETTRS,FMETTRS,,6440.47672346458,,no_flux
+Glucose + Acetate,R_FMNRx,FMNRx,,2346.1328575024754,,no_flux
+Glucose + Acetate,R_FMNRx2_copy1,FMNRx2_copy1,,,,no_capacity
+Glucose + Acetate,R_FMNRx2_copy2,FMNRx2_copy2,,5146.3559454893,,no_flux
+Glucose + Acetate,R_FOLD3,FOLD3,,14.154056751283177,,no_flux
+Glucose + Acetate,R_FOMETRi,FOMETRi,,,,no_capacity
+Glucose + Acetate,R_FTHFCL,FTHFCL,,438.0648857206639,,no_flux
+Glucose + Acetate,R_FUM,FUM,,968057.6329049129,,no_flux
+Glucose + Acetate,R_G1PACT,G1PACT,,194049.25769088292,,no_flux
+Glucose + Acetate,R_G1PTT,G1PTT,,,,no_capacity
+Glucose + Acetate,R_G1SAT,G1SAT,,259.4759205276205,,no_flux
+Glucose + Acetate,R_G3PAT120,G3PAT120,,2.089816435047522,,no_flux
+Glucose + Acetate,R_G3PAT140,G3PAT140,,2.089816435047522,,no_flux
+Glucose + Acetate,R_G3PAT141,G3PAT141,,2.089816435047522,,no_flux
+Glucose + Acetate,R_G3PAT160,G3PAT160,,2.089816435047522,,no_flux
+Glucose + Acetate,R_G3PAT161,G3PAT161,,2.089816435047522,,no_flux
+Glucose + Acetate,R_G3PAT180,G3PAT180,,2.089816435047522,,no_flux
+Glucose + Acetate,R_G3PAT181,G3PAT181,,2.089816435047522,,no_flux
+Glucose + Acetate,R_G6PBDH,G6PBDH,,,,no_capacity
+Glucose + Acetate,R_G6PDH2r,G6PDH2r,,,,no_capacity
+Glucose + Acetate,R_G6PI,G6PI,,,,no_capacity
+Glucose + Acetate,R_GALCTD,GALCTD,,,,no_capacity
+Glucose + Acetate,R_GALUi,GALUi,,91890.34081839841,,no_flux
+Glucose + Acetate,R_GAPD,GAPD,,,,no_capacity
+Glucose + Acetate,R_GAPDi_nadp,GAPDi_nadp,,79342.46023231796,,no_flux
+Glucose + Acetate,R_GARFT,GARFT,,1195.2489026352096,,no_flux
+Glucose + Acetate,R_GDPDPK,GDPDPK,,26729.28479347431,,no_flux
+Glucose + Acetate,R_GDPTPDP,GDPTPDP,,319.5921940544685,,no_flux
+Glucose + Acetate,R_GF6PTA,GF6PTA,,7797.148203863114,,no_flux
+Glucose + Acetate,R_GGPTRCS,GGPTRCS,,1023.5320699478822,,no_flux
+Glucose + Acetate,R_GHMT2r,GHMT2r,,,,no_capacity
+Glucose + Acetate,R_GK1,GK1,,76989.9608041585,,no_flux
+Glucose + Acetate,R_GLCRD,GLCRD,,,,no_capacity
+Glucose + Acetate,R_GLGC,GLGC,,,,no_capacity
+Glucose + Acetate,R_GLNS_copy1,GLNS_copy1,,62462.133682218424,,no_flux
+Glucose + Acetate,R_GLNS_copy2,GLNS_copy2,,62462.133682218424,,no_flux
+Glucose + Acetate,R_GLNTRAT,GLNTRAT,,2328.5698636474553,,no_flux
+Glucose + Acetate,R_GLNTRS,GLNTRS,,739.1805743520036,,no_flux
+Glucose + Acetate,R_GLUCYS_copy1,GLUCYS_copy1,,557477.8626861636,,no_flux
+Glucose + Acetate,R_GLUCYS_copy2,GLUCYS_copy2,,557477.8626861636,,no_flux
+Glucose + Acetate,R_GLUDxi,GLUDxi,,5240267.167597659,,no_flux
+Glucose + Acetate,R_GLUDy,GLUDy,,7279544.479011355,,no_flux
+Glucose + Acetate,R_GLUNpp,GLUNpp,,1713863.069334525,,no_flux
+Glucose + Acetate,R_GLUR,GLUR,,,,no_capacity
+Glucose + Acetate,R_GLUSy,GLUSy,,15512.462493519019,,no_flux
+Glucose + Acetate,R_GLUTCOADHc,GLUTCOADHc,,,,no_capacity
+Glucose + Acetate,R_GLUTRR,GLUTRR,,3.1656077202551773,,no_flux
+Glucose + Acetate,R_GLUTRS,GLUTRS,,993.3199308648908,,no_flux
+Glucose + Acetate,R_GLXCL,GLXCL,,,,no_capacity
+Glucose + Acetate,R_GLYALDDr,GLYALDDr,,63.62414779916984,,no_flux
+Glucose + Acetate,R_GLYCK,GLYCK,,,,no_capacity
+Glucose + Acetate,R_GLYCL,GLYCL,,2285438.3605718864,,no_flux
+Glucose + Acetate,R_GLYCLTDx,GLYCLTDx,,76685367.3765418,,no_flux
+Glucose + Acetate,R_GLYCLTDy,GLYCLTDy,,,,no_capacity
+Glucose + Acetate,R_GLYCTO1,GLYCTO1,,,,no_capacity
+Glucose + Acetate,R_GLYK,GLYK,,177373.1545950554,,no_flux
+Glucose + Acetate,R_GLYO1,GLYO1,,222525.48127234413,,no_flux
+Glucose + Acetate,R_GLYOX,GLYOX,,80299.90664580239,,no_flux
+Glucose + Acetate,R_GLYPHEHYc,GLYPHEHYc,,2471972.8955924595,,no_flux
+Glucose + Acetate,R_GLYTRS,GLYTRS,,2965.6184497340755,,no_flux
+Glucose + Acetate,R_GMAND,GMAND,,3960.26007949856,,no_flux
+Glucose + Acetate,R_GMPS2,GMPS2,,2104.927407546182,,no_flux
+Glucose + Acetate,R_GND,GND,,,,no_capacity
+Glucose + Acetate,R_GNK,GNK,,1959.4436677855801,,no_flux
+Glucose + Acetate,R_GNNUC,GNNUC,,,,no_capacity
+Glucose + Acetate,R_GPDDA2,GPDDA2,,35204.13585287509,,no_flux
+Glucose + Acetate,R_GPDDA4,GPDDA4,,528.0620377931264,,no_flux
+Glucose + Acetate,R_GRTT,GRTT,,2410.2942792554777,,no_flux
+Glucose + Acetate,R_GTHOr,GTHOr,,82071.13472269588,,no_flux
+Glucose + Acetate,R_GTHPi,GTHPi,,2919.7826344600103,,no_flux
+Glucose + Acetate,R_GTHRDHpp,GTHRDHpp,,,,no_capacity
+Glucose + Acetate,R_GTHS,GTHS,,5877.769216633207,,no_flux
+Glucose + Acetate,R_GTPCI,GTPCI,,,,no_capacity
+Glucose + Acetate,R_GTPCII2,GTPCII2,,41784.29697191885,,no_flux
+Glucose + Acetate,R_GTPDPDP,GTPDPDP,,298553.5540513836,,no_flux
+Glucose + Acetate,R_GTPDPK,GTPDPK,,26729.28479347431,,no_flux
+Glucose + Acetate,R_GUACYC,GUACYC,,506702.0827568211,,no_flux
+Glucose + Acetate,R_GUAD,GUAD,,,,no_capacity
+Glucose + Acetate,R_GUAPRT,GUAPRT,,9586.252734498557,,no_flux
+Glucose + Acetate,R_GUDBUTNAH,GUDBUTNAH,,,,no_capacity
+Glucose + Acetate,R_HACD1i,HACD1i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD2i,HACD2i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD3i,HACD3i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD4i,HACD4i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD5i,HACD5i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD6i,HACD6i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD7i,HACD7i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD8i,HACD8i,,3572386.922474314,,no_flux
+Glucose + Acetate,R_HACD9,HACD9,,,,no_capacity
+Glucose + Acetate,R_HADPCOADH3,HADPCOADH3,,1139306.8842837224,,no_flux
+Glucose + Acetate,R_HCO3E,HCO3E,,1794919959.7214403,,no_flux
+Glucose + Acetate,R_HCYSMT,HCYSMT,,35.01975394006327,,no_flux
+Glucose + Acetate,R_HCYSMT2,HCYSMT2,,35.01975394006327,,no_flux
+Glucose + Acetate,R_HDH,HDH,,11306.122313782644,,no_flux
+Glucose + Acetate,R_HEX1,HEX1,,157479.02980478358,,no_flux
+Glucose + Acetate,R_HGNTOR,HGNTOR,,2666.636526453017,,no_flux
+Glucose + Acetate,R_HIBDkt,HIBDkt,,2277322.9321741434,,no_flux
+Glucose + Acetate,R_HISDr,HISDr,,371.7165456776302,,no_flux
+Glucose + Acetate,R_HISTD,HISTD,,11306.122313782644,,no_flux
+Glucose + Acetate,R_HISTP,HISTP,,51034.04022962747,,no_flux
+Glucose + Acetate,R_HISTRS,HISTRS,,38593.03856741792,,no_flux
+Glucose + Acetate,R_HMBS,HMBS,,16.942535093549054,,no_flux
+Glucose + Acetate,R_HMGL,HMGL,,8859.151281135508,,no_flux
+Glucose + Acetate,R_HMPK1,HMPK1,,28.868350874758413,,no_flux
+Glucose + Acetate,R_HMSD2,HMSD2,,,,no_capacity
+Glucose + Acetate,R_HMSH,HMSH,,,,no_capacity
+Glucose + Acetate,R_HMSH2,HMSH2,,,,no_capacity
+Glucose + Acetate,R_HOPNTAL,HOPNTAL,,,,no_capacity
+Glucose + Acetate,R_HOPNTAL2,HOPNTAL2,,,,no_capacity
+Glucose + Acetate,R_HPYRRx,HPYRRx,,2522.5449794915066,,no_flux
+Glucose + Acetate,R_HPYRRy,HPYRRy,,,,no_capacity
+Glucose + Acetate,R_HSDy,HSDy,,22322.136480152512,,no_flux
+Glucose + Acetate,R_HSERTA,HSERTA,,6445.019822861752,,no_flux
+Glucose + Acetate,R_HSK,HSK,,3969.5537439374684,,no_flux
+Glucose + Acetate,R_HSTPT,HSTPT,,852602.4905914747,,no_flux
+Glucose + Acetate,R_HXAND,HXAND,,1054.5348210967354,,no_flux
+Glucose + Acetate,R_HXPRT,HXPRT,,5751.7516406991335,,no_flux
+Glucose + Acetate,R_ICDHyr,ICDHyr,,623284.4670573327,,no_flux
+Glucose + Acetate,R_ICL,ICL,,6999.586774590438,,no_flux
+Glucose + Acetate,R_IGPDH,IGPDH,,143558.4043139615,,no_flux
+Glucose + Acetate,R_IGPS,IGPS,,1169.764232385051,,no_flux
+Glucose + Acetate,R_ILETA,ILETA,,441791.27909726533,,no_flux
+Glucose + Acetate,R_ILETRS,ILETRS,,1625.8741568282683,,no_flux
+Glucose + Acetate,R_IMPC,IMPC,,3997.9843683851363,,no_flux
+Glucose + Acetate,R_IMPD,IMPD,,11098.833465870313,,no_flux
+Glucose + Acetate,R_INSH,INSH,,,,no_capacity
+Glucose + Acetate,R_IPDDI,IPDDI,,,,no_capacity
+Glucose + Acetate,R_IPMD,IPMD,,33379.77726148352,,no_flux
+Glucose + Acetate,R_IPPS,IPPS,,179091.04941032888,,no_flux
+Glucose + Acetate,R_KARA1,KARA1,,170933.22175802034,,no_flux
+Glucose + Acetate,R_KARA2,KARA2,,170933.22175802034,,no_flux
+Glucose + Acetate,R_KAS14,KAS14,,246993.53308821062,,no_flux
+Glucose + Acetate,R_KAS15,KAS15,,3889.691063398575,,no_flux
+Glucose + Acetate,R_KAT1,KAT1,,,,no_capacity
+Glucose + Acetate,R_KDOCT2,KDOCT2,,3962.1224179708747,,no_flux
+Glucose + Acetate,R_KDOPP,KDOPP,,164.99915586392666,,no_flux
+Glucose + Acetate,R_KDOPS,KDOPS,,,,no_capacity
+Glucose + Acetate,R_LALGP,LALGP,,10831144.397793276,,no_flux
+Glucose + Acetate,R_LCADi,LCADi,,353648.09159903525,,no_flux
+Glucose + Acetate,R_LDH_D,LDH_D,,28810.09281962278,,no_flux
+Glucose + Acetate,R_LEUTA,LEUTA,,441791.27909726533,,no_flux
+Glucose + Acetate,R_LEUTRS,LEUTRS,,62913.43416141476,,no_flux
+Glucose + Acetate,R_LGTHL,LGTHL,,46128.23874687581,,no_flux
+Glucose + Acetate,R_LLEUDr,LLEUDr,,,,no_capacity
+Glucose + Acetate,R_LSERDHr,LSERDHr,,7164.8178537263475,,no_flux
+Glucose + Acetate,R_LTDCL,LTDCL,,,,no_capacity
+Glucose + Acetate,R_LYSDC,LYSDC,,,,no_capacity
+Glucose + Acetate,R_LYSMO,LYSMO,,,,no_capacity
+Glucose + Acetate,R_LYSRC,LYSRC,,,,no_capacity
+Glucose + Acetate,R_LYSTRS,LYSTRS,,71002.01764111005,,no_flux
+Glucose + Acetate,R_L_LACD2,L_LACD2,,68611.79625706284,,no_flux
+Glucose + Acetate,R_MACACI,MACACI,,,,no_capacity
+Glucose + Acetate,R_MACCOAT,MACCOAT,,,,no_capacity
+Glucose + Acetate,R_MALEI,MALEI,,,,no_capacity
+Glucose + Acetate,R_MALS,MALS,,23090.655503334663,,no_flux
+Glucose + Acetate,R_MAN1PT,MAN1PT,,54017.16127188268,,no_flux
+Glucose + Acetate,R_MAN6PI,MAN6PI,,380.5190533700771,,no_flux
+Glucose + Acetate,R_MBCOAi,MBCOAi,,1161.131388843322,,no_flux
+Glucose + Acetate,R_MCCC,MCCC,,4.354435345375331,,no_flux
+Glucose + Acetate,R_MCITL2,MCITL2,,,,no_capacity
+Glucose + Acetate,R_MCITS,MCITS,,3218.7835216402477,,no_flux
+Glucose + Acetate,R_MCOATA,MCOATA,,216448.8972042398,,no_flux
+Glucose + Acetate,R_MCSNAH,MCSNAH,,17644.07574025066,,no_flux
+Glucose + Acetate,R_MDDCP1pp,MDDCP1pp,,114858.55528718725,,no_flux
+Glucose + Acetate,R_MDDCP2pp,MDDCP2pp,,114858.55528718725,,no_flux
+Glucose + Acetate,R_MDDCP3pp,MDDCP3pp,,114858.55528718725,,no_flux
+Glucose + Acetate,R_MDDCP4pp,MDDCP4pp,,114858.55528718725,,no_flux
+Glucose + Acetate,R_MDDCP5pp,MDDCP5pp,,114858.55528718725,,no_flux
+Glucose + Acetate,R_MDH,MDH,,732762.7419265269,,no_flux
+Glucose + Acetate,R_ME2,ME2,,2217061.266710864,,no_flux
+Glucose + Acetate,R_MECDPS_copy1,MECDPS_copy1,,,,no_capacity
+Glucose + Acetate,R_MECDPS_copy2,MECDPS_copy2,,,,no_capacity
+Glucose + Acetate,R_MEPCT,MEPCT,,,,no_capacity
+Glucose + Acetate,R_METAT,METAT,,5794.096145284431,,no_flux
+Glucose + Acetate,R_METGL,METGL,,,,no_capacity
+Glucose + Acetate,R_METS,METS,,1426.860216706577,,no_flux
+Glucose + Acetate,R_METSOXR1,METSOXR1,,1367.1143134486013,,no_flux
+Glucose + Acetate,R_METSOXR2,METSOXR2,,1367.1143134486013,,no_flux
+Glucose + Acetate,R_METTRS,METTRS,,17933.262616964606,,no_flux
+Glucose + Acetate,R_MGCH,MGCH,,37.626228277206636,,no_flux
+Glucose + Acetate,R_MI1PP,MI1PP,,137865.12732299566,,no_flux
+Glucose + Acetate,R_MLDCP1App,MLDCP1App,,,,no_capacity
+Glucose + Acetate,R_MLDCP1Bpp,MLDCP1Bpp,,,,no_capacity
+Glucose + Acetate,R_MLDCP2App,MLDCP2App,,,,no_capacity
+Glucose + Acetate,R_MLDCP2Bpp,MLDCP2Bpp,,,,no_capacity
+Glucose + Acetate,R_MLDCP3App,MLDCP3App,,,,no_capacity
+Glucose + Acetate,R_MMSAD3,MMSAD3,,,,no_capacity
+Glucose + Acetate,R_MMTSAO,MMTSAO,,,,no_capacity
+Glucose + Acetate,R_MOHMT,MOHMT,,73.44911129614806,,no_flux
+Glucose + Acetate,R_MPTAT,MPTAT,,,,no_capacity
+Glucose + Acetate,R_MSULR,MSULR,,,,no_capacity
+Glucose + Acetate,R_MTHFC,MTHFC,,,,no_capacity
+Glucose + Acetate,R_MTHFD,MTHFD,,,,no_capacity
+Glucose + Acetate,R_MTHFR2,MTHFR2,,36608.797817819184,,no_flux
+Glucose + Acetate,R_MTI,MTI,,3516.694636596395,,no_flux
+Glucose + Acetate,R_MTOLDOX,MTOLDOX,,,,no_capacity
+Glucose + Acetate,R_MUCCYCI,MUCCYCI,,,,no_capacity
+Glucose + Acetate,R_MUCCY_kt,MUCCY_kt,,66755.95852773526,,no_flux
+Glucose + Acetate,R_MUCLI,MUCLI,,,,no_capacity
+Glucose + Acetate,R_NADDP,NADDP,,11491604.957724756,,no_flux
+Glucose + Acetate,R_NADH16pp,NADH16pp,,27482.440016833418,,no_flux
+Glucose + Acetate,R_NADHPO,NADHPO,,3313.783008824301,,no_flux
+Glucose + Acetate,R_NADK,NADK,,,,no_capacity
+Glucose + Acetate,R_NADN,NADN,,,,no_capacity
+Glucose + Acetate,R_NADS1,NADS1,,1137.0952947904843,,no_flux
+Glucose + Acetate,R_NADTRHD,NADTRHD,,197848.81202417213,,no_flux
+Glucose + Acetate,R_NAMNPP,NAMNPP,,6.571838403992531,,no_flux
+Glucose + Acetate,R_NDP8,NDP8,,4306.246888321544,,no_flux
+Glucose + Acetate,R_NDPK1,NDPK1,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NDPK2,NDPK2,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NDPK3,NDPK3,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NDPK4,NDPK4,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NDPK5,NDPK5,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NDPK6,NDPK6,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NDPK7,NDPK7,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NDPK8,NDPK8,,1757567.4068770201,,no_flux
+Glucose + Acetate,R_NITR,NITR,,,,no_capacity
+Glucose + Acetate,R_NMNAT,NMNAT,,1556.6983002659574,,no_flux
+Glucose + Acetate,R_NMNDA,NMNDA,,67.20272514508223,,no_flux
+Glucose + Acetate,R_NNATr,NNATr,,1556.6983002659574,,no_flux
+Glucose + Acetate,R_NNDMBRT,NNDMBRT,,,,no_capacity
+Glucose + Acetate,R_NNDPR,NNDPR,,1289.5186737723614,,no_flux
+Glucose + Acetate,R_NODOx,NODOx,,11471.57459633771,,no_flux
+Glucose + Acetate,R_NODOy,NODOy,,11471.57459633771,,no_flux
+Glucose + Acetate,R_NTD1,NTD1,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD10,NTD10,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD10pp,NTD10pp,,,,no_capacity
+Glucose + Acetate,R_NTD11,NTD11,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD11pp,NTD11pp,,,,no_capacity
+Glucose + Acetate,R_NTD1pp,NTD1pp,,,,no_capacity
+Glucose + Acetate,R_NTD2,NTD2,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD2pp,NTD2pp,,,,no_capacity
+Glucose + Acetate,R_NTD3,NTD3,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD3pp,NTD3pp,,,,no_capacity
+Glucose + Acetate,R_NTD4,NTD4,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD4pp,NTD4pp,,,,no_capacity
+Glucose + Acetate,R_NTD5,NTD5,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD5pp,NTD5pp,,,,no_capacity
+Glucose + Acetate,R_NTD6,NTD6,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD6pp,NTD6pp,,,,no_capacity
+Glucose + Acetate,R_NTD7,NTD7,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD7pp,NTD7pp,,,,no_capacity
+Glucose + Acetate,R_NTD8,NTD8,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD8pp,NTD8pp,,,,no_capacity
+Glucose + Acetate,R_NTD9,NTD9,,29015.652519673386,,no_flux
+Glucose + Acetate,R_NTD9pp,NTD9pp,,,,no_capacity
+Glucose + Acetate,R_NTP1,NTP1,,21378.64335265648,,no_flux
+Glucose + Acetate,R_NTP10,NTP10,,144389.53978002217,,no_flux
+Glucose + Acetate,R_NTP3,NTP3,,676743.0518832549,,no_flux
+Glucose + Acetate,R_NTP5,NTP5,,243726.09960880852,,no_flux
+Glucose + Acetate,R_NTPP1,NTPP1,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP10,NTPP10,,38219.82894483164,,no_flux
+Glucose + Acetate,R_NTPP11,NTPP11,,38219.82894483164,,no_flux
+Glucose + Acetate,R_NTPP2,NTPP2,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP3,NTPP3,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP4,NTPP4,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP5,NTPP5,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP6,NTPP6,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP7,NTPP7,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP8,NTPP8,,56468271.05276482,,no_flux
+Glucose + Acetate,R_NTPP9,NTPP9,,36363761.92967133,,no_flux
+Glucose + Acetate,R_NTPTP1,NTPTP1,,146323.14231047413,,no_flux
+Glucose + Acetate,R_NTRIR2x,NTRIR2x,,,,no_capacity
+Glucose + Acetate,R_OAADC,OAADC,,8050791.7555780085,,no_flux
+Glucose + Acetate,R_OAAtex,OAAtex,,,,no_capacity
+Glucose + Acetate,R_OARGDC,OARGDC,,,,no_capacity
+Glucose + Acetate,R_OCAALD,OCAALD,,,,no_capacity
+Glucose + Acetate,R_OCBT,OCBT,,6702.351806623932,,no_flux
+Glucose + Acetate,R_OCOAT1,OCOAT1,,,,no_capacity
+Glucose + Acetate,R_OCTDPS,OCTDPS,,439.7719195579728,,no_flux
+Glucose + Acetate,R_OHPBAT,OHPBAT,,515.7643560216591,,no_flux
+Glucose + Acetate,R_OMAHY,OMAHY,,,,no_capacity
+Glucose + Acetate,R_OMCDC,OMCDC,,,,no_capacity
+Glucose + Acetate,R_OMPDC,OMPDC,,85124.45916874251,,no_flux
+Glucose + Acetate,R_OP4ENH,OP4ENH,,,,no_capacity
+Glucose + Acetate,R_OP4ENH2,OP4ENH2,,,,no_capacity
+Glucose + Acetate,R_OPAH,OPAH,,,,no_capacity
+Glucose + Acetate,R_ORNDC,ORNDC,,11024.243034390194,,no_flux
+Glucose + Acetate,R_ORPT,ORPT,,1494.804277944827,,no_flux
+Glucose + Acetate,R_P5CD,P5CD,,3446.4382656252064,,no_flux
+Glucose + Acetate,R_P5CR,P5CR,,,,no_capacity
+Glucose + Acetate,R_PACCOAL,PACCOAL,,,,no_capacity
+Glucose + Acetate,R_PANTS,PANTS,,842.6572024811842,,no_flux
+Glucose + Acetate,R_PAPA160,PAPA160,,,,no_capacity
+Glucose + Acetate,R_PAPPT3,PAPPT3,,,,no_capacity
+Glucose + Acetate,R_PAPSR,PAPSR,,567.8125595019654,,no_flux
+Glucose + Acetate,R_PAPSR2,PAPSR2,,567.8125595019654,,no_flux
+Glucose + Acetate,R_PC,PC,,,,no_capacity
+Glucose + Acetate,R_PC8XM,PC8XM,,,,no_capacity
+Glucose + Acetate,R_PCADYOX,PCADYOX,,,,no_capacity
+Glucose + Acetate,R_PDE1,PDE1,,,,no_capacity
+Glucose + Acetate,R_PDE4,PDE4,,208931.59535358704,,no_flux
+Glucose + Acetate,R_PDH,PDH,,77.17264771932452,,no_flux
+Glucose + Acetate,R_PDHa,PDHa,,127.04231675028892,,no_flux
+Glucose + Acetate,R_PDHbr,PDHbr,,1089.4962030963459,,no_flux
+Glucose + Acetate,R_PDHcr,PDHcr,,2285438.3605718864,,no_flux
+Glucose + Acetate,R_PDX5POi,PDX5POi,,2308.389068884544,,no_flux
+Glucose + Acetate,R_PERD,PERD,,40.16781079008218,,no_flux
+Glucose + Acetate,R_PGAMT,PGAMT,,2198.5342682758214,,no_flux
+Glucose + Acetate,R_PGCD,PGCD,,3430665.124293342,,no_flux
+Glucose + Acetate,R_PGI,PGI,,,,no_capacity
+Glucose + Acetate,R_PGK,PGK,,219444.64113010062,,no_flux
+Glucose + Acetate,R_PGLYCP,PGLYCP,,35417.56858194721,,no_flux
+Glucose + Acetate,R_PGM,PGM,,1290252.6332249565,,no_flux
+Glucose + Acetate,R_PGMT,PGMT,,11987.544041727566,,no_flux
+Glucose + Acetate,R_PGPP120,PGPP120,,,,no_capacity
+Glucose + Acetate,R_PGPP120pp,PGPP120pp,,,,no_capacity
+Glucose + Acetate,R_PGPP160,PGPP160,,,,no_capacity
+Glucose + Acetate,R_PGPP160pp,PGPP160pp,,,,no_capacity
+Glucose + Acetate,R_PGPP161,PGPP161,,,,no_capacity
+Glucose + Acetate,R_PGPP161pp,PGPP161pp,,,,no_capacity
+Glucose + Acetate,R_PGPP180,PGPP180,,,,no_capacity
+Glucose + Acetate,R_PGPP180pp,PGPP180pp,,,,no_capacity
+Glucose + Acetate,R_PGPP181,PGPP181,,,,no_capacity
+Glucose + Acetate,R_PGPP181pp,PGPP181pp,,,,no_capacity
+Glucose + Acetate,R_PHETA1,PHETA1,,,,no_capacity
+Glucose + Acetate,R_PHETRS,PHETRS,,134978.05074139158,,no_flux
+Glucose + Acetate,R_PLIPA1E160pp,PLIPA1E160pp,,,,no_capacity
+Glucose + Acetate,R_PLIPA1E180pp,PLIPA1E180pp,,,,no_capacity
+Glucose + Acetate,R_PMANM,PMANM,,451.5350052988987,,no_flux
+Glucose + Acetate,R_PMDPHT,PMDPHT,,,,no_capacity
+Glucose + Acetate,R_PMEACPE,PMEACPE,,359.7017853852542,,no_flux
+Glucose + Acetate,R_PMPK,PMPK,,5.820665164747801,,no_flux
+Glucose + Acetate,R_PNTK,PNTK,,,,no_capacity
+Glucose + Acetate,R_PPA,PPA,,1854885.1098872947,,no_flux
+Glucose + Acetate,R_PPA2,PPA2,,1521660.0496812451,,no_flux
+Glucose + Acetate,R_PPBNGS,PPBNGS,,,,no_capacity
+Glucose + Acetate,R_PPC,PPC,,56111.323895298505,,no_flux
+Glucose + Acetate,R_PPCDC,PPCDC,,,,no_capacity
+Glucose + Acetate,R_PPCK,PPCK,,,,no_capacity
+Glucose + Acetate,R_PPCSCT,PPCSCT,,23545.395252003065,,no_flux
+Glucose + Acetate,R_PPGPPDP,PPGPPDP,,319.5921940544685,,no_flux
+Glucose + Acetate,R_PPM,PPM,,5478.394061736319,,no_flux
+Glucose + Acetate,R_PPNCL2,PPNCL2,,,,no_capacity
+Glucose + Acetate,R_PPND,PPND,,73655.30616544746,,no_flux
+Glucose + Acetate,R_PPNDH,PPNDH,,333877.6207283039,,no_flux
+Glucose + Acetate,R_PPPGO,PPPGO,,,,no_capacity
+Glucose + Acetate,R_PPRGL,PPRGL,,1456.5193439266427,,no_flux
+Glucose + Acetate,R_PPS,PPS,,1155816.6152333156,,no_flux
+Glucose + Acetate,R_PPYRDC,PPYRDC,,,,no_capacity
+Glucose + Acetate,R_PRAIi_copy1,PRAIi_copy1,,2835.8243288819585,,no_flux
+Glucose + Acetate,R_PRAIi_copy2,PRAIi_copy2,,2835.8243288819585,,no_flux
+Glucose + Acetate,R_PRAMPC_copy1,PRAMPC_copy1,,456.0967723716607,,no_flux
+Glucose + Acetate,R_PRAMPC_copy2,PRAMPC_copy2,,456.0967723716607,,no_flux
+Glucose + Acetate,R_PRFGS,PRFGS,,38.379097726625446,,no_flux
+Glucose + Acetate,R_PRMICI_copy1,PRMICI_copy1,,8057.007329810777,,no_flux
+Glucose + Acetate,R_PRMICI_copy2,PRMICI_copy2,,8057.007329810777,,no_flux
+Glucose + Acetate,R_PROTRS,PROTRS,,3952.9420592660886,,no_flux
+Glucose + Acetate,R_PRPPS,PRPPS,,202956.2573479667,,no_flux
+Glucose + Acetate,R_PSCVT_copy1,PSCVT_copy1,,5419.177257890264,,no_flux
+Glucose + Acetate,R_PSCVT_copy2,PSCVT_copy2,,5419.177257890264,,no_flux
+Glucose + Acetate,R_PSERT,PSERT,,515.7643560216591,,no_flux
+Glucose + Acetate,R_PSP_L,PSP_L,,214812.63038748113,,no_flux
+Glucose + Acetate,R_PTA2,PTA2,,423027.1211521708,,no_flux
+Glucose + Acetate,R_PTAr,PTAr,,423027.1211521708,,no_flux
+Glucose + Acetate,R_PTOLDOX,PTOLDOX,,,,no_capacity
+Glucose + Acetate,R_PTPATi,PTPATi,,1183.6370222695311,,no_flux
+Glucose + Acetate,R_PUTA3,PUTA3,,3446.4382656252064,,no_flux
+Glucose + Acetate,R_PYAM5PO,PYAM5PO,,2308.389068884544,,no_flux
+Glucose + Acetate,R_PYDAMK,PYDAMK,,,,no_capacity
+Glucose + Acetate,R_PYDXK,PYDXK,,,,no_capacity
+Glucose + Acetate,R_PYDXNK,PYDXNK,,,,no_capacity
+Glucose + Acetate,R_PYK,PYK,,2076423.7388542092,,no_flux
+Glucose + Acetate,R_PYNP2r,PYNP2r,,,,no_capacity
+Glucose + Acetate,R_PYRZAM,PYRZAM,,,,no_capacity
+Glucose + Acetate,R_RBFK,RBFK,,254.65664084106726,,no_flux
+Glucose + Acetate,R_RBFSa,RBFSa,,,,no_capacity
+Glucose + Acetate,R_RBFSb,RBFSb,,836.5173047353303,,no_flux
+Glucose + Acetate,R_RBK,RBK,,,,no_capacity
+Glucose + Acetate,R_RHACOAR100,RHACOAR100,,68279.97418744808,,no_flux
+Glucose + Acetate,R_RHACOAR140,RHACOAR140,,68279.97418744808,,no_flux
+Glucose + Acetate,R_RHACOAR60,RHACOAR60,,68279.97418744808,,no_flux
+Glucose + Acetate,R_RHACOAR80,RHACOAR80,,68279.97418744808,,no_flux
+Glucose + Acetate,R_RNDR1,RNDR1,,2740.6986308984797,,no_flux
+Glucose + Acetate,R_RNDR2,RNDR2,,2740.6986308984797,,no_flux
+Glucose + Acetate,R_RNDR3,RNDR3,,2740.6986308984797,,no_flux
+Glucose + Acetate,R_RNDR4,RNDR4,,2740.6986308984797,,no_flux
+Glucose + Acetate,R_RPE,RPE,,1054199.2899626608,,no_flux
+Glucose + Acetate,R_RPI,RPI,,4871390.615200273,,no_flux
+Glucose + Acetate,R_S7PI,S7PI,,,,no_capacity
+Glucose + Acetate,R_SADT,SADT,,73448.44232583957,,no_flux
+Glucose + Acetate,R_SARCOX,SARCOX,,,,no_capacity
+Glucose + Acetate,R_SDPDS,SDPDS,,14088.931884995895,,no_flux
+Glucose + Acetate,R_SDPTA,SDPTA,,4014.3433573043703,,no_flux
+Glucose + Acetate,R_SELADT,SELADT,,73448.44232583957,,no_flux
+Glucose + Acetate,R_SELCYSS,SELCYSS,,2.210498304274021,,no_flux
+Glucose + Acetate,R_SELMETAT,SELMETAT,,5794.096145284431,,no_flux
+Glucose + Acetate,R_SERAT_copy1,SERAT_copy1,,13408.133860106143,,no_flux
+Glucose + Acetate,R_SERAT_copy2,SERAT_copy2,,13408.133860106143,,no_flux
+Glucose + Acetate,R_SERD_L,SERD_L,,,,no_capacity
+Glucose + Acetate,R_SERTRS,SERTRS,,1587.6299246104106,,no_flux
+Glucose + Acetate,R_SERTRS2,SERTRS2,,1587.6299246104106,,no_flux
+Glucose + Acetate,R_SFGTHi,SFGTHi,,6710.699784262883,,no_flux
+Glucose + Acetate,R_SHK3Dr,SHK3Dr,,29784.553666760246,,no_flux
+Glucose + Acetate,R_SHKK,SHKK,,1701.8530061334166,,no_flux
+Glucose + Acetate,R_SHSL1,SHSL1,,6295.339832750815,,no_flux
+Glucose + Acetate,R_SHSL2r,SHSL2r,,,,no_capacity
+Glucose + Acetate,R_SLCYSS,SLCYSS,,121923.56712245787,,no_flux
+Glucose + Acetate,R_SOTA,SOTA,,,,no_capacity
+Glucose + Acetate,R_SPODM,SPODM,,51112507.60965207,,no_flux
+Glucose + Acetate,R_SSALx,SSALx,,452.2283778613582,,no_flux
+Glucose + Acetate,R_SSALy,SSALy,,8459.749309973151,,no_flux
+Glucose + Acetate,R_SUCOAS,SUCOAS,,267008.2015914205,,no_flux
+Glucose + Acetate,R_SULR,SULR,,436061.80437954253,,no_flux
+Glucose + Acetate,R_TALA,TALA,,6126.625899654478,,no_flux
+Glucose + Acetate,R_TAUDO,TAUDO,,,,no_capacity
+Glucose + Acetate,R_TDP,TDP,,193030.969576672,,no_flux
+Glucose + Acetate,R_TDPDRE,TDPDRE,,9232.600141200895,,no_flux
+Glucose + Acetate,R_TDPDRR,TDPDRR,,903.823500990673,,no_flux
+Glucose + Acetate,R_TDPGDH,TDPGDH,,,,no_capacity
+Glucose + Acetate,R_THD2pp,THD2pp,,197848.81202417213,,no_flux
+Glucose + Acetate,R_THFAT,THFAT,,,,no_capacity
+Glucose + Acetate,R_THIORDXi,THIORDXi,,62254.82153182528,,no_flux
+Glucose + Acetate,R_THRA,THRA,,5031.419114084907,,no_flux
+Glucose + Acetate,R_THRD_L,THRD_L,,,,no_capacity
+Glucose + Acetate,R_THRS,THRS,,1543439.2801862482,,no_flux
+Glucose + Acetate,R_THRTRS,THRTRS,,30749.445169606406,,no_flux
+Glucose + Acetate,R_TMDS,TMDS,,2806.6641865440943,,no_flux
+Glucose + Acetate,R_TMPK,TMPK,,,,no_capacity
+Glucose + Acetate,R_TPI,TPI,,110046342.37054,,no_flux
+Glucose + Acetate,R_TRDR,TRDR,,289751.3182871968,,no_flux
+Glucose + Acetate,R_TRPS1_copy1,TRPS1_copy1,,18896.523591216737,,no_flux
+Glucose + Acetate,R_TRPS1_copy2,TRPS1_copy2,,18896.523591216737,,no_flux
+Glucose + Acetate,R_TRPS2,TRPS2,,18896.523591216737,,no_flux
+Glucose + Acetate,R_TRPS3,TRPS3,,18896.523591216737,,no_flux
+Glucose + Acetate,R_TRPTRS,TRPTRS,,6339.50679981593,,no_flux
+Glucose + Acetate,R_TRSARr,TRSARr,,26238.477437194695,,no_flux
+Glucose + Acetate,R_TRYPTAOX,TRYPTAOX,,1169543.6568863033,,no_flux
+Glucose + Acetate,R_TYRTA,TYRTA,,,,no_capacity
+Glucose + Acetate,R_TYRTRS,TYRTRS,,7629.256995559879,,no_flux
+Glucose + Acetate,R_UAAGDS,UAAGDS,,207.75031764253606,,no_flux
+Glucose + Acetate,R_UAG2E,UAG2E,,,,no_capacity
+Glucose + Acetate,R_UAGCVT,UAGCVT,,1496.7029096765866,,no_flux
+Glucose + Acetate,R_UAGDP,UAGDP,,75071.81129893477,,no_flux
+Glucose + Acetate,R_UAGPT3,UAGPT3,,307.2979483228353,,no_flux
+Glucose + Acetate,R_UAMAS,UAMAS,,6686.693637480927,,no_flux
+Glucose + Acetate,R_UDCPDPS,UDCPDPS,,,,no_capacity
+Glucose + Acetate,R_UGLYCH,UGLYCH,,,,no_capacity
+Glucose + Acetate,R_UMPK,UMPK,,108848.55021683112,,no_flux
+Glucose + Acetate,R_UNK3,UNK3,,,,no_capacity
+Glucose + Acetate,R_UPP3MT,UPP3MT,,4386.143717801879,,no_flux
+Glucose + Acetate,R_UPP3S,UPP3S,,,,no_capacity
+Glucose + Acetate,R_UPPDC1,UPPDC1,,52.92825406085273,,no_flux
+Glucose + Acetate,R_UPPN,UPPN,,1942.6369175893294,,no_flux
+Glucose + Acetate,R_UPPRT,UPPRT,,2715.0251524820014,,no_flux
+Glucose + Acetate,R_UREA,UREA,,,,no_capacity
+Glucose + Acetate,R_URIDK2r,URIDK2r,,99824.42242922884,,no_flux
+Glucose + Acetate,R_URIH,URIH,,,,no_capacity
+Glucose + Acetate,R_VALDHr,VALDHr,,,,no_capacity
+Glucose + Acetate,R_VALTA,VALTA,,441791.27909726533,,no_flux
+Glucose + Acetate,R_VALTRS_copy1,VALTRS_copy1,,29214.035316865695,,no_flux
+Glucose + Acetate,R_VALTRS_copy2,VALTRS_copy2,,29214.035316865695,,no_flux
+Glucose + Acetate,R_VNDH_2,VNDH_2,,,,no_capacity
+Glucose + Acetate,R_XAND,XAND,,1054.5348210967354,,no_flux
+Glucose + Acetate,R_XPPT,XPPT,,9586.252734498557,,no_flux
+Glucose + Acetate,R_XTSNH,XTSNH,,,,no_capacity
+Glucose + Acetate,R_ZN2abcpp,ZN2abcpp,,,,no_capacity
+Glucose + Acetate,R_ZNabcpp,ZNabcpp,,33559.721623952035,,no_flux

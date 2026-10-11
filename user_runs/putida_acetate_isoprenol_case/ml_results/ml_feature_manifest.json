@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed_no_features",
+  "message": "No ML-compatible feature rows were found yet.",
+  "package_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case",
+  "condition_count": 0,
+  "feature_count": 0,
+  "feature_row_count": 0,
+  "files": {
+    "feature_long": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\ml_results\\ml_feature_long.csv",
+    "feature_matrix": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\ml_results\\ml_feature_matrix.csv",
+    "feature_summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\ml_results\\ml_feature_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\ml_results\\ml_feature_manifest.json"
+  }
+}

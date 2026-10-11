@@ -1,0 +1,2 @@
+case_id,local_gotenzymes2_rows,global_max_kcat_matched_reactions,sbml_reactions_with_ec,source_mode,note
+putida_acetate_isoprenol_mixed_carbon,0,745,969,local_gecko_max_kcat,No case-specific GotEnzymes2 table was found; local GECKO max_KCAT cache was used as traceable fallback.

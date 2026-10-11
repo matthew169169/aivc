@@ -1,0 +1,10 @@
+sweep_point,condition,condition_group,oxygen_reaction_id,oxygen_lower_bound,fba_status,objective_value,oxygen_pfba_flux,status,guidance
+observed_condition_bound,Taylor_20pctO2_relaxed,highO2,R_EX_cpd00007_e0,-10.0,,,,condition_bound_only,This row uses an observed condition oxygen bound; it is not a full oxygen sweep solve.
+observed_condition_bound,Taylor_8p5pctO2_relaxed,lowO2,R_EX_cpd00007_e0,-4.25,,,,condition_bound_only,This row uses an observed condition oxygen bound; it is not a full oxygen sweep solve.
+observed_condition_bound,Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,R_EX_cpd00007_e0,-4.25,,,,condition_bound_only,This row uses an observed condition oxygen bound; it is not a full oxygen sweep solve.
+planned_sweep_1,oxygen_sweep_design,sweep_design,R_EX_cpd00007_e0,-10,,,,planned_not_run,Controlled six-point oxygen sweep design point; solver run is intentionally not executed inside comparison aggregation.
+planned_sweep_2,oxygen_sweep_design,sweep_design,R_EX_cpd00007_e0,-8,,,,planned_not_run,Controlled six-point oxygen sweep design point; solver run is intentionally not executed inside comparison aggregation.
+planned_sweep_3,oxygen_sweep_design,sweep_design,R_EX_cpd00007_e0,-6,,,,planned_not_run,Controlled six-point oxygen sweep design point; solver run is intentionally not executed inside comparison aggregation.
+planned_sweep_4,oxygen_sweep_design,sweep_design,R_EX_cpd00007_e0,-4,,,,planned_not_run,Controlled six-point oxygen sweep design point; solver run is intentionally not executed inside comparison aggregation.
+planned_sweep_5,oxygen_sweep_design,sweep_design,R_EX_cpd00007_e0,-2,,,,planned_not_run,Controlled six-point oxygen sweep design point; solver run is intentionally not executed inside comparison aggregation.
+planned_sweep_6,oxygen_sweep_design,sweep_design,R_EX_cpd00007_e0,-0,,,,planned_not_run,Controlled six-point oxygen sweep design point; solver run is intentionally not executed inside comparison aggregation.

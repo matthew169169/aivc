@@ -1,0 +1,2 @@
+variant_id,condition,status,objective_value,active_generation_method_label,active_model_path,output_dir,run_message
+baseline_gem__all,default,optimal,0.586117544847982,Baseline GEM,D:\generate\user_runs\putida_acetate_isoprenol_case\inputs\model\model__iJN1463.xml,D:\generate\user_runs\putida_acetate_isoprenol_case\variant_cobra_results\baseline_gem__all,Completed FBA for 1 conditions.

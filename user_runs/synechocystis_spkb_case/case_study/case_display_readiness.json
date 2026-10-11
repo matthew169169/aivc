@@ -1,0 +1,249 @@
+{
+  "case_id": "synechocystis_spkb_carbon",
+  "run_id": "synechocystis_spkb_case",
+  "case": {
+    "case_id": "synechocystis_spkb_carbon",
+    "run_id": "synechocystis_spkb_case",
+    "title": "Synechocystis SpkB carbon limitation",
+    "title_zh": "Synechocystis SpkB 碳限制论文案例",
+    "story_title": "Evidence-only carbon limitation integration case",
+    "story_title_zh": "证据整合型碳限制案例",
+    "story_summary": "Use proteomics, phosphoproteomics, metabolomics, and phenotype evidence to explain the SpkB carbon-limitation response. Treat the case as evidence integration unless a protein pool and external ecModel run are provided.",
+    "story_summary_zh": "整合蛋白组、磷酸化蛋白组、代谢组与表型证据解释 SpkB 碳限制响应；在没有 protein pool 和外部 ecModel 运行前，按证据整合案例展示。",
+    "organism_id": "synechocystis_pcc6803",
+    "organism_name": "Synechocystis sp. PCC 6803",
+    "default_query": "Synechocystis iJN678 SpkB carbon limitation proteomics phosphoproteomics",
+    "default_reference_variant_id": "baseline_gem__all",
+    "default_target_variant_id": "consensus_context__all",
+    "default_annotation_type": "custom_annotation",
+    "default_annotation_group_id": "redox_quinone_flavin_eet",
+    "default_annotation_groups": [
+      "photosynthesis_ccm",
+      "carbon_nitrogen_metabolism",
+      "redox_quinone_flavin_eet"
+    ],
+    "default_compare_view_mode": "difference",
+    "evidence_status_labels": {
+      "proteomics": "ready",
+      "phosphoproteomics": "ready",
+      "metabolomics": "ready",
+      "kcat": "package-ready only",
+      "enzyme_capacity": "not generated",
+      "ecmodel": "evidence-only case"
+    },
+    "recommended_model_generation_methods": [
+      "baseline_gem",
+      "consensus_evidence"
+    ],
+    "recommended_analysis_methods": [
+      "fba_pfba",
+      "evidence_comparison",
+      "condition_interpretation",
+      "readiness_gate"
+    ],
+    "key_evidence_types": [
+      "relative_proteomics",
+      "phosphoproteomics",
+      "metabolomics",
+      "kcat",
+      "annotation"
+    ],
+    "expected_ecmodel": false,
+    "display_caveats": [
+      "This case is evidence-integration and kcat-ready unless a protein pool and external ecModel run are provided.",
+      "Do not report enzyme capacity as zero when reaction-level capacity is not generated."
+    ],
+    "display_next_actions": [
+      "Use Model Compare for pathway/proteomics/phosphoproteomics evidence.",
+      "Do not show enzyme capacity as available without protein pool and external ecModel output."
+    ]
+  },
+  "story_title": "Evidence-only carbon limitation integration case",
+  "story_title_zh": "证据整合型碳限制案例",
+  "story_summary": "Use proteomics, phosphoproteomics, metabolomics, and phenotype evidence to explain the SpkB carbon-limitation response. Treat the case as evidence integration unless a protein pool and external ecModel run are provided.",
+  "story_summary_zh": "整合蛋白组、磷酸化蛋白组、代谢组与表型证据解释 SpkB 碳限制响应；在没有 protein pool 和外部 ecModel 运行前，按证据整合案例展示。",
+  "default_compare_view_mode": "difference",
+  "evidence_status_labels": {
+    "proteomics": "ready",
+    "phosphoproteomics": "ready",
+    "metabolomics": "ready",
+    "kcat": "package-ready only",
+    "enzyme_capacity": "not generated",
+    "ecmodel": "evidence-only case"
+  },
+  "display_next_actions": [
+    "Use Model Compare for pathway/proteomics/phosphoproteomics evidence.",
+    "Do not show enzyme capacity as available without protein pool and external ecModel output."
+  ],
+  "overall_status": "evidence_only_no_ecmodel",
+  "guidance": "Case has clear guidance for missing or evidence-only artifacts.",
+  "default_pair": {
+    "reference_variant_id": "baseline_gem__all",
+    "target_variant_id": "consensus_context__all",
+    "status": "ready"
+  },
+  "default_scope": {
+    "annotation_type": "custom_annotation",
+    "annotation_group_id": "redox_quinone_flavin_eet",
+    "status": "ready",
+    "preferred_annotation_group_id": "redox_quinone_flavin_eet"
+  },
+  "checks": [
+    {
+      "id": "run_package",
+      "label": "Run package",
+      "status": "ready",
+      "guidance": "Run package exists.",
+      "count": 1,
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/synechocystis_spkb_case"
+    },
+    {
+      "id": "inputs",
+      "label": "Input package",
+      "status": "ready",
+      "guidance": "Model and evidence inputs are indexed.",
+      "count": 9,
+      "model_count": 1,
+      "evidence_count": 8
+    },
+    {
+      "id": "variants",
+      "label": "Variant registry",
+      "status": "ready",
+      "guidance": "Model variants are indexed.",
+      "count": 2
+    },
+    {
+      "id": "default_pair",
+      "label": "Default compare pair",
+      "status": "ready",
+      "guidance": "Default pair is baseline_gem__all vs consensus_context__all.",
+      "reference_variant_id": "baseline_gem__all",
+      "target_variant_id": "consensus_context__all"
+    },
+    {
+      "id": "variant_comparison",
+      "label": "Variant comparison",
+      "status": "ready",
+      "guidance": "Variant comparison outputs are available.",
+      "count": 2,
+      "reaction_diff_rows": 0
+    },
+    {
+      "id": "model_edit_provenance",
+      "label": "Model edit provenance",
+      "status": "ready",
+      "guidance": "Reaction-level model edit provenance is available.",
+      "count": 1726,
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/synechocystis_spkb_case/workflow_results/model_edit_reaction_index.csv"
+    },
+    {
+      "id": "kcat_priors",
+      "label": "kcat priors",
+      "status": "ready",
+      "guidance": "kcat priors are available.",
+      "count": 454
+    },
+    {
+      "id": "enzyme_capacity",
+      "label": "Enzyme capacity",
+      "status": "package_ready_only",
+      "guidance": "This case is not marked as a complete ecModel; capacity should be shown as not available.",
+      "count": 0,
+      "path": ""
+    },
+    {
+      "id": "annotation_groups",
+      "label": "Annotation groups",
+      "status": "ready",
+      "guidance": "Annotation group scope is available.",
+      "annotation_type": "custom_annotation",
+      "annotation_group_id": "redox_quinone_flavin_eet",
+      "group_count": 0,
+      "reaction_count": 0
+    },
+    {
+      "id": "compare_graphs",
+      "label": "Compare submap graphs",
+      "status": "ready",
+      "guidance": "Compare submap graphs are available.",
+      "count": 14
+    },
+    {
+      "id": "analysis_summary",
+      "label": "Analysis and summary outputs",
+      "status": "ready",
+      "guidance": "Analysis or report outputs are available.",
+      "count": 3
+    },
+    {
+      "id": "reaction_diff",
+      "label": "ReactionDiff smoke",
+      "status": "ready",
+      "guidance": "ReactionDiff and ranking are available for the default scope.",
+      "count": 9,
+      "ranking_count": 9
+    }
+  ],
+  "readiness_ladder": [
+    {
+      "stage_id": "input",
+      "label": "Input",
+      "status": "ready",
+      "guidance": "Case inputs are indexed and ready for review."
+    },
+    {
+      "stage_id": "model_generator",
+      "label": "Model Generator",
+      "status": "ready",
+      "guidance": "Variants are available."
+    },
+    {
+      "stage_id": "model_compare",
+      "label": "Model Compare",
+      "status": "ready",
+      "guidance": "Compare graphs and ReactionDiff are ready."
+    },
+    {
+      "stage_id": "analysis",
+      "label": "Analysis",
+      "status": "ready",
+      "guidance": "Analysis outputs are available."
+    },
+    {
+      "stage_id": "summary",
+      "label": "Summary",
+      "status": "ready",
+      "guidance": "Summary can cite the current case artifacts."
+    }
+  ],
+  "missing_items": [],
+  "next_actions": [
+    "Show enzyme capacity as not available/package-ready unless an external ecModel run creates reaction-level capacity."
+  ],
+  "pair_smoke": {
+    "status": "partial",
+    "reaction_diff_count": 9,
+    "ranking_count": 9,
+    "compare_readiness_summary": {
+      "status": "partial",
+      "parse_status": "ready",
+      "graph_status": "missing_graph",
+      "annotation_scope_status": "not_mapped",
+      "structural_status": "same_source",
+      "kcat_status": "ready",
+      "enzyme_capacity_status": "not_available",
+      "proteomics_status": "mapping_pending",
+      "behavior_status": "condition_level_only",
+      "behavior_support_status": "condition_level_only",
+      "dominant_signal": "constraint_evidence",
+      "missing_items": [
+        "graph",
+        "enzyme_capacity",
+        "behavior",
+        "behavior_support"
+      ]
+    }
+  },
+  "artifact_path": "/Users/matthewwoo/Downloads/aivc/user_runs/synechocystis_spkb_case/case_study/case_display_readiness.json"
+}

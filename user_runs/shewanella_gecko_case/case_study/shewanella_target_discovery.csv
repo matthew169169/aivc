@@ -1,0 +1,9 @@
+target_name,tier,category,priority,matched_reaction_id,matched_reaction_name,availability_status,synonyms,note
+acetate,A,validation_target,high,R_EX_cpd00029_e0,Acetate-e0 Exchange,available,acetate;cpd00029;EX_cpd00029,Matched exchange/demand/sink-like reaction.
+pyruvate,A,validation_target,high,R_EX_cpd00020_e0,,available,pyruvate;cpd00020;EX_cpd00020,Matched exchange/demand/sink-like reaction.
+formate,A,validation_target,high,R_EX_cpd00047_e0,EX_Formate_e0,available,formate;cpd00047;EX_cpd00047,Matched exchange/demand/sink-like reaction.
+riboflavin,B,high_value_biotech_target,medium,,,target_candidate_missing_exchange,riboflavin;cpd00220,No exchange/demand/sink-like reaction matched; do not run production simulation unless a demand/sink test is explicitly created.
+FMN,B,high_value_biotech_target,medium,R_EX_cpd00050_p0,,available,FMN;flavin mononucleotide;cpd00050,Matched exchange/demand/sink-like reaction.
+FAD,B,high_value_biotech_target,medium,R_EX_cpd00015_c0,,available,FAD;flavin adenine dinucleotide;cpd00015,Matched exchange/demand/sink-like reaction.
+hydrogen,B,high_value_biotech_target,medium,,,target_candidate_missing_exchange,hydrogen;cpd11640,No exchange/demand/sink-like reaction matched; do not run production simulation unless a demand/sink test is explicitly created.
+succinate,C,optional_candidate,low,R_EX_cpd00036_e0,EX_Succinate_e0,available,succinate;cpd00036;EX_cpd00036,Matched exchange/demand/sink-like reaction.

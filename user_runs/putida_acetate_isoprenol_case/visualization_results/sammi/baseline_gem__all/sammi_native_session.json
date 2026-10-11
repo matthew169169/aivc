@@ -1,0 +1,7708 @@
+{
+  "baseline_gem__all": {
+    "nodes": [
+      {
+        "id": "ACONCt4pp",
+        "name": "Citrate transport via sodium symport  periplasm ",
+        "class": "ACONCt4pp",
+        "index": 0,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1040.0,
+        "fy": -475.0,
+        "x": -1040.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ACONCt4pp"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ACONCt4pp",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "acon_C_p": -1,
+          "na1_p": -1,
+          "acon_C_c": 1,
+          "na1_c": 1
+        }
+      },
+      {
+        "id": "acon_C_p",
+        "name": "acon_C_p",
+        "class": "acon_C_p",
+        "index": 1,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -910.0,
+        "fy": -433.0,
+        "x": -910.0,
+        "y": -433.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "acon",
+          "C",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_acon_C_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "na1_p",
+        "name": "na1_p",
+        "class": "na1_p",
+        "index": 2,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 173.333,
+        "fy": -53.0,
+        "x": 173.333,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "na1",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_na1_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "acon_C_c",
+        "name": "acon_C_c",
+        "class": "acon_C_c",
+        "index": 3,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -325.0,
+        "fy": -433.0,
+        "x": -325.0,
+        "y": -433.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "acon",
+          "C",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_acon_C_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "na1_c",
+        "name": "na1_c",
+        "class": "na1_c",
+        "index": 4,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 173.333,
+        "fy": -53.0,
+        "x": 173.333,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "na1",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_na1_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "ACONCtex",
+        "name": "Cisaconitat transport via diffusion extracellular to periplasm ",
+        "class": "ACONCtex",
+        "index": 5,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -780.0,
+        "fy": -475.0,
+        "x": -780.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ACONCtex"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ACONCtex",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "acon_C_e": -1,
+          "acon_C_p": 1
+        }
+      },
+      {
+        "id": "acon_C_e",
+        "name": "acon_C_e",
+        "class": "acon_C_e",
+        "index": 6,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -130.0,
+        "fy": 42.0,
+        "x": -130.0,
+        "y": 42.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "acon",
+          "C",
+          "e"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_acon_C_e",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "ACONIs",
+        "name": "Aconitate isomerase (spontaneous)",
+        "class": "ACONIs",
+        "index": 7,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": -475.0,
+        "x": -520.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ACONIs"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ACONIs",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "acon_T_c": -1,
+          "acon_C_c": 1
+        }
+      },
+      {
+        "id": "acon_T_c",
+        "name": "acon_T_c",
+        "class": "acon_T_c",
+        "index": 8,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -390.0,
+        "fy": -433.0,
+        "x": -390.0,
+        "y": -433.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "acon",
+          "T",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_acon_T_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "ACONMT",
+        "name": "Trans-aconitate methyltransferase",
+        "class": "ACONMT",
+        "index": 9,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -260.0,
+        "fy": -475.0,
+        "x": -260.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ACONMT"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ACONMT",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "acon_T_c": -1,
+          "amet_c": -1,
+          "aconm_c": 1,
+          "ahcys_c": 1
+        }
+      },
+      {
+        "id": "amet_c",
+        "name": "amet_c",
+        "class": "amet_c",
+        "index": 10,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -356.0,
+        "fy": -539.0,
+        "x": -356.0,
+        "y": -539.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "amet",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_amet_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "aconm_c",
+        "name": "aconm_c",
+        "class": "aconm_c",
+        "index": 11,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -164.0,
+        "fy": -539.0,
+        "x": -164.0,
+        "y": -539.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "aconm",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_aconm_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "ahcys_c",
+        "name": "ahcys_c",
+        "class": "ahcys_c",
+        "index": 12,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -164.0,
+        "fy": -507.0,
+        "x": -164.0,
+        "y": -507.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ahcys",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_ahcys_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "ACONTa",
+        "name": "Aconitase (half-reaction A, Citrate hydro-lyase)",
+        "class": "ACONTa",
+        "index": 13,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 0.0,
+        "fy": -475.0,
+        "x": 0.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ACONTa"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ACONTa",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "cit_c": -1,
+          "acon_C_c": 1
+        }
+      },
+      {
+        "id": "cit_c",
+        "name": "cit_c",
+        "class": "cit_c",
+        "index": 14,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -208.0,
+        "fy": -91.0,
+        "x": -208.0,
+        "y": -91.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "cit",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_cit_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "ACONTb",
+        "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)",
+        "class": "ACONTb",
+        "index": 15,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 260.0,
+        "fy": -475.0,
+        "x": 260.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ACONTb"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ACONTb",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "acon_C_c": -1,
+          "icit_c": 1
+        }
+      },
+      {
+        "id": "icit_c",
+        "name": "icit_c",
+        "class": "icit_c",
+        "index": 16,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 650.0,
+        "fy": -100.5,
+        "x": 650.0,
+        "y": -100.5,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "icit",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_icit_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "CS",
+        "name": "Citrate synthase",
+        "class": "CS",
+        "index": 17,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 520.0,
+        "fy": -475.0,
+        "x": 520.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "CS"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_CS",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "accoa_c": -1,
+          "oaa_c": -1,
+          "cit_c": 1
+        }
+      },
+      {
+        "id": "accoa_c",
+        "name": "accoa_c",
+        "class": "accoa_c",
+        "index": 18,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -86.667,
+        "fy": -53.0,
+        "x": -86.667,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "accoa",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_accoa_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "oaa_c",
+        "name": "oaa_c",
+        "class": "oaa_c",
+        "index": 19,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 312.0,
+        "fy": 175.0,
+        "x": 312.0,
+        "y": 175.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "oaa",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_oaa_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "DHORDfum",
+        "name": "Fumarate dependent DHORD",
+        "class": "DHORDfum",
+        "index": 20,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": -475.0,
+        "x": 780.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "DHORDfum"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_DHORDfum",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "dhor__S_c": -1,
+          "fum_c": -1,
+          "orot_c": 1,
+          "succ_c": 1
+        }
+      },
+      {
+        "id": "dhor__S_c",
+        "name": "dhor__S_c",
+        "class": "dhor__S_c",
+        "index": 21,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 684.0,
+        "fy": -539.0,
+        "x": 684.0,
+        "y": -539.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "dhor",
+          "S",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_dhor__S_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fum_c",
+        "name": "fum_c",
+        "class": "fum_c",
+        "index": 22,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 390.0,
+        "fy": -243.0,
+        "x": 390.0,
+        "y": -243.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fum",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fum_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "orot_c",
+        "name": "orot_c",
+        "class": "orot_c",
+        "index": 23,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 876.0,
+        "fy": -539.0,
+        "x": 876.0,
+        "y": -539.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "orot",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_orot_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "succ_c",
+        "name": "succ_c",
+        "class": "succ_c",
+        "index": 24,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 433.333,
+        "fy": 10.333,
+        "x": 433.333,
+        "y": 10.333,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "succ",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_succ_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "EX_cit_e",
+        "name": "Citrate exchange",
+        "class": "EX_cit_e",
+        "index": 25,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 1040.0,
+        "fy": -475.0,
+        "x": 1040.0,
+        "y": -475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "EX",
+          "cit",
+          "e"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_EX_cit_e",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "cit_e": -1
+        }
+      },
+      {
+        "id": "cit_e",
+        "name": "cit_e",
+        "class": "cit_e",
+        "index": 26,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 910.0,
+        "fy": 42.0,
+        "x": 910.0,
+        "y": 42.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "cit",
+          "e"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_cit_e",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "EX_fe3dcit_e",
+        "name": "Fe(III)dicitrate exchange",
+        "class": "EX_fe3dcit_e",
+        "index": 27,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 1040.0,
+        "fy": -285.0,
+        "x": 1040.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "EX",
+          "fe3dcit",
+          "e"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_EX_fe3dcit_e",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fe3dcit_e": -1
+        }
+      },
+      {
+        "id": "fe3dcit_e",
+        "name": "fe3dcit_e",
+        "class": "fe3dcit_e",
+        "index": 28,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 390.0,
+        "fy": -148.0,
+        "x": 390.0,
+        "y": -148.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fe3dcit",
+          "e"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fe3dcit_e",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "EX_fum_e",
+        "name": "Fumarate exchange",
+        "class": "EX_fum_e",
+        "index": 29,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": -285.0,
+        "x": 780.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "EX",
+          "fum",
+          "e"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_EX_fum_e",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fum_e": -1
+        }
+      },
+      {
+        "id": "fum_e",
+        "name": "fum_e",
+        "class": "fum_e",
+        "index": 30,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 520.0,
+        "fy": -148.0,
+        "x": 520.0,
+        "y": -148.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fum",
+          "e"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fum_e",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "EX_icit_e",
+        "name": "Isocitrate exchange",
+        "class": "EX_icit_e",
+        "index": 31,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 520.0,
+        "fy": -285.0,
+        "x": 520.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "EX",
+          "icit",
+          "e"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_EX_icit_e",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "icit_e": -1
+        }
+      },
+      {
+        "id": "icit_e",
+        "name": "icit_e",
+        "class": "icit_e",
+        "index": 32,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": -148.0,
+        "x": 780.0,
+        "y": -148.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "icit",
+          "e"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_icit_e",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "EX_mal__D_e",
+        "name": "D-Malate exchange",
+        "class": "EX_mal__D_e",
+        "index": 33,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 260.0,
+        "fy": -285.0,
+        "x": 260.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "EX",
+          "mal",
+          "D",
+          "e"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_EX_mal__D_e",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "mal__D_e": -1
+        }
+      },
+      {
+        "id": "mal__D_e",
+        "name": "mal__D_e",
+        "class": "mal__D_e",
+        "index": 34,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -130.0,
+        "fy": -53.0,
+        "x": -130.0,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "mal",
+          "D",
+          "e"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_mal__D_e",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "EX_mal__L_e",
+        "name": "L-Malate exchange",
+        "class": "EX_mal__L_e",
+        "index": 35,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 0.0,
+        "fy": -285.0,
+        "x": 0.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "EX",
+          "mal",
+          "L",
+          "e"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_EX_mal__L_e",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "mal__L_e": -1
+        }
+      },
+      {
+        "id": "mal__L_e",
+        "name": "mal__L_e",
+        "class": "mal__L_e",
+        "index": 36,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": 42.0,
+        "x": -520.0,
+        "y": 42.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "mal",
+          "L",
+          "e"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_mal__L_e",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FE3DCIT2abcpp",
+        "name": "Iron transport from ferric dicitrate via ABC system  periplasm ",
+        "class": "FE3DCIT2abcpp",
+        "index": 37,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -260.0,
+        "fy": -285.0,
+        "x": -260.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCIT2abcpp"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCIT2abcpp",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fe3dcit_p": -1,
+          "fe3dcit_c": 1
+        }
+      },
+      {
+        "id": "fe3dcit_p",
+        "name": "fe3dcit_p",
+        "class": "fe3dcit_p",
+        "index": 38,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -346.667,
+        "fy": -116.333,
+        "x": -346.667,
+        "y": -116.333,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fe3dcit",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fe3dcit_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fe3dcit_c",
+        "name": "fe3dcit_c",
+        "class": "fe3dcit_c",
+        "index": 39,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -736.667,
+        "fy": -179.667,
+        "x": -736.667,
+        "y": -179.667,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fe3dcit",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fe3dcit_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FE3DCITCH",
+        "name": "Ferric dicitrate chelation",
+        "class": "FE3DCITCH",
+        "index": 40,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": -285.0,
+        "x": -520.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCITCH"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCITCH",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "cit_c": -1,
+          "fe3_c": -1,
+          "fe3dcit_c": 1
+        }
+      },
+      {
+        "id": "fe3_c",
+        "name": "fe3_c",
+        "class": "fe3_c",
+        "index": 41,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": -76.0,
+        "x": -520.0,
+        "y": -76.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fe3",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fe3_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FE3DCITR",
+        "name": "Ferric dicitrate reductase  frxr 42 ",
+        "class": "FE3DCITR",
+        "index": 42,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -780.0,
+        "fy": -285.0,
+        "x": -780.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCITR"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCITR",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fdxr_42_c": -1,
+          "fe3dcit_c": -1,
+          "cit_c": 1,
+          "fdxo_42_c": 1,
+          "fe2_c": 1
+        }
+      },
+      {
+        "id": "fdxr_42_c",
+        "name": "fdxr_42_c",
+        "class": "fdxr_42_c",
+        "index": 43,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -876.0,
+        "fy": -349.0,
+        "x": -876.0,
+        "y": -349.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fdxr",
+          "42",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fdxr_42_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fdxo_42_c",
+        "name": "fdxo_42_c",
+        "class": "fdxo_42_c",
+        "index": 44,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -684.0,
+        "fy": -349.0,
+        "x": -684.0,
+        "y": -349.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fdxo",
+          "42",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fdxo_42_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fe2_c",
+        "name": "fe2_c",
+        "class": "fe2_c",
+        "index": 45,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -910.0,
+        "fy": -148.0,
+        "x": -910.0,
+        "y": -148.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fe2",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fe2_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FE3DCITR2",
+        "name": "Ferric dicitrate reductase  frxr 22 ",
+        "class": "FE3DCITR2",
+        "index": 46,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1040.0,
+        "fy": -285.0,
+        "x": -1040.0,
+        "y": -285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCITR2"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCITR2",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fdxr_22_c": -1,
+          "fe3dcit_c": -1,
+          "cit_c": 1,
+          "fdxo_22_c": 1,
+          "fe2_c": 1
+        }
+      },
+      {
+        "id": "fdxr_22_c",
+        "name": "fdxr_22_c",
+        "class": "fdxr_22_c",
+        "index": 47,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1136.0,
+        "fy": -349.0,
+        "x": -1136.0,
+        "y": -349.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fdxr",
+          "22",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fdxr_22_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fdxo_22_c",
+        "name": "fdxo_22_c",
+        "class": "fdxo_22_c",
+        "index": 48,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -944.0,
+        "fy": -349.0,
+        "x": -944.0,
+        "y": -349.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fdxo",
+          "22",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fdxo_22_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FE3DCITR3",
+        "name": "Ferric dicitrate reductase  fmn ",
+        "class": "FE3DCITR3",
+        "index": 49,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1040.0,
+        "fy": -95.0,
+        "x": -1040.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCITR3"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCITR3",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fe3dcit_c": -1,
+          "fmnh2_c": -1,
+          "cit_c": 1,
+          "fe2_c": 1,
+          "fmn_c": 1
+        }
+      },
+      {
+        "id": "fmnh2_c",
+        "name": "fmnh2_c",
+        "class": "fmnh2_c",
+        "index": 50,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1136.0,
+        "fy": -159.0,
+        "x": -1136.0,
+        "y": -159.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fmnh2",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fmnh2_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fmn_c",
+        "name": "fmn_c",
+        "class": "fmn_c",
+        "index": 51,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -944.0,
+        "fy": -159.0,
+        "x": -944.0,
+        "y": -159.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fmn",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fmn_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FE3DCITR4",
+        "name": "Ferric dicitrate reductase  flxr ",
+        "class": "FE3DCITR4",
+        "index": 52,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -780.0,
+        "fy": -95.0,
+        "x": -780.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCITR4"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCITR4",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fe3dcit_c": -1,
+          "flxr_c": -1,
+          "cit_c": 1,
+          "fe2_c": 1,
+          "flxso_c": 1
+        }
+      },
+      {
+        "id": "flxr_c",
+        "name": "flxr_c",
+        "class": "flxr_c",
+        "index": 53,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -876.0,
+        "fy": -159.0,
+        "x": -876.0,
+        "y": -159.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "flxr",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_flxr_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "flxso_c",
+        "name": "flxso_c",
+        "class": "flxso_c",
+        "index": 54,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -684.0,
+        "fy": -159.0,
+        "x": -684.0,
+        "y": -159.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "flxso",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_flxso_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FE3DCITabcpp",
+        "name": "Iron transport from ferric-dicitrate via ABC system (periplasm)",
+        "class": "FE3DCITabcpp",
+        "index": 55,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": -95.0,
+        "x": -520.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCITabcpp"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCITabcpp",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fe3dcit_p": -1,
+          "cit_c": 1,
+          "fe3_c": 1
+        }
+      },
+      {
+        "id": "FE3DCITtonex",
+        "name": "Ferric-dicitrate transport via ton system (extracellular)",
+        "class": "FE3DCITtonex",
+        "index": 56,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -260.0,
+        "fy": -95.0,
+        "x": -260.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FE3DCITtonex"
+        ],
+        "compartment": "p",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FE3DCITtonex",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fe3dcit_e": -1,
+          "fe3dcit_p": 1
+        }
+      },
+      {
+        "id": "FUMt2_2pp",
+        "name": "Fumarate transport via proton symport (2 H) (periplasm)",
+        "class": "FUMt2_2pp",
+        "index": 57,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 0.0,
+        "fy": -95.0,
+        "x": 0.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FUMt2",
+          "2pp"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FUMt2_2pp",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fum_p": -1,
+          "fum_c": 1
+        }
+      },
+      {
+        "id": "fum_p",
+        "name": "fum_p",
+        "class": "fum_p",
+        "index": 58,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 130.0,
+        "fy": -53.0,
+        "x": 130.0,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fum",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fum_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "FUMtex",
+        "name": "Fumarate transport via diffusion (extracellular to periplasm)",
+        "class": "FUMtex",
+        "index": 59,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 260.0,
+        "fy": -95.0,
+        "x": 260.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "FUMtex"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_FUMtex",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fum_e": -1,
+          "fum_p": 1
+        }
+      },
+      {
+        "id": "ICITt4pp",
+        "name": "Citrate transport via sodium symport  periplasm ",
+        "class": "ICITt4pp",
+        "index": 60,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 520.0,
+        "fy": -95.0,
+        "x": 520.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ICITt4pp"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ICITt4pp",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "icit_p": -1,
+          "na1_p": -1,
+          "icit_c": 1,
+          "na1_c": 1
+        }
+      },
+      {
+        "id": "icit_p",
+        "name": "icit_p",
+        "class": "icit_p",
+        "index": 61,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": -53.0,
+        "x": 780.0,
+        "y": -53.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "icit",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_icit_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "ICITt_kt",
+        "name": "Isocitrate transport in via proton symport",
+        "class": "ICITt_kt",
+        "index": 62,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": -95.0,
+        "x": 780.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ICITt",
+          "kt"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ICITt_kt",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "icit_p": -1,
+          "icit_c": 1
+        }
+      },
+      {
+        "id": "ICITtex",
+        "name": "Citrate transport via diffusion extracellular to periplasm ",
+        "class": "ICITtex",
+        "index": 63,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 1040.0,
+        "fy": -95.0,
+        "x": 1040.0,
+        "y": -95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ICITtex"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ICITtex",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "icit_e": -1,
+          "icit_p": 1
+        }
+      },
+      {
+        "id": "ICL",
+        "name": "Isocitrate lyase",
+        "class": "ICL",
+        "index": 64,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 1040.0,
+        "fy": 95.0,
+        "x": 1040.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ICL"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_ICL",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "icit_c": -1,
+          "glx_c": 1,
+          "succ_c": 1
+        }
+      },
+      {
+        "id": "glx_c",
+        "name": "glx_c",
+        "class": "glx_c",
+        "index": 65,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 130.0,
+        "fy": 137.0,
+        "x": 130.0,
+        "y": 137.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "glx",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_glx_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "IPMD",
+        "name": "3-isopropylmalate dehydrogenase",
+        "class": "IPMD",
+        "index": 66,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": 95.0,
+        "x": 780.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "IPMD"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_IPMD",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "3c2hmp_c": -1,
+          "3c4mop_c": 1
+        }
+      },
+      {
+        "id": "3c2hmp_c",
+        "name": "3c2hmp_c",
+        "class": "3c2hmp_c",
+        "index": 67,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 650.0,
+        "fy": 137.0,
+        "x": 650.0,
+        "y": 137.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "3c2hmp",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_3c2hmp_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "3c4mop_c",
+        "name": "3c4mop_c",
+        "class": "3c4mop_c",
+        "index": 68,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 876.0,
+        "fy": 31.0,
+        "x": 876.0,
+        "y": 31.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "3c4mop",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_3c4mop_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "IPPMIa",
+        "name": "3-isopropylmalate dehydratase",
+        "class": "IPPMIa",
+        "index": 69,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 520.0,
+        "fy": 95.0,
+        "x": 520.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "IPPMIa"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_IPPMIa",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "3c2hmp_c": -1,
+          "2ippm_c": 1
+        }
+      },
+      {
+        "id": "2ippm_c",
+        "name": "2ippm_c",
+        "class": "2ippm_c",
+        "index": 70,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 390.0,
+        "fy": 137.0,
+        "x": 390.0,
+        "y": 137.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "2ippm",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_2ippm_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "IPPMIb",
+        "name": "2-isopropylmalate hydratase",
+        "class": "IPPMIb",
+        "index": 71,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 260.0,
+        "fy": 95.0,
+        "x": 260.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "IPPMIb"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_IPPMIb",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "2ippm_c": -1,
+          "3c3hmp_c": 1
+        }
+      },
+      {
+        "id": "3c3hmp_c",
+        "name": "3c3hmp_c",
+        "class": "3c3hmp_c",
+        "index": 72,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 130.0,
+        "fy": 137.0,
+        "x": 130.0,
+        "y": 137.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "3c3hmp",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_3c3hmp_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "IPPS",
+        "name": "2-isopropylmalate synthase",
+        "class": "IPPS",
+        "index": 73,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 0.0,
+        "fy": 95.0,
+        "x": 0.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "IPPS"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_IPPS",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "3mob_c": -1,
+          "accoa_c": -1,
+          "3c3hmp_c": 1
+        }
+      },
+      {
+        "id": "3mob_c",
+        "name": "3mob_c",
+        "class": "3mob_c",
+        "index": 74,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -96.0,
+        "fy": 31.0,
+        "x": -96.0,
+        "y": 31.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "3mob",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_3mob_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "MALDt2_2pp",
+        "name": "D-Malate transport via proton symport (2 H) (periplasm)",
+        "class": "MALDt2_2pp",
+        "index": 75,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -260.0,
+        "fy": 95.0,
+        "x": -260.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MALDt2",
+          "2pp"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MALDt2_2pp",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "mal__D_p": -1,
+          "mal__D_c": 1
+        }
+      },
+      {
+        "id": "mal__D_p",
+        "name": "mal__D_p",
+        "class": "mal__D_p",
+        "index": 76,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -390.0,
+        "fy": 137.0,
+        "x": -390.0,
+        "y": 137.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "mal",
+          "D",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_mal__D_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "mal__D_c",
+        "name": "mal__D_c",
+        "class": "mal__D_c",
+        "index": 77,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -164.0,
+        "fy": 31.0,
+        "x": -164.0,
+        "y": 31.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "mal",
+          "D",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_mal__D_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "MALDtex",
+        "name": "D-Malate transport via diffusion (extracellular to periplasm)",
+        "class": "MALDtex",
+        "index": 78,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": 95.0,
+        "x": -520.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MALDtex"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MALDtex",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "mal__D_e": -1,
+          "mal__D_p": 1
+        }
+      },
+      {
+        "id": "MALS",
+        "name": "Malate synthase",
+        "class": "MALS",
+        "index": 79,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -780.0,
+        "fy": 95.0,
+        "x": -780.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MALS"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MALS",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "accoa_c": -1,
+          "glx_c": -1,
+          "mal__L_c": 1
+        }
+      },
+      {
+        "id": "mal__L_c",
+        "name": "mal__L_c",
+        "class": "mal__L_c",
+        "index": 80,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -260.0,
+        "fy": 232.0,
+        "x": -260.0,
+        "y": 232.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "mal",
+          "L",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_mal__L_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "MALt2_2pp",
+        "name": "Malate transport via proton symport (2 H) (periplasm)",
+        "class": "MALt2_2pp",
+        "index": 81,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1040.0,
+        "fy": 95.0,
+        "x": -1040.0,
+        "y": 95.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MALt2",
+          "2pp"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MALt2_2pp",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "mal__L_p": -1,
+          "mal__L_c": 1
+        }
+      },
+      {
+        "id": "mal__L_p",
+        "name": "mal__L_p",
+        "class": "mal__L_p",
+        "index": 82,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1040.0,
+        "fy": 304.0,
+        "x": -1040.0,
+        "y": 304.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "mal",
+          "L",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_mal__L_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "MALtex",
+        "name": "Malate transport via diffusion (extracellular to periplasm)",
+        "class": "MALtex",
+        "index": 83,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -1040.0,
+        "fy": 285.0,
+        "x": -1040.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MALtex"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MALtex",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "mal__L_e": -1,
+          "mal__L_p": 1
+        }
+      },
+      {
+        "id": "MCITD",
+        "name": "2-methylcitrate dehydratase",
+        "class": "MCITD",
+        "index": 84,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -780.0,
+        "fy": 285.0,
+        "x": -780.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MCITD"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MCITD",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "2mcit_c": -1,
+          "2mcacn_c": 1
+        }
+      },
+      {
+        "id": "2mcit_c",
+        "name": "2mcit_c",
+        "class": "2mcit_c",
+        "index": 85,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": 327.0,
+        "x": -520.0,
+        "y": 327.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "2mcit",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_2mcit_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "2mcacn_c",
+        "name": "2mcacn_c",
+        "class": "2mcacn_c",
+        "index": 86,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -260.0,
+        "fy": 327.0,
+        "x": -260.0,
+        "y": 327.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "2mcacn",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_2mcacn_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "MCITL2",
+        "name": "Methylisocitrate lyase",
+        "class": "MCITL2",
+        "index": 87,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -520.0,
+        "fy": 285.0,
+        "x": -520.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MCITL2"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MCITL2",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "micit_c": -1,
+          "pyr_c": 1,
+          "succ_c": 1
+        }
+      },
+      {
+        "id": "micit_c",
+        "name": "micit_c",
+        "class": "micit_c",
+        "index": 88,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -130.0,
+        "fy": 327.0,
+        "x": -130.0,
+        "y": 327.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "micit",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_micit_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "pyr_c",
+        "name": "pyr_c",
+        "class": "pyr_c",
+        "index": 89,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 0.0,
+        "fy": 327.0,
+        "x": 0.0,
+        "y": 327.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "pyr",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_pyr_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "MCITS",
+        "name": "2-methylcitrate synthase",
+        "class": "MCITS",
+        "index": 90,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -260.0,
+        "fy": 285.0,
+        "x": -260.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MCITS"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MCITS",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "oaa_c": -1,
+          "ppcoa_c": -1,
+          "2mcit_c": 1
+        }
+      },
+      {
+        "id": "ppcoa_c",
+        "name": "ppcoa_c",
+        "class": "ppcoa_c",
+        "index": 91,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": -356.0,
+        "fy": 221.0,
+        "x": -356.0,
+        "y": 221.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "ppcoa",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_ppcoa_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "MDH",
+        "name": "Malate dehydrogenase",
+        "class": "MDH",
+        "index": 92,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 0.0,
+        "fy": 285.0,
+        "x": 0.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MDH"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MDH",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "mal__L_c": -1,
+          "oaa_c": 1
+        }
+      },
+      {
+        "id": "MICITDr",
+        "name": "2-methylisocitrate dehydratase",
+        "class": "MICITDr",
+        "index": 93,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 260.0,
+        "fy": 285.0,
+        "x": 260.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "MICITDr"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_MICITDr",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "2mcacn_c": -1,
+          "micit_c": 1
+        }
+      },
+      {
+        "id": "OCAALD",
+        "name": "4 oxalcitromalate aldolase",
+        "class": "OCAALD",
+        "index": 94,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 520.0,
+        "fy": 285.0,
+        "x": 520.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "OCAALD"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_OCAALD",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "oca_c": -1,
+          "oaa_c": 1,
+          "pyr_c": 1
+        }
+      },
+      {
+        "id": "oca_c",
+        "name": "oca_c",
+        "class": "oca_c",
+        "index": 95,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 424.0,
+        "fy": 221.0,
+        "x": 424.0,
+        "y": 221.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "oca",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_oca_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "DMALRED",
+        "name": "(S)-Malate:(acceptor) oxidoreductase",
+        "class": "DMALRED",
+        "index": 96,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": 285.0,
+        "x": 780.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "DMALRED"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_DMALRED",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "fad_c": -1,
+          "mal__L_c": -1,
+          "fadh2_c": 1,
+          "oaa_c": 1
+        }
+      },
+      {
+        "id": "fad_c",
+        "name": "fad_c",
+        "class": "fad_c",
+        "index": 97,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 684.0,
+        "fy": 221.0,
+        "x": 684.0,
+        "y": 221.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fad",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fad_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "fadh2_c",
+        "name": "fadh2_c",
+        "class": "fadh2_c",
+        "index": 98,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 876.0,
+        "fy": 221.0,
+        "x": 876.0,
+        "y": 221.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "fadh2",
+          "c"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_fadh2_c",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "CITt4pp_1",
+        "name": "Citrate transport via sodium symport  periplasm ",
+        "class": "CITt4pp_1",
+        "index": 99,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 1040.0,
+        "fy": 285.0,
+        "x": 1040.0,
+        "y": 285.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "CITt4pp",
+          "1"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_CITt4pp_1",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "cit_p": -1,
+          "na1_p": -1,
+          "cit_c": 1,
+          "na1_c": 1
+        }
+      },
+      {
+        "id": "cit_p",
+        "name": "cit_p",
+        "class": "cit_p",
+        "index": 100,
+        "group": 2,
+        "secondary": false,
+        "flux": null,
+        "size": 4.8,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 953.333,
+        "fy": 453.667,
+        "x": 953.333,
+        "y": 453.667,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "cit",
+          "p"
+        ],
+        "compartment": "",
+        "subsystem": "Metabolites",
+        "notes": {
+          "omics_gem_node_id": "M_cit_p",
+          "omics_gem_node_type": "metabolite",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#64748b",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        }
+      },
+      {
+        "id": "CITt_kt",
+        "name": "Citrate proton symport periplasm ",
+        "class": "CITt_kt",
+        "index": 101,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 1040.0,
+        "fy": 475.0,
+        "x": 1040.0,
+        "y": 475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "CITt",
+          "kt"
+        ],
+        "compartment": "c",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_CITt_kt",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "cit_p": -1,
+          "cit_c": 1
+        }
+      },
+      {
+        "id": "CITtex",
+        "name": "Citrate transport via diffusion (extracellular to periplasm)",
+        "class": "CITtex",
+        "index": 102,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 780.0,
+        "fy": 475.0,
+        "x": 780.0,
+        "y": 475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "CITtex"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_CITtex",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "cit_e": -1,
+          "cit_p": 1
+        }
+      },
+      {
+        "id": "EX_acon_C_e",
+        "name": "Cisaconitate exchange",
+        "class": "EX_acon_C_e",
+        "index": 103,
+        "group": 1,
+        "secondary": false,
+        "flux": null,
+        "size": 7.0,
+        "trap": -1,
+        "concentration": null,
+        "bezi": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "labelshift": [
+          0,
+          0
+        ],
+        "grouping": [],
+        "reversed": 1,
+        "width": null,
+        "isfixed": true,
+        "weight": 1.01,
+        "fx": 520.0,
+        "fy": 475.0,
+        "x": 520.0,
+        "y": 475.0,
+        "vx": 0,
+        "vy": 0,
+        "selected": false,
+        "previouslySelected": false,
+        "labelarr": [
+          "EX",
+          "acon",
+          "C",
+          "e"
+        ],
+        "compartment": "e",
+        "subsystem": "unannotated",
+        "notes": {
+          "omics_gem_node_id": "R_EX_acon_C_e",
+          "omics_gem_node_type": "reaction",
+          "overlay_source": "",
+          "semantic_type": "",
+          "overlay_color": "#2563eb",
+          "warning_flag": false,
+          "readiness_label": "",
+          "candidate_action": "",
+          "warning_reasons": ""
+        },
+        "metabolites": {
+          "acon_C_e": -1
+        }
+      }
+    ],
+    "links": [
+      {
+        "index": 0,
+        "source": {
+          "index": 1
+        },
+        "target": {
+          "index": 0
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 1,
+        "source": {
+          "index": 2
+        },
+        "target": {
+          "index": 0
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 2,
+        "source": {
+          "index": 0
+        },
+        "target": {
+          "index": 3
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 3,
+        "source": {
+          "index": 0
+        },
+        "target": {
+          "index": 4
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 4,
+        "source": {
+          "index": 6
+        },
+        "target": {
+          "index": 5
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 5,
+        "source": {
+          "index": 5
+        },
+        "target": {
+          "index": 1
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 6,
+        "source": {
+          "index": 8
+        },
+        "target": {
+          "index": 7
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 7,
+        "source": {
+          "index": 7
+        },
+        "target": {
+          "index": 3
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 8,
+        "source": {
+          "index": 8
+        },
+        "target": {
+          "index": 9
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 9,
+        "source": {
+          "index": 10
+        },
+        "target": {
+          "index": 9
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 10,
+        "source": {
+          "index": 9
+        },
+        "target": {
+          "index": 11
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 11,
+        "source": {
+          "index": 9
+        },
+        "target": {
+          "index": 12
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 12,
+        "source": {
+          "index": 14
+        },
+        "target": {
+          "index": 13
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 13,
+        "source": {
+          "index": 13
+        },
+        "target": {
+          "index": 3
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 14,
+        "source": {
+          "index": 3
+        },
+        "target": {
+          "index": 15
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 15,
+        "source": {
+          "index": 15
+        },
+        "target": {
+          "index": 16
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 16,
+        "source": {
+          "index": 18
+        },
+        "target": {
+          "index": 17
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 17,
+        "source": {
+          "index": 19
+        },
+        "target": {
+          "index": 17
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 18,
+        "source": {
+          "index": 17
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 19,
+        "source": {
+          "index": 21
+        },
+        "target": {
+          "index": 20
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 20,
+        "source": {
+          "index": 22
+        },
+        "target": {
+          "index": 20
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 21,
+        "source": {
+          "index": 20
+        },
+        "target": {
+          "index": 23
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 22,
+        "source": {
+          "index": 20
+        },
+        "target": {
+          "index": 24
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 23,
+        "source": {
+          "index": 26
+        },
+        "target": {
+          "index": 25
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 24,
+        "source": {
+          "index": 28
+        },
+        "target": {
+          "index": 27
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 25,
+        "source": {
+          "index": 30
+        },
+        "target": {
+          "index": 29
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 26,
+        "source": {
+          "index": 32
+        },
+        "target": {
+          "index": 31
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 27,
+        "source": {
+          "index": 34
+        },
+        "target": {
+          "index": 33
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 28,
+        "source": {
+          "index": 36
+        },
+        "target": {
+          "index": 35
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 29,
+        "source": {
+          "index": 38
+        },
+        "target": {
+          "index": 37
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 30,
+        "source": {
+          "index": 37
+        },
+        "target": {
+          "index": 39
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 31,
+        "source": {
+          "index": 14
+        },
+        "target": {
+          "index": 40
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 32,
+        "source": {
+          "index": 41
+        },
+        "target": {
+          "index": 40
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 33,
+        "source": {
+          "index": 40
+        },
+        "target": {
+          "index": 39
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 34,
+        "source": {
+          "index": 43
+        },
+        "target": {
+          "index": 42
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 35,
+        "source": {
+          "index": 39
+        },
+        "target": {
+          "index": 42
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 36,
+        "source": {
+          "index": 42
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 37,
+        "source": {
+          "index": 42
+        },
+        "target": {
+          "index": 44
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 38,
+        "source": {
+          "index": 42
+        },
+        "target": {
+          "index": 45
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 39,
+        "source": {
+          "index": 47
+        },
+        "target": {
+          "index": 46
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 40,
+        "source": {
+          "index": 39
+        },
+        "target": {
+          "index": 46
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 41,
+        "source": {
+          "index": 46
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 42,
+        "source": {
+          "index": 46
+        },
+        "target": {
+          "index": 48
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 43,
+        "source": {
+          "index": 46
+        },
+        "target": {
+          "index": 45
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 44,
+        "source": {
+          "index": 39
+        },
+        "target": {
+          "index": 49
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 45,
+        "source": {
+          "index": 50
+        },
+        "target": {
+          "index": 49
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 46,
+        "source": {
+          "index": 49
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 47,
+        "source": {
+          "index": 49
+        },
+        "target": {
+          "index": 45
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 48,
+        "source": {
+          "index": 49
+        },
+        "target": {
+          "index": 51
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 49,
+        "source": {
+          "index": 39
+        },
+        "target": {
+          "index": 52
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 50,
+        "source": {
+          "index": 53
+        },
+        "target": {
+          "index": 52
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 51,
+        "source": {
+          "index": 52
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 52,
+        "source": {
+          "index": 52
+        },
+        "target": {
+          "index": 45
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 53,
+        "source": {
+          "index": 52
+        },
+        "target": {
+          "index": 54
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 54,
+        "source": {
+          "index": 38
+        },
+        "target": {
+          "index": 55
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 55,
+        "source": {
+          "index": 55
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 56,
+        "source": {
+          "index": 55
+        },
+        "target": {
+          "index": 41
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 57,
+        "source": {
+          "index": 28
+        },
+        "target": {
+          "index": 56
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 58,
+        "source": {
+          "index": 56
+        },
+        "target": {
+          "index": 38
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 59,
+        "source": {
+          "index": 58
+        },
+        "target": {
+          "index": 57
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 60,
+        "source": {
+          "index": 57
+        },
+        "target": {
+          "index": 22
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 61,
+        "source": {
+          "index": 30
+        },
+        "target": {
+          "index": 59
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 62,
+        "source": {
+          "index": 59
+        },
+        "target": {
+          "index": 58
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 63,
+        "source": {
+          "index": 61
+        },
+        "target": {
+          "index": 60
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 64,
+        "source": {
+          "index": 2
+        },
+        "target": {
+          "index": 60
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 65,
+        "source": {
+          "index": 60
+        },
+        "target": {
+          "index": 16
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 66,
+        "source": {
+          "index": 60
+        },
+        "target": {
+          "index": 4
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 67,
+        "source": {
+          "index": 61
+        },
+        "target": {
+          "index": 62
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 68,
+        "source": {
+          "index": 62
+        },
+        "target": {
+          "index": 16
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 69,
+        "source": {
+          "index": 32
+        },
+        "target": {
+          "index": 63
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 70,
+        "source": {
+          "index": 63
+        },
+        "target": {
+          "index": 61
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 71,
+        "source": {
+          "index": 16
+        },
+        "target": {
+          "index": 64
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 72,
+        "source": {
+          "index": 64
+        },
+        "target": {
+          "index": 65
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 73,
+        "source": {
+          "index": 64
+        },
+        "target": {
+          "index": 24
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 74,
+        "source": {
+          "index": 67
+        },
+        "target": {
+          "index": 66
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 75,
+        "source": {
+          "index": 66
+        },
+        "target": {
+          "index": 68
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 76,
+        "source": {
+          "index": 67
+        },
+        "target": {
+          "index": 69
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 77,
+        "source": {
+          "index": 69
+        },
+        "target": {
+          "index": 70
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 78,
+        "source": {
+          "index": 70
+        },
+        "target": {
+          "index": 71
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 79,
+        "source": {
+          "index": 71
+        },
+        "target": {
+          "index": 72
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 80,
+        "source": {
+          "index": 74
+        },
+        "target": {
+          "index": 73
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 81,
+        "source": {
+          "index": 18
+        },
+        "target": {
+          "index": 73
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 82,
+        "source": {
+          "index": 73
+        },
+        "target": {
+          "index": 72
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 83,
+        "source": {
+          "index": 76
+        },
+        "target": {
+          "index": 75
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 84,
+        "source": {
+          "index": 75
+        },
+        "target": {
+          "index": 77
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 85,
+        "source": {
+          "index": 34
+        },
+        "target": {
+          "index": 78
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 86,
+        "source": {
+          "index": 78
+        },
+        "target": {
+          "index": 76
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 87,
+        "source": {
+          "index": 18
+        },
+        "target": {
+          "index": 79
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 88,
+        "source": {
+          "index": 65
+        },
+        "target": {
+          "index": 79
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 89,
+        "source": {
+          "index": 79
+        },
+        "target": {
+          "index": 80
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 90,
+        "source": {
+          "index": 82
+        },
+        "target": {
+          "index": 81
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 91,
+        "source": {
+          "index": 81
+        },
+        "target": {
+          "index": 80
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 92,
+        "source": {
+          "index": 36
+        },
+        "target": {
+          "index": 83
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 93,
+        "source": {
+          "index": 83
+        },
+        "target": {
+          "index": 82
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 94,
+        "source": {
+          "index": 85
+        },
+        "target": {
+          "index": 84
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 95,
+        "source": {
+          "index": 84
+        },
+        "target": {
+          "index": 86
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 96,
+        "source": {
+          "index": 88
+        },
+        "target": {
+          "index": 87
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 97,
+        "source": {
+          "index": 87
+        },
+        "target": {
+          "index": 89
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 98,
+        "source": {
+          "index": 87
+        },
+        "target": {
+          "index": 24
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 99,
+        "source": {
+          "index": 19
+        },
+        "target": {
+          "index": 90
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 100,
+        "source": {
+          "index": 91
+        },
+        "target": {
+          "index": 90
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 101,
+        "source": {
+          "index": 90
+        },
+        "target": {
+          "index": 85
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 102,
+        "source": {
+          "index": 80
+        },
+        "target": {
+          "index": 92
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 103,
+        "source": {
+          "index": 92
+        },
+        "target": {
+          "index": 19
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 104,
+        "source": {
+          "index": 86
+        },
+        "target": {
+          "index": 93
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 105,
+        "source": {
+          "index": 93
+        },
+        "target": {
+          "index": 88
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 106,
+        "source": {
+          "index": 95
+        },
+        "target": {
+          "index": 94
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 107,
+        "source": {
+          "index": 94
+        },
+        "target": {
+          "index": 19
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 108,
+        "source": {
+          "index": 94
+        },
+        "target": {
+          "index": 89
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 109,
+        "source": {
+          "index": 97
+        },
+        "target": {
+          "index": 96
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 110,
+        "source": {
+          "index": 80
+        },
+        "target": {
+          "index": 96
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 111,
+        "source": {
+          "index": 96
+        },
+        "target": {
+          "index": 98
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 112,
+        "source": {
+          "index": 96
+        },
+        "target": {
+          "index": 19
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 113,
+        "source": {
+          "index": 100
+        },
+        "target": {
+          "index": 99
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 114,
+        "source": {
+          "index": 2
+        },
+        "target": {
+          "index": 99
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 115,
+        "source": {
+          "index": 99
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 116,
+        "source": {
+          "index": 99
+        },
+        "target": {
+          "index": 4
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 117,
+        "source": {
+          "index": 100
+        },
+        "target": {
+          "index": 101
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 118,
+        "source": {
+          "index": 101
+        },
+        "target": {
+          "index": 14
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 119,
+        "source": {
+          "index": 26
+        },
+        "target": {
+          "index": 102
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      },
+      {
+        "index": 120,
+        "source": {
+          "index": 102
+        },
+        "target": {
+          "index": 100
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "product"
+      },
+      {
+        "index": 121,
+        "source": {
+          "index": 6
+        },
+        "target": {
+          "index": 103
+        },
+        "flux": null,
+        "refx": 0,
+        "refy": 0,
+        "width": null,
+        "reversed": 1,
+        "omics_gem_link_type": "reactant"
+      }
+    ],
+    "suspended": [],
+    "text": [],
+    "shapes": []
+  },
+  "selected": [],
+  "count": 0,
+  "currentparsed": "baseline_gem__all",
+  "backups": [],
+  "rxncolorbreaks": [
+    -1,
+    0,
+    1
+  ],
+  "rxncolor": [
+    [
+      37,
+      99,
+      235
+    ],
+    [
+      148,
+      163,
+      184
+    ],
+    [
+      249,
+      115,
+      22
+    ]
+  ],
+  "metcolorbreaks": [
+    0,
+    1
+  ],
+  "metcolor": [
+    [
+      100,
+      116,
+      139
+    ],
+    [
+      20,
+      184,
+      166
+    ]
+  ],
+  "backupgraph": [],
+  "backupgraphcount": -1,
+  "backupparsing": false,
+  "fluxobj": {},
+  "concobj": {},
+  "sizerxnobj": {
+    "ttls": [
+      "Omics-GEM overlay size"
+    ],
+    "ACONCt4pp": [
+      1.0
+    ],
+    "ACONCtex": [
+      1.0
+    ],
+    "ACONIs": [
+      1.0
+    ],
+    "ACONMT": [
+      1.0
+    ],
+    "ACONTa": [
+      1.0
+    ],
+    "ACONTb": [
+      1.0
+    ],
+    "CS": [
+      1.0
+    ],
+    "DHORDfum": [
+      1.0
+    ],
+    "EX_cit_e": [
+      1.0
+    ],
+    "EX_fe3dcit_e": [
+      1.0
+    ],
+    "EX_fum_e": [
+      1.0
+    ],
+    "EX_icit_e": [
+      1.0
+    ],
+    "EX_mal__D_e": [
+      1.0
+    ],
+    "EX_mal__L_e": [
+      1.0
+    ],
+    "FE3DCIT2abcpp": [
+      1.0
+    ],
+    "FE3DCITCH": [
+      1.0
+    ],
+    "FE3DCITR": [
+      1.0
+    ],
+    "FE3DCITR2": [
+      1.0
+    ],
+    "FE3DCITR3": [
+      1.0
+    ],
+    "FE3DCITR4": [
+      1.0
+    ],
+    "FE3DCITabcpp": [
+      1.0
+    ],
+    "FE3DCITtonex": [
+      1.0
+    ],
+    "FUMt2_2pp": [
+      1.0
+    ],
+    "FUMtex": [
+      1.0
+    ],
+    "ICITt4pp": [
+      1.0
+    ],
+    "ICITt_kt": [
+      1.0
+    ],
+    "ICITtex": [
+      1.0
+    ],
+    "ICL": [
+      1.0
+    ],
+    "IPMD": [
+      1.0
+    ],
+    "IPPMIa": [
+      1.0
+    ],
+    "IPPMIb": [
+      1.0
+    ],
+    "IPPS": [
+      1.0
+    ],
+    "MALDt2_2pp": [
+      1.0
+    ],
+    "MALDtex": [
+      1.0
+    ],
+    "MALS": [
+      1.0
+    ],
+    "MALt2_2pp": [
+      1.0
+    ],
+    "MALtex": [
+      1.0
+    ],
+    "MCITD": [
+      1.0
+    ],
+    "MCITL2": [
+      1.0
+    ],
+    "MCITS": [
+      1.0
+    ],
+    "MDH": [
+      1.0
+    ],
+    "MICITDr": [
+      1.0
+    ],
+    "OCAALD": [
+      1.0
+    ],
+    "DMALRED": [
+      1.0
+    ],
+    "CITt4pp_1": [
+      1.0
+    ],
+    "CITt_kt": [
+      1.0
+    ],
+    "CITtex": [
+      1.0
+    ],
+    "EX_acon_C_e": [
+      1.0
+    ]
+  },
+  "sizemetobj": {},
+  "linkwidthobj": {},
+  "textsts": [
+    "class",
+    "name",
+    "subsystem",
+    "compartment",
+    "#64748b",
+    "#2563eb",
+    "#94a3b8",
+    "#f97316",
+    "#94a3b8",
+    "#0f766e",
+    "#cbd5e1",
+    "name",
+    "class",
+    "class",
+    "#2563eb",
+    "#64748b",
+    "#64748b"
+  ],
+  "numsts": [
+    5,
+    14,
+    1,
+    1,
+    30,
+    0,
+    30,
+    0.4,
+    0.02,
+    0.1,
+    3,
+    0,
+    40,
+    4,
+    1,
+    2,
+    1,
+    5,
+    2,
+    1,
+    5,
+    1,
+    0,
+    5
+  ],
+  "checksts": [
+    true,
+    true,
+    false,
+    true,
+    false,
+    false
+  ]
+}

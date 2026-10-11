@@ -1,0 +1,4 @@
+metric,value,note
+gotenzymes2_kcat_rows,4095,Rows with positive kcat values retained from GotEnzymes2.
+unique_kegg_reactions,1116,Unique KEGG reaction ids in retained GotEnzymes2 rows.
+direct_model_reaction_matches,0,Direct reaction id matches in the SBML; most KEGG ids may need mapping review.

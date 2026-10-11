@@ -1,0 +1,2 @@
+condition,condition_group,ecmodel_status,external_run_status,adapter_missing_count,protein_count,mapped_protein_fraction,kcat_prior_count,mapped_kcat_prior_fraction,ready_capacity_fraction,enzyme_readiness,flux_delta_row_count,enzyme_usage_row_count,guidance
+all,combined,adapter_ready,not_run,0,,,454,1.0,,kcat_ready_missing_absolute_proteomics,0,0,"GECKO adapter and kcat priors are staged, but absolute proteomics/protein pool evidence is missing; treat this as guarded ecModel-ready input, not enzyme-capacity output."

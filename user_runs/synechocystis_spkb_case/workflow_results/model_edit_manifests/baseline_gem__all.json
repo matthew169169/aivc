@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "baseline_gem__all",
+  "reference_variant_id": "baseline_gem__all",
+  "generation_method": "baseline_gem",
+  "condition": "ALL",
+  "source_model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "target_model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "evidence_files": [
+    "D:\\generate\\user_runs\\synechocystis_spkb_case\\generated_constraints\\exchange_bounds.csv"
+  ],
+  "edit_record_mode": "inferred_legacy",
+  "edit_summary": {
+    "reaction_count": 863,
+    "edit_type_counts": {
+      "evidence_mapped": 448,
+      "unchanged": 415
+    },
+    "evidence_row_count": 448
+  },
+  "edit_reaction_index": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_edit_reaction_index.csv"
+}

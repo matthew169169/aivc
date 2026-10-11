@@ -1,0 +1,5 @@
+component,available,status,detail,path,license,resource_strategy,open_mode
+standalone_sammi,False,standalone_external_only,"Use external SAMMI web app, configure SAMMI_STANDALONE_HOME, or run the SAMMI vendor script.",,GPL >=3,standalone_external_only,external_open_mode
+sammi_vendoring,False,vendoring_not_enabled,Vendored SAMMI assets are not available; use lightweight viewer or external SAMMI.,/Users/matthewwoo/Downloads/aivc/.runtime_cache/sammi_vendor/sammi_standalone,GPL >=3,standalone_external_only,external_open_mode
+sammipy_helper,False,helper_missing,Optional Python SAMMIpy helper; not required for v1 package generation.,,,optional_helper,not_required
+sammim_runner,False,optional_runner_unavailable,Optional MATLAB SAMMIM runner; not required for v1 package generation.,,,optional_runner,not_required

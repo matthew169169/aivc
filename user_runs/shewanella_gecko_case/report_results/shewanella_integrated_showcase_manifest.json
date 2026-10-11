@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ready",
+  "case_id": "shewanella_integrated_overview",
+  "gecko_run_id": "shewanella_gecko_case",
+  "trigger_run_id": "shewanella_transcriptional_triggers_case",
+  "report_html": "/Users/matthewwoo/Downloads/aivc/user_runs/shewanella_gecko_case/report_results/shewanella_integrated_showcase_index.html",
+  "links": [
+    {
+      "label": "GECKO full audit report",
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/shewanella_gecko_case/report_results/full_audit_report.html",
+      "exists": true
+    },
+    {
+      "label": "GECKO production design report",
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/shewanella_gecko_case/report_results/production_design_report.html",
+      "exists": true
+    },
+    {
+      "label": "Trigger reproduction report",
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/shewanella_transcriptional_triggers_case/report_results/shewanella_trigger_reproduction_report.html",
+      "exists": false
+    },
+    {
+      "label": "Trigger reproduction manifest",
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/shewanella_transcriptional_triggers_case/report_results/paper_reproduction_report_manifest.json",
+      "exists": false
+    }
+  ]
+}

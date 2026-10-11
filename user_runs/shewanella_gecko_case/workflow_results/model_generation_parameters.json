@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0",
+  "model_generation_parameters": {
+    "baseline_gem": {
+      "register_original_model": true,
+      "baseline_label": "uploaded_baseline"
+    },
+    "eflux": {
+      "min_expression_fraction": 0.05,
+      "expression_scaling_mode": "max_per_condition",
+      "protected_reaction_strategy": "objective_and_measured_exchange",
+      "reference_condition": "",
+      "up_log2_threshold": 1.0,
+      "down_log2_threshold": -1.0,
+      "run_pfba": true
+    },
+    "fastcore": {
+      "evidence_mode": "transcriptomics",
+      "core_evidence_threshold": "high",
+      "solver": "GLPK",
+      "flux_threshold": 0.0001,
+      "protect_objective": true,
+      "protect_exchange_bounds": true,
+      "filter_inactive_core": true,
+      "run_feasibility_check": true
+    },
+    "consensus_evidence": {
+      "transcriptomics_weight": 1.0,
+      "proteomics_weight": 1.0,
+      "ml_prior_weight": 0.5,
+      "conflict_strategy": "soften_by_consensus",
+      "keep_threshold": 0.65,
+      "delete_threshold": 0.2,
+      "penalize_threshold": 0.4
+    },
+    "troppo_methods": {
+      "evidence_mode": "consensus",
+      "imat_high_threshold": 2.0,
+      "imat_low_threshold": 0.0,
+      "imat_epsilon": 0.0001,
+      "gimme_expression_threshold": 1.0,
+      "gimme_objective_fraction": 0.9,
+      "gimme_required_objective": "",
+      "corda_hc_threshold": 2.0,
+      "corda_mc_threshold": 1.0,
+      "corda_nc_threshold": 0.0,
+      "corda_negative_confidence_cost": 1.0,
+      "metabolic_task_file": "",
+      "protect_reactions": true,
+      "execution_mode": "input_package_only"
+    },
+    "enzyme_gecko": {
+      "ec_model_mode": "full_ecModel",
+      "run_gecko_probe": false,
+      "run_gecko_external": false
+    },
+    "pytfa_export": {
+      "concentration_unit_policy": "auto_convert_to_molar",
+      "default_bound_strategy": "use_provided_bounds",
+      "compartment_filter": "",
+      "temperature_kelvin": 298.15,
+      "ph": 7.0,
+      "ionic_strength_m": 0.25,
+      "thermo_db_path": "",
+      "run_pytfa_external": false
+    }
+  }
+}

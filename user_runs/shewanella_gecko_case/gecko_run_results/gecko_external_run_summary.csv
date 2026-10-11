@@ -1,0 +1,2 @@
+status,message,package_dir,output_dir,package_status,adapter_status,matlab_path,gecko_home,gecko_home_exists,raven_home,raven_home_exists,return_code,timeout_seconds,expected_output_count,available_output_count
+completed,Shewanella GECKO external command completed.,D:\generate\user_runs\shewanella_gecko_case\gecko_package,D:\generate\user_runs\shewanella_gecko_case\gecko_run_results,ready,adapter_configured,D:\Matlab\bin\matlab.EXE,D:\MatExt\GECKO,True,D:\MatExt\RAVEN,True,0,7200,8,8

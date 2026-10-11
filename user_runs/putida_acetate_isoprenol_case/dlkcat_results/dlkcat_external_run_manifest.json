@@ -1,0 +1,36 @@
+{
+  "status": "skipped",
+  "message": "External GECKO/DLKcat execution is disabled; staged input only.",
+  "input_status": "not_ready",
+  "input_query_count": 10189,
+  "ready_query_count": 0,
+  "matlab_path": "D:\\Matlab\\bin\\matlab.EXE",
+  "gecko_home": "",
+  "gecko_home_exists": false,
+  "docker_path": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.EXE",
+  "return_code": null,
+  "timeout_seconds": 7200,
+  "command": [
+    "D:\\Matlab\\bin\\matlab.EXE",
+    "-batch",
+    "run('D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_gecko_protocol.m')"
+  ],
+  "input_status_detail": {
+    "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_input.tsv",
+    "exists": true,
+    "size_bytes": 3196370,
+    "row_count": 10189,
+    "ready_query_count": 0,
+    "status": "not_ready"
+  },
+  "files": {
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_external_run_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_external_run_manifest.json",
+    "protocol": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_gecko_protocol.m",
+    "command": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_gecko_command.txt",
+    "stdout": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_gecko_stdout.log",
+    "stderr": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_gecko_stderr.log",
+    "gecko_input": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_gecko_input.tsv",
+    "gecko_output": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\dlkcat_results\\dlkcat_gecko_output.tsv"
+  }
+}

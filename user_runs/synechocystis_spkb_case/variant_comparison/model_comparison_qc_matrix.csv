@@ -1,0 +1,6 @@
+qc_layer,status,signal_count,warning_count,primary_metric,guidance
+model_structure,same_source,2,0,2/2 same-source/reference,"Same-source variants should be compared through constraints, evidence, and behavior rather than structural reaction diff."
+biomass_objective,ready,2,0,0 objective change(s),Objective changes affect behavior interpretation; no objective changes were detected when this count is zero.
+exchange_bounds,missing,0,1,0 exchange row(s); 0 oxygen row(s),Exchange bounds are the main fairness layer for highO2/lowO2 condition comparison.
+evidence_coverage,partial,2,2,2 evidence row(s),Evidence rows summarize transcriptomics/proteomics/kcat support and should not be interpreted as causal proof.
+enzyme_proteome_coverage,optional_missing,0,0,0 proteins; 0 kcat priors,"GECKO/proteome QC is an enzyme-constrained behavior layer, not conventional GEM structural diff."

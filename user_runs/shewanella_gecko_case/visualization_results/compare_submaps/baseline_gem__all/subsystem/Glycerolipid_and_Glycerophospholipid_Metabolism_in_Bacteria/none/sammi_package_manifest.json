@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none",
+  "variant_id": "baseline_gem__all",
+  "generation_method": "baseline_gem",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "overlay_status": "not_selected",
+  "reaction_count": 124,
+  "group_count": 1,
+  "overlay_count": 0,
+  "overlay_summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 0,
+  "overlay_unmatched_reaction_count": 0,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "overlay_not_selected",
+  "overlay_source_file": "",
+  "overlay_source_status": "not_selected",
+  "top_highlighted_reactions": "",
+  "warning_reactions": "",
+  "selected_reaction_count": 248,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R_rxn00921_c0;R_rxn02405_c0;R_rxn02576_c0;R_rxn05901_c0;R_rxn06043_c0;R_rxn06044_c0;R_rxn06045_c0;R_rxn06080_c0;R_rxn06090_c0;R_rxn06139_c0;R_rxn06140_c0;R_rxn08083_c0;R_rxn08084_c0;R_rxn08085_c0;R_rxn08086_c0;R_rxn08087_c0;R_rxn08088_c0;R_rxn08089_c0;R_rxn08294_c0;R_rxn08295_c0;R_rxn08296_c0;R_rxn08297_c0;R_rxn08298_c0;R_rxn08299_c0;R_rxn08300_c0;R_rxn08306_c0;R_rxn08307_c0;R_rxn08308_c0;R_rxn08309_c0;R_rxn08310_c0;R_rxn08311_c0;R_rxn08312_c0;R_rxn08546_c0;R_rxn08547_c0;R_rxn08548_c0;R_rxn08549_c0;R_rxn08550_c0;R_rxn08551_c0;R_rxn08552_c0;R_rxn09101_c0;R_rxn09102_c0;R_rxn09103_c0;R_rxn09104_c0;R_rxn09105_c0;R_rxn09106_c0;R_rxn09107_c0;R_rxn09108_c0;R_rxn09109_c0;R_rxn09110_c0;R_rxn09111_c0;R_rxn09112_c0;R_rxn09113_c0;R_rxn09114_c0;R_rxn09197_c0;R_rxn09198_c0;R_rxn09199_c0;R_rxn09200_c0;R_rxn09201_c0;R_rxn09202_c0;R_rxn09203_c0;R_rxn09205_c0;R_rxn09206_c0;R_rxn09207_c0;R_rxn09208_c0;R_rxn09209_c0;R_rxn09210_c0;R_rxn09211_c0;R_rxn10107_c0;R_rxn10110_c0;R_rxn10111_c0;R_rxn10202_c0;R_rxn10203_c0;R_rxn10204_c0;R_rxn10205_c0;R_rxn10206_c0;R_rxn10207_c0;R_rxn10208_c0;R_rxn10209_c0;R_rxn10210_c0;R_rxn10211_c0;R_rxn10212_c0;R_rxn10213_c0;R_rxn10214_c0;R_rxn10215_c0;R_rxn10216_c0;R_rxn10217_c0;R_rxn10218_c0;R_rxn10219_c0;R_rxn10220_c0;R_rxn10221_c0;R_rxn10222_c0;R_rxn10223_c0;R_rxn10224_c0;R_rxn10225_c0;R_rxn10226_c0;R_rxn10227_c0;R_rxn10228_c0;R_rxn10229_c0;R_rxn10230_c0;R_rxn10231_c0;R_rxn10232_c0;R_rxn10233_c0;R_rxn10234_c0;R_rxn10235_c0;R_rxn10236_c0;R_rxn10237_c0;R_rxn10253_c0;R_rxn10254_c0;R_rxn10255_c0;R_rxn10256_c0;R_rxn10257_c0;R_rxn10258_c0;R_rxn10259_c0;R_rxn10260_c0;R_rxn10261_c0;R_rxn10262_c0;R_rxn10263_c0;R_rxn10264_c0;R_rxn10265_c0;R_rxn10266_c0;R_rxn10267_c0;R_rxn10268_c0;R_rxn10269_c0;R_rxn10270_c0",
+  "filter_matched_reaction_ids": "R_rxn00921_c0;R_rxn02405_c0;R_rxn02576_c0;R_rxn05901_c0;R_rxn06043_c0;R_rxn06044_c0;R_rxn06045_c0;R_rxn06080_c0;R_rxn06090_c0;R_rxn06139_c0;R_rxn06140_c0;R_rxn08083_c0;R_rxn08084_c0;R_rxn08085_c0;R_rxn08086_c0;R_rxn08087_c0;R_rxn08088_c0;R_rxn08089_c0;R_rxn08294_c0;R_rxn08295_c0;R_rxn08296_c0;R_rxn08297_c0;R_rxn08298_c0;R_rxn08299_c0;R_rxn08300_c0;R_rxn08306_c0;R_rxn08307_c0;R_rxn08308_c0;R_rxn08309_c0;R_rxn08310_c0;R_rxn08311_c0;R_rxn08312_c0;R_rxn08546_c0;R_rxn08547_c0;R_rxn08548_c0;R_rxn08549_c0;R_rxn08550_c0;R_rxn08551_c0;R_rxn08552_c0;R_rxn09101_c0;R_rxn09102_c0;R_rxn09103_c0;R_rxn09104_c0;R_rxn09105_c0;R_rxn09106_c0;R_rxn09107_c0;R_rxn09108_c0;R_rxn09109_c0;R_rxn09110_c0;R_rxn09111_c0;R_rxn09112_c0;R_rxn09113_c0;R_rxn09114_c0;R_rxn09197_c0;R_rxn09198_c0;R_rxn09199_c0;R_rxn09200_c0;R_rxn09201_c0;R_rxn09202_c0;R_rxn09203_c0;R_rxn09205_c0;R_rxn09206_c0;R_rxn09207_c0;R_rxn09208_c0;R_rxn09209_c0;R_rxn09210_c0;R_rxn09211_c0;R_rxn10107_c0;R_rxn10110_c0;R_rxn10111_c0;R_rxn10202_c0;R_rxn10203_c0;R_rxn10204_c0;R_rxn10205_c0;R_rxn10206_c0;R_rxn10207_c0;R_rxn10208_c0;R_rxn10209_c0;R_rxn10210_c0;R_rxn10211_c0;R_rxn10212_c0;R_rxn10213_c0;R_rxn10214_c0;R_rxn10215_c0;R_rxn10216_c0;R_rxn10217_c0;R_rxn10218_c0;R_rxn10219_c0;R_rxn10220_c0;R_rxn10221_c0;R_rxn10222_c0;R_rxn10223_c0;R_rxn10224_c0;R_rxn10225_c0;R_rxn10226_c0;R_rxn10227_c0;R_rxn10228_c0;R_rxn10229_c0;R_rxn10230_c0;R_rxn10231_c0;R_rxn10232_c0;R_rxn10233_c0;R_rxn10234_c0;R_rxn10235_c0;R_rxn10236_c0;R_rxn10237_c0;R_rxn10253_c0;R_rxn10254_c0;R_rxn10255_c0;R_rxn10256_c0;R_rxn10257_c0;R_rxn10258_c0;R_rxn10259_c0;R_rxn10260_c0;R_rxn10261_c0;R_rxn10262_c0;R_rxn10263_c0;R_rxn10264_c0;R_rxn10265_c0;R_rxn10266_c0;R_rxn10267_c0;R_rxn10268_c0;R_rxn10269_c0;R_rxn10270_c0",
+  "filter_missing_reaction_ids": "",
+  "filter_suggested_reactions": "R_rxn10231_c0;R_rxn10270_c0;R_rxn10262_c0;R_rxn10209_c0;R_rxn08084_c0;R_rxn10225_c0;R_rxn10205_c0;R_rxn10228_c0",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

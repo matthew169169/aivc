@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.1",
+  "ec_model_mode": "full_ecModel",
+  "adapter_class_name": "PputidaAcetateGeckoAdapter",
+  "adapter_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\generated_adapter.m",
+  "class_adapter_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\PputidaAcetateGeckoAdapter.m",
+  "recommended_protocol": "full_ecModel/protocol.m",
+  "proteomics_integration_supported": true,
+  "requires_manual_confirmation": true
+}

@@ -1,0 +1,13 @@
+evidence_mode,condition,status,reaction_count,measured_gpr_reaction_count,measured_gpr_fraction,fastcore_core_count,high_reaction_count,medium_reaction_count,low_reaction_count,unknown_reaction_count,no_gpr_reaction_count,context_protect_count,context_keep_count,context_support_count,context_penalize_candidate_count,context_delete_candidate_count,context_neutral_count
+transcriptomics,highO2,available,2094,0,0.0,0,0,0,0,1630,464,1,0,0,0,0,2093
+transcriptomics,lowO2,available,2094,0,0.0,0,0,0,0,1630,464,1,0,0,0,0,2093
+transcriptomics,ALL,available,4188,0,0.0,0,0,0,0,3260,928,2,0,0,0,0,4186
+relative_proteomics,highO2,missing,0,0,,0,0,0,0,0,0,0,0,0,0,0,0
+relative_proteomics,lowO2,missing,0,0,,0,0,0,0,0,0,0,0,0,0,0,0
+relative_proteomics,ALL,missing,0,0,,0,0,0,0,0,0,0,0,0,0,0,0
+consensus,highO2,available,2094,0,0.0,0,0,0,0,1630,464,1,0,0,0,0,2093
+consensus,lowO2,available,2094,0,0.0,0,0,0,0,1630,464,1,0,0,0,0,2093
+consensus,ALL,available,4188,0,0.0,0,0,0,0,3260,928,2,0,0,0,0,4186
+ml_derived,highO2,missing,0,0,,0,0,0,0,0,0,0,0,0,0,0,0
+ml_derived,lowO2,missing,0,0,,0,0,0,0,0,0,0,0,0,0,0,0
+ml_derived,ALL,missing,0,0,,0,0,0,0,0,0,0,0,0,0,0,0

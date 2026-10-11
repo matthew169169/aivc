@@ -1,0 +1,12 @@
+{
+  "schema_version": "0.1.0",
+  "package_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case",
+  "model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "artifact_root": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_artifacts",
+  "selected_methods": [
+    "baseline_gem",
+    "consensus_evidence"
+  ],
+  "artifact_count": 0,
+  "summary": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\context_model_artifact_summary.csv"
+}

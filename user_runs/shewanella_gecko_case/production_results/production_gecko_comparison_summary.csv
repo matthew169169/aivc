@@ -1,0 +1,2 @@
+status,gecko_export_status,gecko_external_status,cobra_product_count,cobra_design_count,cobra_gene_target_count,gecko_target_result_count,gecko_design_result_count,supported_design_count,conflict_design_count,cobra_only_design_count,guidance
+gecko_staged_no_results,available,not_available,6,796,1188,0,0,0,0,1984,"GECKO package/run is staged (not_available), but no enzyme-constrained production results are available yet."

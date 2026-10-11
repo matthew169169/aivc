@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "model_status": "indexed",
+  "model_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+  "message": "Indexed model identifiers: reactions=2927, metabolites=2153, genes=1462.",
+  "summary_count": 3,
+  "detail_count": 114180,
+  "alias_table_count": 0,
+  "alias_entry_count": 0,
+  "normalized_table_count": 3,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\id_mapping_results\\id_mapping_summary.csv",
+    "detail": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\id_mapping_results\\id_mapping_detail.csv",
+    "alias_summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\id_mapping_results\\id_alias_table_summary.csv",
+    "normalized_input_map": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\normalized_inputs\\normalized_input_map.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\id_mapping_results\\id_mapping_manifest.json"
+  }
+}

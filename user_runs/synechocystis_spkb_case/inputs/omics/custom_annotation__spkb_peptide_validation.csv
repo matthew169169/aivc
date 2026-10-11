@@ -1,0 +1,16 @@
+gene_id,protein_id,sample,condition,custom_group,peptide_sequence_position,missed_cleavages,posterior_error_probability,peptide_score,peptide_ratio_spkB_vs_wt,intensity_wild_type,intensity_spkB,source_sheet
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,34YQTLGLLGK42,0.0,0.0011714,83.265,,50202000.0,0.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,66QLRPQTDDPNVFR78,1.0,8.4429e-05,92.939,0.14612,136330000.0,4656600.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,94VGNHPQVPR102,0.0,0.00040493,79.906,0.041539,134110000.0,2149200.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,178LVLIDFGAVK187,0.0,0.00023102,114.28,0.18147,76183000.0,6693400.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,270FAEVIRK276,1.0,0.00069718,83.614,0.9024,63587000.0,15742000.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,330MGNSSSPDYGDPSTRFNTNVQPR352,1.0,3.3205e-06,83.022,,8252000.0,0.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,345FNTNVQPR352,0.0,0.0011081,98.418,,26833000.0,0.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,424QAIANQPETK433,0.0,3.17e-06,147.24,,50161000.0,0.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,439TFLAEYAQGK448,0.0,0.00052878,81.972,0.14811,50492000.0,1248700.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,449RDFADQNLVGIVLAK463,1.0,0.0021757,64.52,0.11403,37708000.0,961510.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,464AFVPGINCYQANLTNANFEQAELTR488,0.0,1.4641e-42,184.2,,28912000.0,0.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,523GANLNGVNFK532,0.0,9.123e-05,131.06,0.8738,75680000.0,10584000.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,533YANLQGANFSGADLGSAK550,0.0,8.934e-65,229.32,,115970000.0,0.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,565TVMPGSGR572,0.0,0.0027026,81.784,0.53584,44599000.0,11031000.0,Table S6
+slr1697,slr1697,spkB_peptide_validation,WT_vs_spkB,SpkB peptide evidence,565TVMPGSGRR573,1.0,0.031219,46.819,,0.0,0.0,Table S6

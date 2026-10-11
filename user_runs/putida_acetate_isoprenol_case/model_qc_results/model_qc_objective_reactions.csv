@@ -1,0 +1,2 @@
+reaction_id,name,objective_coefficient,lower_bound,upper_bound
+BIOMASS_KT2440_WT3,Biomass P putida KT2440  aa DNA RNA ATP murein FA ions soluble,1.0,0.0,999999.0

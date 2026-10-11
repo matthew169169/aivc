@@ -1,0 +1,6 @@
+pathway_group,pathway_id,allocation_source,kcat_prior_count,gene_count,reaction_count,capacity_sum,usage_sum,highO2_protein_abundance,lowO2_protein_abundance,delta_low_minus_high,mean_kcat_per_s,mean_kcat_confidence,status,guidance
+other_internal_flux,,reaction_enzyme_capacity,2166,,722,0,0,,,,77057,,ready,Pathway enzyme allocation aggregated from reaction-level enzyme capacity rows.
+redox_quinone_flavin_eet,,reaction_enzyme_capacity,48,,16,0,0,,,,63657.7,,ready,Pathway enzyme allocation aggregated from reaction-level enzyme capacity rows.
+Pentose phosphate pathway,,reaction_enzyme_capacity,6,,2,0,0,,,,15.05,,ready,Pathway enzyme allocation aggregated from reaction-level enzyme capacity rows.
+transport_exchange,,reaction_enzyme_capacity,6,,2,0,0,,,,97.35,,ready,Pathway enzyme allocation aggregated from reaction-level enzyme capacity rows.
+Glycolysis / Gluconeogenesis,,reaction_enzyme_capacity,9,,3,0,0,,,,1437.33,,ready,Pathway enzyme allocation aggregated from reaction-level enzyme capacity rows.

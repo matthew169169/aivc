@@ -1,0 +1,267 @@
+{
+  "schema_version": "synechocystis_spkb_case_v1",
+  "case_study": {
+    "case_id": "synechocystis_spkb_carbon_limitation",
+    "title": "Synechocystis SpkB carbon-limitation case study",
+    "organism": "Synechocystis sp. PCC 6803",
+    "focus": "WT vs spkB and HC/LC carbon limitation"
+  },
+  "default_workflow": {
+    "model_generation_methods": [
+      "baseline_gem",
+      "consensus_evidence"
+    ],
+    "analysis_modules": [
+      "fba_pfba",
+      "evidence_comparison",
+      "ml_pca_lasso",
+      "condition_interpretation",
+      "readiness_gate"
+    ],
+    "method_hints": [
+      "Use relative proteomics as the primary context evidence.",
+      "Use metabolomics, phosphoproteomics, and pigmentation as validation evidence.",
+      "Do not mark GECKO-ready as ready unless kcat and enzyme capacity evidence are added later."
+    ]
+  },
+  "atlas_curated_sources": [],
+  "input_mapping_preview": {
+    "model_present": true,
+    "model_path": "D:\\generate\\case_studies\\synechocystis_spkb_case_inputs\\upload_ready\\model\\iJN678.xml",
+    "model_gene_count": 817,
+    "model_reaction_count": 863,
+    "rows": [
+      {
+        "file_name": "relative_proteomics_spkb_vs_wt.csv",
+        "role": "relative_proteomics",
+        "source_sheet": "Table S7",
+        "row_count": 6650,
+        "unique_gene_or_protein_ids": 2350,
+        "mapped_gene_or_protein_ids": 561,
+        "gene_mapping_fraction": 0.2387,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_partial"
+      },
+      {
+        "file_name": "relative_proteomics_carbon_limitation.csv",
+        "role": "relative_proteomics",
+        "source_sheet": "Table S8",
+        "row_count": 8332,
+        "unique_gene_or_protein_ids": 2142,
+        "mapped_gene_or_protein_ids": 533,
+        "gene_mapping_fraction": 0.2488,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_partial"
+      },
+      {
+        "file_name": "metabolomics_spkb_hc_lc_validation.csv",
+        "role": "intracellular_metabolomics",
+        "source_sheet": "Table S5",
+        "row_count": 100,
+        "unique_gene_or_protein_ids": 0,
+        "mapped_gene_or_protein_ids": 0,
+        "gene_mapping_fraction": "",
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "not_model_mapped_evidence"
+      },
+      {
+        "file_name": "phosphoproteomics_spkb_evidence.csv",
+        "role": "custom_annotation",
+        "source_sheet": "Table S9",
+        "row_count": 400,
+        "unique_gene_or_protein_ids": 89,
+        "mapped_gene_or_protein_ids": 25,
+        "gene_mapping_fraction": 0.2809,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_partial"
+      },
+      {
+        "file_name": "pigmentation_spkb_validation.csv",
+        "role": "custom_annotation",
+        "source_sheet": "Table S4",
+        "row_count": 78,
+        "unique_gene_or_protein_ids": 0,
+        "mapped_gene_or_protein_ids": 0,
+        "gene_mapping_fraction": "",
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "not_model_mapped_evidence"
+      },
+      {
+        "file_name": "synechocystis_spk_gene_annotation.csv",
+        "role": "custom_annotation",
+        "source_sheet": "Table S1",
+        "row_count": 45,
+        "unique_gene_or_protein_ids": 44,
+        "mapped_gene_or_protein_ids": 0,
+        "gene_mapping_fraction": 0.0,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_failed"
+      },
+      {
+        "file_name": "synechocystis_strain_annotation.csv",
+        "role": "custom_annotation",
+        "source_sheet": "Table S3",
+        "row_count": 15,
+        "unique_gene_or_protein_ids": 0,
+        "mapped_gene_or_protein_ids": 0,
+        "gene_mapping_fraction": "",
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "not_model_mapped_evidence"
+      },
+      {
+        "file_name": "spkb_peptide_validation.csv",
+        "role": "custom_annotation",
+        "source_sheet": "Table S6",
+        "row_count": 15,
+        "unique_gene_or_protein_ids": 1,
+        "mapped_gene_or_protein_ids": 0,
+        "gene_mapping_fraction": 0.0,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_failed"
+      }
+    ]
+  },
+  "run_id": "synechocystis_spkb_case",
+  "upload_package": {
+    "run_id": "synechocystis_spkb_case",
+    "input_file_map": "D:\\generate\\user_runs\\synechocystis_spkb_case\\input_file_map.csv",
+    "input_rows": [
+      {
+        "kind": "model",
+        "role": "gem",
+        "original_name": "iJN678.xml",
+        "saved_name": "model__iJN678.xml",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+        "relative_path": "inputs\\model\\model__iJN678.xml",
+        "size_bytes": 4388129,
+        "columns": "",
+        "inspection_status": "ok",
+        "details": "iJN678 SBML model for Synechocystis sp. PCC 6803."
+      },
+      {
+        "kind": "omics_table",
+        "role": "relative_proteomics",
+        "original_name": "relative_proteomics_spkb_vs_wt.csv",
+        "saved_name": "relative_proteomics__relative_proteomics_spkb_vs_wt.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\relative_proteomics__relative_proteomics_spkb_vs_wt.csv",
+        "relative_path": "inputs\\omics\\relative_proteomics__relative_proteomics_spkb_vs_wt.csv",
+        "size_bytes": 1017244,
+        "columns": "protein_id;gene_id;sample;condition;contrast;value;value_type;p_value_minus_log10;significantly_regulated;protein_name;protein_description;source_sheet",
+        "inspection_status": "ok",
+        "details": "WT vs spkB relative protein evidence."
+      },
+      {
+        "kind": "omics_table",
+        "role": "relative_proteomics",
+        "original_name": "relative_proteomics_carbon_limitation.csv",
+        "saved_name": "relative_proteomics__relative_proteomics_carbon_limitation.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\relative_proteomics__relative_proteomics_carbon_limitation.csv",
+        "relative_path": "inputs\\omics\\relative_proteomics__relative_proteomics_carbon_limitation.csv",
+        "size_bytes": 1305527,
+        "columns": "protein_id;gene_id;sample;condition;genotype;value;value_type;p_value_minus_log10;significantly_regulated;protein_name;protein_description;source_sheet",
+        "inspection_status": "ok",
+        "details": "Carbon limitation response relative protein evidence."
+      },
+      {
+        "kind": "omics_table",
+        "role": "intracellular_metabolomics",
+        "original_name": "metabolomics_spkb_hc_lc_validation.csv",
+        "saved_name": "intracellular_metabolomics__metabolomics_spkb_hc_lc_validation.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\intracellular_metabolomics__metabolomics_spkb_hc_lc_validation.csv",
+        "relative_path": "inputs\\omics\\intracellular_metabolomics__metabolomics_spkb_hc_lc_validation.csv",
+        "size_bytes": 18096,
+        "columns": "metabolite_id;metabolite_name;compartment;sample;condition;genotype;value;unit;replicate_1;replicate_2;replicate_3;stderr;source_sheet",
+        "inspection_status": "ok",
+        "details": "Intracellular metabolite validation evidence."
+      },
+      {
+        "kind": "omics_table",
+        "role": "custom_annotation",
+        "original_name": "phosphoproteomics_spkb_evidence.csv",
+        "saved_name": "custom_annotation__phosphoproteomics_spkb_evidence.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\custom_annotation__phosphoproteomics_spkb_evidence.csv",
+        "relative_path": "inputs\\omics\\custom_annotation__phosphoproteomics_spkb_evidence.csv",
+        "size_bytes": 75710,
+        "columns": "gene_id;protein_id;sample;condition;custom_group;evidence_type;phosphorylation_site;modified_residue;value;value_type;p_value_minus_log10;significantly_regulated;protein_name;protein_description;source_sheet",
+        "inspection_status": "ok",
+        "details": "Phosphorylation evidence for SpkB case interpretation."
+      },
+      {
+        "kind": "omics_table",
+        "role": "custom_annotation",
+        "original_name": "pigmentation_spkb_validation.csv",
+        "saved_name": "custom_annotation__pigmentation_spkb_validation.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\custom_annotation__pigmentation_spkb_validation.csv",
+        "relative_path": "inputs\\omics\\custom_annotation__pigmentation_spkb_validation.csv",
+        "size_bytes": 7329,
+        "columns": "sample;strain;condition;phenotype;value;unit;custom_group;source_sheet",
+        "inspection_status": "ok",
+        "details": "Pigment phenotype validation table."
+      },
+      {
+        "kind": "omics_table",
+        "role": "custom_annotation",
+        "original_name": "synechocystis_spk_gene_annotation.csv",
+        "saved_name": "custom_annotation__synechocystis_spk_gene_annotation.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\custom_annotation__synechocystis_spk_gene_annotation.csv",
+        "relative_path": "inputs\\omics\\custom_annotation__synechocystis_spk_gene_annotation.csv",
+        "size_bytes": 3610,
+        "columns": "gene_id;model_gene_id;protein_name;protein_description;custom_group;mutant;transcription_unit;operon;source_sheet",
+        "inspection_status": "ok",
+        "details": "Annotated spk kinase genes and mutant labels."
+      },
+      {
+        "kind": "omics_table",
+        "role": "custom_annotation",
+        "original_name": "synechocystis_strain_annotation.csv",
+        "saved_name": "custom_annotation__synechocystis_strain_annotation.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\custom_annotation__synechocystis_strain_annotation.csv",
+        "relative_path": "inputs\\omics\\custom_annotation__synechocystis_strain_annotation.csv",
+        "size_bytes": 1283,
+        "columns": "strain_id;feature;resistance;wild_type_background;reference;custom_group;source_sheet",
+        "inspection_status": "ok",
+        "details": "Strain metadata for case interpretation."
+      },
+      {
+        "kind": "omics_table",
+        "role": "custom_annotation",
+        "original_name": "spkb_peptide_validation.csv",
+        "saved_name": "custom_annotation__spkb_peptide_validation.csv",
+        "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\omics\\custom_annotation__spkb_peptide_validation.csv",
+        "relative_path": "inputs\\omics\\custom_annotation__spkb_peptide_validation.csv",
+        "size_bytes": 2395,
+        "columns": "gene_id;protein_id;sample;condition;custom_group;peptide_sequence_position;missed_cleavages;posterior_error_probability;peptide_score;peptide_ratio_spkB_vs_wt;intensity_wild_type;intensity_spkB;source_sheet",
+        "inspection_status": "ok",
+        "details": "Detected SpkB peptides supporting knockout validation."
+      }
+    ],
+    "condition_files": []
+  },
+  "workflow": {
+    "model_generation_methods": []
+  },
+  "method_hints": {
+    "enzyme_gecko": {
+      "status": "adapter_ready_guarded",
+      "kcat_priors": 454,
+      "external_run": "MATLAB_GECKO_not_run",
+      "caveat": "Generated artifacts are GECKO-ready inputs; external MATLAB/GECKO execution remains separate."
+    }
+  }
+}

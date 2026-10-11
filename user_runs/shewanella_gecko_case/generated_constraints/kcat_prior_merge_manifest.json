@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.2.0",
+  "status": "merged",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "dlkcat_results_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results",
+  "files": {
+    "selected_priors": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_priors.csv",
+    "candidates": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_prior_candidates.csv",
+    "conflict_flags": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_conflict_flags.csv",
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_prior_merge_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_prior_merge_manifest.json"
+  },
+  "summary": {
+    "status": "merged",
+    "candidate_count": 8190,
+    "selected_prior_count": 1116,
+    "experimental_candidate_count": 0,
+    "database_candidate_count": 8190,
+    "dlkcat_candidate_count": 0,
+    "ml_candidate_count": 0,
+    "selected_experimental_count": 0,
+    "selected_database_count": 1116,
+    "selected_dlkcat_count": 0,
+    "selected_ml_count": 0,
+    "kcat_conflict_review_count": 77,
+    "kcat_spread_caution_count": 224,
+    "guidance": "Some reactions have high kcat candidate conflicts; review conflict flags before enzyme-constrained or hybrid interpretation."
+  }
+}

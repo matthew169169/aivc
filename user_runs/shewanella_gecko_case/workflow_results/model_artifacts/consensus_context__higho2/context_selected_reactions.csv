@@ -1,0 +1,2 @@
+condition,reaction_id,cobra_reaction_id,artifact_role,source_method,source_role,source_status,decision,reason,evidence,reaction_score,source_file
+highO2,R_bio1,bio1,keep,consensus_evidence,,protect,protect,objective_or_measured_exchange,no_gpr,,D:\generate\user_runs\shewanella_gecko_case\generated_constraints\consensus_context_keep_reactions.csv

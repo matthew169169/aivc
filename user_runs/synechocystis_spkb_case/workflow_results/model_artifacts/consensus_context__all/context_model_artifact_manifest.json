@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "consensus_context__all",
+  "generation_method": "consensus_evidence",
+  "condition": "ALL",
+  "evidence_mode": "multi_omics_consensus",
+  "artifact_status": "empty",
+  "artifact_format": "reaction_set_package",
+  "package_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case",
+  "source_model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "context_model_sbml": "",
+  "context_model_export_status": "skipped_no_delete_reactions",
+  "context_model_export_message": "No delete reactions were provided.",
+  "files": {
+    "selected_reactions": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_artifacts\\consensus_context__all\\context_selected_reactions.csv",
+    "keep_reactions": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_artifacts\\consensus_context__all\\context_keep_reactions.csv",
+    "delete_reactions": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_artifacts\\consensus_context__all\\context_delete_reactions.csv",
+    "penalize_reactions": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_artifacts\\consensus_context__all\\context_penalize_reactions.csv",
+    "core_reactions": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_artifacts\\consensus_context__all\\context_core_reactions.csv",
+    "context_model_sbml": "D:\\generate\\user_runs\\synechocystis_spkb_case\\workflow_results\\model_artifacts\\consensus_context__all\\context_model.xml"
+  },
+  "source_files": [],
+  "counts": {
+    "selected_count": 0,
+    "keep_count": 0,
+    "delete_count": 0,
+    "penalize_count": 0,
+    "core_count": 0,
+    "removed_reaction_count": 0,
+    "missing_delete_reaction_count": 0,
+    "initial_reaction_count": "",
+    "final_reaction_count": ""
+  },
+  "guidance": "Consensus artifact package records keep/delete/penalize/core reactions; inspect conflicts before treating it as a final context model."
+}

@@ -1,0 +1,23 @@
+{
+  "adapter_class_name": "ShewanellaGeckoAdapter",
+  "model_id": "iLJ1162_shewanella",
+  "conv_gem_path": "inputs/model/model__iLJ1162.xml",
+  "organism_name": "shewanella oneidensis",
+  "kegg_id": "son",
+  "kegg_gene_id": "kegg",
+  "uniprot_type": "proteome",
+  "uniprot_id": "UP000008186",
+  "uniprot_gene_id_field": "gene_oln",
+  "uniprot_reviewed": false,
+  "complex_taxonomic_id": 211586.0,
+  "bio_rxn": "bio1",
+  "c_source": "EX_cpd00159_e0",
+  "enzyme_comp": "c0",
+  "sigma": 0.5,
+  "Ptot": 0.48,
+  "f": 0.5,
+  "gR_exp": 0.15,
+  "spontaneous_reaction_strategy": "rxn_name_contains_spontaneous",
+  "ec_model_mode": "full_ecModel",
+  "proteomics_integration": true
+}

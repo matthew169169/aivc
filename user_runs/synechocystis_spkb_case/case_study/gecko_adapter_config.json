@@ -1,0 +1,23 @@
+{
+  "adapter_class_name": "SynechocystisSpkBGeckoAdapter",
+  "model_id": "synechocystis_spkb_carbon_limitation",
+  "conv_gem_path": "model.xml",
+  "organism_name": "Synechocystis sp. PCC 6803",
+  "kegg_id": "syn",
+  "kegg_gene_id": "kegg",
+  "uniprot_type": "taxonomy",
+  "uniprot_id": "1148",
+  "uniprot_gene_id_field": "gene_oln",
+  "uniprot_reviewed": false,
+  "bio_rxn": "R_BIOMASS_Ec_SynAuto",
+  "c_source": "R_EX_hco3_e",
+  "enzyme_comp": "cytoplasm",
+  "sigma": 0.5,
+  "Ptot": 0.5,
+  "f": 0.5,
+  "gR_exp": 0.1,
+  "c_UptakeExp": "",
+  "custom_kcats_file": "D:\\generate\\user_runs\\synechocystis_spkb_case\\generated_constraints\\kcat_priors.csv",
+  "proteomics_integration": false,
+  "ec_model_mode": "full_ecModel"
+}

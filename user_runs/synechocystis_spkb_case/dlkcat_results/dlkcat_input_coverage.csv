@@ -1,0 +1,864 @@
+reaction_id,cobra_reaction_id,reaction_name,query_count,ready_query_count,missing_sequence_count,missing_substrate_count,ready_fraction,status
+R_34DHOXPEGOX,34DHOXPEGOX,"3,4-Dihydroxyphenylethyleneglycol NAD+ oxidoreductase",3,0,3,0,0.0,needs_annotation
+R_34HPPOR,34HPPOR,4 Hydroxyphenylpyruvateoxygen oxidoreductase,2,0,2,0,0.0,needs_annotation
+R_3HAD100,3HAD100,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0),1,0,1,0,0.0,needs_annotation
+R_3HAD120,3HAD120,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0),1,0,1,0,0.0,needs_annotation
+R_3HAD121,3HAD121,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1),1,0,1,0,0.0,needs_annotation
+R_3HAD140,3HAD140,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0),1,0,1,0,0.0,needs_annotation
+R_3HAD141,3HAD141,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1),1,0,1,0,0.0,needs_annotation
+R_3HAD160,3HAD160,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0),1,0,1,0,0.0,needs_annotation
+R_3HAD161,3HAD161,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1),1,0,1,0,0.0,needs_annotation
+R_3HAD180,3HAD180,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0),1,0,1,0,0.0,needs_annotation
+R_3HAD181,3HAD181,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1),1,0,1,0,0.0,needs_annotation
+R_3HAD40,3HAD40,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0),1,0,1,0,0.0,needs_annotation
+R_3HAD60,3HAD60,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0),1,0,1,0,0.0,needs_annotation
+R_3HAD80,3HAD80,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0),1,0,1,0,0.0,needs_annotation
+R_3OAR100,3OAR100,3-oxoacyl-[acyl-carrier-protein] reductase (n-C10:0),3,0,3,0,0.0,needs_annotation
+R_3OAR120,3OAR120,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:0),3,0,3,0,0.0,needs_annotation
+R_3OAR121,3OAR121,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1),3,0,3,0,0.0,needs_annotation
+R_3OAR140,3OAR140,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:0),3,0,3,0,0.0,needs_annotation
+R_3OAR141,3OAR141,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1),3,0,3,0,0.0,needs_annotation
+R_3OAR160,3OAR160,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:0),3,0,3,0,0.0,needs_annotation
+R_3OAR161,3OAR161,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1),3,0,3,0,0.0,needs_annotation
+R_3OAR180,3OAR180,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0),3,0,3,0,0.0,needs_annotation
+R_3OAR181,3OAR181,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1),3,0,3,0,0.0,needs_annotation
+R_3OAR40,3OAR40,3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0),3,0,3,0,0.0,needs_annotation
+R_3OAR60,3OAR60,3-oxoacyl-[acyl-carrier-protein] reductase (n-C6:0),3,0,3,0,0.0,needs_annotation
+R_3OAR80,3OAR80,3-oxoacyl-[acyl-carrier-protein] reductase (n-C8:0),3,0,3,0,0.0,needs_annotation
+R_3OAS100,3OAS100,3-oxoacyl-[acyl-carrier-protein] synthase (n-C10:0),3,0,3,0,0.0,needs_annotation
+R_3OAS120,3OAS120,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:0),3,0,3,0,0.0,needs_annotation
+R_3OAS121,3OAS121,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1),3,0,3,0,0.0,needs_annotation
+R_3OAS140,3OAS140,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:0),3,0,3,0,0.0,needs_annotation
+R_3OAS141,3OAS141,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1),3,0,3,0,0.0,needs_annotation
+R_3OAS160,3OAS160,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:0),3,0,3,0,0.0,needs_annotation
+R_3OAS161,3OAS161,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1),3,0,3,0,0.0,needs_annotation
+R_3OAS180,3OAS180,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0),3,0,3,0,0.0,needs_annotation
+R_3OAS181,3OAS181,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1),3,0,3,0,0.0,needs_annotation
+R_3OAS60,3OAS60,3-oxoacyl-[acyl-carrier-protein] synthase (n-C6:0),3,0,3,0,0.0,needs_annotation
+R_3OAS80,3OAS80,3-oxoacyl-[acyl-carrier-protein] synthase (n-C8:0),3,0,3,0,0.0,needs_annotation
+R_AACOAR_syn,AACOAR_syn,Acetoacetyl CoA reductase,3,0,3,0,0.0,needs_annotation
+R_ABTA,ABTA,4-aminobutyrate transaminase,4,0,4,0,0.0,needs_annotation
+R_ABUTD,ABUTD,Aminobutyraldehyde dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_ACACT1r,ACACT1r,Acetyl-CoA C-acetyltransferase,1,0,1,0,0.0,needs_annotation
+R_ACBIPGT,ACBIPGT,Adenosyl cobinamide phosphate guanyltransferase,3,0,3,0,0.0,needs_annotation
+R_ACCOAC,ACCOAC,Acetyl-CoA carboxylase,12,0,12,0,0.0,needs_annotation
+R_ACGK,ACGK,Acetylglutamate kinase,2,0,2,0,0.0,needs_annotation
+R_ACGS,ACGS,N-acetylglutamate synthase,2,0,2,0,0.0,needs_annotation
+R_ACHBS,ACHBS,2-aceto-2-hydroxybutanoate synthase,9,0,9,0,0.0,needs_annotation
+R_ACKr,ACKr,Acetate kinase,2,0,2,0,0.0,needs_annotation
+R_ACLS,ACLS,Acetolactate synthase,6,0,6,0,0.0,needs_annotation
+R_ACOATA,ACOATA,Acetyl-CoA ACP transacylase,2,0,2,0,0.0,needs_annotation
+R_ACONT,ACONT,Aconitate hydratase,1,0,1,0,0.0,needs_annotation
+R_ACOTA,ACOTA,Acetylornithine transaminase,2,0,2,0,0.0,needs_annotation
+R_ACP1_FMN,ACP1_FMN,Acid phosphatase (FMN),2,0,2,0,0.0,needs_annotation
+R_ACS,ACS,Acetyl-CoA synthetase,3,0,3,0,0.0,needs_annotation
+R_ACt2rpp,ACt2rpp,Acetate reversible transport via proton symport (periplasm),2,0,0,0,0.0,needs_annotation
+R_ACtex,ACtex,Acetate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_ADCL,ADCL,4-aminobenzoate synthase,1,0,1,0,0.0,needs_annotation
+R_ADCPS1,ADCPS1,Adenosylcobinamide-phosphate synthase,3,0,3,0,0.0,needs_annotation
+R_ADCPS2,ADCPS2,Adenosylcobinamide-phosphate synthase,3,0,3,0,0.0,needs_annotation
+R_ADCS,ADCS,4-amino-4-deoxychorismate synthase,2,0,0,0,0.0,needs_annotation
+R_ADCYRS,ADCYRS,Adenosylcobyric acid synthase (glutamine-hydrolysing),4,0,4,0,0.0,needs_annotation
+R_ADK1,ADK1,Adenylate kinase,2,0,2,0,0.0,needs_annotation
+R_ADMDC,ADMDC,Adenosylmethionine decarboxylase,2,0,0,0,0.0,needs_annotation
+R_ADNCYC,ADNCYC,Adenylate cyclase,1,0,1,0,0.0,needs_annotation
+R_ADOCBLS,ADOCBLS,Adenosylcobalamin 5'-phosphate synthase,2,0,2,0,0.0,needs_annotation
+R_ADPRDP,ADPRDP,ADPribose diphosphatase,4,0,4,0,0.0,needs_annotation
+R_ADPT,ADPT,Adenine phosphoribosyltransferase,2,0,2,0,0.0,needs_annotation
+R_ADPT2,ADPT2,Adenine phosphoribosyltransferase,2,0,2,0,0.0,needs_annotation
+R_ADSK,ADSK,Adenylyl-sulfate kinase,2,0,2,0,0.0,needs_annotation
+R_ADSL1r,ADSL1r,Adenylsuccinate lyase,1,0,1,0,0.0,needs_annotation
+R_ADSL2r,ADSL2r,Adenylosuccinate lyase,1,0,1,0,0.0,needs_annotation
+R_ADSS,ADSS,Adenylosuccinate synthase,3,0,3,0,0.0,needs_annotation
+R_AGMT,AGMT,Agmatinase,4,0,4,0,0.0,needs_annotation
+R_AGPAT160,AGPAT160,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0),2,0,2,0,0.0,needs_annotation
+R_AGPAT161,AGPAT161,1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1),2,0,2,0,0.0,needs_annotation
+R_AGPAT180,AGPAT180,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0),2,0,2,0,0.0,needs_annotation
+R_AGPAT181,AGPAT181,1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1),2,0,2,0,0.0,needs_annotation
+R_AGPAT181_9,AGPAT181_9,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 1),2,0,2,0,0.0,needs_annotation
+R_AGPAT182_9_12,AGPAT182_9_12,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 2),2,0,2,0,0.0,needs_annotation
+R_AGPAT183_6_9_12,AGPAT183_6_9_12,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 3),2,0,2,0,0.0,needs_annotation
+R_AGPAT183_9_12_15,AGPAT183_9_12_15,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 3),2,0,2,0,0.0,needs_annotation
+R_AGPAT184_6_9_12_15,AGPAT184_6_9_12_15,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 4),2,0,2,0,0.0,needs_annotation
+R_AGPR,AGPR,N-acetyl-g-glutamyl-phosphate reductase,3,0,3,0,0.0,needs_annotation
+R_AGTi,AGTi,Alanine glyoxylate aminotransferase  irreversible ,2,0,2,0,0.0,needs_annotation
+R_AHCi,AHCi,Adenosylhomocysteinase,2,0,2,0,0.0,needs_annotation
+R_AHMMPS,AHMMPS,4 amino 5 hydroxymethyl 2 methylpyrimidine synthetase,2,0,2,0,0.0,needs_annotation
+R_AHSERL2,AHSERL2,O acetylhomoserine  thiol  lyase,2,0,0,0,0.0,needs_annotation
+R_AICART,AICART,Phosphoribosylaminoimidazolecarboxamide formyltransferase,2,0,2,0,0.0,needs_annotation
+R_AIRCr,AIRCr,Phosphoribosylaminoimidazole carboxylase,4,0,4,0,0.0,needs_annotation
+R_AKGt2rpp,AKGt2rpp,2-oxoglutarate reversible transport via symport (periplasm),2,0,0,0,0.0,needs_annotation
+R_AKGtex,AKGtex,Alpha-ketoglutarate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_ALAALAr,ALAALAr,D-alanine-D-alanine ligase (reversible),2,0,2,0,0.0,needs_annotation
+R_ALAD_L,ALAD_L,L-alanine dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_ALAR,ALAR,Alanine racemase,1,0,1,0,0.0,needs_annotation
+R_ALATRS,ALATRS,Alanyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_ALAabcpp,ALAabcpp,L-alanine transport via ABC system (periplasm),15,0,15,0,0.0,needs_annotation
+R_ALAtex,ALAtex,L-alanine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_ALCD19,ALCD19,Alcohol dehydrogenase (glycerol),3,0,3,0,0.0,needs_annotation
+R_ALCD2y,ALCD2y,"Alcohol dehydrogenase (ethanol, NADP)",2,0,2,0,0.0,needs_annotation
+R_ALDD20x,ALDD20x,"Aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",3,0,3,0,0.0,needs_annotation
+R_ALDD2x,ALDD2x,"Aldehyde dehydrogenase (acetaldehyde, NAD)",3,0,3,0,0.0,needs_annotation
+R_AMID,AMID,GUANIDINOBUTANAMIDE-NH3-RXN,2,0,2,0,0.0,needs_annotation
+R_AMID2,AMID2,Amidase,2,0,2,0,0.0,needs_annotation
+R_AMID3,AMID3,Amidase,2,0,2,0,0.0,needs_annotation
+R_AMPN,AMPN,AMP nucleosidase,2,0,0,0,0.0,needs_annotation
+R_ANPRT,ANPRT,Anthranilate phosphoribosyltransferase,2,0,2,0,0.0,needs_annotation
+R_ANS,ANS,Anthranilate synthase,4,0,4,0,0.0,needs_annotation
+R_AOXSr,AOXSr,8-amino-7-oxononanoate synthase,3,0,3,0,0.0,needs_annotation
+R_APRAUR,APRAUR,5-amino-6-(5-phosphoribosylamino)uracil reductase,3,0,3,0,0.0,needs_annotation
+R_ARGDC,ARGDC,Arginine decarboxylase,2,0,2,0,0.0,needs_annotation
+R_ARGDr,ARGDr,Arginine deiminase,2,0,2,0,0.0,needs_annotation
+R_ARGN,ARGN,Arginase,2,0,2,0,0.0,needs_annotation
+R_ARGSL,ARGSL,Argininosuccinate lyase,1,0,1,0,0.0,needs_annotation
+R_ARGSS,ARGSS,Argininosuccinate synthase,3,0,3,0,0.0,needs_annotation
+R_ARGTRS,ARGTRS,Arginyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_ARGabcpp,ARGabcpp,L-arginine transport via ABC system (periplasm),6,0,6,0,0.0,needs_annotation
+R_ARGtex,ARGtex,L-arginine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_ASAD,ASAD,Aspartate-semialdehyde dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_ASNN,ASNN,L-asparaginase,2,0,2,0,0.0,needs_annotation
+R_ASNS1,ASNS1,Asparagine synthase (glutamine-hydrolysing),4,0,0,0,0.0,needs_annotation
+R_ASNTRS,ASNTRS,Asparaginyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_ASP1DC,ASP1DC,Aspartate 1-decarboxylase,2,0,2,0,0.0,needs_annotation
+R_ASPCT,ASPCT,Aspartate carbamoyltransferase,2,0,2,0,0.0,needs_annotation
+R_ASPK,ASPK,Aspartate kinase,2,0,2,0,0.0,needs_annotation
+R_ASPO6,ASPO6,L-aspartate oxidase,2,0,2,0,0.0,needs_annotation
+R_ASPTA,ASPTA,Aspartate transaminase,4,0,4,0,0.0,needs_annotation
+R_ASPTRS,ASPTRS,Aspartyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_ATPPRT,ATPPRT,ATP phosphoribosyltransferase,2,0,2,0,0.0,needs_annotation
+R_ATPS4rpp_1,ATPS4rpp_1,ATP synthase (four protons for one ATP) (periplasm),30,0,30,0,0.0,needs_annotation
+R_ATPSu,ATPSu,ATP synthetase(u),30,0,30,0,0.0,needs_annotation
+R_BAMPPALDOX,BAMPPALDOX,Beta-Aminopropion aldehyde NAD+ oxidoreductase,3,0,3,0,0.0,needs_annotation
+R_BCAROHX,BCAROHX,Beta-carotene hydroxylase,4,0,4,0,0.0,needs_annotation
+R_BCAROHX2,BCAROHX2,Beta-carotene hydroxylase,4,0,4,0,0.0,needs_annotation
+R_BCAROKE,BCAROKE,Beta-carotene ketolase,2,0,2,0,0.0,needs_annotation
+R_BCT1_syn,BCT1_syn,Bicarbonate transport via ABC system (periplasm),12,0,12,0,0.0,needs_annotation
+R_BILIRED,BILIRED,Nad(p)h biliverdin reductase,3,0,3,0,0.0,needs_annotation
+R_BIOMASS_Ec_SynAuto,BIOMASS_Ec_SynAuto,Autotrophic Biomass Ecuation,115,0,0,0,0.0,needs_annotation
+R_BIOMASS_Ec_SynHetero,BIOMASS_Ec_SynHetero,Heterotrophic Biomass Ecuation,114,0,0,0,0.0,needs_annotation
+R_BIOMASS_Ec_SynMixo,BIOMASS_Ec_SynMixo,Mixotrophic Biomass Ecuation,114,0,0,0,0.0,needs_annotation
+R_BPNT,BPNT,"3',5'-bisphosphate nucleotidase",2,0,2,0,0.0,needs_annotation
+R_BTS4,BTS4,Biotin synthase,3,0,3,0,0.0,needs_annotation
+R_CA2abcpp,CA2abcpp,Calcium transport via ABC system (periplasm),3,0,3,0,0.0,needs_annotation
+R_CA2t3pp,CA2t3pp,Calcium (Ca+2) transport out via proton antiport (periplasm),2,0,2,0,0.0,needs_annotation
+R_CA2tex,CA2tex,Calcium (Ca+2) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_CAT,CAT,Catalase,1,0,1,0,0.0,needs_annotation
+R_CBFC2,CBFC2,Cytochrome b6/f complex,66,0,66,0,0.0,needs_annotation
+R_CBFC2pp,CBFC2pp,Cytochrome b6/f complex periplasm,66,0,66,0,0.0,needs_annotation
+R_CBFCpp,CBFCpp,Cytochrome b6/f complex periplasm,66,0,66,0,0.0,needs_annotation
+R_CBFCu,CBFCu,Cytochrome b6/f complex,66,0,66,0,0.0,needs_annotation
+R_CBMKr,CBMKr,Carbamate kinase,3,0,3,0,0.0,needs_annotation
+R_CBPS,CBPS,Carbamoyl-phosphate synthase (glutamine-hydrolysing),8,0,8,0,0.0,needs_annotation
+R_CDPMEK,CDPMEK,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase,2,0,2,0,0.0,needs_annotation
+R_CHORM,CHORM,Chorismate mutase,1,0,1,0,0.0,needs_annotation
+R_CHORS,CHORS,Chorismate synthase,1,0,1,0,0.0,needs_annotation
+R_CHPHYS,CHPHYS,Chlorophyll a synthase,3,0,3,0,0.0,needs_annotation
+R_CITt_kt,CITt_kt,Citrate proton symport periplasm ,2,0,0,0,0.0,needs_annotation
+R_CITtex,CITtex,Citrate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_CO2tex,CO2tex,CO2 transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_CO2tpp,CO2tpp,CO2 transporter via diffusion (periplasm),1,0,0,0,0.0,needs_annotation
+R_COBALT2abcpp,COBALT2abcpp,Cobalt (Co+2) ABC transporter (periplasm),3,0,3,0,0.0,needs_annotation
+R_COBALT2tex,COBALT2tex,Cobalt (Co+2) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_COCHL,COCHL,Cobaltochelatase,4,0,4,0,0.0,needs_annotation
+R_COt_1,COt_1,Co transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_CPPPGO,CPPPGO,Coproporphyrinogen oxidase (O2 required),3,0,3,0,0.0,needs_annotation
+R_CPPPGO2,CPPPGO2,Oxygen Independent coproporphyrinogen-III oxidase,2,0,2,0,0.0,needs_annotation
+R_CS,CS,Citrate synthase,3,0,3,0,0.0,needs_annotation
+R_CSND,CSND,Cytosine deaminase,3,0,3,0,0.0,needs_annotation
+R_CTPS1,CTPS1,CTP synthase  NH3 ,3,0,3,0,0.0,needs_annotation
+R_CTPS2,CTPS2,CTP synthase (glutamine),4,0,4,0,0.0,needs_annotation
+R_CU2abcu_syn,CU2abcu_syn,Copper (Cu+2) ABC transporter (periplasm),3,0,3,0,0.0,needs_annotation
+R_CU2tex,CU2tex,Copper (Cu+2) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_CUabcpp,CUabcpp,Copper transport via ABC system (periplasm),3,0,3,0,0.0,needs_annotation
+R_CYNTAH,CYNTAH,Cyanate aminohydrolase,3,0,3,0,0.0,needs_annotation
+R_CYNTt2pp,CYNTt2pp,Cyanate transport via proton symport (periplasm),2,0,0,0,0.0,needs_annotation
+R_CYNTtex,CYNTtex,Cyanate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_CYO1b2_syn,CYO1b2_syn,"Cytochrome c oxidase, synechocystis (2 protons)",9,0,9,0,0.0,needs_annotation
+R_CYO1b2pp_syn,CYO1b2pp_syn,"Cytochrome c oxidase, synechocystis (2 protons periplasm)",9,0,9,0,0.0,needs_annotation
+R_CYO1b_syn,CYO1b_syn,"Cytochrome c oxidase, synechocystis (2 protons)",9,0,9,0,0.0,needs_annotation
+R_CYO1bpp_syn,CYO1bpp_syn,"Cytochrome c oxidase, synechocystis (2 protons)",9,0,9,0,0.0,needs_annotation
+R_CYPHYC,CYPHYC,Cyanophycinase,2,0,2,0,0.0,needs_annotation
+R_CYPHYS,CYPHYS,Cyanophycin sinthetase,4,0,4,0,0.0,needs_annotation
+R_CYRDAAT,CYRDAAT,"Cob(I)yrinic acid a,c-diamide adenosyltransferase",3,0,3,0,0.0,needs_annotation
+R_CYRDAR,CYRDAR,"Cob(II)yrinic acid a,c-diamide reductase",2,0,0,0,0.0,needs_annotation
+R_CYSS,CYSS,Cysteine synthase,4,0,4,0,0.0,needs_annotation
+R_CYSTA,CYSTA,Cysteine transaminase,2,0,2,0,0.0,needs_annotation
+R_CYSTL,CYSTL,Cystathionine b-lyase,2,0,0,0,0.0,needs_annotation
+R_CYSTRS,CYSTRS,Cysteinyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_CYTBDpp_1,CYTBDpp_1,Cytochrome oxidase bd (plastocianine-8  2 protons) (periplasm),4,0,4,0,0.0,needs_annotation
+R_CYTBDu,CYTBDu,Cytochrome oxidase bd (plastocianine-8  2 protons) (lumen),4,0,4,0,0.0,needs_annotation
+R_CYTDH,CYTDH,Cytidine hydrolase,2,0,0,0,0.0,needs_annotation
+R_CYTK1,CYTK1,Cytidylate kinase (CMP),2,0,2,0,0.0,needs_annotation
+R_Cobalt2abcppI,Cobalt2abcppI,Cobalt II transport via ABC system periplasm I,9,0,9,0,0.0,needs_annotation
+R_Cotpp,Cotpp,Co transport via diffusion (periplasm to cytosol),1,0,0,0,0.0,needs_annotation
+R_DADK,DADK,Deoxyadenylate kinase,2,0,2,0,0.0,needs_annotation
+R_DAPDC,DAPDC,Diaminopimelate decarboxylase,2,0,2,0,0.0,needs_annotation
+R_DAPE,DAPE,Diaminopimelate epimerase,1,0,1,0,0.0,needs_annotation
+R_DASYN160,DASYN160,CDP-diacylglycerol synthetase (n-C16:0),3,0,3,0,0.0,needs_annotation
+R_DASYN161,DASYN161,CDP-diacylglycerol synthetase (n-C16:1),3,0,3,0,0.0,needs_annotation
+R_DASYN180,DASYN180,CDP-diacylglycerol synthetase (n-C18:0),3,0,3,0,0.0,needs_annotation
+R_DASYN181,DASYN181,CDP-diacylglycerol synthetase (n-C18:1),3,0,3,0,0.0,needs_annotation
+R_DASYN181_9,DASYN181_9,CDP-diacylglycerol synthetase (n-C18 1),3,0,3,0,0.0,needs_annotation
+R_DASYN182_9_12,DASYN182_9_12,CDP-diacylglycerol synthetase (n-C18 2),3,0,3,0,0.0,needs_annotation
+R_DASYN183_6_9_12,DASYN183_6_9_12,CDP-diacylglycerol synthetase (n-C18 3),3,0,3,0,0.0,needs_annotation
+R_DASYN183_9_12_15,DASYN183_9_12_15,CDP-diacylglycerol synthetase (n-C18 3),3,0,3,0,0.0,needs_annotation
+R_DASYN184_6_9_12_15,DASYN184_6_9_12_15,CDP-diacylglycerol synthetase (n-C18 4),3,0,3,0,0.0,needs_annotation
+R_DB4PS,DB4PS,"3,4-Dihydroxy-2-butanone-4-phosphate synthase",1,0,1,0,0.0,needs_annotation
+R_DBTS,DBTS,Dethiobiotin synthase,3,0,3,0,0.0,needs_annotation
+R_DCTPD,DCTPD,DCTP deaminase,3,0,3,0,0.0,needs_annotation
+R_DCTPD2,DCTPD2,DCTP deaminase,3,0,3,0,0.0,needs_annotation
+R_DDPA,DDPA,3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase,3,0,3,0,0.0,needs_annotation
+R_DDPGA,DDPGA,2-dehydro-3-deoxy-phosphogluconate aldolase,1,0,1,0,0.0,needs_annotation
+R_DES_12,DES_12,Stearoyl-CoA desaturase (delta-12 desaturase),4,0,4,0,0.0,needs_annotation
+R_DES_15,DES_15,Stearoyl-CoA desaturase (delta-15 desaturase),4,0,4,0,0.0,needs_annotation
+R_DES_6,DES_6,Stearoyl-CoA desaturase (delta-6 desaturase),4,0,4,0,0.0,needs_annotation
+R_DES_6B,DES_6B,Stearoyl-CoA desaturase (delta-6 desaturase),4,0,4,0,0.0,needs_annotation
+R_DES_9,DES_9,Stearoyl-CoA desaturase (delta-9 desaturase),4,0,4,0,0.0,needs_annotation
+R_DGDG160,DGDG160,Digalactosyldiacylglycerol synthase (n-C16 0),2,0,2,0,0.0,needs_annotation
+R_DGDG161,DGDG161,Digalactosyldiacylglycerol synthase (n-C16 1),2,0,2,0,0.0,needs_annotation
+R_DGDG180,DGDG180,Digalactosyldiacylglycerol synthase (n-C18 0),2,0,2,0,0.0,needs_annotation
+R_DGDG181,DGDG181,Digalactosyldiacylglycerol synthase (n-C18 1),2,0,2,0,0.0,needs_annotation
+R_DGDG181_9,DGDG181_9,Digalactosyldiacylglycerol synthase (n-C18 1),2,0,2,0,0.0,needs_annotation
+R_DGDG182_9_12,DGDG182_9_12,Digalactosyldiacylglycerol synthase (n-C18 2),2,0,2,0,0.0,needs_annotation
+R_DGDG183_6_9_12,DGDG183_6_9_12,Digalactosyldiacylglycerol synthase (n-C18 3),2,0,2,0,0.0,needs_annotation
+R_DGDG183_9_12_15,DGDG183_9_12_15,Digalactosyldiacylglycerol synthase (n-C18 3),2,0,2,0,0.0,needs_annotation
+R_DGDG184_6_9_12_15,DGDG184_6_9_12_15,Digalactosyldiacylglycerol synthase (n-C18 4),2,0,2,0,0.0,needs_annotation
+R_DHAD1,DHAD1,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)",1,0,1,0,0.0,needs_annotation
+R_DHAD2,DHAD2,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)",1,0,1,0,0.0,needs_annotation
+R_DHDPRy,DHDPRy,Dihydrodipicolinate reductase (NADPH),3,0,3,0,0.0,needs_annotation
+R_DHDPS,DHDPS,Dihydrodipicolinate synthase,2,0,2,0,0.0,needs_annotation
+R_DHFR,DHFR,Dihydrofolate reductase,3,0,0,0,0.0,needs_annotation
+R_DHFS,DHFS,Dihydrofolate synthase,3,0,3,0,0.0,needs_annotation
+R_DHNAPHT,DHNAPHT,"1,4-dihydroxy-2-naphthoate phytyltransferase",3,0,3,0,0.0,needs_annotation
+R_DHNPA_1,DHNPA_1,Dihydroneopterin aldolase,1,0,1,0,0.0,needs_annotation
+R_DHORDi,DHORDi,Dihydoorotic acid dehydrogenase  irreversible ,2,0,2,0,0.0,needs_annotation
+R_DHORTS,DHORTS,Dihydroorotase,2,0,2,0,0.0,needs_annotation
+R_DHPPDA,DHPPDA,Diaminohydroxyphosphoribosylaminopyrimidine deaminase,3,0,3,0,0.0,needs_annotation
+R_DHQS,DHQS,3-dehydroquinate synthase,1,0,1,0,0.0,needs_annotation
+R_DHQTi,DHQTi,"3-dehydroquinate dehydratase, irreversible",2,0,2,0,0.0,needs_annotation
+R_DMATT,DMATT,Dimethylallyltranstransferase,2,0,2,0,0.0,needs_annotation
+R_DMPPS_syn,DMPPS_syn,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp),3,0,3,0,0.0,needs_annotation
+R_DMTPHT,DMTPHT,Demethylphylloquinone methyltransferase,2,0,2,0,0.0,needs_annotation
+R_DM_5mdru1p_c,DM_5mdru1p_c,5mdru1p Demand reaction,1,0,0,0,0.0,needs_annotation
+R_DM_PHB_c,DM_PHB_c,PHB Demand reaction,1,0,0,0,0.0,needs_annotation
+R_DM_cyanphy_c,DM_cyanphy_c,Cyanphy Demand reaction,1,0,0,0,0.0,needs_annotation
+R_DNAMTn2r,DNAMTn2r,DNA (cytosine-5-)-methyltransferase,2,0,2,0,0.0,needs_annotation
+R_DNMPPA,DNMPPA,Dihydroneopterin monophosphate dephosphorylase,2,0,0,0,0.0,needs_annotation
+R_DNTPPA,DNTPPA,Dihydroneopterin triphosphate pyrophosphatase,2,0,0,0,0.0,needs_annotation
+R_DPCOAK,DPCOAK,Dephospho-CoA kinase,2,0,2,0,0.0,needs_annotation
+R_DPGM,DPGM,Diphosphoglyceromutase,1,0,1,0,0.0,needs_annotation
+R_DPPS,DPPS,Decaprenyl synthase,2,0,2,0,0.0,needs_annotation
+R_DPR,DPR,2-dehydropantoate 2-reductase,3,0,0,0,0.0,needs_annotation
+R_DRBK,DRBK,Deoxyribokinase,2,0,0,0,0.0,needs_annotation
+R_DRPA,DRPA,Deoxyribose-phosphate aldolase,1,0,1,0,0.0,needs_annotation
+R_DTMPK,DTMPK,DTMP kinase,2,0,2,0,0.0,needs_annotation
+R_DVOCHR,DVOCHR,Divinyl protochlorophyllide a 8-vinyl-reductase,3,0,0,0,0.0,needs_annotation
+R_DXPRIi,DXPRIi,1-deoxy-D-xylulose reductoisomerase,3,0,3,0,0.0,needs_annotation
+R_DXPS,DXPS,1-deoxy-D-xylulose 5-phosphate synthase,3,0,3,0,0.0,needs_annotation
+R_EAR100y,EAR100y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C10:0),3,0,3,0,0.0,needs_annotation
+R_EAR120y,EAR120y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:0),3,0,3,0,0.0,needs_annotation
+R_EAR121y,EAR121y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:1),3,0,3,0,0.0,needs_annotation
+R_EAR140y,EAR140y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:0),3,0,3,0,0.0,needs_annotation
+R_EAR141y,EAR141y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1),3,0,3,0,0.0,needs_annotation
+R_EAR160y,EAR160y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0),3,0,3,0,0.0,needs_annotation
+R_EAR161y,EAR161y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:1),3,0,3,0,0.0,needs_annotation
+R_EAR180y,EAR180y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:0),3,0,3,0,0.0,needs_annotation
+R_EAR181y,EAR181y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:1),3,0,3,0,0.0,needs_annotation
+R_EAR40y,EAR40y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0),3,0,3,0,0.0,needs_annotation
+R_EAR60y,EAR60y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C6:0),3,0,3,0,0.0,needs_annotation
+R_EAR80y,EAR80y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0),3,0,3,0,0.0,needs_annotation
+R_EHGLAT,EHGLAT,L erythro 4 Hydroxyglutamate2 oxoglutarate aminotransferase,4,0,4,0,0.0,needs_annotation
+R_ENO,ENO,Enolase,1,0,1,0,0.0,needs_annotation
+R_EX_ac_e,EX_ac_e,Acetate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_akg_e,EX_akg_e,2-Oxoglutarate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_ala__L_e,EX_ala__L_e,L-Alanine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_arg__L_e,EX_arg__L_e,L-Arginine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_ca2_e,EX_ca2_e,Calcium exchange,1,0,0,0,0.0,needs_annotation
+R_EX_cit_e,EX_cit_e,Citrate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_co2_e,EX_co2_e,CO2 exchange,1,0,0,0,0.0,needs_annotation
+R_EX_co_e,EX_co_e,EX co LPAREN e RPAREN ,1,0,0,0,0.0,needs_annotation
+R_EX_cobalt2_e,EX_cobalt2_e,Co2+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_cu2_e,EX_cu2_e,Cu2+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_cynt_e,EX_cynt_e,Cyanate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_fe2_e,EX_fe2_e,Fe2+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_fe3_e,EX_fe3_e,Fe3+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_fru_e,EX_fru_e,D-Fructose exchange,1,0,0,0,0.0,needs_annotation
+R_EX_fum_e,EX_fum_e,Fumarate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_glc__D_e,EX_glc__D_e,D-Glucose exchange,1,0,0,0,0.0,needs_annotation
+R_EX_glcglyc_e,EX_glcglyc_e,Glcglyc exchange,1,0,0,0,0.0,needs_annotation
+R_EX_gln__L_e,EX_gln__L_e,L-Glutamine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_glu__L_e,EX_glu__L_e,L-Glutamate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_gly_e,EX_gly_e,Glycine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_h2_e,EX_h2_e,H2 exchange,1,0,0,0,0.0,needs_annotation
+R_EX_h2o_e,EX_h2o_e,H2O exchange,1,0,0,0,0.0,needs_annotation
+R_EX_h_e,EX_h_e,H+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_hco3_e,EX_hco3_e,EX hco3 LPAREN e RPAREN ,1,0,0,0,0.0,needs_annotation
+R_EX_his__L_e,EX_his__L_e,L-Histidine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_k_e,EX_k_e,K+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_leu__L_e,EX_leu__L_e,L-Leucine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_lys__L_e,EX_lys__L_e,L-Lysine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_mal__L_e,EX_mal__L_e,L-Malate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_mg2_e,EX_mg2_e,Mg exchange,1,0,0,0,0.0,needs_annotation
+R_EX_mn2_e,EX_mn2_e,Mn2+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_mobd_e,EX_mobd_e,Molybdate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_na1_e,EX_na1_e,Sodium exchange,1,0,0,0,0.0,needs_annotation
+R_EX_nh4_e,EX_nh4_e,Ammonia exchange,1,0,0,0,0.0,needs_annotation
+R_EX_ni2_e,EX_ni2_e,Ni2+ exchange,1,0,0,0,0.0,needs_annotation
+R_EX_no3_e,EX_no3_e,Nitrate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_o2_e,EX_o2_e,O2 exchange,1,0,0,0,0.0,needs_annotation
+R_EX_photon_e,EX_photon_e,Photon exchange,1,0,0,0,0.0,needs_annotation
+R_EX_pi_e,EX_pi_e,Phosphate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_pro__L_e,EX_pro__L_e,L-Proline exchange,1,0,0,0,0.0,needs_annotation
+R_EX_ptrc_e,EX_ptrc_e,Putrescine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_pyr_e,EX_pyr_e,Pyruvate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_ser__L_e,EX_ser__L_e,L-Serine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_so4_e,EX_so4_e,Sulfate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_spmd_e,EX_spmd_e,Spermidine exchange,1,0,0,0,0.0,needs_annotation
+R_EX_succ_e,EX_succ_e,Succinate exchange,1,0,0,0,0.0,needs_annotation
+R_EX_sucr_e,EX_sucr_e,Sucrose exchange,1,0,0,0,0.0,needs_annotation
+R_EX_urea_e,EX_urea_e,Urea exchange,1,0,0,0,0.0,needs_annotation
+R_EX_zn2_e,EX_zn2_e,Zinc exchange,1,0,0,0,0.0,needs_annotation
+R_FBA,FBA,Fructose-bisphosphate aldolase,2,0,2,0,0.0,needs_annotation
+R_FBA2,FBA2,D Fructose 1 phosphate D glyceraldehyde 3 phosphate lyase,1,0,1,0,0.0,needs_annotation
+R_FBA3,FBA3,"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",2,0,2,0,0.0,needs_annotation
+R_FBP,FBP,Fructose-bisphosphatase,4,0,4,0,0.0,needs_annotation
+R_FCLT,FCLT,Ferrochelatase,2,0,2,0,0.0,needs_annotation
+R_FDH6pp,FDH6pp,Formate Dehydrogenase (ferrocytochrome c6) (periplasm),2,0,2,0,0.0,needs_annotation
+R_FE2abcpp,FE2abcpp,Iron (II) transport via ABC system (periplasm),3,0,3,0,0.0,needs_annotation
+R_FE2tex,FE2tex,Iron (II) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_FE3abcpp,FE3abcpp,Iron (III) transport via ABC system (periplasm to cytoplasm),12,0,12,0,0.0,needs_annotation
+R_FE3tex,FE3tex,Iron (III) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_FMETTRS,FMETTRS,Methionyl-tRNA formyltransferase,2,0,2,0,0.0,needs_annotation
+R_FMNAT,FMNAT,FMN adenylyltransferase,3,0,3,0,0.0,needs_annotation
+R_FNOR,FNOR,Ferredoxin---NADP+ reductase,9,0,9,0,0.0,needs_annotation
+R_FOLD3,FOLD3,Dihydropteroate synthase,2,0,2,0,0.0,needs_annotation
+R_FOMETRi,FOMETRi,Aminomethyltransferase,2,0,2,0,0.0,needs_annotation
+R_FQR,FQR,Cyclic Electron Flow,3,0,3,0,0.0,needs_annotation
+R_FRTT,FRTT,Farnesyltranstransferase,2,0,2,0,0.0,needs_annotation
+R_FRUt3,FRUt3,D-fructose transport in via proton symport (periplasm),2,0,2,0,0.0,needs_annotation
+R_FRUtex,FRUtex,D-fructose transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_FTHFD,FTHFD,Formyltetrahydrofolate deformylase,2,0,2,0,0.0,needs_annotation
+R_FTHFLi,FTHFLi,Formate-tetrahydrofolate ligase,3,0,0,0,0.0,needs_annotation
+R_FTR,FTR,Ferredoxin thioredoxin reductase,3,0,3,0,0.0,needs_annotation
+R_FUM,FUM,Fumarase,2,0,2,0,0.0,needs_annotation
+R_FUMtex,FUMtex,Fumarate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_FUMtpp,FUMtpp,Fumarate transport via diffusion (periplasm to cytosol),2,0,0,0,0.0,needs_annotation
+R_G1PACT,G1PACT,Glucosamine-1-phosphate N-acetyltransferase,2,0,2,0,0.0,needs_annotation
+R_G1PTT,G1PTT,Glucose-1-phosphate thymidylyltransferase,6,0,6,0,0.0,needs_annotation
+R_G1SAT,G1SAT,Glutamate-1-semialdehyde aminotransferase,1,0,1,0,0.0,needs_annotation
+R_G3PAT160,G3PAT160,Glycerol-3-phosphate acyltransferase (C16:0),4,0,4,0,0.0,needs_annotation
+R_G3PAT161,G3PAT161,Glycerol-3-phosphate acyltransferase (C16:1),4,0,4,0,0.0,needs_annotation
+R_G3PAT180,G3PAT180,Glycerol-3-phosphate acyltransferase (C18:0),4,0,4,0,0.0,needs_annotation
+R_G3PAT181,G3PAT181,Glycerol-3-phosphate acyltransferase (C18:1),4,0,4,0,0.0,needs_annotation
+R_G3PAT181_9,G3PAT181_9,Glycerol-3-phosphate acyltransferase (C18 1),4,0,4,0,0.0,needs_annotation
+R_G3PAT182_9_12,G3PAT182_9_12,Glycerol-3-phosphate acyltransferase (C18 2),4,0,4,0,0.0,needs_annotation
+R_G3PAT183_6_9_12,G3PAT183_6_9_12,Glycerol-3-phosphate acyltransferase (C18 3),4,0,4,0,0.0,needs_annotation
+R_G3PAT183_9_12_15,G3PAT183_9_12_15,Glycerol-3-phosphate acyltransferase (C18 3),4,0,4,0,0.0,needs_annotation
+R_G3PAT184_6_9_12_15,G3PAT184_6_9_12_15,Glycerol-3-phosphate acyltransferase (C18 4),4,0,4,0,0.0,needs_annotation
+R_G3PD,G3PD,Glycerol-3-phosphate dehydrogenase (FAD),2,0,2,0,0.0,needs_annotation
+R_G3PD1ir,G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,3,0,3,0,0.0,needs_annotation
+R_G5SADs,G5SADs,L-glutamate 5-semialdehyde dehydratase (spontaneous),1,0,0,0,0.0,needs_annotation
+R_G5SD,G5SD,Glutamate-5-semialdehyde dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_G6PBDH,G6PBDH,Beta-D-Glucose-6-phosphate NADP+ 1-oxoreductase,2,0,2,0,0.0,needs_annotation
+R_G6PDH2r,G6PDH2r,Glucose 6-phosphate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_G6PI3,G6PI3,Glucose 6 phosphate isomerase,1,0,1,0,0.0,needs_annotation
+R_GALKr,GALKr,Galactokinase,2,0,0,0,0.0,needs_annotation
+R_GALUi,GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),3,0,0,0,0.0,needs_annotation
+R_GAPD,GAPD,Glyceraldehyde-3-phosphate dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_GAPDi_nadp,GAPDi_nadp,Glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating),3,0,3,0,0.0,needs_annotation
+R_GARFT,GARFT,Phosphoribosylglycinamide formyltransferase,4,0,4,0,0.0,needs_annotation
+R_GCALDD,GCALDD,Glycolaldehyde dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_GCATENEC,GCATENEC,Gamma carotene bcyclase,1,0,0,0,0.0,needs_annotation
+R_GF6PTA,GF6PTA,Glutamine-fructose-6-phosphate transaminase,2,0,2,0,0.0,needs_annotation
+R_GFUCS,GFUCS,GDP-L-fucose synthase,3,0,3,0,0.0,needs_annotation
+R_GGDPR,GGDPR,Geranylgeranyl diphosphate reductase,3,0,3,0,0.0,needs_annotation
+R_GGPP,GGPP,Glucosylglycerol 3-phosphatase,2,0,2,0,0.0,needs_annotation
+R_GGPS,GGPS,Glucosylglycerol-phosphate synthase,2,0,2,0,0.0,needs_annotation
+R_GHMT2r,GHMT2r,"Glycine hydroxymethyltransferase, reversible",2,0,2,0,0.0,needs_annotation
+R_GK1,GK1,Guanylate kinase (GMP:ATP),2,0,2,0,0.0,needs_annotation
+R_GLBRAN2,GLBRAN2,"1,4-alpha-glucan branching enzyme (glycogen -> bglycogen)",1,0,1,0,0.0,needs_annotation
+R_GLCGLYCabcpp_syn,GLCGLYCabcpp_syn,Glucosylglycerol ABC transporter (periplasm),12,0,12,0,0.0,needs_annotation
+R_GLCGLYCtex,GLCGLYCtex,Glucosylglycerol transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_GLCP,GLCP,Glycogen phosphorylase,4,0,4,0,0.0,needs_annotation
+R_GLCP2,GLCP2,Glycogen phosphorylase,2,0,2,0,0.0,needs_annotation
+R_GLCS1,GLCS1,Glycogen synthase (ADPGlc),1,0,1,0,0.0,needs_annotation
+R_GLCt2pp,GLCt2pp,D-glucose transport in via proton symport (periplasm),2,0,2,0,0.0,needs_annotation
+R_GLCtex,GLCtex,Glucose transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_GLGC,GLGC,Glucose-1-phosphate adenylyltransferase,3,0,3,0,0.0,needs_annotation
+R_GLMS_syn,GLMS_syn,L-glutamate ferredoxin oxidoreductase,4,0,4,0,0.0,needs_annotation
+R_GLNS,GLNS,Glutamine synthetase,6,0,6,0,0.0,needs_annotation
+R_GLNTRAT,GLNTRAT,Glutamyl-tRNA(Gln) amidotransferase,12,0,12,0,0.0,needs_annotation
+R_GLNabcpp,GLNabcpp,L-glutamine transport via ABC system (periplasm),21,0,21,0,0.0,needs_annotation
+R_GLNtex,GLNtex,L-glutamine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_GLU5K,GLU5K,Glutamate 5-kinase,2,0,2,0,0.0,needs_annotation
+R_GLUCYS,GLUCYS,Gamma-glutamylcysteine synthetase,3,0,3,0,0.0,needs_annotation
+R_GLUDC,GLUDC,Glutamate Decarboxylase,2,0,2,0,0.0,needs_annotation
+R_GLUDy,GLUDy,Glutamate dehydrogenase (NADP),3,0,3,0,0.0,needs_annotation
+R_GLUK_syn,GLUK_syn,Glucokinase,2,0,2,0,0.0,needs_annotation
+R_GLUN,GLUN,Glutaminase,2,0,2,0,0.0,needs_annotation
+R_GLUPRT,GLUPRT,Glutamine phosphoribosyldiphosphate amidotransferase,3,0,3,0,0.0,needs_annotation
+R_GLUR,GLUR,Glutamate racemase,1,0,1,0,0.0,needs_annotation
+R_GLUSx,GLUSx,Glutamate synthase  NADH2 ,8,0,8,0,0.0,needs_annotation
+R_GLUTRR,GLUTRR,Glutamyl-tRNA reductase,3,0,3,0,0.0,needs_annotation
+R_GLUTRS,GLUTRS,Glutamyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_GLUt2rpp,GLUt2rpp,"L-glutamate transport via proton symport, reversible (periplasm)",6,0,6,0,0.0,needs_annotation
+R_GLUt4pp,GLUt4pp,Na+/glutamate symport (periplasm),2,0,2,0,0.0,needs_annotation
+R_GLUtex,GLUtex,L-glutamate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_GLXCL,GLXCL,Glyoxalate carboligase,6,0,6,0,0.0,needs_annotation
+R_GLXO3r,GLXO3r,Glyoxylate dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_GLYALDDr,GLYALDDr,D-Glyceraldehyde dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_GLYCDx,GLYCDx,Glycerol dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_GLYCK,GLYCK,Glycerate kinase,2,0,2,0,0.0,needs_annotation
+R_GLYCL,GLYCL,Glycine Cleavage System,12,0,12,0,0.0,needs_annotation
+R_GLYCLTDx,GLYCLTDx,Glycolate dehydrogenase (NAD),12,0,12,0,0.0,needs_annotation
+R_GLYCL_2,GLYCL_2,"Glycine cleavage system, cytosol",4,0,4,0,0.0,needs_annotation
+R_GLYCTO1,GLYCTO1,Glycolate oxidase,8,0,8,0,0.0,needs_annotation
+R_GLYK,GLYK,Glycerol kinase,2,0,2,0,0.0,needs_annotation
+R_GLYOX,GLYOX,Hydroxyacylglutathione hydrolase,4,0,4,0,0.0,needs_annotation
+R_GLYTRS,GLYTRS,Glycyl-tRNA synthetase,6,0,6,0,0.0,needs_annotation
+R_GLYabcpp,GLYabcpp,Glycine transport via ABC system,15,0,15,0,0.0,needs_annotation
+R_GLYtex,GLYtex,Glycine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_GMAND,GMAND,GDP-D-mannose dehydratase,2,0,2,0,0.0,needs_annotation
+R_GMPS,GMPS,GMP synthase,3,0,3,0,0.0,needs_annotation
+R_GMPS2,GMPS2,GMP synthase,4,0,4,0,0.0,needs_annotation
+R_GND,GND,Phosphogluconate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_GRTT,GRTT,Geranyltranstransferase,2,0,2,0,0.0,needs_annotation
+R_GTHPi,GTHPi,Glutathione peridoxase,4,0,4,0,0.0,needs_annotation
+R_GTHRDH_syn,GTHRDH_syn,Glutathione hydralase (periplasmic),2,0,2,0,0.0,needs_annotation
+R_GTHS,GTHS,Glutathione synthetase,3,0,3,0,0.0,needs_annotation
+R_GTPCI,GTPCI,GTP cyclohydrolase I,2,0,2,0,0.0,needs_annotation
+R_GTPCII,GTPCII,GTP cyclohydrolase II,2,0,2,0,0.0,needs_annotation
+R_GUACYC,GUACYC,Guanylate cyclase,1,0,1,0,0.0,needs_annotation
+R_H2ASE_syn,H2ASE_syn,Bidirectional [NiFe] Hydrogenase,10,0,10,0,0.0,needs_annotation
+R_H2CO3_NAt_syn,H2CO3_NAt_syn,Bicarbonate transport (Na/HCO3 cotransport periplasme),4,0,4,0,0.0,needs_annotation
+R_H2Otex,H2Otex,H2O transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_H2Otpp,H2Otpp,H2O transport via diffusion (periplasm),1,0,1,0,0.0,needs_annotation
+R_H2Otu_syn,H2Otu_syn,H2O transport via diffusion (tilacoid),1,0,1,0,0.0,needs_annotation
+R_H2tex,H2tex,Hydrogen transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_H2tpp,H2tpp,Hydrogen transport diffusion (periplasm),1,0,0,0,0.0,needs_annotation
+R_HCO3E,HCO3E,HCO3 equilibration reaction,2,0,2,0,0.0,needs_annotation
+R_HCO3tex,HCO3tex,Bicarbonate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_HEMEAS,HEMEAS,Heme A synthase,2,0,2,0,0.0,needs_annotation
+R_HEMEOS,HEMEOS,Heme O synthase,3,0,3,0,0.0,needs_annotation
+R_HEX1,HEX1,Hexokinase (D-glucose:ATP),2,0,2,0,0.0,needs_annotation
+R_HEX7,HEX7,Hexokinase (D-fructose:ATP),2,0,2,0,0.0,needs_annotation
+R_HGPHT,HGPHT,Homogenitisate phytyltransferase,3,0,3,0,0.0,needs_annotation
+R_HIBDkt,HIBDkt,3-hydroxyisobutyrate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_HISTD,HISTD,Histidinol dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_HISTP,HISTP,Histidinol-phosphatase,2,0,0,0,0.0,needs_annotation
+R_HISTRS,HISTRS,Histidyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_HISabcpp,HISabcpp,L-histidine transport via ABC system (periplasm),21,0,21,0,0.0,needs_annotation
+R_HIStex,HIStex,L-histidine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_HMBS,HMBS,Hydroxymethylbilane synthase,2,0,2,0,0.0,needs_annotation
+R_HOXG,HOXG,Heme oxygenase 1,8,0,8,0,0.0,needs_annotation
+R_HPPK,HPPK,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,2,0,2,0,0.0,needs_annotation
+R_HPROa,HPROa,L hydroxyproline reductase  NAD ,3,0,3,0,0.0,needs_annotation
+R_HPROb,HPROb,L hydroxyproline reductase  NADP ,3,0,3,0,0.0,needs_annotation
+R_HPYRRx,HPYRRx,Hydroxypyruvate reductase (NADH),6,0,6,0,0.0,needs_annotation
+R_HSDxi,HSDxi,Homoserine dehydrogenase  NADH   irreversible,3,0,3,0,0.0,needs_annotation
+R_HSERTA,HSERTA,Homoserine O trans acetylase,2,0,0,0,0.0,needs_annotation
+R_HSK,HSK,Homoserine kinase,2,0,2,0,0.0,needs_annotation
+R_HSTPT,HSTPT,Histidinol-phosphate transaminase,2,0,2,0,0.0,needs_annotation
+R_Htex,Htex,Proton transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_ICDHyr,ICDHyr,Isocitrate dehydrogenase (NADP),2,0,2,0,0.0,needs_annotation
+R_ICHORS,ICHORS,Isochorismate synthase,1,0,1,0,0.0,needs_annotation
+R_IG3PS,IG3PS,Imidazole-glycerol-3-phosphate synthase,4,0,4,0,0.0,needs_annotation
+R_IGPDH,IGPDH,Imidazoleglycerol-phosphate dehydratase,1,0,1,0,0.0,needs_annotation
+R_IGPS,IGPS,Indole-3-glycerol-phosphate synthase,2,0,2,0,0.0,needs_annotation
+R_ILETA,ILETA,Isoleucine transaminase,2,0,2,0,0.0,needs_annotation
+R_ILETRS,ILETRS,Isoleucyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_IMACTD,IMACTD,Imidazole acetaldeyde dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_IMPC,IMPC,IMP cyclohydrolase,2,0,2,0,0.0,needs_annotation
+R_IMPD,IMPD,IMP dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_IPDDI,IPDDI,Isopentenyl-diphosphate D-isomerase,1,0,1,0,0.0,needs_annotation
+R_IPDPS_syn,IPDPS_syn,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp),3,0,3,0,0.0,needs_annotation
+R_IPMD,IPMD,3-isopropylmalate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_IPPMIa,IPPMIa,3-isopropylmalate dehydratase,2,0,2,0,0.0,needs_annotation
+R_IPPMIb,IPPMIb,2-isopropylmalate hydratase,4,0,4,0,0.0,needs_annotation
+R_IPPS,IPPS,2-isopropylmalate synthase,3,0,3,0,0.0,needs_annotation
+R_KARA1,KARA1,"Ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)",2,0,2,0,0.0,needs_annotation
+R_KARA2,KARA2,Ketol-acid reductoisomerase (2-Acetolactate),3,0,3,0,0.0,needs_annotation
+R_KAS14,KAS14,Beta-ketoacyl-ACP synthase,3,0,3,0,0.0,needs_annotation
+R_KAS15,KAS15,Beta-ketoacyl-ACP synthase (2),3,0,3,0,0.0,needs_annotation
+R_Kt2pp,Kt2pp,Potassium transport in via proton symport (periplasm),6,0,6,0,0.0,needs_annotation
+R_Ktex,Ktex,Potassium transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_LALDO,LALDO,D-Lactaldehyde NAD+ oxidoreductase (glutathione-formylating),3,0,3,0,0.0,needs_annotation
+R_LCARS,LCARS,"Lacaldehyde reductase (S-propane-1,2-diol forming)",3,0,3,0,0.0,needs_annotation
+R_LDH_D,LDH_D,D-lactate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_LEUTA,LEUTA,Leucine transaminase,2,0,2,0,0.0,needs_annotation
+R_LEUTAi,LEUTAi,Leucine transaminase (irreversible),2,0,2,0,0.0,needs_annotation
+R_LEUTRS,LEUTRS,Leucyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_LEUabcpp,LEUabcpp,L-leucine transport via ABC system (periplasm),15,0,15,0,0.0,needs_annotation
+R_LEUtex,LEUtex,L-leucine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_LGTHL,LGTHL,Lactoylglutathione lyase,2,0,2,0,0.0,needs_annotation
+R_LPADSS,LPADSS,Lipid A disaccaride synthase,2,0,2,0,0.0,needs_annotation
+R_LTHRK,LTHRK,L threonine kinase,2,0,0,0,0.0,needs_annotation
+R_LYCOPC,LYCOPC,Lycopene cyclase,1,0,0,0,0.0,needs_annotation
+R_LYSDC,LYSDC,Lysine decarboxylase,2,0,2,0,0.0,needs_annotation
+R_LYSTRS,LYSTRS,Lysyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_LYSabcpp,LYSabcpp,L-lysine transport via ABC system (periplasm),6,0,6,0,0.0,needs_annotation
+R_LYStex,LYStex,L-lysine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_MALT,MALT,Alpha glucosidase,2,0,2,0,0.0,needs_annotation
+R_MALtex,MALtex,Malate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_MALtpp,MALtpp,Malate transport via diffusion (periplasm to cytosol),2,0,0,0,0.0,needs_annotation
+R_MAN1PT,MAN1PT,Mannose 1 phosphate guanylyltransferase,6,0,6,0,0.0,needs_annotation
+R_MAN1PT2,MAN1PT2,Mannose-1-phosphate guanylyltransferase (GDP),6,0,6,0,0.0,needs_annotation
+R_MAN6PI,MAN6PI,Mannose-6-phosphate isomerase,1,0,1,0,0.0,needs_annotation
+R_MCOATA,MCOATA,Malonyl-CoA-ACP transacylase,2,0,2,0,0.0,needs_annotation
+R_MDH,MDH,Malate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_ME2,ME2,Malic enzyme (NADP),2,0,2,0,0.0,needs_annotation
+R_MECDPDH_syn,MECDPDH_syn,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase",2,0,2,0,0.0,needs_annotation
+R_MECDPS,MECDPS,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",1,0,1,0,0.0,needs_annotation
+R_MEHLER,MEHLER,Mehler reaction,6,0,6,0,0.0,needs_annotation
+R_MEPCT,MEPCT,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,3,0,3,0,0.0,needs_annotation
+R_METAT,METAT,Methionine adenosyltransferase,3,0,3,0,0.0,needs_annotation
+R_METS,METS,Methionine synthase,2,0,2,0,0.0,needs_annotation
+R_METTRS,METTRS,Methionyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_MG2tex,MG2tex,Magnesium (Mg+2) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_MG2uabcpp,MG2uabcpp,"Magnesium (Mg+2) ABC transporter (ubtake, periplasm)",6,0,6,0,0.0,needs_annotation
+R_MGDG160,MGDG160,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C16 0)",2,0,2,0,0.0,needs_annotation
+R_MGDG161,MGDG161,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C16 1)",2,0,2,0,0.0,needs_annotation
+R_MGDG180,MGDG180,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 0)",2,0,2,0,0.0,needs_annotation
+R_MGDG181,MGDG181,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 1)",2,0,2,0,0.0,needs_annotation
+R_MGDG181_9,MGDG181_9,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 1)",2,0,2,0,0.0,needs_annotation
+R_MGDG182_9_12,MGDG182_9_12,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 2)",2,0,2,0,0.0,needs_annotation
+R_MGDG183_6_9_12,MGDG183_6_9_12,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 3)",2,0,2,0,0.0,needs_annotation
+R_MGDG183_9_12_15,MGDG183_9_12_15,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 3)",2,0,2,0,0.0,needs_annotation
+R_MGDG184_6_9_12_15,MGDG184_6_9_12_15,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 4)",2,0,2,0,0.0,needs_annotation
+R_MGSA,MGSA,Methylglyoxal synthase,1,0,1,0,0.0,needs_annotation
+R_MI1PP,MI1PP,Myo-inositol 1-phosphatase,2,0,2,0,0.0,needs_annotation
+R_MI1PS,MI1PS,Myo Inositol 1 phosphate synthase,2,0,2,0,0.0,needs_annotation
+R_MNt2pp,MNt2pp,Manganese (Mn+2) transport in via proton symport (periplasm),6,0,6,0,0.0,needs_annotation
+R_MNtex,MNtex,Manganese (Mn+2) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_MOBDabcpp,MOBDabcpp,Molybdate transport via ABC system (periplasm),6,0,6,0,0.0,needs_annotation
+R_MOBDtex,MOBDtex,Molybdate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_MOHMT,MOHMT,3-methyl-2-oxobutanoate hydroxymethyltransferase,3,0,3,0,0.0,needs_annotation
+R_MPBQ,MPBQ,2-methyl-6-phytylbenzoquinone methyltransferase,2,0,2,0,0.0,needs_annotation
+R_MPML,MPML,Mg-protoporphyrin IX magnesium-lyase,12,0,12,0,0.0,needs_annotation
+R_MPOMC1,MPOMC1," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",8,0,8,0,0.0,needs_annotation
+R_MPOMC2,MPOMC2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH h2o oxidoreductase (hydroxylating)",3,0,3,0,0.0,needs_annotation
+R_MPOMMM,MPOMMM,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",8,0,8,0,0.0,needs_annotation
+R_MPOMMM2,MPOMMM2,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH ",2,0,2,0,0.0,needs_annotation
+R_MPOMOR,MPOMOR,Magnesium-protoporphyrin-IX 13-monomethyl ester NADPH oxygen oxidoreductase (hydroxylating),8,0,8,0,0.0,needs_annotation
+R_MPOMOR2,MPOMOR2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH",2,0,2,0,0.0,needs_annotation
+R_MPOMT,MPOMT,S-adenosyl-L-methionine magnesium-protoporphyrin-IX O-methyltransferase,2,0,2,0,0.0,needs_annotation
+R_MTAP,MTAP,5  methylthioadenosine phosphorylase,2,0,2,0,0.0,needs_annotation
+R_MTHFC,MTHFC,Methenyltetrahydrofolate cyclohydrolase,2,0,2,0,0.0,needs_annotation
+R_MTHFD,MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),2,0,2,0,0.0,needs_annotation
+R_MTHFD2i,MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,2,0,2,0,0.0,needs_annotation
+R_MTHFR2,MTHFR2,"5,10-methylenetetrahydrofolate reductase (NADH)",3,0,0,0,0.0,needs_annotation
+R_MTRI,MTRI,5-methylthioribose-1-phosphate isomerase,1,0,1,0,0.0,needs_annotation
+R_NABTNO,NABTNO,N4 AcetylaminobutanalNAD oxidoreductase,3,0,3,0,0.0,needs_annotation
+R_NADH5,NADH5,NADH dehydrogenase (ubiquinone-8 ),6,0,6,0,0.0,needs_annotation
+R_NADK,NADK,NAD kinase,4,0,4,0,0.0,needs_annotation
+R_NADN,NADN,NAD nucleosidase,2,0,0,0,0.0,needs_annotation
+R_NADS2,NADS2,Nicotinate-mononucleotide adenylyltransferase,4,0,4,0,0.0,needs_annotation
+R_NADTRHD,NADTRHD,NAD transhydrogenase,4,0,4,0,0.0,needs_annotation
+R_NAR_syn,NAR_syn,Ferredoxin-nitrate reductase,3,0,3,0,0.0,needs_annotation
+R_NAt3pp,NAt3pp,Sodium transport out via proton antiport (cytoplasm to periplasm),12,0,12,0,0.0,needs_annotation
+R_NAtex,NAtex,Sodium transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_NDH1_1p,NDH1_1p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),54,0,54,0,0.0,needs_annotation
+R_NDH1_1u,NDH1_1u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),54,0,54,0,0.0,needs_annotation
+R_NDH1_2p,NDH1_2p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),54,0,54,0,0.0,needs_annotation
+R_NDH1_2u,NDH1_2u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),54,0,54,0,0.0,needs_annotation
+R_NDH1_3u,NDH1_3u,Active co2 transporter facilitator (tilacoide),95,0,95,0,0.0,needs_annotation
+R_NDH1_4pp,NDH1_4pp,Active co2 transporter facilitator (periplasm) ,90,0,90,0,0.0,needs_annotation
+R_NDH2_syn,NDH2_syn,NADH dehydrogenase 2 (plastoquinone-8) (tilacoide),3,0,3,0,0.0,needs_annotation
+R_NDPK1,NDPK1,Nucleoside-diphosphate kinase (ATP:GDP),2,0,2,0,0.0,needs_annotation
+R_NDPK10,NDPK10,Nucleoside-diphosphate kinase (ATP dIDP),2,0,2,0,0.0,needs_annotation
+R_NDPK2,NDPK2,Nucleoside-diphosphate kinase (ATP:UDP),2,0,2,0,0.0,needs_annotation
+R_NDPK3,NDPK3,Nucleoside-diphosphate kinase (ATP:CDP),2,0,2,0,0.0,needs_annotation
+R_NDPK4,NDPK4,Nucleoside-diphosphate kinase (ATP:dTDP),2,0,2,0,0.0,needs_annotation
+R_NDPK5,NDPK5,Nucleoside-diphosphate kinase (ATP:dGDP),2,0,2,0,0.0,needs_annotation
+R_NDPK6,NDPK6,Nucleoside-diphosphate kinase (ATP:dUDP),2,0,2,0,0.0,needs_annotation
+R_NDPK7,NDPK7,Nucleoside-diphosphate kinase (ATP:dCDP),2,0,2,0,0.0,needs_annotation
+R_NDPK8,NDPK8,Nucleoside-diphosphate kinase (ATP:dADP),2,0,2,0,0.0,needs_annotation
+R_NDPK9,NDPK9,Nucleoside diphosphate kinase  ATPIDP ,2,0,2,0,0.0,needs_annotation
+R_NH4tex,NH4tex,Ammonia transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_NH4tpp_1,NH4tpp_1,Ammonia ireversible transport (periplasm),6,0,6,0,0.0,needs_annotation
+R_NI2tex,NI2tex,Nickel transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_NI2uabcpp,NI2uabcpp,"Nickel transport via ABC system (uptake, periplasm)",9,0,9,0,0.0,needs_annotation
+R_NMNAT,NMNAT,Nicotinamide-nucleotide adenylyltransferase,3,0,3,0,0.0,needs_annotation
+R_NMNS,NMNS,NMN synthetase,3,0,3,0,0.0,needs_annotation
+R_NNATr,NNATr,Nicotinate-nucleotide adenylyltransferase,6,0,6,0,0.0,needs_annotation
+R_NNDPR,NNDPR,Nicotinate-nucleotide diphosphorylase (carboxylating),3,0,3,0,0.0,needs_annotation
+R_NO3abcpp,NO3abcpp,Nitrate transport via ABC system (periplasm),9,0,9,0,0.0,needs_annotation
+R_NO3tex,NO3tex,Nitrate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_NOR_syn,NOR_syn,Ferredoxin-Nitrite Reductase,3,0,3,0,0.0,needs_annotation
+R_NPHS,NPHS,Naphthoate synthase,1,0,1,0,0.0,needs_annotation
+R_NTD4,NTD4,5'-nucleotidase (CMP),4,0,4,0,0.0,needs_annotation
+R_NTD7,NTD7,5'-nucleotidase (AMP),4,0,4,0,0.0,needs_annotation
+R_NTPP2,NTPP2,Nucleoside triphosphate pyrophosphorylase (gtp),2,0,2,0,0.0,needs_annotation
+R_NTPP4,NTPP4,Nucleoside triphosphate pyrophosphorylase (ctp),2,0,2,0,0.0,needs_annotation
+R_NTPP8,NTPP8,Nucleoside triphosphate pyrophosphorylase (utp),2,0,2,0,0.0,needs_annotation
+R_NTPTP1,NTPTP1,Nucleoside triphosphate tripolyhydrolase,2,0,2,0,0.0,needs_annotation
+R_O2tex,O2tex,Oxygen transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_O2tpp,O2tpp,O2 transport via diffusion (periplasm),1,0,0,0,0.0,needs_annotation
+R_O2tu,O2tu,"O2 transport (diffusion), lumen",1,0,0,0,0.0,needs_annotation
+R_OCBT,OCBT,Ornithine carbamoyltransferase,2,0,2,0,0.0,needs_annotation
+R_OMCDC,OMCDC,2-Oxo-4-methyl-3-carboxypentanoate decarboxylation,2,0,0,0,0.0,needs_annotation
+R_OMPDC,OMPDC,Orotidine-5'-phosphate decarboxylase,2,0,2,0,0.0,needs_annotation
+R_OPHBDC,OPHBDC,Octaprenyl-hydroxybenzoate decarboxylase,4,0,4,0,0.0,needs_annotation
+R_ORNTA,ORNTA,Ornithine transaminase,2,0,0,0,0.0,needs_annotation
+R_ORNTAC,ORNTAC,Ornithine transacetylase,4,0,4,0,0.0,needs_annotation
+R_ORPT,ORPT,Orotate phosphoribosyltransferase,2,0,2,0,0.0,needs_annotation
+R_OXADC,OXADC,Oxalate decarboxylase,2,0,2,0,0.0,needs_annotation
+R_OXGDC2,OXGDC2,2-oxoglutarate decarboxylase,3,0,3,0,0.0,needs_annotation
+R_P5CD,P5CD,1-pyrroline-5-carboxylate dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_P5CR,P5CR,Pyrroline-5-carboxylate reductase,3,0,3,0,0.0,needs_annotation
+R_P5CRx,P5CRx,Pyrroline-5-carboxylate reductase(nadh),3,0,3,0,0.0,needs_annotation
+R_PANTS,PANTS,Pantothenate synthase,3,0,3,0,0.0,needs_annotation
+R_PAPA160,PAPA160,Phosphatidate phosphatase (n-C16:0),2,0,0,0,0.0,needs_annotation
+R_PAPA161,PAPA161,Phosphatidate phosphatase (n-C16:1),2,0,0,0,0.0,needs_annotation
+R_PAPA180,PAPA180,Phosphatidate phosphatase (n-C18:0),2,0,0,0,0.0,needs_annotation
+R_PAPA181,PAPA181,Phosphatidate phosphatase (n-C18:1),2,0,0,0,0.0,needs_annotation
+R_PAPA181_9,PAPA181_9,Phosphatidate phosphatase (n-C18 1),2,0,0,0,0.0,needs_annotation
+R_PAPA182_9_12,PAPA182_9_12,Phosphatidate phosphatase (n-C18 2),2,0,0,0,0.0,needs_annotation
+R_PAPA183_6_9_12,PAPA183_6_9_12,Phosphatidate phosphatase (n-C18 3),2,0,0,0,0.0,needs_annotation
+R_PAPA183_9_12_15,PAPA183_9_12_15,Phosphatidate phosphatase (n-C18 3),2,0,0,0,0.0,needs_annotation
+R_PAPA184_6_9_12_15,PAPA184_6_9_12_15,Phosphatidate phosphatase (n-C18 4),2,0,0,0,0.0,needs_annotation
+R_PAPPT3,PAPPT3,"Phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)",2,0,2,0,0.0,needs_annotation
+R_PAPSR,PAPSR,Phosphoadenylyl-sulfate reductase (thioredoxin),2,0,2,0,0.0,needs_annotation
+R_PC11M,PC11M,Precorrin-4 C11-methyltransferase,2,0,2,0,0.0,needs_annotation
+R_PC17M,PC17M,Precorrin-3B C17-methyltransferase,2,0,2,0,0.0,needs_annotation
+R_PC20M,PC20M,Precorrin-2 C20-methyltransferase,2,0,2,0,0.0,needs_annotation
+R_PC6AR,PC6AR,Precorrin-6A reductase,3,0,3,0,0.0,needs_annotation
+R_PC6YM,PC6YM,"Precorrin-6Y C5,15-methyltransferase (decarboxylating)",2,0,2,0,0.0,needs_annotation
+R_PC8XM,PC8XM,Precorrin-8X methylmutase,6,0,6,0,0.0,needs_annotation
+R_PDH,PDH,Pyruvate dehydrogenase,9,0,9,0,0.0,needs_annotation
+R_PDHa,PDHa,Pyruvate dehydrogenase (lipoamide),3,0,3,0,0.0,needs_annotation
+R_PDHbr,PDHbr,Pyruvate dehydrogenase (dihydrolipoamide) reversible,2,0,2,0,0.0,needs_annotation
+R_PDHcr,PDHcr,Pyruvate dehydrogenase (dihydrolipoamide dehydrogenase) reversible,2,0,2,0,0.0,needs_annotation
+R_PDX5POi,PDX5POi,Pyridoxine 5'-phosphate oxidase,2,0,2,0,0.0,needs_annotation
+R_PDX5PS,PDX5PS,Pyridoxine 5'-phosphate synthase,3,0,3,0,0.0,needs_annotation
+R_PFK,PFK,Phosphofructokinase,2,0,2,0,0.0,needs_annotation
+R_PFK_2,PFK_2,Phosphofructokinase,2,0,2,0,0.0,needs_annotation
+R_PFK_3,PFK_3,Phosphofructokinase (s7p),2,0,2,0,0.0,needs_annotation
+R_PGAMT,PGAMT,Phosphoglucosamine mutase,2,0,2,0,0.0,needs_annotation
+R_PGCD,PGCD,Phosphoglycerate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_PGI,PGI,Glucose-6-phosphate isomerase,1,0,1,0,0.0,needs_annotation
+R_PGK,PGK,Phosphoglycerate kinase,2,0,2,0,0.0,needs_annotation
+R_PGL,PGL,6-phosphogluconolactonase,2,0,2,0,0.0,needs_annotation
+R_PGLYCP,PGLYCP,Phosphoglycolate phosphatase,4,0,4,0,0.0,needs_annotation
+R_PGM,PGM,Phosphoglycerate mutase,3,0,3,0,0.0,needs_annotation
+R_PGMT,PGMT,Phosphoglucomutase,2,0,2,0,0.0,needs_annotation
+R_PGPP160,PGPP160,Phosphatidylglycerol phosphate phosphatase (n-C16:0),2,0,0,0,0.0,needs_annotation
+R_PGPP161,PGPP161,Phosphatidylglycerol phosphate phosphatase (n-C16:1),2,0,0,0,0.0,needs_annotation
+R_PGPP180,PGPP180,Phosphatidylglycerol phosphate phosphatase (n-C18:0),2,0,0,0,0.0,needs_annotation
+R_PGPP181,PGPP181,Phosphatidylglycerol phosphate phosphatase (n-C18:1),2,0,0,0,0.0,needs_annotation
+R_PGPP181_9,PGPP181_9,Phosphatidylglycerol phosphate phosphatase (n-C18 1),2,0,0,0,0.0,needs_annotation
+R_PGPP182_9_12,PGPP182_9_12,Phosphatidylglycerol phosphate phosphatase (n-C18 2),2,0,0,0,0.0,needs_annotation
+R_PGPP183_6_9_12,PGPP183_6_9_12,Phosphatidylglycerol phosphate phosphatase (n-C18 3),2,0,0,0,0.0,needs_annotation
+R_PGPP183_9_12_15,PGPP183_9_12_15,Phosphatidylglycerol phosphate phosphatase (n-C18 3),2,0,0,0,0.0,needs_annotation
+R_PGPP184_6_9_12_15,PGPP184_6_9_12_15,Phosphatidylglycerol phosphate phosphatase (n-C18 4),2,0,0,0,0.0,needs_annotation
+R_PGSA160,PGSA160,Phosphatidylglycerol synthase (n-C16:0),2,0,2,0,0.0,needs_annotation
+R_PGSA161,PGSA161,Phosphatidylglycerol synthase (n-C16:1),2,0,2,0,0.0,needs_annotation
+R_PGSA180,PGSA180,Phosphatidylglycerol synthase (n-C18:0),2,0,2,0,0.0,needs_annotation
+R_PGSA181,PGSA181,Phosphatidylglycerol synthase (n-C18:1),2,0,2,0,0.0,needs_annotation
+R_PGSA181_9,PGSA181_9,Phosphatidylglycerol synthase (n-C18 1),2,0,2,0,0.0,needs_annotation
+R_PGSA182_9_12,PGSA182_9_12,Phosphatidylglycerol synthase (n-C18 2),2,0,2,0,0.0,needs_annotation
+R_PGSA183_6_9_12,PGSA183_6_9_12,Phosphatidylglycerol synthase (n-C18 3),2,0,2,0,0.0,needs_annotation
+R_PGSA183_9_12_15,PGSA183_9_12_15,Phosphatidylglycerol synthase (n-C18 3),2,0,2,0,0.0,needs_annotation
+R_PGSA184_6_9_12_15,PGSA184_6_9_12_15,Phosphatidylglycerol synthase (n-C18 4),2,0,2,0,0.0,needs_annotation
+R_PHBS_syn,PHBS_syn,PHB synthetasa,4,0,4,0,0.0,needs_annotation
+R_PHCD,PHCD,L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_PHETA1,PHETA1,Phenylalanine transaminase,6,0,6,0,0.0,needs_annotation
+R_PHETRS,PHETRS,Phenylalanyl-tRNA synthetase,6,0,6,0,0.0,needs_annotation
+R_PHOtex,PHOtex,Photon transport ext,1,0,0,0,0.0,needs_annotation
+R_PHOtpp,PHOtpp,Photon transport pp,1,0,0,0,0.0,needs_annotation
+R_PHYTEDH1,PHYTEDH1,Phytoene dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_PHYTEDH2,PHYTEDH2,Phytoene dehydrogenase(2),2,0,2,0,0.0,needs_annotation
+R_PHYTES,PHYTES,Geranylgeranyl-diphosphate geranylgeranyl-diphosphate geranylgeranyltransferase,1,0,1,0,0.0,needs_annotation
+R_PHYTES2,PHYTES2,Prephytoene diphosphate geranylgeranyl-diphosphategeranylgeranyltransferase,1,0,1,0,0.0,needs_annotation
+R_PHYTFDH1,PHYTFDH1,Phytofluene dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_PHYTFDH2,PHYTFDH2,Phytofluene dehydrogenase(2),2,0,2,0,0.0,needs_annotation
+R_PItex,PItex,Phosphate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_PIuabcpp,PIuabcpp,"Phosphate transport via ABC system (uptake, periplasm)",15,0,15,0,0.0,needs_annotation
+R_PMANM,PMANM,Phosphomannomutase,2,0,2,0,0.0,needs_annotation
+R_PMDPHT,PMDPHT,Pyrimidine phosphatase,2,0,0,0,0.0,needs_annotation
+R_PNTK,PNTK,Pantothenate kinase,2,0,2,0,0.0,needs_annotation
+R_POR_1,POR_1,Protochlorophyllide oxidoreductase ,12,0,12,0,0.0,needs_annotation
+R_POR_syn,POR_syn,Pyruvate-ferredoxin oxidoreductase,3,0,3,0,0.0,needs_annotation
+R_PPA,PPA,Inorganic diphosphatase,2,0,2,0,0.0,needs_annotation
+R_PPBNGS,PPBNGS,Porphobilinogen synthase,1,0,1,0,0.0,needs_annotation
+R_PPC,PPC,Phosphoenolpyruvate carboxylase,3,0,3,0,0.0,needs_annotation
+R_PPCDC,PPCDC,Phosphopantothenoylcysteine decarboxylase,2,0,2,0,0.0,needs_annotation
+R_PPK2,PPK2,Polyphosphate kinase,2,0,2,0,0.0,needs_annotation
+R_PPM,PPM,Phosphopentomutase,1,0,1,0,0.0,needs_annotation
+R_PPNCL,PPNCL,Phosphopantothenate-cysteine ligase,3,0,3,0,0.0,needs_annotation
+R_PPND,PPND,Prephenate dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_PPNDH,PPNDH,Prephenate dehydratase,2,0,2,0,0.0,needs_annotation
+R_PPOR,PPOR,"Phenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)",2,0,2,0,0.0,needs_annotation
+R_PPPGO,PPPGO,Protoporphyrinogen oxidase (aerobic),2,0,2,0,0.0,needs_annotation
+R_PPS,PPS,Phosphoenolpyruvate synthase,3,0,3,0,0.0,needs_annotation
+R_PPTGF_Syn,PPTGF_Syn,Flypase,1,0,1,0,0.0,needs_annotation
+R_PPTGS_Syn,PPTGS_Syn,Peptidoglycan subunit synthesis Synechocystis sp. PCC6803,1,0,1,0,0.0,needs_annotation
+R_PRAGSr,PRAGSr,Phosphoribosylglycinamide synthase,3,0,3,0,0.0,needs_annotation
+R_PRAIS,PRAIS,Phosphoribosylaminoimidazole synthase,2,0,2,0,0.0,needs_annotation
+R_PRAIi,PRAIi,Phosphoribosylanthranilate isomerase (irreversible),1,0,1,0,0.0,needs_annotation
+R_PRAMPC,PRAMPC,Phosphoribosyl-AMP cyclohydrolase,2,0,2,0,0.0,needs_annotation
+R_PRASCSi,PRASCSi,Phosphoribosylaminoimidazolesuccinocarboxamide synthase,3,0,3,0,0.0,needs_annotation
+R_PRATPP,PRATPP,Phosphoribosyl-ATP pyrophosphatase,2,0,2,0,0.0,needs_annotation
+R_PRFGS,PRFGS,Phosphoribosylformylglycinamidine synthase,4,0,4,0,0.0,needs_annotation
+R_PRMICI,PRMICI,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase,1,0,1,0,0.0,needs_annotation
+R_PROD2,PROD2,Proline dehydrogenase,2,0,2,0,0.0,needs_annotation
+R_PROTRS,PROTRS,Prolyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_PROabcpp,PROabcpp,L-proline transport via ABC system (periplasm),15,0,15,0,0.0,needs_annotation
+R_PROtex,PROtex,L-proline transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_PRPPS,PRPPS,Phosphoribosylpyrophosphate synthetase,2,0,2,0,0.0,needs_annotation
+R_PRUK,PRUK,Phosphoribulokinase,2,0,2,0,0.0,needs_annotation
+R_PSCVT,PSCVT,3-phosphoshikimate 1-carboxyvinyltransferase,2,0,2,0,0.0,needs_annotation
+R_PSI,PSI,Photosystem I (plastocyanin),33,0,33,0,0.0,needs_annotation
+R_PSII,PSII,Photosystem II,100,0,100,0,0.0,needs_annotation
+R_PSI_2,PSI_2,Photosystem I (ferrocytochrome),33,0,33,0,0.0,needs_annotation
+R_PTAr,PTAr,Phosphotransacetylase,2,0,2,0,0.0,needs_annotation
+R_PTHPS,PTHPS,6-pyruvoyltetrahydropterin synthase,1,0,1,0,0.0,needs_annotation
+R_PTPATi,PTPATi,Pantetheine-phosphate adenylyltransferase,3,0,3,0,0.0,needs_annotation
+R_PTRCabcpp,PTRCabcpp,Putrescine transport via ABC system (periplasm),3,0,0,0,0.0,needs_annotation
+R_PTRCt2pp,PTRCt2pp,Putrescine transport in via proton symport,2,0,0,0,0.0,needs_annotation
+R_PTRCtex,PTRCtex,Putrescine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_PUNP1,PUNP1,Purine-nucleoside phosphorylase (Adenosine),2,0,0,0,0.0,needs_annotation
+R_PUTA3,PUTA3,PUTA3,3,0,3,0,0.0,needs_annotation
+R_PYAM5PO,PYAM5PO,Pyridoxamine 5'-phosphate oxidase,3,0,3,0,0.0,needs_annotation
+R_PYDXNO,PYDXNO,Pyridoxine oxidase,2,0,2,0,0.0,needs_annotation
+R_PYDXO,PYDXO,Pyridoxal oxidase,4,0,4,0,0.0,needs_annotation
+R_PYK,PYK,Pyruvate kinase,3,0,3,0,0.0,needs_annotation
+R_PYK2,PYK2,Pyruvate kinase(2),3,0,3,0,0.0,needs_annotation
+R_PYK3,PYK3,Pyruvate kinase(3),3,0,3,0,0.0,needs_annotation
+R_PYK4,PYK4,Pyruvate kinase(4),3,0,3,0,0.0,needs_annotation
+R_PYK5,PYK5,Pyruvate kinase(5),3,0,3,0,0.0,needs_annotation
+R_PYRt2rpp,PYRt2rpp,Pyruvate reversible transport via proton symport (periplasm),2,0,0,0,0.0,needs_annotation
+R_PYRtex,PYRtex,Pyruvate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_QULNS,QULNS,Quinolinate synthase,2,0,2,0,0.0,needs_annotation
+R_R05217,R05217,Precorrin 3A + Oxygen <=> Precorrin 3B,3,0,0,0,0.0,needs_annotation
+R_R05219,R05219,Precorrin 5 <=> Precorrin 6X,3,0,0,0,0.0,needs_annotation
+R_R05224_1,R05224_1,"Hydrogenobyrinate  <=> Hydrogenobyrinate a,c diamide",5,0,5,0,0.0,needs_annotation
+R_RBCh,RBCh,Ribulose-bisphosphate carboxylase,4,0,4,0,0.0,needs_annotation
+R_RBFK,RBFK,Riboflavin kinase,2,0,2,0,0.0,needs_annotation
+R_RBFSa,RBFSa,Riboflavin synthase,2,0,2,0,0.0,needs_annotation
+R_RBFSb,RBFSb,Riboflavin synthase,1,0,1,0,0.0,needs_annotation
+R_RBK,RBK,Ribokinase,2,0,0,0,0.0,needs_annotation
+R_RBPC,RBPC,Ribulose-bisphosphate carboxylase,6,0,6,0,0.0,needs_annotation
+R_RNDR1,RNDR1,Ribonucleoside-diphosphate reductase (ADP),4,0,4,0,0.0,needs_annotation
+R_RNDR2,RNDR2,Ribonucleoside-diphosphate reductase (GDP),4,0,4,0,0.0,needs_annotation
+R_RNDR3,RNDR3,Ribonucleoside-diphosphate reductase (CDP),4,0,4,0,0.0,needs_annotation
+R_RNDR4,RNDR4,Ribonucleoside-diphosphate reductase (UDP),4,0,4,0,0.0,needs_annotation
+R_RPE,RPE,Ribulose 5-phosphate 3-epimerase,1,0,1,0,0.0,needs_annotation
+R_RPI,RPI,Ribose-5-phosphate isomerase,2,0,2,0,0.0,needs_annotation
+R_SADT,SADT,Sulfate adenylyltransferase,3,0,3,0,0.0,needs_annotation
+R_SBP,SBP,Sedoheptulose-bisphosphatase,4,0,4,0,0.0,needs_annotation
+R_SDPDS,SDPDS,Succinyl-diaminopimelate desuccinylase,2,0,0,0,0.0,needs_annotation
+R_SDPTA,SDPTA,Succinyldiaminopimelate transaminase,4,0,4,0,0.0,needs_annotation
+R_SERAT,SERAT,Serine O-acetyltransferase,2,0,2,0,0.0,needs_annotation
+R_SERD_L,SERD_L,L-serine deaminase,1,0,1,0,0.0,needs_annotation
+R_SERTRS,SERTRS,Seryl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_SERabcpp,SERabcpp,L-serine transport via ABC system (periplasm),15,0,15,0,0.0,needs_annotation
+R_SERtex,SERtex,L-serine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_SHCHCS2,SHCHCS2,"2-succinyl-6-hydroxy-2,4-cyclohexadiene 1-carboxylate synthase",2,0,2,0,0.0,needs_annotation
+R_SHK3Dr,SHK3Dr,Shikimate dehydrogenase,3,0,3,0,0.0,needs_annotation
+R_SHKK,SHKK,Shikimate kinase,2,0,2,0,0.0,needs_annotation
+R_SK_dna5mtc_c,SK_dna5mtc_c,Dna5mtc  Demand reaction,1,0,0,0,0.0,needs_annotation
+R_SK_dna_c,SK_dna_c,Sink dna,1,0,0,0,0.0,needs_annotation
+R_SK_phbg_c,SK_phbg_c,Phbg sink reaction,1,0,0,0,0.0,needs_annotation
+R_SK_precyanphy_c,SK_precyanphy_c,Precyanphy sink reaction,1,0,0,0,0.0,needs_annotation
+R_SK_rdmbzi_c,SK_rdmbzi_c,Rdmbzi sink reaction,1,0,0,0,0.0,needs_annotation
+R_SO4tex,SO4tex,Sulfate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_SPMDabcpp,SPMDabcpp,Spermidine transport via ABC system (periplasm),3,0,0,0,0.0,needs_annotation
+R_SPMDt2pp,SPMDt2pp,Spermidine transport in via proton symport,2,0,0,0,0.0,needs_annotation
+R_SPMDtex,SPMDtex,Spermidine transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_SPMS,SPMS,Spermidine synthase,2,0,0,0,0.0,needs_annotation
+R_SPP,SPP,Sucrose-phosphate phosphatase,2,0,2,0,0.0,needs_annotation
+R_SPS,SPS,Sucrose phosphate synthase,2,0,2,0,0.0,needs_annotation
+R_SPT_syn,SPT_syn,Serine-glyoxilate aminotransferase,2,0,2,0,0.0,needs_annotation
+R_SQD1,SQD1,UDP-6-sulfo-6-deoxyglucose sulfohydrolase,3,0,3,0,0.0,needs_annotation
+R_SQD2_160,SQD2_160,Sulfoquinovosyltransferase  (n-C16 0),3,0,3,0,0.0,needs_annotation
+R_SQD2_161,SQD2_161,Sulfoquinovosyltransferase  (n-C16 1),3,0,3,0,0.0,needs_annotation
+R_SQD2_180,SQD2_180,Sulfoquinovosyltransferase  (n-C18 0),3,0,3,0,0.0,needs_annotation
+R_SQD2_181,SQD2_181,Sulfoquinovosyltransferase  (n-C18 1),3,0,3,0,0.0,needs_annotation
+R_SQD2_181_9,SQD2_181_9,Sulfoquinovosyltransferase  (n-C18 1),3,0,3,0,0.0,needs_annotation
+R_SQD2_182_9_12,SQD2_182_9_12,Sulfoquinovosyltransferase  (n-C18 2),3,0,3,0,0.0,needs_annotation
+R_SQD2_183_6_9_12,SQD2_183_6_9_12,Sulfoquinovosyltransferase  (n-C18 3),3,0,3,0,0.0,needs_annotation
+R_SQD2_183_9_12_15,SQD2_183_9_12_15,Sulfoquinovosyltransferase  (n-C18 3),3,0,3,0,0.0,needs_annotation
+R_SQD2_184_6_9_12_15,SQD2_184_6_9_12_15,Sulfoquinovosyltransferase  (n-C18 4),3,0,3,0,0.0,needs_annotation
+R_SQLC,SQLC,Squalene mutase (cyclizing),1,0,1,0,0.0,needs_annotation
+R_SQLC2,SQLC2,Squalene mutase (cyclizing),2,0,2,0,0.0,needs_annotation
+R_SQLS,SQLS,Squalene synthase,3,0,3,0,0.0,needs_annotation
+R_SSALy,SSALy,Succinate-semialdehyde dehydrogenase (NADP),3,0,3,0,0.0,needs_annotation
+R_SUCBZL,SUCBZL,O-succinylbenzoate-CoA ligase,3,0,3,0,0.0,needs_annotation
+R_SUCBZS,SUCBZS,O-succinylbenzoate-CoA synthase,1,0,1,0,0.0,needs_annotation
+R_SUCCtex,SUCCtex,Succinate transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_SUCCtpp,SUCCtpp,Succinate transport via diffusion (periplasm to cytosol),2,0,0,0,0.0,needs_annotation
+R_SUCDi,SUCDi,Succinate dehydrogenase (irreversible),4,0,4,0,0.0,needs_annotation
+R_SUCDpp_syn,SUCDpp_syn,Succinate dehydrogenase (periplasm),4,0,4,0,0.0,needs_annotation
+R_SUCDu_syn,SUCDu_syn,Succinate dehydrogenase (tilacoild),4,0,4,0,0.0,needs_annotation
+R_SUCOAS,SUCOAS,Succinyl-CoA synthetase (ADP-forming),6,0,6,0,0.0,needs_annotation
+R_SUCRabcpp_syn,SUCRabcpp_syn,Sucrose ABC transporter (periplasm),12,0,12,0,0.0,needs_annotation
+R_SUCRtex,SUCRtex,Sucrose transport transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_SULR_syn,SULR_syn,Ferredoxin-sulfite reductase,3,0,3,0,0.0,needs_annotation
+R_SULabcpp,SULabcpp,Sulfate transport via ABC system (periplasm),12,0,12,0,0.0,needs_annotation
+R_T2DECAI,T2DECAI,Trans-2-decenoyl-ACP isomerase,1,0,0,0,0.0,needs_annotation
+R_TALA,TALA,Transaldolase,2,0,2,0,0.0,needs_annotation
+R_TDPDRE,TDPDRE,"DTDP-4-dehydrorhamnose 3,5-epimerase",1,0,1,0,0.0,needs_annotation
+R_TDPDRR,TDPDRR,DTDP-4-dehydrorhamnose reductase,3,0,3,0,0.0,needs_annotation
+R_TDPGDH,TDPGDH,"DTDPglucose 4,6-dehydratase",1,0,1,0,0.0,needs_annotation
+R_THDPS,THDPS,Tetrahydrodipicolinate succinylase,3,0,0,0,0.0,needs_annotation
+R_THFGLUS,THFGLUS,TetrahydrofolateL glutamate gamma ligase  ADP forming ,3,0,3,0,0.0,needs_annotation
+R_THRD_L,THRD_L,L-threonine deaminase,1,0,1,0,0.0,needs_annotation
+R_THRPDC,THRPDC,L threonine phosphate decarboxylase,2,0,2,0,0.0,needs_annotation
+R_THRS,THRS,Threonine synthase,2,0,2,0,0.0,needs_annotation
+R_THRTRS,THRTRS,Threonyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_THZPSN,THZPSN,Thiazole phosphate synthesis,8,0,8,0,0.0,needs_annotation
+R_THZSN_1,THZSN_1,Thiazole synthesis from xylulose,8,0,8,0,0.0,needs_annotation
+R_TKT1,TKT1,Transketolase,2,0,2,0,0.0,needs_annotation
+R_TKT2,TKT2,Transketolase,2,0,2,0,0.0,needs_annotation
+R_TMDK1,TMDK1,Thymidine kinase (ATP:thymidine),2,0,2,0,0.0,needs_annotation
+R_TMDS,TMDS,Thymidylate synthase,2,0,2,0,0.0,needs_annotation
+R_TMK,TMK,Thiamine kinase,2,0,0,0,0.0,needs_annotation
+R_TMPK,TMPK,Thiamine-phosphate kinase,2,0,2,0,0.0,needs_annotation
+R_TMPPP,TMPPP,Thiamine-phosphate diphosphorylase,3,0,3,0,0.0,needs_annotation
+R_TOCOPHOM1,TOCOPHOM1,Tocopherol O-methyltransferase,2,0,2,0,0.0,needs_annotation
+R_TOCOPHOM2,TOCOPHOM2,Tocopherol O-methyltransferase(2),2,0,2,0,0.0,needs_annotation
+R_TOCOPHS1,TOCOPHS1,Tocopherol cyclase (g),1,0,1,0,0.0,needs_annotation
+R_TOCOPHS2,TOCOPHS2,Tocopherol cyclase (d),1,0,1,0,0.0,needs_annotation
+R_TPI,TPI,Triose-phosphate isomerase,1,0,1,0,0.0,needs_annotation
+R_TRDR,TRDR,Thioredoxin reductase (NADPH),3,0,3,0,0.0,needs_annotation
+R_TRPS1,TRPS1,Tryptophan synthase (indoleglycerol phosphate),4,0,4,0,0.0,needs_annotation
+R_TRPTRS,TRPTRS,Tryptophanyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_TRSARr,TRSARr,Tartronate semialdehyde reductase,3,0,3,0,0.0,needs_annotation
+R_TYRTA,TYRTA,Tyrosine transaminase,6,0,6,0,0.0,needs_annotation
+R_TYRTRS,TYRTRS,Tyrosyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_U23GAAT,U23GAAT,UDP-3-O-(3-hydroxymyristoyl)glucosamine acyltransferase,2,0,2,0,0.0,needs_annotation
+R_UAAGDS,UAAGDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase",3,0,3,0,0.0,needs_annotation
+R_UAG2EMA,UAG2EMA,UDP-N-acetyl-D-glucosamine 2-epimerase (Hydrolysis),2,0,2,0,0.0,needs_annotation
+R_UAGAAT,UAGAAT,UDP-N-acetylglucosamine acyltransferase,2,0,2,0,0.0,needs_annotation
+R_UAGCVT,UAGCVT,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,2,0,2,0,0.0,needs_annotation
+R_UAGDP,UAGDP,UDP-N-acetylglucosamine diphosphorylase,3,0,3,0,0.0,needs_annotation
+R_UAGPT3,UAGPT3,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,2,0,2,0,0.0,needs_annotation
+R_UAMAGS,UAMAGS,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,3,0,3,0,0.0,needs_annotation
+R_UAMAS,UAMAS,UDP-N-acetylmuramoyl-L-alanine synthetase,3,0,3,0,0.0,needs_annotation
+R_UAPGR,UAPGR,UDP-N-acetylenolpyruvoylglucosamine reductase,3,0,3,0,0.0,needs_annotation
+R_UDCPDP,UDCPDP,Undecaprenyl-diphosphatase,2,0,2,0,0.0,needs_annotation
+R_UDPDPS,UDPDPS,Undecaprenyl-diphosphate synthase,2,0,2,0,0.0,needs_annotation
+R_UDPG4E,UDPG4E,UDPglucose 4-epimerase,1,0,1,0,0.0,needs_annotation
+R_UGLDDS2_1,UGLDDS2_1,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine synthetase (gamma-glutamate),4,0,4,0,0.0,needs_annotation
+R_UGLT,UGLT,UDPglucose--hexose-1-phosphate uridylyltransferase,2,0,0,0,0.0,needs_annotation
+R_UGMDDS,UGMDDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase",3,0,3,0,0.0,needs_annotation
+R_UHGADA,UHGADA,UDP-3-O-acetylglucosamine deacetylase,2,0,2,0,0.0,needs_annotation
+R_UMPK,UMPK,UMP kinase,2,0,2,0,0.0,needs_annotation
+R_UPP3MT,UPP3MT,Uroporphyrinogen methyltransferase,2,0,2,0,0.0,needs_annotation
+R_UPP3S,UPP3S,Uroporphyrinogen-III synthase,1,0,1,0,0.0,needs_annotation
+R_UPPDC1,UPPDC1,Uroporphyrinogen decarboxylase (uroporphyrinogen III),2,0,2,0,0.0,needs_annotation
+R_UPPDC2,UPPDC2,Uroporphyrinogen decarboxylase (uroporphyrinogen I),2,0,2,0,0.0,needs_annotation
+R_UPPRT,UPPRT,Uracil phosphoribosyltransferase,4,0,4,0,0.0,needs_annotation
+R_UREA,UREA,Urease,21,0,21,0,0.0,needs_annotation
+R_UREAabcpp,UREAabcpp,Urea transport via ABC system (periplasm),15,0,15,0,0.0,needs_annotation
+R_UREAtex,UREAtex,Urea transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation
+R_URIDK2r,URIDK2r,Uridylate kinase (dUMP),2,0,2,0,0.0,needs_annotation
+R_USHD,USHD,UDP-sugar hydrolase,2,0,0,0,0.0,needs_annotation
+R_VALTA,VALTA,Valine transaminase,2,0,2,0,0.0,needs_annotation
+R_VALTRS,VALTRS,Valyl-tRNA synthetase,3,0,3,0,0.0,needs_annotation
+R_ZCAROTDH1,ZCAROTDH1,Zeta-carotene desaturase,4,0,4,0,0.0,needs_annotation
+R_ZCAROTDH2,ZCAROTDH2,Zeta-carotene desaturase(2),4,0,4,0,0.0,needs_annotation
+R_ZN2abcpp,ZN2abcpp,"Zinc (Zn+2) ABC transporter, efflux (periplasm)",3,0,3,0,0.0,needs_annotation
+R_ZNabcpp,ZNabcpp,Zinc (Zn+2) transport via ABC system (periplasm),9,0,9,0,0.0,needs_annotation
+R_Zn2tex,Zn2tex,Zinc (Zn+2) transport via diffusion (extracellular to periplasm),1,0,0,0,0.0,needs_annotation

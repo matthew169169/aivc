@@ -1,0 +1,78 @@
+{
+  "status": "ready",
+  "generated_at": "2026-06-20T12:54:15Z",
+  "rows": [
+    {
+      "case_id": "shewanella_gecko_oxygen",
+      "case_title": "Shewanella GECKO oxygen comparison",
+      "run_id": "shewanella_gecko_case",
+      "stage": "input",
+      "stage_label": "Input",
+      "status": "ready",
+      "evidence_ready": true,
+      "missing_items": [],
+      "next_action": "Ready for demonstration.",
+      "artifact_paths": [
+        "D:\\generate\\user_runs\\shewanella_gecko_case"
+      ]
+    },
+    {
+      "case_id": "shewanella_gecko_oxygen",
+      "case_title": "Shewanella GECKO oxygen comparison",
+      "run_id": "shewanella_gecko_case",
+      "stage": "model_generator",
+      "stage_label": "Model Generator",
+      "status": "ready",
+      "evidence_ready": true,
+      "missing_items": [
+        "Enzyme capacity: reaction-level unavailable (Capacity file exists but has no reaction-level rows; show unavailable/package-ready guidance instead of 0.)"
+      ],
+      "next_action": "Run or refresh the lightweight workflow outputs needed for variants.",
+      "artifact_paths": [
+        "D:\\generate\\user_runs\\shewanella_gecko_case\\enzyme_results\\reaction_enzyme_capacity.csv"
+      ]
+    },
+    {
+      "case_id": "shewanella_gecko_oxygen",
+      "case_title": "Shewanella GECKO oxygen comparison",
+      "run_id": "shewanella_gecko_case",
+      "stage": "model_compare",
+      "stage_label": "Model Compare",
+      "status": "partial",
+      "evidence_ready": false,
+      "missing_items": [
+        "Enzyme capacity: reaction-level unavailable (Capacity file exists but has no reaction-level rows; show unavailable/package-ready guidance instead of 0.)"
+      ],
+      "next_action": "Refresh pair summary or render the default annotation-group compare graph.",
+      "artifact_paths": [
+        "D:\\generate\\user_runs\\shewanella_gecko_case\\enzyme_results\\reaction_enzyme_capacity.csv"
+      ]
+    },
+    {
+      "case_id": "shewanella_gecko_oxygen",
+      "case_title": "Shewanella GECKO oxygen comparison",
+      "run_id": "shewanella_gecko_case",
+      "stage": "analysis",
+      "stage_label": "Analysis",
+      "status": "ready",
+      "evidence_ready": true,
+      "missing_items": [],
+      "next_action": "Ready for demonstration.",
+      "artifact_paths": []
+    },
+    {
+      "case_id": "shewanella_gecko_oxygen",
+      "case_title": "Shewanella GECKO oxygen comparison",
+      "run_id": "shewanella_gecko_case",
+      "stage": "summary",
+      "stage_label": "Summary",
+      "status": "ready",
+      "evidence_ready": true,
+      "missing_items": [],
+      "next_action": "Ready for demonstration.",
+      "artifact_paths": [
+        "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\case_display_readiness.json"
+      ]
+    }
+  ]
+}

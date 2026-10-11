@@ -1,0 +1,2 @@
+reaction_id,cobra_reaction_id,reaction_name,grouping_mode,group_id,group_label,subsystem,compartment,selected_reaction,reactants,products
+R_PPCSCT,PPCSCT,Propanoyl-CoA: succinate CoA-transferase,subsystem,unannotated,unannotated,unannotated,c,True,M_ppcoa_c;M_succ_c,M_ppa_c;M_succoa_c

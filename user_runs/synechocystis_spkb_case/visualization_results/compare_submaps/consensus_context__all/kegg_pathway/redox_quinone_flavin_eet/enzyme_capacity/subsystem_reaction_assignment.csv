@@ -1,0 +1,116 @@
+reaction_id,cobra_reaction_id,reaction_name,grouping_mode,group_id,group_label,subsystem,compartment,selected_reaction,reactants,products
+R_34DHOXPEGOX,34DHOXPEGOX,"3,4-Dihydroxyphenylethyleneglycol NAD+ oxidoreductase",subsystem,unannotated,unannotated,unannotated,c,True,M_34dhmald_c;M_h_c;M_nadh_c,M_34dhoxpeg_c;M_nad_c
+R_34HPPOR,34HPPOR,4 Hydroxyphenylpyruvateoxygen oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,True,M_34hpp_c;M_o2_c,M_co2_c;M_hgentis_c
+R_BAMPPALDOX,BAMPPALDOX,Beta-Aminopropion aldehyde NAD+ oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,True,M_bamppald_c;M_h2o_c;M_nad_c,M_ala_B_c;M_h_c;M_nadh_c
+R_ADPRDP,ADPRDP,ADPribose diphosphatase,subsystem,unannotated,unannotated,unannotated,c,True,M_adprib_c;M_h2o_c,M_amp_c;M_h_c;M_r5p_c
+R_ATPPRT,ATPPRT,ATP phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_prpp_c,M_ppi_c;M_prbatp_c
+R_ALCD2y,ALCD2y,"Alcohol dehydrogenase (ethanol, NADP)",subsystem,unannotated,unannotated,unannotated,c,True,M_etoh_c;M_nadp_c,M_acald_c;M_h_c;M_nadph_c
+R_ALDD20x,ALDD20x,"Aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",subsystem,unannotated,unannotated,unannotated,c,True,M_h2o_c;M_id3acald_c;M_nad_c,M_h_c;M_ind3ac_c;M_nadh_c
+R_BILIRED,BILIRED,Nad(p)h biliverdin reductase,subsystem,unannotated,unannotated,unannotated,c,True,M_biliverd_c;M_h_c;M_nadph_c,M_bilirub_c;M_nadp_c
+R_ALDD2x,ALDD2x,"Aldehyde dehydrogenase (acetaldehyde, NAD)",subsystem,unannotated,unannotated,unannotated,c,True,M_acald_c;M_h2o_c;M_nad_c,M_ac_c;M_h_c;M_nadh_c
+R_CBFCu,CBFCu,Cytochrome b6/f complex,subsystem,unannotated,unannotated,unannotated,u,True,M_h_c;M_pcox_u;M_pqh2_u,M_h_u;M_pcrd_u;M_pq_u
+R_CPPPGO,CPPPGO,Coproporphyrinogen oxidase (O2 required),subsystem,unannotated,unannotated,unannotated,c,True,M_cpppg3_c;M_h_c;M_o2_c,M_co2_c;M_h2o_c;M_pppg9_c
+R_ADPT,ADPT,Adenine phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,True,M_ade_c;M_prpp_c,M_amp_c;M_ppi_c
+R_ADPT2,ADPT2,Adenine phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,True,M_aicar_c;M_ppi_c,M_C04051_c;M_prpp_c
+R_CPPPGO2,CPPPGO2,Oxygen Independent coproporphyrinogen-III oxidase,subsystem,unannotated,unannotated,unannotated,c,True,M_amet_c;M_cpppg3_c,M_co2_c;M_dad_5_c;M_met__L_c;M_pppg9_c
+R_EAR100y,EAR100y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C10:0),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_tdec2eACP_c,M_dcaACP_c;M_nadp_c
+R_CYTBDpp_1,CYTBDpp_1,Cytochrome oxidase bd (plastocianine-8  2 protons) (periplasm),subsystem,unannotated,unannotated,unannotated,p,True,M_o2_p;M_pqh2_p,M_h2o_p;M_pq_p
+R_CYTBDu,CYTBDu,Cytochrome oxidase bd (plastocianine-8  2 protons) (lumen),subsystem,unannotated,unannotated,unannotated,u,True,M_o2_u;M_pqh2_u,M_h2o_u;M_pq_u
+R_GLUDy,GLUDy,Glutamate dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,True,M_glu__L_c;M_h2o_c;M_nadp_c,M_akg_c;M_h_c;M_nadph_c;M_nh4_c
+R_FNOR,FNOR,Ferredoxin---NADP+ reductase,subsystem,unannotated,unannotated,unannotated,c,True,M_fdxrd_c;M_h_c;M_nadp_c,M_fdxo_2_2_c;M_nadph_c
+R_GLUSx,GLUSx,Glutamate synthase  NADH2 ,subsystem,unannotated,unannotated,unannotated,c,True,M_akg_c;M_gln__L_c;M_h_c;M_nadh_c,M_glu__L_c;M_nad_c
+R_G3PD1ir,G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,subsystem,unannotated,unannotated,unannotated,c,True,M_dhap_c;M_h_c;M_nadh_c,M_glyc3p_c;M_nad_c
+R_G6PBDH,G6PBDH,Beta-D-Glucose-6-phosphate NADP+ 1-oxoreductase,subsystem,unannotated,unannotated,unannotated,c,True,M_g6p_B_c;M_nadp_c,M_6pgl_c;M_h_c;M_nadph_c
+R_HEX7,HEX7,Hexokinase (D-fructose:ATP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_fru_c,M_adp_c;M_f6p_c;M_h_c
+R_GAPDi_nadp,GAPDi_nadp,Glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating),subsystem,unannotated,unannotated,unannotated,c,True,M_13dpg_c;M_h_c;M_nadph_c,M_g3p_c;M_nadp_c;M_pi_c
+R_HPROa,HPROa,L hydroxyproline reductase  NAD ,subsystem,unannotated,unannotated,unannotated,c,True,M_1p3h5c_c;M_h_c;M_nadh_c,M_4hpro_LT_c;M_nad_c
+R_HOXG,HOXG,Heme oxygenase 1,subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_o2_c;M_pheme_c,M_biliverd_c;M_co_c;M_fe2_c;M_h2o_c;M_nadp_c
+R_HPROb,HPROb,L hydroxyproline reductase  NADP ,subsystem,unannotated,unannotated,unannotated,c,True,M_1p3h5c_c;M_h_c;M_nadph_c,M_4hpro_LT_c;M_nadp_c
+R_GK1,GK1,Guanylate kinase (GMP:ATP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_gmp_c,M_adp_c;M_gdp_c
+R_HSDxi,HSDxi,Homoserine dehydrogenase  NADH   irreversible,subsystem,unannotated,unannotated,unannotated,c,True,M_aspsa_c;M_h_c;M_nadh_c,M_hom__L_c;M_nad_c
+R_HPYRRx,HPYRRx,Hydroxypyruvate reductase (NADH),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_hpyr_c;M_nadh_c,M_glyc__R_c;M_nad_c
+R_ICDHyr,ICDHyr,Isocitrate dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,True,M_icit_c;M_nadp_c,M_akg_c;M_co2_c;M_nadph_c
+R_GLCS1,GLCS1,Glycogen synthase (ADPGlc),subsystem,unannotated,unannotated,unannotated,c,True,M_adpglc_c,M_adp_c;M_glycogen_c;M_h_c
+R_LALDO,LALDO,D-Lactaldehyde NAD+ oxidoreductase (glutathione-formylating),subsystem,unannotated,unannotated,unannotated,c,True,M_gthrd_c;M_lald__D_c;M_nad_c,M_h_c;M_lgt__S_c;M_nadh_c
+R_NADK,NADK,NAD kinase,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_nad_c,M_adp_c;M_h_c;M_nadp_c
+R_DHDPRy,DHDPRy,Dihydrodipicolinate reductase (NADPH),subsystem,unannotated,unannotated,unannotated,c,True,M_23dhdp_c;M_h_c;M_nadph_c,M_nadp_c;M_thdp_c
+R_NADN,NADN,NAD nucleosidase,subsystem,unannotated,unannotated,unannotated,c,True,M_h2o_c;M_nad_c,M_adprib_c;M_h_c;M_ncam_c
+R_MTHFR2,MTHFR2,"5,10-methylenetetrahydrofolate reductase (NADH)",subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_mlthf_c;M_nadh_c,M_5mthf_c;M_nad_c
+R_NABTNO,NABTNO,N4 AcetylaminobutanalNAD oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,True,M_h2o_c;M_n4abutn_c;M_nad_c,M_4aabutn_c;M_h_c;M_nadh_c
+R_ME2,ME2,Malic enzyme (NADP),subsystem,unannotated,unannotated,unannotated,c,True,M_mal__L_c;M_nadp_c,M_co2_c;M_nadph_c;M_pyr_c
+R_P5CRx,P5CRx,Pyrroline-5-carboxylate reductase(nadh),subsystem,unannotated,unannotated,unannotated,c,True,M_1pyr5c_c;M_h_c;M_nadh_c,M_nad_c;M_pro__L_c
+R_NADTRHD,NADTRHD,NAD transhydrogenase,subsystem,unannotated,unannotated,unannotated,c,True,M_nad_c;M_nadph_c,M_nadh_c;M_nadp_c
+R_NADH5,NADH5,NADH dehydrogenase (ubiquinone-8 ),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadh_c;M_q8_c,M_nad_c;M_q8h2_c
+R_NADS2,NADS2,Nicotinate-mononucleotide adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_dnad_c;M_gln__L_c;M_h2o_c,M_amp_c;M_glu__L_c;M_h_c;M_nad_c;M_ppi_c
+R_NDPK3,NDPK3,Nucleoside-diphosphate kinase (ATP:CDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_cdp_c,M_adp_c;M_ctp_c
+R_NDPK1,NDPK1,Nucleoside-diphosphate kinase (ATP:GDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_gdp_c,M_adp_c;M_gtp_c
+R_MPBQ,MPBQ,2-methyl-6-phytylbenzoquinone methyltransferase,subsystem,unannotated,unannotated,unannotated,c,True,M_2m6phol_c;M_amet_c,M_23dmphol_c;M_ahcys_c;M_h_c
+R_NDPK10,NDPK10,Nucleoside-diphosphate kinase (ATP dIDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_didp_c,M_adp_c;M_ditp_c
+R_NDPK2,NDPK2,Nucleoside-diphosphate kinase (ATP:UDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_udp_c,M_adp_c;M_utp_c
+R_MPOMC1,MPOMC1," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_mppp9om_c;M_nadph_c;M_o2_c,M_h2o_c;M_hmppp9_c;M_nadp_c
+R_NDPK4,NDPK4,Nucleoside-diphosphate kinase (ATP:dTDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_dtdp_c,M_adp_c;M_dttp_c
+R_NDPK5,NDPK5,Nucleoside-diphosphate kinase (ATP:dGDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_dgdp_c,M_adp_c;M_dgtp_c
+R_MPOMMM,MPOMMM,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_hmppp9_c;M_nadph_c;M_o2_c,M_h2o_c;M_nadp_c;M_omppp9_c
+R_NDPK6,NDPK6,Nucleoside-diphosphate kinase (ATP:dUDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_dudp_c,M_adp_c;M_dutp_c
+R_NDPK7,NDPK7,Nucleoside-diphosphate kinase (ATP:dCDP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_dcdp_c,M_adp_c;M_dctp_c
+R_NDPK8,NDPK8,Nucleoside-diphosphate kinase (ATP:dADP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_dadp_c,M_adp_c;M_datp_c
+R_NDPK9,NDPK9,Nucleoside diphosphate kinase  ATPIDP ,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_idp_c,M_adp_c;M_itp_c
+R_MPOMOR,MPOMOR,Magnesium-protoporphyrin-IX 13-monomethyl ester NADPH oxygen oxidoreductase (hydroxylating),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_o2_c;M_omppp9_c,M_dvpchlld_c;M_h2o_c;M_nadp_c
+R_MPOMOR2,MPOMOR2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH",subsystem,unannotated,unannotated,unannotated,c,True,M_nadp_c;M_omppp9_c,M_dvpchlld_c;M_h_c;M_nadph_c
+R_MPOMC2,MPOMC2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH h2o oxidoreductase (hydroxylating)",subsystem,unannotated,unannotated,unannotated,c,True,M_h2o_c;M_mppp9om_c;M_nadp_c,M_h_c;M_hmppp9_c;M_nadph_c
+R_MPOMMM2,MPOMMM2,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH ",subsystem,unannotated,unannotated,unannotated,c,True,M_hmppp9_c;M_nadp_c,M_h_c;M_nadph_c;M_omppp9_c
+R_MTHFD,MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,True,M_mlthf_c;M_nadp_c,M_methf_c;M_nadph_c
+R_MTHFD2i,MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,subsystem,unannotated,unannotated,unannotated,c,True,M_mlthf_c;M_nad_c,M_methf_c;M_nadh_c
+R_NDH2_syn,NDH2_syn,NADH dehydrogenase 2 (plastoquinone-8) (tilacoide),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadh_c;M_pq_u,M_nad_c;M_pqh2_u
+R_R05217,R05217,Precorrin 3A + Oxygen <=> Precorrin 3B,subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_o2_c;M_pre3a_c,M_pre3b_c
+R_RBFK,RBFK,Riboflavin kinase,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_ribflv_c,M_adp_c;M_fmn_c;M_h_c
+R_TMDK1,TMDK1,Thymidine kinase (ATP:thymidine),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_thymd_c,M_adp_c;M_dtmp_c;M_h_c
+R_TRDR,TRDR,Thioredoxin reductase (NADPH),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_trdox_c,M_nadp_c;M_trdrd_c
+R_RBFSa,RBFSa,Riboflavin synthase,subsystem,unannotated,unannotated,unannotated,c,True,M_4r5au_c;M_db4p_c,M_dmlz_c;M_h2o_c;M_pi_c
+R_RBFSb,RBFSb,Riboflavin synthase,subsystem,unannotated,unannotated,unannotated,c,True,M_dmlz_c,M_4r5au_c;M_ribflv_c
+R_RNDR1,RNDR1,Ribonucleoside-diphosphate reductase (ADP),subsystem,unannotated,unannotated,unannotated,c,True,M_adp_c;M_trdrd_c,M_dadp_c;M_h2o_c;M_trdox_c
+R_THFGLUS,THFGLUS,TetrahydrofolateL glutamate gamma ligase  ADP forming ,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_glu__L_c;M_thf_c,M_adp_c;M_h_c;M_pi_c;M_thfglu_c
+R_SUCOAS,SUCOAS,Succinyl-CoA synthetase (ADP-forming),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_coa_c;M_succ_c,M_adp_c;M_pi_c;M_succoa_c
+R_SSALy,SSALy,Succinate-semialdehyde dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,True,M_h2o_c;M_nadp_c;M_sucsal_c,M_h_c;M_nadph_c;M_succ_c
+R_O2tpp,O2tpp,O2 transport via diffusion (periplasm),subsystem,unannotated,unannotated,unannotated,c,True,M_o2_p,M_o2_c
+R_O2tu,O2tu,"O2 transport (diffusion), lumen",subsystem,unannotated,unannotated,unannotated,c,True,M_o2_u,M_o2_c
+R_CO2tex,CO2tex,CO2 transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,True,M_co2_e,M_co2_p
+R_CO2tpp,CO2tpp,CO2 transporter via diffusion (periplasm),subsystem,unannotated,unannotated,unannotated,c,True,M_co2_p,M_co2_c
+R_EX_cobalt2_e,EX_cobalt2_e,Co2+ exchange,subsystem,unannotated,unannotated,unannotated,e,True,M_cobalt2_e,
+R_DMTPHT,DMTPHT,Demethylphylloquinone methyltransferase,subsystem,unannotated,unannotated,unannotated,c,True,M_amet_c;M_dmtphllqne_c,M_ahcys_c;M_h_c;M_phllqne_c
+R_O2tex,O2tex,Oxygen transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,True,M_o2_e,M_o2_p
+R_PRATPP,PRATPP,Phosphoribosyl-ATP pyrophosphatase,subsystem,unannotated,unannotated,unannotated,c,True,M_h2o_c;M_prbatp_c,M_h_c;M_ppi_c;M_prbamp_c
+R_EX_o2_e,EX_o2_e,O2 exchange,subsystem,unannotated,unannotated,unannotated,e,True,M_o2_e,
+R_EX_co2_e,EX_co2_e,CO2 exchange,subsystem,unannotated,unannotated,unannotated,e,True,M_co2_e,
+R_FDH6pp,FDH6pp,Formate Dehydrogenase (ferrocytochrome c6) (periplasm),subsystem,unannotated,unannotated,unannotated,c,True,M_ficytc6_p;M_for_c,M_co2_c;M_focytc6_p;M_h_c
+R_MTRI,MTRI,5-methylthioribose-1-phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,True,M_5mdr1p_c,M_5mdru1p_c
+R_HEX1,HEX1,Hexokinase (D-glucose:ATP),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_glc__D_c,M_adp_c;M_g6p_c;M_h_c
+R_PPOR,PPOR,"Phenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)",subsystem,unannotated,unannotated,unannotated,c,True,M_o2_c;M_phpyr_c,M_2hyoxplac_c;M_co2_c
+R_NDH1_3u,NDH1_3u,Active co2 transporter facilitator (tilacoide),subsystem,unannotated,unannotated,unannotated,c,True,M_co2_p;M_h2o_c;M_h_c;M_nadph_c;M_pq_u,M_h_u;M_hco3_c;M_nadp_c;M_pqh2_u
+R_NDH1_1u,NDH1_1u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_pq_u,M_h_u;M_nadp_c;M_pqh2_u
+R_CYO1b2pp_syn,CYO1b2pp_syn,"Cytochrome c oxidase, synechocystis (2 protons periplasm)",subsystem,unannotated,unannotated,unannotated,p,True,M_h_c;M_o2_p;M_pcrd_p,M_h2o_p;M_h_p;M_pcox_p
+R_CYO1bpp_syn,CYO1bpp_syn,"Cytochrome c oxidase, synechocystis (2 protons)",subsystem,unannotated,unannotated,unannotated,p,True,M_focytc6_p;M_h_c;M_o2_p,M_ficytc6_p;M_h2o_p;M_h_p
+R_EAR120y,EAR120y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:0),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_tddec2eACP_c,M_ddcaACP_c;M_nadp_c
+R_EAR121y,EAR121y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:1),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_t3c5ddeceACP_c,M_cddec5eACP_c;M_nadp_c
+R_EAR140y,EAR140y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:0),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_tmrs2eACP_c,M_myrsACP_c;M_nadp_c
+R_EAR141y,EAR141y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_t3c7mrseACP_c,M_nadp_c;M_tdeACP_c
+R_EAR160y,EAR160y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_tpalm2eACP_c,M_nadp_c;M_palmACP_c
+R_EAR161y,EAR161y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_t3c9palmeACP_c,M_hdeACP_c;M_nadp_c
+R_ATPS4rpp_1,ATPS4rpp_1,ATP synthase (four protons for one ATP) (periplasm),subsystem,unannotated,unannotated,unannotated,c,True,M_adp_c;M_h_p;M_pi_c,M_atp_c;M_h2o_c;M_h_c
+R_NDH1_4pp,NDH1_4pp,Active co2 transporter facilitator (periplasm) ,subsystem,unannotated,unannotated,unannotated,c,True,M_co2_p;M_h2o_c;M_h_c;M_nadph_c;M_pq_p,M_h_p;M_hco3_c;M_nadp_c;M_pqh2_p
+R_EAR180y,EAR180y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_toctd2eACP_c,M_nadp_c;M_ocdcaACP_c
+R_EAR181y,EAR181y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_t3c11vaceACP_c,M_nadp_c;M_octeACP_c
+R_EAR40y,EAR40y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0),subsystem,unannotated,unannotated,unannotated,c,True,M_but2eACP_c;M_h_c;M_nadph_c,M_butACP_c;M_nadp_c
+R_NDH1_2p,NDH1_2p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadh_c;M_pq_p,M_h_p;M_nad_c;M_pqh2_p
+R_ATPSu,ATPSu,ATP synthetase(u),subsystem,unannotated,unannotated,unannotated,c,True,M_adp_c;M_h_u;M_pi_c,M_atp_c;M_h2o_c;M_h_c
+R_PSI_2,PSI_2,Photosystem I (ferrocytochrome),subsystem,unannotated,unannotated,unannotated,c,True,M_fdxo_2_2_c;M_focytc6_u;M_photon_c,M_fdxrd_c;M_ficytc6_u
+R_EAR60y,EAR60y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C6:0),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_thex2eACP_c,M_hexACP_c;M_nadp_c
+R_EAR80y,EAR80y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_toct2eACP_c,M_nadp_c;M_ocACP_c
+R_NDH1_2u,NDH1_2u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadh_c;M_pq_u,M_h_u;M_nad_c;M_pqh2_u
+R_NDH1_1p,NDH1_1p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),subsystem,unannotated,unannotated,unannotated,c,True,M_h_c;M_nadph_c;M_pq_p,M_h_p;M_nadp_c;M_pqh2_p
+R_GLYCLTDx,GLYCLTDx,Glycolate dehydrogenase (NAD),subsystem,unannotated,unannotated,unannotated,c,True,M_glx_c;M_h_c;M_nadh_c,M_glyclt_c;M_nad_c
+R_CYO1b_syn,CYO1b_syn,"Cytochrome c oxidase, synechocystis (2 protons)",subsystem,unannotated,unannotated,unannotated,u,True,M_focytc6_u;M_h_c;M_o2_u,M_ficytc6_u;M_h2o_u;M_h_u
+R_CBFC2pp,CBFC2pp,Cytochrome b6/f complex periplasm,subsystem,unannotated,unannotated,unannotated,p,True,M_ficytc6_p;M_h_c;M_pqh2_p,M_focytc6_p;M_h_p;M_pq_p
+R_CBFC2,CBFC2,Cytochrome b6/f complex,subsystem,unannotated,unannotated,unannotated,u,True,M_ficytc6_u;M_h_c;M_pqh2_u,M_focytc6_u;M_h_u;M_pq_u
+R_CBFCpp,CBFCpp,Cytochrome b6/f complex periplasm,subsystem,unannotated,unannotated,unannotated,p,True,M_h_c;M_pcox_p;M_pqh2_p,M_h_p;M_pcrd_p;M_pq_p
+R_CYO1b2_syn,CYO1b2_syn,"Cytochrome c oxidase, synechocystis (2 protons)",subsystem,unannotated,unannotated,unannotated,u,True,M_h_c;M_o2_u;M_pcrd_u,M_h2o_u;M_h_u;M_pcox_u

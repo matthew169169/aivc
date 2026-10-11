@@ -1,0 +1,7 @@
+condition,condition_group,pathway_group,status,reaction_count,sum_abs_flux,mean_abs_flux,top_reaction_id,top_abs_flux,delta_fba_context_rows,guidance
+default,default,Glycolysis / Gluconeogenesis,ready,6,6.45646,1.07608,PGK,5.06482,0,Pathway groups are derived from KEGG pathway mapping when available; otherwise reaction keywords are used as functional hints.
+default,default,Pentose phosphate pathway,ready,7,0.0057504,0.000821486,UDCPDPpp,0.00509688,0,Pathway groups are derived from KEGG pathway mapping when available; otherwise reaction keywords are used as functional hints.
+default,default,TCA cycle,ready,1,0,0,CYTCAA3pp,0,0,Pathway groups are derived from KEGG pathway mapping when available; otherwise reaction keywords are used as functional hints.
+default,default,other_internal_flux,ready,2491,232.41,0.0932998,H2Otpp,33.775,0,Pathway groups are derived from KEGG pathway mapping when available; otherwise reaction keywords are used as functional hints.
+default,default,redox_quinone_flavin_eet,ready,83,121.701,1.46628,ATPS4rpp,31.603,0,Pathway groups are derived from KEGG pathway mapping when available; otherwise reaction keywords are used as functional hints.
+default,default,transport_exchange,ready,339,46.5085,0.137193,EX_h2o_e,27.7607,0,Pathway groups are derived from KEGG pathway mapping when available; otherwise reaction keywords are used as functional hints.

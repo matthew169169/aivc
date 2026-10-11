@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1.0",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "artifact_root": "D:\\generate\\user_runs\\shewanella_gecko_case\\workflow_results\\model_artifacts",
+  "selected_methods": [
+    "baseline_gem",
+    "consensus_evidence",
+    "eflux",
+    "enzyme_gecko"
+  ],
+  "artifact_count": 2,
+  "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\workflow_results\\context_model_artifact_summary.csv"
+}

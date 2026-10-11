@@ -1,0 +1,7 @@
+condition,severity,topic,recommendation,status
+highO2,high,coverage,Add broader transcriptomics/proteomics coverage before treating this as a phenotype-specific GEM.,recommendation
+highO2,medium,modality_coverage,"Relative proteomics is missing for this condition, so consensus evidence is effectively single-modality.",recommendation
+highO2,medium,ml_diagnostics,"Treat PCA, clustering, and LASSO-lite diagnostics as exploratory because the sample size is small.",recommendation
+lowO2,high,coverage,Add broader transcriptomics/proteomics coverage before treating this as a phenotype-specific GEM.,recommendation
+lowO2,medium,modality_coverage,"Relative proteomics is missing for this condition, so consensus evidence is effectively single-modality.",recommendation
+lowO2,medium,ml_diagnostics,"Treat PCA, clustering, and LASSO-lite diagnostics as exploratory because the sample size is small.",recommendation

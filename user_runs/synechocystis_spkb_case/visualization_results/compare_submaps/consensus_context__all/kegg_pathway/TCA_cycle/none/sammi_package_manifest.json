@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case",
+  "output_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none",
+  "variant_id": "consensus_context__all",
+  "generation_method": "consensus_evidence",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "overlay_status": "not_selected",
+  "reaction_count": 16,
+  "group_count": 1,
+  "overlay_count": 0,
+  "overlay_summary_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 0,
+  "overlay_unmatched_reaction_count": 0,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "overlay_not_selected",
+  "overlay_source_file": "",
+  "overlay_source_status": "not_selected",
+  "top_highlighted_reactions": "",
+  "warning_reactions": "",
+  "selected_reaction_count": 32,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R_ACONT;R_CITt_kt;R_CITtex;R_CS;R_EX_cit_e;R_EX_fum_e;R_EX_mal__L_e;R_FUMtex;R_FUMtpp;R_IPMD;R_IPPMIa;R_IPPMIb;R_IPPS;R_MALtex;R_MALtpp;R_MDH",
+  "filter_matched_reaction_ids": "R_ACONT;R_CITt_kt;R_CITtex;R_CS;R_EX_cit_e;R_EX_fum_e;R_EX_mal__L_e;R_FUMtex;R_FUMtpp;R_IPMD;R_IPPMIa;R_IPPMIb;R_IPPS;R_MALtex;R_MALtpp;R_MDH",
+  "filter_missing_reaction_ids": "",
+  "filter_suggested_reactions": "R_PFK;R_PGI;R_GAPD;R_TPI;R_CS;R_PYK;R_ACONT;R_ACS",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\TCA_cycle\\none\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

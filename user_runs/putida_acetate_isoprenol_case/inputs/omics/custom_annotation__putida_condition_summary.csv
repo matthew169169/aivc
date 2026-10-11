@@ -1,0 +1,21 @@
+condition_id,condition,strain,strain_alias,sample,carbon_source,protein_rows,unique_proteins,unique_gene_symbols,total_percent_abundance,mean_percent_abundance,source_sheet,note
+acetate,Acetate,PT,PT,PreALE_ac,Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose,Glucose,PT,PT,PreALE_glu,Glucose,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+acetate,Acetate,WT,WT,WT_ac,Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose,Glucose,WT,WT,WT_glu,Glucose,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose_acetate,Glucose + Acetate,WT,WT,WT_gluAc,Glucose + Acetate,1730,1730,1729,99.99999999999999,0.05780346820809248,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+acetate,Acetate,Σ1,sigma1,2H_ac,Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose,Glucose,Σ1,sigma1,2H_glu,Glucose,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose_acetate,Glucose + Acetate,Σ1,sigma1,2H_gluAc,Glucose + Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+acetate,Acetate,Σ2,sigma2,4P_ac,Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose,Glucose,Σ2,sigma2,4P_glu,Glucose,1730,1730,1729,100.00038333333333,0.05780368978805395,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose_acetate,Glucose + Acetate,Σ2,sigma2,4P_gluAc,Glucose + Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+acetate,Acetate,Σ3,sigma3,5G_ac,Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose,Glucose,Σ3,sigma3,5G_glu,Glucose,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose_acetate,Glucose + Acetate,Σ3,sigma3,5G_gluAc,Glucose + Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+acetate,Acetate,Σ4,sigma4,5H_ac,Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose,Glucose,Σ4,sigma4,5H_glu,Glucose,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose_acetate,Glucose + Acetate,Σ4,sigma4,5H_gluAc,Glucose + Acetate,1730,1730,1729,99.99999999999999,0.05780346820809248,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+acetate,Acetate,Σ5,sigma5,5P_ac,Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose,Glucose,Σ5,sigma5,5P_glu,Glucose,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.
+glucose_acetate,Glucose + Acetate,Σ5,sigma5,5P_gluAc,Glucose + Acetate,1730,1730,1729,100.0,0.057803468208092484,Sheet1,Condition labels only; no uptake bounds are inferred from the paper.

@@ -1,0 +1,4 @@
+condition,source_label,oxygen_percent,growth_rate_h,exchange_bound_count,model_file,model_variable,note
+Taylor_20pctO2_relaxed,Taylor2013,20,0.1,7,models/stage4_PC_filtered_fixed.mat,ecModel_PC,"Taylor 2013: 20% DOT, D=0.1 h^-1, 18 mM lactate feed; lactate and O2 uptake left as relaxed bounds."
+Taylor_8p5pctO2_relaxed,Taylor2013,8.5,0.1,7,models/stage4_LowO2_filtered.mat,ecModel_LowO2,"Taylor 2013: 8.5% DOT, D=0.1 h^-1, 18 mM lactate feed; O2 lower bound scaled from 20% heuristic."
+Taylor_8p5pctO2_Pinchuk_fluxes,Taylor2013 + Pinchuk2011,8.5,0.1,7,models/stage4_LowO2_filtered.mat,ecModel_LowO2,Quantitative lactate/acetate/pyruvate/formate rates from Pinchuk 2011 O2-limited lactate chemostat; used as a physiology-rich low-O2 proxy because Taylor 2013 does not report these rates.

@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.1.0",
+  "format": "sammi_compatible_visualization_package",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "variant_id": "enzyme_gecko__higho2",
+  "generation_method": "enzyme_gecko",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "sammi_resource_policy": {
+    "resource_strategy": "vendored_assets_configured",
+    "open_mode": "vendored_local_shell",
+    "vendoring_status": "vendored_assets_available",
+    "license": "GPL >=3",
+    "resource_source": "SAMMI standalone browser app / MD Anderson public software",
+    "standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+    "local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+    "local_assets_available": true,
+    "vendored_assets_available": true,
+    "sammi_vendor": {
+      "status": "ready",
+      "vendored_assets_available": true,
+      "vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+      "vendor_manifest_exists": true,
+      "assets_root": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+      "vendored_index_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+      "vendored_index_exists": true,
+      "source_url": "https://github.com/MD-Anderson-Bioinformatics/SAMMI/archive/refs/heads/master.zip",
+      "license_status": "detected",
+      "license_note": "SAMMI standalone assets are distributed under their upstream license. Review the included license/readme files before redistribution.",
+      "distribution_mode": "vendored_local_assets",
+      "message": "SAMMI standalone assets were vendored successfully."
+    },
+    "requires_user_config": false,
+    "can_embed_locally": true,
+    "guidance": "Vendored standalone SAMMI assets are available; the embedded SAMMI shell can be opened."
+  },
+  "overlay_semantic_types": [],
+  "reactions": [
+    {
+      "reaction_id": "R_rxn01102_c0",
+      "cobra_reaction_id": "rxn01102_c0",
+      "reaction_name": "ATP_R_glycerate_3_phosphotransferase_c0",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00002_c0;M_cpd00223_c0",
+      "products": "M_cpd00008_c0;M_cpd00067_c0;M_cpd00169_c0"
+    },
+    {
+      "reaction_id": "R_rxn00213_c0",
+      "cobra_reaction_id": "rxn00213_c0",
+      "reaction_name": "UTP_alpha_D_glucose_1_phosphate_uridylyltransferase_c0",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00062_c0;M_cpd00089_c0",
+      "products": "M_cpd00012_c0;M_cpd00026_c0"
+    },
+    {
+      "reaction_id": "R_rxn00615_c0",
+      "cobra_reaction_id": "rxn00615_c0",
+      "reaction_name": "ATP_glycerol_3_phosphotransferase_c0",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00002_c0;M_cpd00100_c0",
+      "products": "M_cpd00008_c0;M_cpd00067_c0;M_cpd00080_c0"
+    },
+    {
+      "reaction_id": "R_rxn00763_c0",
+      "cobra_reaction_id": "rxn00763_c0",
+      "reaction_name": "Glycerol_NAD_plus__oxidoreductase_c0",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00003_c0;M_cpd00100_c0",
+      "products": "M_cpd00004_c0;M_cpd00067_c0;M_cpd00448_c0"
+    },
+    {
+      "reaction_id": "R_rxn01286_c0",
+      "cobra_reaction_id": "rxn01286_c0",
+      "reaction_name": "D_Glyceraldehyde_NAD_plus__oxidoreductase_c0",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00001_c0;M_cpd00003_c0;M_cpd00448_c0",
+      "products": "M_cpd00004_c0;M_cpd00067_c0;M_cpd00223_c0"
+    },
+    {
+      "reaction_id": "R_rxn06139_c0",
+      "cobra_reaction_id": "rxn06139_c0",
+      "reaction_name": "",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00002_c0;M_cpd11423_c0",
+      "products": "M_cpd00008_c0;M_cpd00067_c0;M_cpd11422_c0"
+    },
+    {
+      "reaction_id": "R_rxn06140_c0",
+      "cobra_reaction_id": "rxn06140_c0",
+      "reaction_name": "",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00010_c0;M_cpd11422_c0",
+      "products": "M_cpd00517_c0;M_cpd11611_c0"
+    },
+    {
+      "reaction_id": "R_rxn05901_c0",
+      "cobra_reaction_id": "rxn05901_c0",
+      "reaction_name": "",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00080_c0;M_cpd11611_c0",
+      "products": "M_cpd00010_c0;M_cpd00517_c0"
+    },
+    {
+      "reaction_id": "R_rxn00764_c0",
+      "cobra_reaction_id": "rxn00764_c0",
+      "reaction_name": "Glycerol:NADP+ 2-oxidoreductase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": true,
+      "reactants": "M_cpd00006_c0;M_cpd00100_c0",
+      "products": "M_cpd00005_c0;M_cpd00067_c0;M_cpd00157_c0"
+    }
+  ],
+  "groups": [
+    {
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "reaction_count": 9,
+      "selected_reaction_count": 9
+    }
+  ],
+  "overlays": [],
+  "overlay_summary": [
+    {
+      "overlay_source": "none",
+      "semantic_type": "none",
+      "source_file": "",
+      "source_status": "not_selected",
+      "matched_reaction_count": 0,
+      "overlay_row_count": 0,
+      "unmatched_reaction_count": 0,
+      "warning_count": 0,
+      "missing_reason": "overlay_not_selected",
+      "top_highlighted_reactions": "",
+      "warning_reactions": ""
+    }
+  ],
+  "notes": [
+    "This is a SAMMI-compatible package generated by Omics-GEM Router.",
+    "The lightweight interactive viewer remains the default; configured or vendored standalone SAMMI assets are optional."
+  ]
+}

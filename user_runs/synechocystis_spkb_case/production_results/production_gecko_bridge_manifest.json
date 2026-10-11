@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "status": "no_cobra_production_results",
+  "production_results_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\production_results",
+  "gecko_package_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\gecko_package",
+  "gecko_run_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\gecko_run_results",
+  "files": {
+    "summary": "D:\\generate\\user_runs\\synechocystis_spkb_case\\production_results\\production_gecko_comparison_summary.csv",
+    "target_comparison": "D:\\generate\\user_runs\\synechocystis_spkb_case\\production_results\\production_gecko_target_comparison.csv",
+    "design_comparison": "D:\\generate\\user_runs\\synechocystis_spkb_case\\production_results\\production_gecko_design_comparison.csv",
+    "manifest": "D:\\generate\\user_runs\\synechocystis_spkb_case\\production_results\\production_gecko_bridge_manifest.json"
+  },
+  "input_counts": {
+    "cobra_targets": 0,
+    "cobra_design": 0,
+    "cobra_genes": 0,
+    "gecko_export": 0,
+    "gecko_run_summary": 0,
+    "gecko_targets": 0,
+    "gecko_design": 0
+  }
+}

@@ -1,0 +1,2 @@
+overlay_source,semantic_type,source_file,source_status,matched_reaction_count,overlay_row_count,unmatched_reaction_count,warning_count,missing_reason,top_highlighted_reactions,warning_reactions
+enzyme_capacity,enzyme_capacity,D:\generate\user_runs\synechocystis_spkb_case\enzyme_results\reaction_enzyme_capacity.csv,missing,0,0,0,0,source_file_missing:D:\generate\user_runs\synechocystis_spkb_case\enzyme_results\reaction_enzyme_capacity.csv,,

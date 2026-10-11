@@ -1,0 +1,10 @@
+reaction_id,cobra_reaction_id,reaction_name,grouping_mode,group_id,group_label,subsystem,compartment,selected_reaction,reactants,products
+R_GLYCTO1,GLYCTO1,Glycolate oxidase,subsystem,unannotated,unannotated,unannotated,c,True,M_glyclt_c;M_o2_c,M_glx_c;M_h2o2_c
+R_GAPD,GAPD,Glyceraldehyde-3-phosphate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,True,M_g3p_c;M_nad_c;M_pi_c,M_13dpg_c;M_h_c;M_nadh_c
+R_PFK,PFK,Phosphofructokinase,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_f6p_c,M_adp_c;M_fdp_c;M_h_c
+R_PFK_2,PFK_2,Phosphofructokinase,subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_tag6p__D_c,M_adp_c;M_h_c;M_tagdp__D_c
+R_PGI,PGI,Glucose-6-phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,True,M_g6p_c,M_f6p_c
+R_PGK,PGK,Phosphoglycerate kinase,subsystem,unannotated,unannotated,unannotated,c,True,M_3pg_c;M_atp_c,M_13dpg_c;M_adp_c
+R_PGLYCP,PGLYCP,Phosphoglycolate phosphatase,subsystem,unannotated,unannotated,unannotated,c,True,M_2pglyc_c;M_h2o_c,M_glyclt_c;M_pi_c
+R_GCALDD,GCALDD,Glycolaldehyde dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,True,M_gcald_c;M_h2o_c;M_nad_c,M_glyclt_c;M_h_c;M_nadh_c
+R_PFK_3,PFK_3,Phosphofructokinase (s7p),subsystem,unannotated,unannotated,unannotated,c,True,M_atp_c;M_s7p_c,M_adp_c;M_h_c;M_s17bp_c

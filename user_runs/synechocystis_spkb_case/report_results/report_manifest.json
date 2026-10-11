@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "preset": "full_audit_report",
+  "preset_label": "Full audit report",
+  "package_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case",
+  "output_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\report_results",
+  "active_variant_id": "baseline_gem__all",
+  "selected_variant_ids": [
+    "baseline_gem__all"
+  ],
+  "files": {
+    "report_html": "D:\\generate\\user_runs\\synechocystis_spkb_case\\report_results\\full_audit_report.html",
+    "report_selection": "D:\\generate\\user_runs\\synechocystis_spkb_case\\report_results\\report_selection.csv"
+  }
+}

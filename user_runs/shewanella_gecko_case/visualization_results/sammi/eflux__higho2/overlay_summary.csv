@@ -1,0 +1,2 @@
+overlay_source,semantic_type,source_file,source_status,matched_reaction_count,overlay_row_count,unmatched_reaction_count,warning_count,missing_reason,top_highlighted_reactions,warning_reactions
+kcat_coverage,enzyme_capacity,D:\generate\user_runs\shewanella_gecko_case\generated_constraints\kcat_priors.csv,available,30,30,1086,0,,R_rxn11962_c0;R_rxn00441_c0;R_rxn07430_c0;R_rxn07432_c0;R_rxn07434_c0;R_rxn05116_c0;R_rxn05124_c0;R_rxn02342_c0;R_rxn01987_c0;R_rxn03005_c0,

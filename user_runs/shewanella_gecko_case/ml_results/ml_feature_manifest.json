@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "Built ML feature matrix with 2 condition rows and 8919 feature columns.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "condition_count": 2,
+  "feature_count": 8919,
+  "feature_row_count": 33183,
+  "files": {
+    "feature_long": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_feature_long.csv",
+    "feature_matrix": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_feature_matrix.csv",
+    "feature_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_feature_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_feature_manifest.json"
+  }
+}

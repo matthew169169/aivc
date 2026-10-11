@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2",
+  "variant_id": "eflux__higho2",
+  "generation_method": "eflux",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "kcat_coverage",
+  "overlay_status": "available",
+  "reaction_count": 2094,
+  "group_count": 1,
+  "overlay_count": 30,
+  "overlay_summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 30,
+  "overlay_unmatched_reaction_count": 1086,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "",
+  "overlay_source_file": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_priors.csv",
+  "overlay_source_status": "available",
+  "top_highlighted_reactions": "R_rxn11962_c0;R_rxn00441_c0;R_rxn07430_c0;R_rxn07432_c0;R_rxn07434_c0;R_rxn05116_c0;R_rxn05124_c0;R_rxn02342_c0;R_rxn01987_c0;R_rxn03005_c0",
+  "warning_reactions": "",
+  "selected_reaction_count": 0,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": false,
+  "filter_raw_reaction_ids": "",
+  "filter_matched_reaction_ids": "",
+  "filter_missing_reaction_ids": "",
+  "filter_suggested_reactions": "R_rxn02201_c0;R_rxn00351_c0;R_rxn07431_c0;R_rxn00836_c0;R_rxn08180_c0;R_rxn00062_c0;R_rxn00423_c0;R_rxn00364_c0",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\eflux__higho2\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

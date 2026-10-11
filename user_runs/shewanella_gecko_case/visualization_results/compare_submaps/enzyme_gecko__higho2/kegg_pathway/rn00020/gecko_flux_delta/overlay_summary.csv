@@ -1,0 +1,2 @@
+overlay_source,semantic_type,source_file,source_status,matched_reaction_count,overlay_row_count,unmatched_reaction_count,warning_count,missing_reason,top_highlighted_reactions,warning_reactions
+gecko_flux_delta,flux,D:\generate\user_runs\shewanella_gecko_case\gecko_run_results\gecko_flux_delta_high_vs_low.csv,available,18,18,2076,0,,R_rxn00305_c0;R_rxn00248_c0;R_rxn00799_c0;R_rxn00256_c0;R_rxn01872_c0;R_rxn00011_c0;R_rxn00199_c0;R_rxn00247_c0;R_rxn00285_c0;R_rxn00441_c0,

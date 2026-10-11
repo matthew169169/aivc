@@ -1,0 +1,114 @@
+{
+  "schema_version": "0.1.0",
+  "created_at": "2026-05-22T01:43:53",
+  "source_dir": "D:\\MatExt\\GECKO\\ecShewanella",
+  "read_only_source": true,
+  "adapter_parameters": {
+    "adapter_class_name": "ShewanellaGeckoAdapter",
+    "model_id": "iLJ1162_shewanella",
+    "conv_gem_path": "inputs/model/model__iLJ1162.xml",
+    "organism_name": "shewanella oneidensis",
+    "kegg_id": "son",
+    "kegg_gene_id": "kegg",
+    "uniprot_type": "proteome",
+    "uniprot_id": "UP000008186",
+    "uniprot_gene_id_field": "gene_oln",
+    "uniprot_reviewed": false,
+    "complex_taxonomic_id": 211586.0,
+    "bio_rxn": "bio1",
+    "c_source": "EX_cpd00159_e0",
+    "enzyme_comp": "c0",
+    "sigma": 0.5,
+    "Ptot": 0.48,
+    "f": 0.5,
+    "gR_exp": 0.15,
+    "spontaneous_reaction_strategy": "rxn_name_contains_spontaneous",
+    "ec_model_mode": "full_ecModel",
+    "proteomics_integration": true
+  },
+  "files": {
+    "adapter": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\ecShewanellaAdapter.m",
+      "exists": true,
+      "size_bytes": 3678,
+      "sha256": "b7292c9f2c9fe20fd5cee1ca34dde7ee69207fce122bcfbef91ceaa33e107785"
+    },
+    "model": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\models\\iLJ1162.xml",
+      "exists": true,
+      "size_bytes": 7019570,
+      "sha256": "cab89d6fe2cf1836a4c6a1a9056fe0bc9b9c1aa69d79a84d2f2da99ddb7431eb"
+    },
+    "alternate_model": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\models\\iLJ1162_Final_Clean.xml",
+      "exists": true,
+      "size_bytes": 6544228,
+      "sha256": "17bad8f8e55ecb5195f4cd6c97420932b9e31cc05df5d20c0fbc6a4fd0a70076"
+    },
+    "existing_ecmodel": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\shewanella_ecModel.xml",
+      "exists": true,
+      "size_bytes": 13813318,
+      "sha256": "0c4d4a3d4556d27fa62b61c92135ca085944aa7139f46a9a3246d67272665816"
+    },
+    "taylor": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\data\\Taylor_2013_Proteomics.csv",
+      "exists": true,
+      "size_bytes": 4133005,
+      "sha256": "8cff9b1deb88f522f9870e8607d0febf0ec87144cdde9763ad5a494bae67d41b"
+    },
+    "legacy_proteomics": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\data\\proteomics.tsv",
+      "exists": true,
+      "size_bytes": 19618,
+      "sha256": "9d9bcb969d1aabd370cb9f351439bc4eea76bf1a639a05e63971febed5c3e1e7"
+    },
+    "gotenzymes": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\data\\Shewanella_oneidensis_GotEnzymes_Full_Fixed.csv",
+      "exists": true,
+      "size_bytes": 385612,
+      "sha256": "f1345006123a2643f35b9db5c9f9f7d489ab83766269e0bbd300e1da61f67c59"
+    },
+    "uniprot": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\data\\uniprot.tsv",
+      "exists": true,
+      "size_bytes": 1447360,
+      "sha256": "e115c18be94efe249be1659d875e08a43243c4d4402e2f641dd852f349f7ba9b"
+    },
+    "kegg": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\data\\kegg.tsv",
+      "exists": true,
+      "size_bytes": 13723331,
+      "sha256": "a8ca7e8a262a595a33c7030ec0e7a751eea2c964bdd5832d0dd7c6097d91b562"
+    },
+    "conditions": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\analysis\\taylor_conditions\\Taylor_conditions.csv",
+      "exists": true,
+      "size_bytes": 1543,
+      "sha256": "88ba92acb3e6e090bdc873da73a8402d9869c5b652cc400c9d69343bb26108dd"
+    },
+    "old_fba_comparison": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\output\\FBA_High_vs_LowO2_Comparison.csv",
+      "exists": true,
+      "size_bytes": 619,
+      "sha256": "9af5f7c43b10432803353b8ca8ad56d9e9f534513a258f0ded3a4edef87032ae"
+    },
+    "old_protein_allocation": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\output\\protein_allocation\\enzyme_usage_comparison.csv",
+      "exists": true,
+      "size_bytes": 78942,
+      "sha256": "58043e0dafdf6aca62fa39db742bb2cfd3f8cfb14b42b7ec206beceaf16e7019"
+    },
+    "old_taylor_condition_summary": {
+      "path": "D:\\MatExt\\GECKO\\ecShewanella\\output\\taylor_conditions\\taylor_condition_summary.csv",
+      "exists": true,
+      "size_bytes": 883,
+      "sha256": "d8c0de0e07b4ecdcbf665af56c5d3f46d74f48dbb4e458ee29c0fd832bb406a5"
+    }
+  },
+  "conversion_notes": [
+    "Taylor proteomics fractions were converted to mmol_per_gDW using protein MW and Ptot.",
+    "GotEnzymes2 kcat rows retain KEGG reaction ids; GEM mapping is reviewed downstream.",
+    "Existing ecShewanella outputs are validation baselines, not model-generation inputs."
+  ]
+}

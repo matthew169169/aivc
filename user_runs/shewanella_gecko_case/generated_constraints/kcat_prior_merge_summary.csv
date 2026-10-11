@@ -1,0 +1,2 @@
+status,candidate_count,selected_prior_count,experimental_candidate_count,database_candidate_count,dlkcat_candidate_count,ml_candidate_count,selected_experimental_count,selected_database_count,selected_dlkcat_count,selected_ml_count,kcat_conflict_review_count,kcat_spread_caution_count,guidance
+merged,8190,1116,0,8190,0,0,0,1116,0,0,77,224,Some reactions have high kcat candidate conflicts; review conflict flags before enzyme-constrained or hybrid interpretation.

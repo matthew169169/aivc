@@ -1,0 +1,3 @@
+variant_id,condition,evidence_mode,confidence,evidence_quality_label,condition_evidence_status,multi_omics_conflict_fraction,context_model_sbml_available,context_model_feasibility_status,fba_status,guidance
+baseline_gem__all,ALL,none,baseline,usable_with_caution,,,False,skipped_no_context_model,optimal,"Variant is usable with caution; review evidence quality, feasibility, and FBA status before interpreting targets."
+consensus_context__all,ALL,multi_omics_consensus,usable_with_caution,usable_with_caution,,,False,skipped_no_context_model,missing,Context variant has no exportable SBML yet; use it as evidence guidance before model-backed analysis.

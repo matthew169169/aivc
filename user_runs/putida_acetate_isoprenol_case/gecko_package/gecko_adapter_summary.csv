@@ -1,0 +1,17 @@
+parameter,value
+ec_model_mode,full_ecModel
+adapter_class_name,PputidaAcetateGeckoAdapter
+model_id,putida_acetate_isoprenol_mixed_carbon
+organism_name,Pseudomonas putida KT2440
+bio_rxn,R_BIOMASS_KT2440_WT3
+c_source,R_EX_glc__D_e
+enzyme_comp,cytoplasm
+sigma,0.5
+Ptot,0.5
+f,0.5
+gR_exp,0.1
+kegg_id,ppu
+uniprot_type,taxonomy
+uniprot_id,160488
+uniprot_reviewed,False
+proteomics_integration,True

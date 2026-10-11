@@ -1,0 +1,9 @@
+file_name,role,source_sheet,row_count,unique_gene_or_protein_ids,mapped_gene_or_protein_ids,gene_mapping_fraction,unique_reaction_ids,mapped_reaction_ids,reaction_mapping_fraction,mapping_status
+relative_proteomics_spkb_vs_wt.csv,relative_proteomics,Table S7,6650,2350,561,0.2387,0,0,,mapping_partial
+relative_proteomics_carbon_limitation.csv,relative_proteomics,Table S8,8332,2142,533,0.2488,0,0,,mapping_partial
+metabolomics_spkb_hc_lc_validation.csv,intracellular_metabolomics,Table S5,100,0,0,,0,0,,not_model_mapped_evidence
+phosphoproteomics_spkb_evidence.csv,custom_annotation,Table S9,400,89,25,0.2809,0,0,,mapping_partial
+pigmentation_spkb_validation.csv,custom_annotation,Table S4,78,0,0,,0,0,,not_model_mapped_evidence
+synechocystis_spk_gene_annotation.csv,custom_annotation,Table S1,45,44,0,0.0,0,0,,mapping_failed
+synechocystis_strain_annotation.csv,custom_annotation,Table S3,15,0,0,,0,0,,not_model_mapped_evidence
+spkb_peptide_validation.csv,custom_annotation,Table S6,15,1,0,0.0,0,0,,mapping_failed

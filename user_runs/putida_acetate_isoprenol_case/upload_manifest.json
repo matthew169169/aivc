@@ -1,0 +1,88 @@
+{
+  "schema_version": "0.2.0",
+  "created_at": "2026-06-18T11:31:50",
+  "run_id": "putida_acetate_isoprenol_case",
+  "status": "ready_for_review",
+  "model": {
+    "kind": "model",
+    "role": "gem",
+    "original_name": "iJN1463.xml",
+    "saved_name": "model__iJN1463.xml",
+    "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+    "relative_path": "inputs\\model\\model__iJN1463.xml",
+    "size_bytes": 10702784,
+    "columns": "",
+    "inspection_status": "ok",
+    "details": "Pseudomonas putida KT2440 SBML model for acetate/isoprenol case."
+  },
+  "omics_files": [
+    {
+      "kind": "omics_table",
+      "role": "absolute_proteomics",
+      "original_name": "absolute_proteomics_putida.csv",
+      "saved_name": "absolute_proteomics__absolute_proteomics_putida.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\absolute_proteomics__absolute_proteomics_putida.csv",
+      "relative_path": "inputs\\omics\\absolute_proteomics__absolute_proteomics_putida.csv",
+      "size_bytes": 10515157,
+      "columns": "protein_id;gene_id;sample;condition;strain;strain_alias;value;unit;top3_counts_mean;top3_counts_std;protein_abundance_percent;protein_abundance_percent_std;log10_abundance;log10_abundance_std;cv_percent;sem_percent;protein_name;protein_description;source_sheet",
+      "inspection_status": "ok",
+      "details": "Absolute Top3 protein abundance table from File S1."
+    },
+    {
+      "kind": "omics_table",
+      "role": "relative_proteomics",
+      "original_name": "relative_proteomics_putida_condition_response.csv",
+      "saved_name": "relative_proteomics__relative_proteomics_putida_condition_response.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\relative_proteomics__relative_proteomics_putida_condition_response.csv",
+      "relative_path": "inputs\\omics\\relative_proteomics__relative_proteomics_putida_condition_response.csv",
+      "size_bytes": 7716598,
+      "columns": "protein_id;gene_id;sample;condition;reference_condition;strain;strain_alias;contrast;value;value_type;target_abundance_percent;reference_abundance_percent;protein_name;protein_description;source_sheet",
+      "inspection_status": "ok",
+      "details": "Within-strain condition log2 protein abundance response."
+    },
+    {
+      "kind": "omics_table",
+      "role": "relative_proteomics",
+      "original_name": "relative_proteomics_putida_strain_response.csv",
+      "saved_name": "relative_proteomics__relative_proteomics_putida_strain_response.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\relative_proteomics__relative_proteomics_putida_strain_response.csv",
+      "relative_path": "inputs\\omics\\relative_proteomics__relative_proteomics_putida_strain_response.csv",
+      "size_bytes": 9699688,
+      "columns": "protein_id;gene_id;sample;condition;strain;reference_strain;strain_alias;contrast;value;value_type;target_abundance_percent;reference_abundance_percent;protein_name;protein_description;source_sheet",
+      "inspection_status": "ok",
+      "details": "Between-strain log2 protein abundance response."
+    },
+    {
+      "kind": "omics_table",
+      "role": "custom_annotation",
+      "original_name": "putida_condition_summary.csv",
+      "saved_name": "custom_annotation__putida_condition_summary.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\custom_annotation__putida_condition_summary.csv",
+      "relative_path": "inputs\\omics\\custom_annotation__putida_condition_summary.csv",
+      "size_bytes": 3589,
+      "columns": "condition_id;condition;strain;strain_alias;sample;carbon_source;protein_rows;unique_proteins;unique_gene_symbols;total_percent_abundance;mean_percent_abundance;source_sheet;note",
+      "inspection_status": "ok",
+      "details": "Carbon source condition and strain grouping summary."
+    },
+    {
+      "kind": "omics_table",
+      "role": "custom_annotation",
+      "original_name": "putida_marker_annotation.csv",
+      "saved_name": "custom_annotation__putida_marker_annotation.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\omics\\custom_annotation__putida_marker_annotation.csv",
+      "relative_path": "inputs\\omics\\custom_annotation__putida_marker_annotation.csv",
+      "size_bytes": 2059,
+      "columns": "gene_id;gene_symbol;custom_group;pathway_hint;evidence_note;reaction_id;subsystem;kegg_pathway;model_annotation_hint;observed_in_proteomics;observed_rows;source_sheet",
+      "inspection_status": "ok",
+      "details": "Curated acetate/gluconate/isoprenol marker annotation from paper narrative."
+    }
+  ],
+  "condition_files": [],
+  "files": {
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\upload_manifest.json",
+    "input_file_map": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\input_file_map.csv",
+    "run_config_json": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\run_config.json",
+    "run_config_yaml": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\run_config.yaml",
+    "next_steps": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\NEXT_STEPS.md"
+  }
+}

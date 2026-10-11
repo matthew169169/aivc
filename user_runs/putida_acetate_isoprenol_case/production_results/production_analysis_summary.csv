@@ -1,0 +1,2 @@
+status,message,product_target_count,production_envelope_row_count,ranked_product_count,fseof_candidate_count,production_design_candidate_count,oe_design_count,kd_design_count,ko_design_count,production_gene_target_count,unmapped_reaction_target_count,review_required_target_count,growth_coupled_target_count,guidance
+skipped_no_targets,No production_targets table is configured; skipped production analysis.,0,0,0,0,0,0,0,0,0,0,0,0,No production_targets table is configured; skipped production analysis.

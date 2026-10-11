@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "constraints_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\generated_constraints",
+  "evidence_mode_results_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\evidence_mode_results",
+  "context_results_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\context_results",
+  "troppo_results_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\troppo_results",
+  "ml_results_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\ml_results",
+  "summary_rows": 0,
+  "recommendation_rows": 0,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\synechocystis_spkb_case\\interpretation_results\\condition_interpretation_summary.csv",
+    "recommendations": "D:\\generate\\user_runs\\synechocystis_spkb_case\\interpretation_results\\condition_interpretation_recommendations.csv",
+    "manifest": "D:\\generate\\user_runs\\synechocystis_spkb_case\\interpretation_results\\condition_interpretation_manifest.json"
+  }
+}

@@ -1,0 +1,2 @@
+variant_id,condition,status,objective_value,active_generation_method_label,active_model_path,output_dir,run_message
+baseline_gem__all,default,optimal,0.10437123490625141,Baseline GEM,D:\generate\user_runs\shewanella_gecko_case\inputs\model\model__iLJ1162.xml,D:\generate\user_runs\shewanella_gecko_case\variant_cobra_results\baseline_gem__all,Completed FBA for 1 conditions.

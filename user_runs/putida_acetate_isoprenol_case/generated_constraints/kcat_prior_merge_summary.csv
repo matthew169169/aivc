@@ -1,0 +1,2 @@
+status,candidate_count,selected_prior_count,experimental_candidate_count,database_candidate_count,dlkcat_candidate_count,ml_candidate_count,selected_experimental_count,selected_database_count,selected_dlkcat_count,selected_ml_count,kcat_conflict_review_count,kcat_spread_caution_count,guidance,case_id,kcat_source_mode,kcat_source_databases
+merged,972,745,0,972,0,0,0,745,0,0,0,0,Database kcat values are available; review organism and substrate specificity before production ecGEM use.,putida_acetate_isoprenol_mixed_carbon,local,GECKO max_KCAT local cache

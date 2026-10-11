@@ -1,0 +1,218 @@
+{
+  "case_id": "putida_acetate_isoprenol_mixed_carbon",
+  "title": "Pseudomonas putida acetate tolerance and isoprenol production from mixed carbon sources",
+  "organism": "Pseudomonas putida KT2440",
+  "paper": {
+    "title": "Alternate routes to acetate tolerance lead to varied isoprenol production from mixed carbon sources in Pseudomonas putida",
+    "journal": "Applied and Environmental Microbiology",
+    "year": 2025,
+    "doi": "10.1128/aem.02123-24",
+    "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\raw_source\\main_paper.pdf",
+    "sha256": "46a5701ea230579777d5d7a26998ec421b43da2a8aa52d7142aa330050888d32"
+  },
+  "raw_workbook": {
+    "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\raw_source\\aem_02123_24_s0001.xlsx",
+    "sha256": "891878b672b9d2e67c33dd17c80690fb95dd0938fbc2b32a2d8cea612674acfa",
+    "sheet": "Sheet1",
+    "rows": 34600
+  },
+  "model": {
+    "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\model\\iJN1463.xml",
+    "name": "iJN1463.xml",
+    "sha256": "d573833328ffae0dfa752a1fa3262ed939ed5862288beab287fca30d0fefb4a1",
+    "source": "BiGG SBML or user-supplied model file"
+  },
+  "converted_files": [
+    {
+      "role": "absolute_proteomics",
+      "relative_path": "upload_ready/omics/absolute_proteomics_putida.csv",
+      "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\omics\\absolute_proteomics_putida.csv",
+      "row_count": 34600,
+      "source_sheet": "Sheet1",
+      "description": "Absolute Top3 protein abundance table from File S1.",
+      "sha256": "199c230a445338cb7792df4004ccaacec92c7865c9a057c6ec3cde340094bbc5"
+    },
+    {
+      "role": "relative_proteomics",
+      "relative_path": "upload_ready/omics/relative_proteomics_putida_condition_response.csv",
+      "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\omics\\relative_proteomics_putida_condition_response.csv",
+      "row_count": 32870,
+      "source_sheet": "Sheet1",
+      "description": "Within-strain condition log2 protein abundance response.",
+      "sha256": "91bd6e3237e8b08bb95d575d691979cf1a79a4c36e1ed37764a6f42e56330ff7"
+    },
+    {
+      "role": "relative_proteomics",
+      "relative_path": "upload_ready/omics/relative_proteomics_putida_strain_response.csv",
+      "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\omics\\relative_proteomics_putida_strain_response.csv",
+      "row_count": 46710,
+      "source_sheet": "Sheet1",
+      "description": "Between-strain log2 protein abundance response.",
+      "sha256": "983ff4a983e198ab4d84d83cc07854df1dec873bd2f88f80a39468028ad8ce34"
+    },
+    {
+      "role": "custom_annotation",
+      "relative_path": "upload_ready/omics/putida_condition_summary.csv",
+      "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\omics\\putida_condition_summary.csv",
+      "row_count": 20,
+      "source_sheet": "Sheet1",
+      "description": "Carbon source condition and strain grouping summary.",
+      "sha256": "031f539229bd7ad2b222c90360ba1ffc405e6b203f72d9b6c149fcea65690b5e"
+    },
+    {
+      "role": "custom_annotation",
+      "relative_path": "upload_ready/omics/putida_marker_annotation.csv",
+      "path": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\omics\\putida_marker_annotation.csv",
+      "row_count": 6,
+      "source_sheet": "paper text",
+      "description": "Curated acetate/gluconate/isoprenol marker annotation from paper narrative.",
+      "sha256": "958cd2ce1cb36821efacafeab72cf01d21fecb7c7290279e6c2fabb9393a30d6"
+    }
+  ],
+  "input_summary": {
+    "row_count": 34600,
+    "unique_protein_groups": 1730,
+    "unique_gene_symbols": 1729,
+    "strains": [
+      "PT",
+      "WT",
+      "Σ1",
+      "Σ2",
+      "Σ3",
+      "Σ4",
+      "Σ5"
+    ],
+    "strain_aliases": {
+      "PT": "PT",
+      "WT": "WT",
+      "Σ1": "sigma1",
+      "Σ2": "sigma2",
+      "Σ3": "sigma3",
+      "Σ4": "sigma4",
+      "Σ5": "sigma5"
+    },
+    "conditions": [
+      "Acetate",
+      "Glucose",
+      "Glucose + Acetate"
+    ],
+    "samples": [
+      "2H_ac",
+      "2H_glu",
+      "2H_gluAc",
+      "4P_ac",
+      "4P_glu",
+      "4P_gluAc",
+      "5G_ac",
+      "5G_glu",
+      "5G_gluAc",
+      "5H_ac",
+      "5H_glu",
+      "5H_gluAc",
+      "5P_ac",
+      "5P_glu",
+      "5P_gluAc",
+      "PreALE_ac",
+      "PreALE_glu",
+      "WT_ac",
+      "WT_glu",
+      "WT_gluAc"
+    ]
+  },
+  "mapping_summary": {
+    "model_file": "D:\\generate\\case_studies\\putida_acetate_isoprenol_case_inputs\\upload_ready\\model\\iJN1463.xml",
+    "model_gene_count": 6722,
+    "model_reaction_count": 3098,
+    "model_metabolite_count": 2153,
+    "rows": [
+      {
+        "file_name": "absolute_proteomics_putida.csv",
+        "role": "absolute_proteomics",
+        "source_sheet": "Sheet1",
+        "row_count": 34600,
+        "unique_gene_or_protein_ids": 3459,
+        "mapped_gene_or_protein_ids": 222,
+        "gene_mapping_fraction": 0.0642,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_partial"
+      },
+      {
+        "file_name": "relative_proteomics_putida_condition_response.csv",
+        "role": "relative_proteomics",
+        "source_sheet": "Sheet1",
+        "row_count": 32870,
+        "unique_gene_or_protein_ids": 3459,
+        "mapped_gene_or_protein_ids": 222,
+        "gene_mapping_fraction": 0.0642,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_partial"
+      },
+      {
+        "file_name": "relative_proteomics_putida_strain_response.csv",
+        "role": "relative_proteomics",
+        "source_sheet": "Sheet1",
+        "row_count": 46710,
+        "unique_gene_or_protein_ids": 3459,
+        "mapped_gene_or_protein_ids": 222,
+        "gene_mapping_fraction": 0.0642,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_partial"
+      },
+      {
+        "file_name": "putida_condition_summary.csv",
+        "role": "custom_annotation",
+        "source_sheet": "Sheet1",
+        "row_count": 20,
+        "unique_gene_or_protein_ids": 0,
+        "mapped_gene_or_protein_ids": 0,
+        "gene_mapping_fraction": "",
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "not_model_mapped_evidence"
+      },
+      {
+        "file_name": "putida_marker_annotation.csv",
+        "role": "custom_annotation",
+        "source_sheet": "paper text",
+        "row_count": 6,
+        "unique_gene_or_protein_ids": 6,
+        "mapped_gene_or_protein_ids": 5,
+        "gene_mapping_fraction": 0.8333,
+        "unique_reaction_ids": 0,
+        "mapped_reaction_ids": 0,
+        "reaction_mapping_fraction": "",
+        "mapping_status": "mapping_ready"
+      }
+    ],
+    "warnings": [
+      "Protein.Group values are UniProt accessions; model gene mapping may be partial without a dedicated UniProt-to-locus alias table.",
+      "No kcat, enzyme capacity, uptake-bound, growth, or isoprenol titer table is inferred from the supplementary proteomics file."
+    ]
+  },
+  "recommended_methods": {
+    "model_generation": [
+      "baseline_gem",
+      "consensus_evidence"
+    ],
+    "analysis": [
+      "fba_pfba",
+      "evidence_comparison",
+      "ml_pca_lasso",
+      "condition_interpretation",
+      "readiness_gate"
+    ],
+    "not_ready": {
+      "enzyme_gecko": "No kcat table or reaction-level enzyme capacity evidence is supplied by this paper package.",
+      "condition_bounds": "Glucose/acetate condition labels are present, but uptake bounds are not inferred from the paper.",
+      "production_targets": "Isoprenol production is discussed in the paper, but no structured titer table is supplied in the workbook."
+    }
+  },
+  "created_at": "2026-06-18T11:31:50"
+}

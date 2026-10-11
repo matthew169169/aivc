@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.2.0",
+  "cobra_available": true,
+  "status": "completed",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "exchange_bounds_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\exchange_bounds.csv",
+  "production_targets_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\production_targets.csv",
+  "biomass_fractions": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "fseof_fractions": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "max_fseof_candidates": 200,
+  "max_growth_impact_candidates": 80,
+  "design_candidate_count": 796,
+  "gene_target_count": 1188,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_analysis_summary.csv",
+    "production_targets": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_targets.csv",
+    "production_envelope": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_envelope.csv",
+    "production_target_ranking": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_target_ranking.csv",
+    "fseof_lite_reaction_targets": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\fseof_lite_reaction_targets.csv",
+    "production_design_targets": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_design_targets.csv",
+    "production_gene_targets": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_gene_targets.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_analysis_manifest.json"
+  }
+}

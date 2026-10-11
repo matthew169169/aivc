@@ -1,0 +1,4 @@
+condition,reaction_count,protect,keep,support,penalize_candidate,delete_candidate,neutral,status
+highO2,2094,1,0,0,0,0,2093,summary
+lowO2,2094,1,0,0,0,0,2093,summary
+ALL,4188,2,0,0,0,0,4186,summary

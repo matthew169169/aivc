@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta",
+  "variant_id": "baseline_gem__all",
+  "generation_method": "baseline_gem",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "gecko_flux_delta",
+  "overlay_status": "available",
+  "reaction_count": 18,
+  "group_count": 1,
+  "overlay_count": 18,
+  "overlay_summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 18,
+  "overlay_unmatched_reaction_count": 2076,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "",
+  "overlay_source_file": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_flux_delta_high_vs_low.csv",
+  "overlay_source_status": "available",
+  "top_highlighted_reactions": "R_rxn00305_c0;R_rxn00248_c0;R_rxn00799_c0;R_rxn00256_c0;R_rxn01872_c0;R_rxn00011_c0;R_rxn00199_c0;R_rxn00247_c0;R_rxn00285_c0;R_rxn00441_c0",
+  "warning_reactions": "",
+  "selected_reaction_count": 72,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R00014;R00268;R00341;R00342;R00351;R00405;R00431;R00621;R00709;R00726;R01082;R01325;R01899;R01900;R02569;R02570;R03270;R03316;R_rxn00011_c0;R_rxn00199_c0;R_rxn00247_c0;R_rxn00248_c0;R_rxn00256_c0;R_rxn00285_c0;R_rxn00305_c0;R_rxn00441_c0;R_rxn00505_c0;R_rxn00519_c0;R_rxn00799_c0;R_rxn00974_c0;R_rxn01387_c0;R_rxn01388_c0;R_rxn01871_c0;R_rxn01872_c0;R_rxn02342_c0;R_rxn02376_c0;rxn00011_c0;rxn00199_c0;rxn00247_c0;rxn00248_c0;rxn00256_c0;rxn00285_c0;rxn00305_c0;rxn00441_c0;rxn00505_c0;rxn00519_c0;rxn00799_c0;rxn00974_c0;rxn01387_c0;rxn01388_c0;rxn01871_c0;rxn01872_c0;rxn02342_c0;rxn02376_c0",
+  "filter_matched_reaction_ids": "R_rxn00011_c0;R_rxn00199_c0;R_rxn00247_c0;R_rxn00248_c0;R_rxn00256_c0;R_rxn00285_c0;R_rxn00305_c0;R_rxn00441_c0;R_rxn00505_c0;R_rxn00519_c0;R_rxn00799_c0;R_rxn00974_c0;R_rxn01387_c0;R_rxn01388_c0;R_rxn01871_c0;R_rxn01872_c0;R_rxn02342_c0;R_rxn02376_c0",
+  "filter_missing_reaction_ids": "R00014;R00268;R00341;R00342;R00351;R00405;R00431;R00621;R00709;R00726;R01082;R01325;R01899;R01900;R02569;R02570;R03270;R03316",
+  "filter_suggested_reactions": "R_rxn00247_c0;R_rxn02342_c0;R_rxn00199_c0;R_rxn00519_c0;R_rxn02376_c0;R_rxn00305_c0;R_rxn01872_c0;R_rxn00248_c0",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00020\\gecko_flux_delta\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

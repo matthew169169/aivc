@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "constraints_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints",
+  "evidence_mode_results_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\evidence_mode_results",
+  "context_results_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\context_results",
+  "troppo_results_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\troppo_results",
+  "ml_results_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\ml_results",
+  "summary_rows": 0,
+  "recommendation_rows": 0,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\interpretation_results\\condition_interpretation_summary.csv",
+    "recommendations": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\interpretation_results\\condition_interpretation_recommendations.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\interpretation_results\\condition_interpretation_manifest.json"
+  }
+}

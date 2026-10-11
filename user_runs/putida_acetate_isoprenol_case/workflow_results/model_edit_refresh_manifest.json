@@ -1,0 +1,10 @@
+{
+  "status": "ready",
+  "package_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case",
+  "registry_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\workflow_results\\model_variant_registry.csv",
+  "edit_record_mode": "inferred_legacy",
+  "edit_reaction_index_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\workflow_results\\model_edit_reaction_index.csv",
+  "edit_manifest_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\workflow_results\\model_edit_manifests",
+  "row_count": 5854,
+  "guidance": "Edit provenance refreshed from existing run artifacts."
+}

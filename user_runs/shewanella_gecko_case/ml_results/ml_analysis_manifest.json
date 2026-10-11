@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1.0",
+  "status": "correlation_ranking",
+  "correlation_count": 0,
+  "prior_count": 0,
+  "context_policy_count": 0,
+  "pca_score_count": 2,
+  "condition_cluster_count": 2,
+  "lasso_lite_feature_count": 0,
+  "parameters": {
+    "min_overlap": 2,
+    "prior_threshold": 0.5,
+    "max_clusters": 4,
+    "max_lasso_features": 50
+  },
+  "files": {
+    "correlations": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\feature_phenotype_correlations.csv",
+    "prior_scores": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_prior_scores.csv",
+    "context_policy": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_context_policy.csv",
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_analysis_summary.csv",
+    "diagnostic_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_diagnostic_summary.csv",
+    "pca_scores": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_pca_scores.csv",
+    "feature_loadings": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_feature_loadings.csv",
+    "condition_clusters": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_condition_clusters.csv",
+    "lasso_lite_coefficients": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_lasso_lite_coefficients.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\ml_results\\ml_analysis_manifest.json"
+  }
+}

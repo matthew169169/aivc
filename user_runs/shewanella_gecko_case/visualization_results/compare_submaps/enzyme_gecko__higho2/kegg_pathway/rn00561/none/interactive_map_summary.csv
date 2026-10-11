@@ -1,0 +1,2 @@
+variant_id,status,message,reaction_count_rendered,metabolite_count_rendered,node_count,link_count,overlay_count_available,warning_count,production_candidate_count,ko_candidate_count,kd_candidate_count,oe_candidate_count,top_production_reactions,production_warning_reactions,needs_filtering
+enzyme_gecko__higho2,completed,Interactive reaction network graph generated.,9,23,32,43,0,0,0,0,0,0,,,False

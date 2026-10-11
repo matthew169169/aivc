@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Open SAMMI-compatible package</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; color: #17233b; }
+    code, pre { background: #f4f7fb; border-radius: 6px; padding: 2px 6px; }
+    pre { padding: 16px; overflow: auto; }
+  </style>
+</head>
+<body>
+  <h1>Open with external SAMMI</h1>
+  <p>Omics-GEM Router generated a SAMMI-compatible package for variant <code>consensus_context__all</code>.</p>
+  <p>Grouping mode: <code>subsystem</code>; overlay source: <code>enzyme_capacity</code> (available).</p>
+  <p>No local SAMMI assets are configured. This package uses <strong>external_open_mode</strong>.</p>
+  <h2>Recommended steps</h2>
+  <ol>
+    <li>Open <a href="https://bioinformatics.mdanderson.org/Software/SAMMI/">SAMMI web app</a> or a local standalone SAMMI copy.</li>
+    <li>Use <strong>Load Single SBML Model</strong> with the model path recorded in the manifest.</li>
+    <li>Use <code>subsystem_reaction_assignment.csv</code> to focus the map by subsystem or selected reactions.</li>
+    <li>Use <code>overlay_data.csv</code> for flux/evidence/warning/production overlays after conversion support is available.</li>
+  </ol>
+  <h2>Package files</h2>
+  <table border="1" cellspacing="0" cellpadding="6">
+    <thead><tr><th>Role</th><th>File</th></tr></thead>
+    <tbody><tr><td>reaction_assignment</td><td><code>subsystem_reaction_assignment.csv</code></td></tr>
+<tr><td>group_summary</td><td><code>subsystem_summary.csv</code></td></tr>
+<tr><td>overlay</td><td><code>overlay_data.csv</code></td></tr>
+<tr><td>overlay_summary</td><td><code>overlay_summary.csv</code></td></tr>
+<tr><td>portable_package</td><td><code>sammi_map_package.json</code></td></tr>
+<tr><td>manifest</td><td><code>sammi_package_manifest.json</code></td></tr>
+<tr><td>assets_status</td><td><code>sammi_assets_status.csv</code></td></tr>
+<tr><td>external_open_readme</td><td><code>standalone_readme.html</code></td></tr>
+<tr><td>launch_page</td><td><code>sammi_launch.html</code></td></tr></tbody>
+  </table>
+  <h2>Package Manifest</h2>
+  <pre>{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case",
+  "output_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity",
+  "variant_id": "consensus_context__all",
+  "generation_method": "consensus_evidence",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "enzyme_capacity",
+  "overlay_status": "available",
+  "reaction_count": 316,
+  "group_count": 1,
+  "overlay_count": 3,
+  "overlay_summary_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 1,
+  "overlay_unmatched_reaction_count": 744,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "",
+  "overlay_source_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+  "overlay_source_status": "available",
+  "top_highlighted_reactions": "R_EX_ca2_e;R_EX_ca2_e;R_EX_ca2_e",
+  "warning_reactions": "",
+  "selected_reaction_count": 632,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R_EX_12dgr160_e;R_EX_12dgr180_e;R_EX_13dampp_e;R_EX_15dap_e;R_EX_1ag160_e;R_EX_1ag180_e;R_EX_1ag181d9_e;R_EX_1ag182d9d12_e;R_EX_25dkglcn_e;R_EX_26dap__M_e;R_EX_2ddglcn_e;R_EX_2dhglcn_e;R_EX_2m35mdntha_e;R_EX_34dhbz_e;R_EX_34dhcinm_e;R_EX_34dhphe_e;R_EX_35dnta_e;R_EX_3h4atb_e;R_EX_3mb_e;R_EX_4abut_e;R_EX_4hbz_e;R_EX_4hpro_DC_e;R_EX_4hpro_LT_e;R_EX_4hptn_e;R_EX_4oxptn_e;R_EX_5aptn_e;R_EX_5g2oxpt_e;R_EX_5mcsn_e;R_EX_5oxpro_e;R_EX_6atha_e;R_EX_6hnac_e;R_EX_AEP_e;R_EX_LalaLglu_e;R_EX_Ncbmpts_e;R_EX_R3hdec4e_e;R_EX_R_3h4atba_e;R_EX_R_3h6atha_e;R_EX_R_3hcmrs7e_e;R_EX_R_3hdcaa_e;R_EX_R_3hdd5ea_e;R_EX_R_3hdd6e_e;R_EX_R_3hdda_e;R_EX_R_3hhdca_e;R_EX_R_3hhpa_e;R_EX_R_3hhxa_e;R_EX_R_3hnonaa_e;R_EX_R_3hocta_e;R_EX_R_3hpba_e;R_EX_R_3hpdeca_e;R_EX_R_3hphpa_e;R_EX_R_3hphxa_e;R_EX_R_3hpnona_e;R_EX_R_3hpocta_e;R_EX_R_3hppta_e;R_EX_R_3hpt_e;R_EX_R_3htd58e_e;R_EX_R_3htd5e_e;R_EX_R_3httdca_e;R_EX_T4hcinnm_e;R_EX_acald_e;R_EX_acmtsoxin_e;R_EX_acpptrn_e;R_EX_acser_e;R_EX_actn__R_e;R_EX_ade_e;R_EX_adn_e;R_EX_adocbl_e;R_EX_ag_e;R_EX_agm_e;R_EX_akg_e;R_EX_ala_B_e;R_EX_ala__D_e;R_EX_ala__L_e;R_EX_alaala_e;R_EX_alahis_e;R_EX_alaleu_e;R_EX_alathr_e;R_EX_alatrp_e;R_EX_algac_MG_14_e;R_EX_algac_MG_23_e;R_EX_algac_MG_32_e;R_EX_algac_MG_41_e;R_EX_algac__M_e;R_EX_alltn_e;R_EX_apc_e;R_EX_arbtn_e;R_EX_arbtn_fe3_e;R_EX_arg__D_e;R_EX_arg__L_e;R_EX_asn__D_e;R_EX_asn__L_e;R_EX_aso3_e;R_EX_aso4_e;R_EX_asp__L_e;R_EX_balaala_e;R_EX_balabala_e;R_EX_balagly_e;R_EX_balaleu_e;R_EX_balamd_e;R_EX_bhb_e;R_EX_biliverd_e;R_EX_btd_RR_e;R_EX_btn_e;R_EX_butso3_e;R_EX_bz_e;R_EX_ca2_e;R_EX_carn_e;R_EX_catechol_e;R_EX_cbi_e;R_EX_cbl1_e;R_EX_cd2_e;R_EX_cell4_e;R_EX_cgly_e;R_EX_chol_e;R_EX_chols_e;R_EX_chor_e;R_EX_cinnm_e;R_EX_cl_e;R_EX_cm_e;R_EX_cmcbtt_e;R_EX_co_e;R_EX_confrl_e;R_EX_creat_e;R_EX_crn_e;R_EX_cro4_e;R_EX_crtn_e;R_EX_csn_e;R_EX_cu2_e;R_EX_cu_e;R_EX_cyan_e;R_EX_cys__D_e;R_EX_cys__L_e;R_EX_d2one_e;R_EX_d3one_e;R_EX_d4one_e;R_EX_dag181d9_e;R_EX_dag182d9d12_e;R_EX_dca_e;R_EX_ddca_e;R_EX_dgudbutn_e;R_EX_dmanur_e;R_EX_dmgly_e;R_EX_dopa_e;R_EX_ecto__L_e;R_EX_enter_e;R_EX_ethso3_e;R_EX_fald_e;R_EX_fcmcbtt_e;R_EX_fe2_e;R_EX_fe3_e;R_EX_fe3mcbtt_e;R_EX_fe3pyovd_e;R_EX_fe3pyovd_kt_e;R_EX_fecrm_e;R_EX_fecrm_un_e;R_EX_feenter_e;R_EX_feoxam_e;R_EX_feoxam_un_e;R_EX_fer_e;R_EX_fru_e;R_EX_ga_e;R_EX_galct__D_e;R_EX_galur_e;R_EX_glc__D_e;R_EX_glcn_e;R_EX_glcr_e;R_EX_glcur_e;R_EX_gln__L_e;R_EX_glu__L_e;R_EX_glutar_e;R_EX_gly_e;R_EX_glyald_e;R_EX_glyb_e;R_EX_glyc__R_e;R_EX_glyc_e;R_EX_glygln_e;R_EX_glyglu_e;R_EX_glygly_e;R_EX_glymet_e;R_EX_glyphe_e;R_EX_glyser_e;R_EX_gua_e;R_EX_gudac_e;R_EX_gudptn_e;R_EX_h2o_e;R_EX_h2s_e;R_EX_h_e;R_EX_hco3_e;R_EX_hcys__L_e;R_EX_hdca_e;R_EX_hdcea_e;R_EX_hg2_e;R_EX_hgentis_e;R_EX_his__L_e;R_EX_hisgly_e;R_EX_hishis_e;R_EX_hom__L_e;R_EX_hpta_e;R_EX_hxa_e;R_EX_hxan_e;R_EX_ile__L_e;R_EX_ind3ac_e;R_EX_indole_e;R_EX_ins_e;R_EX_isetac_e;R_EX_k_e;R_EX_leu__D_e;R_EX_leu__L_e;R_EX_leuleu_e;R_EX_lnlc_e;R_EX_lpspput_e;R_EX_lys__D_e;R_EX_lys__L_e;R_EX_m_xyl_e;R_EX_man_e;R_EX_manur_e;R_EX_mcbtt_e;R_EX_met__D_e;R_EX_met__L_e;R_EX_mg2_e;R_EX_mmet_e;R_EX_mn2_e;R_EX_mobd_e;R_EX_mso3_e;R_EX_mtsoxin_e;R_EX_n2one_e;R_EX_na1_e;R_EX_nac_e;R_EX_nh4_e;R_EX_ni2_e;R_EX_no3_e;R_EX_no_e;R_EX_nona_e;R_EX_o_xyl_e;R_EX_ocdca_e;R_EX_ocdcea_e;R_EX_octa_e;R_EX_orn__D_e;R_EX_orn_e;R_EX_orot_e;R_EX_oxa_e;R_EX_p_xyl_e;R_EX_pac_e;R_EX_pacald_e;R_EX_pb2_e;R_EX_pea_e;R_EX_peamn_e;R_EX_pentso3_e;R_EX_phe__D_e;R_EX_phe__L_e;R_EX_phedca_e;R_EX_phehpa_e;R_EX_phehxa_e;R_EX_pheme_e;R_EX_phenona_e;R_EX_pheocta_e;R_EX_phept_e;R_EX_pi_e;R_EX_pnto__R_e;R_EX_ppa_e;R_EX_ppi_e;R_EX_pptrn_e;R_EX_prealg_MG_14_e;R_EX_prealg_MG_23_e;R_EX_prealg_MG_32_e;R_EX_prealg_MG_41_e;R_EX_prealginate_G_e;R_EX_pro__D_e;R_EX_pro__L_e;R_EX_progly_e;R_EX_pta_e;R_EX_ptrc_e;R_EX_ptsla_e;R_EX_pydam_e;R_EX_pyovd_e;R_EX_pyovd_kt_e;R_EX_quin_e;R_EX_sbo3_e;R_EX_sel_e;R_EX_ser__D_e;R_EX_ser__L_e;R_EX_sheme_e;R_EX_skm_e;R_EX_so3_e;R_EX_so4_e;R_EX_spmd_e;R_EX_tag160_e;R_EX_tag180_e;R_EX_tag181d9_e;R_EX_tag182d9d12_e;R_EX_taur_e;R_EX_tcynt_e;R_EX_thr__L_e;R_EX_thym_e;R_EX_tmanur_e;R_EX_tnt_e;R_EX_tol_e;R_EX_trp__L_e;R_EX_tsul_e;R_EX_ttdca_e;R_EX_ttdcea_e;R_EX_ttrcyc_e;R_EX_tungs_e;R_EX_tyr__D_e;R_EX_tyr__L_e;R_EX_und2one_e;R_EX_ura_e;R_EX_urea_e;R_EX_uri_e;R_EX_vacc_e;R_EX_val__D_e;R_EX_val__L_e;R_EX_vanln_e;R_EX_vanlt_e;R_EX_xan_e;R_EX_zn2_e",
+  "filter_matched_reaction_ids": "R_EX_12dgr160_e;R_EX_12dgr180_e;R_EX_13dampp_e;R_EX_15dap_e;R_EX_1ag160_e;R_EX_1ag180_e;R_EX_1ag181d9_e;R_EX_1ag182d9d12_e;R_EX_25dkglcn_e;R_EX_26dap__M_e;R_EX_2ddglcn_e;R_EX_2dhglcn_e;R_EX_2m35mdntha_e;R_EX_34dhbz_e;R_EX_34dhcinm_e;R_EX_34dhphe_e;R_EX_35dnta_e;R_EX_3h4atb_e;R_EX_3mb_e;R_EX_4abut_e;R_EX_4hbz_e;R_EX_4hpro_DC_e;R_EX_4hpro_LT_e;R_EX_4hptn_e;R_EX_4oxptn_e;R_EX_5aptn_e;R_EX_5g2oxpt_e;R_EX_5mcsn_e;R_EX_5oxpro_e;R_EX_6atha_e;R_EX_6hnac_e;R_EX_AEP_e;R_EX_LalaLglu_e;R_EX_Ncbmpts_e;R_EX_R3hdec4e_e;R_EX_R_3h4atba_e;R_EX_R_3h6atha_e;R_EX_R_3hcmrs7e_e;R_EX_R_3hdcaa_e;R_EX_R_3hdd5ea_e;R_EX_R_3hdd6e_e;R_EX_R_3hdda_e;R_EX_R_3hhdca_e;R_EX_R_3hhpa_e;R_EX_R_3hhxa_e;R_EX_R_3hnonaa_e;R_EX_R_3hocta_e;R_EX_R_3hpba_e;R_EX_R_3hpdeca_e;R_EX_R_3hphpa_e;R_EX_R_3hphxa_e;R_EX_R_3hpnona_e;R_EX_R_3hpocta_e;R_EX_R_3hppta_e;R_EX_R_3hpt_e;R_EX_R_3htd58e_e;R_EX_R_3htd5e_e;R_EX_R_3httdca_e;R_EX_T4hcinnm_e;R_EX_acald_e;R_EX_acmtsoxin_e;R_EX_acpptrn_e;R_EX_acser_e;R_EX_actn__R_e;R_EX_ade_e;R_EX_adn_e;R_EX_adocbl_e;R_EX_ag_e;R_EX_agm_e;R_EX_akg_e;R_EX_ala_B_e;R_EX_ala__D_e;R_EX_ala__L_e;R_EX_alaala_e;R_EX_alahis_e;R_EX_alaleu_e;R_EX_alathr_e;R_EX_alatrp_e;R_EX_algac_MG_14_e;R_EX_algac_MG_23_e;R_EX_algac_MG_32_e;R_EX_algac_MG_41_e;R_EX_algac__M_e;R_EX_alltn_e;R_EX_apc_e;R_EX_arbtn_e;R_EX_arbtn_fe3_e;R_EX_arg__D_e;R_EX_arg__L_e;R_EX_asn__D_e;R_EX_asn__L_e;R_EX_aso3_e;R_EX_aso4_e;R_EX_asp__L_e;R_EX_balaala_e;R_EX_balabala_e;R_EX_balagly_e;R_EX_balaleu_e;R_EX_balamd_e;R_EX_bhb_e;R_EX_biliverd_e;R_EX_btd_RR_e;R_EX_btn_e;R_EX_butso3_e;R_EX_bz_e;R_EX_ca2_e;R_EX_carn_e;R_EX_catechol_e;R_EX_cbi_e;R_EX_cbl1_e;R_EX_cd2_e;R_EX_cell4_e;R_EX_cgly_e;R_EX_chol_e;R_EX_chols_e;R_EX_chor_e;R_EX_cinnm_e;R_EX_cl_e;R_EX_cm_e;R_EX_cmcbtt_e;R_EX_co_e;R_EX_confrl_e;R_EX_creat_e;R_EX_crn_e;R_EX_cro4_e;R_EX_crtn_e;R_EX_csn_e;R_EX_cu2_e;R_EX_cu_e;R_EX_cyan_e;R_EX_cys__D_e;R_EX_cys__L_e;R_EX_d2one_e;R_EX_d3one_e;R_EX_d4one_e;R_EX_dag181d9_e;R_EX_dag182d9d12_e;R_EX_dca_e;R_EX_ddca_e;R_EX_dgudbutn_e;R_EX_dmanur_e;R_EX_dmgly_e;R_EX_dopa_e;R_EX_ecto__L_e;R_EX_enter_e;R_EX_ethso3_e;R_EX_fald_e;R_EX_fcmcbtt_e;R_EX_fe2_e;R_EX_fe3_e;R_EX_fe3mcbtt_e;R_EX_fe3pyovd_e;R_EX_fe3pyovd_kt_e;R_EX_fecrm_e;R_EX_fecrm_un_e;R_EX_feenter_e;R_EX_feoxam_e;R_EX_feoxam_un_e;R_EX_fer_e;R_EX_fru_e;R_EX_ga_e;R_EX_galct__D_e;R_EX_galur_e;R_EX_glc__D_e;R_EX_glcn_e;R_EX_glcr_e;R_EX_glcur_e;R_EX_gln__L_e;R_EX_glu__L_e;R_EX_glutar_e;R_EX_gly_e;R_EX_glyald_e;R_EX_glyb_e;R_EX_glyc__R_e;R_EX_glyc_e;R_EX_glygln_e;R_EX_glyglu_e;R_EX_glygly_e;R_EX_glymet_e;R_EX_glyphe_e;R_EX_glyser_e;R_EX_gua_e;R_EX_gudac_e;R_EX_gudptn_e;R_EX_h2o_e;R_EX_h2s_e;R_EX_h_e;R_EX_hco3_e;R_EX_hcys__L_e;R_EX_hdca_e;R_EX_hdcea_e;R_EX_hg2_e;R_EX_hgentis_e;R_EX_his__L_e;R_EX_hisgly_e;R_EX_hishis_e;R_EX_hom__L_e;R_EX_hpta_e;R_EX_hxa_e;R_EX_hxan_e;R_EX_ile__L_e;R_EX_ind3ac_e;R_EX_indole_e;R_EX_ins_e;R_EX_isetac_e;R_EX_k_e;R_EX_leu__D_e;R_EX_leu__L_e;R_EX_leuleu_e;R_EX_lnlc_e;R_EX_lpspput_e;R_EX_lys__D_e;R_EX_lys__L_e;R_EX_m_xyl_e;R_EX_man_e;R_EX_manur_e;R_EX_mcbtt_e;R_EX_met__D_e;R_EX_met__L_e;R_EX_mg2_e;R_EX_mmet_e;R_EX_mn2_e;R_EX_mobd_e;R_EX_mso3_e;R_EX_mtsoxin_e;R_EX_n2one_e;R_EX_na1_e;R_EX_nac_e;R_EX_nh4_e;R_EX_ni2_e;R_EX_no3_e;R_EX_no_e;R_EX_nona_e;R_EX_o_xyl_e;R_EX_ocdca_e;R_EX_ocdcea_e;R_EX_octa_e;R_EX_orn__D_e;R_EX_orn_e;R_EX_orot_e;R_EX_oxa_e;R_EX_p_xyl_e;R_EX_pac_e;R_EX_pacald_e;R_EX_pb2_e;R_EX_pea_e;R_EX_peamn_e;R_EX_pentso3_e;R_EX_phe__D_e;R_EX_phe__L_e;R_EX_phedca_e;R_EX_phehpa_e;R_EX_phehxa_e;R_EX_pheme_e;R_EX_phenona_e;R_EX_pheocta_e;R_EX_phept_e;R_EX_pi_e;R_EX_pnto__R_e;R_EX_ppa_e;R_EX_ppi_e;R_EX_pptrn_e;R_EX_prealg_MG_14_e;R_EX_prealg_MG_23_e;R_EX_prealg_MG_32_e;R_EX_prealg_MG_41_e;R_EX_prealginate_G_e;R_EX_pro__D_e;R_EX_pro__L_e;R_EX_progly_e;R_EX_pta_e;R_EX_ptrc_e;R_EX_ptsla_e;R_EX_pydam_e;R_EX_pyovd_e;R_EX_pyovd_kt_e;R_EX_quin_e;R_EX_sbo3_e;R_EX_sel_e;R_EX_ser__D_e;R_EX_ser__L_e;R_EX_sheme_e;R_EX_skm_e;R_EX_so3_e;R_EX_so4_e;R_EX_spmd_e;R_EX_tag160_e;R_EX_tag180_e;R_EX_tag181d9_e;R_EX_tag182d9d12_e;R_EX_taur_e;R_EX_tcynt_e;R_EX_thr__L_e;R_EX_thym_e;R_EX_tmanur_e;R_EX_tnt_e;R_EX_tol_e;R_EX_trp__L_e;R_EX_tsul_e;R_EX_ttdca_e;R_EX_ttdcea_e;R_EX_ttrcyc_e;R_EX_tungs_e;R_EX_tyr__D_e;R_EX_tyr__L_e;R_EX_und2one_e;R_EX_ura_e;R_EX_urea_e;R_EX_uri_e;R_EX_vacc_e;R_EX_val__D_e;R_EX_val__L_e;R_EX_vanln_e;R_EX_vanlt_e;R_EX_xan_e;R_EX_zn2_e",
+  "filter_missing_reaction_ids": "",
+  "filter_suggested_reactions": "R_PGI;R_GAPD;R_ICL;R_TPI;R_ACONTa;R_CS;R_PYK;R_EX_12dgr160_e",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\visualization_results\\compare_submaps\\consensus_context__all\\kegg_pathway\\transport_exchange\\enzyme_capacity\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}</pre>
+</body>
+</html>

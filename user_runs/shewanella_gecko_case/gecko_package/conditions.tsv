@@ -1,0 +1,3 @@
+condition	enzyme_readiness	protein_count	ready_capacity_fraction	mean_kcat_confidence
+highO2	insufficient	5066		
+lowO2	insufficient	4887		

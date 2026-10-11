@@ -1,0 +1,19 @@
+{
+  "status": "merged",
+  "candidate_count": 972,
+  "selected_prior_count": 745,
+  "experimental_candidate_count": 0,
+  "database_candidate_count": 972,
+  "dlkcat_candidate_count": 0,
+  "ml_candidate_count": 0,
+  "selected_experimental_count": 0,
+  "selected_database_count": 745,
+  "selected_dlkcat_count": 0,
+  "selected_ml_count": 0,
+  "kcat_conflict_review_count": 0,
+  "kcat_spread_caution_count": 0,
+  "guidance": "Database kcat values are available; review organism and substrate specificity before production ecGEM use.",
+  "case_id": "putida_acetate_isoprenol_mixed_carbon",
+  "kcat_source_mode": "local",
+  "kcat_source_databases": "GECKO max_KCAT local cache"
+}

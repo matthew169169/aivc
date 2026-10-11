@@ -1,0 +1,23 @@
+{
+  "adapter_class_name": "PputidaAcetateGeckoAdapter",
+  "model_id": "putida_acetate_isoprenol_mixed_carbon",
+  "conv_gem_path": "model.xml",
+  "organism_name": "Pseudomonas putida KT2440",
+  "kegg_id": "ppu",
+  "kegg_gene_id": "kegg",
+  "uniprot_type": "taxonomy",
+  "uniprot_id": "160488",
+  "uniprot_gene_id_field": "gene_oln",
+  "uniprot_reviewed": false,
+  "bio_rxn": "R_BIOMASS_KT2440_WT3",
+  "c_source": "R_EX_glc__D_e",
+  "enzyme_comp": "cytoplasm",
+  "sigma": 0.5,
+  "Ptot": 0.5,
+  "f": 0.5,
+  "gR_exp": 0.1,
+  "c_UptakeExp": "",
+  "custom_kcats_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\kcat_priors.csv",
+  "proteomics_integration": true,
+  "ec_model_mode": "full_ecModel"
+}

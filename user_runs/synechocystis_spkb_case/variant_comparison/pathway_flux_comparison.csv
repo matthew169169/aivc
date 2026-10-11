@@ -1,0 +1,2 @@
+condition,pathway_group,status,guidance
+highO2/lowO2,not_available,not_available,No pFBA flux table is available for pathway-level flux aggregation.

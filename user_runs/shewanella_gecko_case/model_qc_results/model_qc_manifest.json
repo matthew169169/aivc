@@ -1,0 +1,16 @@
+{
+  "cobra_available": true,
+  "status": "completed",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "run_blocked_check": false,
+  "run_mass_balance_check": true,
+  "open_exchanges_for_blocked_check": false,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\model_qc_results\\model_qc_summary.csv",
+    "objective": "D:\\generate\\user_runs\\shewanella_gecko_case\\model_qc_results\\model_qc_objective_reactions.csv",
+    "compartments": "D:\\generate\\user_runs\\shewanella_gecko_case\\model_qc_results\\model_qc_compartments.csv",
+    "reaction_flags": "D:\\generate\\user_runs\\shewanella_gecko_case\\model_qc_results\\model_qc_reaction_flags.csv",
+    "recommendations": "D:\\generate\\user_runs\\shewanella_gecko_case\\model_qc_results\\model_qc_recommendations.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\model_qc_results\\model_qc_manifest.json"
+  }
+}

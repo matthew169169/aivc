@@ -1,0 +1,2 @@
+condition,condition_group,status,protein_count,mapped_protein_fraction,kcat_prior_count,mapped_kcat_prior_fraction,capacity_reaction_count,ready_capacity_fraction,exceeds_capacity_count,enzyme_readiness,guidance
+all,all,optional_missing,,,,,0,,0,partial,GECKO package/readiness data are available; external ecModel reconstruction remains optional.

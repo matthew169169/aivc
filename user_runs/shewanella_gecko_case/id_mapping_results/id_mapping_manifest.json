@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "model_status": "indexed",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "message": "Indexed model identifiers: reactions=2094, metabolites=1823, genes=1162.",
+  "summary_count": 5,
+  "detail_count": 43064,
+  "alias_table_count": 1,
+  "alias_entry_count": 4668,
+  "normalized_table_count": 5,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\id_mapping_results\\id_mapping_summary.csv",
+    "detail": "D:\\generate\\user_runs\\shewanella_gecko_case\\id_mapping_results\\id_mapping_detail.csv",
+    "alias_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\id_mapping_results\\id_alias_table_summary.csv",
+    "normalized_input_map": "D:\\generate\\user_runs\\shewanella_gecko_case\\normalized_inputs\\normalized_input_map.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\id_mapping_results\\id_mapping_manifest.json"
+  }
+}

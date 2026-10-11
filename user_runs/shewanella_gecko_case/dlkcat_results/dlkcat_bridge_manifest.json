@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "annotation_sources": [
+    {
+      "role": "uniprot_gene_coverage",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\uniprot_gene_coverage.csv",
+      "rows": 1162
+    },
+    {
+      "role": "ml_priors",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\normalized_inputs\\omics\\ml_priors__gotenzymes2_kcat_priors.csv",
+      "rows": 4095
+    },
+    {
+      "role": "ml_priors",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\ml_priors__gotenzymes2_kcat_priors.csv",
+      "rows": 4095
+    },
+    {
+      "role": "id_alias_table",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\id_alias_table__shewanella_gene_aliases.csv",
+      "rows": 4668
+    },
+    {
+      "role": "uniprot_annotation",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\uniprot_annotation__shewanella_functional_annotation.csv",
+      "rows": 4434
+    },
+    {
+      "role": "dlkcat_annotation",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\dlkcat_annotation__shewanella_dlkcat_annotation.csv",
+      "rows": 4068
+    }
+  ],
+  "files": {
+    "input": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_input.tsv",
+    "input_coverage": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_input_coverage.csv",
+    "prediction_import_template": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_prediction_import_template.csv",
+    "prediction_import": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_prediction_import.csv",
+    "prediction_normalized": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_prediction_normalized.csv",
+    "reaction_kcat_priors": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_reaction_kcat_priors.csv",
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_bridge_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\dlkcat_results\\dlkcat_bridge_manifest.json"
+  },
+  "summary": {
+    "status": "needs_sequence_or_smiles",
+    "input_query_count": 9092,
+    "ready_query_count": 0,
+    "reaction_count": 2094,
+    "ready_reaction_count": 0,
+    "missing_sequence_count": 8440,
+    "missing_substrate_count": 0,
+    "prediction_import_row_count": 0,
+    "prediction_mapped_count": 0,
+    "reaction_kcat_prior_count": 0,
+    "guidance": "Provide protein sequences and substrate names or SMILES before running DLKcat."
+  }
+}

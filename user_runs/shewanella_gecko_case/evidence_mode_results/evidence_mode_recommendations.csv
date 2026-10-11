@@ -1,0 +1,5 @@
+condition,severity,topic,recommendation
+highO2,medium,mode_coverage,Relative proteomics is unavailable for this condition; consensus evidence will mostly follow available modalities.
+highO2,info,mode_agreement,Evidence modes produce the same downstream inputs for comparable reactions in this condition.
+lowO2,medium,mode_coverage,Relative proteomics is unavailable for this condition; consensus evidence will mostly follow available modalities.
+lowO2,info,mode_agreement,Evidence modes produce the same downstream inputs for comparable reactions in this condition.

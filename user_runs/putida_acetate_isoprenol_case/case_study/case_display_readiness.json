@@ -1,0 +1,245 @@
+{
+  "case_id": "putida_acetate_isoprenol",
+  "run_id": "putida_acetate_isoprenol_case",
+  "case": {
+    "case_id": "putida_acetate_isoprenol",
+    "run_id": "putida_acetate_isoprenol_case",
+    "title": "P. putida acetate tolerance and isoprenol",
+    "title_zh": "P. putida 乙酸耐受与 isoprenol 论文案例",
+    "story_title": "Proteomics-driven acetate tolerance evidence case",
+    "story_title_zh": "蛋白组驱动的乙酸耐受证据案例",
+    "story_summary": "Use the P. putida acetate/isoprenol proteomics study to compare the reference model with a consensus context variant and explain acetate assimilation and MEP/isoprenol marker evidence.",
+    "story_summary_zh": "基于 P. putida 乙酸/isoprenol 蛋白组论文，对比参考模型与 consensus context 变体，解释乙酸同化、MEP/isoprenol marker 证据。",
+    "organism_id": "pseudomonas_putida_kt2440",
+    "organism_name": "Pseudomonas putida KT2440",
+    "default_query": "Pseudomonas putida iJN1463 acetate isoprenol proteomics",
+    "default_reference_variant_id": "baseline_gem__all",
+    "default_target_variant_id": "consensus_context__all",
+    "default_annotation_type": "custom_annotation",
+    "default_annotation_group_id": "acetate_assimilation",
+    "default_annotation_groups": [
+      "acetate_assimilation",
+      "glyoxylate_tca",
+      "isoprenol_mep"
+    ],
+    "default_compare_view_mode": "difference",
+    "evidence_status_labels": {
+      "proteomics": "ready",
+      "marker_annotation": "ready",
+      "kcat": "package-ready only",
+      "enzyme_capacity": "external ecModel pending",
+      "ecmodel": "external ecModel pending"
+    },
+    "recommended_model_generation_methods": [
+      "baseline_gem",
+      "consensus_evidence"
+    ],
+    "recommended_analysis_methods": [
+      "fba_pfba",
+      "evidence_comparison",
+      "ml_pca_lasso",
+      "condition_interpretation",
+      "readiness_gate"
+    ],
+    "key_evidence_types": [
+      "absolute_proteomics",
+      "relative_proteomics",
+      "kcat",
+      "annotation",
+      "condition_summary"
+    ],
+    "expected_ecmodel": false,
+    "display_caveats": [
+      "Use as proteomics plus kcat/package-ready evidence unless an external ecModel has been generated.",
+      "Capacity or enzyme usage should be shown as package-ready/not available when reaction-level output is absent."
+    ],
+    "display_next_actions": [
+      "Show proteomics and marker annotation evidence in Model Compare.",
+      "Keep capacity and ecModel outputs marked external pending until a real ecModel run exists."
+    ]
+  },
+  "story_title": "Proteomics-driven acetate tolerance evidence case",
+  "story_title_zh": "蛋白组驱动的乙酸耐受证据案例",
+  "story_summary": "Use the P. putida acetate/isoprenol proteomics study to compare the reference model with a consensus context variant and explain acetate assimilation and MEP/isoprenol marker evidence.",
+  "story_summary_zh": "基于 P. putida 乙酸/isoprenol 蛋白组论文，对比参考模型与 consensus context 变体，解释乙酸同化、MEP/isoprenol marker 证据。",
+  "default_compare_view_mode": "difference",
+  "evidence_status_labels": {
+    "proteomics": "ready",
+    "marker_annotation": "ready",
+    "kcat": "package-ready only",
+    "enzyme_capacity": "external ecModel pending",
+    "ecmodel": "external ecModel pending"
+  },
+  "display_next_actions": [
+    "Show proteomics and marker annotation evidence in Model Compare.",
+    "Keep capacity and ecModel outputs marked external pending until a real ecModel run exists."
+  ],
+  "overall_status": "ready",
+  "guidance": "Case is display-ready.",
+  "default_pair": {
+    "reference_variant_id": "baseline_gem__all",
+    "target_variant_id": "consensus_context__all",
+    "status": "ready"
+  },
+  "default_scope": {
+    "annotation_type": "custom_annotation",
+    "annotation_group_id": "acetate_assimilation",
+    "status": "ready",
+    "preferred_annotation_group_id": "acetate_assimilation"
+  },
+  "checks": [
+    {
+      "id": "run_package",
+      "label": "Run package",
+      "status": "ready",
+      "guidance": "Run package exists.",
+      "count": 1,
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case"
+    },
+    {
+      "id": "inputs",
+      "label": "Input package",
+      "status": "ready",
+      "guidance": "Model and evidence inputs are indexed.",
+      "count": 6,
+      "model_count": 1,
+      "evidence_count": 5
+    },
+    {
+      "id": "variants",
+      "label": "Variant registry",
+      "status": "ready",
+      "guidance": "Model variants are indexed.",
+      "count": 2
+    },
+    {
+      "id": "default_pair",
+      "label": "Default compare pair",
+      "status": "ready",
+      "guidance": "Default pair is baseline_gem__all vs consensus_context__all.",
+      "reference_variant_id": "baseline_gem__all",
+      "target_variant_id": "consensus_context__all"
+    },
+    {
+      "id": "variant_comparison",
+      "label": "Variant comparison",
+      "status": "ready",
+      "guidance": "Variant comparison outputs are available.",
+      "count": 2,
+      "reaction_diff_rows": 0
+    },
+    {
+      "id": "model_edit_provenance",
+      "label": "Model edit provenance",
+      "status": "ready",
+      "guidance": "Reaction-level model edit provenance is available.",
+      "count": 5854,
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/workflow_results/model_edit_reaction_index.csv"
+    },
+    {
+      "id": "kcat_priors",
+      "label": "kcat priors",
+      "status": "ready",
+      "guidance": "kcat priors are available.",
+      "count": 745
+    },
+    {
+      "id": "enzyme_capacity",
+      "label": "Enzyme capacity",
+      "status": "ready",
+      "guidance": "Reaction-level enzyme capacity evidence is available.",
+      "count": 2235,
+      "path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/enzyme_results/reaction_enzyme_capacity.csv"
+    },
+    {
+      "id": "annotation_groups",
+      "label": "Annotation groups",
+      "status": "ready",
+      "guidance": "Annotation group scope is available.",
+      "annotation_type": "custom_annotation",
+      "annotation_group_id": "acetate_assimilation",
+      "group_count": 0,
+      "reaction_count": 0
+    },
+    {
+      "id": "compare_graphs",
+      "label": "Compare submap graphs",
+      "status": "ready",
+      "guidance": "Compare submap graphs are available.",
+      "count": 12
+    },
+    {
+      "id": "analysis_summary",
+      "label": "Analysis and summary outputs",
+      "status": "ready",
+      "guidance": "Analysis or report outputs are available.",
+      "count": 3
+    },
+    {
+      "id": "reaction_diff",
+      "label": "ReactionDiff smoke",
+      "status": "ready",
+      "guidance": "ReactionDiff and ranking are available for the default scope.",
+      "count": 126,
+      "ranking_count": 80
+    }
+  ],
+  "readiness_ladder": [
+    {
+      "stage_id": "input",
+      "label": "Input",
+      "status": "ready",
+      "guidance": "Case inputs are indexed and ready for review."
+    },
+    {
+      "stage_id": "model_generator",
+      "label": "Model Generator",
+      "status": "ready",
+      "guidance": "Variants are available."
+    },
+    {
+      "stage_id": "model_compare",
+      "label": "Model Compare",
+      "status": "ready",
+      "guidance": "Compare graphs and ReactionDiff are ready."
+    },
+    {
+      "stage_id": "analysis",
+      "label": "Analysis",
+      "status": "ready",
+      "guidance": "Analysis outputs are available."
+    },
+    {
+      "stage_id": "summary",
+      "label": "Summary",
+      "status": "ready",
+      "guidance": "Summary can cite the current case artifacts."
+    }
+  ],
+  "missing_items": [],
+  "next_actions": [
+    "Case is ready for UI demonstration."
+  ],
+  "pair_smoke": {
+    "status": "ready",
+    "reaction_diff_count": 126,
+    "ranking_count": 80,
+    "compare_readiness_summary": {
+      "status": "partial",
+      "parse_status": "ready",
+      "graph_status": "ready",
+      "annotation_scope_status": "not_mapped",
+      "structural_status": "same_source",
+      "kcat_status": "ready",
+      "enzyme_capacity_status": "support_ready",
+      "proteomics_status": "ready",
+      "behavior_status": "ready",
+      "behavior_support_status": "ready",
+      "dominant_signal": "constraint_evidence",
+      "missing_items": [
+        "behavior"
+      ]
+    }
+  },
+  "artifact_path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/case_study/case_display_readiness.json"
+}

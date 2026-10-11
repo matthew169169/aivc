@@ -1,0 +1,24 @@
+{
+  "kcat_source_mode": "local",
+  "kcat_source_databases": [
+    "GECKO max_KCAT local cache"
+  ],
+  "kcat_mapping_status": "ready",
+  "adapter_status": "ready",
+  "gecko_external_status": "package_ready_external_run_pending",
+  "ecmodel_status": "not_run",
+  "gecko_readiness": {
+    "mode": "gecko_ready_package",
+    "kcat_priors": 745,
+    "kcat_candidates": 972,
+    "protein_abundance": {
+      "path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\protein_abundance.csv",
+      "row_count": 34600,
+      "mapped_rows": 12160,
+      "unmapped_rows": 22440,
+      "mapping_fraction": 0.3514450867052023
+    },
+    "adapter_config": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\case_study\\gecko_adapter_config.json",
+    "adapter_notes": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\case_study\\adapter_design_notes.md"
+  }
+}

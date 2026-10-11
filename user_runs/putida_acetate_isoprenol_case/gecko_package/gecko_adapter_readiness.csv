@@ -1,0 +1,4 @@
+check,item,status
+required_field,bio_rxn,ok
+required_field,c_source,ok
+required_field,enzyme_comp,ok

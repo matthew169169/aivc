@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "model_status": "indexed",
+  "model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "message": "Indexed model identifiers: reactions=863, metabolites=795, genes=622.",
+  "summary_count": 3,
+  "detail_count": 15082,
+  "alias_table_count": 0,
+  "alias_entry_count": 0,
+  "normalized_table_count": 3,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\synechocystis_spkb_case\\id_mapping_results\\id_mapping_summary.csv",
+    "detail": "D:\\generate\\user_runs\\synechocystis_spkb_case\\id_mapping_results\\id_mapping_detail.csv",
+    "alias_summary": "D:\\generate\\user_runs\\synechocystis_spkb_case\\id_mapping_results\\id_alias_table_summary.csv",
+    "normalized_input_map": "D:\\generate\\user_runs\\synechocystis_spkb_case\\normalized_inputs\\normalized_input_map.csv",
+    "manifest": "D:\\generate\\user_runs\\synechocystis_spkb_case\\id_mapping_results\\id_mapping_manifest.json"
+  }
+}

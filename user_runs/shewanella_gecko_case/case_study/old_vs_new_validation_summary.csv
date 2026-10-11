@@ -1,0 +1,4 @@
+baseline_key,path,exists,row_count,status
+old_fba_comparison,D:\MatExt\GECKO\ecShewanella\output\FBA_High_vs_LowO2_Comparison.csv,True,6,available_for_validation
+old_taylor_condition_summary,D:\MatExt\GECKO\ecShewanella\output\taylor_conditions\taylor_condition_summary.csv,True,3,available_for_validation
+old_enzyme_usage_comparison,D:\MatExt\GECKO\ecShewanella\output\protein_allocation\enzyme_usage_comparison.csv,True,382,available_for_validation

@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none",
+  "variant_id": "enzyme_gecko__higho2",
+  "generation_method": "enzyme_gecko",
+  "generation_status": "staged",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "overlay_status": "not_selected",
+  "reaction_count": 109,
+  "group_count": 1,
+  "overlay_count": 0,
+  "overlay_summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 0,
+  "overlay_unmatched_reaction_count": 0,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "overlay_not_selected",
+  "overlay_source_file": "",
+  "overlay_source_status": "not_selected",
+  "top_highlighted_reactions": "",
+  "warning_reactions": "",
+  "selected_reaction_count": 436,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R00114;R00149;R00177;R00194;R00200;R00220;R00239;R00253;R00258;R00259;R00267;R00351;R00355;R00451;R00480;R00483;R00578;R00582;R00586;R00658;R00669;R00691;R00694;R00709;R00734;R00751;R00897;R00945;R00946;R00985;R00986;R00994;R00996;R01015;R01049;R01056;R01061;R01063;R01067;R01068;R01071;R01073;R01086;R01090;R01158;R01213;R01214;R01248;R01251;R01291;R01324;R01373;R01398;R01466;R01512;R01513;R01518;R01529;R01641;R01714;R01715;R01728;R01730;R01731;R01771;R01773;R01775;R01777;R01795;R01826;R01954;R02199;R02283;R02291;R02412;R02413;R02649;R02722;R02734;R02735;R03013;R03083;R03084;R03243;R03313;R03314;R03443;R03457;R03460;R03508;R03509;R04035;R04037;R04173;R04198;R04199;R04336;R04365;R04405;R04440;R04441;R04475;R04558;R04640;R05068;R05069;R05070;R07245;R08575;R_rxn00085_c0;R_rxn00113_c0;R_rxn00126_c0;R_rxn00143_c0;R_rxn00148_c0;R_rxn00165_c0;R_rxn00179_c0;R_rxn00187_c0;R_rxn00191_c0;R_rxn00192_c0;R_rxn00198_c0;R_rxn00256_c0;R_rxn00260_c0;R_rxn00313_c0;R_rxn00337_c0;R_rxn00340_c0;R_rxn00416_c0;R_rxn00420_c0;R_rxn00423_c0;R_rxn00459_c0;R_rxn00469_c0;R_rxn00490_c0;R_rxn00493_c0;R_rxn00505_c0;R_rxn00527_c0;R_rxn00541_c0;R_rxn00649_c0;R_rxn00692_c0;R_rxn00693_c0;R_rxn00726_c0;R_rxn00727_c0;R_rxn00735_c0;R_rxn00737_c0;R_rxn00747_c0;R_rxn00770_c0;R_rxn00777_c0;R_rxn00781_c0;R_rxn00782_c0;R_rxn00785_c0;R_rxn00786_c0;R_rxn00789_c0;R_rxn00791_c0;R_rxn00802_c0;R_rxn00806_c0;R_rxn00859_c0;R_rxn00902_c0;R_rxn00903_c0;R_rxn00929_c0;R_rxn00931_c0;R_rxn00973_c0;R_rxn01000_c0;R_rxn01019_c0;R_rxn01069_c0;R_rxn01100_c0;R_rxn01101_c0;R_rxn01106_c0;R_rxn01116_c0;R_rxn01200_c0;R_rxn01255_c0;R_rxn01256_c0;R_rxn01268_c0;R_rxn01269_c0;R_rxn01270_c0;R_rxn01300_c0;R_rxn01301_c0;R_rxn01302_c0;R_rxn01304_c0;R_rxn01315_c0;R_rxn01332_c0;R_rxn01333_c0;R_rxn01434_c0;R_rxn01575_c0;R_rxn01637_c0;R_rxn01643_c0;R_rxn01739_c0;R_rxn01740_c0;R_rxn01917_c0;R_rxn01964_c0;R_rxn01973_c0;R_rxn01974_c0;R_rxn02160_c0;R_rxn02212_c0;R_rxn02213_c0;R_rxn02320_c0;R_rxn02373_c0;R_rxn02374_c0;R_rxn02465_c0;R_rxn02473_c0;R_rxn02476_c0;R_rxn02507_c0;R_rxn02508_c0;R_rxn02834_c0;R_rxn02835_c0;R_rxn02914_c0;R_rxn02928_c0;R_rxn02929_c0;R_rxn03012_c0;R_rxn03031_c0;R_rxn03052_c0;R_rxn03068_c0;R_rxn03087_c0;R_rxn03135_c0;R_rxn03175_c0;R_rxn03435_c0;R_rxn03436_c0;R_rxn03437_c0;R_rxn05012_c0;R_rxn05958_c0;R_rxn15467_c0;rxn00085_c0;rxn00113_c0;rxn00126_c0;rxn00143_c0;rxn00148_c0;rxn00165_c0;rxn00179_c0;rxn00187_c0;rxn00191_c0;rxn00192_c0;rxn00198_c0;rxn00256_c0;rxn00260_c0;rxn00313_c0;rxn00337_c0;rxn00340_c0;rxn00416_c0;rxn00420_c0;rxn00423_c0;rxn00459_c0;rxn00469_c0;rxn00490_c0;rxn00493_c0;rxn00505_c0;rxn00527_c0;rxn00541_c0;rxn00649_c0;rxn00692_c0;rxn00693_c0;rxn00726_c0;rxn00727_c0;rxn00735_c0;rxn00737_c0;rxn00747_c0;rxn00770_c0;rxn00777_c0;rxn00781_c0;rxn00782_c0;rxn00785_c0;rxn00786_c0;rxn00789_c0;rxn00791_c0;rxn00802_c0;rxn00806_c0;rxn00859_c0;rxn00902_c0;rxn00903_c0;rxn00929_c0;rxn00931_c0;rxn00973_c0;rxn01000_c0;rxn01019_c0;rxn01069_c0;rxn01100_c0;rxn01101_c0;rxn01106_c0;rxn01116_c0;rxn01200_c0;rxn01255_c0;rxn01256_c0;rxn01268_c0;rxn01269_c0;rxn01270_c0;rxn01300_c0;rxn01301_c0;rxn01302_c0;rxn01304_c0;rxn01315_c0;rxn01332_c0;rxn01333_c0;rxn01434_c0;rxn01575_c0;rxn01637_c0;rxn01643_c0;rxn01739_c0;rxn01740_c0;rxn01917_c0;rxn01964_c0;rxn01973_c0;rxn01974_c0;rxn02160_c0;rxn02212_c0;rxn02213_c0;rxn02320_c0;rxn02373_c0;rxn02374_c0;rxn02465_c0;rxn02473_c0;rxn02476_c0;rxn02507_c0;rxn02508_c0;rxn02834_c0;rxn02835_c0;rxn02914_c0;rxn02928_c0;rxn02929_c0;rxn03012_c0;rxn03031_c0;rxn03052_c0;rxn03068_c0;rxn03087_c0;rxn03135_c0;rxn03175_c0;rxn03435_c0;rxn03436_c0;rxn03437_c0;rxn05012_c0;rxn05958_c0;rxn15467_c0",
+  "filter_matched_reaction_ids": "R_rxn00085_c0;R_rxn00113_c0;R_rxn00126_c0;R_rxn00143_c0;R_rxn00148_c0;R_rxn00165_c0;R_rxn00179_c0;R_rxn00187_c0;R_rxn00191_c0;R_rxn00192_c0;R_rxn00198_c0;R_rxn00256_c0;R_rxn00260_c0;R_rxn00313_c0;R_rxn00337_c0;R_rxn00340_c0;R_rxn00416_c0;R_rxn00420_c0;R_rxn00423_c0;R_rxn00459_c0;R_rxn00469_c0;R_rxn00490_c0;R_rxn00493_c0;R_rxn00505_c0;R_rxn00527_c0;R_rxn00541_c0;R_rxn00649_c0;R_rxn00692_c0;R_rxn00693_c0;R_rxn00726_c0;R_rxn00727_c0;R_rxn00735_c0;R_rxn00737_c0;R_rxn00747_c0;R_rxn00770_c0;R_rxn00777_c0;R_rxn00781_c0;R_rxn00782_c0;R_rxn00785_c0;R_rxn00786_c0;R_rxn00789_c0;R_rxn00791_c0;R_rxn00802_c0;R_rxn00806_c0;R_rxn00859_c0;R_rxn00902_c0;R_rxn00903_c0;R_rxn00929_c0;R_rxn00931_c0;R_rxn00973_c0;R_rxn01000_c0;R_rxn01019_c0;R_rxn01069_c0;R_rxn01100_c0;R_rxn01101_c0;R_rxn01106_c0;R_rxn01116_c0;R_rxn01200_c0;R_rxn01255_c0;R_rxn01256_c0;R_rxn01268_c0;R_rxn01269_c0;R_rxn01270_c0;R_rxn01300_c0;R_rxn01301_c0;R_rxn01302_c0;R_rxn01304_c0;R_rxn01315_c0;R_rxn01332_c0;R_rxn01333_c0;R_rxn01434_c0;R_rxn01575_c0;R_rxn01637_c0;R_rxn01643_c0;R_rxn01739_c0;R_rxn01740_c0;R_rxn01917_c0;R_rxn01964_c0;R_rxn01973_c0;R_rxn01974_c0;R_rxn02160_c0;R_rxn02212_c0;R_rxn02213_c0;R_rxn02320_c0;R_rxn02373_c0;R_rxn02374_c0;R_rxn02465_c0;R_rxn02473_c0;R_rxn02476_c0;R_rxn02507_c0;R_rxn02508_c0;R_rxn02834_c0;R_rxn02835_c0;R_rxn02914_c0;R_rxn02928_c0;R_rxn02929_c0;R_rxn03012_c0;R_rxn03031_c0;R_rxn03052_c0;R_rxn03068_c0;R_rxn03087_c0;R_rxn03135_c0;R_rxn03175_c0;R_rxn03435_c0;R_rxn03436_c0;R_rxn03437_c0;R_rxn05012_c0;R_rxn05958_c0;R_rxn15467_c0",
+  "filter_missing_reaction_ids": "R00114;R00149;R00177;R00194;R00200;R00220;R00239;R00253;R00258;R00259;R00267;R00351;R00355;R00451;R00480;R00483;R00578;R00582;R00586;R00658;R00669;R00691;R00694;R00709;R00734;R00751;R00897;R00945;R00946;R00985;R00986;R00994;R00996;R01015;R01049;R01056;R01061;R01063;R01067;R01068;R01071;R01073;R01086;R01090;R01158;R01213;R01214;R01248;R01251;R01291;R01324;R01373;R01398;R01466;R01512;R01513;R01518;R01529;R01641;R01714;R01715;R01728;R01730;R01731;R01771;R01773;R01775;R01777;R01795;R01826;R01954;R02199;R02283;R02291;R02412;R02413;R02649;R02722;R02734;R02735;R03013;R03083;R03084;R03243;R03313;R03314;R03443;R03457;R03460;R03508;R03509;R04035;R04037;R04173;R04198;R04199;R04336;R04365;R04405;R04440;R04441;R04475;R04558;R04640;R05068;R05069;R05070;R07245;R08575",
+  "filter_suggested_reactions": "R_rxn00423_c0;R_rxn00973_c0;R_rxn05958_c0;R_rxn00179_c0;R_rxn00192_c0;R_rxn02320_c0;R_rxn00165_c0;R_rxn00337_c0",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\kegg_pathway\\rn01230\\none\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

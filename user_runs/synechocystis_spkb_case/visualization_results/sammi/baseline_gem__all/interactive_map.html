@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Interactive map - baseline_gem__all</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #172033; background: #f8fafc; }
+    header { padding: 16px 20px; background: white; border-bottom: 1px solid #d9e2ec; }
+    main { display: grid; grid-template-columns: 1fr 320px; min-height: calc(100vh - 74px); }
+    svg { width: 100%; height: calc(100vh - 74px); background: white; }
+    aside { border-left: 1px solid #d9e2ec; padding: 16px; background: #f8fafc; overflow: auto; }
+    .node text { font-size: 10px; pointer-events: none; fill: #334155; }
+    .link { stroke: #94a3b8; stroke-opacity: .55; }
+    .reaction { stroke: #0f172a; stroke-width: 1.2; }
+    .metabolite { stroke: #475569; stroke-width: .8; }
+    code { background: #e2e8f0; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Interactive map - baseline_gem__all</strong>
+    <span id="summary"></span>
+  </header>
+  <main>
+    <svg id="map" viewBox="-500 -360 1000 720" role="img" aria-label="Interactive metabolic reaction map"></svg>
+    <aside>
+      <h3>Map details</h3>
+      <div id="details">Click a node to inspect it.</div>
+      <h3>Legend</h3>
+      <div id="legend"></div>
+      <h3>Files</h3>
+      <p><code>network_graph.json</code><br><code>interactive_map_manifest.json</code></p>
+    </aside>
+  </main>
+  <script>
+    const graph = {"schema_version": "0.1.0", "format": "omics_gem_interactive_network_graph", "status": "completed", "message": "Interactive reaction network graph generated.", "variant_id": "baseline_gem__all", "generation_method": "baseline_gem", "grouping_mode": "subsystem", "overlay_semantic_types": [], "filters": {"reaction_filter": ["GAPD", "GCALDD", "GLYCTO1", "PFK", "PFK_2", "PFK_3", "PGI", "PGK", "PGLYCP", "R_GAPD", "R_GCALDD", "R_GLYCTO1", "R_PFK", "R_PFK_2", "R_PFK_3", "R_PGI", "R_PGK", "R_PGLYCP"], "subsystem_filter": [], "top_n": 120, "include_currency_metabolites": false, "max_nodes": 900, "max_links": 1800}, "legend": [{"semantic_type": "metabolite", "label": "metabolite", "color": "#64748b"}, {"semantic_type": "reaction", "label": "reaction", "color": "#2563eb"}], "nodes": [{"id": "R_GLYCTO1", "label": "GLYCTO1", "name": "Glycolate oxidase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_glyclt_c;M_o2_c", "products": "M_glx_c;M_h2o2_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_glyclt_c", "label": "glyclt_c", "name": "M_glyclt_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "M_glx_c", "label": "glx_c", "name": "M_glx_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "M_h2o2_c", "label": "h2o2_c", "name": "M_h2o2_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_GAPD", "label": "GAPD", "name": "Glyceraldehyde-3-phosphate dehydrogenase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_g3p_c;M_nad_c;M_pi_c", "products": "M_13dpg_c;M_h_c;M_nadh_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_g3p_c", "label": "g3p_c", "name": "M_g3p_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "M_13dpg_c", "label": "13dpg_c", "name": "M_13dpg_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_PFK", "label": "PFK", "name": "Phosphofructokinase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_atp_c;M_f6p_c", "products": "M_adp_c;M_fdp_c;M_h_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_f6p_c", "label": "f6p_c", "name": "M_f6p_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "M_fdp_c", "label": "fdp_c", "name": "M_fdp_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_PFK_2", "label": "PFK_2", "name": "Phosphofructokinase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_atp_c;M_tag6p__D_c", "products": "M_adp_c;M_h_c;M_tagdp__D_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_tag6p__D_c", "label": "tag6p__D_c", "name": "M_tag6p__D_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "M_tagdp__D_c", "label": "tagdp__D_c", "name": "M_tagdp__D_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_PGI", "label": "PGI", "name": "Glucose-6-phosphate isomerase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_g6p_c", "products": "M_f6p_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_g6p_c", "label": "g6p_c", "name": "M_g6p_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_PGK", "label": "PGK", "name": "Phosphoglycerate kinase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_3pg_c;M_atp_c", "products": "M_13dpg_c;M_adp_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_3pg_c", "label": "3pg_c", "name": "M_3pg_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_PGLYCP", "label": "PGLYCP", "name": "Phosphoglycolate phosphatase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_2pglyc_c;M_h2o_c", "products": "M_glyclt_c;M_pi_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_2pglyc_c", "label": "2pglyc_c", "name": "M_2pglyc_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_GCALDD", "label": "GCALDD", "name": "Glycolaldehyde dehydrogenase", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_gcald_c;M_h2o_c;M_nad_c", "products": "M_glyclt_c;M_h_c;M_nadh_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_gcald_c", "label": "gcald_c", "name": "M_gcald_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "R_PFK_3", "label": "PFK_3", "name": "Phosphofructokinase (s7p)", "node_type": "reaction", "group_id": "unannotated", "group_label": "unannotated", "subsystem": "unannotated", "compartment": "c", "selected_reaction": true, "reactants": "M_atp_c;M_s7p_c", "products": "M_adp_c;M_h_c;M_s17bp_c", "overlay_source": "", "semantic_type": "", "overlay_value": "", "overlay_color": "#2563eb", "overlay_size": 1.0, "warning_flag": false, "readiness_label": "", "candidate_type": "", "candidate_action": "", "production_score": "", "product_reaction_id": "", "product_name": "", "warning_reasons": "", "source_status": ""}, {"id": "M_s7p_c", "label": "s7p_c", "name": "M_s7p_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}, {"id": "M_s17bp_c", "label": "s17bp_c", "name": "M_s17bp_c", "node_type": "metabolite", "group_id": "metabolite", "group_label": "Metabolites", "overlay_color": "#64748b", "overlay_size": 0.8, "warning_flag": false}], "links": [{"id": "M_glyclt_c->R_GLYCTO1:reactant:0", "source": "M_glyclt_c", "target": "R_GLYCTO1", "link_type": "reactant"}, {"id": "R_GLYCTO1->M_glx_c:product:1", "source": "R_GLYCTO1", "target": "M_glx_c", "link_type": "product"}, {"id": "R_GLYCTO1->M_h2o2_c:product:2", "source": "R_GLYCTO1", "target": "M_h2o2_c", "link_type": "product"}, {"id": "M_g3p_c->R_GAPD:reactant:3", "source": "M_g3p_c", "target": "R_GAPD", "link_type": "reactant"}, {"id": "R_GAPD->M_13dpg_c:product:4", "source": "R_GAPD", "target": "M_13dpg_c", "link_type": "product"}, {"id": "M_f6p_c->R_PFK:reactant:5", "source": "M_f6p_c", "target": "R_PFK", "link_type": "reactant"}, {"id": "R_PFK->M_fdp_c:product:6", "source": "R_PFK", "target": "M_fdp_c", "link_type": "product"}, {"id": "M_tag6p__D_c->R_PFK_2:reactant:7", "source": "M_tag6p__D_c", "target": "R_PFK_2", "link_type": "reactant"}, {"id": "R_PFK_2->M_tagdp__D_c:product:8", "source": "R_PFK_2", "target": "M_tagdp__D_c", "link_type": "product"}, {"id": "M_g6p_c->R_PGI:reactant:9", "source": "M_g6p_c", "target": "R_PGI", "link_type": "reactant"}, {"id": "R_PGI->M_f6p_c:product:10", "source": "R_PGI", "target": "M_f6p_c", "link_type": "product"}, {"id": "M_3pg_c->R_PGK:reactant:11", "source": "M_3pg_c", "target": "R_PGK", "link_type": "reactant"}, {"id": "R_PGK->M_13dpg_c:product:12", "source": "R_PGK", "target": "M_13dpg_c", "link_type": "product"}, {"id": "M_2pglyc_c->R_PGLYCP:reactant:13", "source": "M_2pglyc_c", "target": "R_PGLYCP", "link_type": "reactant"}, {"id": "R_PGLYCP->M_glyclt_c:product:14", "source": "R_PGLYCP", "target": "M_glyclt_c", "link_type": "product"}, {"id": "M_gcald_c->R_GCALDD:reactant:15", "source": "M_gcald_c", "target": "R_GCALDD", "link_type": "reactant"}, {"id": "R_GCALDD->M_glyclt_c:product:16", "source": "R_GCALDD", "target": "M_glyclt_c", "link_type": "product"}, {"id": "M_s7p_c->R_PFK_3:reactant:17", "source": "M_s7p_c", "target": "R_PFK_3", "link_type": "reactant"}, {"id": "R_PFK_3->M_s17bp_c:product:18", "source": "R_PFK_3", "target": "M_s17bp_c", "link_type": "product"}], "summary": {"status": "completed", "message": "Interactive reaction network graph generated.", "reaction_count_available": 9, "reaction_count_rendered": 9, "metabolite_count_rendered": 15, "node_count": 24, "link_count": 19, "overlay_count_available": 0, "warning_count": 0, "production_candidate_count": 0, "ko_candidate_count": 0, "kd_candidate_count": 0, "oe_candidate_count": 0, "top_production_reactions": "", "production_warning_reactions": "", "needs_filtering": false}, "notes": ["This graph is generated by the Omics-GEM lightweight interactive viewer.", "SAMMI standalone assets are not vendored by this renderer."]};
+    const svg = document.getElementById("map");
+    const details = document.getElementById("details");
+    const summary = graph.summary || {};
+    document.getElementById("summary").textContent = ` | ${summary.node_count || 0} nodes, ${summary.link_count || 0} links`;
+    const legend = document.getElementById("legend");
+    (graph.legend || []).forEach(item => {
+      const row = document.createElement("div");
+      row.innerHTML = `<span style="display:inline-block;width:12px;height:12px;background:${item.color};border-radius:50%;margin-right:6px"></span>${item.semantic_type}`;
+      legend.appendChild(row);
+    });
+    const width = 1000, height = 720;
+    const nodes = (graph.nodes || []).map((node, index) => ({
+      ...node,
+      x: (index % 30) * 28 - 420,
+      y: Math.floor(index / 30) * 28 - 300
+    }));
+    const byId = new Map(nodes.map(node => [node.id, node]));
+    const links = (graph.links || []).filter(link => byId.has(link.source) && byId.has(link.target));
+    const ns = "http://www.w3.org/2000/svg";
+    const root = document.createElementNS(ns, "g");
+    svg.appendChild(root);
+    links.forEach(link => {
+      const source = byId.get(link.source), target = byId.get(link.target);
+      const line = document.createElementNS(ns, "line");
+      line.setAttribute("class", "link");
+      line.setAttribute("x1", source.x); line.setAttribute("y1", source.y);
+      line.setAttribute("x2", target.x); line.setAttribute("y2", target.y);
+      root.appendChild(line);
+    });
+    nodes.forEach(node => {
+      const group = document.createElementNS(ns, "g");
+      group.setAttribute("class", `node ${node.node_type}`);
+      group.setAttribute("transform", `translate(${node.x},${node.y})`);
+      const circle = document.createElementNS(ns, "circle");
+      circle.setAttribute("r", node.node_type === "reaction" ? 7 + Math.min(8, Number(node.overlay_size || 1) * 1.2) : 4);
+      circle.setAttribute("fill", node.overlay_color || (node.node_type === "reaction" ? "#2563eb" : "#64748b"));
+      circle.setAttribute("class", node.node_type || "node");
+      const label = document.createElementNS(ns, "text");
+      label.setAttribute("x", 9); label.setAttribute("y", 3);
+      label.textContent = node.label || node.id;
+      const title = document.createElementNS(ns, "title");
+      title.textContent = `${node.id}\n${node.name || ""}\n${node.subsystem || ""}`;
+      group.appendChild(title); group.appendChild(circle); group.appendChild(label);
+      group.addEventListener("click", () => {
+        details.innerHTML = `<p><strong>${node.id}</strong></p><p>${node.name || ""}</p><p>type: ${node.node_type}</p><p>subsystem: ${node.subsystem || ""}</p><p>overlay: ${node.overlay_value || ""}</p><p>readiness: ${node.readiness_label || ""}</p>`;
+      });
+      root.appendChild(group);
+    });
+  </script>
+</body>
+</html>

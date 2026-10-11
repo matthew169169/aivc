@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "package_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case",
+  "selected_methods": [
+    "baseline_gem",
+    "consensus_evidence"
+  ],
+  "variant_count": 2,
+  "generated_count": 2,
+  "registry": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\workflow_results\\model_variant_registry.csv"
+}

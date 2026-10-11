@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "model_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+  "protein_abundance_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\protein_abundance.csv",
+  "kcat_priors_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\kcat_priors.csv",
+  "predicted_fluxes_path": "",
+  "files": {
+    "capacities": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+    "flux_capacity_check": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\enzyme_flux_capacity_check.csv",
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\enzyme_qc_summary.csv",
+    "recommendations": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\enzyme_qc_recommendations.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\enzyme_constraint_manifest.json"
+  }
+}

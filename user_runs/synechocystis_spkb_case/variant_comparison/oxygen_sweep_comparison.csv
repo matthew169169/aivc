@@ -1,0 +1,2 @@
+sweep_point,condition,oxygen_reaction_id,oxygen_lower_bound,status,guidance
+oxygen_unresolved,,,,not_available,No oxygen exchange reaction/bound was resolved; oxygen sensitivity sweep is unavailable.

@@ -1,0 +1,2 @@
+reaction_id,name,objective_coefficient,lower_bound,upper_bound
+BIOMASS_Ec_SynHetero,Heterotrophic Biomass Ecuation,1.0,0.0,1000.0

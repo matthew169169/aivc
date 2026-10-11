@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "status": "passed",
+  "load_status": "manual_load_required",
+  "message": "SAMMI native session structure looks loadable.",
+  "session_path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/sammi_native_session.json",
+  "currentparsed": "baseline_gem__all",
+  "node_count": 104,
+  "link_count": 122,
+  "reaction_node_count": 48,
+  "metabolite_node_count": 56,
+  "failures": [],
+  "warnings": [],
+  "vendored_sammi_status": "missing",
+  "vendored_sammi_available": false,
+  "vendored_sammi_index_path": "/Users/matthewwoo/Downloads/aivc/.runtime_cache/sammi_vendor/sammi_standalone/index.html",
+  "load_guidance": "Open local SAMMI, choose Load SAMMI Model, then select sammi_native_session.json.",
+  "check_json_path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/sammi_native_export_check.json",
+  "check_markdown_path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/sammi_native_export_check.md"
+}

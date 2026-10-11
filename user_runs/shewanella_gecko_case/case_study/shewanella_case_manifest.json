@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1.0",
+  "created_at": "2026-05-22T01:43:55",
+  "status": "ready_for_workflow",
+  "run_id": "shewanella_gecko_case",
+  "source_dir": "D:\\MatExt\\GECKO\\ecShewanella",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "files": {
+    "source_manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\source_manifest.json",
+    "gecko_adapter_config": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\gecko_adapter_config.json",
+    "shewanella_source_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\shewanella_source_summary.csv",
+    "shewanella_condition_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\shewanella_condition_summary.csv",
+    "shewanella_kcat_mapping_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\shewanella_kcat_mapping_summary.csv",
+    "shewanella_target_discovery": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\shewanella_target_discovery.csv",
+    "production_target_readiness": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\production_target_readiness.csv",
+    "shewanella_ml_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\shewanella_ml_summary.csv",
+    "old_vs_new_validation_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\old_vs_new_validation_summary.csv",
+    "case_manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\shewanella_case_manifest.json",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\upload_manifest.json",
+    "input_file_map": "D:\\generate\\user_runs\\shewanella_gecko_case\\input_file_map.csv",
+    "run_config_json": "D:\\generate\\user_runs\\shewanella_gecko_case\\run_config.json",
+    "run_config_yaml": "D:\\generate\\user_runs\\shewanella_gecko_case\\run_config.yaml",
+    "next_steps": "D:\\generate\\user_runs\\shewanella_gecko_case\\NEXT_STEPS.md"
+  },
+  "row_counts": {
+    "transcriptomics": 26604,
+    "absolute_proteomics": 9953,
+    "relative_proteomics": 2391,
+    "kcat_priors": 4095,
+    "aliases": 4668,
+    "annotations": 4434,
+    "dlkcat_annotation": 4068,
+    "condition_exchange_bounds": 21,
+    "production_targets": 6,
+    "target_discovery": 8
+  },
+  "default_workflow": {
+    "model_generation_methods": [
+      "baseline_gem",
+      "eflux",
+      "enzyme_gecko",
+      "consensus_evidence"
+    ],
+    "analysis_modules": [
+      "fba_pfba",
+      "eflux_delta_fba",
+      "evidence_comparison",
+      "ml_pca_lasso",
+      "condition_interpretation",
+      "production_ecfactory",
+      "readiness_gate"
+    ],
+    "selected_model_variant_ids": [
+      "baseline_gem__all"
+    ],
+    "report_preset": "full_audit_report",
+    "gecko_ec_model_mode": "full_ecModel",
+    "gecko_adapter_parameters": {
+      "adapter_class_name": "ShewanellaGeckoAdapter",
+      "model_id": "iLJ1162_shewanella",
+      "conv_gem_path": "inputs/model/model__iLJ1162.xml",
+      "organism_name": "shewanella oneidensis",
+      "kegg_id": "son",
+      "kegg_gene_id": "kegg",
+      "uniprot_type": "proteome",
+      "uniprot_id": "UP000008186",
+      "uniprot_gene_id_field": "gene_oln",
+      "uniprot_reviewed": false,
+      "complex_taxonomic_id": 211586.0,
+      "bio_rxn": "bio1",
+      "c_source": "EX_cpd00159_e0",
+      "enzyme_comp": "c0",
+      "sigma": 0.5,
+      "Ptot": 0.48,
+      "f": 0.5,
+      "gR_exp": 0.15,
+      "spontaneous_reaction_strategy": "rxn_name_contains_spontaneous",
+      "ec_model_mode": "full_ecModel",
+      "proteomics_integration": true
+    },
+    "analysis_parameters": {
+      "fba_pfba": {
+        "run_pfba": true,
+        "run_fva": false
+      },
+      "ml_pca_lasso": {
+        "min_overlap": 1,
+        "max_clusters": 4,
+        "max_lasso_features": 50
+      },
+      "production_ecfactory": {
+        "biomass_fractions": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          0.9
+        ],
+        "fseof_fractions": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          0.9
+        ]
+      }
+    }
+  }
+}

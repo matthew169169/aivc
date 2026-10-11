@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "guidance": "Production design overlay is ready for the interactive viewer.",
+  "variant_id": "baseline_gem__all",
+  "overlay_source": "production_ranking",
+  "overlay_status": "available",
+  "summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\baseline_gem__all\\production_visualization_summary.csv",
+  "candidate_count": 10,
+  "top_candidate_reactions": "R_EX_cpd00047_e0;R_EX_cpd00029_e0;R_EX_cpd00020_e0;R_EX_cpd00036_e0;R_EX_cpd00029_e0;R_EX_cpd00020_e0;R_EX_cpd00047_e0;R_EX_cpd00036_e0;R_EX_cpd00015_c0;R_EX_cpd00050_p0",
+  "warning_reactions": "R_EX_cpd00029_e0;R_EX_cpd00020_e0;R_EX_cpd00047_e0;R_EX_cpd00036_e0;R_EX_cpd00047_e0;R_EX_cpd00029_e0;R_EX_cpd00020_e0;R_EX_cpd00036_e0;R_EX_cpd00015_c0;R_EX_cpd00050_p0",
+  "missing_reason": "",
+  "source_file": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results"
+}

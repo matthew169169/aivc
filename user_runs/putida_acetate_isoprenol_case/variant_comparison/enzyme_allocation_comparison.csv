@@ -1,0 +1,4 @@
+condition,condition_group,status,protein_count,mapped_protein_fraction,kcat_prior_count,mapped_kcat_prior_fraction,capacity_reaction_count,ready_capacity_fraction,exceeds_capacity_count,enzyme_readiness,guidance
+Acetate,Acetate,ready,12110,0.3514450867052023,745,1.0,745,0.5140939597315436,0,prototype,GECKO package/readiness data are available; external ecModel reconstruction remains optional.
+Glucose,Glucose,ready,12110,0.3514450867052023,745,1.0,745,0.5140939597315436,0,prototype,GECKO package/readiness data are available; external ecModel reconstruction remains optional.
+Glucose + Acetate,Glucose + Acetate,ready,10380,0.3514450867052023,745,1.0,745,0.5140939597315436,0,prototype,GECKO package/readiness data are available; external ecModel reconstruction remains optional.

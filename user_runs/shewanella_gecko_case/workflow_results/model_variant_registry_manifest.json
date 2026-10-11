@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1.0",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "selected_methods": [
+    "baseline_gem",
+    "eflux",
+    "enzyme_gecko",
+    "consensus_evidence"
+  ],
+  "variant_count": 8,
+  "generated_count": 8,
+  "registry": "D:\\generate\\user_runs\\shewanella_gecko_case\\workflow_results\\model_variant_registry.csv"
+}

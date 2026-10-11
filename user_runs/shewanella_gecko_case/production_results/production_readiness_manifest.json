@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "production_results_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results",
+  "uniprot_model_check_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check",
+  "kcat_priors_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_priors.csv",
+  "kcat_conflict_flags_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_conflict_flags.csv",
+  "files": {
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_readiness_summary.csv",
+    "target_readiness": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_target_readiness.csv",
+    "design_readiness": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_design_readiness.csv",
+    "gene_readiness": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_gene_readiness.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\production_results\\production_readiness_manifest.json"
+  },
+  "input_counts": {
+    "production_target_ranking": 6,
+    "production_design_targets": 796,
+    "production_gene_targets": 1188,
+    "production_gecko_target_comparison": 6,
+    "production_gecko_design_comparison": 1984,
+    "semantic_qc_reactions": 2094,
+    "uniprot_gene_evidence": 1162,
+    "kcat_prior_reactions": 1116,
+    "kcat_conflict_reactions": 1116
+  }
+}

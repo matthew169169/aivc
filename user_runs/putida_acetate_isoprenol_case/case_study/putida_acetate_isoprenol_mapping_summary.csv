@@ -1,0 +1,6 @@
+file_name,role,source_sheet,row_count,unique_gene_or_protein_ids,mapped_gene_or_protein_ids,gene_mapping_fraction,unique_reaction_ids,mapped_reaction_ids,reaction_mapping_fraction,mapping_status
+absolute_proteomics_putida.csv,absolute_proteomics,Sheet1,34600,3459,222,0.0642,0,0,,mapping_partial
+relative_proteomics_putida_condition_response.csv,relative_proteomics,Sheet1,32870,3459,222,0.0642,0,0,,mapping_partial
+relative_proteomics_putida_strain_response.csv,relative_proteomics,Sheet1,46710,3459,222,0.0642,0,0,,mapping_partial
+putida_condition_summary.csv,custom_annotation,Sheet1,20,0,0,,0,0,,not_model_mapped_evidence
+putida_marker_annotation.csv,custom_annotation,paper text,6,6,5,0.8333,0,0,,mapping_ready

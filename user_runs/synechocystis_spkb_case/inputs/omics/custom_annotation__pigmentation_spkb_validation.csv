@@ -1,0 +1,79 @@
+sample,strain,condition,phenotype,value,unit,custom_group,source_sheet
+WT (M)_high_carbon,WT (M),high_carbon,Chla,7.52,relative_pigment_metric,pigmentation,Table S4
+WT (M)_high_carbon,WT (M),high_carbon,PC,3.12,relative_pigment_metric,pigmentation,Table S4
+WT (M)_high_carbon,WT (M),high_carbon,Car,9.45,relative_pigment_metric,pigmentation,Table S4
+WT (M)_low_carbon,WT (M),low_carbon,Chla,6.22,relative_pigment_metric,pigmentation,Table S4
+WT (M)_low_carbon,WT (M),low_carbon,PC,2.33,relative_pigment_metric,pigmentation,Table S4
+WT (M)_low_carbon,WT (M),low_carbon,Car,9.58,relative_pigment_metric,pigmentation,Table S4
+ΔspkA_high_carbon,ΔspkA,high_carbon,Chla,7.76,relative_pigment_metric,pigmentation,Table S4
+ΔspkA_high_carbon,ΔspkA,high_carbon,PC,3.01,relative_pigment_metric,pigmentation,Table S4
+ΔspkA_high_carbon,ΔspkA,high_carbon,Car,8.84,relative_pigment_metric,pigmentation,Table S4
+ΔspkA_low_carbon,ΔspkA,low_carbon,Chla,6.67,relative_pigment_metric,pigmentation,Table S4
+ΔspkA_low_carbon,ΔspkA,low_carbon,PC,2.59,relative_pigment_metric,pigmentation,Table S4
+ΔspkA_low_carbon,ΔspkA,low_carbon,Car,11.02,relative_pigment_metric,pigmentation,Table S4
+ΔspkB_high_carbon,ΔspkB,high_carbon,Chla,8.09,relative_pigment_metric,pigmentation,Table S4
+ΔspkB_high_carbon,ΔspkB,high_carbon,PC,2.52,relative_pigment_metric,pigmentation,Table S4
+ΔspkB_high_carbon,ΔspkB,high_carbon,Car,10.04,relative_pigment_metric,pigmentation,Table S4
+ΔspkB_low_carbon,ΔspkB,low_carbon,Chla,3.71,relative_pigment_metric,pigmentation,Table S4
+ΔspkB_low_carbon,ΔspkB,low_carbon,PC,2.12,relative_pigment_metric,pigmentation,Table S4
+ΔspkB_low_carbon,ΔspkB,low_carbon,Car,9.3,relative_pigment_metric,pigmentation,Table S4
+ΔspkD_high_carbon,ΔspkD,high_carbon,Chla,10.72,relative_pigment_metric,pigmentation,Table S4
+ΔspkD_high_carbon,ΔspkD,high_carbon,PC,3.61,relative_pigment_metric,pigmentation,Table S4
+ΔspkD_high_carbon,ΔspkD,high_carbon,Car,12.17,relative_pigment_metric,pigmentation,Table S4
+ΔspkD_low_carbon,ΔspkD,low_carbon,Chla,6.23,relative_pigment_metric,pigmentation,Table S4
+ΔspkD_low_carbon,ΔspkD,low_carbon,PC,2.52,relative_pigment_metric,pigmentation,Table S4
+ΔspkD_low_carbon,ΔspkD,low_carbon,Car,10.55,relative_pigment_metric,pigmentation,Table S4
+ΔspkE_high_carbon,ΔspkE,high_carbon,Chla,6.82,relative_pigment_metric,pigmentation,Table S4
+ΔspkE_high_carbon,ΔspkE,high_carbon,PC,2.31,relative_pigment_metric,pigmentation,Table S4
+ΔspkE_high_carbon,ΔspkE,high_carbon,Car,8.16,relative_pigment_metric,pigmentation,Table S4
+ΔspkE_low_carbon,ΔspkE,low_carbon,Chla,6.41,relative_pigment_metric,pigmentation,Table S4
+ΔspkE_low_carbon,ΔspkE,low_carbon,PC,2.43,relative_pigment_metric,pigmentation,Table S4
+ΔspkE_low_carbon,ΔspkE,low_carbon,Car,9.96,relative_pigment_metric,pigmentation,Table S4
+ΔspkG_high_carbon,ΔspkG,high_carbon,Chla,7.47,relative_pigment_metric,pigmentation,Table S4
+ΔspkG_high_carbon,ΔspkG,high_carbon,PC,2.91,relative_pigment_metric,pigmentation,Table S4
+ΔspkG_high_carbon,ΔspkG,high_carbon,Car,8.14,relative_pigment_metric,pigmentation,Table S4
+ΔspkG_low_carbon,ΔspkG,low_carbon,Chla,5.22,relative_pigment_metric,pigmentation,Table S4
+ΔspkG_low_carbon,ΔspkG,low_carbon,PC,1.94,relative_pigment_metric,pigmentation,Table S4
+ΔspkG_low_carbon,ΔspkG,low_carbon,Car,9.26,relative_pigment_metric,pigmentation,Table S4
+WT (F)_high_carbon,WT (F),high_carbon,Chla,8.43,relative_pigment_metric,pigmentation,Table S4
+WT (F)_high_carbon,WT (F),high_carbon,PC,3.59,relative_pigment_metric,pigmentation,Table S4
+WT (F)_high_carbon,WT (F),high_carbon,Car,8.94,relative_pigment_metric,pigmentation,Table S4
+WT (F)_low_carbon,WT (F),low_carbon,Chla,5.41,relative_pigment_metric,pigmentation,Table S4
+WT (F)_low_carbon,WT (F),low_carbon,PC,2.9,relative_pigment_metric,pigmentation,Table S4
+WT (F)_low_carbon,WT (F),low_carbon,Car,9.65,relative_pigment_metric,pigmentation,Table S4
+ΔspkC_high_carbon,ΔspkC,high_carbon,Chla,7.22,relative_pigment_metric,pigmentation,Table S4
+ΔspkC_high_carbon,ΔspkC,high_carbon,PC,2.68,relative_pigment_metric,pigmentation,Table S4
+ΔspkC_high_carbon,ΔspkC,high_carbon,Car,7.8,relative_pigment_metric,pigmentation,Table S4
+ΔspkC_low_carbon,ΔspkC,low_carbon,Chla,7.43,relative_pigment_metric,pigmentation,Table S4
+ΔspkC_low_carbon,ΔspkC,low_carbon,PC,2.55,relative_pigment_metric,pigmentation,Table S4
+ΔspkC_low_carbon,ΔspkC,low_carbon,Car,9.53,relative_pigment_metric,pigmentation,Table S4
+ΔspkF_high_carbon,ΔspkF,high_carbon,Chla,6.54,relative_pigment_metric,pigmentation,Table S4
+ΔspkF_high_carbon,ΔspkF,high_carbon,PC,2.19,relative_pigment_metric,pigmentation,Table S4
+ΔspkF_high_carbon,ΔspkF,high_carbon,Car,7.98,relative_pigment_metric,pigmentation,Table S4
+ΔspkF_low_carbon,ΔspkF,low_carbon,Chla,8.3,relative_pigment_metric,pigmentation,Table S4
+ΔspkF_low_carbon,ΔspkF,low_carbon,PC,2.64,relative_pigment_metric,pigmentation,Table S4
+ΔspkF_low_carbon,ΔspkF,low_carbon,Car,9.07,relative_pigment_metric,pigmentation,Table S4
+ΔspkI_high_carbon,ΔspkI,high_carbon,Chla,11.93,relative_pigment_metric,pigmentation,Table S4
+ΔspkI_high_carbon,ΔspkI,high_carbon,PC,4.34,relative_pigment_metric,pigmentation,Table S4
+ΔspkI_high_carbon,ΔspkI,high_carbon,Car,10.97,relative_pigment_metric,pigmentation,Table S4
+ΔspkI_low_carbon,ΔspkI,low_carbon,Chla,6.35,relative_pigment_metric,pigmentation,Table S4
+ΔspkI_low_carbon,ΔspkI,low_carbon,PC,2.54,relative_pigment_metric,pigmentation,Table S4
+ΔspkI_low_carbon,ΔspkI,low_carbon,Car,8.77,relative_pigment_metric,pigmentation,Table S4
+ΔspkJ_high_carbon,ΔspkJ,high_carbon,Chla,5.82,relative_pigment_metric,pigmentation,Table S4
+ΔspkJ_high_carbon,ΔspkJ,high_carbon,PC,1.94,relative_pigment_metric,pigmentation,Table S4
+ΔspkJ_high_carbon,ΔspkJ,high_carbon,Car,6.84,relative_pigment_metric,pigmentation,Table S4
+ΔspkJ_low_carbon,ΔspkJ,low_carbon,Chla,8.68,relative_pigment_metric,pigmentation,Table S4
+ΔspkJ_low_carbon,ΔspkJ,low_carbon,PC,2.86,relative_pigment_metric,pigmentation,Table S4
+ΔspkJ_low_carbon,ΔspkJ,low_carbon,Car,9.27,relative_pigment_metric,pigmentation,Table S4
+ΔspkK_high_carbon,ΔspkK,high_carbon,Chla,7.7,relative_pigment_metric,pigmentation,Table S4
+ΔspkK_high_carbon,ΔspkK,high_carbon,PC,2.83,relative_pigment_metric,pigmentation,Table S4
+ΔspkK_high_carbon,ΔspkK,high_carbon,Car,7.48,relative_pigment_metric,pigmentation,Table S4
+ΔspkK_low_carbon,ΔspkK,low_carbon,Chla,9.01,relative_pigment_metric,pigmentation,Table S4
+ΔspkK_low_carbon,ΔspkK,low_carbon,PC,3.53,relative_pigment_metric,pigmentation,Table S4
+ΔspkK_low_carbon,ΔspkK,low_carbon,Car,12.08,relative_pigment_metric,pigmentation,Table S4
+ΔspkL_high_carbon,ΔspkL,high_carbon,Chla,6.3,relative_pigment_metric,pigmentation,Table S4
+ΔspkL_high_carbon,ΔspkL,high_carbon,PC,1.93,relative_pigment_metric,pigmentation,Table S4
+ΔspkL_high_carbon,ΔspkL,high_carbon,Car,7.65,relative_pigment_metric,pigmentation,Table S4
+ΔspkL_low_carbon,ΔspkL,low_carbon,Chla,9.51,relative_pigment_metric,pigmentation,Table S4
+ΔspkL_low_carbon,ΔspkL,low_carbon,PC,3.24,relative_pigment_metric,pigmentation,Table S4
+ΔspkL_low_carbon,ΔspkL,low_carbon,Car,12.08,relative_pigment_metric,pigmentation,Table S4

@@ -1,0 +1,1 @@
+D:\Matlab\bin\matlab.EXE -batch "run('D:\generate\user_runs\shewanella_gecko_case\dlkcat_results\dlkcat_gecko_protocol.m')"

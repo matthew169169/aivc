@@ -1,0 +1,2 @@
+status,network_access,requested_accession_count,cache_hit_count,fetched_count,missing_not_fetched_count,cache_error_count,fetch_failed_count,reviewed_count,with_ec_count,cache_dir,guidance
+no_accessions,disabled,0,0,0,0,0,0,0,0,D:\generate\user_runs\shewanella_gecko_case\uniprot_cache,No UniProt accessions were available for cache or REST enrichment.

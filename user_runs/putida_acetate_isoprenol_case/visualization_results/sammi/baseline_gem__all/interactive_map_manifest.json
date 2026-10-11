@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "Interactive reaction network graph generated.",
+  "variant_id": "baseline_gem__all",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "output_dir": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all",
+  "source_sammi_manifest_path": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/sammi_package_manifest.json",
+  "source_overlay_status": "not_selected",
+  "files": {
+    "graph": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/network_graph.json",
+    "html": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/interactive_map.html",
+    "manifest": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/interactive_map_manifest.json",
+    "summary": "/Users/matthewwoo/Downloads/aivc/user_runs/putida_acetate_isoprenol_case/visualization_results/sammi/baseline_gem__all/interactive_map_summary.csv"
+  },
+  "summary": {
+    "status": "completed",
+    "message": "Interactive reaction network graph generated.",
+    "reaction_count_available": 48,
+    "reaction_count_rendered": 48,
+    "metabolite_count_rendered": 56,
+    "node_count": 104,
+    "link_count": 122,
+    "overlay_count_available": 0,
+    "warning_count": 0,
+    "production_candidate_count": 0,
+    "ko_candidate_count": 0,
+    "kd_candidate_count": 0,
+    "oe_candidate_count": 0,
+    "top_production_reactions": "",
+    "production_warning_reactions": "",
+    "needs_filtering": false
+  }
+}

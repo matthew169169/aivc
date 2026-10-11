@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none",
+  "variant_id": "baseline_gem__all",
+  "generation_method": "baseline_gem",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "overlay_status": "not_selected",
+  "reaction_count": 21,
+  "group_count": 1,
+  "overlay_count": 0,
+  "overlay_summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 0,
+  "overlay_unmatched_reaction_count": 0,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "overlay_not_selected",
+  "overlay_source_file": "",
+  "overlay_source_status": "not_selected",
+  "top_highlighted_reactions": "",
+  "warning_reactions": "",
+  "selected_reaction_count": 84,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R00762;R01049;R01051;R01056;R01057;R01066;R01067;R01068;R01528;R01529;R01621;R01641;R02035;R02036;R02736;R02739;R02749;R02750;R05605;R08575;R10221;R_rxn00549_c0;R_rxn00770_c0;R_rxn00772_c0;R_rxn00777_c0;R_rxn00778_c0;R_rxn00784_c0;R_rxn00785_c0;R_rxn00786_c0;R_rxn01115_c0;R_rxn01116_c0;R_rxn01187_c0;R_rxn01200_c0;R_rxn01333_c0;R_rxn01476_c0;R_rxn01477_c0;R_rxn01975_c0;R_rxn01977_c0;R_rxn01986_c0;R_rxn01987_c0;R_rxn03884_c0;R_rxn11040_c0;rxn00549_c0;rxn00770_c0;rxn00772_c0;rxn00777_c0;rxn00778_c0;rxn00784_c0;rxn00785_c0;rxn00786_c0;rxn01115_c0;rxn01116_c0;rxn01187_c0;rxn01200_c0;rxn01333_c0;rxn01476_c0;rxn01477_c0;rxn01975_c0;rxn01977_c0;rxn01986_c0;rxn01987_c0;rxn03884_c0;rxn11040_c0",
+  "filter_matched_reaction_ids": "R_rxn00549_c0;R_rxn00770_c0;R_rxn00772_c0;R_rxn00777_c0;R_rxn00778_c0;R_rxn00784_c0;R_rxn00785_c0;R_rxn00786_c0;R_rxn01115_c0;R_rxn01116_c0;R_rxn01187_c0;R_rxn01200_c0;R_rxn01333_c0;R_rxn01476_c0;R_rxn01477_c0;R_rxn01975_c0;R_rxn01977_c0;R_rxn01986_c0;R_rxn01987_c0;R_rxn03884_c0;R_rxn11040_c0",
+  "filter_missing_reaction_ids": "R00762;R01049;R01051;R01056;R01057;R01066;R01067;R01068;R01528;R01529;R01621;R01641;R02035;R02036;R02736;R02739;R02749;R02750;R05605;R08575;R10221",
+  "filter_suggested_reactions": "R_rxn00549_c0;R_rxn03884_c0;R_rxn00777_c0;R_rxn00786_c0;R_rxn00772_c0;R_rxn01477_c0;R_rxn01116_c0;R_rxn11040_c0",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}

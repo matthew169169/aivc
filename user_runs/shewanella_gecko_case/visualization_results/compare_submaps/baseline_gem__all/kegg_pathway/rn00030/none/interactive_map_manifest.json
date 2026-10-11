@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "Interactive reaction network graph generated.",
+  "variant_id": "baseline_gem__all",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none",
+  "source_sammi_manifest_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\sammi_package_manifest.json",
+  "source_overlay_status": "not_selected",
+  "files": {
+    "graph": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\network_graph.json",
+    "html": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\interactive_map.html",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\interactive_map_manifest.json",
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00030\\none\\interactive_map_summary.csv"
+  },
+  "summary": {
+    "status": "completed",
+    "message": "Interactive reaction network graph generated.",
+    "reaction_count_available": 21,
+    "reaction_count_rendered": 21,
+    "metabolite_count_rendered": 34,
+    "node_count": 55,
+    "link_count": 77,
+    "overlay_count_available": 0,
+    "warning_count": 0,
+    "production_candidate_count": 0,
+    "ko_candidate_count": 0,
+    "kd_candidate_count": 0,
+    "oe_candidate_count": 0,
+    "top_production_reactions": "",
+    "production_warning_reactions": "",
+    "needs_filtering": false
+  }
+}

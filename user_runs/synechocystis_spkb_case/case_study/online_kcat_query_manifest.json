@@ -1,0 +1,20 @@
+{
+  "case_id": "synechocystis_spkb_carbon_limitation",
+  "online_enabled": false,
+  "online_status": "not_queried_local_cache_sufficient",
+  "source_priority": [
+    "case_local_gotenzymes2",
+    "global_local_gotenzymes2_or_gecko_max_kcat",
+    "online_gotenzymes2_if_configured",
+    "BRENDA_turnover_number",
+    "SABIO_RK_curated_kinetics",
+    "DLKcat_predicted_low_confidence"
+  ],
+  "source_urls": {
+    "BRENDA": "https://www.brenda-enzymes.org/",
+    "SABIO-RK": "https://sabiork.h-its.org/"
+  },
+  "selected_local_kcat_priors": 454,
+  "missing_reactions_with_ec": 125,
+  "guidance": "Online kinetic lookup is reserved for reactions not covered by local curated caches and should preserve source, license, and evidence tier."
+}

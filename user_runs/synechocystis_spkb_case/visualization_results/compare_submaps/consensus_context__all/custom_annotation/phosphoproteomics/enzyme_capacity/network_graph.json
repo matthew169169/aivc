@@ -1,0 +1,309 @@
+{
+  "schema_version": "0.1.0",
+  "format": "omics_gem_interactive_network_graph",
+  "status": "completed",
+  "message": "Interactive reaction network graph generated.",
+  "variant_id": "consensus_context__all",
+  "generation_method": "consensus_evidence",
+  "grouping_mode": "subsystem",
+  "overlay_semantic_types": [],
+  "filters": {
+    "reaction_filter": [
+      "DXPRIi",
+      "PGAMT",
+      "PGMT",
+      "PPM",
+      "R_DXPRIi",
+      "R_PGAMT",
+      "R_PGMT",
+      "R_PPM"
+    ],
+    "subsystem_filter": [],
+    "top_n": 120,
+    "include_currency_metabolites": false,
+    "max_nodes": 900,
+    "max_links": 1800
+  },
+  "legend": [
+    {
+      "semantic_type": "metabolite",
+      "label": "metabolite",
+      "color": "#64748b"
+    },
+    {
+      "semantic_type": "reaction",
+      "label": "reaction",
+      "color": "#2563eb"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "R_DXPRIi",
+      "label": "DXPRIi",
+      "name": "1-deoxy-D-xylulose reductoisomerase",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_dxyl5p_c;M_h_c;M_nadph_c",
+      "products": "M_2me4p_c;M_nadp_c",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_dxyl5p_c",
+      "label": "dxyl5p_c",
+      "name": "M_dxyl5p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_2me4p_c",
+      "label": "2me4p_c",
+      "name": "M_2me4p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_PPM",
+      "label": "PPM",
+      "name": "Phosphopentomutase",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_r1p_c",
+      "products": "M_r5p_c",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_r1p_c",
+      "label": "r1p_c",
+      "name": "M_r1p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_r5p_c",
+      "label": "r5p_c",
+      "name": "M_r5p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_PGAMT",
+      "label": "PGAMT",
+      "name": "Phosphoglucosamine mutase",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_gam1p_c",
+      "products": "M_gam6p_c",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_gam1p_c",
+      "label": "gam1p_c",
+      "name": "M_gam1p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_gam6p_c",
+      "label": "gam6p_c",
+      "name": "M_gam6p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_PGMT",
+      "label": "PGMT",
+      "name": "Phosphoglucomutase",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_g1p_c",
+      "products": "M_g6p_c",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_g1p_c",
+      "label": "g1p_c",
+      "name": "M_g1p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_g6p_c",
+      "label": "g6p_c",
+      "name": "M_g6p_c",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    }
+  ],
+  "links": [
+    {
+      "id": "M_dxyl5p_c->R_DXPRIi:reactant:0",
+      "source": "M_dxyl5p_c",
+      "target": "R_DXPRIi",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_DXPRIi->M_2me4p_c:product:1",
+      "source": "R_DXPRIi",
+      "target": "M_2me4p_c",
+      "link_type": "product"
+    },
+    {
+      "id": "M_r1p_c->R_PPM:reactant:2",
+      "source": "M_r1p_c",
+      "target": "R_PPM",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_PPM->M_r5p_c:product:3",
+      "source": "R_PPM",
+      "target": "M_r5p_c",
+      "link_type": "product"
+    },
+    {
+      "id": "M_gam1p_c->R_PGAMT:reactant:4",
+      "source": "M_gam1p_c",
+      "target": "R_PGAMT",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_PGAMT->M_gam6p_c:product:5",
+      "source": "R_PGAMT",
+      "target": "M_gam6p_c",
+      "link_type": "product"
+    },
+    {
+      "id": "M_g1p_c->R_PGMT:reactant:6",
+      "source": "M_g1p_c",
+      "target": "R_PGMT",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_PGMT->M_g6p_c:product:7",
+      "source": "R_PGMT",
+      "target": "M_g6p_c",
+      "link_type": "product"
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "message": "Interactive reaction network graph generated.",
+    "reaction_count_available": 4,
+    "reaction_count_rendered": 4,
+    "metabolite_count_rendered": 8,
+    "node_count": 12,
+    "link_count": 8,
+    "overlay_count_available": 0,
+    "warning_count": 0,
+    "production_candidate_count": 0,
+    "ko_candidate_count": 0,
+    "kd_candidate_count": 0,
+    "oe_candidate_count": 0,
+    "top_production_reactions": "",
+    "production_warning_reactions": "",
+    "needs_filtering": false
+  },
+  "notes": [
+    "This graph is generated by the Omics-GEM lightweight interactive viewer.",
+    "SAMMI standalone assets are not vendored by this renderer."
+  ]
+}

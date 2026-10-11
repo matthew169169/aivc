@@ -1,0 +1,864 @@
+reaction_id,cobra_reaction_id,reaction_name,grouping_mode,group_id,group_label,subsystem,compartment,selected_reaction,reactants,products
+R_EX_ac_e,EX_ac_e,Acetate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_ac_e,
+R_34DHOXPEGOX,34DHOXPEGOX,"3,4-Dihydroxyphenylethyleneglycol NAD+ oxidoreductase",subsystem,unannotated,unannotated,unannotated,c,False,M_34dhmald_c;M_h_c;M_nadh_c,M_34dhoxpeg_c;M_nad_c
+R_EX_photon_e,EX_photon_e,Photon exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_photon_e,
+R_34HPPOR,34HPPOR,4 Hydroxyphenylpyruvateoxygen oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,False,M_34hpp_c;M_o2_c,M_co2_c;M_hgentis_c
+R_EX_ca2_e,EX_ca2_e,Calcium exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_ca2_e,
+R_3HAD180,3HAD180,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3hoctaACP_c,M_h2o_c;M_toctd2eACP_c
+R_ABUTD,ABUTD,Aminobutyraldehyde dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_4abutn_c;M_h2o_c;M_nad_c,M_4abut_c;M_h_c;M_nadh_c
+R_3HAD181,3HAD181,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3hcvac11eACP_c,M_h2o_c;M_t3c11vaceACP_c
+R_3OAR100,3OAR100,3-oxoacyl-[acyl-carrier-protein] reductase (n-C10:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3odecACP_c;M_h_c;M_nadph_c,M_3hdecACP_c;M_nadp_c
+R_ASNN,ASNN,L-asparaginase,subsystem,unannotated,unannotated,unannotated,c,False,M_asn__L_c;M_h2o_c,M_asp__L_c;M_nh4_c
+R_3OAR120,3OAR120,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3oddecACP_c;M_h_c;M_nadph_c,M_3hddecACP_c;M_nadp_c
+R_3OAR121,3OAR121,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3ocddec5eACP_c;M_h_c;M_nadph_c,M_3hcddec5eACP_c;M_nadp_c
+R_3OAR140,3OAR140,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3omrsACP_c;M_h_c;M_nadph_c,M_3hmrsACP_c;M_nadp_c
+R_3OAR141,3OAR141,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3ocmrs7eACP_c;M_h_c;M_nadph_c,M_3hcmrs7eACP_c;M_nadp_c
+R_BAMPPALDOX,BAMPPALDOX,Beta-Aminopropion aldehyde NAD+ oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,False,M_bamppald_c;M_h2o_c;M_nad_c,M_ala_B_c;M_h_c;M_nadh_c
+R_ACONT,ACONT,Aconitate hydratase,subsystem,unannotated,unannotated,unannotated,c,False,M_cit_c,M_icit_c
+R_3OAR160,3OAR160,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3opalmACP_c;M_h_c;M_nadph_c,M_3hpalmACP_c;M_nadp_c
+R_3OAR161,3OAR161,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3ocpalm9eACP_c;M_h_c;M_nadph_c,M_3hcpalm9eACP_c;M_nadp_c
+R_ACP1_FMN,ACP1_FMN,Acid phosphatase (FMN),subsystem,unannotated,unannotated,unannotated,c,False,M_fmn_c;M_h2o_c,M_pi_c;M_ribflv_c
+R_3OAR180,3OAR180,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3ooctdACP_c;M_h_c;M_nadph_c,M_3hoctaACP_c;M_nadp_c
+R_ADNCYC,ADNCYC,Adenylate cyclase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c,M_camp_c;M_ppi_c
+R_ADOCBLS,ADOCBLS,Adenosylcobalamin 5'-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_agdpcbi_c;M_rdmbzi_c,M_adocbl_c;M_gmp_c;M_h_c
+R_CDPMEK,CDPMEK,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_4c2me_c;M_atp_c,M_2p4c2me_c;M_adp_c;M_h_c
+R_FQR,FQR,Cyclic Electron Flow,subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_pq_u,M_fdxo_2_2_c;M_pqh2_u
+R_ADPRDP,ADPRDP,ADPribose diphosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_adprib_c;M_h2o_c,M_amp_c;M_h_c;M_r5p_c
+R_3OAR181,3OAR181,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3ocvac11eACP_c;M_h_c;M_nadph_c,M_3hcvac11eACP_c;M_nadp_c
+R_DTMPK,DTMPK,DTMP kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dtmp_c,M_adp_c;M_dtdp_c
+R_3OAR40,3OAR40,3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0),subsystem,unannotated,unannotated,unannotated,c,False,M_actACP_c;M_h_c;M_nadph_c,M_3haACP_c;M_nadp_c
+R_ARGSL,ARGSL,Argininosuccinate lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_argsuc_c,M_arg__L_c;M_fum_c
+R_AGPAT160,AGPAT160,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_1hdecg3p_c;M_palmACP_c,M_ACP_c;M_pa160_c
+R_AGPAT161,AGPAT161,1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_1hdec9eg3p_c;M_hdeACP_c,M_ACP_c;M_pa161_c
+R_3OAR60,3OAR60,3-oxoacyl-[acyl-carrier-protein] reductase (n-C6:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3ohexACP_c;M_h_c;M_nadph_c,M_3hhexACP_c;M_nadp_c
+R_AGPAT180,AGPAT180,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_1odecg3p_c;M_ocdcaACP_c,M_ACP_c;M_pa180_c
+R_AGPAT181,AGPAT181,1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_1odec11eg3p_c;M_octeACP_c,M_ACP_c;M_pa181_c
+R_AGPAT181_9,AGPAT181_9,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_1odec9eg3p_c;M_octe_9_ACP_c,M_ACP_c;M_pa181_9_c
+R_AGPAT182_9_12,AGPAT182_9_12,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_1odec912eg3p_c;M_octe_9_12_ACP_c,M_ACP_c;M_pa182_9_12_c
+R_AGPAT183_6_9_12,AGPAT183_6_9_12,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_1odec6912eg3p_c;M_octe_6_9_12_ACP_c,M_ACP_c;M_pa183_6_9_12_c
+R_AGPAT183_9_12_15,AGPAT183_9_12_15,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_1odec91215eg3p_c;M_octe_9_12_15_ACP_c,M_ACP_c;M_pa183_9_12_15_c
+R_AGPAT184_6_9_12_15,AGPAT184_6_9_12_15,1-octadec-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_1odec691215eg3p_c;M_octe_6_9_12_15_ACP_c,M_ACP_c;M_pa184_6_9_12_15_c
+R_ARGDC,ARGDC,Arginine decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_arg__L_c;M_h_c,M_agm_c;M_co2_c
+R_ARGSS,ARGSS,Argininosuccinate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_atp_c;M_citr__L_c,M_amp_c;M_argsuc_c;M_h_c;M_ppi_c
+R_ARGTRS,ARGTRS,Arginyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_arg__L_c;M_atp_c;M_trnaarg_c,M_amp_c;M_argtrna_c;M_ppi_c
+R_ASAD,ASAD,Aspartate-semialdehyde dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_aspsa_c;M_nadp_c;M_pi_c,M_4pasp_c;M_h_c;M_nadph_c
+R_ASNTRS,ASNTRS,Asparaginyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_asn__L_c;M_atp_c;M_trnaasn_c,M_amp_c;M_asntrna_c;M_ppi_c
+R_ASP1DC,ASP1DC,Aspartate 1-decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_h_c,M_ala_B_c;M_co2_c
+R_ASPCT,ASPCT,Aspartate carbamoyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_cbp_c,M_cbasp_c;M_h_c;M_pi_c
+R_ASPK,ASPK,Aspartate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_atp_c,M_4pasp_c;M_adp_c
+R_ASPO6,ASPO6,L-aspartate oxidase,subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_o2_c,M_h2o2_c;M_h_c;M_iasp_c
+R_ALAD_L,ALAD_L,L-alanine dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_ala__L_c;M_h2o_c;M_nad_c,M_h_c;M_nadh_c;M_nh4_c;M_pyr_c
+R_ALCD19,ALCD19,Alcohol dehydrogenase (glycerol),subsystem,unannotated,unannotated,unannotated,c,False,M_glyald_c;M_h_c;M_nadh_c,M_glyc_c;M_nad_c
+R_ASPTRS,ASPTRS,Aspartyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_atp_c;M_trnaasp_c,M_amp_c;M_asptrna_c;M_ppi_c
+R_3OAR80,3OAR80,3-oxoacyl-[acyl-carrier-protein] reductase (n-C8:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3ooctACP_c;M_h_c;M_nadph_c,M_3hoctACP_c;M_nadp_c
+R_ATPPRT,ATPPRT,ATP phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_prpp_c,M_ppi_c;M_prbatp_c
+R_3OAS100,3OAS100,3-oxoacyl-[acyl-carrier-protein] synthase (n-C10:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_malACP_c;M_ocACP_c,M_3odecACP_c;M_ACP_c;M_co2_c
+R_BCAROHX2,BCAROHX2,Beta-carotene hydroxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_bcryptox_c;M_h_c;M_nadph_c;M_o2_c,M_h2o_c;M_nadp_c;M_zeax_c
+R_BCAROHX,BCAROHX,Beta-carotene hydroxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_caro_c;M_h_c;M_nadph_c;M_o2_c,M_bcryptox_c;M_h2o_c;M_nadp_c
+R_ALCD2y,ALCD2y,"Alcohol dehydrogenase (ethanol, NADP)",subsystem,unannotated,unannotated,unannotated,c,False,M_etoh_c;M_nadp_c,M_acald_c;M_h_c;M_nadph_c
+R_3OAS120,3OAS120,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:0),subsystem,unannotated,unannotated,unannotated,c,False,M_dcaACP_c;M_h_c;M_malACP_c,M_3oddecACP_c;M_ACP_c;M_co2_c
+R_ALDD20x,ALDD20x,"Aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)",subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_id3acald_c;M_nad_c,M_h_c;M_ind3ac_c;M_nadh_c
+R_BCAROKE,BCAROKE,Beta-carotene ketolase,subsystem,unannotated,unannotated,unannotated,c,False,M_caro_c;M_o2_c,M_echin_c;M_h2o_c
+R_BILIRED,BILIRED,Nad(p)h biliverdin reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_biliverd_c;M_h_c;M_nadph_c,M_bilirub_c;M_nadp_c
+R_ALDD2x,ALDD2x,"Aldehyde dehydrogenase (acetaldehyde, NAD)",subsystem,unannotated,unannotated,unannotated,c,False,M_acald_c;M_h2o_c;M_nad_c,M_ac_c;M_h_c;M_nadh_c
+R_ACACT1r,ACACT1r,Acetyl-CoA C-acetyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c,M_aacoa_c;M_coa_c
+R_CYPHYC,CYPHYC,Cyanophycinase,subsystem,unannotated,unannotated,unannotated,c,False,M_cyanphy_c;M_h2o_c,M_arg__L_c;M_asp__L_c;M_precyanphy_c
+R_AMPN,AMPN,AMP nucleosidase,subsystem,unannotated,unannotated,unannotated,c,False,M_amp_c;M_h2o_c,M_ade_c;M_r5p_c
+R_AACOAR_syn,AACOAR_syn,Acetoacetyl CoA reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_aacoa_c;M_h_c;M_nadph_c,M_3hbcoa__R_c;M_nadp_c
+R_ACBIPGT,ACBIPGT,Adenosyl cobinamide phosphate guanyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_adocbip_c;M_gtp_c;M_h_c,M_agdpcbi_c;M_ppi_c
+R_ACKr,ACKr,Acetate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_ac_c;M_atp_c,M_actp_c;M_adp_c
+R_ACOTA,ACOTA,Acetylornithine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_acorn_c;M_akg_c,M_acg5sa_c;M_glu__L_c
+R_ACCOAC,ACCOAC,Acetyl-CoA carboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_atp_c;M_hco3_c,M_adp_c;M_h_c;M_malcoa_c;M_pi_c
+R_BTS4,BTS4,Biotin synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_dtbt_c;M_s_c,M_btn_c;M_dad_5_c;M_h_c;M_met__L_c
+R_CAT,CAT,Catalase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o2_c,M_h2o_c;M_o2_c
+R_CBMKr,CBMKr,Carbamate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_co2_c;M_nh4_c,M_adp_c;M_cbp_c;M_h_c
+R_ACGK,ACGK,Acetylglutamate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_acglu_c;M_atp_c,M_acg5p_c;M_adp_c
+R_CBPS,CBPS,Carbamoyl-phosphate synthase (glutamine-hydrolysing),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gln__L_c;M_h2o_c;M_hco3_c,M_adp_c;M_cbp_c;M_glu__L_c;M_h_c;M_pi_c
+R_ACGS,ACGS,N-acetylglutamate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_glu__L_c,M_acglu_c;M_coa_c;M_h_c
+R_CYPHYS,CYPHYS,Cyanophycin sinthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_arg__L_c;M_asp__L_c;M_atp_c;M_precyanphy_c,M_adp_c;M_cyanphy_c;M_h_c;M_pi_c
+R_ACS,ACS,Acetyl-CoA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_ac_c;M_atp_c;M_coa_c,M_accoa_c;M_amp_c;M_ppi_c
+R_CBFCu,CBFCu,Cytochrome b6/f complex,subsystem,unannotated,unannotated,unannotated,u,False,M_h_c;M_pcox_u;M_pqh2_u,M_h_u;M_pcrd_u;M_pq_u
+R_CHORM,CHORM,Chorismate mutase,subsystem,unannotated,unannotated,unannotated,c,False,M_chor_c,M_pphn_c
+R_ACLS,ACLS,Acetolactate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_pyr_c,M_alac__S_c;M_co2_c
+R_CYRDAR,CYRDAR,"Cob(II)yrinic acid a,c-diamide reductase",subsystem,unannotated,unannotated,unannotated,c,False,M_co2dam_c;M_nadh_c,M_co1dam_c;M_h_c;M_nad_c
+R_ADCPS1,ADCPS1,Adenosylcobinamide-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_adcobhex_c;M_appl_c;M_atp_c,M_adocbi_c;M_adp_c;M_h_c;M_pi_c
+R_ADCPS2,ADCPS2,Adenosylcobinamide-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_adcobhex_c;M_applp_c;M_atp_c,M_adocbip_c;M_adp_c;M_h_c;M_pi_c
+R_CHORS,CHORS,Chorismate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_3psme_c,M_chor_c;M_pi_c
+R_CHPHYS,CHPHYS,Chlorophyll a synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_chlld_c;M_h_c;M_phdp_c,M_cholphya_c;M_ppi_c
+R_DBTS,DBTS,Dethiobiotin synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_co2_c;M_dann_c,M_adp_c;M_dtbt_c;M_h_c;M_pi_c
+R_ADCYRS,ADCYRS,Adenosylcobyric acid synthase (glutamine-hydrolysing),subsystem,unannotated,unannotated,unannotated,c,False,M_adcobdam_c;M_atp_c;M_gln__L_c;M_h2o_c,M_adcobhex_c;M_adp_c;M_glu__L_c;M_h_c;M_pi_c
+R_COCHL,COCHL,Cobaltochelatase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cobalt2_c;M_h2o_c;M_hgbam_c,M_adp_c;M_co2dam_c;M_h_c;M_pi_c
+R_DCTPD,DCTPD,DCTP deaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_dctp_c;M_h2o_c;M_h_c,M_dutp_c;M_nh4_c
+R_DADK,DADK,Deoxyadenylate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_damp_c,M_adp_c;M_dadp_c
+R_CPPPGO,CPPPGO,Coproporphyrinogen oxidase (O2 required),subsystem,unannotated,unannotated,unannotated,c,False,M_cpppg3_c;M_h_c;M_o2_c,M_co2_c;M_h2o_c;M_pppg9_c
+R_ADK1,ADK1,Adenylate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_amp_c;M_atp_c,M_adp_c
+R_DCTPD2,DCTPD2,DCTP deaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h2o_c;M_h_c,M_nh4_c;M_utp_c
+R_ADPT,ADPT,Adenine phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_ade_c;M_prpp_c,M_amp_c;M_ppi_c
+R_ADPT2,ADPT2,Adenine phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_aicar_c;M_ppi_c,M_C04051_c;M_prpp_c
+R_CPPPGO2,CPPPGO2,Oxygen Independent coproporphyrinogen-III oxidase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_cpppg3_c,M_co2_c;M_dad_5_c;M_met__L_c;M_pppg9_c
+R_CS,CS,Citrate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_h2o_c;M_oaa_c,M_cit_c;M_coa_c;M_h_c
+R_CSND,CSND,Cytosine deaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_csn_c;M_h2o_c;M_h_c,M_nh4_c;M_ura_c
+R_ADSK,ADSK,Adenylyl-sulfate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_aps_c;M_atp_c,M_adp_c;M_h_c;M_paps_c
+R_ADSL1r,ADSL1r,Adenylsuccinate lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_dcamp_c,M_amp_c;M_fum_c
+R_DGDG160,DGDG160,Digalactosyldiacylglycerol synthase (n-C16 0),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg160_c;M_udpgal_c,M_dgdg160_c;M_udp_c
+R_DGDG161,DGDG161,Digalactosyldiacylglycerol synthase (n-C16 1),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg161_c;M_udpgal_c,M_dgdg161_c;M_udp_c
+R_ADSL2r,ADSL2r,Adenylosuccinate lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_25aics_c,M_aicar_c;M_fum_c
+R_ADSS,ADSS,Adenylosuccinate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_gtp_c;M_imp_c,M_dcamp_c;M_gdp_c;M_h_c;M_pi_c
+R_AGMT,AGMT,Agmatinase,subsystem,unannotated,unannotated,unannotated,c,False,M_agm_c;M_h2o_c,M_ptrc_c;M_urea_c
+R_AGPR,AGPR,N-acetyl-g-glutamyl-phosphate reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_acg5sa_c;M_nadp_c;M_pi_c,M_acg5p_c;M_h_c;M_nadph_c
+R_AHCi,AHCi,Adenosylhomocysteinase,subsystem,unannotated,unannotated,unannotated,c,False,M_ahcys_c;M_h2o_c,M_adn_c;M_hcys__L_c
+R_CTPS1,CTPS1,CTP synthase  NH3 ,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_nh4_c;M_utp_c,M_adp_c;M_ctp_c;M_h_c;M_pi_c
+R_CTPS2,CTPS2,CTP synthase (glutamine),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gln__L_c;M_h2o_c;M_utp_c,M_adp_c;M_ctp_c;M_glu__L_c;M_h_c;M_pi_c
+R_DGDG180,DGDG180,Digalactosyldiacylglycerol synthase (n-C18 0),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg180_c;M_udpgal_c,M_dgdg180_c;M_udp_c
+R_DVOCHR,DVOCHR,Divinyl protochlorophyllide a 8-vinyl-reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_dvpchlld_c;M_h_c;M_nadph_c,M_nadp_c;M_pchlld_c
+R_DXPRIi,DXPRIi,1-deoxy-D-xylulose reductoisomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_dxyl5p_c;M_h_c;M_nadph_c,M_2me4p_c;M_nadp_c
+R_DXPS,DXPS,1-deoxy-D-xylulose 5-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_g3p_c;M_h_c;M_pyr_c,M_co2_c;M_dxyl5p_c
+R_AHMMPS,AHMMPS,4 amino 5 hydroxymethyl 2 methylpyrimidine synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_air_c;M_h_c,M_4ahmmp_c;M_gcald_c;M_pi_c
+R_AICART,AICART,Phosphoribosylaminoimidazolecarboxamide formyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_10fthf_c;M_aicar_c,M_fprica_c;M_thf_c
+R_ALAALAr,ALAALAr,D-alanine-D-alanine ligase (reversible),subsystem,unannotated,unannotated,unannotated,c,False,M_ala__D_c;M_atp_c,M_adp_c;M_alaala_c;M_h_c;M_pi_c
+R_AIRCr,AIRCr,Phosphoribosylaminoimidazole carboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_air_c;M_co2_c,M_5aizc_c;M_h_c
+R_DGDG181,DGDG181,Digalactosyldiacylglycerol synthase (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg181_c;M_udpgal_c,M_dgdg181_c;M_udp_c
+R_ALAR,ALAR,Alanine racemase,subsystem,unannotated,unannotated,unannotated,c,False,M_ala__L_c,M_ala__D_c
+R_ALATRS,ALATRS,Alanyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_ala__L_c;M_atp_c;M_trnaala_c,M_alatrna_c;M_amp_c;M_ppi_c
+R_FMNAT,FMNAT,FMN adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_fmn_c;M_h_c,M_fad_c;M_ppi_c
+R_DGDG181_9,DGDG181_9,Digalactosyldiacylglycerol synthase (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg181_9_c;M_udpgal_c,M_dgdg181_9_c;M_udp_c
+R_FTHFLi,FTHFLi,Formate-tetrahydrofolate ligase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_for_c;M_thf_c,M_10fthf_c;M_adp_c;M_pi_c
+R_G3PAT160,G3PAT160,Glycerol-3-phosphate acyltransferase (C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_palmACP_c,M_1hdecg3p_c;M_ACP_c
+R_AMID3,AMID3,Amidase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_iad_c,M_ind3ac_c;M_nh4_c
+R_DGDG182_9_12,DGDG182_9_12,Digalactosyldiacylglycerol synthase (n-C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg182_9_12_c;M_udpgal_c,M_dgdg182_9_12_c;M_udp_c
+R_G3PAT161,G3PAT161,Glycerol-3-phosphate acyltransferase (C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_hdeACP_c,M_1hdec9eg3p_c;M_ACP_c
+R_G3PAT180,G3PAT180,Glycerol-3-phosphate acyltransferase (C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_ocdcaACP_c,M_1odecg3p_c;M_ACP_c
+R_G3PAT181,G3PAT181,Glycerol-3-phosphate acyltransferase (C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_octeACP_c,M_1odec11eg3p_c;M_ACP_c
+R_AMID,AMID,GUANIDINOBUTANAMIDE-NH3-RXN,subsystem,unannotated,unannotated,unannotated,c,False,M_4gudbd_c;M_h2o_c,M_4gudbutn_c;M_nh4_c
+R_DGDG183_6_9_12,DGDG183_6_9_12,Digalactosyldiacylglycerol synthase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg183_6_9_12_c;M_udpgal_c,M_dgdg183_6_9_12_c;M_udp_c
+R_AMID2,AMID2,Amidase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pad_c,M_nh4_c;M_pac_c
+R_G3PAT181_9,G3PAT181_9,Glycerol-3-phosphate acyltransferase (C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_octe_9_ACP_c,M_1odec9eg3p_c;M_ACP_c
+R_DGDG183_9_12_15,DGDG183_9_12_15,Digalactosyldiacylglycerol synthase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg183_9_12_15_c;M_udpgal_c,M_dgdg183_9_12_15_c;M_udp_c
+R_ANPRT,ANPRT,Anthranilate phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_anth_c;M_prpp_c,M_ppi_c;M_pran_c
+R_DGDG184_6_9_12_15,DGDG184_6_9_12_15,Digalactosyldiacylglycerol synthase (n-C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_mgdg184_6_9_12_15_c;M_udpgal_c,M_dgdg184_6_9_12_15_c;M_udp_c
+R_ANS,ANS,Anthranilate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_chor_c;M_gln__L_c,M_anth_c;M_glu__L_c;M_h_c;M_pyr_c
+R_DHFR,DHFR,Dihydrofolate reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_dhf_c;M_h_c;M_nadph_c,M_nadp_c;M_thf_c
+R_AOXSr,AOXSr,8-amino-7-oxononanoate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_ala__L_c;M_h_c;M_pmcoa_c,M_8aonn_c;M_co2_c;M_coa_c
+R_G3PAT182_9_12,G3PAT182_9_12,Glycerol-3-phosphate acyltransferase (C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_octe_9_12_ACP_c,M_1odec912eg3p_c;M_ACP_c
+R_DHNPA_1,DHNPA_1,Dihydroneopterin aldolase,subsystem,unannotated,unannotated,unannotated,c,False,M_dhnpt_c,M_2ahhmp_c;M_gcald_c
+R_G3PAT183_6_9_12,G3PAT183_6_9_12,Glycerol-3-phosphate acyltransferase (C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_octe_6_9_12_15_ACP_c,M_1odec691215eg3p_c;M_ACP_c
+R_DMPPS_syn,DMPPS_syn,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp),subsystem,unannotated,unannotated,unannotated,c,False,M_h2mb4p_c;M_h_c;M_nadph_c,M_dmpp_c;M_h2o_c;M_nadp_c
+R_GLUN,GLUN,Glutaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_gln__L_c;M_h2o_c,M_glu__L_c;M_nh4_c
+R_G3PAT183_9_12_15,G3PAT183_9_12_15,Glycerol-3-phosphate acyltransferase (C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_octe_9_12_15_ACP_c,M_1odec91215eg3p_c;M_ACP_c
+R_DNMPPA,DNMPPA,Dihydroneopterin monophosphate dephosphorylase,subsystem,unannotated,unannotated,unannotated,c,False,M_dhpmp_c;M_h2o_c,M_dhnpt_c;M_pi_c
+R_G3PAT184_6_9_12_15,G3PAT184_6_9_12_15,Glycerol-3-phosphate acyltransferase (C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_glyc3p_c;M_octe_6_9_12_ACP_c,M_1odec6912eg3p_c;M_ACP_c
+R_GLYALDDr,GLYALDDr,D-Glyceraldehyde dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_glyald_c;M_h2o_c;M_nad_c,M_glyc__R_c;M_h_c;M_nadh_c
+R_DNTPPA,DNTPPA,Dihydroneopterin triphosphate pyrophosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_ahdt_c;M_h2o_c,M_dhpmp_c;M_h_c;M_ppi_c
+R_GLYCK,GLYCK,Glycerate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glyc__R_c,M_3pg_c;M_adp_c;M_h_c
+R_DPCOAK,DPCOAK,Dephospho-CoA kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dpcoa_c,M_adp_c;M_coa_c;M_h_c
+R_GTHPi,GTHPi,Glutathione peridoxase,subsystem,unannotated,unannotated,unannotated,c,False,M_gthrd_c;M_h2o2_c,M_gthox_c;M_h2o_c
+R_GALKr,GALKr,Galactokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gal_c,M_adp_c;M_gal1p_c;M_h_c
+R_DPR,DPR,2-dehydropantoate 2-reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_2dhp_c;M_h_c;M_nadph_c,M_nadp_c;M_pant__R_c
+R_GALUi,GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),subsystem,unannotated,unannotated,unannotated,c,False,M_g1p_c;M_h_c;M_utp_c,M_ppi_c;M_udpg_c
+R_GCATENEC,GCATENEC,Gamma carotene bcyclase,subsystem,unannotated,unannotated,unannotated,c,False,M_gcarote_c,M_caro_c
+R_HEMEAS,HEMEAS,Heme A synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_hemeO_c,M_h_c;M_hemeA_c
+R_DRBK,DRBK,Deoxyribokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_drib_c,M_2dr5p_c;M_adp_c;M_h_c
+R_CYSTA,CYSTA,Cysteine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_cys__L_c,M_glu__L_c;M_mercppyr_c
+R_CYRDAAT,CYRDAAT,"Cob(I)yrinic acid a,c-diamide adenosyltransferase",subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_co1dam_c;M_h_c,M_adcobdam_c;M_pppi_c
+R_HGPHT,HGPHT,Homogenitisate phytyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_hgentis_c;M_phdp_c,M_2m6phol_c;M_co2_c;M_ppi_c
+R_GFUCS,GFUCS,GDP-L-fucose synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_gdpddman_c;M_h_c;M_nadph_c,M_gdpfuc_c;M_nadp_c
+R_CYTK1,CYTK1,Cytidylate kinase (CMP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cmp_c,M_adp_c;M_cdp_c
+R_ENO,ENO,Enolase,subsystem,unannotated,unannotated,unannotated,c,False,M_2pg_c,M_h2o_c;M_pep_c
+R_HISTP,HISTP,Histidinol-phosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_hisp_c,M_histd_c;M_pi_c
+R_CYSS,CYSS,Cysteine synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_acser_c;M_h2s_c,M_ac_c;M_cys__L_c;M_h_c
+R_CYSTRS,CYSTRS,Cysteinyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cys__L_c;M_trnacys_c,M_amp_c;M_cystrna_c;M_ppi_c
+R_EHGLAT,EHGLAT,L erythro 4 Hydroxyglutamate2 oxoglutarate aminotransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_e4hglu_c,M_4h2oglt_c;M_glu__L_c
+R_EAR100y,EAR100y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C10:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_tdec2eACP_c,M_dcaACP_c;M_nadp_c
+R_IMACTD,IMACTD,Imidazole acetaldeyde dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_im4act_c;M_nad_c,M_h_c;M_im4ac_c;M_nadh_c
+R_DAPDC,DAPDC,Diaminopimelate decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_26dap__M_c;M_h_c,M_co2_c;M_lys__L_c
+R_IPDDI,IPDDI,Isopentenyl-diphosphate D-isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_ipdp_c,M_dmpp_c
+R_FCLT,FCLT,Ferrochelatase,subsystem,unannotated,unannotated,unannotated,c,False,M_fe2_c;M_ppp9_c,M_h_c;M_pheme_c
+R_FBA2,FBA2,D Fructose 1 phosphate D glyceraldehyde 3 phosphate lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_f1p_c,M_dhap_c;M_glyald_c
+R_FMETTRS,FMETTRS,Methionyl-tRNA formyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_10fthf_c;M_mettrna_c,M_fmettrna_c;M_h_c;M_thf_c
+R_IPDPS_syn,IPDPS_syn,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp),subsystem,unannotated,unannotated,unannotated,c,False,M_h2mb4p_c;M_h_c;M_nadph_c,M_h2o_c;M_ipdp_c;M_nadp_c
+R_IMPC,IMPC,IMP cyclohydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_imp_c,M_fprica_c
+R_CYTBDpp_1,CYTBDpp_1,Cytochrome oxidase bd (plastocianine-8  2 protons) (periplasm),subsystem,unannotated,unannotated,unannotated,p,False,M_o2_p;M_pqh2_p,M_h2o_p;M_pq_p
+R_GTPCII,GTPCII,GTP cyclohydrolase II,subsystem,unannotated,unannotated,unannotated,c,False,M_gtp_c;M_h2o_c,M_25dhpp_c;M_for_c;M_h_c;M_ppi_c
+R_CYTBDu,CYTBDu,Cytochrome oxidase bd (plastocianine-8  2 protons) (lumen),subsystem,unannotated,unannotated,unannotated,u,False,M_o2_u;M_pqh2_u,M_h2o_u;M_pq_u
+R_HPPK,HPPK,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_2ahhmp_c;M_atp_c,M_2ahhmd_c;M_amp_c;M_h_c
+R_GLYCL_2,GLYCL_2,"Glycine cleavage system, cytosol",subsystem,unannotated,unannotated,unannotated,c,False,M_co2_c;M_mlthf_c;M_nadh_c;M_nh4_c,M_gly_c;M_nad_c;M_thf_c
+R_DAPE,DAPE,Diaminopimelate epimerase,subsystem,unannotated,unannotated,unannotated,c,False,M_26dap_LL_c,M_26dap__M_c
+R_GLU5K,GLU5K,Glutamate 5-kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glu__L_c,M_adp_c;M_glu5p_c
+R_GTHRDH_syn,GTHRDH_syn,Glutathione hydralase (periplasmic),subsystem,unannotated,unannotated,unannotated,c,False,M_gthrd_c;M_h2o_c,M_cgly_c;M_glu__L_c
+R_FBA,FBA,Fructose-bisphosphate aldolase,subsystem,unannotated,unannotated,unannotated,c,False,M_fdp_c,M_dhap_c;M_g3p_c
+R_FBA3,FBA3,"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",subsystem,unannotated,unannotated,unannotated,c,False,M_s17bp_c,M_dhap_c;M_e4p_c
+R_GLUCYS,GLUCYS,Gamma-glutamylcysteine synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cys__L_c;M_glu__L_c,M_adp_c;M_glucys_c;M_h_c;M_pi_c
+R_GLUDC,GLUDC,Glutamate Decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_glu__L_c;M_h_c,M_4abut_c;M_co2_c
+R_DASYN160,DASYN160,CDP-diacylglycerol synthetase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa160_c,M_cdpdhdecg_c;M_ppi_c
+R_GLUDy,GLUDy,Glutamate dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,False,M_glu__L_c;M_h2o_c;M_nadp_c,M_akg_c;M_h_c;M_nadph_c;M_nh4_c
+R_FNOR,FNOR,Ferredoxin---NADP+ reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_nadp_c,M_fdxo_2_2_c;M_nadph_c
+R_FBP,FBP,Fructose-bisphosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_fdp_c;M_h2o_c,M_f6p_c;M_pi_c
+R_GLUPRT,GLUPRT,Glutamine phosphoribosyldiphosphate amidotransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_gln__L_c;M_h2o_c;M_prpp_c,M_glu__L_c;M_ppi_c;M_pram_c
+R_DASYN161,DASYN161,CDP-diacylglycerol synthetase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa161_c,M_cdpdhdec9eg_c;M_ppi_c
+R_GLUR,GLUR,Glutamate racemase,subsystem,unannotated,unannotated,unannotated,c,False,M_glu__D_c,M_glu__L_c
+R_GLUTRR,GLUTRR,Glutamyl-tRNA reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_glutrna_c;M_h_c;M_nadph_c,M_glu1sa_c;M_nadp_c;M_trnaglu_c
+R_DASYN180,DASYN180,CDP-diacylglycerol synthetase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa180_c,M_cdpdodecg_c;M_ppi_c
+R_FOLD3,FOLD3,Dihydropteroate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_2ahhmd_c;M_4abz_c,M_dhpt_c;M_ppi_c
+R_GLUSx,GLUSx,Glutamate synthase  NADH2 ,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_gln__L_c;M_h_c;M_nadh_c,M_glu__L_c;M_nad_c
+R_DASYN181,DASYN181,CDP-diacylglycerol synthetase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa181_c,M_cdpdodec11eg_c;M_ppi_c
+R_GLUTRS,GLUTRS,Glutamyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glu__L_c;M_trnaglu_c,M_amp_c;M_glutrna_c;M_ppi_c
+R_DASYN181_9,DASYN181_9,CDP-diacylglycerol synthetase (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa181_9_c,M_cdpdodec9eg_c;M_ppi_c
+R_GLYCDx,GLYCDx,Glycerol dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_glyc_c;M_nad_c,M_dha_c;M_h_c;M_nadh_c
+R_DASYN182_9_12,DASYN182_9_12,CDP-diacylglycerol synthetase (n-C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa182_9_12_c,M_cdpdodec912eg_c;M_ppi_c
+R_GLYK,GLYK,Glycerol kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glyc_c,M_adp_c;M_glyc3p_c;M_h_c
+R_DASYN183_6_9_12,DASYN183_6_9_12,CDP-diacylglycerol synthetase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa183_6_9_12_c,M_cdpdodec6912eg_c;M_ppi_c
+R_GLYCTO1,GLYCTO1,Glycolate oxidase,subsystem,unannotated,unannotated,unannotated,c,False,M_glyclt_c;M_o2_c,M_glx_c;M_h2o2_c
+R_GLYOX,GLYOX,Hydroxyacylglutathione hydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_lgt__S_c,M_gthrd_c;M_h_c;M_lac__D_c
+R_GMPS,GMPS,GMP synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_nh4_c;M_xmp_c,M_amp_c;M_gmp_c;M_h_c;M_ppi_c
+R_GLYTRS,GLYTRS,Glycyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gly_c;M_trnagly_c,M_amp_c;M_glytrna_c;M_ppi_c
+R_DASYN183_9_12_15,DASYN183_9_12_15,CDP-diacylglycerol synthetase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa183_9_12_15_c,M_cdpdodec91215eg_c;M_ppi_c
+R_GMAND,GMAND,GDP-D-mannose dehydratase,subsystem,unannotated,unannotated,unannotated,c,False,M_gdpmann_c,M_gdpddman_c;M_h2o_c
+R_GMPS2,GMPS2,GMP synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gln__L_c;M_h2o_c;M_xmp_c,M_amp_c;M_glu__L_c;M_gmp_c;M_h_c;M_ppi_c
+R_GND,GND,Phosphogluconate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_6pgc_c;M_nadp_c,M_co2_c;M_nadph_c;M_ru5p__D_c
+R_FOMETRi,FOMETRi,Aminomethyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_5fthf_c;M_h_c,M_h2o_c;M_methf_c
+R_FTHFD,FTHFD,Formyltetrahydrofolate deformylase,subsystem,unannotated,unannotated,unannotated,c,False,M_10fthf_c;M_h2o_c,M_for_c;M_h_c;M_thf_c
+R_FRTT,FRTT,Farnesyltranstransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_frdp_c;M_ipdp_c,M_ggdp_c;M_ppi_c
+R_GRTT,GRTT,Geranyltranstransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_grdp_c;M_ipdp_c,M_frdp_c;M_ppi_c
+R_DASYN184_6_9_12_15,DASYN184_6_9_12_15,CDP-diacylglycerol synthetase (n-C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h_c;M_pa184_6_9_12_15_c,M_cdpdodec691215eg_c;M_ppi_c
+R_GTHS,GTHS,Glutathione synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glucys_c;M_gly_c,M_adp_c;M_gthrd_c;M_h_c;M_pi_c
+R_FUM,FUM,Fumarase,subsystem,unannotated,unannotated,unannotated,c,False,M_fum_c;M_h2o_c,M_mal__L_c
+R_G1PACT,G1PACT,Glucosamine-1-phosphate N-acetyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_gam1p_c,M_acgam1p_c;M_coa_c;M_h_c
+R_GTPCI,GTPCI,GTP cyclohydrolase I,subsystem,unannotated,unannotated,unannotated,c,False,M_gtp_c;M_h2o_c,M_ahdt_c;M_for_c;M_h_c
+R_DB4PS,DB4PS,"3,4-Dihydroxy-2-butanone-4-phosphate synthase",subsystem,unannotated,unannotated,unannotated,c,False,M_ru5p__D_c,M_db4p_c;M_for_c;M_h_c
+R_G1SAT,G1SAT,Glutamate-1-semialdehyde aminotransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_glu1sa_c,M_5aop_c
+R_G1PTT,G1PTT,Glucose-1-phosphate thymidylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_dttp_c;M_g1p_c;M_h_c,M_dtdpglu_c;M_ppi_c
+R_HEMEOS,HEMEOS,Heme O synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_frdp_c;M_h2o_c;M_pheme_c,M_hemeO_c;M_ppi_c
+R_DDPA,DDPA,3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_e4p_c;M_h2o_c;M_pep_c,M_2dda7p_c;M_pi_c
+R_GUACYC,GUACYC,Guanylate cyclase,subsystem,unannotated,unannotated,unannotated,c,False,M_gtp_c,M_35cgmp_c;M_ppi_c
+R_H2ASE_syn,H2ASE_syn,Bidirectional [NiFe] Hydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c,M_h2_c;M_nadp_c
+R_G3PD,G3PD,Glycerol-3-phosphate dehydrogenase (FAD),subsystem,unannotated,unannotated,unannotated,c,False,M_fad_c;M_glyc3p_c,M_dhap_c;M_fadh2_c
+R_G3PD1ir,G3PD1ir,Glycerol 3 phosphate dehydrogenase  NAD ,subsystem,unannotated,unannotated,unannotated,c,False,M_dhap_c;M_h_c;M_nadh_c,M_glyc3p_c;M_nad_c
+R_G6PBDH,G6PBDH,Beta-D-Glucose-6-phosphate NADP+ 1-oxoreductase,subsystem,unannotated,unannotated,unannotated,c,False,M_g6p_B_c;M_nadp_c,M_6pgl_c;M_h_c;M_nadph_c
+R_HCO3E,HCO3E,HCO3 equilibration reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_co2_c;M_h2o_c,M_h_c;M_hco3_c
+R_DDPGA,DDPGA,2-dehydro-3-deoxy-phosphogluconate aldolase,subsystem,unannotated,unannotated,unannotated,c,False,M_4h2oglt_c,M_glx_c;M_pyr_c
+R_HEX7,HEX7,Hexokinase (D-fructose:ATP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_fru_c,M_adp_c;M_f6p_c;M_h_c
+R_HIBDkt,HIBDkt,3-hydroxyisobutyrate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_3hmp_c;M_nad_c,M_h_c;M_mmtsa_c;M_nadh_c
+R_HISTRS,HISTRS,Histidyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_his__L_c;M_trnahis_c,M_amp_c;M_histrna_c;M_ppi_c
+R_G5SD,G5SD,Glutamate-5-semialdehyde dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_glu5p_c;M_h_c;M_nadph_c,M_glu5sa_c;M_nadp_c;M_pi_c
+R_G6PDH2r,G6PDH2r,Glucose 6-phosphate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_g6p_c;M_nadp_c,M_6pgl_c;M_h_c;M_nadph_c
+R_GAPD,GAPD,Glyceraldehyde-3-phosphate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_g3p_c;M_nad_c;M_pi_c,M_13dpg_c;M_h_c;M_nadh_c
+R_DES_12,DES_12,Stearoyl-CoA desaturase (delta-12 desaturase),subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_o2_c;M_octe_9_ACP_c,M_fdxo_2_2_c;M_h2o_c;M_octe_9_12_ACP_c
+R_GAPDi_nadp,GAPDi_nadp,Glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating),subsystem,unannotated,unannotated,unannotated,c,False,M_13dpg_c;M_h_c;M_nadph_c,M_g3p_c;M_nadp_c;M_pi_c
+R_GLCP2,GLCP2,Glycogen phosphorylase,subsystem,unannotated,unannotated,unannotated,c,False,M_bglycogen_c;M_pi_c,M_g1p_c
+R_GARFT,GARFT,Phosphoribosylglycinamide formyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_10fthf_c;M_gar_c,M_fgam_c;M_h_c;M_thf_c
+R_HISTD,HISTD,Histidinol dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_histd_c;M_nad_c,M_h_c;M_his__L_c;M_nadh_c
+R_HMBS,HMBS,Hydroxymethylbilane synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_ppbng_c,M_hmbil_c;M_nh4_c
+R_HPROa,HPROa,L hydroxyproline reductase  NAD ,subsystem,unannotated,unannotated,unannotated,c,False,M_1p3h5c_c;M_h_c;M_nadh_c,M_4hpro_LT_c;M_nad_c
+R_GF6PTA,GF6PTA,Glutamine-fructose-6-phosphate transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_f6p_c;M_gln__L_c,M_gam6p_c;M_glu__L_c
+R_HOXG,HOXG,Heme oxygenase 1,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_o2_c;M_pheme_c,M_biliverd_c;M_co_c;M_fe2_c;M_h2o_c;M_nadp_c
+R_DES_15,DES_15,Stearoyl-CoA desaturase (delta-15 desaturase),subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_o2_c;M_octe_9_12_ACP_c,M_fdxo_2_2_c;M_h2o_c;M_octe_9_12_15_ACP_c
+R_HPROb,HPROb,L hydroxyproline reductase  NADP ,subsystem,unannotated,unannotated,unannotated,c,False,M_1p3h5c_c;M_h_c;M_nadph_c,M_4hpro_LT_c;M_nadp_c
+R_GHMT2r,GHMT2r,"Glycine hydroxymethyltransferase, reversible",subsystem,unannotated,unannotated,unannotated,c,False,M_ser__L_c;M_thf_c,M_gly_c;M_h2o_c;M_mlthf_c
+R_GK1,GK1,Guanylate kinase (GMP:ATP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gmp_c,M_adp_c;M_gdp_c
+R_HSDxi,HSDxi,Homoserine dehydrogenase  NADH   irreversible,subsystem,unannotated,unannotated,unannotated,c,False,M_aspsa_c;M_h_c;M_nadh_c,M_hom__L_c;M_nad_c
+R_GLBRAN2,GLBRAN2,"1,4-alpha-glucan branching enzyme (glycogen -> bglycogen)",subsystem,unannotated,unannotated,unannotated,c,False,M_glycogen_c,M_bglycogen_c
+R_DES_6,DES_6,Stearoyl-CoA desaturase (delta-6 desaturase),subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_o2_c;M_octe_9_12_15_ACP_c,M_fdxo_2_2_c;M_h2o_c;M_octe_6_9_12_15_ACP_c
+R_GLGC,GLGC,Glucose-1-phosphate adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_g1p_c;M_h_c,M_adpglc_c;M_ppi_c
+R_HPYRRx,HPYRRx,Hydroxypyruvate reductase (NADH),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_hpyr_c;M_nadh_c,M_glyc__R_c;M_nad_c
+R_HSK,HSK,Homoserine kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_hom__L_c,M_adp_c;M_h_c;M_phom_c
+R_ICDHyr,ICDHyr,Isocitrate dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,False,M_icit_c;M_nadp_c,M_akg_c;M_co2_c;M_nadph_c
+R_GLMS_syn,GLMS_syn,L-glutamate ferredoxin oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_fdxrd_c;M_gln__L_c;M_h_c,M_fdxo_2_2_c;M_glu__L_c
+R_GLCP,GLCP,Glycogen phosphorylase,subsystem,unannotated,unannotated,unannotated,c,False,M_glycogen_c;M_pi_c,M_g1p_c
+R_DES_6B,DES_6B,Stearoyl-CoA desaturase (delta-6 desaturase),subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_o2_c;M_octe_9_12_ACP_c,M_fdxo_2_2_c;M_h2o_c;M_octe_6_9_12_ACP_c
+R_GLCS1,GLCS1,Glycogen synthase (ADPGlc),subsystem,unannotated,unannotated,unannotated,c,False,M_adpglc_c,M_adp_c;M_glycogen_c;M_h_c
+R_GLNS,GLNS,Glutamine synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glu__L_c;M_nh4_c,M_adp_c;M_gln__L_c;M_h_c;M_pi_c
+R_HSTPT,HSTPT,Histidinol-phosphate transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_glu__L_c;M_imacp_c,M_akg_c;M_hisp_c
+R_ICHORS,ICHORS,Isochorismate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_chor_c,M_ichor_c
+R_IGPDH,IGPDH,Imidazoleglycerol-phosphate dehydratase,subsystem,unannotated,unannotated,unannotated,c,False,M_eig3p_c,M_h2o_c;M_imacp_c
+R_DES_9,DES_9,Stearoyl-CoA desaturase (delta-9 desaturase),subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_o2_c;M_ocdcaACP_c,M_fdxo_2_2_c;M_h2o_c;M_octe_9_ACP_c
+R_IG3PS,IG3PS,Imidazole-glycerol-3-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_gln__L_c;M_prlp_c,M_aicar_c;M_eig3p_c;M_glu__L_c;M_h_c
+R_IGPS,IGPS,Indole-3-glycerol-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_2cpr5p_c;M_h_c,M_3ig3p_c;M_co2_c;M_h2o_c
+R_GLNTRAT,GLNTRAT,Glutamyl-tRNA(Gln) amidotransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gln__L_c;M_glutrna_gln_c;M_h2o_c,M_adp_c;M_glntrna_c;M_glu__L_c;M_h_c;M_pi_c
+R_ILETA,ILETA,Isoleucine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_ile__L_c,M_3mop_c;M_glu__L_c
+R_DHAD1,DHAD1,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)",subsystem,unannotated,unannotated,unannotated,c,False,M_23dhmb_c,M_3mob_c;M_h2o_c
+R_ILETRS,ILETRS,Isoleucyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_ile__L_c;M_trnaile_c,M_amp_c;M_iletrna_c;M_ppi_c
+R_IMPD,IMPD,IMP dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_imp_c;M_nad_c,M_h_c;M_nadh_c;M_xmp_c
+R_LALDO,LALDO,D-Lactaldehyde NAD+ oxidoreductase (glutathione-formylating),subsystem,unannotated,unannotated,unannotated,c,False,M_gthrd_c;M_lald__D_c;M_nad_c,M_h_c;M_lgt__S_c;M_nadh_c
+R_DHAD2,DHAD2,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)",subsystem,unannotated,unannotated,unannotated,c,False,M_23dhmp_c,M_3mop_c;M_h2o_c
+R_LCARS,LCARS,"Lacaldehyde reductase (S-propane-1,2-diol forming)",subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_lald__L_c;M_nadh_c,M_12ppd__S_c;M_nad_c
+R_LYCOPC,LYCOPC,Lycopene cyclase,subsystem,unannotated,unannotated,unannotated,c,False,M_lycop_c,M_gcarote_c
+R_IPMD,IPMD,3-isopropylmalate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_3c2hmp_c;M_nad_c,M_3c4mop_c;M_h_c;M_nadh_c
+R_IPPMIa,IPPMIa,3-isopropylmalate dehydratase,subsystem,unannotated,unannotated,unannotated,c,False,M_3c2hmp_c,M_2ippm_c;M_h2o_c
+R_MAN1PT,MAN1PT,Mannose 1 phosphate guanylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_gtp_c;M_h_c;M_man1p_c,M_gdpmann_c;M_ppi_c
+R_NADK,NADK,NAD kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_nad_c,M_adp_c;M_h_c;M_nadp_c
+R_DHDPRy,DHDPRy,Dihydrodipicolinate reductase (NADPH),subsystem,unannotated,unannotated,unannotated,c,False,M_23dhdp_c;M_h_c;M_nadph_c,M_nadp_c;M_thdp_c
+R_MECDPS,MECDPS,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",subsystem,unannotated,unannotated,unannotated,c,False,M_2p4c2me_c,M_2mecdp_c;M_cmp_c
+R_DHDPS,DHDPS,Dihydrodipicolinate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_aspsa_c;M_pyr_c,M_23dhdp_c;M_h2o_c;M_h_c
+R_MEPCT,MEPCT,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_2me4p_c;M_ctp_c;M_h_c,M_4c2me_c;M_ppi_c
+R_MGDG160,MGDG160,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C16 0)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr160_c;M_udpgal_c,M_h_c;M_mgdg160_c;M_udp_c
+R_NNATr,NNATr,Nicotinate-nucleotide adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h_c;M_nicrnt_c,M_dnad_c;M_ppi_c
+R_NMNAT,NMNAT,Nicotinamide-nucleotide adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h_c;M_nmn_c,M_nad_c;M_ppi_c
+R_NMNS,NMNS,NMN synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_ncam_c;M_prpp_c,M_nmn_c;M_ppi_c
+R_MGDG161,MGDG161,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C16 1)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr161_c;M_udpgal_c,M_h_c;M_mgdg161_c;M_udp_c
+R_MGDG180,MGDG180,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 0)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr180_c;M_udpgal_c,M_h_c;M_mgdg180_c;M_udp_c
+R_DHFS,DHFS,Dihydrofolate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dhpt_c;M_glu__L_c,M_adp_c;M_dhf_c;M_h_c;M_pi_c
+R_MGDG181,MGDG181,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 1)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr181_c;M_udpgal_c,M_h_c;M_mgdg181_c;M_udp_c
+R_MGDG181_9,MGDG181_9,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 1)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr181_9_c;M_udpgal_c,M_h_c;M_mgdg181_9_c;M_udp_c
+R_NADN,NADN,NAD nucleosidase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_nad_c,M_adprib_c;M_h_c;M_ncam_c
+R_MGDG182_9_12,MGDG182_9_12,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 2)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr182_9_12_c;M_udpgal_c,M_h_c;M_mgdg182_9_12_c;M_udp_c
+R_DHORDi,DHORDi,Dihydoorotic acid dehydrogenase  irreversible ,subsystem,unannotated,unannotated,unannotated,c,False,M_dhor__S_c;M_o2_c,M_h2o2_c;M_orot_c
+R_MGDG183_6_9_12,MGDG183_6_9_12,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 3)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr183_6_9_12_c;M_udpgal_c,M_h_c;M_mgdg183_6_9_12_c;M_udp_c
+R_MGDG183_9_12_15,MGDG183_9_12_15,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 3)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr183_9_12_15_c;M_udpgal_c,M_h_c;M_mgdg183_9_12_15_c;M_udp_c
+R_MGDG184_6_9_12_15,MGDG184_6_9_12_15,"UDPgalactose 1,2-diacylglycerol 3-beta-D-galactosyltransferase (n-C18 4)",subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr184_6_9_12_15_c;M_udpgal_c,M_h_c;M_mgdg184_6_9_12_15_c;M_udp_c
+R_ORNTA,ORNTA,Ornithine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_orn_c,M_glu5sa_c;M_glu__L_c
+R_DPGM,DPGM,Diphosphoglyceromutase,subsystem,unannotated,unannotated,unannotated,c,False,M_13dpg_c,M_23dpg_c;M_h_c
+R_MGSA,MGSA,Methylglyoxal synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_dhap_c,M_mthgxl_c;M_pi_c
+R_DHORTS,DHORTS,Dihydroorotase,subsystem,unannotated,unannotated,unannotated,c,False,M_dhor__S_c;M_h2o_c,M_cbasp_c;M_h_c
+R_LGTHL,LGTHL,Lactoylglutathione lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_gthrd_c;M_mthgxl_c,M_lgt__S_c
+R_PAPA160,PAPA160,Phosphatidate phosphatase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa160_c,M_12dgr160_c;M_pi_c
+R_DHQS,DHQS,3-dehydroquinate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_2dda7p_c,M_3dhq_c;M_pi_c
+R_PAPA161,PAPA161,Phosphatidate phosphatase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa161_c,M_12dgr161_c;M_pi_c
+R_PAPA180,PAPA180,Phosphatidate phosphatase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa180_c,M_12dgr180_c;M_pi_c
+R_PAPA181,PAPA181,Phosphatidate phosphatase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa181_c,M_12dgr181_c;M_pi_c
+R_PAPA181_9,PAPA181_9,Phosphatidate phosphatase (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa181_9_c,M_12dgr181_9_c;M_pi_c
+R_PAPA182_9_12,PAPA182_9_12,Phosphatidate phosphatase (n-C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa182_9_12_c,M_12dgr182_9_12_c;M_pi_c
+R_MTHFR2,MTHFR2,"5,10-methylenetetrahydrofolate reductase (NADH)",subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_mlthf_c;M_nadh_c,M_5mthf_c;M_nad_c
+R_NABTNO,NABTNO,N4 AcetylaminobutanalNAD oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_n4abutn_c;M_nad_c,M_4aabutn_c;M_h_c;M_nadh_c
+R_G5SADs,G5SADs,L-glutamate 5-semialdehyde dehydratase (spontaneous),subsystem,unannotated,unannotated,unannotated,c,False,M_glu5sa_c,M_1pyr5c_c;M_h2o_c;M_h_c
+R_MI1PS,MI1PS,Myo Inositol 1 phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_g6p_c,M_mi1p__D_c
+R_LDH_D,LDH_D,D-lactate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_lac__D_c;M_nad_c,M_h_c;M_nadh_c;M_pyr_c
+R_PAPA183_6_9_12,PAPA183_6_9_12,Phosphatidate phosphatase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa183_6_9_12_c,M_12dgr183_6_9_12_c;M_pi_c
+R_PAPA183_9_12_15,PAPA183_9_12_15,Phosphatidate phosphatase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa183_9_12_15_c,M_12dgr183_9_12_15_c;M_pi_c
+R_LEUTAi,LEUTAi,Leucine transaminase (irreversible),subsystem,unannotated,unannotated,unannotated,c,False,M_4mop_c;M_glu__L_c,M_akg_c;M_leu__L_c
+R_DHQTi,DHQTi,"3-dehydroquinate dehydratase, irreversible",subsystem,unannotated,unannotated,unannotated,c,False,M_3dhq_c,M_3dhsk_c;M_h2o_c
+R_LEUTA,LEUTA,Leucine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_leu__L_c,M_4mop_c;M_glu__L_c
+R_LEUTRS,LEUTRS,Leucyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_leu__L_c;M_trnaleu_c,M_amp_c;M_leutrna_c;M_ppi_c
+R_PAPA184_6_9_12_15,PAPA184_6_9_12_15,Phosphatidate phosphatase (n-C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pa184_6_9_12_15_c,M_12dgr184_6_9_12_15_c;M_pi_c
+R_IPPS,IPPS,2-isopropylmalate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_3mob_c;M_accoa_c;M_h2o_c,M_3c3hmp_c;M_coa_c;M_h_c
+R_DRPA,DRPA,Deoxyribose-phosphate aldolase,subsystem,unannotated,unannotated,unannotated,c,False,M_2dr5p_c,M_acald_c;M_g3p_c
+R_KARA1,KARA1,"Ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)",subsystem,unannotated,unannotated,unannotated,c,False,M_23dhmb_c;M_nadp_c,M_alac__S_c;M_h_c;M_nadph_c
+R_POR_1,POR_1,Protochlorophyllide oxidoreductase ,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_pchlld_c,M_chlld_c;M_nadp_c
+R_KARA2,KARA2,Ketol-acid reductoisomerase (2-Acetolactate),subsystem,unannotated,unannotated,unannotated,c,False,M_2ahbut_c;M_h_c;M_nadph_c,M_23dhmp_c;M_nadp_c
+R_KAS14,KAS14,Beta-ketoacyl-ACP synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_acACP_c;M_h_c;M_malACP_c,M_ACP_c;M_actACP_c;M_co2_c
+R_PGPP160,PGPP160,Phosphatidylglycerol phosphate phosphatase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp160_c,M_pg160_c;M_pi_c
+R_LPADSS,LPADSS,Lipid A disaccaride synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_lipidX_c;M_u23ga_c,M_h_c;M_lipidAds_c;M_udp_c
+R_PC6AR,PC6AR,Precorrin-6A reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_pre6a_c,M_nadp_c;M_pre6b_c
+R_PANTS,PANTS,Pantothenate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_ala_B_c;M_atp_c;M_pant__R_c,M_amp_c;M_h_c;M_pnto__R_c;M_ppi_c
+R_PDHcr,PDHcr,Pyruvate dehydrogenase (dihydrolipoamide dehydrogenase) reversible,subsystem,unannotated,unannotated,unannotated,c,False,M_dhlam_c;M_nad_c,M_h_c;M_lpam_c;M_nadh_c
+R_LYSDC,LYSDC,Lysine decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_lys__L_c,M_15dap_c;M_co2_c
+R_LYSTRS,LYSTRS,Lysyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_lys__L_c;M_trnalys_c,M_amp_c;M_lystrna_c;M_ppi_c
+R_P5CR,P5CR,Pyrroline-5-carboxylate reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_1pyr5c_c;M_h_c;M_nadph_c,M_nadp_c;M_pro__L_c
+R_MALT,MALT,Alpha glucosidase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_malt_c,M_glc__D_c
+R_PGPP161,PGPP161,Phosphatidylglycerol phosphate phosphatase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp161_c,M_pg161_c;M_pi_c
+R_MAN1PT2,MAN1PT2,Mannose-1-phosphate guanylyltransferase (GDP),subsystem,unannotated,unannotated,unannotated,c,False,M_gdp_c;M_h_c;M_man1p_c,M_gdpmann_c;M_pi_c
+R_PGPP180,PGPP180,Phosphatidylglycerol phosphate phosphatase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp180_c,M_pg180_c;M_pi_c
+R_ME2,ME2,Malic enzyme (NADP),subsystem,unannotated,unannotated,unannotated,c,False,M_mal__L_c;M_nadp_c,M_co2_c;M_nadph_c;M_pyr_c
+R_MAN6PI,MAN6PI,Mannose-6-phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_man6p_c,M_f6p_c
+R_P5CRx,P5CRx,Pyrroline-5-carboxylate reductase(nadh),subsystem,unannotated,unannotated,unannotated,c,False,M_1pyr5c_c;M_h_c;M_nadh_c,M_nad_c;M_pro__L_c
+R_NADTRHD,NADTRHD,NAD transhydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_nad_c;M_nadph_c,M_nadh_c;M_nadp_c
+R_NAR_syn,NAR_syn,Ferredoxin-nitrate reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_no3_c,M_fdxo_2_2_c;M_h2o_c;M_no2_c
+R_NADH5,NADH5,NADH dehydrogenase (ubiquinone-8 ),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadh_c;M_q8_c,M_nad_c;M_q8h2_c
+R_MCOATA,MCOATA,Malonyl-CoA-ACP transacylase,subsystem,unannotated,unannotated,unannotated,c,False,M_ACP_c;M_malcoa_c,M_coa_c;M_malACP_c
+R_MDH,MDH,Malate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_mal__L_c;M_nad_c,M_h_c;M_nadh_c;M_oaa_c
+R_MECDPDH_syn,MECDPDH_syn,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase",subsystem,unannotated,unannotated,unannotated,c,False,M_2mecdp_c;M_nadph_c,M_h2mb4p_c;M_h2o_c;M_nadp_c
+R_METAT,METAT,Methionine adenosyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_met__L_c,M_amet_c;M_pi_c;M_ppi_c
+R_PGPP181,PGPP181,Phosphatidylglycerol phosphate phosphatase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp181_c,M_pg181_c;M_pi_c
+R_METS,METS,Methionine synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_5mthf_c;M_hcys__L_c,M_h_c;M_met__L_c;M_thf_c
+R_METTRS,METTRS,Methionyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_met__L_c;M_trnamet_c,M_amp_c;M_mettrna_c;M_ppi_c
+R_MI1PP,MI1PP,Myo-inositol 1-phosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_mi1p__D_c,M_inost_c;M_pi_c
+R_NADS2,NADS2,Nicotinate-mononucleotide adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dnad_c;M_gln__L_c;M_h2o_c,M_amp_c;M_glu__L_c;M_h_c;M_nad_c;M_ppi_c
+R_NDPK3,NDPK3,Nucleoside-diphosphate kinase (ATP:CDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cdp_c,M_adp_c;M_ctp_c
+R_NDPK1,NDPK1,Nucleoside-diphosphate kinase (ATP:GDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gdp_c,M_adp_c;M_gtp_c
+R_MOHMT,MOHMT,3-methyl-2-oxobutanoate hydroxymethyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_3mob_c;M_h2o_c;M_mlthf_c,M_2dhp_c;M_thf_c
+R_MPBQ,MPBQ,2-methyl-6-phytylbenzoquinone methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_2m6phol_c;M_amet_c,M_23dmphol_c;M_ahcys_c;M_h_c
+R_NDPK10,NDPK10,Nucleoside-diphosphate kinase (ATP dIDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_didp_c,M_adp_c;M_ditp_c
+R_NDPK2,NDPK2,Nucleoside-diphosphate kinase (ATP:UDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_udp_c,M_adp_c;M_utp_c
+R_MPOMC1,MPOMC1," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_mppp9om_c;M_nadph_c;M_o2_c,M_h2o_c;M_hmppp9_c;M_nadp_c
+R_NDPK4,NDPK4,Nucleoside-diphosphate kinase (ATP:dTDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dtdp_c,M_adp_c;M_dttp_c
+R_NDPK5,NDPK5,Nucleoside-diphosphate kinase (ATP:dGDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dgdp_c,M_adp_c;M_dgtp_c
+R_MPOMMM,MPOMMM,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH oxygen oxidoreductase (hydroxylating)",subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_hmppp9_c;M_nadph_c;M_o2_c,M_h2o_c;M_nadp_c;M_omppp9_c
+R_PGPP181_9,PGPP181_9,Phosphatidylglycerol phosphate phosphatase (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp181_9_c,M_pg181_9_c;M_pi_c
+R_NDPK6,NDPK6,Nucleoside-diphosphate kinase (ATP:dUDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dudp_c,M_adp_c;M_dutp_c
+R_NDPK7,NDPK7,Nucleoside-diphosphate kinase (ATP:dCDP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dcdp_c,M_adp_c;M_dctp_c
+R_NDPK8,NDPK8,Nucleoside-diphosphate kinase (ATP:dADP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dadp_c,M_adp_c;M_datp_c
+R_PGPP182_9_12,PGPP182_9_12,Phosphatidylglycerol phosphate phosphatase (n-C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp182_9_12_c,M_pg182_9_12_c;M_pi_c
+R_NDPK9,NDPK9,Nucleoside diphosphate kinase  ATPIDP ,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_idp_c,M_adp_c;M_itp_c
+R_MPML,MPML,Mg-protoporphyrin IX magnesium-lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_mg2_c;M_ppp9_c,M_adp_c;M_h_c;M_mppp9_c;M_pi_c
+R_MPOMOR,MPOMOR,Magnesium-protoporphyrin-IX 13-monomethyl ester NADPH oxygen oxidoreductase (hydroxylating),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_o2_c;M_omppp9_c,M_dvpchlld_c;M_h2o_c;M_nadp_c
+R_NNDPR,NNDPR,Nicotinate-nucleotide diphosphorylase (carboxylating),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_prpp_c;M_quln_c,M_co2_c;M_nicrnt_c;M_ppi_c
+R_MPOMOR2,MPOMOR2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH",subsystem,unannotated,unannotated,unannotated,c,False,M_nadp_c;M_omppp9_c,M_dvpchlld_c;M_h_c;M_nadph_c
+R_PGPP183_6_9_12,PGPP183_6_9_12,Phosphatidylglycerol phosphate phosphatase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp183_6_9_12_c,M_pg183_6_9_12_c;M_pi_c
+R_MPOMC2,MPOMC2," magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH h2o oxidoreductase (hydroxylating)",subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_mppp9om_c;M_nadp_c,M_h_c;M_hmppp9_c;M_nadph_c
+R_MPOMMM2,MPOMMM2,"Magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH ",subsystem,unannotated,unannotated,unannotated,c,False,M_hmppp9_c;M_nadp_c,M_h_c;M_nadph_c;M_omppp9_c
+R_MPOMT,MPOMT,S-adenosyl-L-methionine magnesium-protoporphyrin-IX O-methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_mppp9_c,M_ahcys_c;M_mppp9om_c
+R_MTHFC,MTHFC,Methenyltetrahydrofolate cyclohydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_methf_c,M_10fthf_c;M_h_c
+R_MTHFD,MTHFD,Methylenetetrahydrofolate dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,False,M_mlthf_c;M_nadp_c,M_methf_c;M_nadph_c
+R_NOR_syn,NOR_syn,Ferredoxin-Nitrite Reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_no2_c,M_fdxo_2_2_c;M_h2o_c;M_nh4_c
+R_NPHS,NPHS,Naphthoate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_sbzcoa_c,M_coa_c;M_dhna_c
+R_MTHFD2i,MTHFD2i,Methylenetetrahydrofolate dehydrogenase  NAD ,subsystem,unannotated,unannotated,unannotated,c,False,M_mlthf_c;M_nad_c,M_methf_c;M_nadh_c
+R_PGPP183_9_12_15,PGPP183_9_12_15,Phosphatidylglycerol phosphate phosphatase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp183_9_12_15_c,M_pg183_9_12_15_c;M_pi_c
+R_NDH2_syn,NDH2_syn,NADH dehydrogenase 2 (plastoquinone-8) (tilacoide),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadh_c;M_pq_u,M_nad_c;M_pqh2_u
+R_NTPTP1,NTPTP1,Nucleoside triphosphate tripolyhydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_dgtp_c;M_h2o_c,M_dgsn_c;M_pppi_c
+R_OCBT,OCBT,Ornithine carbamoyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_cbp_c;M_orn_c,M_citr__L_c;M_h_c;M_pi_c
+R_PGPP184_6_9_12_15,PGPP184_6_9_12_15,Phosphatidylglycerol phosphate phosphatase (n-C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pgp184_6_9_12_15_c,M_pg184_6_9_12_15_c;M_pi_c
+R_OMPDC,OMPDC,Orotidine-5'-phosphate decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_orot5p_c,M_co2_c;M_ump_c
+R_OPHBDC,OPHBDC,Octaprenyl-hydroxybenzoate decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_3ophb_c;M_h_c,M_2oph_c;M_co2_c
+R_PMANM,PMANM,Phosphomannomutase,subsystem,unannotated,unannotated,unannotated,c,False,M_man1p_c,M_man6p_c
+R_ORPT,ORPT,Orotate phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_orot5p_c;M_ppi_c,M_orot_c;M_prpp_c
+R_PUNP1,PUNP1,Purine-nucleoside phosphorylase (Adenosine),subsystem,unannotated,unannotated,unannotated,c,False,M_adn_c;M_pi_c,M_ade_c;M_r1p_c
+R_OXGDC2,OXGDC2,2-oxoglutarate decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_h_c;M_thmpp_c,M_co2_c;M_ssaltpp_c
+R_PMDPHT,PMDPHT,Pyrimidine phosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_5aprbu_c;M_h2o_c,M_4r5au_c;M_pi_c
+R_P5CD,P5CD,1-pyrroline-5-carboxylate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_1pyr5c_c;M_h2o_c;M_nad_c,M_glu__L_c;M_h_c;M_nadh_c
+R_PNTK,PNTK,Pantothenate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_pnto__R_c,M_4ppan_c;M_adp_c;M_h_c
+R_PAPPT3,PAPPT3,"Phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)",subsystem,unannotated,unannotated,unannotated,c,False,M_udcpp_c;M_ugmda_c,M_uagmda_c;M_ump_c
+R_PAPSR,PAPSR,Phosphoadenylyl-sulfate reductase (thioredoxin),subsystem,unannotated,unannotated,unannotated,c,False,M_paps_c;M_trdrd_c,M_h_c;M_pap_c;M_so3_c;M_trdox_c
+R_PC11M,PC11M,Precorrin-4 C11-methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_pre4_c,M_ahcys_c;M_h_c;M_pre5_c
+R_R05217,R05217,Precorrin 3A + Oxygen <=> Precorrin 3B,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_o2_c;M_pre3a_c,M_pre3b_c
+R_R05219,R05219,Precorrin 5 <=> Precorrin 6X,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_h2o_c;M_pre5_c,M_ac_c;M_ahcys_c;M_h_c;M_pre6a_c
+R_PC17M,PC17M,Precorrin-3B C17-methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_pre3b_c,M_ahcys_c;M_h_c;M_pre4_c
+R_PPM,PPM,Phosphopentomutase,subsystem,unannotated,unannotated,unannotated,c,False,M_r1p_c,M_r5p_c
+R_PC20M,PC20M,Precorrin-2 C20-methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_dscl_c,M_ahcys_c;M_h_c;M_pre3a_c
+R_PC6YM,PC6YM,"Precorrin-6Y C5,15-methyltransferase (decarboxylating)",subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_pre6b_c,M_ahcys_c;M_co2_c;M_h_c;M_pre8_c
+R_RBFK,RBFK,Riboflavin kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_ribflv_c,M_adp_c;M_fmn_c;M_h_c
+R_RBK,RBK,Ribokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_rib__D_c,M_adp_c;M_h_c;M_r5p_c
+R_PDHbr,PDHbr,Pyruvate dehydrogenase (dihydrolipoamide) reversible,subsystem,unannotated,unannotated,unannotated,c,False,M_adhlam_c;M_coa_c,M_accoa_c;M_dhlam_c
+R_PPPGO,PPPGO,Protoporphyrinogen oxidase (aerobic),subsystem,unannotated,unannotated,unannotated,c,False,M_o2_c;M_pppg9_c,M_h2o_c;M_ppp9_c
+R_PC8XM,PC8XM,Precorrin-8X methylmutase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_pre8_c,M_hgbyr_c
+R_PDHa,PDHa,Pyruvate dehydrogenase (lipoamide),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_lpam_c;M_pyr_c,M_adhlam_c;M_co2_c
+R_POR_syn,POR_syn,Pyruvate-ferredoxin oxidoreductase,subsystem,unannotated,unannotated,unannotated,c,False,M_coa_c;M_fdxo_2_2_c;M_pyr_c,M_accoa_c;M_co2_c;M_fdxrd_c;M_h_c
+R_PDX5POi,PDX5POi,Pyridoxine 5'-phosphate oxidase,subsystem,unannotated,unannotated,unannotated,c,False,M_o2_c;M_pdx5p_c,M_h2o2_c;M_pydx5p_c
+R_PDX5PS,PDX5PS,Pyridoxine 5'-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_dxyl5p_c;M_nad_c;M_phthr_c,M_co2_c;M_h2o_c;M_h_c;M_nadh_c;M_pdx5p_c;M_pi_c
+R_SDPDS,SDPDS,Succinyl-diaminopimelate desuccinylase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_sl26da_c,M_26dap_LL_c;M_succ_c
+R_ARGDr,ARGDr,Arginine deiminase,subsystem,unannotated,unannotated,unannotated,c,False,M_arg__L_c;M_h2o_c,M_citr__L_c;M_nh4_c
+R_PFK,PFK,Phosphofructokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_f6p_c,M_adp_c;M_fdp_c;M_h_c
+R_ADMDC,ADMDC,Adenosylmethionine decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_h_c,M_ametam_c;M_co2_c
+R_PPTGF_Syn,PPTGF_Syn,Flypase,subsystem,unannotated,unannotated,unannotated,c,False,M_peptido_syn_c,M_peptido_syn_p
+R_SPMS,SPMS,Spermidine synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_ametam_c;M_ptrc_c,M_5mta_c;M_h_c;M_spmd_c
+R_PFK_2,PFK_2,Phosphofructokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_tag6p__D_c,M_adp_c;M_h_c;M_tagdp__D_c
+R_DPPS,DPPS,Decaprenyl synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_frdp_c;M_ipdp_c,M_decdp_c;M_ppi_c
+R_SPT_syn,SPT_syn,Serine-glyoxilate aminotransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_glx_c;M_ser__L_c,M_gly_c;M_hpyr_c
+R_AGTi,AGTi,Alanine glyoxylate aminotransferase  irreversible ,subsystem,unannotated,unannotated,unannotated,c,False,M_ala__L_c;M_glx_c,M_gly_c;M_pyr_c
+R_UDPDPS,UDPDPS,Undecaprenyl-diphosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_decdp_c;M_ipdp_c,M_ppi_c;M_udcpdp_c
+R_SQD2_160,SQD2_160,Sulfoquinovosyltransferase  (n-C16 0),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr160_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg160_c;M_udp_c
+R_SQD2_161,SQD2_161,Sulfoquinovosyltransferase  (n-C16 1),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr161_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg161_c;M_udp_c
+R_SQD2_183_6_9_12,SQD2_183_6_9_12,Sulfoquinovosyltransferase  (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr183_6_9_12_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg183_6_9_12_c;M_udp_c
+R_T2DECAI,T2DECAI,Trans-2-decenoyl-ACP isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_tdec2eACP_c,M_cdec3eACP_c
+R_THDPS,THDPS,Tetrahydrodipicolinate succinylase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_succoa_c;M_thdp_c,M_coa_c;M_sl2a6o_c
+R_SQD2_180,SQD2_180,Sulfoquinovosyltransferase  (n-C18 0),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr180_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg180_c;M_udp_c
+R_PGM,PGM,Phosphoglycerate mutase,subsystem,unannotated,unannotated,unannotated,c,False,M_2pg_c,M_3pg_c
+R_SQD2_181,SQD2_181,Sulfoquinovosyltransferase  (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr181_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg181_c;M_udp_c
+R_SQD2_181_9,SQD2_181_9,Sulfoquinovosyltransferase  (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr181_9_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg181_9_c;M_udp_c
+R_LTHRK,LTHRK,L threonine kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_thr__L_c,M_adp_c;M_h_c;M_thrp_c
+R_PHYTES,PHYTES,Geranylgeranyl-diphosphate geranylgeranyl-diphosphate geranylgeranyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_ggdp_c,M_ppi_c;M_prephytedp_c
+R_TMDK1,TMDK1,Thymidine kinase (ATP:thymidine),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_thymd_c,M_adp_c;M_dtmp_c;M_h_c
+R_TMK,TMK,Thiamine kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_thm_c,M_adp_c;M_h_c;M_thmmp_c
+R_SQD2_182_9_12,SQD2_182_9_12,Sulfoquinovosyltransferase  (n-C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr182_9_12_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg182_9_12_c;M_udp_c
+R_SQD2_183_9_12_15,SQD2_183_9_12_15,Sulfoquinovosyltransferase  (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr183_9_12_15_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg183_9_12_15_c;M_udp_c
+R_SQD2_184_6_9_12_15,SQD2_184_6_9_12_15,Sulfoquinovosyltransferase  (n-C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_12dgr184_6_9_12_15_c;M_h2o_c;M_udpsq_c,M_h_c;M_sqdg184_6_9_12_15_c;M_udp_c
+R_PHYTES2,PHYTES2,Prephytoene diphosphate geranylgeranyl-diphosphategeranylgeranyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_prephytedp_c,M_phytoe_c;M_ppi_c
+R_SUCBZS,SUCBZS,O-succinylbenzoate-CoA synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_2shchc_c,M_h2o_c;M_sucbz_c
+R_TMPK,TMPK,Thiamine-phosphate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_thmmp_c,M_adp_c;M_thmpp_c
+R_PGCD,PGCD,Phosphoglycerate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_3pg_c;M_nad_c,M_3php_c;M_h_c;M_nadh_c
+R_TOCOPHS1,TOCOPHS1,Tocopherol cyclase (g),subsystem,unannotated,unannotated,unannotated,c,False,M_23dmphol_c,M_gtocophe_c
+R_TOCOPHS2,TOCOPHS2,Tocopherol cyclase (d),subsystem,unannotated,unannotated,unannotated,c,False,M_2m6phol_c,M_dtocophe_c
+R_TRDR,TRDR,Thioredoxin reductase (NADPH),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_trdox_c,M_nadp_c;M_trdrd_c
+R_UAG2EMA,UAG2EMA,UDP-N-acetyl-D-glucosamine 2-epimerase (Hydrolysis),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_uacgam_c,M_acmana_c;M_h_c;M_udp_c
+R_PUTA3,PUTA3,PUTA3,subsystem,unannotated,unannotated,unannotated,c,False,M_glu5sa_c;M_h2o_c;M_nad_c,M_glu__L_c;M_h_c;M_nadh_c
+R_PYAM5PO,PYAM5PO,Pyridoxamine 5'-phosphate oxidase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_o2_c;M_pyam5p_c,M_h2o2_c;M_nh4_c;M_pydx5p_c
+R_PSII,PSII,Photosystem II,subsystem,unannotated,unannotated,unannotated,u,False,M_h2o_u;M_h_c;M_photon_c;M_pq_u,M_h_u;M_o2_u;M_pqh2_u
+R_PSI,PSI,Photosystem I (plastocyanin),subsystem,unannotated,unannotated,unannotated,c,False,M_fdxo_2_2_c;M_pcrd_u;M_photon_c,M_fdxrd_c;M_pcox_u
+R_PTAr,PTAr,Phosphotransacetylase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_pi_c,M_actp_c;M_coa_c
+R_UAPGR,UAPGR,UDP-N-acetylenolpyruvoylglucosamine reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_uaccg_c,M_nadp_c;M_uamr_c
+R_PROD2,PROD2,Proline dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_fad_c;M_pro__L_c,M_1pyr5c_c;M_fadh2_c;M_h_c
+R_UGLT,UGLT,UDPglucose--hexose-1-phosphate uridylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_gal1p_c;M_udpg_c,M_g1p_c;M_udpgal_c
+R_URIDK2r,URIDK2r,Uridylate kinase (dUMP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_dump_c,M_adp_c;M_dudp_c
+R_PTHPS,PTHPS,6-pyruvoyltetrahydropterin synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_ahdt_c,M_6pthp_c;M_pppi_c
+R_PTPATi,PTPATi,Pantetheine-phosphate adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h_c;M_pan4p_c,M_dpcoa_c;M_ppi_c
+R_PHCD,PHCD,L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_1p3h5c_c;M_h2o_c;M_nad_c,M_e4hglu_c;M_h_c;M_nadh_c
+R_QULNS,QULNS,Quinolinate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_dhap_c;M_iasp_c,M_h2o_c;M_pi_c;M_quln_c
+R_R05224_1,R05224_1,"Hydrogenobyrinate  <=> Hydrogenobyrinate a,c diamide",subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_fdxrd_c;M_gln__L_c;M_h2o_c;M_hgbyr_c,M_adp_c;M_fdxo_2_2_c;M_glu__L_c;M_h_c;M_hgbam_c;M_ppi_c
+R_USHD,USHD,UDP-sugar hydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_u23ga_c,M_h_c;M_lipidX_c;M_ump_c
+R_PGAMT,PGAMT,Phosphoglucosamine mutase,subsystem,unannotated,unannotated,unannotated,c,False,M_gam1p_c,M_gam6p_c
+R_ASNS1,ASNS1,Asparagine synthase (glutamine-hydrolysing),subsystem,unannotated,unannotated,unannotated,c,False,M_asp__L_c;M_atp_c;M_gln__L_c;M_h2o_c,M_amp_c;M_asn__L_c;M_glu__L_c;M_h_c;M_ppi_c
+R_RBFSa,RBFSa,Riboflavin synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_4r5au_c;M_db4p_c,M_dmlz_c;M_h2o_c;M_pi_c
+R_RBFSb,RBFSb,Riboflavin synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_dmlz_c,M_4r5au_c;M_ribflv_c
+R_RBCh,RBCh,Ribulose-bisphosphate carboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_o2_c;M_rb15bp_c,M_2pglyc_c;M_3pg_c;M_h_c
+R_TMDS,TMDS,Thymidylate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_dump_c;M_mlthf_c,M_dhf_c;M_dtmp_c
+R_PGMT,PGMT,Phosphoglucomutase,subsystem,unannotated,unannotated,unannotated,c,False,M_g1p_c,M_g6p_c
+R_UMPK,UMPK,UMP kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_ump_c,M_adp_c;M_udp_c
+R_UAGDP,UAGDP,UDP-N-acetylglucosamine diphosphorylase,subsystem,unannotated,unannotated,unannotated,c,False,M_acgam1p_c;M_h_c;M_utp_c,M_ppi_c;M_uacgam_c
+R_PYK,PYK,Pyruvate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_adp_c;M_h_c;M_pep_c,M_atp_c;M_pyr_c
+R_PYK2,PYK2,Pyruvate kinase(2),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_pep_c;M_udp_c,M_pyr_c;M_utp_c
+R_PYK3,PYK3,Pyruvate kinase(3),subsystem,unannotated,unannotated,unannotated,c,False,M_gdp_c;M_h_c;M_pep_c,M_gtp_c;M_pyr_c
+R_PGI,PGI,Glucose-6-phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_g6p_c,M_f6p_c
+R_PYK4,PYK4,Pyruvate kinase(4),subsystem,unannotated,unannotated,unannotated,c,False,M_cdp_c;M_h_c;M_pep_c,M_ctp_c;M_pyr_c
+R_PYK5,PYK5,Pyruvate kinase(5),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_idp_c;M_pep_c,M_itp_c;M_pyr_c
+R_TRSARr,TRSARr,Tartronate semialdehyde reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_2h3oppan_c;M_h_c;M_nadh_c,M_glyc__R_c;M_nad_c
+R_THRPDC,THRPDC,L threonine phosphate decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_thrp_c,M_applp_c;M_co2_c
+R_VALTA,VALTA,Valine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_val__L_c,M_3mob_c;M_glu__L_c
+R_RBPC,RBPC,Ribulose-bisphosphate carboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_co2_c;M_h2o_c;M_rb15bp_c,M_3pg_c;M_h_c
+R_RNDR2,RNDR2,Ribonucleoside-diphosphate reductase (GDP),subsystem,unannotated,unannotated,unannotated,c,False,M_gdp_c;M_trdrd_c,M_dgdp_c;M_h2o_c;M_trdox_c
+R_RNDR3,RNDR3,Ribonucleoside-diphosphate reductase (CDP),subsystem,unannotated,unannotated,unannotated,c,False,M_cdp_c;M_trdrd_c,M_dcdp_c;M_h2o_c;M_trdox_c
+R_RNDR4,RNDR4,Ribonucleoside-diphosphate reductase (UDP),subsystem,unannotated,unannotated,unannotated,c,False,M_trdrd_c;M_udp_c,M_dudp_c;M_h2o_c;M_trdox_c
+R_RNDR1,RNDR1,Ribonucleoside-diphosphate reductase (ADP),subsystem,unannotated,unannotated,unannotated,c,False,M_adp_c;M_trdrd_c,M_dadp_c;M_h2o_c;M_trdox_c
+R_THFGLUS,THFGLUS,TetrahydrofolateL glutamate gamma ligase  ADP forming ,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glu__L_c;M_thf_c,M_adp_c;M_h_c;M_pi_c;M_thfglu_c
+R_G6PI3,G6PI3,Glucose 6 phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_g6p_B_c,M_f6p_c
+R_THRD_L,THRD_L,L-threonine deaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_thr__L_c,M_2obut_c;M_nh4_c
+R_SUCDu_syn,SUCDu_syn,Succinate dehydrogenase (tilacoild),subsystem,unannotated,unannotated,unannotated,c,False,M_pq_u;M_succ_c,M_fum_c;M_pqh2_u
+R_RPE,RPE,Ribulose 5-phosphate 3-epimerase,subsystem,unannotated,unannotated,unannotated,c,False,M_ru5p__D_c,M_xu5p__D_c
+R_PGK,PGK,Phosphoglycerate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_3pg_c;M_atp_c,M_13dpg_c;M_adp_c
+R_SADT,SADT,Sulfate adenylyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h_c;M_so4_c,M_aps_c;M_ppi_c
+R_SULR_syn,SULR_syn,Ferredoxin-sulfite reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_so3_c,M_fdxo_2_2_c;M_h2o_c;M_h2s_c
+R_SUCOAS,SUCOAS,Succinyl-CoA synthetase (ADP-forming),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_coa_c;M_succ_c,M_adp_c;M_pi_c;M_succoa_c
+R_TALA,TALA,Transaldolase,subsystem,unannotated,unannotated,unannotated,c,False,M_g3p_c;M_s7p_c,M_e4p_c;M_f6p_c
+R_TDPDRR,TDPDRR,DTDP-4-dehydrorhamnose reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_dtdp4d6dm_c;M_h_c;M_nadph_c,M_dtdprmn_c;M_nadp_c
+R_RPI,RPI,Ribose-5-phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_r5p_c,M_ru5p__D_c
+R_SDPTA,SDPTA,Succinyldiaminopimelate transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_sl26da_c,M_glu__L_c;M_sl2a6o_c
+R_PGL,PGL,6-phosphogluconolactonase,subsystem,unannotated,unannotated,unannotated,c,False,M_6pgl_c;M_h2o_c,M_6pgc_c;M_h_c
+R_SERD_L,SERD_L,L-serine deaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_ser__L_c,M_nh4_c;M_pyr_c
+R_PGLYCP,PGLYCP,Phosphoglycolate phosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_2pglyc_c;M_h2o_c,M_glyclt_c;M_pi_c
+R_SERAT,SERAT,Serine O-acetyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_ser__L_c,M_acser_c;M_coa_c
+R_PGSA160,PGSA160,Phosphatidylglycerol synthase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdhdecg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp160_c
+R_SERTRS,SERTRS,Seryl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_ser__L_c;M_trnaser_c,M_amp_c;M_ppi_c;M_sertrna_c
+R_SHK3Dr,SHK3Dr,Shikimate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_3dhsk_c;M_h_c;M_nadph_c,M_nadp_c;M_skm_c
+R_PGSA161,PGSA161,Phosphatidylglycerol synthase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdhdec9eg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp161_c
+R_SHKK,SHKK,Shikimate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_skm_c,M_adp_c;M_h_c;M_skm5p_c
+R_SQD1,SQD1,UDP-6-sulfo-6-deoxyglucose sulfohydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_so3_c;M_udpg_c,M_h2o_c;M_udpsq_c
+R_SSALy,SSALy,Succinate-semialdehyde dehydrogenase (NADP),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_nadp_c;M_sucsal_c,M_h_c;M_nadph_c;M_succ_c
+R_TDPDRE,TDPDRE,"DTDP-4-dehydrorhamnose 3,5-epimerase",subsystem,unannotated,unannotated,unannotated,c,False,M_dtdp4d6dg_c,M_dtdp4d6dm_c
+R_THRTRS,THRTRS,Threonyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_thr__L_c;M_trnathr_c,M_amp_c;M_ppi_c;M_thrtrna_c
+R_SUCBZL,SUCBZL,O-succinylbenzoate-CoA ligase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_coa_c;M_sucbz_c,M_amp_c;M_ppi_c;M_sbzcoa_c
+R_TDPGDH,TDPGDH,"DTDPglucose 4,6-dehydratase",subsystem,unannotated,unannotated,unannotated,c,False,M_dtdpglu_c,M_dtdp4d6dg_c;M_h2o_c
+R_PGSA180,PGSA180,Phosphatidylglycerol synthase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdodecg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp180_c
+R_THRS,THRS,Threonine synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_phom_c,M_pi_c;M_thr__L_c
+R_TKT1,TKT1,Transketolase,subsystem,unannotated,unannotated,unannotated,c,False,M_r5p_c;M_xu5p__D_c,M_g3p_c;M_s7p_c
+R_TKT2,TKT2,Transketolase,subsystem,unannotated,unannotated,unannotated,c,False,M_e4p_c;M_xu5p__D_c,M_f6p_c;M_g3p_c
+R_CYSTL,CYSTL,Cystathionine b-lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_cyst__L_c;M_h2o_c,M_hcys__L_c;M_nh4_c;M_pyr_c
+R_ADCS,ADCS,4-amino-4-deoxychorismate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_chor_c;M_gln__L_c,M_4adcho_c;M_glu__L_c
+R_ADCL,ADCL,4-aminobenzoate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_4adcho_c,M_4abz_c;M_h_c;M_pyr_c
+R_THZPSN,THZPSN,Thiazole phosphate synthesis,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cys__L_c;M_dxyl5p_c;M_tyr__L_c,M_4hba_c;M_4mpetz_c;M_ala__L_c;M_amp_c;M_co2_c;M_h2o_c;M_h_c;M_ppi_c
+R_PHBS_syn,PHBS_syn,PHB synthetasa,subsystem,unannotated,unannotated,unannotated,c,False,M_3hbcoa__R_c;M_phbg_c,M_PHB_c;M_coa_c
+R_THZSN_1,THZSN_1,Thiazole synthesis from xylulose,subsystem,unannotated,unannotated,unannotated,c,False,M_cys__L_c;M_dxyl_c;M_fdxo_2_2_c;M_tyr__L_c,M_4hba_c;M_4mhetz_c;M_co2_c;M_fdxrd_c;M_h2o_c;M_h_c;M_nh4_c;M_pyr_c
+R_TMPPP,TMPPP,Thiamine-phosphate diphosphorylase,subsystem,unannotated,unannotated,unannotated,c,False,M_2mahmp_c;M_4mpetz_c;M_h_c,M_ppi_c;M_thmmp_c
+R_OMCDC,OMCDC,2-Oxo-4-methyl-3-carboxypentanoate decarboxylation,subsystem,unannotated,unannotated,unannotated,c,False,M_3c4mop_c;M_h_c,M_4mop_c;M_co2_c
+R_GGDPR,GGDPR,Geranylgeranyl diphosphate reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_ggdp_c;M_h_c;M_nadph_c,M_nadp_c;M_phdp_c
+R_TOCOPHOM1,TOCOPHOM1,Tocopherol O-methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_gtocophe_c,M_ahcys_c;M_avite1_c;M_h_c
+R_PHYTFDH1,PHYTFDH1,Phytofluene dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_nad_c;M_phytof_c,M_h_c;M_nadh_c;M_zcarote_c
+R_TOCOPHOM2,TOCOPHOM2,Tocopherol O-methyltransferase(2),subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_dtocophe_c,M_ahcys_c;M_bvite_c;M_h_c
+R_UDCPDP,UDCPDP,Undecaprenyl-diphosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_udcpdp_c,M_h_c;M_pi_c;M_udcpp_c
+R_TPI,TPI,Triose-phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_dhap_c,M_g3p_c
+R_PHETRS,PHETRS,Phenylalanyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_phe__L_c;M_trnaphe_c,M_amp_c;M_phetrna_c;M_ppi_c
+R_TRPTRS,TRPTRS,Tryptophanyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_trnatrp_c;M_trp__L_c,M_amp_c;M_ppi_c;M_trptrna_c
+R_TRPS1,TRPS1,Tryptophan synthase (indoleglycerol phosphate),subsystem,unannotated,unannotated,unannotated,c,False,M_3ig3p_c;M_ser__L_c,M_g3p_c;M_h2o_c;M_trp__L_c
+R_O2tpp,O2tpp,O2 transport via diffusion (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_o2_p,M_o2_c
+R_O2tu,O2tu,"O2 transport (diffusion), lumen",subsystem,unannotated,unannotated,unannotated,c,False,M_o2_u,M_o2_c
+R_PHYTEDH2,PHYTEDH2,Phytoene dehydrogenase(2),subsystem,unannotated,unannotated,unannotated,c,False,M_nadp_c;M_phytoe_c,M_h_c;M_nadph_c;M_phytof_c
+R_GLCtex,GLCtex,Glucose transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_glc__D_e,M_glc__D_p
+R_FRUtex,FRUtex,D-fructose transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_fru_e,M_fru_p
+R_U23GAAT,U23GAAT,UDP-3-O-(3-hydroxymyristoyl)glucosamine acyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_3hmrsACP_c;M_u3hga_c,M_ACP_c;M_h_c;M_u23ga_c
+R_PHYTFDH2,PHYTFDH2,Phytofluene dehydrogenase(2),subsystem,unannotated,unannotated,unannotated,c,False,M_nadp_c;M_phytof_c,M_h_c;M_nadph_c;M_zcarote_c
+R_TYRTRS,TYRTRS,Tyrosyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_trnatyr_c;M_tyr__L_c,M_amp_c;M_ppi_c;M_tyrtrna_c
+R_UAAGDS,UAAGDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase",subsystem,unannotated,unannotated,unannotated,c,False,M_26dap__M_c;M_atp_c;M_uamag_c,M_adp_c;M_h_c;M_pi_c;M_ugmd_c
+R_GLUtex,GLUtex,L-glutamate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_glu__L_e,M_glu__L_p
+R_H2CO3_NAt_syn,H2CO3_NAt_syn,Bicarbonate transport (Na/HCO3 cotransport periplasme),subsystem,unannotated,unannotated,unannotated,c,False,M_hco3_p;M_na1_p,M_hco3_c;M_na1_c
+R_HCO3tex,HCO3tex,Bicarbonate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_hco3_e,M_hco3_p
+R_UAGAAT,UAGAAT,UDP-N-acetylglucosamine acyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_3hmrsACP_c;M_uacgam_c,M_ACP_c;M_u3aga_c
+R_UAGCVT,UAGCVT,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_pep_c;M_uacgam_c,M_pi_c;M_uaccg_c
+R_CO2tex,CO2tex,CO2 transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_co2_e,M_co2_p
+R_PHYTEDH1,PHYTEDH1,Phytoene dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_nad_c;M_phytoe_c,M_h_c;M_nadh_c;M_phytof_c
+R_CO2tpp,CO2tpp,CO2 transporter via diffusion (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_co2_p,M_co2_c
+R_ALAtex,ALAtex,L-alanine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_ala__L_e,M_ala__L_p
+R_ARGtex,ARGtex,L-arginine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_arg__L_e,M_arg__L_p
+R_GLYtex,GLYtex,Glycine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_gly_e,M_gly_p
+R_UAGPT3,UAGPT3,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,subsystem,unannotated,unannotated,unannotated,c,False,M_uacgam_c;M_uagmda_c,M_h_c;M_uaagmda_c;M_udp_c
+R_UAMAGS,UAMAGS,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glu__D_c;M_uama_c,M_adp_c;M_h_c;M_pi_c;M_uamag_c
+R_UAMAS,UAMAS,UDP-N-acetylmuramoyl-L-alanine synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_ala__L_c;M_atp_c;M_uamr_c,M_adp_c;M_h_c;M_pi_c;M_uama_c
+R_UDPG4E,UDPG4E,UDPglucose 4-epimerase,subsystem,unannotated,unannotated,unannotated,c,False,M_udpg_c,M_udpgal_c
+R_UGLDDS2_1,UGLDDS2_1,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine synthetase (gamma-glutamate),subsystem,unannotated,unannotated,unannotated,c,False,M_alaala_c;M_atp_c;M_fdxrd_c;M_uGgl_c,M_adp_c;M_fdxo_2_2_c;M_pi_c;M_uGgla_c
+R_GLNtex,GLNtex,L-glutamine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_gln__L_e,M_gln__L_p
+R_PPA,PPA,Inorganic diphosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_ppi_c,M_h_c;M_pi_c
+R_HIStex,HIStex,L-histidine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_his__L_e,M_his__L_p
+R_LEUtex,LEUtex,L-leucine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_leu__L_e,M_leu__L_p
+R_UHGADA,UHGADA,UDP-3-O-acetylglucosamine deacetylase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_u3aga_c,M_ac_c;M_u3hga_c
+R_UPP3MT,UPP3MT,Uroporphyrinogen methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_uppg3_c,M_ahcys_c;M_dscl_c;M_h_c
+R_UPP3S,UPP3S,Uroporphyrinogen-III synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_hmbil_c,M_h2o_c;M_uppg3_c
+R_UPPDC1,UPPDC1,Uroporphyrinogen decarboxylase (uroporphyrinogen III),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_uppg3_c,M_co2_c;M_cpppg3_c
+R_LYStex,LYStex,L-lysine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_lys__L_e,M_lys__L_p
+R_PPBNGS,PPBNGS,Porphobilinogen synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_5aop_c,M_h2o_c;M_h_c;M_ppbng_c
+R_PROtex,PROtex,L-proline transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_pro__L_e,M_pro__L_p
+R_UPPDC2,UPPDC2,Uroporphyrinogen decarboxylase (uroporphyrinogen I),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_uppg1_c,M_co2_c;M_cpppg1_c
+R_SERtex,SERtex,L-serine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_ser__L_e,M_ser__L_p
+R_PPC,PPC,Phosphoenolpyruvate carboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_co2_c;M_h2o_c;M_pep_c,M_h_c;M_oaa_c;M_pi_c
+R_NO3tex,NO3tex,Nitrate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_no3_e,M_no3_p
+R_UREA,UREA,Urease,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_h_c;M_urea_c,M_co2_c;M_nh4_c
+R_PPCDC,PPCDC,Phosphopantothenoylcysteine decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_4ppcys_c;M_h_c,M_co2_c;M_pan4p_c
+R_UPPRT,UPPRT,Uracil phosphoribosyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_prpp_c;M_ura_c,M_ppi_c;M_ump_c
+R_UREAtex,UREAtex,Urea transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_urea_e,M_urea_p
+R_PPNCL,PPNCL,Phosphopantothenate-cysteine ligase,subsystem,unannotated,unannotated,unannotated,c,False,M_4ppan_c;M_ctp_c;M_cys__L_c,M_4ppcys_c;M_cdp_c;M_h_c;M_pi_c
+R_NH4tex,NH4tex,Ammonia transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_nh4_e,M_nh4_p
+R_Ktex,Ktex,Potassium transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_k_e,M_k_p
+R_SO4tex,SO4tex,Sulfate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_so4_e,M_so4_p
+R_VALTRS,VALTRS,Valyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_trnaval_c;M_val__L_c,M_amp_c;M_ppi_c;M_valtrna_c
+R_ZCAROTDH1,ZCAROTDH1,Zeta-carotene desaturase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_o2_c;M_zcarote_c,M_h2o_c;M_nadp_c;M_neuspn_c
+R_ZCAROTDH2,ZCAROTDH2,Zeta-carotene desaturase(2),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_neuspn_c;M_o2_c,M_h2o_c;M_lycop_c;M_nadp_c
+R_EX_cobalt2_e,EX_cobalt2_e,Co2+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_cobalt2_e,
+R_EX_ni2_e,EX_ni2_e,Ni2+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_ni2_e,
+R_PPK2,PPK2,Polyphosphate kinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_ppi_c,M_adp_c;M_pppi_c
+R_DMATT,DMATT,Dimethylallyltranstransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_dmpp_c;M_ipdp_c,M_grdp_c;M_ppi_c
+R_UGMDDS,UGMDDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase",subsystem,unannotated,unannotated,unannotated,c,False,M_alaala_c;M_atp_c;M_ugmd_c,M_adp_c;M_h_c;M_pi_c;M_ugmda_c
+R_PItex,PItex,Phosphate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_pi_e,M_pi_p
+R_PPND,PPND,Prephenate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_nad_c;M_pphn_c,M_34hpp_c;M_co2_c;M_nadh_c
+R_MOBDtex,MOBDtex,Molybdate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_mobd_e,M_mobd_p
+R_FE3tex,FE3tex,Iron (III) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_fe3_e,M_fe3_p
+R_IPPMIb,IPPMIb,2-isopropylmalate hydratase,subsystem,unannotated,unannotated,unannotated,c,False,M_2ippm_c;M_h2o_c,M_3c3hmp_c
+R_SHCHCS2,SHCHCS2,"2-succinyl-6-hydroxy-2,4-cyclohexadiene 1-carboxylate synthase",subsystem,unannotated,unannotated,unannotated,c,False,M_ichor_c;M_ssaltpp_c,M_2shchc_c;M_pyr_c;M_thmpp_c
+R_FE2tex,FE2tex,Iron (II) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_fe2_e,M_fe2_p
+R_PPNDH,PPNDH,Prephenate dehydratase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_pphn_c,M_co2_c;M_h2o_c;M_phpyr_c
+R_NAtex,NAtex,Sodium transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_na1_e,M_na1_p
+R_BPNT,BPNT,"3',5'-bisphosphate nucleotidase",subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_pap_c,M_amp_c;M_pi_c
+R_CYNTAH,CYNTAH,Cyanate aminohydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_cynt_c;M_h_c;M_hco3_c,M_co2_c;M_nh4_c
+R_PPS,PPS,Phosphoenolpyruvate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_pyr_c,M_amp_c;M_h_c;M_pep_c;M_pi_c
+R_DHNAPHT,DHNAPHT,"1,4-dihydroxy-2-naphthoate phytyltransferase",subsystem,unannotated,unannotated,unannotated,c,False,M_dhna_c;M_fdxo_2_2_c;M_phdp_c,M_co2_c;M_dmtphllqne_c;M_fdxrd_c;M_h_c;M_ppi_c
+R_DMTPHT,DMTPHT,Demethylphylloquinone methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_dmtphllqne_c,M_ahcys_c;M_h_c;M_phllqne_c
+R_MNtex,MNtex,Manganese (Mn+2) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_mn2_e,M_mn2_p
+R_PPTGS_Syn,PPTGS_Syn,Peptidoglycan subunit synthesis Synechocystis sp. PCC6803,subsystem,unannotated,unannotated,unannotated,c,False,M_uaagmda_c,M_h_c;M_peptido_syn_c;M_udcpdp_c
+R_MG2tex,MG2tex,Magnesium (Mg+2) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_mg2_e,M_mg2_p
+R_O2tex,O2tex,Oxygen transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_o2_e,M_o2_p
+R_GLCt2pp,GLCt2pp,D-glucose transport in via proton symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_glc__D_p;M_h_p,M_glc__D_c;M_h_c
+R_FRUt3,FRUt3,D-fructose transport in via proton symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_fru_p;M_h_p,M_fru_c;M_h_c
+R_GLUt4pp,GLUt4pp,Na+/glutamate symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_glu__L_p;M_na1_p,M_glu__L_c;M_na1_c
+R_H2Otex,H2Otex,H2O transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_h2o_e,M_h2o_p
+R_PRAGSr,PRAGSr,Phosphoribosylglycinamide synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gly_c;M_pram_c,M_adp_c;M_gar_c;M_h_c;M_pi_c
+R_PTRCabcpp,PTRCabcpp,Putrescine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_ptrc_p,M_adp_c;M_h_c;M_pi_c;M_ptrc_c
+R_GLUt2rpp,GLUt2rpp,"L-glutamate transport via proton symport, reversible (periplasm)",subsystem,unannotated,unannotated,unannotated,c,False,M_glu__L_p;M_h_p,M_glu__L_c;M_h_c
+R_HISabcpp,HISabcpp,L-histidine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_his__L_p,M_adp_c;M_h_c;M_his__L_c;M_pi_c
+R_PTRCt2pp,PTRCt2pp,Putrescine transport in via proton symport,subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_ptrc_p,M_h_c;M_ptrc_c
+R_PRAIi,PRAIi,Phosphoribosylanthranilate isomerase (irreversible),subsystem,unannotated,unannotated,unannotated,c,False,M_pran_c,M_2cpr5p_c
+R_PTRCtex,PTRCtex,Putrescine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_ptrc_e,M_ptrc_p
+R_ARGabcpp,ARGabcpp,L-arginine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_arg__L_p;M_atp_c;M_h2o_c,M_adp_c;M_arg__L_c;M_h_c;M_pi_c
+R_BCT1_syn,BCT1_syn,Bicarbonate transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_hco3_p,M_adp_c;M_h_c;M_hco3_c;M_pi_c
+R_LYSabcpp,LYSabcpp,L-lysine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_lys__L_p,M_adp_c;M_h_c;M_lys__L_c;M_pi_c
+R_GLNabcpp,GLNabcpp,L-glutamine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gln__L_p;M_h2o_c,M_adp_c;M_gln__L_c;M_h_c;M_pi_c
+R_Kt2pp,Kt2pp,Potassium transport in via proton symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_k_p,M_h_c;M_k_c
+R_UREAabcpp,UREAabcpp,Urea transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_urea_p,M_adp_c;M_h_c;M_pi_c;M_urea_c
+R_SPMDabcpp,SPMDabcpp,Spermidine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_spmd_p,M_adp_c;M_h_c;M_pi_c;M_spmd_c
+R_SPMDt2pp,SPMDt2pp,Spermidine transport in via proton symport,subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_spmd_p,M_h_c;M_spmd_c
+R_SPMDtex,SPMDtex,Spermidine transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_spmd_e,M_spmd_p
+R_ALAabcpp,ALAabcpp,L-alanine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_ala__L_p;M_atp_c;M_h2o_c,M_adp_c;M_ala__L_c;M_h_c;M_pi_c
+R_CUabcpp,CUabcpp,Copper transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cu2_p;M_h2o_c,M_adp_c;M_cu2_c;M_h_c;M_pi_c
+R_GLYabcpp,GLYabcpp,Glycine transport via ABC system,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_gly_p;M_h2o_c,M_adp_c;M_gly_c;M_h_c;M_pi_c
+R_PRAIS,PRAIS,Phosphoribosylaminoimidazole synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_fpram_c,M_adp_c;M_air_c;M_h_c;M_pi_c
+R_NO3abcpp,NO3abcpp,Nitrate transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_no3_p,M_adp_c;M_h_c;M_no3_c;M_pi_c
+R_LEUabcpp,LEUabcpp,L-leucine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_leu__L_p,M_adp_c;M_h_c;M_leu__L_c;M_pi_c
+R_CU2tex,CU2tex,Copper (Cu+2) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_cu2_e,M_cu2_p
+R_CU2abcu_syn,CU2abcu_syn,Copper (Cu+2) ABC transporter (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cu2_c;M_h2o_c,M_adp_c;M_cu2_u;M_h_c;M_pi_c
+R_PROabcpp,PROabcpp,L-proline transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_pro__L_p,M_adp_c;M_h_c;M_pi_c;M_pro__L_c
+R_PRAMPC,PRAMPC,Phosphoribosyl-AMP cyclohydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_prbamp_c,M_prfp_c
+R_NH4tpp_1,NH4tpp_1,Ammonia ireversible transport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_nh4_p,M_h_c;M_nh4_c
+R_SULabcpp,SULabcpp,Sulfate transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_so4_p,M_adp_c;M_h_c;M_pi_c;M_so4_c
+R_Zn2tex,Zn2tex,Zinc (Zn+2) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_zn2_e,M_zn2_p
+R_COBALT2tex,COBALT2tex,Cobalt (Co+2) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_cobalt2_e,M_cobalt2_p
+R_PRATPP,PRATPP,Phosphoribosyl-ATP pyrophosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_prbatp_c,M_h_c;M_ppi_c;M_prbamp_c
+R_NI2tex,NI2tex,Nickel transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_ni2_e,M_ni2_p
+R_PRASCSi,PRASCSi,Phosphoribosylaminoimidazolesuccinocarboxamide synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_5aizc_c;M_asp__L_c;M_atp_c,M_25aics_c;M_adp_c;M_h_c;M_pi_c
+R_ZN2abcpp,ZN2abcpp,"Zinc (Zn+2) ABC transporter, efflux (periplasm)",subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_zn2_c,M_adp_c;M_h_c;M_pi_c;M_zn2_p
+R_COBALT2abcpp,COBALT2abcpp,Cobalt (Co+2) ABC transporter (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cobalt2_c;M_h2o_c,M_adp_c;M_cobalt2_p;M_h_c;M_pi_c
+R_EX_cynt_e,EX_cynt_e,Cyanate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_cynt_e,
+R_PROTRS,PROTRS,Prolyl-tRNA synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_pro__L_c;M_trnapro_c,M_amp_c;M_ppi_c;M_protrna_c
+R_EX_h_e,EX_h_e,H+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_h_e,
+R_EX_pyr_e,EX_pyr_e,Pyruvate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_pyr_e,
+R_CA2tex,CA2tex,Calcium (Ca+2) transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_ca2_e,M_ca2_p
+R_CA2t3pp,CA2t3pp,Calcium (Ca+2) transport out via proton antiport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_ca2_c;M_h_p,M_ca2_p;M_h_c
+R_ACt2rpp,ACt2rpp,Acetate reversible transport via proton symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_ac_p;M_h_p,M_ac_c;M_h_c
+R_ACtex,ACtex,Acetate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_ac_e,M_ac_p
+R_PHOtex,PHOtex,Photon transport ext,subsystem,unannotated,unannotated,unannotated,e,False,M_photon_e,M_photon_p
+R_PHOtpp,PHOtpp,Photon transport pp,subsystem,unannotated,unannotated,unannotated,c,False,M_photon_p,M_photon_c
+R_EX_fum_e,EX_fum_e,Fumarate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_fum_e,
+R_EX_succ_e,EX_succ_e,Succinate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_succ_e,
+R_EX_cit_e,EX_cit_e,Citrate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_cit_e,
+R_EX_h2_e,EX_h2_e,H2 exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_h2_e,
+R_CYNTt2pp,CYNTt2pp,Cyanate transport via proton symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_cynt_p;M_h_p,M_cynt_c;M_h_c
+R_CYNTtex,CYNTtex,Cyanate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_cynt_e,M_cynt_p
+R_CITtex,CITtex,Citrate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_cit_e,M_cit_p
+R_PRFGS,PRFGS,Phosphoribosylformylglycinamidine synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_fgam_c;M_gln__L_c;M_h2o_c,M_adp_c;M_fpram_c;M_glu__L_c;M_h_c;M_pi_c
+R_H2tpp,H2tpp,Hydrogen transport diffusion (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h2_p,M_h2_c
+R_EX_co_e,EX_co_e,EX co LPAREN e RPAREN ,subsystem,unannotated,unannotated,unannotated,e,False,M_co_e,
+R_H2tex,H2tex,Hydrogen transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_h2_e,M_h2_p
+R_SK_precyanphy_c,SK_precyanphy_c,Precyanphy sink reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_precyanphy_c,
+R_PRMICI,PRMICI,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_prfp_c,M_prlp_c
+R_SK_phbg_c,SK_phbg_c,Phbg sink reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_phbg_c,
+R_SK_rdmbzi_c,SK_rdmbzi_c,Rdmbzi sink reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_rdmbzi_c,
+R_BIOMASS_Ec_SynAuto,BIOMASS_Ec_SynAuto,Autotrophic Biomass Ecuation,subsystem,unannotated,unannotated,unannotated,c,False,M_10fthf_c;M_5mthf_c;M_accoa_c;M_adocbl_c;M_ala__L_c;M_amet_c;M_arg__L_c;M_asn__L_c;M_asp__L_c;M_atp_c;M_avite1_c;M_bvite_c;M_ca2_c;M_caro_c;M_cholphya_c;M_chor_c;M_coa_c;M_cobalt2_c;M_ctp_c;M_cu2_c;M_cys__L_c;M_datp_c;M_dctp_c;M_dgdg160_c;M_dgdg161_c;M_dgdg180_c;M_dgdg181_9_c;M_dgdg181_c;M_dgdg182_9_12_c;M_dgdg183_6_9_12_c;M_dgdg183_9_12_15_c;M_dgdg184_6_9_12_15_c;M_dgtp_c;M_dtocophe_c;M_dttp_c;M_echin_c;M_fad_c;M_fe2_c;M_fe3_c;M_gcarote_c;M_gln__L_c;M_glu__L_c;M_gly_c;M_glycogen_c;M_gthrd_c;M_gtocophe_c;M_gtp_c;M_h2o_c;M_hemeA_c;M_hemeO_c;M_his__L_c;M_ile__L_c;M_k_c;M_leu__L_c;M_lipidAds_c;M_lys__L_c;M_malcoa_c;M_met__L_c;M_mg2_c;M_mgdg160_c;M_mgdg161_c;M_mgdg180_c;M_mgdg181_9_c;M_mgdg181_c;M_mgdg182_9_12_c;M_mgdg183_6_9_12_c;M_mgdg183_9_12_15_c;M_mgdg184_6_9_12_15_c;M_mlthf_c;M_mn2_c;M_mobd_c;M_na1_c;M_nad_c;M_nadh_c;M_nadp_c;M_nadph_c;M_nh4_c;M_peptido_syn_p;M_pg160_c;M_pg161_c;M_pg180_c;M_pg181_9_c;M_pg181_c;M_pg182_9_12_c;M_pg183_6_9_12_c;M_pg183_9_12_15_c;M_pg184_6_9_12_15_c;M_phe__L_c;M_pheme_c;M_phllqne_c;M_pro__L_c;M_ptrc_c;M_ribflv_c;M_ser__L_c;M_so4_c;M_spmd_c;M_sqdg160_c;M_sqdg161_c;M_sqdg180_c;M_sqdg181_9_c;M_sqdg181_c;M_sqdg182_9_12_c;M_sqdg183_6_9_12_c;M_sqdg183_9_12_15_c;M_sqdg184_6_9_12_15_c;M_succoa_c;M_thf_c;M_thr__L_c;M_trp__L_c;M_tyr__L_c;M_udcpdp_c;M_utp_c;M_val__L_c;M_zeax_c;M_zn2_c,M_adp_c;M_h_c;M_pi_c;M_ppi_c
+R_EX_h2o_e,EX_h2o_e,H2O exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_h2o_e,
+R_BIOMASS_Ec_SynMixo,BIOMASS_Ec_SynMixo,Mixotrophic Biomass Ecuation,subsystem,unannotated,unannotated,unannotated,c,False,M_10fthf_c;M_5mthf_c;M_accoa_c;M_adocbl_c;M_ala__L_c;M_amet_c;M_arg__L_c;M_asn__L_c;M_asp__L_c;M_atp_c;M_avite1_c;M_bvite_c;M_ca2_c;M_caro_c;M_cholphya_c;M_chor_c;M_coa_c;M_cobalt2_c;M_ctp_c;M_cu2_c;M_cys__L_c;M_datp_c;M_dctp_c;M_dgdg160_c;M_dgdg161_c;M_dgdg180_c;M_dgdg181_9_c;M_dgdg181_c;M_dgdg182_9_12_c;M_dgdg183_6_9_12_c;M_dgdg183_9_12_15_c;M_dgdg184_6_9_12_15_c;M_dgtp_c;M_dtocophe_c;M_dttp_c;M_echin_c;M_fad_c;M_fe2_c;M_fe3_c;M_gcarote_c;M_gln__L_c;M_glu__L_c;M_gly_c;M_gthrd_c;M_gtocophe_c;M_gtp_c;M_h2o_c;M_hemeA_c;M_hemeO_c;M_his__L_c;M_ile__L_c;M_k_c;M_leu__L_c;M_lipidAds_c;M_lys__L_c;M_malcoa_c;M_met__L_c;M_mg2_c;M_mgdg160_c;M_mgdg161_c;M_mgdg180_c;M_mgdg181_9_c;M_mgdg181_c;M_mgdg182_9_12_c;M_mgdg183_6_9_12_c;M_mgdg183_9_12_15_c;M_mgdg184_6_9_12_15_c;M_mlthf_c;M_mn2_c;M_mobd_c;M_na1_c;M_nad_c;M_nadh_c;M_nadp_c;M_nadph_c;M_nh4_c;M_peptido_syn_p;M_pg160_c;M_pg161_c;M_pg180_c;M_pg181_9_c;M_pg181_c;M_pg182_9_12_c;M_pg183_6_9_12_c;M_pg183_9_12_15_c;M_pg184_6_9_12_15_c;M_phe__L_c;M_pheme_c;M_phllqne_c;M_pro__L_c;M_ptrc_c;M_ribflv_c;M_ser__L_c;M_so4_c;M_spmd_c;M_sqdg160_c;M_sqdg161_c;M_sqdg180_c;M_sqdg181_9_c;M_sqdg181_c;M_sqdg182_9_12_c;M_sqdg183_6_9_12_c;M_sqdg183_9_12_15_c;M_sqdg184_6_9_12_15_c;M_succoa_c;M_thf_c;M_thr__L_c;M_trp__L_c;M_tyr__L_c;M_udcpdp_c;M_utp_c;M_val__L_c;M_zeax_c;M_zn2_c,M_adp_c;M_h_c;M_pi_c;M_ppi_c
+R_PRPPS,PRPPS,Phosphoribosylpyrophosphate synthetase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_r5p_c,M_amp_c;M_h_c;M_prpp_c
+R_BIOMASS_Ec_SynHetero,BIOMASS_Ec_SynHetero,Heterotrophic Biomass Ecuation,subsystem,unannotated,unannotated,unannotated,c,False,M_10fthf_c;M_5mthf_c;M_accoa_c;M_adocbl_c;M_ala__L_c;M_amet_c;M_arg__L_c;M_asn__L_c;M_asp__L_c;M_atp_c;M_avite1_c;M_bvite_c;M_ca2_c;M_caro_c;M_cholphya_c;M_chor_c;M_coa_c;M_cobalt2_c;M_ctp_c;M_cu2_c;M_cys__L_c;M_datp_c;M_dctp_c;M_dgdg160_c;M_dgdg161_c;M_dgdg180_c;M_dgdg181_9_c;M_dgdg181_c;M_dgdg182_9_12_c;M_dgdg183_6_9_12_c;M_dgdg183_9_12_15_c;M_dgdg184_6_9_12_15_c;M_dgtp_c;M_dtocophe_c;M_dttp_c;M_echin_c;M_fad_c;M_fe2_c;M_fe3_c;M_gcarote_c;M_gln__L_c;M_glu__L_c;M_gly_c;M_gthrd_c;M_gtocophe_c;M_gtp_c;M_h2o_c;M_hemeA_c;M_hemeO_c;M_his__L_c;M_ile__L_c;M_k_c;M_leu__L_c;M_lipidAds_c;M_lys__L_c;M_malcoa_c;M_met__L_c;M_mg2_c;M_mgdg160_c;M_mgdg161_c;M_mgdg180_c;M_mgdg181_9_c;M_mgdg181_c;M_mgdg182_9_12_c;M_mgdg183_6_9_12_c;M_mgdg183_9_12_15_c;M_mgdg184_6_9_12_15_c;M_mlthf_c;M_mn2_c;M_mobd_c;M_na1_c;M_nad_c;M_nadh_c;M_nadp_c;M_nadph_c;M_nh4_c;M_peptido_syn_p;M_pg160_c;M_pg161_c;M_pg180_c;M_pg181_9_c;M_pg181_c;M_pg182_9_12_c;M_pg183_6_9_12_c;M_pg183_9_12_15_c;M_pg184_6_9_12_15_c;M_phe__L_c;M_pheme_c;M_phllqne_c;M_pro__L_c;M_ptrc_c;M_ribflv_c;M_ser__L_c;M_so4_c;M_spmd_c;M_sqdg160_c;M_sqdg161_c;M_sqdg180_c;M_sqdg181_9_c;M_sqdg181_c;M_sqdg182_9_12_c;M_sqdg183_6_9_12_c;M_sqdg183_9_12_15_c;M_sqdg184_6_9_12_15_c;M_succoa_c;M_thf_c;M_thr__L_c;M_trp__L_c;M_tyr__L_c;M_udcpdp_c;M_utp_c;M_val__L_c;M_zeax_c;M_zn2_c,M_adp_c;M_h_c;M_pi_c;M_ppi_c
+R_DM_PHB_c,DM_PHB_c,PHB Demand reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_PHB_c,
+R_EX_o2_e,EX_o2_e,O2 exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_o2_e,
+R_EX_glc__D_e,EX_glc__D_e,D-Glucose exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_glc__D_e,
+R_PRUK,PRUK,Phosphoribulokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_ru5p__D_c,M_adp_c;M_h_c;M_rb15bp_c
+R_EX_fru_e,EX_fru_e,D-Fructose exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_fru_e,
+R_EX_glu__L_e,EX_glu__L_e,L-Glutamate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_glu__L_e,
+R_DM_cyanphy_c,DM_cyanphy_c,Cyanphy Demand reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_cyanphy_c,
+R_MALtpp,MALtpp,Malate transport via diffusion (periplasm to cytosol),subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_mal__L_p,M_h_c;M_mal__L_c
+R_MALtex,MALtex,Malate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_mal__L_e,M_mal__L_p
+R_PSCVT,PSCVT,3-phosphoshikimate 1-carboxyvinyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_pep_c;M_skm5p_c,M_3psme_c;M_pi_c
+R_AKGt2rpp,AKGt2rpp,2-oxoglutarate reversible transport via symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_akg_p;M_h_p,M_akg_c;M_h_c
+R_AKGtex,AKGtex,Alpha-ketoglutarate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_akg_e,M_akg_p
+R_EX_hco3_e,EX_hco3_e,EX hco3 LPAREN e RPAREN ,subsystem,unannotated,unannotated,unannotated,e,False,M_hco3_e,
+R_EX_co2_e,EX_co2_e,CO2 exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_co2_e,
+R_SUCCtpp,SUCCtpp,Succinate transport via diffusion (periplasm to cytosol),subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_succ_p,M_h_c;M_succ_c
+R_SUCCtex,SUCCtex,Succinate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_succ_e,M_succ_p
+R_CITt_kt,CITt_kt,Citrate proton symport periplasm ,subsystem,unannotated,unannotated,unannotated,c,False,M_cit_p;M_h_p,M_cit_c;M_h_c
+R_PYRt2rpp,PYRt2rpp,Pyruvate reversible transport via proton symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_pyr_p,M_h_c;M_pyr_c
+R_EX_ala__L_e,EX_ala__L_e,L-Alanine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_ala__L_e,
+R_EX_arg__L_e,EX_arg__L_e,L-Arginine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_arg__L_e,
+R_EX_gly_e,EX_gly_e,Glycine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_gly_e,
+R_EX_gln__L_e,EX_gln__L_e,L-Glutamine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_gln__L_e,
+R_PYRtex,PYRtex,Pyruvate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_pyr_e,M_pyr_p
+R_FUMtpp,FUMtpp,Fumarate transport via diffusion (periplasm to cytosol),subsystem,unannotated,unannotated,unannotated,c,False,M_fum_p;M_h_p,M_fum_c;M_h_c
+R_FUMtex,FUMtex,Fumarate transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_fum_e,M_fum_p
+R_3HAD141,3HAD141,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3hcmrs7eACP_c,M_h2o_c;M_t3c7mrseACP_c
+R_Htex,Htex,Proton transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_h_e,M_h_p
+R_COt_1,COt_1,Co transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_co_e,M_co_p
+R_Cotpp,Cotpp,Co transport via diffusion (periplasm to cytosol),subsystem,unannotated,unannotated,unannotated,c,False,M_co_p,M_co_c
+R_EX_his__L_e,EX_his__L_e,L-Histidine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_his__L_e,
+R_EX_leu__L_e,EX_leu__L_e,L-Leucine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_leu__L_e,
+R_EX_lys__L_e,EX_lys__L_e,L-Lysine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_lys__L_e,
+R_NTPP4,NTPP4,Nucleoside triphosphate pyrophosphorylase (ctp),subsystem,unannotated,unannotated,unannotated,c,False,M_ctp_c;M_h2o_c,M_cmp_c;M_h_c;M_ppi_c
+R_EX_pro__L_e,EX_pro__L_e,L-Proline exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_pro__L_e,
+R_CYTDH,CYTDH,Cytidine hydrolase,subsystem,unannotated,unannotated,unannotated,c,False,M_cytd_c;M_h2o_c,M_csn_c;M_rib__D_c
+R_3HAD160,3HAD160,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3hpalmACP_c,M_h2o_c;M_tpalm2eACP_c
+R_NTD4,NTD4,5'-nucleotidase (CMP),subsystem,unannotated,unannotated,unannotated,c,False,M_cmp_c;M_h2o_c,M_cytd_c;M_pi_c
+R_EX_ser__L_e,EX_ser__L_e,L-Serine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_ser__L_e,
+R_EX_no3_e,EX_no3_e,Nitrate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_no3_e,
+R_NTPP2,NTPP2,Nucleoside triphosphate pyrophosphorylase (gtp),subsystem,unannotated,unannotated,unannotated,c,False,M_gtp_c;M_h2o_c,M_gmp_c;M_h_c;M_ppi_c
+R_3HAD161,3HAD161,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3hcpalm9eACP_c,M_h2o_c;M_t3c9palmeACP_c
+R_NTPP8,NTPP8,Nucleoside triphosphate pyrophosphorylase (utp),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_utp_c,M_h_c;M_ppi_c;M_ump_c
+R_GCALDD,GCALDD,Glycolaldehyde dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_gcald_c;M_h2o_c;M_nad_c,M_glyclt_c;M_h_c;M_nadh_c
+R_EX_urea_e,EX_urea_e,Urea exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_urea_e,
+R_EX_nh4_e,EX_nh4_e,Ammonia exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_nh4_e,
+R_EX_akg_e,EX_akg_e,2-Oxoglutarate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_akg_e,
+R_ACOATA,ACOATA,Acetyl-CoA ACP transacylase,subsystem,unannotated,unannotated,unannotated,c,False,M_ACP_c;M_accoa_c,M_acACP_c;M_coa_c
+R_EX_mal__L_e,EX_mal__L_e,L-Malate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_mal__L_e,
+R_EX_k_e,EX_k_e,K+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_k_e,
+R_EX_so4_e,EX_so4_e,Sulfate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_so4_e,
+R_GLXO3r,GLXO3r,Glyoxylate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_glx_c;M_h2o_c;M_o2_c,M_h2o2_c;M_h_c;M_oxa_c
+R_KAS15,KAS15,Beta-ketoacyl-ACP synthase (2),subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_h_c;M_malACP_c,M_actACP_c;M_co2_c;M_coa_c
+R_OXADC,OXADC,Oxalate decarboxylase,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_oxa_c,M_co2_c;M_for_c
+R_FDH6pp,FDH6pp,Formate Dehydrogenase (ferrocytochrome c6) (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_ficytc6_p;M_for_c,M_co2_c;M_focytc6_p;M_h_c
+R_NTD7,NTD7,5'-nucleotidase (AMP),subsystem,unannotated,unannotated,unannotated,c,False,M_amp_c;M_h2o_c,M_adn_c;M_pi_c
+R_DNAMTn2r,DNAMTn2r,DNA (cytosine-5-)-methyltransferase,subsystem,unannotated,unannotated,unannotated,c,False,M_amet_c;M_dna_c,M_ahcys_c;M_dna5mtc_c;M_h_c
+R_SK_dna_c,SK_dna_c,Sink dna,subsystem,unannotated,unannotated,unannotated,c,False,M_dna_c,
+R_SK_dna5mtc_c,SK_dna5mtc_c,Dna5mtc  Demand reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_dna5mtc_c,
+R_HSERTA,HSERTA,Homoserine O trans acetylase,subsystem,unannotated,unannotated,unannotated,c,False,M_accoa_c;M_hom__L_c,M_achms_c;M_coa_c
+R_EX_pi_e,EX_pi_e,Phosphate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_pi_e,
+R_EX_mobd_e,EX_mobd_e,Molybdate exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_mobd_e,
+R_EX_fe3_e,EX_fe3_e,Fe3+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_fe3_e,
+R_EX_fe2_e,EX_fe2_e,Fe2+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_fe2_e,
+R_EX_na1_e,EX_na1_e,Sodium exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_na1_e,
+R_EX_mn2_e,EX_mn2_e,Mn2+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_mn2_e,
+R_EX_mg2_e,EX_mg2_e,Mg exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_mg2_e,
+R_EX_ptrc_e,EX_ptrc_e,Putrescine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_ptrc_e,
+R_EX_spmd_e,EX_spmd_e,Spermidine exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_spmd_e,
+R_AHSERL2,AHSERL2,O acetylhomoserine  thiol  lyase,subsystem,unannotated,unannotated,unannotated,c,False,M_achms_c;M_h2s_c,M_ac_c;M_h_c;M_hcys__L_c
+R_DM_5mdru1p_c,DM_5mdru1p_c,5mdru1p Demand reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_5mdru1p_c,
+R_MTAP,MTAP,5  methylthioadenosine phosphorylase,subsystem,unannotated,unannotated,unannotated,c,False,M_5mta_c;M_pi_c,M_5mdr1p_c;M_ade_c
+R_3OAS121,3OAS121,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1),subsystem,unannotated,unannotated,unannotated,c,False,M_cdec3eACP_c;M_h_c;M_malACP_c,M_3ocddec5eACP_c;M_ACP_c;M_co2_c
+R_MTRI,MTRI,5-methylthioribose-1-phosphate isomerase,subsystem,unannotated,unannotated,unannotated,c,False,M_5mdr1p_c,M_5mdru1p_c
+R_EX_cu2_e,EX_cu2_e,Cu2+ exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_cu2_e,
+R_EX_zn2_e,EX_zn2_e,Zinc exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_zn2_e,
+R_SPP,SPP,Sucrose-phosphate phosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_suc6p_c,M_pi_c;M_sucr_c
+R_3OAS140,3OAS140,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:0),subsystem,unannotated,unannotated,unannotated,c,False,M_ddcaACP_c;M_h_c;M_malACP_c,M_3omrsACP_c;M_ACP_c;M_co2_c
+R_GLCGLYCtex,GLCGLYCtex,Glucosylglycerol transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_glcglyc_e,M_glcglyc_p
+R_MOBDabcpp,MOBDabcpp,Molybdate transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_mobd_p,M_adp_c;M_h_c;M_mobd_c;M_pi_c
+R_FE2abcpp,FE2abcpp,Iron (II) transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_fe2_p;M_h2o_c,M_adp_c;M_fe2_c;M_h_c;M_pi_c
+R_SUCRtex,SUCRtex,Sucrose transport transport via diffusion (extracellular to periplasm),subsystem,unannotated,unannotated,unannotated,e,False,M_sucr_e,M_sucr_p
+R_3OAS141,3OAS141,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1),subsystem,unannotated,unannotated,unannotated,c,False,M_cddec5eACP_c;M_h_c;M_malACP_c,M_3ocmrs7eACP_c;M_ACP_c;M_co2_c
+R_EX_glcglyc_e,EX_glcglyc_e,Glcglyc exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_glcglyc_e,
+R_FE3abcpp,FE3abcpp,Iron (III) transport via ABC system (periplasm to cytoplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_fe3_p;M_h2o_c,M_adp_c;M_fe3_c;M_h_c;M_pi_c
+R_NAt3pp,NAt3pp,Sodium transport out via proton antiport (cytoplasm to periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_na1_c,M_h_c;M_na1_p
+R_EX_sucr_e,EX_sucr_e,Sucrose exchange,subsystem,unannotated,unannotated,unannotated,e,False,M_sucr_e,
+R_3OAS160,3OAS160,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_malACP_c;M_myrsACP_c,M_3opalmACP_c;M_ACP_c;M_co2_c
+R_SQLS,SQLS,Squalene synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_frdp_c;M_h_c;M_nadph_c,M_nadp_c;M_ppi_c;M_sql_c
+R_MEHLER,MEHLER,Mehler reaction,subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_o2_c,M_h2o_c;M_nadp_c
+R_HEX1,HEX1,Hexokinase (D-glucose:ATP),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glc__D_c,M_adp_c;M_g6p_c;M_h_c
+R_GLUK_syn,GLUK_syn,Glucokinase,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glc__bD_c,M_adp_c;M_g6p_B_c;M_h_c
+R_MNt2pp,MNt2pp,Manganese (Mn+2) transport in via proton symport (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h_p;M_mn2_p,M_h_c;M_mn2_c
+R_H2Otpp,H2Otpp,H2O transport via diffusion (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_p,M_h2o_c
+R_MG2uabcpp,MG2uabcpp,"Magnesium (Mg+2) ABC transporter (ubtake, periplasm)",subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_mg2_p,M_adp_c;M_h_c;M_mg2_c;M_pi_c
+R_H2Otu_syn,H2Otu_syn,H2O transport via diffusion (tilacoid),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_u,M_h2o_c
+R_ZNabcpp,ZNabcpp,Zinc (Zn+2) transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_zn2_p,M_adp_c;M_h_c;M_pi_c;M_zn2_c
+R_Cobalt2abcppI,Cobalt2abcppI,Cobalt II transport via ABC system periplasm I,subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_cobalt2_p;M_h2o_c,M_adp_c;M_cobalt2_c;M_h_c;M_pi_c
+R_3OAS161,3OAS161,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_malACP_c;M_tdeACP_c,M_3ocpalm9eACP_c;M_ACP_c;M_co2_c
+R_NI2uabcpp,NI2uabcpp,"Nickel transport via ABC system (uptake, periplasm)",subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_ni2_p,M_adp_c;M_h_c;M_ni2_c;M_pi_c
+R_CA2abcpp,CA2abcpp,Calcium transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_ca2_p;M_h2o_c,M_adp_c;M_ca2_c;M_h_c;M_pi_c
+R_PPOR,PPOR,"Phenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)",subsystem,unannotated,unannotated,unannotated,c,False,M_o2_c;M_phpyr_c,M_2hyoxplac_c;M_co2_c
+R_3HAD40,3HAD40,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3haACP_c,M_but2eACP_c;M_h2o_c
+R_3OAS180,3OAS180,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_malACP_c;M_palmACP_c,M_3ooctdACP_c;M_ACP_c;M_co2_c
+R_3HAD60,3HAD60,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3hhexACP_c,M_h2o_c;M_thex2eACP_c
+R_3HAD80,3HAD80,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3hoctACP_c,M_h2o_c;M_toct2eACP_c
+R_PDH,PDH,Pyruvate dehydrogenase,subsystem,unannotated,unannotated,unannotated,c,False,M_coa_c;M_nad_c;M_pyr_c,M_accoa_c;M_co2_c;M_nadh_c
+R_3OAS181,3OAS181,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_hdeACP_c;M_malACP_c,M_3ocvac11eACP_c;M_ACP_c;M_co2_c
+R_NDH1_3u,NDH1_3u,Active co2 transporter facilitator (tilacoide),subsystem,unannotated,unannotated,unannotated,c,False,M_co2_p;M_h2o_c;M_h_c;M_nadph_c;M_pq_u,M_h_u;M_hco3_c;M_nadp_c;M_pqh2_u
+R_NDH1_1u,NDH1_1u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_pq_u,M_h_u;M_nadp_c;M_pqh2_u
+R_3HAD100,3HAD100,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3hdecACP_c,M_h2o_c;M_tdec2eACP_c
+R_3HAD120,3HAD120,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3hddecACP_c,M_h2o_c;M_tddec2eACP_c
+R_3HAD121,3HAD121,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1),subsystem,unannotated,unannotated,unannotated,c,False,M_3hcddec5eACP_c,M_h2o_c;M_t3c5ddeceACP_c
+R_3HAD140,3HAD140,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0),subsystem,unannotated,unannotated,unannotated,c,False,M_3hmrsACP_c,M_h2o_c;M_tmrs2eACP_c
+R_CYO1b2pp_syn,CYO1b2pp_syn,"Cytochrome c oxidase, synechocystis (2 protons periplasm)",subsystem,unannotated,unannotated,unannotated,p,False,M_h_c;M_o2_p;M_pcrd_p,M_h2o_p;M_h_p;M_pcox_p
+R_3OAS60,3OAS60,3-oxoacyl-[acyl-carrier-protein] synthase (n-C6:0),subsystem,unannotated,unannotated,unannotated,c,False,M_butACP_c;M_h_c;M_malACP_c,M_3ohexACP_c;M_ACP_c;M_co2_c
+R_CYO1bpp_syn,CYO1bpp_syn,"Cytochrome c oxidase, synechocystis (2 protons)",subsystem,unannotated,unannotated,unannotated,p,False,M_focytc6_p;M_h_c;M_o2_p,M_ficytc6_p;M_h2o_p;M_h_p
+R_ARGN,ARGN,Arginase,subsystem,unannotated,unannotated,unannotated,c,False,M_arg__L_c;M_h2o_c,M_orn_c;M_urea_c
+R_3OAS80,3OAS80,3-oxoacyl-[acyl-carrier-protein] synthase (n-C8:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_hexACP_c;M_malACP_c,M_3ooctACP_c;M_ACP_c;M_co2_c
+R_FTR,FTR,Ferredoxin thioredoxin reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_fdxrd_c;M_h_c;M_trdox_c,M_fdxo_2_2_c;M_trdrd_c
+R_SPS,SPS,Sucrose phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_f6p_c;M_udpg_c,M_h_c;M_suc6p_c;M_udp_c
+R_GGPS,GGPS,Glucosylglycerol-phosphate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_adpglc_c;M_glyc3p_c,M_adp_c;M_glcglycp_c;M_h_c
+R_GGPP,GGPP,Glucosylglycerol 3-phosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_glcglycp_c;M_h2o_c,M_glcglyc_c;M_pi_c
+R_GLCGLYCabcpp_syn,GLCGLYCabcpp_syn,Glucosylglycerol ABC transporter (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_glcglyc_p;M_h2o_c,M_adp_c;M_glcglyc_c;M_h_c;M_pi_c
+R_SQLC,SQLC,Squalene mutase (cyclizing),subsystem,unannotated,unannotated,unannotated,c,False,M_sql_c,M_dptne_c
+R_EAR120y,EAR120y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_tddec2eACP_c,M_ddcaACP_c;M_nadp_c
+R_EAR121y,EAR121y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_t3c5ddeceACP_c,M_cddec5eACP_c;M_nadp_c
+R_EAR140y,EAR140y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_tmrs2eACP_c,M_myrsACP_c;M_nadp_c
+R_EAR141y,EAR141y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_t3c7mrseACP_c,M_nadp_c;M_tdeACP_c
+R_EAR160y,EAR160y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_tpalm2eACP_c,M_nadp_c;M_palmACP_c
+R_EAR161y,EAR161y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_t3c9palmeACP_c,M_hdeACP_c;M_nadp_c
+R_SQLC2,SQLC2,Squalene mutase (cyclizing),subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_sql_c,M_dpterol_c
+R_ATPS4rpp_1,ATPS4rpp_1,ATP synthase (four protons for one ATP) (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_adp_c;M_h_p;M_pi_c,M_atp_c;M_h2o_c;M_h_c
+R_NDH1_4pp,NDH1_4pp,Active co2 transporter facilitator (periplasm) ,subsystem,unannotated,unannotated,unannotated,c,False,M_co2_p;M_h2o_c;M_h_c;M_nadph_c;M_pq_p,M_h_p;M_hco3_c;M_nadp_c;M_pqh2_p
+R_SERabcpp,SERabcpp,L-serine transport via ABC system (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_ser__L_p,M_adp_c;M_h_c;M_pi_c;M_ser__L_c
+R_EAR180y,EAR180y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_toctd2eACP_c,M_nadp_c;M_ocdcaACP_c
+R_EAR181y,EAR181y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_t3c11vaceACP_c,M_nadp_c;M_octeACP_c
+R_EAR40y,EAR40y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0),subsystem,unannotated,unannotated,unannotated,c,False,M_but2eACP_c;M_h_c;M_nadph_c,M_butACP_c;M_nadp_c
+R_NDH1_2p,NDH1_2p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadh_c;M_pq_p,M_h_p;M_nad_c;M_pqh2_p
+R_ATPSu,ATPSu,ATP synthetase(u),subsystem,unannotated,unannotated,unannotated,c,False,M_adp_c;M_h_u;M_pi_c,M_atp_c;M_h2o_c;M_h_c
+R_PSI_2,PSI_2,Photosystem I (ferrocytochrome),subsystem,unannotated,unannotated,unannotated,c,False,M_fdxo_2_2_c;M_focytc6_u;M_photon_c,M_fdxrd_c;M_ficytc6_u
+R_EAR60y,EAR60y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C6:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_thex2eACP_c,M_hexACP_c;M_nadp_c
+R_EAR80y,EAR80y,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_toct2eACP_c,M_nadp_c;M_ocACP_c
+R_GLXCL,GLXCL,Glyoxalate carboligase,subsystem,unannotated,unannotated,unannotated,c,False,M_glx_c;M_h_c,M_2h3oppan_c;M_co2_c
+R_SBP,SBP,Sedoheptulose-bisphosphatase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_s17bp_c,M_pi_c;M_s7p_c
+R_NDH1_2u,NDH1_2u,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (tilacoide),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadh_c;M_pq_u,M_h_u;M_nad_c;M_pqh2_u
+R_NDH1_1p,NDH1_1p,NAD(P)H dehydrogenase (plastoquinone-8 & 3 protons) (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_h_c;M_nadph_c;M_pq_p,M_h_p;M_nadp_c;M_pqh2_p
+R_GLYCL,GLYCL,Glycine Cleavage System,subsystem,unannotated,unannotated,unannotated,c,False,M_gly_c;M_nad_c;M_thf_c,M_co2_c;M_mlthf_c;M_nadh_c;M_nh4_c
+R_GLYCLTDx,GLYCLTDx,Glycolate dehydrogenase (NAD),subsystem,unannotated,unannotated,unannotated,c,False,M_glx_c;M_h_c;M_nadh_c,M_glyclt_c;M_nad_c
+R_PYDXNO,PYDXNO,Pyridoxine oxidase,subsystem,unannotated,unannotated,unannotated,c,False,M_o2_c;M_pydxn_c,M_h2o2_c;M_pydx_c
+R_PYDXO,PYDXO,Pyridoxal oxidase,subsystem,unannotated,unannotated,unannotated,c,False,M_h2o_c;M_nh4_c;M_o2_c;M_pydx_c,M_h2o2_c;M_pydam_c
+R_PFK_3,PFK_3,Phosphofructokinase (s7p),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_s7p_c,M_adp_c;M_h_c;M_s17bp_c
+R_PGSA181,PGSA181,Phosphatidylglycerol synthase (n-C18:1),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdodec11eg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp181_c
+R_PGSA181_9,PGSA181_9,Phosphatidylglycerol synthase (n-C18 1),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdodec9eg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp181_9_c
+R_ACHBS,ACHBS,2-aceto-2-hydroxybutanoate synthase,subsystem,unannotated,unannotated,unannotated,c,False,M_2obut_c;M_h_c;M_pyr_c,M_2ahbut_c;M_co2_c
+R_PGSA182_9_12,PGSA182_9_12,Phosphatidylglycerol synthase (n-C18 2),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdodec912eg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp182_9_12_c
+R_PGSA183_6_9_12,PGSA183_6_9_12,Phosphatidylglycerol synthase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdodec6912eg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp183_6_9_12_c
+R_PGSA183_9_12_15,PGSA183_9_12_15,Phosphatidylglycerol synthase (n-C18 3),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdodec91215eg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp183_9_12_15_c
+R_APRAUR,APRAUR,5-amino-6-(5-phosphoribosylamino)uracil reductase,subsystem,unannotated,unannotated,unannotated,c,False,M_5apru_c;M_h_c;M_nadph_c,M_5aprbu_c;M_nadp_c
+R_PGSA184_6_9_12_15,PGSA184_6_9_12_15,Phosphatidylglycerol synthase (n-C18 4),subsystem,unannotated,unannotated,unannotated,c,False,M_cdpdodec691215eg_c;M_glyc3p_c,M_cmp_c;M_h_c;M_pgp184_6_9_12_15_c
+R_SUCDi,SUCDi,Succinate dehydrogenase (irreversible),subsystem,unannotated,unannotated,unannotated,c,False,M_q8_c;M_succ_c,M_fum_c;M_q8h2_c
+R_DHPPDA,DHPPDA,Diaminohydroxyphosphoribosylaminopyrimidine deaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_25dhpp_c;M_h2o_c;M_h_c,M_5apru_c;M_nh4_c
+R_SUCDpp_syn,SUCDpp_syn,Succinate dehydrogenase (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_pq_p;M_succ_c,M_fum_c;M_pqh2_p
+R_ASPTA,ASPTA,Aspartate transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_asp__L_c,M_glu__L_c;M_oaa_c
+R_PIuabcpp,PIuabcpp,"Phosphate transport via ABC system (uptake, periplasm)",subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_pi_p,M_adp_c;M_h_c;M_pi_c
+R_SUCRabcpp_syn,SUCRabcpp_syn,Sucrose ABC transporter (periplasm),subsystem,unannotated,unannotated,unannotated,c,False,M_atp_c;M_h2o_c;M_sucr_p,M_adp_c;M_h_c;M_pi_c;M_sucr_c
+R_TYRTA,TYRTA,Tyrosine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_tyr__L_c,M_34hpp_c;M_glu__L_c
+R_CYO1b_syn,CYO1b_syn,"Cytochrome c oxidase, synechocystis (2 protons)",subsystem,unannotated,unannotated,unannotated,u,False,M_focytc6_u;M_h_c;M_o2_u,M_ficytc6_u;M_h2o_u;M_h_u
+R_CBFC2pp,CBFC2pp,Cytochrome b6/f complex periplasm,subsystem,unannotated,unannotated,unannotated,p,False,M_ficytc6_p;M_h_c;M_pqh2_p,M_focytc6_p;M_h_p;M_pq_p
+R_CBFC2,CBFC2,Cytochrome b6/f complex,subsystem,unannotated,unannotated,unannotated,u,False,M_ficytc6_u;M_h_c;M_pqh2_u,M_focytc6_u;M_h_u;M_pq_u
+R_CBFCpp,CBFCpp,Cytochrome b6/f complex periplasm,subsystem,unannotated,unannotated,unannotated,p,False,M_h_c;M_pcox_p;M_pqh2_p,M_h_p;M_pcrd_p;M_pq_p
+R_CYO1b2_syn,CYO1b2_syn,"Cytochrome c oxidase, synechocystis (2 protons)",subsystem,unannotated,unannotated,unannotated,u,False,M_h_c;M_o2_u;M_pcrd_u,M_h2o_u;M_h_u;M_pcox_u
+R_PHETA1,PHETA1,Phenylalanine transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_akg_c;M_phe__L_c,M_glu__L_c;M_phpyr_c
+R_ORNTAC,ORNTAC,Ornithine transacetylase,subsystem,unannotated,unannotated,unannotated,c,False,M_acorn_c;M_glu__L_c,M_acglu_c;M_orn_c
+R_ABTA,ABTA,4-aminobutyrate transaminase,subsystem,unannotated,unannotated,unannotated,c,False,M_4abut_c;M_akg_c,M_glu__L_c;M_sucsal_c

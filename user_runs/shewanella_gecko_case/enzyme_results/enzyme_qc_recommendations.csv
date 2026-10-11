@@ -1,0 +1,7 @@
+condition,severity,topic,recommendation
+highO2,high,coverage,Treat enzyme constraints as guidance; add broader absolute proteomics and curated kcat values before building a production ecGEM.
+highO2,medium,reaction_capacity,"Few kcat priors have matching measured proteins through GPRs, so many reactions cannot receive direct enzyme bounds."
+highO2,low,kcat_confidence,Mean kcat confidence is modest; keep source tiers and confidence scores visible in downstream GECKO/sMOMENT runs.
+lowO2,high,coverage,Treat enzyme constraints as guidance; add broader absolute proteomics and curated kcat values before building a production ecGEM.
+lowO2,medium,reaction_capacity,"Few kcat priors have matching measured proteins through GPRs, so many reactions cannot receive direct enzyme bounds."
+lowO2,low,kcat_confidence,Mean kcat confidence is modest; keep source tiers and confidence scores visible in downstream GECKO/sMOMENT runs.

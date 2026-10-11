@@ -1,0 +1,2 @@
+condition_pair,reference_condition,target_condition,reference_solve_status,target_solve_status,expression_delta_count,upregulated_reaction_count,downregulated_reaction_count,direction_comparable_count,direction_agreement_count,direction_agreement_fraction,measured_delta_comparable_count,mean_abs_delta_residual,status
+highO2->lowO2,highO2,lowO2,optimal,optimal,0,0,0,0,0,,0,,no_large_expression_deltas

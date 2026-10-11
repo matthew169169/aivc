@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1.0",
+  "analysis_module": "fba_pfba",
+  "active_variant_id": "baseline_gem__all",
+  "active_generation_method": "baseline_gem",
+  "active_generation_method_label": "Baseline GEM",
+  "active_model_path": "D:\\generate\\user_runs\\synechocystis_spkb_case\\inputs\\model\\model__iJN678.xml",
+  "active_model_source": "uploaded_baseline_gem",
+  "output_dir": "D:\\generate\\user_runs\\synechocystis_spkb_case\\variant_cobra_results\\baseline_gem__all",
+  "status": "completed",
+  "message": "Completed FBA for 1 conditions.",
+  "parameters": {
+    "run_pfba": true,
+    "run_fva": false,
+    "fva_fraction_of_optimum": 0.95,
+    "objective_reaction_id": "",
+    "objective_direction": "max",
+    "fva_reaction_scope": "targets",
+    "loopless": false,
+    "pfba_factor": "",
+    "fva_processes": 1
+  }
+}

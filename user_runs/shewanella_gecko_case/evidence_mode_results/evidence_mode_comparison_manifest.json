@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "constraints_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints",
+  "modes": [
+    "transcriptomics",
+    "relative_proteomics",
+    "consensus",
+    "ml_derived"
+  ],
+  "summary_rows": 12,
+  "reaction_delta_rows": 0,
+  "files": {
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\evidence_mode_results\\evidence_mode_summary.csv",
+    "delta_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\evidence_mode_results\\evidence_mode_delta_summary.csv",
+    "reaction_deltas": "D:\\generate\\user_runs\\shewanella_gecko_case\\evidence_mode_results\\evidence_mode_reaction_deltas.csv",
+    "recommendations": "D:\\generate\\user_runs\\shewanella_gecko_case\\evidence_mode_results\\evidence_mode_recommendations.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\evidence_mode_results\\evidence_mode_comparison_manifest.json"
+  }
+}

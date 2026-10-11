@@ -1,0 +1,9 @@
+target_name,tier,readiness_label,status,reaction_id,interpretation_note
+acetate,A,ready_for_analysis,available,R_EX_cpd00029_e0,Validation target available for production/ecFactory-lite analysis.
+pyruvate,A,ready_for_analysis,available,R_EX_cpd00020_e0,Validation target available for production/ecFactory-lite analysis.
+formate,A,ready_for_analysis,available,R_EX_cpd00047_e0,Validation target available for production/ecFactory-lite analysis.
+riboflavin,B,guidance_only,target_candidate_missing_exchange,,Candidate remains guidance-only until a model exchange/demand/sink reaction is available.
+FMN,B,ready_for_analysis,available,R_EX_cpd00050_p0,High-value Shewanella/EET-related target; interpret production simulations with pathway and export caution.
+FAD,B,ready_for_analysis,available,R_EX_cpd00015_c0,High-value Shewanella/EET-related target; interpret production simulations with pathway and export caution.
+hydrogen,B,guidance_only,target_candidate_missing_exchange,,Candidate remains guidance-only until a model exchange/demand/sink reaction is available.
+succinate,C,ready_for_analysis,available,R_EX_cpd00036_e0,Validation target available for production/ecFactory-lite analysis.

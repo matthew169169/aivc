@@ -1,0 +1,5 @@
+reaction_id,cobra_reaction_id,reaction_name,grouping_mode,group_id,group_label,subsystem,compartment,selected_reaction,reactants,products
+R_DXPRIi,DXPRIi,1-deoxy-D-xylulose reductoisomerase,subsystem,unannotated,unannotated,unannotated,c,True,M_dxyl5p_c;M_h_c;M_nadph_c,M_2me4p_c;M_nadp_c
+R_PPM,PPM,Phosphopentomutase,subsystem,unannotated,unannotated,unannotated,c,True,M_r1p_c,M_r5p_c
+R_PGAMT,PGAMT,Phosphoglucosamine mutase,subsystem,unannotated,unannotated,unannotated,c,True,M_gam1p_c,M_gam6p_c
+R_PGMT,PGMT,Phosphoglucomutase,subsystem,unannotated,unannotated,unannotated,c,True,M_g1p_c,M_g6p_c

@@ -1,0 +1,4 @@
+condition,condition_group,ecmodel_status,external_run_status,adapter_missing_count,protein_count,mapped_protein_fraction,kcat_prior_count,mapped_kcat_prior_fraction,ready_capacity_fraction,enzyme_readiness,flux_delta_row_count,enzyme_usage_row_count,guidance
+Acetate,Acetate,gecko_package_ready,not_run,0,12110,0.3514450867052023,745,1.0,0.5140939597315436,prototype,0,0,GECKO package/readiness data are available; external ecModel reconstruction remains optional.
+Glucose,Glucose,gecko_package_ready,not_run,0,12110,0.3514450867052023,745,1.0,0.5140939597315436,prototype,0,0,GECKO package/readiness data are available; external ecModel reconstruction remains optional.
+Glucose + Acetate,Glucose + Acetate,gecko_package_ready,not_run,0,10380,0.3514450867052023,745,1.0,0.5140939597315436,prototype,0,0,GECKO package/readiness data are available; external ecModel reconstruction remains optional.

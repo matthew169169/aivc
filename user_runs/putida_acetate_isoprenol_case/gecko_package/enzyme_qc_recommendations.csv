@@ -1,0 +1,4 @@
+condition,severity,topic,recommendation
+Acetate,low,kcat_confidence,Mean kcat confidence is modest; keep source tiers and confidence scores visible in downstream GECKO/sMOMENT runs.
+Glucose,low,kcat_confidence,Mean kcat confidence is modest; keep source tiers and confidence scores visible in downstream GECKO/sMOMENT runs.
+Glucose + Acetate,low,kcat_confidence,Mean kcat confidence is modest; keep source tiers and confidence scores visible in downstream GECKO/sMOMENT runs.

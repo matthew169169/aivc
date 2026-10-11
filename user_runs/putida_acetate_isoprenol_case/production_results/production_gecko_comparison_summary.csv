@@ -1,0 +1,2 @@
+status,gecko_export_status,gecko_external_status,cobra_product_count,cobra_design_count,cobra_gene_target_count,gecko_target_result_count,gecko_design_result_count,supported_design_count,conflict_design_count,cobra_only_design_count,guidance
+no_cobra_production_results,missing,not_available,0,0,0,0,0,0,0,0,No COBRApy production design outputs were found for comparison.

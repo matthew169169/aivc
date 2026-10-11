@@ -1,0 +1,2 @@
+status,message,package_dir,adapter_file,return_code
+probe_passed,GECKO adapter probe passed.,D:\generate\user_runs\shewanella_gecko_case\gecko_package,D:\generate\user_runs\shewanella_gecko_case\gecko_package\ShewanellaGeckoAdapter.m,0

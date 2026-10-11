@@ -1,0 +1,28 @@
+step_index,step_id,label,status,message,optional,return_code,elapsed_seconds
+1,input_check,input_check,completed,Located staged model and prepared condition exchange bounds.,False,,
+2,id_mapping,Review uploaded identifier mapping,completed,"ID mapping review completed: mapped=18, alias_mapped=0, checked=43064, inputs=5. Indexed model identifiers: reactions=2094, metabolites=1823, genes=1162.",False,,1.609
+3,model_qc,Run lightweight model QC,completed,Completed model QC.,False,,3.278
+4,uniprot_model_check,Run local UniProt / GPR model check,completed,"UniProt/GPR model check completed: genes=1162, reactions=2094, high_risk=928.",False,,1.456
+5,dlkcat_bridge,Prepare DLKcat kcat prediction bridge,completed,DLKcat bridge completed: 0/9092 queries ready; 0 predictions mapped.,False,,1.21
+6,dlkcat_external_run,Optionally run external GECKO/DLKcat prediction,skipped,External GECKO/DLKcat execution is disabled; staged input only.,False,,0.06
+7,kcat_prior_merge,Merge kcat priors and DLKcat predictions,completed,Merged 8190 kcat candidates into 1116 selected priors.,False,,0.536
+8,enzyme_gecko_export,Generate enzyme-capacity / GECKO-ready model variant,completed,Built enzyme-capacity inputs for 2 conditions. Exported GECKO input package with 16 files.,False,,0.867
+9,transcriptomics_flux,Run custom transcriptomics E-Flux,completed,Completed E-Flux for 2 conditions and delta-FBA-lite for 1 condition pairs.,False,,3.976
+10,troppo_fastcore,Generate TROPPO FASTcore context model variant,not_selected,TROPPO FASTcore model generation was not selected.,False,,
+11,ml_feature_matrix,Build ML + GEM feature matrix,completed,Built ML feature matrix with 2 condition rows and 8919 feature columns.,False,,0.331
+12,ml_analysis,Run selected ML PCA / LASSO-lite analysis,completed_no_correlations,ML analysis found no target/candidate feature pairs with enough overlapping numeric values.,False,,22.155
+13,evidence_mode_comparison,Generate / compare consensus evidence model variants,completed,Compared 4 evidence modes; found 0 changed reaction rows.,False,,1.893
+14,context_model_artifacts,Build standardized context model artifact packages,completed,Report written to D:\generate\user_runs\shewanella_gecko_case\workflow_results\context_model_artifact_summary.csv,False,,0.006
+15,model_variant_registry,Register generated model variants for downstream analysis,completed,Report written to D:\generate\user_runs\shewanella_gecko_case\workflow_results\model_variant_registry.csv,False,,0.036
+16,analysis_variant_context,Resolve active model variant for selected analyses,completed,Report written to D:\generate\user_runs\shewanella_gecko_case\workflow_results\analysis_variant_context.csv,False,,0.0
+17,cobra,Run selected variant FBA / pFBA analysis,completed,Batch FBA/pFBA results: baseline_gem__all: completed,False,,2.427
+18,condition_interpretation,Build condition-level interpretation dashboard,completed,Built condition interpretation for 2 conditions.,False,,0.002
+19,minn_export,"Export selected MINN-style graph, feature tensor, and labels",not_selected,minn_export analysis was not selected.,False,,
+20,production_analysis,Run selected Production Analysis / ecFactory-lite,completed,Completed production analysis for 6 product target rows.,False,,8.472
+21,production_gecko_bridge,Compare production targets with GECKO / ecFactory outputs,completed,"GECKO package/run is staged (not_available), but no enzyme-constrained production results are available yet.",False,,0.025
+22,production_readiness_gate,Grade production targets with semantic and enzyme-constrained evidence,completed,Readiness gate completed with 100 review-required rows; inspect these before prioritization.,False,,0.104
+23,readiness_hybrid_export,Export readiness-aware ML/GEM hybrid target priors,not_selected,hybrid_minn analysis was not selected.,False,,
+24,lightweight_hybrid_runner,Run selected lightweight ML/GEM hybrid baseline scorer,not_selected,hybrid_minn analysis was not selected.,False,,
+25,hybrid_graph_adapter,Build selected PyG/DGL hybrid graph adapter dry-run package,not_selected,hybrid_graph_adapter analysis was not selected.,False,,
+26,variant_comparison,Build multi-variant comparison tables,completed,Compared 8 model variant(s).,False,,0.004
+27,report,Build selected report bundle,completed,Built legacy report D:\generate\user_runs\shewanella_gecko_case\cobra_results\report.html and selected report bundle D:\generate\user_runs\shewanella_gecko_case\report_results\full_audit_report.html.,False,,0.782

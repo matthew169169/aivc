@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Open SAMMI-compatible package</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; color: #17233b; }
+    code, pre { background: #f4f7fb; border-radius: 6px; padding: 2px 6px; }
+    pre { padding: 16px; overflow: auto; }
+  </style>
+</head>
+<body>
+  <h1>Open with external SAMMI</h1>
+  <p>Omics-GEM Router generated a SAMMI-compatible package for variant <code>baseline_gem__all</code>.</p>
+  <p>Grouping mode: <code>subsystem</code>; overlay source: <code>none</code> (not_selected).</p>
+  <p>No local SAMMI assets are configured. This package uses <strong>external_open_mode</strong>.</p>
+  <h2>Recommended steps</h2>
+  <ol>
+    <li>Open <a href="https://bioinformatics.mdanderson.org/Software/SAMMI/">SAMMI web app</a> or a local standalone SAMMI copy.</li>
+    <li>Use <strong>Load Single SBML Model</strong> with the model path recorded in the manifest.</li>
+    <li>Use <code>subsystem_reaction_assignment.csv</code> to focus the map by subsystem or selected reactions.</li>
+    <li>Use <code>overlay_data.csv</code> for flux/evidence/warning/production overlays after conversion support is available.</li>
+  </ol>
+  <h2>Package files</h2>
+  <table border="1" cellspacing="0" cellpadding="6">
+    <thead><tr><th>Role</th><th>File</th></tr></thead>
+    <tbody><tr><td>reaction_assignment</td><td><code>subsystem_reaction_assignment.csv</code></td></tr>
+<tr><td>group_summary</td><td><code>subsystem_summary.csv</code></td></tr>
+<tr><td>overlay</td><td><code>overlay_data.csv</code></td></tr>
+<tr><td>overlay_summary</td><td><code>overlay_summary.csv</code></td></tr>
+<tr><td>portable_package</td><td><code>sammi_map_package.json</code></td></tr>
+<tr><td>manifest</td><td><code>sammi_package_manifest.json</code></td></tr>
+<tr><td>assets_status</td><td><code>sammi_assets_status.csv</code></td></tr>
+<tr><td>external_open_readme</td><td><code>standalone_readme.html</code></td></tr>
+<tr><td>launch_page</td><td><code>sammi_launch.html</code></td></tr></tbody>
+  </table>
+  <h2>Package Manifest</h2>
+  <pre>{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "SAMMI-compatible visualization package generated.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none",
+  "variant_id": "baseline_gem__all",
+  "generation_method": "baseline_gem",
+  "generation_status": "generated",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "overlay_status": "not_selected",
+  "reaction_count": 9,
+  "group_count": 1,
+  "overlay_count": 0,
+  "overlay_summary_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\overlay_summary.csv",
+  "overlay_matched_reaction_count": 0,
+  "overlay_unmatched_reaction_count": 0,
+  "overlay_warning_count": 0,
+  "overlay_missing_reason": "overlay_not_selected",
+  "overlay_source_file": "",
+  "overlay_source_status": "not_selected",
+  "top_highlighted_reactions": "",
+  "warning_reactions": "",
+  "selected_reaction_count": 36,
+  "filter_status": "ok",
+  "filter_has_reaction_filter": true,
+  "filter_raw_reaction_ids": "R00289;R00847;R00851;R01036;R01039;R01514;R01752;R02240;R02241;R_rxn00213_c0;R_rxn00615_c0;R_rxn00763_c0;R_rxn00764_c0;R_rxn01102_c0;R_rxn01286_c0;R_rxn05901_c0;R_rxn06139_c0;R_rxn06140_c0;rxn00213_c0;rxn00615_c0;rxn00763_c0;rxn00764_c0;rxn01102_c0;rxn01286_c0;rxn05901_c0;rxn06139_c0;rxn06140_c0",
+  "filter_matched_reaction_ids": "R_rxn00213_c0;R_rxn00615_c0;R_rxn00763_c0;R_rxn00764_c0;R_rxn01102_c0;R_rxn01286_c0;R_rxn05901_c0;R_rxn06139_c0;R_rxn06140_c0",
+  "filter_missing_reaction_ids": "R00289;R00847;R00851;R01036;R01039;R01514;R01752;R02240;R02241",
+  "filter_suggested_reactions": "R_rxn01102_c0;R_rxn00213_c0;R_rxn00615_c0;R_rxn00763_c0;R_rxn01286_c0;R_rxn06139_c0;R_rxn06140_c0;R_rxn05901_c0",
+  "sammi_strategy": "standalone browser app / SAMMI-compatible package",
+  "sammi_resource_policy": "vendored_assets_configured",
+  "sammi_open_mode": "vendored_local_shell",
+  "sammi_vendoring_status": "vendored_assets_available",
+  "sammi_license": "GPL >=3",
+  "sammi_resource_source": "SAMMI standalone browser app / MD Anderson public software",
+  "sammi_standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+  "sammi_local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+  "sammi_local_assets_available": true,
+  "sammi_vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+  "sammi_vendor_distribution_mode": "vendored_local_assets",
+  "sammi_requires_user_config": false,
+  "package_files": [
+    {
+      "role": "reaction_assignment",
+      "file": "subsystem_reaction_assignment.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\subsystem_reaction_assignment.csv"
+    },
+    {
+      "role": "group_summary",
+      "file": "subsystem_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\subsystem_summary.csv"
+    },
+    {
+      "role": "overlay",
+      "file": "overlay_data.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\overlay_data.csv"
+    },
+    {
+      "role": "overlay_summary",
+      "file": "overlay_summary.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\overlay_summary.csv"
+    },
+    {
+      "role": "portable_package",
+      "file": "sammi_map_package.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\sammi_map_package.json"
+    },
+    {
+      "role": "manifest",
+      "file": "sammi_package_manifest.json",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\sammi_package_manifest.json"
+    },
+    {
+      "role": "assets_status",
+      "file": "sammi_assets_status.csv",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\sammi_assets_status.csv"
+    },
+    {
+      "role": "external_open_readme",
+      "file": "standalone_readme.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\standalone_readme.html"
+    },
+    {
+      "role": "launch_page",
+      "file": "sammi_launch.html",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\baseline_gem__all\\kegg_pathway\\rn00561\\none\\sammi_launch.html"
+    }
+  ],
+  "requires_sammipy": false,
+  "requires_sammim": false
+}</pre>
+</body>
+</html>

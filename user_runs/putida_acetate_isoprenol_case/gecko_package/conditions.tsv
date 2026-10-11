@@ -1,0 +1,4 @@
+condition	enzyme_readiness	protein_count	ready_capacity_fraction	mean_kcat_confidence
+Acetate	prototype	12110	0.5140939597315436	0.6484563758389261
+Glucose	prototype	12110	0.5140939597315436	0.6484563758389261
+Glucose + Acetate	prototype	10380	0.5140939597315436	0.6484563758389261

@@ -1,0 +1,3 @@
+condition,condition_group,status,protein_count,mapped_protein_fraction,kcat_prior_count,mapped_kcat_prior_fraction,capacity_reaction_count,ready_capacity_fraction,exceeds_capacity_count,enzyme_readiness,guidance
+highO2,highO2,partial,5066,0.0,1116,0.0,0,,0,insufficient,Proteomics/kcat mapping is insufficient; treat GECKO-ready output as package/readiness evidence rather than completed ecModel behavior.
+lowO2,lowO2,partial,4887,0.0,1116,0.0,0,,0,insufficient,Proteomics/kcat mapping is insufficient; treat GECKO-ready output as package/readiness evidence rather than completed ecModel behavior.

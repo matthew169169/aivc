@@ -1,0 +1,29 @@
+condition,condition_group,metric_key,metric_label,metric_category,value,abs_value,status,guidance
+Taylor_20pctO2_relaxed,highO2,objective_value,Growth objective,growth,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_20pctO2_relaxed,highO2,oxygen_pfba_flux,O2 uptake,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_20pctO2_relaxed,highO2,co2_pfba_flux,CO2 secretion,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_20pctO2_relaxed,highO2,acetate_flux,Acetate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_20pctO2_relaxed,highO2,formate_flux,Formate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_20pctO2_relaxed,highO2,pyruvate_flux,Pyruvate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_20pctO2_relaxed,highO2,succinate_flux,Succinate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,objective_value,Growth objective,growth,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,oxygen_pfba_flux,O2 uptake,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,co2_pfba_flux,CO2 secretion,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,acetate_flux,Acetate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,formate_flux,Formate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,pyruvate_flux,Pyruvate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,succinate_flux,Succinate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_relaxed,lowO2,objective_value,Growth objective,growth,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_relaxed,lowO2,oxygen_pfba_flux,O2 uptake,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_relaxed,lowO2,co2_pfba_flux,CO2 secretion,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_relaxed,lowO2,acetate_flux,Acetate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_relaxed,lowO2,formate_flux,Formate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_relaxed,lowO2,pyruvate_flux,Pyruvate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+Taylor_8p5pctO2_relaxed,lowO2,succinate_flux,Succinate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,objective_value,Growth objective,growth,0.104371,0.104371,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,oxygen_pfba_flux,O2 uptake,exchange,-12.9378,12.9378,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,co2_pfba_flux,CO2 secretion,exchange,14.8758,14.8758,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,acetate_flux,Acetate,byproduct,2.57537e-14,2.57537e-14,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,formate_flux,Formate,byproduct,0,0,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,pyruvate_flux,Pyruvate,byproduct,0,0,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,succinate_flux,Succinate,byproduct,0,0,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.

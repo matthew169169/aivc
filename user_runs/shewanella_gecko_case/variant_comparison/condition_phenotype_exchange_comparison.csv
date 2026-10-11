@@ -1,0 +1,5 @@
+condition,condition_group,status,fba_status,objective_value,oxygen_lower_bound,oxygen_pfba_flux,co2_pfba_flux,substrate_lower_bound,acetate_flux,formate_flux,pyruvate_flux,succinate_flux,production_target_count,exchange_bound_count,guidance
+Taylor_20pctO2_relaxed,highO2,ready,missing,,-10.0,,,-20.0,,,,,0,7,Compare highO2/lowO2 as oxygen-condition behavior; do not interpret these rows as voltage conditions.
+Taylor_8p5pctO2_Pinchuk_fluxes,lowO2,ready,missing,,-4.25,,,,,,,,0,7,Compare highO2/lowO2 as oxygen-condition behavior; do not interpret these rows as voltage conditions.
+Taylor_8p5pctO2_relaxed,lowO2,ready,missing,,-4.25,,,-20.0,,,,,0,7,Compare highO2/lowO2 as oxygen-condition behavior; do not interpret these rows as voltage conditions.
+default,default,ready,optimal,0.10437123490625141,,-12.9378,14.8758,,2.57537e-14,0,0,0,6,0,Compare highO2/lowO2 as oxygen-condition behavior; do not interpret these rows as voltage conditions.

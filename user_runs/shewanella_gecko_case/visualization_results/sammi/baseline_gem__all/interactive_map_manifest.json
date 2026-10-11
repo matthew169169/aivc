@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "Interactive reaction network graph generated.",
+  "variant_id": "baseline_gem__all",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\baseline_gem__all",
+  "source_sammi_manifest_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\baseline_gem__all\\sammi_package_manifest.json",
+  "source_overlay_status": "available",
+  "files": {
+    "graph": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\baseline_gem__all\\network_graph.json",
+    "html": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\baseline_gem__all\\interactive_map.html",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\baseline_gem__all\\interactive_map_manifest.json",
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\sammi\\baseline_gem__all\\interactive_map_summary.csv"
+  },
+  "summary": {
+    "status": "completed",
+    "message": "Interactive reaction network graph generated.",
+    "reaction_count_available": 2094,
+    "reaction_count_rendered": 80,
+    "metabolite_count_rendered": 197,
+    "node_count": 277,
+    "link_count": 377,
+    "overlay_count_available": 4188,
+    "warning_count": 0,
+    "production_candidate_count": 0,
+    "ko_candidate_count": 0,
+    "kd_candidate_count": 0,
+    "oe_candidate_count": 0,
+    "top_production_reactions": "",
+    "production_warning_reactions": "",
+    "needs_filtering": false
+  }
+}

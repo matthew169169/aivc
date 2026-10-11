@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "package_schema_version": "0.1",
+  "model_id": "iJN1463",
+  "gecko_target": "GECKO-ready P. putida acetate/isoprenol package",
+  "ec_model_mode": "full_ecModel",
+  "adapter_status": "ready",
+  "adapter_message": "GECKO adapter config is ready for MATLAB probe.",
+  "source_files": {
+    "model_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+    "protein_abundance_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\protein_abundance.csv",
+    "kcat_priors_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\kcat_priors.csv",
+    "enzyme_results_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results"
+  },
+  "unit_assumptions": {
+    "protein_abundance": "mmol_per_gDW",
+    "kcat": "per_s",
+    "capacity": "mmol_per_gDW_per_h"
+  },
+  "conditions": [
+    "Acetate",
+    "Glucose",
+    "Glucose + Acetate"
+  ],
+  "adapter_config": {
+    "schema_version": "0.1",
+    "ec_model_mode": "full_ecModel",
+    "adapter_class_name": "PputidaAcetateGeckoAdapter",
+    "model_id": "putida_acetate_isoprenol_mixed_carbon",
+    "conv_gem_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+    "organism_name": "Pseudomonas putida KT2440",
+    "kegg_id": "ppu",
+    "kegg_gene_id": "kegg",
+    "uniprot_type": "taxonomy",
+    "uniprot_id": "160488",
+    "uniprot_gene_id_field": "gene_oln",
+    "uniprot_reviewed": false,
+    "complex_taxonomic_id": "",
+    "bio_rxn": "R_BIOMASS_KT2440_WT3",
+    "c_source": "R_EX_glc__D_e",
+    "enzyme_comp": "cytoplasm",
+    "sigma": 0.5,
+    "Ptot": 0.5,
+    "f": 0.5,
+    "gR_exp": 0.1,
+    "c_UptakeExp": "",
+    "spontaneous_reaction_strategy": "rxn_name_contains_spontaneous",
+    "spontaneous_reactions_file": "",
+    "pseudo_rxns_file": "",
+    "custom_kcats_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\kcat_priors.csv",
+    "uniprot_conversion_file": "",
+    "proteomics_integration": true
+  },
+  "adapter_readiness": {
+    "status": "ready",
+    "message": "GECKO adapter config is ready for MATLAB probe.",
+    "missing_required": [],
+    "warnings": [],
+    "missing_optional_files": [],
+    "rows": [
+      {
+        "check": "required_field",
+        "item": "bio_rxn",
+        "status": "ok"
+      },
+      {
+        "check": "required_field",
+        "item": "c_source",
+        "status": "ok"
+      },
+      {
+        "check": "required_field",
+        "item": "enzyme_comp",
+        "status": "ok"
+      }
+    ]
+  },
+  "files": {
+    "model": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\model.xml",
+    "protein_abundance": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\protein_abundance.tsv",
+    "kcat_table": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\kcat_table.tsv",
+    "conditions": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\conditions.tsv",
+    "reaction_enzyme_capacity": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\reaction_enzyme_capacity.csv",
+    "enzyme_qc_summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\enzyme_qc_summary.csv",
+    "enzyme_qc_recommendations": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\enzyme_qc_recommendations.csv",
+    "protocol_template": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\protocol_template.m",
+    "adapter_config": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\gecko_adapter_config.json",
+    "adapter_summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\gecko_adapter_summary.csv",
+    "adapter_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\generated_adapter.m",
+    "class_adapter_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\PputidaAcetateGeckoAdapter.m",
+    "protocol_config": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\gecko_protocol_config.json",
+    "adapter_readiness": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\gecko_adapter_readiness.csv",
+    "readme": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\README.md",
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\gecko_export_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\gecko_package\\gecko_export_manifest.json"
+  }
+}

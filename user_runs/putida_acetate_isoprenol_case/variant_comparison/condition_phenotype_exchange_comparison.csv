@@ -1,0 +1,2 @@
+condition,condition_group,status,fba_status,objective_value,oxygen_lower_bound,oxygen_pfba_flux,co2_pfba_flux,substrate_lower_bound,acetate_flux,formate_flux,pyruvate_flux,succinate_flux,production_target_count,exchange_bound_count,guidance
+default,default,ready,optimal,0.586117544847982,,-0.975893,,,,,,,0,0,Compare highO2/lowO2 as oxygen-condition behavior; do not interpret these rows as voltage conditions.

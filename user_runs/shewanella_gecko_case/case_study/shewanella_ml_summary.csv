@@ -1,0 +1,4 @@
+analysis,status,input_rows,interpretation
+PCA,input_ready,9953,Descriptive separation of highO2 and lowO2 samples.
+clustering,input_ready,9953,Exploratory grouping of protein or subsystem features.
+LASSO-lite,exploratory_only,2391,Marker ranking for oxygen condition; not causal inference.

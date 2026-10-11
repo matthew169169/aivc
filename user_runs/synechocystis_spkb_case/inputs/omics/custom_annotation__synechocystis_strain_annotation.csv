@@ -1,0 +1,16 @@
+strain_id,feature,resistance,wild_type_background,reference,custom_group,source_sheet
+WT(M),Synechocystis sp. PCC 6803,-,M,"Rippka et al., 1979",strain_metadata,Table S3
+WT(F),Synechocystis sp. PCC 6803M,-,F,"Trautmann et al., 2012",strain_metadata,Table S3
+ΔspkA,deletion in sll1575,Km,M,Bédu; Aix-Marseille Université,strain_metadata,Table S3
+ΔspkB,insertion in slr1697,Km,M,Bédu; Aix-Marseille Université,strain_metadata,Table S3
+ΔspkC,deletion in slr0599,Km,F,Bédu; Aix-Marseille Université,strain_metadata,Table S3
+ΔspkD,deletion in sll0776,Gm,M,this study,strain_metadata,Table S3
+ΔspkE,deletion in slr1443,Km,M,Bédu; Aix-Marseille Université,strain_metadata,Table S3
+ΔspkF,deletion in slr1225,Km,F,this study,strain_metadata,Table S3
+ΔspkG,insertion in slr0152,Sp,M,Bédu; Aix-Marseille Université,strain_metadata,Table S3
+ΔspkH,deletion in sll0005,Km,F,this study,strain_metadata,Table S3
+ΔspkI,deletion in sll1770,Km,F,this study,strain_metadata,Table S3
+ΔspkJ,deletion in slr0889,Km,F,this study,strain_metadata,Table S3
+ΔspkK,deletion in slr1919,Km,F,this study,strain_metadata,Table S3
+ΔspkL,deletion in sll0095,Km,F,this study,strain_metadata,Table S3
+ΔspkBC,complementation of Δslr1697,Km/Sp,M,this study,strain_metadata,Table S3

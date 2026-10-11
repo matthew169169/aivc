@@ -1,0 +1,6569 @@
+{
+  "schema_version": "0.1.0",
+  "format": "omics_gem_interactive_network_graph",
+  "status": "completed",
+  "message": "Interactive reaction network graph generated.",
+  "variant_id": "eflux__higho2",
+  "generation_method": "eflux",
+  "grouping_mode": "subsystem",
+  "overlay_semantic_types": [
+    "enzyme_capacity"
+  ],
+  "filters": {
+    "reaction_filter": [],
+    "subsystem_filter": [],
+    "top_n": 80,
+    "include_currency_metabolites": false,
+    "max_nodes": 900,
+    "max_links": 1800
+  },
+  "legend": [
+    {
+      "semantic_type": "enzyme_capacity",
+      "label": "enzyme capacity",
+      "color": "#0f9f9a"
+    },
+    {
+      "semantic_type": "metabolite",
+      "label": "metabolite",
+      "color": "#64748b"
+    },
+    {
+      "semantic_type": "reaction",
+      "label": "reaction",
+      "color": "#2563eb"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "R_rxn11962_c0",
+      "label": "rxn11962_c0",
+      "name": "R02670_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00007_c0;M_cpd00483_c0",
+      "products": "M_cpd00025_c0;M_cpd00067_c0;M_cpd00532_c0;M_cpd03351_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "152695.4405",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 5.4,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "152695.4405",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00007_c0",
+      "label": "cpd00007_c0",
+      "name": "M_cpd00007_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00483_c0",
+      "label": "cpd00483_c0",
+      "name": "M_cpd00483_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00025_c0",
+      "label": "cpd00025_c0",
+      "name": "M_cpd00025_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00067_c0",
+      "label": "cpd00067_c0",
+      "name": "M_cpd00067_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00532_c0",
+      "label": "cpd00532_c0",
+      "name": "M_cpd00532_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03351_c0",
+      "label": "cpd03351_c0",
+      "name": "M_cpd03351_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00441_c0",
+      "label": "rxn00441_c0",
+      "name": "R00621_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00024_c0;M_cpd00056_c0;M_cpd00067_c0",
+      "products": "M_cpd00011_c0;M_cpd03189_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "33.3039",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 3.324,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "33.3039",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00024_c0",
+      "label": "cpd00024_c0",
+      "name": "M_cpd00024_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00056_c0",
+      "label": "cpd00056_c0",
+      "name": "M_cpd00056_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00011_c0",
+      "label": "cpd00011_c0",
+      "name": "M_cpd00011_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03189_c0",
+      "label": "cpd03189_c0",
+      "name": "M_cpd03189_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn07434_c0",
+      "label": "rxn07434_c0",
+      "name": "R07603_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00056_c0;M_cpd00067_c0;M_cpd00508_c0",
+      "products": "M_cpd00011_c0;M_cpd14702_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "29.6038",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 3.214,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "29.6038",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00508_c0",
+      "label": "cpd00508_c0",
+      "name": "M_cpd00508_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd14702_c0",
+      "label": "cpd14702_c0",
+      "name": "M_cpd14702_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn07430_c0",
+      "label": "rxn07430_c0",
+      "name": "R07599_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00056_c0;M_cpd00067_c0;M_cpd00123_c0",
+      "products": "M_cpd00011_c0;M_cpd14700_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "29.6038",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 3.214,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "29.6038",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00123_c0",
+      "label": "cpd00123_c0",
+      "name": "M_cpd00123_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd14700_c0",
+      "label": "cpd14700_c0",
+      "name": "M_cpd14700_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn07432_c0",
+      "label": "rxn07432_c0",
+      "name": "R07601_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00056_c0;M_cpd00067_c0;M_cpd00200_c0",
+      "products": "M_cpd00011_c0;M_cpd14698_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "29.6038",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 3.214,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "29.6038",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00200_c0",
+      "label": "cpd00200_c0",
+      "name": "M_cpd00200_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd14698_c0",
+      "label": "cpd14698_c0",
+      "name": "M_cpd14698_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05116_c0",
+      "label": "rxn05116_c0",
+      "name": "R07406_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00067_c0;M_cpd04539_c0",
+      "products": "M_cpd00011_c0;M_cpd08449_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "22.5216",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.982,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "22.5216",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd04539_c0",
+      "label": "cpd04539_c0",
+      "name": "M_cpd04539_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd08449_c0",
+      "label": "cpd08449_c0",
+      "name": "M_cpd08449_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05124_c0",
+      "label": "rxn05124_c0",
+      "name": "R07415",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00007_c0;M_cpd11340_c0",
+      "products": "M_cpd00013_c0;M_cpd00025_c0;M_cpd11341_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "17.7126",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.803,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "17.7126",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00001_c0",
+      "label": "cpd00001_c0",
+      "name": "M_cpd00001_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11340_c0",
+      "label": "cpd11340_c0",
+      "name": "M_cpd11340_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00013_c0",
+      "label": "cpd00013_c0",
+      "name": "M_cpd00013_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11341_c0",
+      "label": "cpd11341_c0",
+      "name": "M_cpd11341_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn02342_c0",
+      "label": "rxn02342_c0",
+      "name": "R03270_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00213_c0;M_cpd03049_c0",
+      "products": "M_cpd00056_c0;M_cpd00836_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "12.0483",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.557,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "12.0483",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00213_c0",
+      "label": "cpd00213_c0",
+      "name": "M_cpd00213_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03049_c0",
+      "label": "cpd03049_c0",
+      "name": "M_cpd03049_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00836_c0",
+      "label": "cpd00836_c0",
+      "name": "M_cpd00836_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn01987_c0",
+      "label": "rxn01987_c0",
+      "name": "R02750_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00008_c0;M_cpd00067_c0;M_cpd00510_c0",
+      "products": "M_cpd00002_c0;M_cpd01242_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "10.039",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.456,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "10.039",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00008_c0",
+      "label": "cpd00008_c0",
+      "name": "M_cpd00008_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00510_c0",
+      "label": "cpd00510_c0",
+      "name": "M_cpd00510_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00002_c0",
+      "label": "cpd00002_c0",
+      "name": "M_cpd00002_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd01242_c0",
+      "label": "cpd01242_c0",
+      "name": "M_cpd01242_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03005_c0",
+      "label": "rxn03005_c0",
+      "name": "R04326_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00067_c0;M_cpd00087_c0;M_cpd02678_c0",
+      "products": "M_cpd00001_c0;M_cpd00347_c0;M_cpd02394_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "7.2882",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.3,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "7.2882",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00087_c0",
+      "label": "cpd00087_c0",
+      "name": "M_cpd00087_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02678_c0",
+      "label": "cpd02678_c0",
+      "name": "M_cpd02678_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00347_c0",
+      "label": "cpd00347_c0",
+      "name": "M_cpd00347_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02394_c0",
+      "label": "cpd02394_c0",
+      "name": "M_cpd02394_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03839_c0",
+      "label": "rxn03839_c0",
+      "name": "R05551_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd01150_c0",
+      "products": "M_cpd00013_c0;M_cpd00400_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "6.1029",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.223,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "6.1029",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd01150_c0",
+      "label": "cpd01150_c0",
+      "name": "M_cpd01150_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00400_c0",
+      "label": "cpd00400_c0",
+      "name": "M_cpd00400_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03540_c0",
+      "label": "rxn03540_c0",
+      "name": "R05225_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00002_c0;M_cpd00053_c0;M_cpd03916_c0",
+      "products": "M_cpd00008_c0;M_cpd00009_c0;M_cpd00023_c0;M_cpd00067_c0;M_cpd03917_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "5.85",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.206,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "5.85",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00053_c0",
+      "label": "cpd00053_c0",
+      "name": "M_cpd00053_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03916_c0",
+      "label": "cpd03916_c0",
+      "name": "M_cpd03916_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00009_c0",
+      "label": "cpd00009_c0",
+      "name": "M_cpd00009_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00023_c0",
+      "label": "cpd00023_c0",
+      "name": "M_cpd00023_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03917_c0",
+      "label": "cpd03917_c0",
+      "name": "M_cpd03917_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn08352_c0",
+      "label": "rxn08352_c0",
+      "name": "R08210_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00004_c0;M_cpd00067_c0;M_cpd08615_c0",
+      "products": "M_cpd00001_c0;M_cpd00003_c0;M_cpd00202_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "5.1337",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.155,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "5.1337",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00004_c0",
+      "label": "cpd00004_c0",
+      "name": "M_cpd00004_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd08615_c0",
+      "label": "cpd08615_c0",
+      "name": "M_cpd08615_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00003_c0",
+      "label": "cpd00003_c0",
+      "name": "M_cpd00003_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00202_c0",
+      "label": "cpd00202_c0",
+      "name": "M_cpd00202_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05127_c0",
+      "label": "rxn05127_c0",
+      "name": "R07418_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00006_c0;M_cpd11341_c0",
+      "products": "M_cpd00005_c0;M_cpd00067_c0;M_cpd11408_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "4.8749",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.136,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "4.8749",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00006_c0",
+      "label": "cpd00006_c0",
+      "name": "M_cpd00006_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00005_c0",
+      "label": "cpd00005_c0",
+      "name": "M_cpd00005_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11408_c0",
+      "label": "cpd11408_c0",
+      "name": "M_cpd11408_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05126_c0",
+      "label": "rxn05126_c0",
+      "name": "R07417_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00003_c0;M_cpd11341_c0",
+      "products": "M_cpd00004_c0;M_cpd00067_c0;M_cpd11408_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "4.8749",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.136,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "4.8749",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "R_rxn01816_c0",
+      "label": "rxn01816_c0",
+      "name": "R02508_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00036_c0;M_cpd00067_c0;M_cpd00424_c0",
+      "products": "M_cpd00084_c0;M_cpd00822_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "4.6667",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.12,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "4.6667",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00036_c0",
+      "label": "cpd00036_c0",
+      "name": "M_cpd00036_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00424_c0",
+      "label": "cpd00424_c0",
+      "name": "M_cpd00424_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00084_c0",
+      "label": "cpd00084_c0",
+      "name": "M_cpd00084_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00822_c0",
+      "label": "cpd00822_c0",
+      "name": "M_cpd00822_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03537_c0",
+      "label": "rxn03537_c0",
+      "name": "R05222_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00038_c0;M_cpd03919_c0",
+      "products": "M_cpd00012_c0;M_cpd03920_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "4.6344",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.118,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "4.6344",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00038_c0",
+      "label": "cpd00038_c0",
+      "name": "M_cpd00038_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03919_c0",
+      "label": "cpd03919_c0",
+      "name": "M_cpd03919_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00012_c0",
+      "label": "cpd00012_c0",
+      "name": "M_cpd00012_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03920_c0",
+      "label": "cpd03920_c0",
+      "name": "M_cpd03920_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn07435_c0",
+      "label": "rxn07435_c0",
+      "name": "R07604_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00213_c0;M_cpd14702_c0",
+      "products": "M_cpd00056_c0;M_cpd14703_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "4.0435",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.07,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "4.0435",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd14703_c0",
+      "label": "cpd14703_c0",
+      "name": "M_cpd14703_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn07431_c0",
+      "label": "rxn07431_c0",
+      "name": "R07600_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00213_c0;M_cpd14700_c0",
+      "products": "M_cpd00056_c0;M_cpd02700_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "3.7202",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.043,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "3.7202",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd02700_c0",
+      "label": "cpd02700_c0",
+      "name": "M_cpd02700_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn07433_c0",
+      "label": "rxn07433_c0",
+      "name": "R07602_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00213_c0;M_cpd14698_c0",
+      "products": "M_cpd00056_c0;M_cpd00067_c0;M_cpd14699_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "3.7202",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.043,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "3.7202",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd14699_c0",
+      "label": "cpd14699_c0",
+      "name": "M_cpd14699_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03150_c0",
+      "label": "rxn03150_c0",
+      "name": "R04594_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd02904_c0",
+      "products": "M_cpd00009_c0;M_cpd03423_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "3.5891",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.031,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "3.5891",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd02904_c0",
+      "label": "cpd02904_c0",
+      "name": "M_cpd02904_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03423_c0",
+      "label": "cpd03423_c0",
+      "name": "M_cpd03423_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03135_c0",
+      "label": "rxn03135_c0",
+      "name": "R04558_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00053_c0;M_cpd02991_c0",
+      "products": "M_cpd00023_c0;M_cpd00067_c0;M_cpd02843_c0;M_cpd02851_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "3.5563",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.029,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "3.5563",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd02991_c0",
+      "label": "cpd02991_c0",
+      "name": "M_cpd02991_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02843_c0",
+      "label": "cpd02843_c0",
+      "name": "M_cpd02843_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02851_c0",
+      "label": "cpd02851_c0",
+      "name": "M_cpd02851_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn02376_c0",
+      "label": "rxn02376_c0",
+      "name": "R03316_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00213_c0;M_cpd03189_c0",
+      "products": "M_cpd00056_c0;M_cpd00860_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "2.9079",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 1.968,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "2.9079",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00860_c0",
+      "label": "cpd00860_c0",
+      "name": "M_cpd00860_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05039_c0",
+      "label": "rxn05039_c0",
+      "name": "R07280_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd02720_c0",
+      "products": "M_cpd00009_c0;M_cpd02882_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "2.639",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 1.941,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "2.639",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd02720_c0",
+      "label": "cpd02720_c0",
+      "name": "M_cpd02720_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02882_c0",
+      "label": "cpd02882_c0",
+      "name": "M_cpd02882_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03536_c0",
+      "label": "rxn03536_c0",
+      "name": "R05221_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd03918_c0",
+      "products": "M_cpd00008_c0;M_cpd00067_c0;M_cpd03919_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "2.5901",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 1.936,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "2.5901",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd03918_c0",
+      "label": "cpd03918_c0",
+      "name": "M_cpd03918_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn04413_c0",
+      "label": "rxn04413_c0",
+      "name": "R06558_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00038_c0;M_cpd03918_c0",
+      "products": "M_cpd00031_c0;M_cpd00067_c0;M_cpd03919_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "2.5901",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 1.936,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "2.5901",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00031_c0",
+      "label": "cpd00031_c0",
+      "name": "M_cpd00031_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn06865_c0",
+      "label": "rxn06865_c0",
+      "name": "R05146_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd03586_c0;M_cpd11468_c0",
+      "products": "M_cpd03736_c0;M_cpd11493_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "2.3751",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 1.914,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "2.3751",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd03586_c0",
+      "label": "cpd03586_c0",
+      "name": "M_cpd03586_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11468_c0",
+      "label": "cpd11468_c0",
+      "name": "M_cpd11468_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03736_c0",
+      "label": "cpd03736_c0",
+      "name": "M_cpd03736_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11493_c0",
+      "label": "cpd11493_c0",
+      "name": "M_cpd11493_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03538_c0",
+      "label": "rxn03538_c0",
+      "name": "R05223_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd03423_c0;M_cpd03920_c0",
+      "products": "M_cpd00067_c0;M_cpd00126_c0;M_cpd00166_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "2.2733",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 1.903,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "2.2733",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd00126_c0",
+      "label": "cpd00126_c0",
+      "name": "M_cpd00126_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00166_c0",
+      "label": "cpd00166_c0",
+      "name": "M_cpd00166_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn06848_c0",
+      "label": "rxn06848_c0",
+      "name": "R05075_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd03736_c0;M_cpd11466_c0",
+      "products": "M_cpd03587_c0;M_cpd11493_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "1.709",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 1.836,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "1.709",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd11466_c0",
+      "label": "cpd11466_c0",
+      "name": "M_cpd11466_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03587_c0",
+      "label": "cpd03587_c0",
+      "name": "M_cpd03587_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03394_c0",
+      "label": "rxn03394_c0",
+      "name": "R04987_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00005_c0;M_cpd00007_c0;M_cpd00067_c0;M_cpd03444_c0",
+      "products": "M_cpd00001_c0;M_cpd00006_c0;M_cpd03445_c0",
+      "overlay_source": "kcat_coverage",
+      "semantic_type": "enzyme_capacity",
+      "overlay_value": "0.4604",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 2.413,
+      "warning_flag": false,
+      "readiness_label": "not_found",
+      "candidate_type": "",
+      "candidate_action": "reaction",
+      "production_score": "0.4604",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": "available"
+    },
+    {
+      "id": "M_cpd03444_c0",
+      "label": "cpd03444_c0",
+      "name": "M_cpd03444_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03445_c0",
+      "label": "cpd03445_c0",
+      "name": "M_cpd03445_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn02201_c0",
+      "label": "rxn02201_c0",
+      "name": "2_amino_4_hydroxy_6_hydroxymethyl_7_8_dihydropteridine_diphosphate_4_aminobenzoate_2_amino_4_hydroxydihydropteridine_6_methenyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00443_c0;M_cpd02920_c0",
+      "products": "M_cpd00012_c0;M_cpd00683_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00443_c0",
+      "label": "cpd00443_c0",
+      "name": "M_cpd00443_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02920_c0",
+      "label": "cpd02920_c0",
+      "name": "M_cpd02920_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00683_c0",
+      "label": "cpd00683_c0",
+      "name": "M_cpd00683_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00351_c0",
+      "label": "rxn00351_c0",
+      "name": "gamma_L_glutamyl_L_cysteine_glycine_ligase_ADP_forming_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00033_c0;M_cpd00506_c0",
+      "products": "M_cpd00008_c0;M_cpd00009_c0;M_cpd00042_c0;M_cpd00067_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00033_c0",
+      "label": "cpd00033_c0",
+      "name": "M_cpd00033_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00506_c0",
+      "label": "cpd00506_c0",
+      "name": "M_cpd00506_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00042_c0",
+      "label": "cpd00042_c0",
+      "name": "M_cpd00042_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00836_c0",
+      "label": "rxn00836_c0",
+      "name": "IMP_diphosphate_phospho_D_ribosyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00103_c0;M_cpd00226_c0",
+      "products": "M_cpd00012_c0;M_cpd00067_c0;M_cpd00114_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00103_c0",
+      "label": "cpd00103_c0",
+      "name": "M_cpd00103_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00226_c0",
+      "label": "cpd00226_c0",
+      "name": "M_cpd00226_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00114_c0",
+      "label": "cpd00114_c0",
+      "name": "M_cpd00114_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn08180_c0",
+      "label": "rxn08180_c0",
+      "name": "Biotin_synthase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00017_c0;M_cpd00074_c0;M_cpd01311_c0",
+      "products": "M_cpd00060_c0;M_cpd00067_c0;M_cpd00104_c0;M_cpd03091_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00017_c0",
+      "label": "cpd00017_c0",
+      "name": "M_cpd00017_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00074_c0",
+      "label": "cpd00074_c0",
+      "name": "M_cpd00074_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd01311_c0",
+      "label": "cpd01311_c0",
+      "name": "M_cpd01311_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00060_c0",
+      "label": "cpd00060_c0",
+      "name": "M_cpd00060_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00104_c0",
+      "label": "cpd00104_c0",
+      "name": "M_cpd00104_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03091_c0",
+      "label": "cpd03091_c0",
+      "name": "M_cpd03091_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00062_c0",
+      "label": "rxn00062_c0",
+      "name": "ATP_phosphohydrolase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00002_c0",
+      "products": "M_cpd00008_c0;M_cpd00009_c0;M_cpd00067_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "R_rxn00423_c0",
+      "label": "rxn00423_c0",
+      "name": "acetyl_CoA_L_serine_O_acetyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00022_c0;M_cpd00054_c0",
+      "products": "M_cpd00010_c0;M_cpd00722_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00022_c0",
+      "label": "cpd00022_c0",
+      "name": "M_cpd00022_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00054_c0",
+      "label": "cpd00054_c0",
+      "name": "M_cpd00054_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00010_c0",
+      "label": "cpd00010_c0",
+      "name": "M_cpd00010_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00722_c0",
+      "label": "cpd00722_c0",
+      "name": "M_cpd00722_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00364_c0",
+      "label": "rxn00364_c0",
+      "name": "ATP_CMP_phosphotransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00046_c0;M_cpd00067_c0",
+      "products": "M_cpd00008_c0;M_cpd00096_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00046_c0",
+      "label": "cpd00046_c0",
+      "name": "M_cpd00046_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00096_c0",
+      "label": "cpd00096_c0",
+      "name": "M_cpd00096_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05561_c0",
+      "label": "rxn05561_c0",
+      "name": "Transport_of_dicarboxylates__extracellular_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00067_p0;M_cpd00106_p0",
+      "products": "M_cpd00067_c0;M_cpd00106_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00067_p0",
+      "label": "cpd00067_p0",
+      "name": "M_cpd00067_p0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00106_p0",
+      "label": "cpd00106_p0",
+      "name": "M_cpd00106_p0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00106_c0",
+      "label": "cpd00106_c0",
+      "name": "M_cpd00106_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn09126_c0",
+      "label": "rxn09126_c0",
+      "name": "Phospholipase_A1_phosphatidate__n_C16_0_periplasm_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd15524_c0",
+      "products": "M_cpd00067_c0;M_cpd00214_c0;M_cpd15355_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd15524_c0",
+      "label": "cpd15524_c0",
+      "name": "M_cpd15524_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00214_c0",
+      "label": "cpd00214_c0",
+      "name": "M_cpd00214_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd15355_c0",
+      "label": "cpd15355_c0",
+      "name": "M_cpd15355_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03408_c0",
+      "label": "rxn03408_c0",
+      "name": "UDP_N_acetyl_D_glucosamine_undecaprenyl_diphospho_N_acetylmuramoyl_L_alanyl_gamma_D_glutamyl_meso_2_6_diaminopimeloyl_D_alanyl_D_alanine_4_beta_N_acetylglucosaminlytransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00037_c0;M_cpd03494_c0",
+      "products": "M_cpd00014_c0;M_cpd03495_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00037_c0",
+      "label": "cpd00037_c0",
+      "name": "M_cpd00037_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03494_c0",
+      "label": "cpd03494_c0",
+      "name": "M_cpd03494_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00014_c0",
+      "label": "cpd00014_c0",
+      "name": "M_cpd00014_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03495_c0",
+      "label": "cpd03495_c0",
+      "name": "M_cpd03495_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn02177_c0",
+      "label": "rxn02177_c0",
+      "name": "Isochorismate_pyruvate_hydrolase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00658_c0",
+      "products": "M_cpd00020_c0;M_cpd02566_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00658_c0",
+      "label": "cpd00658_c0",
+      "name": "M_cpd00658_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00020_c0",
+      "label": "cpd00020_c0",
+      "name": "M_cpd00020_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02566_c0",
+      "label": "cpd02566_c0",
+      "name": "M_cpd02566_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00646_c0",
+      "label": "rxn00646_c0",
+      "name": "L_glutamate_L_cysteine_gamma_ligase_ADP_forming_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00023_c0;M_cpd00084_c0",
+      "products": "M_cpd00008_c0;M_cpd00009_c0;M_cpd00067_c0;M_cpd00506_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "R_rxn01673_c0",
+      "label": "rxn01673_c0",
+      "name": "ATP_dCDP_phosphotransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00533_c0",
+      "products": "M_cpd00008_c0;M_cpd00356_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00533_c0",
+      "label": "cpd00533_c0",
+      "name": "M_cpd00533_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00356_c0",
+      "label": "cpd00356_c0",
+      "name": "M_cpd00356_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00247_c0",
+      "label": "rxn00247_c0",
+      "name": "ATP_oxaloacetate_carboxy_lyase_transphosphorylatingphosphoenolpyruvate_forming_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00032_c0",
+      "products": "M_cpd00008_c0;M_cpd00011_c0;M_cpd00061_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00032_c0",
+      "label": "cpd00032_c0",
+      "name": "M_cpd00032_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00061_c0",
+      "label": "cpd00061_c0",
+      "name": "M_cpd00061_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00022_c0",
+      "label": "rxn00022_c0",
+      "name": "maltose_glucohydrolase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00179_c0",
+      "products": "M_cpd00027_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00179_c0",
+      "label": "cpd00179_c0",
+      "name": "M_cpd00179_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00027_c0",
+      "label": "cpd00027_c0",
+      "name": "M_cpd00027_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00973_c0",
+      "label": "rxn00973_c0",
+      "name": "citrate_hydroxymutase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00137_c0",
+      "products": "M_cpd00260_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00137_c0",
+      "label": "cpd00137_c0",
+      "name": "M_cpd00137_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00260_c0",
+      "label": "cpd00260_c0",
+      "name": "M_cpd00260_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn02000_c0",
+      "label": "rxn02000_c0",
+      "name": "dTDP_4_dehydro_6_deoxy_D_glucose_3_5_epimerase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00521_c0",
+      "products": "M_cpd00522_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00521_c0",
+      "label": "cpd00521_c0",
+      "name": "M_cpd00521_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00522_c0",
+      "label": "cpd00522_c0",
+      "name": "M_cpd00522_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03239_c0",
+      "label": "rxn03239_c0",
+      "name": "S_3_Hydroxyhexadecanoyl_CoA_NAD_plus__oxidoreductase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00003_c0;M_cpd03113_c0",
+      "products": "M_cpd00004_c0;M_cpd00067_c0;M_cpd03114_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd03113_c0",
+      "label": "cpd03113_c0",
+      "name": "M_cpd03113_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03114_c0",
+      "label": "cpd03114_c0",
+      "name": "M_cpd03114_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03120_c0",
+      "label": "rxn03120_c0",
+      "name": "UDP_apiose_apigenin_7_O_beta_D_glucoside_2_O_beta_D_apiofuranosyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd01140_c0;M_cpd02807_c0",
+      "products": "M_cpd00014_c0;M_cpd02952_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd01140_c0",
+      "label": "cpd01140_c0",
+      "name": "M_cpd01140_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02807_c0",
+      "label": "cpd02807_c0",
+      "name": "M_cpd02807_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02952_c0",
+      "label": "cpd02952_c0",
+      "name": "M_cpd02952_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05457_c0",
+      "label": "rxn05457_c0",
+      "name": "Acyl_carrier_protein_acetyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00010_c0;M_cpd11466_c0",
+      "products": "M_cpd01695_c0;M_cpd11493_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd01695_c0",
+      "label": "cpd01695_c0",
+      "name": "M_cpd01695_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn04271_c0",
+      "label": "rxn04271_c0",
+      "name": "trans_2_Methyl_5_isopropylhexa_2_5_dienal_dehydrogenase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00003_c0;M_cpd08739_c0",
+      "products": "M_cpd00004_c0;M_cpd00067_c0;M_cpd08740_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd08739_c0",
+      "label": "cpd08739_c0",
+      "name": "M_cpd08739_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd08740_c0",
+      "label": "cpd08740_c0",
+      "name": "M_cpd08740_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05392_c0",
+      "label": "rxn05392_c0",
+      "name": "7_methyl_octanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd11492_c0;M_cpd11528_c0",
+      "products": "M_cpd00011_c0;M_cpd11493_c0;M_cpd11529_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd11492_c0",
+      "label": "cpd11492_c0",
+      "name": "M_cpd11492_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11528_c0",
+      "label": "cpd11528_c0",
+      "name": "M_cpd11528_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11529_c0",
+      "label": "cpd11529_c0",
+      "name": "M_cpd11529_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn12008_c0",
+      "label": "rxn12008_c0",
+      "name": "R05611_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00113_c0;M_cpd02590_c0",
+      "products": "M_cpd00012_c0;M_cpd00067_c0;M_cpd02557_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00113_c0",
+      "label": "cpd00113_c0",
+      "name": "M_cpd00113_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02590_c0",
+      "label": "cpd02590_c0",
+      "name": "M_cpd02590_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02557_c0",
+      "label": "cpd02557_c0",
+      "name": "M_cpd02557_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn04070_c0",
+      "label": "rxn04070_c0",
+      "name": "pyridoxine_5_phosphate_synthase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd08289_c0;M_cpd08449_c0",
+      "products": "M_cpd00001_c0;M_cpd00009_c0;M_cpd00067_c0;M_cpd00478_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd08289_c0",
+      "label": "cpd08289_c0",
+      "name": "M_cpd08289_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00478_c0",
+      "label": "cpd00478_c0",
+      "name": "M_cpd00478_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00199_c0",
+      "label": "rxn00199_c0",
+      "name": "oxalosuccinate_carboxy_lyase_2_oxoglutarate_forming_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00067_c0;M_cpd03187_c0",
+      "products": "M_cpd00011_c0;M_cpd00024_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd03187_c0",
+      "label": "cpd03187_c0",
+      "name": "M_cpd03187_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn01358_c0",
+      "label": "rxn01358_c0",
+      "name": "inosine_phosphate_alpha_D_ribosyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00009_c0;M_cpd00246_c0",
+      "products": "M_cpd00226_c0;M_cpd00475_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00246_c0",
+      "label": "cpd00246_c0",
+      "name": "M_cpd00246_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00475_c0",
+      "label": "cpd00475_c0",
+      "name": "M_cpd00475_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03433_c0",
+      "label": "rxn03433_c0",
+      "name": "S_3_Hydroxyisobutyryl_CoA_hydrolase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd03572_c0",
+      "products": "M_cpd00010_c0;M_cpd00067_c0;M_cpd00876_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd03572_c0",
+      "label": "cpd03572_c0",
+      "name": "M_cpd03572_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00876_c0",
+      "label": "cpd00876_c0",
+      "name": "M_cpd00876_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn10231_c0",
+      "label": "rxn10231_c0",
+      "name": "isohexadecanoyl_CDPdiacylglycerol_serine_O_phosphatidyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00054_c0;M_cpd15688_c0",
+      "products": "M_cpd00046_c0;M_cpd00067_c0;M_cpd15694_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd15688_c0",
+      "label": "cpd15688_c0",
+      "name": "M_cpd15688_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd15694_c0",
+      "label": "cpd15694_c0",
+      "name": "M_cpd15694_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn02944_c0",
+      "label": "rxn02944_c0",
+      "name": "N2_succinyl_L_ornithine_2_oxoglutarate_5_aminotransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00024_c0;M_cpd02160_c0",
+      "products": "M_cpd00023_c0;M_cpd03526_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd02160_c0",
+      "label": "cpd02160_c0",
+      "name": "M_cpd02160_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03526_c0",
+      "label": "cpd03526_c0",
+      "name": "M_cpd03526_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn10270_c0",
+      "label": "rxn10270_c0",
+      "name": "isohexadecanoyl_Phosphatidylglycerophosphate_phosphohydrolase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd15721_c0",
+      "products": "M_cpd00009_c0;M_cpd00067_c0;M_cpd15727_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd15721_c0",
+      "label": "cpd15721_c0",
+      "name": "M_cpd15721_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd15727_c0",
+      "label": "cpd15727_c0",
+      "name": "M_cpd15727_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn12637_c0",
+      "label": "rxn12637_c0",
+      "name": "RXN0_6987c_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd11589_c0",
+      "products": "M_cpd00033_c0;M_cpd00041_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd11589_c0",
+      "label": "cpd11589_c0",
+      "name": "M_cpd11589_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00041_c0",
+      "label": "cpd00041_c0",
+      "name": "M_cpd00041_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03046_c0",
+      "label": "rxn03046_c0",
+      "name": "ATP_guanidinoethyyl_methyl_phosphate_phosphotransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd02519_c0",
+      "products": "M_cpd00008_c0;M_cpd00067_c0;M_cpd02744_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd02519_c0",
+      "label": "cpd02519_c0",
+      "name": "M_cpd02519_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02744_c0",
+      "label": "cpd02744_c0",
+      "name": "M_cpd02744_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn09240_c0",
+      "label": "rxn09240_c0",
+      "name": "Sulfate_adenyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00002_c0;M_cpd00038_c0;M_cpd00048_c0",
+      "products": "M_cpd00009_c0;M_cpd00012_c0;M_cpd00031_c0;M_cpd00067_c0;M_cpd00193_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00048_c0",
+      "label": "cpd00048_c0",
+      "name": "M_cpd00048_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00193_c0",
+      "label": "cpd00193_c0",
+      "name": "M_cpd00193_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn01219_c0",
+      "label": "rxn01219_c0",
+      "name": "ATP_dCMP_phosphotransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00067_c0;M_cpd00206_c0",
+      "products": "M_cpd00008_c0;M_cpd00533_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00206_c0",
+      "label": "cpd00206_c0",
+      "name": "M_cpd00206_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05958_c0",
+      "label": "rxn05958_c0",
+      "name": "S_ribosylhomocysteine_lyase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd02227_c0",
+      "products": "M_cpd00135_c0;M_cpd08636_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd02227_c0",
+      "label": "cpd02227_c0",
+      "name": "M_cpd02227_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00135_c0",
+      "label": "cpd00135_c0",
+      "name": "M_cpd00135_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd08636_c0",
+      "label": "cpd08636_c0",
+      "name": "M_cpd08636_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00519_c0",
+      "label": "rxn00519_c0",
+      "name": "ITP_oxaloacetate_carboxy_lyase_adding_ITP_phosphoenolpyruvate_forming_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00032_c0;M_cpd00068_c0",
+      "products": "M_cpd00011_c0;M_cpd00061_c0;M_cpd00090_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00068_c0",
+      "label": "cpd00068_c0",
+      "name": "M_cpd00068_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00090_c0",
+      "label": "cpd00090_c0",
+      "name": "M_cpd00090_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00800_c0",
+      "label": "rxn00800_c0",
+      "name": "N6_1_2_dicarboxyethylAMP_AMP_lyase_fumarate_forming_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd02375_c0",
+      "products": "M_cpd00018_c0;M_cpd00106_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd02375_c0",
+      "label": "cpd02375_c0",
+      "name": "M_cpd02375_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00018_c0",
+      "label": "cpd00018_c0",
+      "name": "M_cpd00018_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn01705_c0",
+      "label": "rxn01705_c0",
+      "name": "dCTP_cytidine_5_phosphotransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00356_c0;M_cpd00367_c0",
+      "products": "M_cpd00046_c0;M_cpd00067_c0;M_cpd00533_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00367_c0",
+      "label": "cpd00367_c0",
+      "name": "M_cpd00367_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn09177_c0",
+      "label": "rxn09177_c0",
+      "name": "R_4_Phosphopantothenate_L_cysteine_ligase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00052_c0;M_cpd00084_c0;M_cpd02201_c0",
+      "products": "M_cpd00012_c0;M_cpd00046_c0;M_cpd00067_c0;M_cpd02666_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00052_c0",
+      "label": "cpd00052_c0",
+      "name": "M_cpd00052_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02201_c0",
+      "label": "cpd02201_c0",
+      "name": "M_cpd02201_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02666_c0",
+      "label": "cpd02666_c0",
+      "name": "M_cpd02666_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00211_c0",
+      "label": "rxn00211_c0",
+      "name": "UDP_glucose_NAD_plus__6_oxidoreductase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00003_c0;M_cpd00026_c0",
+      "products": "M_cpd00004_c0;M_cpd00067_c0;M_cpd00144_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00026_c0",
+      "label": "cpd00026_c0",
+      "name": "M_cpd00026_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00144_c0",
+      "label": "cpd00144_c0",
+      "name": "M_cpd00144_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00179_c0",
+      "label": "rxn00179_c0",
+      "name": "ATP_L_glutamate_5_phosphotransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00023_c0",
+      "products": "M_cpd00008_c0;M_cpd02097_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd02097_c0",
+      "label": "cpd02097_c0",
+      "name": "M_cpd02097_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn01210_c0",
+      "label": "rxn01210_c0",
+      "name": "10_Formyltetrahydrofolate_L_glutamate_ligase_ADP_forming_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00002_c0;M_cpd00023_c0;M_cpd00201_c0",
+      "products": "M_cpd00008_c0;M_cpd00009_c0;M_cpd00067_c0;M_cpd03524_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00201_c0",
+      "label": "cpd00201_c0",
+      "name": "M_cpd00201_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03524_c0",
+      "label": "cpd03524_c0",
+      "name": "M_cpd03524_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00730_c0",
+      "label": "rxn00730_c0",
+      "name": "Malonyl_CoA_anthranilate_N_malonyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00070_c0;M_cpd00093_c0",
+      "products": "M_cpd00010_c0;M_cpd02014_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00070_c0",
+      "label": "cpd00070_c0",
+      "name": "M_cpd00070_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd00093_c0",
+      "label": "cpd00093_c0",
+      "name": "M_cpd00093_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02014_c0",
+      "label": "cpd02014_c0",
+      "name": "M_cpd02014_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn00192_c0",
+      "label": "rxn00192_c0",
+      "name": "acetyl_CoA_L_glutamate_N_acetyltransferase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00022_c0;M_cpd00023_c0",
+      "products": "M_cpd00010_c0;M_cpd00067_c0;M_cpd00477_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00477_c0",
+      "label": "cpd00477_c0",
+      "name": "M_cpd00477_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn01218_c0",
+      "label": "rxn01218_c0",
+      "name": "2_Deoxycytidine_5_monophosphate_phosphohydrolase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00001_c0;M_cpd00206_c0",
+      "products": "M_cpd00009_c0;M_cpd00654_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00654_c0",
+      "label": "cpd00654_c0",
+      "name": "M_cpd00654_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05367_c0",
+      "label": "rxn05367_c0",
+      "name": "6_methyl_octanoyl_ACP_malonyl_acyl_carrier_protein_C_acyltransferase_decarboxylating_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd11492_c0;M_cpd11503_c0",
+      "products": "M_cpd00011_c0;M_cpd11493_c0;M_cpd11504_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd11503_c0",
+      "label": "cpd11503_c0",
+      "name": "M_cpd11503_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd11504_c0",
+      "label": "cpd11504_c0",
+      "name": "M_cpd11504_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn03360_c0",
+      "label": "rxn03360_c0",
+      "name": "5_Hydroxykynurenamine_decarboxy_lyase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00011_c0;M_cpd03349_c0",
+      "products": "M_cpd00067_c0;M_cpd03362_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd03349_c0",
+      "label": "cpd03349_c0",
+      "name": "M_cpd03349_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd03362_c0",
+      "label": "cpd03362_c0",
+      "name": "M_cpd03362_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn02898_c0",
+      "label": "rxn02898_c0",
+      "name": "O_Succinylbenzoyl_CoA_1_4_dihydroxy_2_naphthoate_lyase_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd02021_c0",
+      "products": "M_cpd00010_c0;M_cpd02295_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd02021_c0",
+      "label": "cpd02021_c0",
+      "name": "M_cpd02021_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "M_cpd02295_c0",
+      "label": "cpd02295_c0",
+      "name": "M_cpd02295_c0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn09273_c0",
+      "label": "rxn09273_c0",
+      "name": "succinate:fumarate antiporter (periplasm)",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00036_c0;M_cpd00106_p0",
+      "products": "M_cpd00036_p0;M_cpd00106_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    },
+    {
+      "id": "M_cpd00036_p0",
+      "label": "cpd00036_p0",
+      "name": "M_cpd00036_p0",
+      "node_type": "metabolite",
+      "group_id": "metabolite",
+      "group_label": "Metabolites",
+      "overlay_color": "#64748b",
+      "overlay_size": 0.8,
+      "warning_flag": false
+    },
+    {
+      "id": "R_rxn05654_c0",
+      "label": "rxn05654_c0",
+      "name": "Transport_of_succinate__extracellular_c0",
+      "node_type": "reaction",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c0",
+      "selected_reaction": false,
+      "reactants": "M_cpd00036_p0;M_cpd00067_p0",
+      "products": "M_cpd00036_c0;M_cpd00067_c0",
+      "overlay_source": "",
+      "semantic_type": "",
+      "overlay_value": "",
+      "overlay_color": "#2563eb",
+      "overlay_size": 1.0,
+      "warning_flag": false,
+      "readiness_label": "",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_status": ""
+    }
+  ],
+  "links": [
+    {
+      "id": "M_cpd00007_c0->R_rxn11962_c0:reactant:0",
+      "source": "M_cpd00007_c0",
+      "target": "R_rxn11962_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00483_c0->R_rxn11962_c0:reactant:1",
+      "source": "M_cpd00483_c0",
+      "target": "R_rxn11962_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn11962_c0->M_cpd00025_c0:product:2",
+      "source": "R_rxn11962_c0",
+      "target": "M_cpd00025_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn11962_c0->M_cpd00067_c0:product:3",
+      "source": "R_rxn11962_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn11962_c0->M_cpd00532_c0:product:4",
+      "source": "R_rxn11962_c0",
+      "target": "M_cpd00532_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn11962_c0->M_cpd03351_c0:product:5",
+      "source": "R_rxn11962_c0",
+      "target": "M_cpd03351_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00024_c0->R_rxn00441_c0:reactant:6",
+      "source": "M_cpd00024_c0",
+      "target": "R_rxn00441_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00056_c0->R_rxn00441_c0:reactant:7",
+      "source": "M_cpd00056_c0",
+      "target": "R_rxn00441_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn00441_c0:reactant:8",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn00441_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00441_c0->M_cpd00011_c0:product:9",
+      "source": "R_rxn00441_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00441_c0->M_cpd03189_c0:product:10",
+      "source": "R_rxn00441_c0",
+      "target": "M_cpd03189_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00056_c0->R_rxn07434_c0:reactant:11",
+      "source": "M_cpd00056_c0",
+      "target": "R_rxn07434_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn07434_c0:reactant:12",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn07434_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00508_c0->R_rxn07434_c0:reactant:13",
+      "source": "M_cpd00508_c0",
+      "target": "R_rxn07434_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn07434_c0->M_cpd00011_c0:product:14",
+      "source": "R_rxn07434_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn07434_c0->M_cpd14702_c0:product:15",
+      "source": "R_rxn07434_c0",
+      "target": "M_cpd14702_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00056_c0->R_rxn07430_c0:reactant:16",
+      "source": "M_cpd00056_c0",
+      "target": "R_rxn07430_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn07430_c0:reactant:17",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn07430_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00123_c0->R_rxn07430_c0:reactant:18",
+      "source": "M_cpd00123_c0",
+      "target": "R_rxn07430_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn07430_c0->M_cpd00011_c0:product:19",
+      "source": "R_rxn07430_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn07430_c0->M_cpd14700_c0:product:20",
+      "source": "R_rxn07430_c0",
+      "target": "M_cpd14700_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00056_c0->R_rxn07432_c0:reactant:21",
+      "source": "M_cpd00056_c0",
+      "target": "R_rxn07432_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn07432_c0:reactant:22",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn07432_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00200_c0->R_rxn07432_c0:reactant:23",
+      "source": "M_cpd00200_c0",
+      "target": "R_rxn07432_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn07432_c0->M_cpd00011_c0:product:24",
+      "source": "R_rxn07432_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn07432_c0->M_cpd14698_c0:product:25",
+      "source": "R_rxn07432_c0",
+      "target": "M_cpd14698_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn05116_c0:reactant:26",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn05116_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd04539_c0->R_rxn05116_c0:reactant:27",
+      "source": "M_cpd04539_c0",
+      "target": "R_rxn05116_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05116_c0->M_cpd00011_c0:product:28",
+      "source": "R_rxn05116_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05116_c0->M_cpd08449_c0:product:29",
+      "source": "R_rxn05116_c0",
+      "target": "M_cpd08449_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn05124_c0:reactant:30",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn05124_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00007_c0->R_rxn05124_c0:reactant:31",
+      "source": "M_cpd00007_c0",
+      "target": "R_rxn05124_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11340_c0->R_rxn05124_c0:reactant:32",
+      "source": "M_cpd11340_c0",
+      "target": "R_rxn05124_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05124_c0->M_cpd00013_c0:product:33",
+      "source": "R_rxn05124_c0",
+      "target": "M_cpd00013_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05124_c0->M_cpd00025_c0:product:34",
+      "source": "R_rxn05124_c0",
+      "target": "M_cpd00025_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05124_c0->M_cpd11341_c0:product:35",
+      "source": "R_rxn05124_c0",
+      "target": "M_cpd11341_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00213_c0->R_rxn02342_c0:reactant:36",
+      "source": "M_cpd00213_c0",
+      "target": "R_rxn02342_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03049_c0->R_rxn02342_c0:reactant:37",
+      "source": "M_cpd03049_c0",
+      "target": "R_rxn02342_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn02342_c0->M_cpd00056_c0:product:38",
+      "source": "R_rxn02342_c0",
+      "target": "M_cpd00056_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn02342_c0->M_cpd00836_c0:product:39",
+      "source": "R_rxn02342_c0",
+      "target": "M_cpd00836_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00008_c0->R_rxn01987_c0:reactant:40",
+      "source": "M_cpd00008_c0",
+      "target": "R_rxn01987_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn01987_c0:reactant:41",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn01987_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00510_c0->R_rxn01987_c0:reactant:42",
+      "source": "M_cpd00510_c0",
+      "target": "R_rxn01987_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01987_c0->M_cpd00002_c0:product:43",
+      "source": "R_rxn01987_c0",
+      "target": "M_cpd00002_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01987_c0->M_cpd01242_c0:product:44",
+      "source": "R_rxn01987_c0",
+      "target": "M_cpd01242_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn03005_c0:reactant:45",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn03005_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00087_c0->R_rxn03005_c0:reactant:46",
+      "source": "M_cpd00087_c0",
+      "target": "R_rxn03005_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02678_c0->R_rxn03005_c0:reactant:47",
+      "source": "M_cpd02678_c0",
+      "target": "R_rxn03005_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03005_c0->M_cpd00001_c0:product:48",
+      "source": "R_rxn03005_c0",
+      "target": "M_cpd00001_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03005_c0->M_cpd00347_c0:product:49",
+      "source": "R_rxn03005_c0",
+      "target": "M_cpd00347_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03005_c0->M_cpd02394_c0:product:50",
+      "source": "R_rxn03005_c0",
+      "target": "M_cpd02394_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn03839_c0:reactant:51",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn03839_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd01150_c0->R_rxn03839_c0:reactant:52",
+      "source": "M_cpd01150_c0",
+      "target": "R_rxn03839_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03839_c0->M_cpd00013_c0:product:53",
+      "source": "R_rxn03839_c0",
+      "target": "M_cpd00013_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03839_c0->M_cpd00400_c0:product:54",
+      "source": "R_rxn03839_c0",
+      "target": "M_cpd00400_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn03540_c0:reactant:55",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn03540_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn03540_c0:reactant:56",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn03540_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00053_c0->R_rxn03540_c0:reactant:57",
+      "source": "M_cpd00053_c0",
+      "target": "R_rxn03540_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03916_c0->R_rxn03540_c0:reactant:58",
+      "source": "M_cpd03916_c0",
+      "target": "R_rxn03540_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03540_c0->M_cpd00008_c0:product:59",
+      "source": "R_rxn03540_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03540_c0->M_cpd00009_c0:product:60",
+      "source": "R_rxn03540_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03540_c0->M_cpd00023_c0:product:61",
+      "source": "R_rxn03540_c0",
+      "target": "M_cpd00023_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03540_c0->M_cpd00067_c0:product:62",
+      "source": "R_rxn03540_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03540_c0->M_cpd03917_c0:product:63",
+      "source": "R_rxn03540_c0",
+      "target": "M_cpd03917_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00004_c0->R_rxn08352_c0:reactant:64",
+      "source": "M_cpd00004_c0",
+      "target": "R_rxn08352_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn08352_c0:reactant:65",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn08352_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd08615_c0->R_rxn08352_c0:reactant:66",
+      "source": "M_cpd08615_c0",
+      "target": "R_rxn08352_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn08352_c0->M_cpd00001_c0:product:67",
+      "source": "R_rxn08352_c0",
+      "target": "M_cpd00001_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn08352_c0->M_cpd00003_c0:product:68",
+      "source": "R_rxn08352_c0",
+      "target": "M_cpd00003_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn08352_c0->M_cpd00202_c0:product:69",
+      "source": "R_rxn08352_c0",
+      "target": "M_cpd00202_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn05127_c0:reactant:70",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn05127_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00006_c0->R_rxn05127_c0:reactant:71",
+      "source": "M_cpd00006_c0",
+      "target": "R_rxn05127_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11341_c0->R_rxn05127_c0:reactant:72",
+      "source": "M_cpd11341_c0",
+      "target": "R_rxn05127_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05127_c0->M_cpd00005_c0:product:73",
+      "source": "R_rxn05127_c0",
+      "target": "M_cpd00005_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05127_c0->M_cpd00067_c0:product:74",
+      "source": "R_rxn05127_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05127_c0->M_cpd11408_c0:product:75",
+      "source": "R_rxn05127_c0",
+      "target": "M_cpd11408_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn05126_c0:reactant:76",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn05126_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00003_c0->R_rxn05126_c0:reactant:77",
+      "source": "M_cpd00003_c0",
+      "target": "R_rxn05126_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11341_c0->R_rxn05126_c0:reactant:78",
+      "source": "M_cpd11341_c0",
+      "target": "R_rxn05126_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05126_c0->M_cpd00004_c0:product:79",
+      "source": "R_rxn05126_c0",
+      "target": "M_cpd00004_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05126_c0->M_cpd00067_c0:product:80",
+      "source": "R_rxn05126_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05126_c0->M_cpd11408_c0:product:81",
+      "source": "R_rxn05126_c0",
+      "target": "M_cpd11408_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00036_c0->R_rxn01816_c0:reactant:82",
+      "source": "M_cpd00036_c0",
+      "target": "R_rxn01816_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn01816_c0:reactant:83",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn01816_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00424_c0->R_rxn01816_c0:reactant:84",
+      "source": "M_cpd00424_c0",
+      "target": "R_rxn01816_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01816_c0->M_cpd00084_c0:product:85",
+      "source": "R_rxn01816_c0",
+      "target": "M_cpd00084_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01816_c0->M_cpd00822_c0:product:86",
+      "source": "R_rxn01816_c0",
+      "target": "M_cpd00822_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00038_c0->R_rxn03537_c0:reactant:87",
+      "source": "M_cpd00038_c0",
+      "target": "R_rxn03537_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03919_c0->R_rxn03537_c0:reactant:88",
+      "source": "M_cpd03919_c0",
+      "target": "R_rxn03537_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03537_c0->M_cpd00012_c0:product:89",
+      "source": "R_rxn03537_c0",
+      "target": "M_cpd00012_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03537_c0->M_cpd03920_c0:product:90",
+      "source": "R_rxn03537_c0",
+      "target": "M_cpd03920_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00213_c0->R_rxn07435_c0:reactant:91",
+      "source": "M_cpd00213_c0",
+      "target": "R_rxn07435_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd14702_c0->R_rxn07435_c0:reactant:92",
+      "source": "M_cpd14702_c0",
+      "target": "R_rxn07435_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn07435_c0->M_cpd00056_c0:product:93",
+      "source": "R_rxn07435_c0",
+      "target": "M_cpd00056_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn07435_c0->M_cpd14703_c0:product:94",
+      "source": "R_rxn07435_c0",
+      "target": "M_cpd14703_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00213_c0->R_rxn07431_c0:reactant:95",
+      "source": "M_cpd00213_c0",
+      "target": "R_rxn07431_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd14700_c0->R_rxn07431_c0:reactant:96",
+      "source": "M_cpd14700_c0",
+      "target": "R_rxn07431_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn07431_c0->M_cpd00056_c0:product:97",
+      "source": "R_rxn07431_c0",
+      "target": "M_cpd00056_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn07431_c0->M_cpd02700_c0:product:98",
+      "source": "R_rxn07431_c0",
+      "target": "M_cpd02700_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00213_c0->R_rxn07433_c0:reactant:99",
+      "source": "M_cpd00213_c0",
+      "target": "R_rxn07433_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd14698_c0->R_rxn07433_c0:reactant:100",
+      "source": "M_cpd14698_c0",
+      "target": "R_rxn07433_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn07433_c0->M_cpd00056_c0:product:101",
+      "source": "R_rxn07433_c0",
+      "target": "M_cpd00056_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn07433_c0->M_cpd00067_c0:product:102",
+      "source": "R_rxn07433_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn07433_c0->M_cpd14699_c0:product:103",
+      "source": "R_rxn07433_c0",
+      "target": "M_cpd14699_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn03150_c0:reactant:104",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn03150_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02904_c0->R_rxn03150_c0:reactant:105",
+      "source": "M_cpd02904_c0",
+      "target": "R_rxn03150_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03150_c0->M_cpd00009_c0:product:106",
+      "source": "R_rxn03150_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03150_c0->M_cpd03423_c0:product:107",
+      "source": "R_rxn03150_c0",
+      "target": "M_cpd03423_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00053_c0->R_rxn03135_c0:reactant:108",
+      "source": "M_cpd00053_c0",
+      "target": "R_rxn03135_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02991_c0->R_rxn03135_c0:reactant:109",
+      "source": "M_cpd02991_c0",
+      "target": "R_rxn03135_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03135_c0->M_cpd00023_c0:product:110",
+      "source": "R_rxn03135_c0",
+      "target": "M_cpd00023_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03135_c0->M_cpd00067_c0:product:111",
+      "source": "R_rxn03135_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03135_c0->M_cpd02843_c0:product:112",
+      "source": "R_rxn03135_c0",
+      "target": "M_cpd02843_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03135_c0->M_cpd02851_c0:product:113",
+      "source": "R_rxn03135_c0",
+      "target": "M_cpd02851_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00213_c0->R_rxn02376_c0:reactant:114",
+      "source": "M_cpd00213_c0",
+      "target": "R_rxn02376_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03189_c0->R_rxn02376_c0:reactant:115",
+      "source": "M_cpd03189_c0",
+      "target": "R_rxn02376_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn02376_c0->M_cpd00056_c0:product:116",
+      "source": "R_rxn02376_c0",
+      "target": "M_cpd00056_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn02376_c0->M_cpd00860_c0:product:117",
+      "source": "R_rxn02376_c0",
+      "target": "M_cpd00860_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn05039_c0:reactant:118",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn05039_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02720_c0->R_rxn05039_c0:reactant:119",
+      "source": "M_cpd02720_c0",
+      "target": "R_rxn05039_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05039_c0->M_cpd00009_c0:product:120",
+      "source": "R_rxn05039_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05039_c0->M_cpd02882_c0:product:121",
+      "source": "R_rxn05039_c0",
+      "target": "M_cpd02882_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn03536_c0:reactant:122",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn03536_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03918_c0->R_rxn03536_c0:reactant:123",
+      "source": "M_cpd03918_c0",
+      "target": "R_rxn03536_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03536_c0->M_cpd00008_c0:product:124",
+      "source": "R_rxn03536_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03536_c0->M_cpd00067_c0:product:125",
+      "source": "R_rxn03536_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03536_c0->M_cpd03919_c0:product:126",
+      "source": "R_rxn03536_c0",
+      "target": "M_cpd03919_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00038_c0->R_rxn04413_c0:reactant:127",
+      "source": "M_cpd00038_c0",
+      "target": "R_rxn04413_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03918_c0->R_rxn04413_c0:reactant:128",
+      "source": "M_cpd03918_c0",
+      "target": "R_rxn04413_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn04413_c0->M_cpd00031_c0:product:129",
+      "source": "R_rxn04413_c0",
+      "target": "M_cpd00031_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn04413_c0->M_cpd00067_c0:product:130",
+      "source": "R_rxn04413_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn04413_c0->M_cpd03919_c0:product:131",
+      "source": "R_rxn04413_c0",
+      "target": "M_cpd03919_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd03586_c0->R_rxn06865_c0:reactant:132",
+      "source": "M_cpd03586_c0",
+      "target": "R_rxn06865_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11468_c0->R_rxn06865_c0:reactant:133",
+      "source": "M_cpd11468_c0",
+      "target": "R_rxn06865_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn06865_c0->M_cpd03736_c0:product:134",
+      "source": "R_rxn06865_c0",
+      "target": "M_cpd03736_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn06865_c0->M_cpd11493_c0:product:135",
+      "source": "R_rxn06865_c0",
+      "target": "M_cpd11493_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd03423_c0->R_rxn03538_c0:reactant:136",
+      "source": "M_cpd03423_c0",
+      "target": "R_rxn03538_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03920_c0->R_rxn03538_c0:reactant:137",
+      "source": "M_cpd03920_c0",
+      "target": "R_rxn03538_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03538_c0->M_cpd00067_c0:product:138",
+      "source": "R_rxn03538_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03538_c0->M_cpd00126_c0:product:139",
+      "source": "R_rxn03538_c0",
+      "target": "M_cpd00126_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03538_c0->M_cpd00166_c0:product:140",
+      "source": "R_rxn03538_c0",
+      "target": "M_cpd00166_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd03736_c0->R_rxn06848_c0:reactant:141",
+      "source": "M_cpd03736_c0",
+      "target": "R_rxn06848_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11466_c0->R_rxn06848_c0:reactant:142",
+      "source": "M_cpd11466_c0",
+      "target": "R_rxn06848_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn06848_c0->M_cpd03587_c0:product:143",
+      "source": "R_rxn06848_c0",
+      "target": "M_cpd03587_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn06848_c0->M_cpd11493_c0:product:144",
+      "source": "R_rxn06848_c0",
+      "target": "M_cpd11493_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00005_c0->R_rxn03394_c0:reactant:145",
+      "source": "M_cpd00005_c0",
+      "target": "R_rxn03394_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00007_c0->R_rxn03394_c0:reactant:146",
+      "source": "M_cpd00007_c0",
+      "target": "R_rxn03394_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn03394_c0:reactant:147",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn03394_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03444_c0->R_rxn03394_c0:reactant:148",
+      "source": "M_cpd03444_c0",
+      "target": "R_rxn03394_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03394_c0->M_cpd00001_c0:product:149",
+      "source": "R_rxn03394_c0",
+      "target": "M_cpd00001_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03394_c0->M_cpd00006_c0:product:150",
+      "source": "R_rxn03394_c0",
+      "target": "M_cpd00006_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03394_c0->M_cpd03445_c0:product:151",
+      "source": "R_rxn03394_c0",
+      "target": "M_cpd03445_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00443_c0->R_rxn02201_c0:reactant:152",
+      "source": "M_cpd00443_c0",
+      "target": "R_rxn02201_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02920_c0->R_rxn02201_c0:reactant:153",
+      "source": "M_cpd02920_c0",
+      "target": "R_rxn02201_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn02201_c0->M_cpd00012_c0:product:154",
+      "source": "R_rxn02201_c0",
+      "target": "M_cpd00012_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn02201_c0->M_cpd00683_c0:product:155",
+      "source": "R_rxn02201_c0",
+      "target": "M_cpd00683_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn00351_c0:reactant:156",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn00351_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00033_c0->R_rxn00351_c0:reactant:157",
+      "source": "M_cpd00033_c0",
+      "target": "R_rxn00351_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00506_c0->R_rxn00351_c0:reactant:158",
+      "source": "M_cpd00506_c0",
+      "target": "R_rxn00351_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00351_c0->M_cpd00008_c0:product:159",
+      "source": "R_rxn00351_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00351_c0->M_cpd00009_c0:product:160",
+      "source": "R_rxn00351_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00351_c0->M_cpd00042_c0:product:161",
+      "source": "R_rxn00351_c0",
+      "target": "M_cpd00042_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00351_c0->M_cpd00067_c0:product:162",
+      "source": "R_rxn00351_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00103_c0->R_rxn00836_c0:reactant:163",
+      "source": "M_cpd00103_c0",
+      "target": "R_rxn00836_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00226_c0->R_rxn00836_c0:reactant:164",
+      "source": "M_cpd00226_c0",
+      "target": "R_rxn00836_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00836_c0->M_cpd00012_c0:product:165",
+      "source": "R_rxn00836_c0",
+      "target": "M_cpd00012_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00836_c0->M_cpd00067_c0:product:166",
+      "source": "R_rxn00836_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00836_c0->M_cpd00114_c0:product:167",
+      "source": "R_rxn00836_c0",
+      "target": "M_cpd00114_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00017_c0->R_rxn08180_c0:reactant:168",
+      "source": "M_cpd00017_c0",
+      "target": "R_rxn08180_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00074_c0->R_rxn08180_c0:reactant:169",
+      "source": "M_cpd00074_c0",
+      "target": "R_rxn08180_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd01311_c0->R_rxn08180_c0:reactant:170",
+      "source": "M_cpd01311_c0",
+      "target": "R_rxn08180_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn08180_c0->M_cpd00060_c0:product:171",
+      "source": "R_rxn08180_c0",
+      "target": "M_cpd00060_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn08180_c0->M_cpd00067_c0:product:172",
+      "source": "R_rxn08180_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn08180_c0->M_cpd00104_c0:product:173",
+      "source": "R_rxn08180_c0",
+      "target": "M_cpd00104_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn08180_c0->M_cpd03091_c0:product:174",
+      "source": "R_rxn08180_c0",
+      "target": "M_cpd03091_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn00062_c0:reactant:175",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn00062_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn00062_c0:reactant:176",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn00062_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00062_c0->M_cpd00008_c0:product:177",
+      "source": "R_rxn00062_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00062_c0->M_cpd00009_c0:product:178",
+      "source": "R_rxn00062_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00062_c0->M_cpd00067_c0:product:179",
+      "source": "R_rxn00062_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00022_c0->R_rxn00423_c0:reactant:180",
+      "source": "M_cpd00022_c0",
+      "target": "R_rxn00423_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00054_c0->R_rxn00423_c0:reactant:181",
+      "source": "M_cpd00054_c0",
+      "target": "R_rxn00423_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00423_c0->M_cpd00010_c0:product:182",
+      "source": "R_rxn00423_c0",
+      "target": "M_cpd00010_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00423_c0->M_cpd00722_c0:product:183",
+      "source": "R_rxn00423_c0",
+      "target": "M_cpd00722_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn00364_c0:reactant:184",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn00364_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00046_c0->R_rxn00364_c0:reactant:185",
+      "source": "M_cpd00046_c0",
+      "target": "R_rxn00364_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn00364_c0:reactant:186",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn00364_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00364_c0->M_cpd00008_c0:product:187",
+      "source": "R_rxn00364_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00364_c0->M_cpd00096_c0:product:188",
+      "source": "R_rxn00364_c0",
+      "target": "M_cpd00096_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00067_p0->R_rxn05561_c0:reactant:189",
+      "source": "M_cpd00067_p0",
+      "target": "R_rxn05561_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00106_p0->R_rxn05561_c0:reactant:190",
+      "source": "M_cpd00106_p0",
+      "target": "R_rxn05561_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05561_c0->M_cpd00067_c0:product:191",
+      "source": "R_rxn05561_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05561_c0->M_cpd00106_c0:product:192",
+      "source": "R_rxn05561_c0",
+      "target": "M_cpd00106_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn09126_c0:reactant:193",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn09126_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd15524_c0->R_rxn09126_c0:reactant:194",
+      "source": "M_cpd15524_c0",
+      "target": "R_rxn09126_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn09126_c0->M_cpd00067_c0:product:195",
+      "source": "R_rxn09126_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09126_c0->M_cpd00214_c0:product:196",
+      "source": "R_rxn09126_c0",
+      "target": "M_cpd00214_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09126_c0->M_cpd15355_c0:product:197",
+      "source": "R_rxn09126_c0",
+      "target": "M_cpd15355_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00037_c0->R_rxn03408_c0:reactant:198",
+      "source": "M_cpd00037_c0",
+      "target": "R_rxn03408_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03494_c0->R_rxn03408_c0:reactant:199",
+      "source": "M_cpd03494_c0",
+      "target": "R_rxn03408_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03408_c0->M_cpd00014_c0:product:200",
+      "source": "R_rxn03408_c0",
+      "target": "M_cpd00014_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03408_c0->M_cpd03495_c0:product:201",
+      "source": "R_rxn03408_c0",
+      "target": "M_cpd03495_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn02177_c0:reactant:202",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn02177_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00658_c0->R_rxn02177_c0:reactant:203",
+      "source": "M_cpd00658_c0",
+      "target": "R_rxn02177_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn02177_c0->M_cpd00020_c0:product:204",
+      "source": "R_rxn02177_c0",
+      "target": "M_cpd00020_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn02177_c0->M_cpd02566_c0:product:205",
+      "source": "R_rxn02177_c0",
+      "target": "M_cpd02566_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn00646_c0:reactant:206",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn00646_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00023_c0->R_rxn00646_c0:reactant:207",
+      "source": "M_cpd00023_c0",
+      "target": "R_rxn00646_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00084_c0->R_rxn00646_c0:reactant:208",
+      "source": "M_cpd00084_c0",
+      "target": "R_rxn00646_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00646_c0->M_cpd00008_c0:product:209",
+      "source": "R_rxn00646_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00646_c0->M_cpd00009_c0:product:210",
+      "source": "R_rxn00646_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00646_c0->M_cpd00067_c0:product:211",
+      "source": "R_rxn00646_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00646_c0->M_cpd00506_c0:product:212",
+      "source": "R_rxn00646_c0",
+      "target": "M_cpd00506_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn01673_c0:reactant:213",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn01673_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00533_c0->R_rxn01673_c0:reactant:214",
+      "source": "M_cpd00533_c0",
+      "target": "R_rxn01673_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01673_c0->M_cpd00008_c0:product:215",
+      "source": "R_rxn01673_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01673_c0->M_cpd00356_c0:product:216",
+      "source": "R_rxn01673_c0",
+      "target": "M_cpd00356_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn00247_c0:reactant:217",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn00247_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00032_c0->R_rxn00247_c0:reactant:218",
+      "source": "M_cpd00032_c0",
+      "target": "R_rxn00247_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00247_c0->M_cpd00008_c0:product:219",
+      "source": "R_rxn00247_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00247_c0->M_cpd00011_c0:product:220",
+      "source": "R_rxn00247_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00247_c0->M_cpd00061_c0:product:221",
+      "source": "R_rxn00247_c0",
+      "target": "M_cpd00061_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn00022_c0:reactant:222",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn00022_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00179_c0->R_rxn00022_c0:reactant:223",
+      "source": "M_cpd00179_c0",
+      "target": "R_rxn00022_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00022_c0->M_cpd00027_c0:product:224",
+      "source": "R_rxn00022_c0",
+      "target": "M_cpd00027_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00137_c0->R_rxn00973_c0:reactant:225",
+      "source": "M_cpd00137_c0",
+      "target": "R_rxn00973_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00973_c0->M_cpd00260_c0:product:226",
+      "source": "R_rxn00973_c0",
+      "target": "M_cpd00260_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00521_c0->R_rxn02000_c0:reactant:227",
+      "source": "M_cpd00521_c0",
+      "target": "R_rxn02000_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn02000_c0->M_cpd00522_c0:product:228",
+      "source": "R_rxn02000_c0",
+      "target": "M_cpd00522_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00003_c0->R_rxn03239_c0:reactant:229",
+      "source": "M_cpd00003_c0",
+      "target": "R_rxn03239_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03113_c0->R_rxn03239_c0:reactant:230",
+      "source": "M_cpd03113_c0",
+      "target": "R_rxn03239_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03239_c0->M_cpd00004_c0:product:231",
+      "source": "R_rxn03239_c0",
+      "target": "M_cpd00004_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03239_c0->M_cpd00067_c0:product:232",
+      "source": "R_rxn03239_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03239_c0->M_cpd03114_c0:product:233",
+      "source": "R_rxn03239_c0",
+      "target": "M_cpd03114_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd01140_c0->R_rxn03120_c0:reactant:234",
+      "source": "M_cpd01140_c0",
+      "target": "R_rxn03120_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02807_c0->R_rxn03120_c0:reactant:235",
+      "source": "M_cpd02807_c0",
+      "target": "R_rxn03120_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03120_c0->M_cpd00014_c0:product:236",
+      "source": "R_rxn03120_c0",
+      "target": "M_cpd00014_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03120_c0->M_cpd02952_c0:product:237",
+      "source": "R_rxn03120_c0",
+      "target": "M_cpd02952_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00010_c0->R_rxn05457_c0:reactant:238",
+      "source": "M_cpd00010_c0",
+      "target": "R_rxn05457_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11466_c0->R_rxn05457_c0:reactant:239",
+      "source": "M_cpd11466_c0",
+      "target": "R_rxn05457_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05457_c0->M_cpd01695_c0:product:240",
+      "source": "R_rxn05457_c0",
+      "target": "M_cpd01695_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05457_c0->M_cpd11493_c0:product:241",
+      "source": "R_rxn05457_c0",
+      "target": "M_cpd11493_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn04271_c0:reactant:242",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn04271_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00003_c0->R_rxn04271_c0:reactant:243",
+      "source": "M_cpd00003_c0",
+      "target": "R_rxn04271_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd08739_c0->R_rxn04271_c0:reactant:244",
+      "source": "M_cpd08739_c0",
+      "target": "R_rxn04271_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn04271_c0->M_cpd00004_c0:product:245",
+      "source": "R_rxn04271_c0",
+      "target": "M_cpd00004_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn04271_c0->M_cpd00067_c0:product:246",
+      "source": "R_rxn04271_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn04271_c0->M_cpd08740_c0:product:247",
+      "source": "R_rxn04271_c0",
+      "target": "M_cpd08740_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd11492_c0->R_rxn05392_c0:reactant:248",
+      "source": "M_cpd11492_c0",
+      "target": "R_rxn05392_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11528_c0->R_rxn05392_c0:reactant:249",
+      "source": "M_cpd11528_c0",
+      "target": "R_rxn05392_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05392_c0->M_cpd00011_c0:product:250",
+      "source": "R_rxn05392_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05392_c0->M_cpd11493_c0:product:251",
+      "source": "R_rxn05392_c0",
+      "target": "M_cpd11493_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05392_c0->M_cpd11529_c0:product:252",
+      "source": "R_rxn05392_c0",
+      "target": "M_cpd11529_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00113_c0->R_rxn12008_c0:reactant:253",
+      "source": "M_cpd00113_c0",
+      "target": "R_rxn12008_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02590_c0->R_rxn12008_c0:reactant:254",
+      "source": "M_cpd02590_c0",
+      "target": "R_rxn12008_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn12008_c0->M_cpd00012_c0:product:255",
+      "source": "R_rxn12008_c0",
+      "target": "M_cpd00012_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn12008_c0->M_cpd00067_c0:product:256",
+      "source": "R_rxn12008_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn12008_c0->M_cpd02557_c0:product:257",
+      "source": "R_rxn12008_c0",
+      "target": "M_cpd02557_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd08289_c0->R_rxn04070_c0:reactant:258",
+      "source": "M_cpd08289_c0",
+      "target": "R_rxn04070_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd08449_c0->R_rxn04070_c0:reactant:259",
+      "source": "M_cpd08449_c0",
+      "target": "R_rxn04070_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn04070_c0->M_cpd00001_c0:product:260",
+      "source": "R_rxn04070_c0",
+      "target": "M_cpd00001_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn04070_c0->M_cpd00009_c0:product:261",
+      "source": "R_rxn04070_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn04070_c0->M_cpd00067_c0:product:262",
+      "source": "R_rxn04070_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn04070_c0->M_cpd00478_c0:product:263",
+      "source": "R_rxn04070_c0",
+      "target": "M_cpd00478_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn00199_c0:reactant:264",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn00199_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03187_c0->R_rxn00199_c0:reactant:265",
+      "source": "M_cpd03187_c0",
+      "target": "R_rxn00199_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00199_c0->M_cpd00011_c0:product:266",
+      "source": "R_rxn00199_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00199_c0->M_cpd00024_c0:product:267",
+      "source": "R_rxn00199_c0",
+      "target": "M_cpd00024_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00009_c0->R_rxn01358_c0:reactant:268",
+      "source": "M_cpd00009_c0",
+      "target": "R_rxn01358_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00246_c0->R_rxn01358_c0:reactant:269",
+      "source": "M_cpd00246_c0",
+      "target": "R_rxn01358_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01358_c0->M_cpd00226_c0:product:270",
+      "source": "R_rxn01358_c0",
+      "target": "M_cpd00226_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01358_c0->M_cpd00475_c0:product:271",
+      "source": "R_rxn01358_c0",
+      "target": "M_cpd00475_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn03433_c0:reactant:272",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn03433_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03572_c0->R_rxn03433_c0:reactant:273",
+      "source": "M_cpd03572_c0",
+      "target": "R_rxn03433_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03433_c0->M_cpd00010_c0:product:274",
+      "source": "R_rxn03433_c0",
+      "target": "M_cpd00010_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03433_c0->M_cpd00067_c0:product:275",
+      "source": "R_rxn03433_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03433_c0->M_cpd00876_c0:product:276",
+      "source": "R_rxn03433_c0",
+      "target": "M_cpd00876_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00054_c0->R_rxn10231_c0:reactant:277",
+      "source": "M_cpd00054_c0",
+      "target": "R_rxn10231_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd15688_c0->R_rxn10231_c0:reactant:278",
+      "source": "M_cpd15688_c0",
+      "target": "R_rxn10231_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn10231_c0->M_cpd00046_c0:product:279",
+      "source": "R_rxn10231_c0",
+      "target": "M_cpd00046_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn10231_c0->M_cpd00067_c0:product:280",
+      "source": "R_rxn10231_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn10231_c0->M_cpd15694_c0:product:281",
+      "source": "R_rxn10231_c0",
+      "target": "M_cpd15694_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00024_c0->R_rxn02944_c0:reactant:282",
+      "source": "M_cpd00024_c0",
+      "target": "R_rxn02944_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02160_c0->R_rxn02944_c0:reactant:283",
+      "source": "M_cpd02160_c0",
+      "target": "R_rxn02944_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn02944_c0->M_cpd00023_c0:product:284",
+      "source": "R_rxn02944_c0",
+      "target": "M_cpd00023_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn02944_c0->M_cpd03526_c0:product:285",
+      "source": "R_rxn02944_c0",
+      "target": "M_cpd03526_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn10270_c0:reactant:286",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn10270_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd15721_c0->R_rxn10270_c0:reactant:287",
+      "source": "M_cpd15721_c0",
+      "target": "R_rxn10270_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn10270_c0->M_cpd00009_c0:product:288",
+      "source": "R_rxn10270_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn10270_c0->M_cpd00067_c0:product:289",
+      "source": "R_rxn10270_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn10270_c0->M_cpd15727_c0:product:290",
+      "source": "R_rxn10270_c0",
+      "target": "M_cpd15727_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn12637_c0:reactant:291",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn12637_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11589_c0->R_rxn12637_c0:reactant:292",
+      "source": "M_cpd11589_c0",
+      "target": "R_rxn12637_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn12637_c0->M_cpd00033_c0:product:293",
+      "source": "R_rxn12637_c0",
+      "target": "M_cpd00033_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn12637_c0->M_cpd00041_c0:product:294",
+      "source": "R_rxn12637_c0",
+      "target": "M_cpd00041_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn03046_c0:reactant:295",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn03046_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02519_c0->R_rxn03046_c0:reactant:296",
+      "source": "M_cpd02519_c0",
+      "target": "R_rxn03046_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03046_c0->M_cpd00008_c0:product:297",
+      "source": "R_rxn03046_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03046_c0->M_cpd00067_c0:product:298",
+      "source": "R_rxn03046_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03046_c0->M_cpd02744_c0:product:299",
+      "source": "R_rxn03046_c0",
+      "target": "M_cpd02744_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn09240_c0:reactant:300",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn09240_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn09240_c0:reactant:301",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn09240_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00038_c0->R_rxn09240_c0:reactant:302",
+      "source": "M_cpd00038_c0",
+      "target": "R_rxn09240_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00048_c0->R_rxn09240_c0:reactant:303",
+      "source": "M_cpd00048_c0",
+      "target": "R_rxn09240_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn09240_c0->M_cpd00009_c0:product:304",
+      "source": "R_rxn09240_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09240_c0->M_cpd00012_c0:product:305",
+      "source": "R_rxn09240_c0",
+      "target": "M_cpd00012_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09240_c0->M_cpd00031_c0:product:306",
+      "source": "R_rxn09240_c0",
+      "target": "M_cpd00031_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09240_c0->M_cpd00067_c0:product:307",
+      "source": "R_rxn09240_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09240_c0->M_cpd00193_c0:product:308",
+      "source": "R_rxn09240_c0",
+      "target": "M_cpd00193_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn01219_c0:reactant:309",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn01219_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_c0->R_rxn01219_c0:reactant:310",
+      "source": "M_cpd00067_c0",
+      "target": "R_rxn01219_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00206_c0->R_rxn01219_c0:reactant:311",
+      "source": "M_cpd00206_c0",
+      "target": "R_rxn01219_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01219_c0->M_cpd00008_c0:product:312",
+      "source": "R_rxn01219_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01219_c0->M_cpd00533_c0:product:313",
+      "source": "R_rxn01219_c0",
+      "target": "M_cpd00533_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd02227_c0->R_rxn05958_c0:reactant:314",
+      "source": "M_cpd02227_c0",
+      "target": "R_rxn05958_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05958_c0->M_cpd00135_c0:product:315",
+      "source": "R_rxn05958_c0",
+      "target": "M_cpd00135_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05958_c0->M_cpd08636_c0:product:316",
+      "source": "R_rxn05958_c0",
+      "target": "M_cpd08636_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00032_c0->R_rxn00519_c0:reactant:317",
+      "source": "M_cpd00032_c0",
+      "target": "R_rxn00519_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00068_c0->R_rxn00519_c0:reactant:318",
+      "source": "M_cpd00068_c0",
+      "target": "R_rxn00519_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00519_c0->M_cpd00011_c0:product:319",
+      "source": "R_rxn00519_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00519_c0->M_cpd00061_c0:product:320",
+      "source": "R_rxn00519_c0",
+      "target": "M_cpd00061_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00519_c0->M_cpd00090_c0:product:321",
+      "source": "R_rxn00519_c0",
+      "target": "M_cpd00090_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd02375_c0->R_rxn00800_c0:reactant:322",
+      "source": "M_cpd02375_c0",
+      "target": "R_rxn00800_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00800_c0->M_cpd00018_c0:product:323",
+      "source": "R_rxn00800_c0",
+      "target": "M_cpd00018_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00800_c0->M_cpd00106_c0:product:324",
+      "source": "R_rxn00800_c0",
+      "target": "M_cpd00106_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00356_c0->R_rxn01705_c0:reactant:325",
+      "source": "M_cpd00356_c0",
+      "target": "R_rxn01705_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00367_c0->R_rxn01705_c0:reactant:326",
+      "source": "M_cpd00367_c0",
+      "target": "R_rxn01705_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01705_c0->M_cpd00046_c0:product:327",
+      "source": "R_rxn01705_c0",
+      "target": "M_cpd00046_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01705_c0->M_cpd00067_c0:product:328",
+      "source": "R_rxn01705_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01705_c0->M_cpd00533_c0:product:329",
+      "source": "R_rxn01705_c0",
+      "target": "M_cpd00533_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00052_c0->R_rxn09177_c0:reactant:330",
+      "source": "M_cpd00052_c0",
+      "target": "R_rxn09177_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00084_c0->R_rxn09177_c0:reactant:331",
+      "source": "M_cpd00084_c0",
+      "target": "R_rxn09177_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd02201_c0->R_rxn09177_c0:reactant:332",
+      "source": "M_cpd02201_c0",
+      "target": "R_rxn09177_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn09177_c0->M_cpd00012_c0:product:333",
+      "source": "R_rxn09177_c0",
+      "target": "M_cpd00012_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09177_c0->M_cpd00046_c0:product:334",
+      "source": "R_rxn09177_c0",
+      "target": "M_cpd00046_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09177_c0->M_cpd00067_c0:product:335",
+      "source": "R_rxn09177_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09177_c0->M_cpd02666_c0:product:336",
+      "source": "R_rxn09177_c0",
+      "target": "M_cpd02666_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn00211_c0:reactant:337",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn00211_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00003_c0->R_rxn00211_c0:reactant:338",
+      "source": "M_cpd00003_c0",
+      "target": "R_rxn00211_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00026_c0->R_rxn00211_c0:reactant:339",
+      "source": "M_cpd00026_c0",
+      "target": "R_rxn00211_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00211_c0->M_cpd00004_c0:product:340",
+      "source": "R_rxn00211_c0",
+      "target": "M_cpd00004_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00211_c0->M_cpd00067_c0:product:341",
+      "source": "R_rxn00211_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00211_c0->M_cpd00144_c0:product:342",
+      "source": "R_rxn00211_c0",
+      "target": "M_cpd00144_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn00179_c0:reactant:343",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn00179_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00023_c0->R_rxn00179_c0:reactant:344",
+      "source": "M_cpd00023_c0",
+      "target": "R_rxn00179_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00179_c0->M_cpd00008_c0:product:345",
+      "source": "R_rxn00179_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00179_c0->M_cpd02097_c0:product:346",
+      "source": "R_rxn00179_c0",
+      "target": "M_cpd02097_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00002_c0->R_rxn01210_c0:reactant:347",
+      "source": "M_cpd00002_c0",
+      "target": "R_rxn01210_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00023_c0->R_rxn01210_c0:reactant:348",
+      "source": "M_cpd00023_c0",
+      "target": "R_rxn01210_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00201_c0->R_rxn01210_c0:reactant:349",
+      "source": "M_cpd00201_c0",
+      "target": "R_rxn01210_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01210_c0->M_cpd00008_c0:product:350",
+      "source": "R_rxn01210_c0",
+      "target": "M_cpd00008_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01210_c0->M_cpd00009_c0:product:351",
+      "source": "R_rxn01210_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01210_c0->M_cpd00067_c0:product:352",
+      "source": "R_rxn01210_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01210_c0->M_cpd03524_c0:product:353",
+      "source": "R_rxn01210_c0",
+      "target": "M_cpd03524_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00070_c0->R_rxn00730_c0:reactant:354",
+      "source": "M_cpd00070_c0",
+      "target": "R_rxn00730_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00093_c0->R_rxn00730_c0:reactant:355",
+      "source": "M_cpd00093_c0",
+      "target": "R_rxn00730_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00730_c0->M_cpd00010_c0:product:356",
+      "source": "R_rxn00730_c0",
+      "target": "M_cpd00010_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00730_c0->M_cpd02014_c0:product:357",
+      "source": "R_rxn00730_c0",
+      "target": "M_cpd02014_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00022_c0->R_rxn00192_c0:reactant:358",
+      "source": "M_cpd00022_c0",
+      "target": "R_rxn00192_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00023_c0->R_rxn00192_c0:reactant:359",
+      "source": "M_cpd00023_c0",
+      "target": "R_rxn00192_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn00192_c0->M_cpd00010_c0:product:360",
+      "source": "R_rxn00192_c0",
+      "target": "M_cpd00010_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00192_c0->M_cpd00067_c0:product:361",
+      "source": "R_rxn00192_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn00192_c0->M_cpd00477_c0:product:362",
+      "source": "R_rxn00192_c0",
+      "target": "M_cpd00477_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00001_c0->R_rxn01218_c0:reactant:363",
+      "source": "M_cpd00001_c0",
+      "target": "R_rxn01218_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00206_c0->R_rxn01218_c0:reactant:364",
+      "source": "M_cpd00206_c0",
+      "target": "R_rxn01218_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn01218_c0->M_cpd00009_c0:product:365",
+      "source": "R_rxn01218_c0",
+      "target": "M_cpd00009_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn01218_c0->M_cpd00654_c0:product:366",
+      "source": "R_rxn01218_c0",
+      "target": "M_cpd00654_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd11492_c0->R_rxn05367_c0:reactant:367",
+      "source": "M_cpd11492_c0",
+      "target": "R_rxn05367_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd11503_c0->R_rxn05367_c0:reactant:368",
+      "source": "M_cpd11503_c0",
+      "target": "R_rxn05367_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05367_c0->M_cpd00011_c0:product:369",
+      "source": "R_rxn05367_c0",
+      "target": "M_cpd00011_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05367_c0->M_cpd11493_c0:product:370",
+      "source": "R_rxn05367_c0",
+      "target": "M_cpd11493_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05367_c0->M_cpd11504_c0:product:371",
+      "source": "R_rxn05367_c0",
+      "target": "M_cpd11504_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00011_c0->R_rxn03360_c0:reactant:372",
+      "source": "M_cpd00011_c0",
+      "target": "R_rxn03360_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd03349_c0->R_rxn03360_c0:reactant:373",
+      "source": "M_cpd03349_c0",
+      "target": "R_rxn03360_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn03360_c0->M_cpd00067_c0:product:374",
+      "source": "R_rxn03360_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn03360_c0->M_cpd03362_c0:product:375",
+      "source": "R_rxn03360_c0",
+      "target": "M_cpd03362_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd02021_c0->R_rxn02898_c0:reactant:376",
+      "source": "M_cpd02021_c0",
+      "target": "R_rxn02898_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn02898_c0->M_cpd00010_c0:product:377",
+      "source": "R_rxn02898_c0",
+      "target": "M_cpd00010_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn02898_c0->M_cpd02295_c0:product:378",
+      "source": "R_rxn02898_c0",
+      "target": "M_cpd02295_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00036_c0->R_rxn09273_c0:reactant:379",
+      "source": "M_cpd00036_c0",
+      "target": "R_rxn09273_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00106_p0->R_rxn09273_c0:reactant:380",
+      "source": "M_cpd00106_p0",
+      "target": "R_rxn09273_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn09273_c0->M_cpd00036_p0:product:381",
+      "source": "R_rxn09273_c0",
+      "target": "M_cpd00036_p0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn09273_c0->M_cpd00106_c0:product:382",
+      "source": "R_rxn09273_c0",
+      "target": "M_cpd00106_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "M_cpd00036_p0->R_rxn05654_c0:reactant:383",
+      "source": "M_cpd00036_p0",
+      "target": "R_rxn05654_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "M_cpd00067_p0->R_rxn05654_c0:reactant:384",
+      "source": "M_cpd00067_p0",
+      "target": "R_rxn05654_c0",
+      "link_type": "reactant"
+    },
+    {
+      "id": "R_rxn05654_c0->M_cpd00036_c0:product:385",
+      "source": "R_rxn05654_c0",
+      "target": "M_cpd00036_c0",
+      "link_type": "product"
+    },
+    {
+      "id": "R_rxn05654_c0->M_cpd00067_c0:product:386",
+      "source": "R_rxn05654_c0",
+      "target": "M_cpd00067_c0",
+      "link_type": "product"
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "message": "Interactive reaction network graph generated.",
+    "reaction_count_available": 2094,
+    "reaction_count_rendered": 80,
+    "metabolite_count_rendered": 184,
+    "node_count": 264,
+    "link_count": 387,
+    "overlay_count_available": 30,
+    "warning_count": 0,
+    "production_candidate_count": 0,
+    "ko_candidate_count": 0,
+    "kd_candidate_count": 0,
+    "oe_candidate_count": 0,
+    "top_production_reactions": "",
+    "production_warning_reactions": "",
+    "needs_filtering": false
+  },
+  "notes": [
+    "This graph is generated by the Omics-GEM lightweight interactive viewer.",
+    "SAMMI standalone assets are not vendored by this renderer."
+  ]
+}

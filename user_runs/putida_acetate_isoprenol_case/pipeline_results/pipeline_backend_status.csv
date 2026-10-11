@@ -1,0 +1,9 @@
+backend,available,status,detail,path
+cobrapy,True,available,Local Python import check,
+troppo_fastcore,True,available,TROPPO FASTcore import check,
+matlab,True,available,MATLAB command for GECKO external runner,D:\Matlab\bin\matlab.EXE
+gecko_home,True,available,GECKO_HOME environment path,D:\MatExt\GECKO
+docker,True,available,Docker command for GECKO runDLKcat,C:\Program Files\Docker\Docker\resources\bin\docker.EXE
+pytfa_python,False,missing,Missing Python modules: pytfa,D:\generate\.venv\Scripts\python.exe
+pytfa_thermo_db,False,missing,PYTFA_THERMO_DB environment path,
+memote,True,available,MEMOTE command for standardized GEM QC,D:\generate\.venv\Scripts\memote.exe

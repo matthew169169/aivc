@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed",
+  "message": "Interactive reaction network graph generated.",
+  "variant_id": "enzyme_gecko__higho2",
+  "grouping_mode": "subsystem",
+  "overlay_source": "none",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none",
+  "source_sammi_manifest_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\sammi_package_manifest.json",
+  "source_overlay_status": "not_selected",
+  "files": {
+    "graph": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\network_graph.json",
+    "html": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\interactive_map.html",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\interactive_map_manifest.json",
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\visualization_results\\compare_submaps\\enzyme_gecko__higho2\\subsystem\\Glycerolipid_and_Glycerophospholipid_Metabolism_in_Bacteria\\none\\interactive_map_summary.csv"
+  },
+  "summary": {
+    "status": "completed",
+    "message": "Interactive reaction network graph generated.",
+    "reaction_count_available": 124,
+    "reaction_count_rendered": 124,
+    "metabolite_count_rendered": 151,
+    "node_count": 275,
+    "link_count": 561,
+    "overlay_count_available": 0,
+    "warning_count": 0,
+    "production_candidate_count": 0,
+    "ko_candidate_count": 0,
+    "kd_candidate_count": 0,
+    "oe_candidate_count": 0,
+    "top_production_reactions": "",
+    "production_warning_reactions": "",
+    "needs_filtering": false
+  }
+}

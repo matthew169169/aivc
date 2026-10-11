@@ -1,0 +1,6 @@
+layer,status,signal_count,warning_count,summary
+structural_changes,same_source,0,0,No conventional GEM structural change detected for same-source variants.
+constraint_context,ready,5,0,0 context model(s) and 5 context-oriented method row(s) detected.
+evidence_context,partial,8,8,8 evidence quality row(s); 8 caution/guidance row(s).
+behavior_outputs,ready,7,0,"1 flux row(s), 1 optimal FBA row(s), 6 production readiness row(s)."
+gecko_behavior,optional,0,0,GECKO ecModel outputs are interpreted separately from conventional GEM structural diff.

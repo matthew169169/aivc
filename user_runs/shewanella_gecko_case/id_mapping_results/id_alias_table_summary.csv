@@ -1,0 +1,2 @@
+input_role,input_kind,source_file,total_rows,usable_alias_count,skipped_count,duplicate_count,target_types,status
+id_alias_table,omics_table,inputs\omics\id_alias_table__shewanella_gene_aliases.csv,4668,4668,0,0,any:4668,loaded

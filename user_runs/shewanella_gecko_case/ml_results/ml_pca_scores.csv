@@ -1,0 +1,3 @@
+condition,pc1,pc2,explained_variance_pc1,explained_variance_pc2,sample_status,status
+highO2,48.558688,-0.103363,0.999995,5e-06,low_n_exploratory,exploratory_pca
+lowO2,-48.559576,-0.103361,0.999995,5e-06,low_n_exploratory,exploratory_pca

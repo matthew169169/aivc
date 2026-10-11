@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.1.0",
+  "format": "sammi_compatible_visualization_package",
+  "package_dir": "/Users/matthewwoo/Downloads/aivc/user_runs/synechocystis_spkb_case",
+  "variant_id": "baseline_gem__all",
+  "generation_method": "baseline_gem",
+  "model_path": "/Users/matthewwoo/Downloads/aivc/user_runs/synechocystis_spkb_case/inputs/model/model__iJN678.xml",
+  "grouping_mode": "subsystem",
+  "sammi_resource_policy": {
+    "resource_strategy": "standalone_external_only",
+    "open_mode": "external_open_mode",
+    "vendoring_status": "vendoring_not_enabled",
+    "license": "GPL >=3",
+    "resource_source": "SAMMI standalone browser app / MD Anderson public software",
+    "standalone_home": "",
+    "local_index_html": "",
+    "local_assets_available": false,
+    "vendored_assets_available": false,
+    "sammi_vendor": {
+      "status": "missing",
+      "vendored_assets_available": false,
+      "vendor_manifest_path": "/Users/matthewwoo/Downloads/aivc/.runtime_cache/sammi_vendor/sammi_vendor_manifest.json",
+      "vendor_manifest_exists": false,
+      "assets_root": "/Users/matthewwoo/Downloads/aivc/.runtime_cache/sammi_vendor/sammi_standalone",
+      "vendored_index_path": "/Users/matthewwoo/Downloads/aivc/.runtime_cache/sammi_vendor/sammi_standalone/index.html",
+      "vendored_index_exists": false,
+      "source_url": "",
+      "license_status": "missing",
+      "license_note": "SAMMI standalone assets are optional and subject to their upstream license.",
+      "distribution_mode": "external_open_mode",
+      "message": "Vendored SAMMI assets are not available; use lightweight viewer or external SAMMI."
+    },
+    "requires_user_config": true,
+    "can_embed_locally": false,
+    "guidance": "Use external SAMMI web app, configure SAMMI_STANDALONE_HOME, or run the SAMMI vendor script."
+  },
+  "overlay_semantic_types": [],
+  "reactions": [
+    {
+      "reaction_id": "R_GLYCTO1",
+      "cobra_reaction_id": "GLYCTO1",
+      "reaction_name": "Glycolate oxidase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_glyclt_c;M_o2_c",
+      "products": "M_glx_c;M_h2o2_c"
+    },
+    {
+      "reaction_id": "R_GAPD",
+      "cobra_reaction_id": "GAPD",
+      "reaction_name": "Glyceraldehyde-3-phosphate dehydrogenase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_g3p_c;M_nad_c;M_pi_c",
+      "products": "M_13dpg_c;M_h_c;M_nadh_c"
+    },
+    {
+      "reaction_id": "R_PFK",
+      "cobra_reaction_id": "PFK",
+      "reaction_name": "Phosphofructokinase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_atp_c;M_f6p_c",
+      "products": "M_adp_c;M_fdp_c;M_h_c"
+    },
+    {
+      "reaction_id": "R_PFK_2",
+      "cobra_reaction_id": "PFK_2",
+      "reaction_name": "Phosphofructokinase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_atp_c;M_tag6p__D_c",
+      "products": "M_adp_c;M_h_c;M_tagdp__D_c"
+    },
+    {
+      "reaction_id": "R_PGI",
+      "cobra_reaction_id": "PGI",
+      "reaction_name": "Glucose-6-phosphate isomerase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_g6p_c",
+      "products": "M_f6p_c"
+    },
+    {
+      "reaction_id": "R_PGK",
+      "cobra_reaction_id": "PGK",
+      "reaction_name": "Phosphoglycerate kinase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_3pg_c;M_atp_c",
+      "products": "M_13dpg_c;M_adp_c"
+    },
+    {
+      "reaction_id": "R_PGLYCP",
+      "cobra_reaction_id": "PGLYCP",
+      "reaction_name": "Phosphoglycolate phosphatase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_2pglyc_c;M_h2o_c",
+      "products": "M_glyclt_c;M_pi_c"
+    },
+    {
+      "reaction_id": "R_GCALDD",
+      "cobra_reaction_id": "GCALDD",
+      "reaction_name": "Glycolaldehyde dehydrogenase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_gcald_c;M_h2o_c;M_nad_c",
+      "products": "M_glyclt_c;M_h_c;M_nadh_c"
+    },
+    {
+      "reaction_id": "R_PFK_3",
+      "cobra_reaction_id": "PFK_3",
+      "reaction_name": "Phosphofructokinase (s7p)",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_atp_c;M_s7p_c",
+      "products": "M_adp_c;M_h_c;M_s17bp_c"
+    }
+  ],
+  "groups": [
+    {
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "reaction_count": 9,
+      "selected_reaction_count": 9
+    }
+  ],
+  "overlays": [],
+  "overlay_summary": [
+    {
+      "overlay_source": "none",
+      "semantic_type": "none",
+      "source_file": "",
+      "source_status": "not_selected",
+      "matched_reaction_count": 0,
+      "overlay_row_count": 0,
+      "unmatched_reaction_count": 0,
+      "warning_count": 0,
+      "missing_reason": "overlay_not_selected",
+      "top_highlighted_reactions": "",
+      "warning_reactions": ""
+    }
+  ],
+  "notes": [
+    "This is a SAMMI-compatible package generated by Omics-GEM Router.",
+    "The lightweight interactive viewer remains the default; configured or vendored standalone SAMMI assets are optional."
+  ]
+}

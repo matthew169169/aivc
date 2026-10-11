@@ -1,0 +1,37 @@
+{
+  "case_id": "shewanella_gecko_oxygen",
+  "run_id": "shewanella_gecko_case",
+  "prepare_lite": true,
+  "heavy_compute": false,
+  "status": "partial",
+  "actions": [
+    {
+      "action": "refresh_readiness",
+      "status": "done",
+      "heavy_compute": false,
+      "message": "Refreshed case display readiness."
+    },
+    {
+      "action": "pair_summary_smoke",
+      "status": "done",
+      "heavy_compute": false,
+      "reaction_diff_count": 18,
+      "ranking_count": 18,
+      "reference_graph_status": "ready",
+      "target_graph_status": "ready"
+    }
+  ],
+  "readiness_artifact": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\case_display_readiness.json",
+  "qa_matrix_artifacts": {
+    "json": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\case_qa_matrix.json",
+    "csv": "D:\\generate\\user_runs\\shewanella_gecko_case\\case_study\\case_qa_matrix.csv"
+  },
+  "forbidden_actions": [
+    "model_generation_workflow",
+    "analysis_workflow",
+    "MATLAB_GECKO_RAVEN",
+    "online_kcat_query",
+    "FVA_or_solver_extension",
+    "fake_ecModel_or_capacity"
+  ]
+}

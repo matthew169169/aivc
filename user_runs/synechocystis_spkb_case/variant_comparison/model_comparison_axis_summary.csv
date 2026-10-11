@@ -1,0 +1,5 @@
+axis_layer,status,signal_count,warning_count,headline,guidance
+model_structure,same_source,2,0,No conventional GEM structural change detected for same-source variants.,Structural diff is limited to conventional GEM fields; GECKO enzyme pseudo reactions are excluded.
+constraint_evidence,ready,2,0,2 evidence quality row(s); 2 caution/guidance row(s).,Use evidence rows to explain why behavior may differ without structural changes.
+condition_behavior,partial,1,0,"1 condition behavior row(s), including highO2/lowO2 when available.","Compare highO2/lowO2 as oxygen-condition behavior, not voltage conditions."
+gecko_ecmodel,ready,1,0,1 GECKO condition row(s) summarizing adapter/enzyme readiness.,GECKO ecModel behavior is interpreted separately from conventional GEM structural diff.

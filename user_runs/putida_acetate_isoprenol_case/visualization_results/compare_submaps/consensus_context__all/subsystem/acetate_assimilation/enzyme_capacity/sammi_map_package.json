@@ -1,0 +1,154 @@
+{
+  "schema_version": "0.1.0",
+  "format": "sammi_compatible_visualization_package",
+  "package_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case",
+  "variant_id": "consensus_context__all",
+  "generation_method": "consensus_evidence",
+  "model_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\inputs\\model\\model__iJN1463.xml",
+  "grouping_mode": "subsystem",
+  "sammi_resource_policy": {
+    "resource_strategy": "vendored_assets_configured",
+    "open_mode": "vendored_local_shell",
+    "vendoring_status": "vendored_assets_available",
+    "license": "GPL >=3",
+    "resource_source": "SAMMI standalone browser app / MD Anderson public software",
+    "standalone_home": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+    "local_index_html": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+    "local_assets_available": true,
+    "vendored_assets_available": true,
+    "sammi_vendor": {
+      "status": "ready",
+      "vendored_assets_available": true,
+      "vendor_manifest_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_vendor_manifest.json",
+      "vendor_manifest_exists": true,
+      "assets_root": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone",
+      "vendored_index_path": "D:\\generate\\.runtime_cache\\sammi_vendor\\sammi_standalone\\index.html",
+      "vendored_index_exists": true,
+      "source_url": "https://github.com/MD-Anderson-Bioinformatics/SAMMI/archive/refs/heads/master.zip",
+      "license_status": "detected",
+      "license_note": "SAMMI standalone assets are distributed under their upstream license. Review the included license/readme files before redistribution.",
+      "distribution_mode": "vendored_local_assets",
+      "message": "SAMMI standalone assets were vendored successfully."
+    },
+    "requires_user_config": false,
+    "can_embed_locally": true,
+    "guidance": "Vendored standalone SAMMI assets are available; the embedded SAMMI shell can be opened."
+  },
+  "overlay_semantic_types": [
+    "enzyme_capacity"
+  ],
+  "reactions": [
+    {
+      "reaction_id": "R_PPCSCT",
+      "cobra_reaction_id": "PPCSCT",
+      "reaction_name": "Propanoyl-CoA: succinate CoA-transferase",
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "subsystem": "unannotated",
+      "compartment": "c",
+      "selected_reaction": true,
+      "reactants": "M_ppcoa_c;M_succ_c",
+      "products": "M_ppa_c;M_succoa_c"
+    }
+  ],
+  "groups": [
+    {
+      "grouping_mode": "subsystem",
+      "group_id": "unannotated",
+      "group_label": "unannotated",
+      "reaction_count": 1,
+      "selected_reaction_count": 1
+    }
+  ],
+  "overlays": [
+    {
+      "overlay_source": "enzyme_capacity",
+      "semantic_type": "enzyme_capacity",
+      "condition": "Acetate",
+      "reaction_id": "R_PPCSCT",
+      "cobra_reaction_id": "PPCSCT",
+      "overlay_value": "9758.196055256645",
+      "overlay_value_column": "enzyme_capacity_mmol_per_gDW_per_h",
+      "evidence": "ready",
+      "status": "ready",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 5.4,
+      "warning_flag": false,
+      "readiness_label": "ready",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "9758.196055256645",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+      "source_status": "available"
+    },
+    {
+      "overlay_source": "enzyme_capacity",
+      "semantic_type": "enzyme_capacity",
+      "condition": "Glucose",
+      "reaction_id": "R_PPCSCT",
+      "cobra_reaction_id": "PPCSCT",
+      "overlay_value": "7159.888530768214",
+      "overlay_value_column": "enzyme_capacity_mmol_per_gDW_per_h",
+      "evidence": "ready",
+      "status": "ready",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 5.4,
+      "warning_flag": false,
+      "readiness_label": "ready",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "7159.888530768214",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+      "source_status": "available"
+    },
+    {
+      "overlay_source": "enzyme_capacity",
+      "semantic_type": "enzyme_capacity",
+      "condition": "Glucose + Acetate",
+      "reaction_id": "R_PPCSCT",
+      "cobra_reaction_id": "PPCSCT",
+      "overlay_value": "23545.395252003065",
+      "overlay_value_column": "enzyme_capacity_mmol_per_gDW_per_h",
+      "evidence": "ready",
+      "status": "ready",
+      "overlay_color": "#0f9f9a",
+      "overlay_size": 5.4,
+      "warning_flag": false,
+      "readiness_label": "ready",
+      "candidate_type": "",
+      "candidate_action": "",
+      "production_score": "23545.395252003065",
+      "product_reaction_id": "",
+      "product_name": "",
+      "warning_reasons": "",
+      "source_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+      "source_status": "available"
+    }
+  ],
+  "overlay_summary": [
+    {
+      "overlay_source": "enzyme_capacity",
+      "semantic_type": "enzyme_capacity",
+      "source_file": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+      "source_status": "available",
+      "matched_reaction_count": 1,
+      "overlay_row_count": 3,
+      "unmatched_reaction_count": 744,
+      "warning_count": 0,
+      "missing_reason": "",
+      "top_highlighted_reactions": "R_PPCSCT;R_PPCSCT;R_PPCSCT",
+      "warning_reactions": ""
+    }
+  ],
+  "notes": [
+    "This is a SAMMI-compatible package generated by Omics-GEM Router.",
+    "The lightweight interactive viewer remains the default; configured or vendored standalone SAMMI assets are optional."
+  ]
+}

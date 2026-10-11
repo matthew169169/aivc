@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1.0",
+  "analysis_parameters": {
+    "uniprot_model_check": {
+      "enable_uniprot_rest": false,
+      "reviewed_only": false,
+      "cache_policy": "use_cache_then_fetch"
+    },
+    "kcat_conflict": {
+      "conflict_ratio_threshold": 2.0,
+      "reviewed_source_bonus": true
+    },
+    "dlkcat_external": {
+      "run_dlkcat_external": false,
+      "batch_size": 64,
+      "timeout_seconds": 1800
+    },
+    "memote_external": {
+      "run_memote": false,
+      "test_scope": "core",
+      "config_path": ""
+    },
+    "pytfa_external": {
+      "run_pytfa_external": false,
+      "thermo_db_path": "",
+      "temperature_kelvin": 298.15,
+      "ph": 7.0,
+      "ionic_strength_m": 0.25
+    },
+    "fba_pfba": {
+      "run_pfba": true,
+      "run_fva": false,
+      "fva_fraction_of_optimum": 0.95,
+      "objective_reaction_id": "",
+      "objective_direction": "max",
+      "condition_filter": "",
+      "fva_reaction_scope": "targets",
+      "loopless": false,
+      "pfba_factor": "",
+      "fva_processes": 1
+    },
+    "eflux_delta_fba": {
+      "run_pfba": true,
+      "reference_condition": "",
+      "up_log2_threshold": 1.0,
+      "down_log2_threshold": -1.0,
+      "use_pfba_flux": true
+    },
+    "ml_pca_lasso": {
+      "min_overlap": 2,
+      "prior_threshold": 0.5,
+      "max_clusters": 2,
+      "max_lasso_features": 5
+    },
+    "production_ecfactory": {
+      "biomass_fractions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      "fseof_fractions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      "biomass_reaction_id": "",
+      "product_reaction_ids": "",
+      "minimum_growth_fraction": 0.1,
+      "max_candidates": 200,
+      "max_growth_impact_candidates": 80,
+      "intervention_strategy": "ko_kd_oe",
+      "growth_loss_tolerance": 0.2
+    },
+    "ml_hybrid_profile": {
+      "task_type": "auto",
+      "target_column": "",
+      "feature_sources": "omics;flux;kcat_readiness;production",
+      "benchmark_feature_sets": "all_features;omics_only;flux_only;readiness_or_kcat;production_related",
+      "max_features": 50
+    }
+  }
+}

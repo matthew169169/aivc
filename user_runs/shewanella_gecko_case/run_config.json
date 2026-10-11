@@ -1,0 +1,252 @@
+{
+  "project_name": "Shewanella GECKO Case Study",
+  "organism": "Shewanella oneidensis MR-1",
+  "schema_version": "0.1.0",
+  "source_dir": "D:\\MatExt\\GECKO\\ecShewanella",
+  "case_study": {
+    "case_id": "shewanella_gecko_case",
+    "source_manifest": "source_manifest.json",
+    "plan_file": "D:\\generate\\paper\\Shewanella_GECKO_case_study_plan.md"
+  },
+  "default_workflow": {
+    "model_generation_methods": [
+      "baseline_gem",
+      "eflux",
+      "enzyme_gecko",
+      "consensus_evidence"
+    ],
+    "analysis_modules": [
+      "fba_pfba",
+      "eflux_delta_fba",
+      "evidence_comparison",
+      "ml_pca_lasso",
+      "condition_interpretation",
+      "production_ecfactory",
+      "readiness_gate"
+    ],
+    "selected_model_variant_ids": [
+      "baseline_gem__all"
+    ],
+    "report_preset": "full_audit_report",
+    "gecko_ec_model_mode": "full_ecModel",
+    "gecko_adapter_parameters": {
+      "adapter_class_name": "ShewanellaGeckoAdapter",
+      "model_id": "iLJ1162_shewanella",
+      "conv_gem_path": "inputs/model/model__iLJ1162.xml",
+      "organism_name": "shewanella oneidensis",
+      "kegg_id": "son",
+      "kegg_gene_id": "kegg",
+      "uniprot_type": "proteome",
+      "uniprot_id": "UP000008186",
+      "uniprot_gene_id_field": "gene_oln",
+      "uniprot_reviewed": false,
+      "complex_taxonomic_id": 211586.0,
+      "bio_rxn": "bio1",
+      "c_source": "EX_cpd00159_e0",
+      "enzyme_comp": "c0",
+      "sigma": 0.5,
+      "Ptot": 0.48,
+      "f": 0.5,
+      "gR_exp": 0.15,
+      "spontaneous_reaction_strategy": "rxn_name_contains_spontaneous",
+      "ec_model_mode": "full_ecModel",
+      "proteomics_integration": true
+    },
+    "analysis_parameters": {
+      "fba_pfba": {
+        "run_pfba": true,
+        "run_fva": false
+      },
+      "ml_pca_lasso": {
+        "min_overlap": 1,
+        "max_clusters": 4,
+        "max_lasso_features": 50
+      },
+      "production_ecfactory": {
+        "biomass_fractions": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          0.9
+        ],
+        "fseof_fractions": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          0.9
+        ]
+      }
+    }
+  },
+  "notes": [
+    "Original ecShewanella folder is treated as read-only.",
+    "GECKO external MATLAB execution is disabled until adapter probe and user confirmation.",
+    "PCA/LASSO/clustering are exploratory and not causal evidence."
+  ],
+  "upload_package": {
+    "run_id": "shewanella_gecko_case",
+    "input_file_map": "D:\\generate\\user_runs\\shewanella_gecko_case\\input_file_map.csv",
+    "input_rows": [
+      {
+        "kind": "model",
+        "role": "gem",
+        "original_name": "iLJ1162.xml",
+        "saved_name": "model__iLJ1162.xml",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+        "relative_path": "inputs\\model\\model__iLJ1162.xml",
+        "size_bytes": 7019570,
+        "columns": "",
+        "inspection_status": "ok",
+        "details": "Shewanella iLJ1162 conventional GEM copied from read-only source."
+      },
+      {
+        "kind": "omics_table",
+        "role": "transcriptomics",
+        "original_name": "transcriptomics_shewanella.csv",
+        "saved_name": "transcriptomics__transcriptomics_shewanella.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\transcriptomics__transcriptomics_shewanella.csv",
+        "relative_path": "inputs\\omics\\transcriptomics__transcriptomics_shewanella.csv",
+        "size_bytes": 3418535,
+        "columns": "gene_id;sample;value;unit;condition;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=26604."
+      },
+      {
+        "kind": "omics_table",
+        "role": "absolute_proteomics",
+        "original_name": "absolute_proteomics_shewanella.csv",
+        "saved_name": "absolute_proteomics__absolute_proteomics_shewanella.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\absolute_proteomics__absolute_proteomics_shewanella.csv",
+        "relative_path": "inputs\\omics\\absolute_proteomics__absolute_proteomics_shewanella.csv",
+        "size_bytes": 1900621,
+        "columns": "protein_id;sample;value;unit;condition;gene_id;mass_abundance_mg_gDCW;raw_fraction_total_protein;protein_mw_da;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=9953."
+      },
+      {
+        "kind": "omics_table",
+        "role": "relative_proteomics",
+        "original_name": "relative_proteomics_shewanella.csv",
+        "saved_name": "relative_proteomics__relative_proteomics_shewanella.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\relative_proteomics__relative_proteomics_shewanella.csv",
+        "relative_path": "inputs\\omics\\relative_proteomics__relative_proteomics_shewanella.csv",
+        "size_bytes": 481080,
+        "columns": "protein_id;sample;value;unit;condition;reference_condition;gene_id;lowO2_value;highO2_value;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=2391."
+      },
+      {
+        "kind": "omics_table",
+        "role": "ml_priors",
+        "original_name": "gotenzymes2_kcat_priors.csv",
+        "saved_name": "ml_priors__gotenzymes2_kcat_priors.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\ml_priors__gotenzymes2_kcat_priors.csv",
+        "relative_path": "inputs\\omics\\ml_priors__gotenzymes2_kcat_priors.csv",
+        "size_bytes": 727651,
+        "columns": "target_id;target_type;value;confidence;unit;source_tier;gene_id;organism;ec_number;compound;temperature_optimum;melting_temperature;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=4095."
+      },
+      {
+        "kind": "omics_table",
+        "role": "id_alias_table",
+        "original_name": "shewanella_gene_aliases.csv",
+        "saved_name": "id_alias_table__shewanella_gene_aliases.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\id_alias_table__shewanella_gene_aliases.csv",
+        "relative_path": "inputs\\omics\\id_alias_table__shewanella_gene_aliases.csv",
+        "size_bytes": 398103,
+        "columns": "source_id;model_id;source_namespace;target_namespace;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=4668."
+      },
+      {
+        "kind": "omics_table",
+        "role": "uniprot_annotation",
+        "original_name": "shewanella_functional_annotation.csv",
+        "saved_name": "uniprot_annotation__shewanella_functional_annotation.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\uniprot_annotation__shewanella_functional_annotation.csv",
+        "relative_path": "inputs\\omics\\uniprot_annotation__shewanella_functional_annotation.csv",
+        "size_bytes": 797335,
+        "columns": "gene_id;model_gene_id;locus_tag_1;locus_tag_2;product_descriptor;fig_function;fig_subsystem;general_function;regulon;cofactor;localization;source",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=4434."
+      },
+      {
+        "kind": "omics_table",
+        "role": "dlkcat_annotation",
+        "original_name": "shewanella_dlkcat_annotation.csv",
+        "saved_name": "dlkcat_annotation__shewanella_dlkcat_annotation.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\dlkcat_annotation__shewanella_dlkcat_annotation.csv",
+        "relative_path": "inputs\\omics\\dlkcat_annotation__shewanella_dlkcat_annotation.csv",
+        "size_bytes": 2892843,
+        "columns": "gene_id;model_gene_id;protein_id;uniprot_id;ec_number;protein_sequence;sequence;substrate_name;substrate_smiles;source",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=4068."
+      },
+      {
+        "kind": "omics_table",
+        "role": "production_targets",
+        "original_name": "production_targets_shewanella.csv",
+        "saved_name": "production_targets__production_targets_shewanella.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\production_targets__production_targets_shewanella.csv",
+        "relative_path": "inputs\\omics\\production_targets__production_targets_shewanella.csv",
+        "size_bytes": 1020,
+        "columns": "condition;reaction_id;product_name;target_type;priority;source;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=6."
+      },
+      {
+        "kind": "condition_table",
+        "role": "condition_exchange_bounds",
+        "original_name": "condition_exchange_bounds_shewanella.csv",
+        "saved_name": "condition_exchange_bounds__condition_exchange_bounds_shewanella.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\condition\\condition_exchange_bounds__condition_exchange_bounds_shewanella.csv",
+        "relative_path": "inputs\\condition\\condition_exchange_bounds__condition_exchange_bounds_shewanella.csv",
+        "size_bytes": 4663,
+        "columns": "condition;reaction_id;model_reaction_id;lower_bound;upper_bound;source;confidence;status;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=21."
+      },
+      {
+        "kind": "condition_table",
+        "role": "condition_summary",
+        "original_name": "shewanella_condition_summary.csv",
+        "saved_name": "condition_summary__shewanella_condition_summary.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\condition\\condition_summary__shewanella_condition_summary.csv",
+        "relative_path": "inputs\\condition\\condition_summary__shewanella_condition_summary.csv",
+        "size_bytes": 792,
+        "columns": "condition;source_label;oxygen_percent;growth_rate_h;exchange_bound_count;model_file;model_variable;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=3."
+      }
+    ],
+    "condition_files": [
+      {
+        "kind": "condition_table",
+        "role": "condition_exchange_bounds",
+        "original_name": "condition_exchange_bounds_shewanella.csv",
+        "saved_name": "condition_exchange_bounds__condition_exchange_bounds_shewanella.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\condition\\condition_exchange_bounds__condition_exchange_bounds_shewanella.csv",
+        "relative_path": "inputs\\condition\\condition_exchange_bounds__condition_exchange_bounds_shewanella.csv",
+        "size_bytes": 4663,
+        "columns": "condition;reaction_id;model_reaction_id;lower_bound;upper_bound;source;confidence;status;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=21."
+      },
+      {
+        "kind": "condition_table",
+        "role": "condition_summary",
+        "original_name": "shewanella_condition_summary.csv",
+        "saved_name": "condition_summary__shewanella_condition_summary.csv",
+        "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\condition\\condition_summary__shewanella_condition_summary.csv",
+        "relative_path": "inputs\\condition\\condition_summary__shewanella_condition_summary.csv",
+        "size_bytes": 792,
+        "columns": "condition;source_label;oxygen_percent;growth_rate_h;exchange_bound_count;model_file;model_variable;note",
+        "inspection_status": "ok",
+        "details": "Generated Shewanella case table; rows=3."
+      }
+    ]
+  }
+}

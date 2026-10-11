@@ -1,0 +1,2 @@
+status,condition_count,numeric_feature_count,target_count,pca_component_count,cluster_count,lasso_lite_feature_count,sample_status,guidance
+completed,2,4716,0,2,2,0,low_n_exploratory,"PCA, k-means, and LASSO-lite outputs are exploratory because the condition count is small."

@@ -1,0 +1,7 @@
+condition,reaction_id,model_reaction_id,product_name,target_type,priority,mapping_status,source,note
+ALL,R_EX_cpd00029_e0,R_EX_cpd00029_e0,acetate,product_exchange,high,not_checked,shewanella_case_target_discovery,validation_target; tier=A; Matched exchange/demand/sink-like reaction.
+ALL,R_EX_cpd00020_e0,R_EX_cpd00020_e0,pyruvate,product_exchange,high,not_checked,shewanella_case_target_discovery,validation_target; tier=A; Matched exchange/demand/sink-like reaction.
+ALL,R_EX_cpd00047_e0,R_EX_cpd00047_e0,formate,product_exchange,high,not_checked,shewanella_case_target_discovery,validation_target; tier=A; Matched exchange/demand/sink-like reaction.
+ALL,R_EX_cpd00050_p0,R_EX_cpd00050_p0,FMN,product_exchange,medium,not_checked,shewanella_case_target_discovery,high_value_biotech_target; tier=B; Matched exchange/demand/sink-like reaction.
+ALL,R_EX_cpd00015_c0,R_EX_cpd00015_c0,FAD,product_exchange,medium,not_checked,shewanella_case_target_discovery,high_value_biotech_target; tier=B; Matched exchange/demand/sink-like reaction.
+ALL,R_EX_cpd00036_e0,R_EX_cpd00036_e0,succinate,product_exchange,low,not_checked,shewanella_case_target_discovery,optional_candidate; tier=C; Matched exchange/demand/sink-like reaction.

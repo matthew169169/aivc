@@ -1,0 +1,3 @@
+condition,status,objective_value,solution_source,pfba_status,pfba_total_flux_objective,exchange_bounds_applied,exchange_bounds_failed,eflux_bounds_applied,eflux_bounds_failed,constrained_reaction_count,measured_gpr_reaction_count,measured_gpr_fraction
+highO2,optimal,0.10437123490625141,pFBA,optimal,197.5642065725774,0,0,0,0,0,0,0.0
+lowO2,optimal,0.10437123490619273,pFBA,optimal,197.56420657258028,0,0,0,0,0,0,0.0

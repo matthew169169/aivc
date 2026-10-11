@@ -1,0 +1,4 @@
+target_scope,status,candidate_count,max_default_scope,guidance
+changed_structural_reactions,not_available,0,150,Targeted deletion is scoped to changed conventional GEM reactions when structural changes exist.
+respiration_redox_fermentation_transport,not_available,0,150,"Targeted essentiality should focus on respiration, redox, fermentation, transport/EET, and production-related candidates."
+production_targets,not_available,0,150,"Production target essentiality is optional and should be interpreted as model behavior, not biological causality."

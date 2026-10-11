@@ -1,0 +1,26 @@
+{
+  "cobra_available": true,
+  "status": "completed",
+  "message": "Completed E-Flux for 2 conditions and delta-FBA-lite for 1 condition pairs.",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "exchange_bounds_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\exchange_bounds.csv",
+  "reaction_expression_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\reaction_expression_evidence.csv",
+  "flux_targets_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\flux_validation_targets.csv",
+  "reference_condition": "highO2",
+  "min_expression_fraction": 0.05,
+  "up_log2_threshold": 1.0,
+  "down_log2_threshold": -1.0,
+  "run_pfba": true,
+  "files": {
+    "eflux_bounds": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\eflux_reaction_bounds.csv",
+    "eflux_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\eflux_summary.csv",
+    "eflux_fluxes": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\eflux_fluxes.csv",
+    "eflux_validation": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\eflux_flux_validation_comparison.csv",
+    "eflux_validation_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\eflux_flux_validation_summary.csv",
+    "delta_expression": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\delta_fba_expression_deltas.csv",
+    "delta_fluxes": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\delta_fba_flux_deltas.csv",
+    "delta_validation": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\delta_fba_measured_delta_comparison.csv",
+    "delta_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\delta_fba_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\transcriptomics_flux_manifest.json"
+  }
+}

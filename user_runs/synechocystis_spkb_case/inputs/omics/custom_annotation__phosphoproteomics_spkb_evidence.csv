@@ -1,0 +1,401 @@
+gene_id,protein_id,sample,condition,custom_group,evidence_type,phosphorylation_site,modified_residue,value,value_type,p_value_minus_log10,significantly_regulated,protein_name,protein_description,source_sheet
+sll0018,sll0018,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,278,T,-0.025749,log2_phosphorylation_ratio,0.0546242,,FbaA,"fructose-bisphosphate aldolase, class II",Table S9
+sll0018,sll0018,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,278,T,-0.269410592503846,log2_phosphorylation_ratio,0.238130053401498,,FbaA,"fructose-bisphosphate aldolase, class II",Table S9
+sll0018,sll0018,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,278,T,-0.153312494357427,log2_phosphorylation_ratio,0.237165282680974,,FbaA,"fructose-bisphosphate aldolase, class II",Table S9
+sll0019,sll0019,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,216,T,0.693141,log2_phosphorylation_ratio,0.0,,Dxr,1-deoxy-d-xylulose 5-phosphate reductoisomerase,Table S9
+sll0068,sll0068,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,49,T,0.0568609,log2_phosphorylation_ratio,0.0,,Sll0068,unknown protein,Table S9
+sll0068,sll0068,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,49,T,0.00201834994368255,log2_phosphorylation_ratio,0.0,,Sll0068,unknown protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,344,T,-3.22258,log2_phosphorylation_ratio,2.47325,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,344,T,-1.94588335355123,log2_phosphorylation_ratio,1.56968206731392,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,344,T,-2.5538600285848,log2_phosphorylation_ratio,2.03487242398151,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,349,T,-2.72317,log2_phosphorylation_ratio,1.38221,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,349,T,-1.36748337745667,log2_phosphorylation_ratio,1.77040790705365,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,349,T,-2.59834337234497,log2_phosphorylation_ratio,2.2147525864588,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,361,T,-1.73847,log2_phosphorylation_ratio,2.80176,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,361,T,-1.31292001406352,log2_phosphorylation_ratio,2.36889024017043,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,361,T,-1.85445666313171,log2_phosphorylation_ratio,2.93485746915215,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,369,T,-1.52973,log2_phosphorylation_ratio,1.41465,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,369,T,-0.825491666793823,log2_phosphorylation_ratio,1.30973086750013,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,369,T,-1.34771267573039,log2_phosphorylation_ratio,1.37933299881835,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,380,T,-1.27818,log2_phosphorylation_ratio,1.7421,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,380,T,-1.39949667453766,log2_phosphorylation_ratio,2.82031712888916,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,380,T,-1.59656000137329,log2_phosphorylation_ratio,1.85950444741683,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,384,T,-0.747851,log2_phosphorylation_ratio,0.0,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,384,T,-1.588250041008,log2_phosphorylation_ratio,1.03328455470216,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,384,T,-0.402974009513855,log2_phosphorylation_ratio,1.36309935822939,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,387,T,-1.11316,log2_phosphorylation_ratio,0.473838,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,387,T,0.195202223956585,log2_phosphorylation_ratio,0.115194469252634,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,387,T,-0.943313678105672,log2_phosphorylation_ratio,1.21047447075758,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,403,T,-1.95055,log2_phosphorylation_ratio,1.12057,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,403,T,-1.17253998915354,log2_phosphorylation_ratio,2.38091396966179,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,403,T,-1.6554266611735,log2_phosphorylation_ratio,2.09984698876632,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,407,S,-0.905393,log2_phosphorylation_ratio,0.444092,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,407,S,0.184534432987372,log2_phosphorylation_ratio,0.152678082900845,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,407,S,-0.643135676781336,log2_phosphorylation_ratio,0.41860415686371,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,409,T,-1.74126,log2_phosphorylation_ratio,2.34205,+,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,409,T,-0.580505341291428,log2_phosphorylation_ratio,0.509665210835604,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,409,T,-1.56049001216888,log2_phosphorylation_ratio,1.8752938113505,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,410,T,-2.18969,log2_phosphorylation_ratio,1.64102,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,410,T,-1.05272898077965,log2_phosphorylation_ratio,0.861251063292541,,Sll0103,hypothetical protein,Table S9
+sll0103,sll0103,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,410,T,-1.68203991651535,log2_phosphorylation_ratio,0.728512069889635,,Sll0103,hypothetical protein,Table S9
+sll0108,sll0108,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,501,S,-0.703525,log2_phosphorylation_ratio,0.0,,Amt1,ammonium/methylammonium permease,Table S9
+sll0271,sll0271,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,132,S,-0.389564007520676,log2_phosphorylation_ratio,0.0,,NusB,N utilization substance protein B homolog,Table S9
+sll0271,sll0271,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,132,S,-0.734443008899689,log2_phosphorylation_ratio,0.0,,NusB,N utilization substance protein B homolog,Table S9
+sll0329,sll0329,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,42,S,-0.408105,log2_phosphorylation_ratio,0.39752,,Gnd,6-phosphogluconate dehydrogenase,Table S9
+sll0329,sll0329,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,42,S,-0.0570750671128432,log2_phosphorylation_ratio,0.0957521492633518,,Gnd,6-phosphogluconate dehydrogenase,Table S9
+sll0329,sll0329,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,42,S,-0.252931599815687,log2_phosphorylation_ratio,0.584260053856143,,Gnd,6-phosphogluconate dehydrogenase,Table S9
+sll0359,sll0359,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,5,S,-0.242542,log2_phosphorylation_ratio,0.998413,,CyAbrB,"CyAbrB, putative regulatory protein",Table S9
+sll0359,sll0359,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,5,S,-0.258291671673457,log2_phosphorylation_ratio,0.357791967884178,,CyAbrB,"CyAbrB, putative regulatory protein",Table S9
+sll0359,sll0359,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,5,S,0.115642329057058,log2_phosphorylation_ratio,0.338513045955093,,CyAbrB,"CyAbrB, putative regulatory protein",Table S9
+sll0497,sll0497,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,119,Y,0.514449,log2_phosphorylation_ratio,0.692421,,Sll0497,hypothetical protein,Table S9
+sll0497,sll0497,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,119,Y,0.134068336337805,log2_phosphorylation_ratio,0.703589447479781,,Sll0497,hypothetical protein,Table S9
+sll0497,sll0497,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,119,Y,0.0638556343813737,log2_phosphorylation_ratio,0.0967982096955557,,Sll0497,hypothetical protein,Table S9
+sll0617,sll0617,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,106,T,-0.839774,log2_phosphorylation_ratio,0.721978,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,106,T,-0.745954513549805,log2_phosphorylation_ratio,0.800086514432602,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,106,T,-0.340709190194805,log2_phosphorylation_ratio,0.502781811446684,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,162,S,0.304745,log2_phosphorylation_ratio,0.0,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,162,S,-0.0815680027008057,log2_phosphorylation_ratio,0.0,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,162,S,-0.0200525000691414,log2_phosphorylation_ratio,0.0525716368756918,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,163,S,0.0200577,log2_phosphorylation_ratio,0.0,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,163,S,0.0527109988033772,log2_phosphorylation_ratio,0.661824964487471,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,163,S,-0.244848397870859,log2_phosphorylation_ratio,0.446938491245372,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,165,T,0.232906,log2_phosphorylation_ratio,0.0,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,165,T,-0.300879999995232,log2_phosphorylation_ratio,1.5293806334536,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,165,T,-0.759272038936615,log2_phosphorylation_ratio,0.698911420926425,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0617,sll0617,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,166,S,-0.280808001756668,log2_phosphorylation_ratio,0.0,,Im30,Vipp1; plasma membrane protein essential for thylakoid formation,Table S9
+sll0726,sll0726,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,168,S,-0.499005,log2_phosphorylation_ratio,1.13893,,Pgm,phosphoglucomutase,Table S9
+sll0726,sll0726,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,168,S,-0.130026797453562,log2_phosphorylation_ratio,0.530459698873509,,Pgm,phosphoglucomutase,Table S9
+sll0726,sll0726,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,168,S,0.00722745805978775,log2_phosphorylation_ratio,0.00867972080554665,,Pgm,phosphoglucomutase,Table S9
+sll0877,sll0877,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,308,S,-0.00976533,log2_phosphorylation_ratio,0.00962317,,Sll0877,hypothetical protein,Table S9
+sll0877,sll0877,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,308,S,-0.309242010116577,log2_phosphorylation_ratio,0.290712286076921,,Sll0877,hypothetical protein,Table S9
+sll0877,sll0877,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,308,S,0.938380360603333,log2_phosphorylation_ratio,1.30590053270958,,Sll0877,hypothetical protein,Table S9
+sll0923,sll0923,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,511,Y,-0.0436443,log2_phosphorylation_ratio,0.0446342,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,511,Y,0.330054675539335,log2_phosphorylation_ratio,0.441484544993423,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,511,Y,0.449030429124832,log2_phosphorylation_ratio,0.623879702132457,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,740,Y,0.0139925,log2_phosphorylation_ratio,0.00620687,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,740,Y,-0.240905006726583,log2_phosphorylation_ratio,0.18403754085193,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,740,Y,0.131235403940082,log2_phosphorylation_ratio,0.246565805331411,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,745,Y,-0.542014,log2_phosphorylation_ratio,0.322644,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,745,Y,-0.482916995882988,log2_phosphorylation_ratio,0.779308120906539,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,745,Y,-0.0269623398780823,log2_phosphorylation_ratio,0.0286923013220324,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,746,Y,-0.165733,log2_phosphorylation_ratio,0.0897787,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,746,Y,-0.36777800321579,log2_phosphorylation_ratio,0.723364459760645,,EpsB,unknown protein,Table S9
+sll0923,sll0923,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,746,Y,-0.067234992980957,log2_phosphorylation_ratio,0.0384308037441836,,EpsB,unknown protein,Table S9
+sll0928,sll0928,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,31,T,0.385612241923809,log2_phosphorylation_ratio,0.385756113706545,,ApcD,allophycocyanin-B,Table S9
+sll0928,sll0928,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,31,T,0.0576400477439165,log2_phosphorylation_ratio,0.149408770476166,,ApcD,allophycocyanin-B,Table S9
+sll0947,sll0947,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,11,T,-0.636749982833862,log2_phosphorylation_ratio,0.0,,LrtA,light repressed protein A homolog,Table S9
+sll0947,sll0947,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,11,T,-0.384490013122559,log2_phosphorylation_ratio,0.0,,LrtA,light repressed protein A homolog,Table S9
+sll0947,sll0947,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,191,S,0.70593398809433,log2_phosphorylation_ratio,0.0,,LrtA,light repressed protein A homolog,Table S9
+sll1020,sll1020,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,15,T,-0.0373865,log2_phosphorylation_ratio,0.0494766,,Sll1020,probable glycosyltransferase,Table S9
+sll1020,sll1020,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,15,T,-0.0880327988415956,log2_phosphorylation_ratio,0.203614259539738,,Sll1020,probable glycosyltransferase,Table S9
+sll1020,sll1020,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,15,T,-0.0668003484606743,log2_phosphorylation_ratio,1.03411848964594,,Sll1020,probable glycosyltransferase,Table S9
+sll1020,sll1020,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,4 or 10,S or Y,-0.0373865,log2_phosphorylation_ratio,0.0494766,,Sll1020,probable glycosyltransferase,Table S9
+sll1020,sll1020,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,4 or 10,S or Y,-0.0880327988415956,log2_phosphorylation_ratio,0.203614259539738,,Sll1020,probable glycosyltransferase,Table S9
+sll1020,sll1020,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,4 or 10,S or Y,-0.0668003484606743,log2_phosphorylation_ratio,1.03411848964594,,Sll1020,probable glycosyltransferase,Table S9
+sll1031,sll1031,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,358,T,-2.5485,log2_phosphorylation_ratio,1.94858,+,CcmM,"carbon dioxide concentrating mechanism protein CcmM, putative carboxysome structural protein",Table S9
+sll1031,sll1031,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,358,T,-2.60229667027791,log2_phosphorylation_ratio,2.11638789754085,+,CcmM,"carbon dioxide concentrating mechanism protein CcmM, putative carboxysome structural protein",Table S9
+sll1031,sll1031,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,358,T,-2.16196997960409,log2_phosphorylation_ratio,2.29382170789666,+,CcmM,"carbon dioxide concentrating mechanism protein CcmM, putative carboxysome structural protein",Table S9
+sll1031,sll1031,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,585,S,-0.289968013763428,log2_phosphorylation_ratio,0.0,,CcmM,"carbon dioxide concentrating mechanism protein CcmM, putative carboxysome structural protein",Table S9
+sll1031,sll1031,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,609,T,-1.69488,log2_phosphorylation_ratio,0.0,,CcmM,"carbon dioxide concentrating mechanism protein CcmM, putative carboxysome structural protein",Table S9
+sll1031,sll1031,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,609,T,-1.37862649559975,log2_phosphorylation_ratio,0.753432378257545,,CcmM,"carbon dioxide concentrating mechanism protein CcmM, putative carboxysome structural protein",Table S9
+sll1101,sll1101,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,3,T,-1.75088000297546,log2_phosphorylation_ratio,0.0,,RpsJ,30S ribosomal protein S10,Table S9
+sll1244,sll1244,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,12,T,0.477366,log2_phosphorylation_ratio,0.0,,RplI,50S ribosomal protein L9,Table S9
+sll1244,sll1244,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,12,T,0.89621102809906,log2_phosphorylation_ratio,0.798054747127804,,RplI,50S ribosomal protein L9,Table S9
+sll1244,sll1244,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,12,T,0.539784997701645,log2_phosphorylation_ratio,0.549893087487417,,RplI,50S ribosomal protein L9,Table S9
+sll1292,sll1292,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,102,Y,0.519743025302887,log2_phosphorylation_ratio,0.0,,Sll1292,two-component response regulator CheY subfamily,Table S9
+sll1341,sll1341,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,156,S,-0.264304995536804,log2_phosphorylation_ratio,0.0,,Bfr,bacterioferritin,Table S9
+sll1341,sll1341,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,156,S,0.439463482548793,log2_phosphorylation_ratio,0.760413529730485,,Bfr,bacterioferritin,Table S9
+sll1350,sll1350,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,234,T,0.171590998768806,log2_phosphorylation_ratio,0.0,,Sll1350,hypothetical protein,Table S9
+sll1350,sll1350,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,240,Y,0.171590998768806,log2_phosphorylation_ratio,0.0,,Sll1350,hypothetical protein,Table S9
+sll1350,sll1350,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,241,Y,0.171590998768806,log2_phosphorylation_ratio,0.0,,Sll1350,hypothetical protein,Table S9
+sll1367,sll1367,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,106,S,-0.0397701002657413,log2_phosphorylation_ratio,0.0,,Sll1367,hypothetical protein,Table S9
+sll1367,sll1367,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,106,S,0.582749009132385,log2_phosphorylation_ratio,0.0,,Sll1367,hypothetical protein,Table S9
+sll1536,sll1536,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,86,T,1.01392996311188,log2_phosphorylation_ratio,0.0,,MoeB,molybdopterin biosynthesis MoeB protein,Table S9
+sll1536,sll1536,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,87,S,1.01392996311188,log2_phosphorylation_ratio,0.0,,MoeB,molybdopterin biosynthesis MoeB protein,Table S9
+sll1536,sll1536,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,96,S,1.01392996311188,log2_phosphorylation_ratio,0.0,,MoeB,molybdopterin biosynthesis MoeB protein,Table S9
+sll1542,sll1542,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,113,Y,0.18531,log2_phosphorylation_ratio,0.645987,,Sll1542,hypothetical protein,Table S9
+sll1542,sll1542,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,113,Y,0.31548485159874,log2_phosphorylation_ratio,0.237720493597499,,Sll1542,hypothetical protein,Table S9
+sll1542,sll1542,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,113,Y,0.64053051173687,log2_phosphorylation_ratio,0.498069260277634,,Sll1542,hypothetical protein,Table S9
+sll1577,sll1577,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,10,S,0.848077,log2_phosphorylation_ratio,0.0,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,10,S,2.78765988349915,log2_phosphorylation_ratio,0.0,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,10,S,1.32607996463776,log2_phosphorylation_ratio,0.0,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,20,S,0.1149,log2_phosphorylation_ratio,0.0,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,20,S,-0.594921996196111,log2_phosphorylation_ratio,1.37506941182596,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,20,S,-0.215911904970805,log2_phosphorylation_ratio,0.652971419564772,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,22,S,0.0511567,log2_phosphorylation_ratio,0.0548064,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,22,S,-0.19807376464208,log2_phosphorylation_ratio,0.958707343753374,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,22,S,-0.0642029674102863,log2_phosphorylation_ratio,0.369752573582432,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,28,S,-0.35368999838829,log2_phosphorylation_ratio,0.0,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,40,S,1.12881994247437,log2_phosphorylation_ratio,0.0,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,49,S,0.290825,log2_phosphorylation_ratio,0.553071,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,49,S,0.22004159539938,log2_phosphorylation_ratio,0.379422579287786,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,49,S,0.639866780489683,log2_phosphorylation_ratio,0.780878698838782,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,53,S,0.852453,log2_phosphorylation_ratio,0.766454,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,53,S,0.842540671428045,log2_phosphorylation_ratio,1.06323604141929,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,53,S,0.796414315700531,log2_phosphorylation_ratio,0.878508223392641,,CpcB,phycocyanin beta subunit,Table S9
+sll1577,sll1577,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,117,Y,0.155361,log2_phosphorylation_ratio,0.0,,CpcB,phycocyanin beta subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,3,T,1.9847,log2_phosphorylation_ratio,0.0,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,3,T,0.860584035515785,log2_phosphorylation_ratio,0.222188919669966,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,3,T,0.514921993017197,log2_phosphorylation_ratio,0.109413099499882,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,6,T,1.9847,log2_phosphorylation_ratio,0.0,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,6,T,-0.152431399561465,log2_phosphorylation_ratio,0.272471718292797,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,6,T,1.75807499885559,log2_phosphorylation_ratio,1.21648438754745,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,10,S,0.307428,log2_phosphorylation_ratio,0.367064,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,10,S,0.338809131334225,log2_phosphorylation_ratio,0.654618120345388,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,10,S,0.195189327001572,log2_phosphorylation_ratio,0.337831569502509,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,11,T,0.126393,log2_phosphorylation_ratio,0.12617,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,11,T,-0.161779016256332,log2_phosphorylation_ratio,0.0620194922832669,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,11,T,-0.209155331055323,log2_phosphorylation_ratio,0.264444932063243,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,14,S,0.337311,log2_phosphorylation_ratio,0.0,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,14,S,-0.396809488534927,log2_phosphorylation_ratio,0.554533266398044,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,21,S,0.620211,log2_phosphorylation_ratio,0.0,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,50,S,0.153659,log2_phosphorylation_ratio,0.186946,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,50,S,0.162996664643288,log2_phosphorylation_ratio,0.332696678219409,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,50,S,0.287632167960207,log2_phosphorylation_ratio,0.619328078620972,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,60,Y,0.713014990091324,log2_phosphorylation_ratio,0.891517377142643,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,60,Y,0.844787001609802,log2_phosphorylation_ratio,0.0,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,67,T,-0.869414,log2_phosphorylation_ratio,0.266791,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,67,T,-0.162262698014577,log2_phosphorylation_ratio,0.0825543289574812,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,67,T,-1.17359830439091,log2_phosphorylation_ratio,0.344487651308537,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,69,T,0.490701,log2_phosphorylation_ratio,2.00282,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,69,T,0.411559998989105,log2_phosphorylation_ratio,1.57823590556722,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,69,T,0.21702866256237,log2_phosphorylation_ratio,1.19773539110005,,CpcA,phycocyanin alpha subunit,Table S9
+sll1578,sll1578,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,127,S,-0.829998016357422,log2_phosphorylation_ratio,0.0,,CpcA,phycocyanin alpha subunit,Table S9
+sll1746,sll1746,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,2,S,1.29031002521515,log2_phosphorylation_ratio,0.0,,RplL,50S ribosomal protein L12,Table S9
+sll1758,sll1758,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,128,S,-0.599869,log2_phosphorylation_ratio,0.366495,,GlmM,MrsA protein homolog,Table S9
+sll1758,sll1758,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,128,S,-0.725741535425186,log2_phosphorylation_ratio,0.566704061932047,,GlmM,MrsA protein homolog,Table S9
+sll1758,sll1758,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,128,S,0.584360986948013,log2_phosphorylation_ratio,1.11261361222879,,GlmM,MrsA protein homolog,Table S9
+sll1812,sll1812,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,85,S,0.408566,log2_phosphorylation_ratio,0.510068,,RpsE,30S ribosomal protein S5,Table S9
+sll1812,sll1812,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,85,S,1.06669798493385,log2_phosphorylation_ratio,1.20957053591041,,RpsE,30S ribosomal protein S5,Table S9
+sll1812,sll1812,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,85,S,-0.179565489292145,log2_phosphorylation_ratio,0.126885909680708,,RpsE,30S ribosomal protein S5,Table S9
+sll1821,sll1821,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,121,T,-0.751556,log2_phosphorylation_ratio,2.15899,,RplM,50S ribosomal protein L13,Table S9
+sll1821,sll1821,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,121,T,-0.73930232723554,log2_phosphorylation_ratio,1.03749662429058,,RplM,50S ribosomal protein L13,Table S9
+sll1821,sll1821,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,121,T,-0.048805167277654,log2_phosphorylation_ratio,0.0664282128530497,,RplM,50S ribosomal protein L13,Table S9
+sll1921,sll1921,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,153,T,0.451763,log2_phosphorylation_ratio,0.90831,,Sll1921,hypothetical protein,Table S9
+sll1921,sll1921,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,153,T,0.105162493884563,log2_phosphorylation_ratio,0.107823684228441,,Sll1921,hypothetical protein,Table S9
+sll1921,sll1921,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,153,T,-2.15919995307922,log2_phosphorylation_ratio,0.0,,Sll1921,hypothetical protein,Table S9
+sll1921,sll1921,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,196,S,-0.107874,log2_phosphorylation_ratio,0.301301,,Sll1921,hypothetical protein,Table S9
+sll1921,sll1921,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,196,S,-0.286070771515369,log2_phosphorylation_ratio,0.747991366628263,,Sll1921,hypothetical protein,Table S9
+sll1921,sll1921,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,196,S,-0.333676010370255,log2_phosphorylation_ratio,0.181168149640958,,Sll1921,hypothetical protein,Table S9
+sll2012,sll2012,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,148,T,0.547746,log2_phosphorylation_ratio,0.0,,RpoD,group2 RNA polymerase sigma factor SigD,Table S9
+sll2012,sll2012,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,148,T,-0.216820001602173,log2_phosphorylation_ratio,0.0,,RpoD,group2 RNA polymerase sigma factor SigD,Table S9
+sll2012,sll2012,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,148,T,0.138283517968375,log2_phosphorylation_ratio,0.298452678025902,,RpoD,group2 RNA polymerase sigma factor SigD,Table S9
+sll2012,sll2012,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,155,S,0.547746,log2_phosphorylation_ratio,0.0,,RpoD,group2 RNA polymerase sigma factor SigD,Table S9
+sll2012,sll2012,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,155,S,-0.216820001602173,log2_phosphorylation_ratio,0.0,,RpoD,group2 RNA polymerase sigma factor SigD,Table S9
+sll2012,sll2012,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,155,S,0.138283517968375,log2_phosphorylation_ratio,0.298452678025902,,RpoD,group2 RNA polymerase sigma factor SigD,Table S9
+sll5066,sll5066,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,18,T,-0.593793,log2_phosphorylation_ratio,0.957698,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,18,T,0.017669216884921,log2_phosphorylation_ratio,0.410699331045382,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,18,T,-0.387270341316859,log2_phosphorylation_ratio,0.430187813879063,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,19,S,-0.593793,log2_phosphorylation_ratio,0.957698,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,19,S,0.017669216884921,log2_phosphorylation_ratio,0.410699331045382,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,19,S,-0.387270341316859,log2_phosphorylation_ratio,0.430187813879063,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,25,Y,-0.593793,log2_phosphorylation_ratio,0.957698,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,25,Y,0.017669216884921,log2_phosphorylation_ratio,0.410699331045382,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+sll5066,sll5066,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,25,Y,-0.387270341316859,log2_phosphorylation_ratio,0.430187813879063,,Sll5066,"probable plasmid partitioning protein, ParA family",Table S9
+slr0012,slr0012,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,78,S,-0.644104,log2_phosphorylation_ratio,0.0,,CbbS,ribulose bisphosphate carboxylase small subunit,Table S9
+slr0012,slr0012,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,78,S,-0.689149528741837,log2_phosphorylation_ratio,0.493958633918279,,CbbS,ribulose bisphosphate carboxylase small subunit,Table S9
+slr0012,slr0012,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,78,S,-0.374441336840391,log2_phosphorylation_ratio,0.366816683038344,,CbbS,ribulose bisphosphate carboxylase small subunit,Table S9
+slr0038,slr0038,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,7,S,0.190797477960587,log2_phosphorylation_ratio,0.0574110182379827,,Slr0038,hypothetical protein,Table S9
+slr0040,slr0040,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,129,T,0.0255957990884781,log2_phosphorylation_ratio,0.0,,CmpA,bicarbonate transport system substrate-binding protein,Table S9
+slr0040,slr0040,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,129,T,0.325932999451955,log2_phosphorylation_ratio,2.39676566175898,,CmpA,bicarbonate transport system substrate-binding protein,Table S9
+slr0041,slr0041,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,3,T,-1.1442699432373,log2_phosphorylation_ratio,0.0,,CmpB,bicarbonate transport system permease protein,Table S9
+slr0073,slr0073,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,167,T,0.227495,log2_phosphorylation_ratio,0.0,,Hik36,two-component sensor histidine kinase,Table S9
+slr0073,slr0073,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,167,T,0.166542991995811,log2_phosphorylation_ratio,0.29727936395611,,Hik36,two-component sensor histidine kinase,Table S9
+slr0073,slr0073,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,167,T,-0.302232893804709,log2_phosphorylation_ratio,0.990698880412647,,Hik36,two-component sensor histidine kinase,Table S9
+slr0073,slr0073,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,171,T,0.417704,log2_phosphorylation_ratio,0.0,,Hik36,two-component sensor histidine kinase,Table S9
+slr0073,slr0073,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,171,T,0.472781432171663,log2_phosphorylation_ratio,0.691544420596808,,Hik36,two-component sensor histidine kinase,Table S9
+slr0073,slr0073,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,171,T,0.102223992347717,log2_phosphorylation_ratio,0.116187466967563,,Hik36,two-component sensor histidine kinase,Table S9
+slr0148,slr0148,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,18,T,0.45348,log2_phosphorylation_ratio,0.765702,,Fdx,hypothetical protein,Table S9
+slr0148,slr0148,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,18,T,-0.173918236047029,log2_phosphorylation_ratio,0.487704782925296,,Fdx,hypothetical protein,Table S9
+slr0148,slr0148,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,18,T,-0.088468998670578,log2_phosphorylation_ratio,0.16871339387387,,Fdx,hypothetical protein,Table S9
+slr0148,slr0148,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,72,T,0.13512,log2_phosphorylation_ratio,0.240745,,Fdx,hypothetical protein,Table S9
+slr0148,slr0148,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,72,T,0.331775434315205,log2_phosphorylation_ratio,0.671804734962797,,Fdx,hypothetical protein,Table S9
+slr0148,slr0148,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,72,T,0.197902006407579,log2_phosphorylation_ratio,0.437814865677378,,Fdx,hypothetical protein,Table S9
+slr0152,slr0152,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,188,Y,0.731196,log2_phosphorylation_ratio,0.917529,,SpkG,serine/threonine protein kinase,Table S9
+slr0152,slr0152,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,188,Y,0.730771655837695,log2_phosphorylation_ratio,0.797443957327891,,SpkG,serine/threonine protein kinase,Table S9
+slr0152,slr0152,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,188,Y,0.454166332880656,log2_phosphorylation_ratio,0.4631117920902,,SpkG,serine/threonine protein kinase,Table S9
+slr0152,slr0152,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,189,T,-0.103099,log2_phosphorylation_ratio,0.0523699,,SpkG,serine/threonine protein kinase,Table S9
+slr0152,slr0152,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,189,T,0.3582863509655,log2_phosphorylation_ratio,0.387406009049429,,SpkG,serine/threonine protein kinase,Table S9
+slr0152,slr0152,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,189,T,0.0486473242441813,log2_phosphorylation_ratio,0.0521654523616473,,SpkG,serine/threonine protein kinase,Table S9
+slr0164,slr0164,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,156,T,-1.22831,log2_phosphorylation_ratio,1.3488,,ClpR,ATP-dependent Clp protease proteolytic subunit,Table S9
+slr0164,slr0164,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,156,T,-0.931604534387589,log2_phosphorylation_ratio,1.14909698936346,,ClpR,ATP-dependent Clp protease proteolytic subunit,Table S9
+slr0164,slr0164,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,156,T,-0.78841499487559,log2_phosphorylation_ratio,1.3783098356547,,ClpR,ATP-dependent Clp protease proteolytic subunit,Table S9
+slr0322,slr0322,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,357,T,1.30879,log2_phosphorylation_ratio,0.90808,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0322,slr0322,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,357,T,0.0259699486196041,log2_phosphorylation_ratio,0.156101063285336,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0322,slr0322,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,357,T,0.590894490480423,log2_phosphorylation_ratio,0.894063101632863,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0322,slr0322,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,358,T,1.19188,log2_phosphorylation_ratio,0.0,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0322,slr0322,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,358,T,-0.106366515159607,log2_phosphorylation_ratio,0.0671364635453504,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0322,slr0322,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,959,T,0.33646,log2_phosphorylation_ratio,0.912744,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0322,slr0322,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,959,T,0.406428009271622,log2_phosphorylation_ratio,0.0,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0322,slr0322,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,959,T,0.156581327319145,log2_phosphorylation_ratio,0.372074119176361,,Hik43,two-component hybrid sensor and regulator,Table S9
+slr0374,slr0374,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,277,T,0.177396,log2_phosphorylation_ratio,0.608137,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,277,T,0.087782365269959,log2_phosphorylation_ratio,0.598661244378335,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,277,T,0.00488239899277687,log2_phosphorylation_ratio,0.0165866881927646,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,278,T,0.177396,log2_phosphorylation_ratio,0.608137,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,278,T,0.087782365269959,log2_phosphorylation_ratio,0.598661244378335,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,278,T,0.00488239899277687,log2_phosphorylation_ratio,0.0165866881927646,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,279,S,0.177396,log2_phosphorylation_ratio,0.608137,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,279,S,0.087782365269959,log2_phosphorylation_ratio,0.598661244378335,,Slr0374,hypothetical protein,Table S9
+slr0374,slr0374,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,279,S,0.00488239899277687,log2_phosphorylation_ratio,0.0165866881927646,,Slr0374,hypothetical protein,Table S9
+slr0377,slr0377,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,97,Y,2.00425004959106,log2_phosphorylation_ratio,0.0,,Slr0377,unknown protein,Table S9
+slr0377,slr0377,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,98,T,2.00425004959106,log2_phosphorylation_ratio,0.0,,Slr0377,unknown protein,Table S9
+slr0397,slr0397,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,4,T,-0.229264,log2_phosphorylation_ratio,0.0,,Slr0397,hypothetical protein,Table S9
+slr0397,slr0397,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,4,T,-0.292086988687515,log2_phosphorylation_ratio,0.0,,Slr0397,hypothetical protein,Table S9
+slr0397,slr0397,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,4,T,-0.334582507610321,log2_phosphorylation_ratio,0.47345519617862,,Slr0397,hypothetical protein,Table S9
+slr0447,slr0447,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,381,T,-0.77682501077652,log2_phosphorylation_ratio,0.0,,AmiC,"periplasmic protein, ABC-type urea transport system substrate-binding protein",Table S9
+slr0476,slr0476,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,2,T,1.30118,log2_phosphorylation_ratio,0.0,,Slr0476,unknown protein,Table S9
+slr0476,slr0476,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,2,T,1.17729699611664,log2_phosphorylation_ratio,0.596155743668167,,Slr0476,unknown protein,Table S9
+slr0476,slr0476,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,2,T,0.758848495781422,log2_phosphorylation_ratio,0.255853276965901,,Slr0476,unknown protein,Table S9
+slr0476,slr0476,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,11,T,-0.531636,log2_phosphorylation_ratio,0.0,,Slr0476,unknown protein,Table S9
+slr0476,slr0476,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,11,T,-0.586643993854523,log2_phosphorylation_ratio,0.0,,Slr0476,unknown protein,Table S9
+slr0476,slr0476,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,18,S,0.334683,log2_phosphorylation_ratio,0.0,,Slr0476,unknown protein,Table S9
+slr0476,slr0476,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,18,S,0.314877634247144,log2_phosphorylation_ratio,0.829904406212304,,Slr0476,unknown protein,Table S9
+slr0476,slr0476,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,18,S,0.315712369978428,log2_phosphorylation_ratio,0.865159712840964,,Slr0476,unknown protein,Table S9
+slr0549,slr0549,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,29,S,0.407624989748001,log2_phosphorylation_ratio,0.0,,Asd,aspartate beta-semialdehyde dehydrogenase,Table S9
+slr0549,slr0549,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,29,S,-0.180069997906685,log2_phosphorylation_ratio,0.0,,Asd,aspartate beta-semialdehyde dehydrogenase,Table S9
+slr0552,slr0552,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,241,T,-0.960816661516825,log2_phosphorylation_ratio,1.15678267205589,,Slr0552,hypothetical protein,Table S9
+slr0552,slr0552,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,241,T,-0.848488509654999,log2_phosphorylation_ratio,1.16284696506263,,Slr0552,hypothetical protein,Table S9
+slr0585,slr0585,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,173,S,0.507493004202843,log2_phosphorylation_ratio,0.850300970337137,,ArgG,argininosuccinate synthetase,Table S9
+slr0585,slr0585,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,173,S,-0.686843648552895,log2_phosphorylation_ratio,0.744262806468765,,ArgG,argininosuccinate synthetase,Table S9
+slr0599,slr0599,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,319,T,0.0464211,log2_phosphorylation_ratio,0.0,,SpkC,serine/threonine kinase,Table S9
+slr0599,slr0599,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,319,T,-0.228293500840664,log2_phosphorylation_ratio,0.731794616545044,,SpkC,serine/threonine kinase,Table S9
+slr0599,slr0599,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,319,T,0.115644652396441,log2_phosphorylation_ratio,0.525532371930821,,SpkC,serine/threonine kinase,Table S9
+slr0737,slr0737,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,2,T,2.38527,log2_phosphorylation_ratio,0.763118,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,2,T,1.12364798784256,log2_phosphorylation_ratio,0.553552618718818,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,2,T,0.984931667645772,log2_phosphorylation_ratio,0.94324823321294,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,5,S,0.268674,log2_phosphorylation_ratio,0.0,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,5,S,0.0568281039595604,log2_phosphorylation_ratio,0.057152573619374,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,5,S,0.590521947480738,log2_phosphorylation_ratio,0.294322824264019,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,14,S,0.650581,log2_phosphorylation_ratio,0.0,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,14,S,0.339472249150276,log2_phosphorylation_ratio,0.365103442154539,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,14,S,0.339706987142563,log2_phosphorylation_ratio,0.0,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,15,T,0.501821,log2_phosphorylation_ratio,0.0,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,15,T,0.46016600728035,log2_phosphorylation_ratio,0.0,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,15,T,0.102360595017672,log2_phosphorylation_ratio,0.170501156842199,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,20,S,0.144699,log2_phosphorylation_ratio,0.0,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,20,S,0.0776471314020455,log2_phosphorylation_ratio,0.281308019454447,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,20,S,-0.026851600036025,log2_phosphorylation_ratio,0.0,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,134,S,0.549063,log2_phosphorylation_ratio,0.865378,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,134,S,0.547281995415688,log2_phosphorylation_ratio,0.541638009496695,,PsaD,photosystem I subunit II,Table S9
+slr0737,slr0737,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,134,S,0.0492575019598007,log2_phosphorylation_ratio,0.0848652000897723,,PsaD,photosystem I subunit II,Table S9
+slr0875,slr0875,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,143,S,0.823504984378815,log2_phosphorylation_ratio,0.0,,MscL,large-conductance mechanosensitive channel,Table S9
+slr0882,slr0882,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,60,T,0.0600473992526531,log2_phosphorylation_ratio,0.0,,Slr0882,hypothetical protein YCF84,Table S9
+slr0882,slr0882,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,60,T,0.362554013729095,log2_phosphorylation_ratio,0.0,,Slr0882,hypothetical protein YCF84,Table S9
+slr1044,slr1044,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,140,T,0.220851,log2_phosphorylation_ratio,0.403718,,McpA,"methyl-accepting chemotaxis protein, required for the biogenesis of thick pilli",Table S9
+slr1044,slr1044,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,140,T,0.495932325720787,log2_phosphorylation_ratio,0.553663577647374,,McpA,"methyl-accepting chemotaxis protein, required for the biogenesis of thick pilli",Table S9
+slr1044,slr1044,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,140,T,0.485995670159658,log2_phosphorylation_ratio,2.66328374341895,,McpA,"methyl-accepting chemotaxis protein, required for the biogenesis of thick pilli",Table S9
+slr1044,slr1044,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,157,T,0.232205,log2_phosphorylation_ratio,0.289708,,McpA,"methyl-accepting chemotaxis protein, required for the biogenesis of thick pilli",Table S9
+slr1044,slr1044,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,157,T,0.476105660200119,log2_phosphorylation_ratio,0.894785594728699,,McpA,"methyl-accepting chemotaxis protein, required for the biogenesis of thick pilli",Table S9
+slr1044,slr1044,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,157,T,0.327181319395701,log2_phosphorylation_ratio,0.295599591363813,,McpA,"methyl-accepting chemotaxis protein, required for the biogenesis of thick pilli",Table S9
+slr1102,slr1102,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,424,T,2.9639,log2_phosphorylation_ratio,0.0,,Slr1102,hypothetical protein,Table S9
+slr1102,slr1102,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,424,T,2.73274499177933,log2_phosphorylation_ratio,0.588529461616673,,Slr1102,hypothetical protein,Table S9
+slr1102,slr1102,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,424,T,-0.442986994981766,log2_phosphorylation_ratio,0.0,,Slr1102,hypothetical protein,Table S9
+slr1130,slr1130,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,127,S,-0.623887,log2_phosphorylation_ratio,0.0,,RnhB,ribonuclease HII,Table S9
+slr1130,slr1130,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,130,S,-0.623887,log2_phosphorylation_ratio,0.0,,RnhB,ribonuclease HII,Table S9
+slr1225,slr1225,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,24,T,-0.680005,log2_phosphorylation_ratio,1.49428,,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,24,T,0.200902764995893,log2_phosphorylation_ratio,0.39999997455151,,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,24,T,-1.00405901670456,log2_phosphorylation_ratio,2.5890788255108,+,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,27,T,-0.49419,log2_phosphorylation_ratio,0.0,,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,27,T,0.0870554000139236,log2_phosphorylation_ratio,0.0,,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,27,T,-0.636067673563957,log2_phosphorylation_ratio,0.641173645069418,,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,338,T,-1.27566,log2_phosphorylation_ratio,0.484786,,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,338,T,-1.01308199763298,log2_phosphorylation_ratio,0.911846675444745,,SpkF,serine/threonine kinase,Table S9
+slr1225,slr1225,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,338,T,-0.395043005545934,log2_phosphorylation_ratio,0.938539652113368,,SpkF,serine/threonine kinase,Table S9
+slr1476,slr1476,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,53,T,-0.483631,log2_phosphorylation_ratio,0.574419,,PyrB,aspartate carbamoyltransferase,Table S9
+slr1476,slr1476,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,53,T,-0.433002501726151,log2_phosphorylation_ratio,0.66499105491489,,PyrB,aspartate carbamoyltransferase,Table S9
+slr1476,slr1476,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,53,T,-0.79551899433136,log2_phosphorylation_ratio,1.78150644753438,,PyrB,aspartate carbamoyltransferase,Table S9
+slr1505,slr1505,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,196,T,0.187894,log2_phosphorylation_ratio,0.0,,Slr1505,unknown protein,Table S9
+slr1513,slr1513,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,53,T,-0.259814508259296,log2_phosphorylation_ratio,0.785340878055224,,SbtB,"periplasmic protein, function unknown",Table S9
+slr1516,slr1516,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,22,S,0.125479,log2_phosphorylation_ratio,0.0340446,,SodB,superoxide dismutase,Table S9
+slr1516,slr1516,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,22,S,-0.236436655124029,log2_phosphorylation_ratio,0.228463996164402,,SodB,superoxide dismutase,Table S9
+slr1516,slr1516,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,22,S,-0.774386003613472,log2_phosphorylation_ratio,0.435289364238143,,SodB,superoxide dismutase,Table S9
+slr1655,slr1655,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,4,S,0.0160683002322912,log2_phosphorylation_ratio,0.0,,PsaL,photosystem I subunit XI,Table S9
+slr1655,slr1655,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,4,S,-0.577035009860992,log2_phosphorylation_ratio,0.0,,PsaL,photosystem I subunit XI,Table S9
+slr1686,slr1686,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,135,S,-1.06083,log2_phosphorylation_ratio,0.5614,,Slr1686,hypothetical protein,Table S9
+slr1686,slr1686,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,135,S,-0.768726348876953,log2_phosphorylation_ratio,1.32550547793815,,Slr1686,hypothetical protein,Table S9
+slr1686,slr1686,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,135,S,-1.42430667082469,log2_phosphorylation_ratio,1.61980808445236,,Slr1686,hypothetical protein,Table S9
+slr1686,slr1686,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,138,T,-1.33907,log2_phosphorylation_ratio,1.21109,,Slr1686,hypothetical protein,Table S9
+slr1686,slr1686,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,138,T,-0.161610664178928,log2_phosphorylation_ratio,0.892416126492604,,Slr1686,hypothetical protein,Table S9
+slr1686,slr1686,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,138,T,-0.877278337876002,log2_phosphorylation_ratio,1.09014849074265,,Slr1686,hypothetical protein,Table S9
+slr1697,slr1697,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,342,S,0.774587,log2_phosphorylation_ratio,0.0,,SpkB,serine/threonine kinase,Table S9
+slr1783,slr1783,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,208,S,-1.22084999084473,log2_phosphorylation_ratio,0.0,,Slr1783,two-component response regulator NarL subfamily,Table S9
+slr1783,slr1783,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,208,S,-0.744527474045753,log2_phosphorylation_ratio,0.60387922718684,,Slr1783,two-component response regulator NarL subfamily,Table S9
+slr1783,slr1783,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,212,T,1.56927,log2_phosphorylation_ratio,0.558172,,Slr1783,two-component response regulator NarL subfamily,Table S9
+slr1783,slr1783,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,212,T,0.276190005242825,log2_phosphorylation_ratio,0.934305992299059,,Slr1783,two-component response regulator NarL subfamily,Table S9
+slr1789,slr1789,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,4,Y,2.59761667251587,log2_phosphorylation_ratio,1.05585373008239,,Slr1789,unknown protein,Table S9
+slr1789,slr1789,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,4,Y,0.349139004945755,log2_phosphorylation_ratio,0.0,,Slr1789,unknown protein,Table S9
+slr1841,slr1841,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,189,T,0.577344000339508,log2_phosphorylation_ratio,0.0,,Slr1841,probable porin;major outer membrane protein,Table S9
+slr1856,slr1856,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,53,S,0.1163,log2_phosphorylation_ratio,0.244253,,IcfG,phosphoprotein substrate of icfG gene cluster,Table S9
+slr1856,slr1856,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,53,S,-0.114712667961915,log2_phosphorylation_ratio,0.0848094787624216,,IcfG,phosphoprotein substrate of icfG gene cluster,Table S9
+slr1856,slr1856,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,53,S,0.127347064825396,log2_phosphorylation_ratio,0.410941071361144,,IcfG,phosphoprotein substrate of icfG gene cluster,Table S9
+slr1856,slr1856,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,54,S,0.422467,log2_phosphorylation_ratio,0.584282,,IcfG,phosphoprotein substrate of icfG gene cluster,Table S9
+slr1856,slr1856,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,54,S,-0.0754946048061053,log2_phosphorylation_ratio,0.0650484183414813,,IcfG,phosphoprotein substrate of icfG gene cluster,Table S9
+slr1856,slr1856,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,54,S,0.154963041345278,log2_phosphorylation_ratio,0.30839475787152,,IcfG,phosphoprotein substrate of icfG gene cluster,Table S9
+slr1859,slr1859,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,56,S,-0.180502,log2_phosphorylation_ratio,0.526602,,Slr1859,anti-sigma f factor antagonist,Table S9
+slr1859,slr1859,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,56,S,-0.122645338376363,log2_phosphorylation_ratio,0.190901051224673,,Slr1859,anti-sigma f factor antagonist,Table S9
+slr1859,slr1859,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,56,S,0.00758465131123861,log2_phosphorylation_ratio,0.0084638688715391,,Slr1859,anti-sigma f factor antagonist,Table S9
+slr1859,slr1859,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,57,S,0.057124,log2_phosphorylation_ratio,0.243921,,Slr1859,anti-sigma f factor antagonist,Table S9
+slr1859,slr1859,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,57,S,-0.785527010758718,log2_phosphorylation_ratio,1.6647826585635,,Slr1859,anti-sigma f factor antagonist,Table S9
+slr1859,slr1859,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,57,S,-0.273887996872266,log2_phosphorylation_ratio,1.60333150138635,,Slr1859,anti-sigma f factor antagonist,Table S9
+slr1870,slr1870,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,32,Y,0.238977,log2_phosphorylation_ratio,0.615417,,Slr1870,hypothetical protein,Table S9
+slr1870,slr1870,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,32,Y,0.526121512055397,log2_phosphorylation_ratio,1.02906253226097,,Slr1870,hypothetical protein,Table S9
+slr1870,slr1870,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,32,Y,0.321435496211052,log2_phosphorylation_ratio,1.39098190719105,,Slr1870,hypothetical protein,Table S9
+slr1870,slr1870,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,41,Y,0.238977,log2_phosphorylation_ratio,0.615417,,Slr1870,hypothetical protein,Table S9
+slr1870,slr1870,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,41,Y,0.526121512055397,log2_phosphorylation_ratio,1.02906253226097,,Slr1870,hypothetical protein,Table S9
+slr1870,slr1870,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,41,Y,0.321435496211052,log2_phosphorylation_ratio,1.39098190719105,,Slr1870,hypothetical protein,Table S9
+slr1945,slr1945,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,65,S,0.281223,log2_phosphorylation_ratio,1.11911,,GpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase",Table S9
+slr1945,slr1945,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,65,S,0.298974325259527,log2_phosphorylation_ratio,1.13237067948151,,GpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase",Table S9
+slr1945,slr1945,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,65,S,0.144795666138331,log2_phosphorylation_ratio,0.231079377061415,,GpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase",Table S9
+slr1983,slr1983,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,319 or 320,Y or T,-0.141430005431175,log2_phosphorylation_ratio,0.0,,Slr1983,two-component hybrid sensor and regulator,Table S9
+slr1986,slr1986,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,11,S,0.618896,log2_phosphorylation_ratio,0.0,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,11,S,-0.25824133058389,log2_phosphorylation_ratio,1.88492738005844,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,11,S,-0.14127599944671,log2_phosphorylation_ratio,0.339515723614345,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,124,S,0.932439,log2_phosphorylation_ratio,0.0,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,124,S,-0.110630333423615,log2_phosphorylation_ratio,0.332331121528085,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,124,S,0.286233137051264,log2_phosphorylation_ratio,0.598584585277511,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,"78, 87, 88 or 91",Y,-1.10506999492645,log2_phosphorylation_ratio,0.0,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,"78, 87, 88 or 91",Y,-1.10506999492645,log2_phosphorylation_ratio,0.0,,ApcB,allophycocyanin beta subunit,Table S9
+slr1986,slr1986,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,"78, 87, 88 or 91",Y,-1.10506999492645,log2_phosphorylation_ratio,0.0,,ApcB,allophycocyanin beta subunit,Table S9
+slr1994,slr1994,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,148,S,0.564622,log2_phosphorylation_ratio,0.0,,FabG2,PHA-specific acetoacetyl-CoA reductase,Table S9
+slr1994,slr1994,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,148,S,0.404761999845505,log2_phosphorylation_ratio,1.03123333667295,,FabG2,PHA-specific acetoacetyl-CoA reductase,Table S9
+slr1994,slr1994,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,148,S,-0.329701006412506,log2_phosphorylation_ratio,1.23628805873858,,FabG2,PHA-specific acetoacetyl-CoA reductase,Table S9
+slr2067,slr2067,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,7,S,2.04827,log2_phosphorylation_ratio,0.0,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,7,S,1.49298433462779,log2_phosphorylation_ratio,1.09333329714465,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,7,S,1.35272065798442,log2_phosphorylation_ratio,1.01308845397548,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,31,T,1.72097,log2_phosphorylation_ratio,1.54635,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,31,T,1.66293330987295,log2_phosphorylation_ratio,2.71024985468517,+,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,31,T,1.28311332066854,log2_phosphorylation_ratio,2.00497567218386,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,118,S,2.99637,log2_phosphorylation_ratio,0.0,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,118,S,0.65799635152022,log2_phosphorylation_ratio,0.818179651593038,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2067,slr2067,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,118,S,0.753470659255981,log2_phosphorylation_ratio,0.60565059302935,,ApcA,allophycocyanin alpha subunit,Table S9
+slr2073,slr2073,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,58,T,0.730836,log2_phosphorylation_ratio,0.0,,SepF,hypothetical protein YCF50,Table S9
+slr2073,slr2073,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,58,T,-0.36871200799942,log2_phosphorylation_ratio,1.03340250258556,,SepF,hypothetical protein YCF50,Table S9
+slr2073,slr2073,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,58,T,0.43305920312802,log2_phosphorylation_ratio,0.73321202774574,,SepF,hypothetical protein YCF50,Table S9
+slr2073,slr2073,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,176,T,-0.449788987636566,log2_phosphorylation_ratio,0.0,,SepF,hypothetical protein YCF50,Table S9
+slr2075,slr2075,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,29,T,0.617487013339996,log2_phosphorylation_ratio,0.0,,GroS,10kD chaperonin,Table S9
+slr6039,slr6039,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,110,S,0.392206996679306,log2_phosphorylation_ratio,0.0,,Slr6039,hypothetical protein,Table S9
+slr7010,slr7010,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,359,Y,-1.79997,log2_phosphorylation_ratio,0.0,,Slr7010,unknown protein,Table S9
+slr7010,slr7010,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,356 or 358,T,-1.79997,log2_phosphorylation_ratio,0.0,,Slr7010,unknown protein,Table S9
+ssl0563,ssl0563,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,74,T,0.641823,log2_phosphorylation_ratio,0.0,,PsaC,photosystem I subunit VII,Table S9
+ssl0563,ssl0563,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,74,T,-0.0184239968657494,log2_phosphorylation_ratio,0.0266971973150512,,PsaC,photosystem I subunit VII,Table S9
+ssl0601,ssl0601,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,2,T,1.45196,log2_phosphorylation_ratio,0.0,,RpsU,30S ribosomal protein S21,Table S9
+ssl0601,ssl0601,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,2,T,0.168770000338554,log2_phosphorylation_ratio,0.0,,RpsU,30S ribosomal protein S21,Table S9
+ssl0601,ssl0601,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,2,T,0.510216511785984,log2_phosphorylation_ratio,0.509053957282623,,RpsU,30S ribosomal protein S21,Table S9
+ssl0707,ssl0707,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,49,S,-1.79329,log2_phosphorylation_ratio,1.77928,,GlnB,nitrogen regulatory protein PII,Table S9
+ssl0707,ssl0707,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,49,S,-5.5285431543986,log2_phosphorylation_ratio,2.40034419943864,+,GlnB,nitrogen regulatory protein PII,Table S9
+ssl0707,ssl0707,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,49,S,-1.07264262934526,log2_phosphorylation_ratio,0.271495708792002,,GlnB,nitrogen regulatory protein PII,Table S9
+ssl3093,ssl3093,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,5,S,-0.0899582,log2_phosphorylation_ratio,0.0,,CpcD,phycobilisome small rod linker polypeptide LR10,Table S9
+ssl3093,ssl3093,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,5,S,-0.0911263326803843,log2_phosphorylation_ratio,0.157063122033728,,CpcD,phycobilisome small rod linker polypeptide LR10,Table S9
+ssl3093,ssl3093,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,5,S,-0.157507497817278,log2_phosphorylation_ratio,0.68910227997008,,CpcD,phycobilisome small rod linker polypeptide LR10,Table S9
+ssl3093,ssl3093,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,6,S,-0.0899582,log2_phosphorylation_ratio,0.0,,CpcD,phycobilisome small rod linker polypeptide LR10,Table S9
+ssl3093,ssl3093,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,11,S,0.0600474,log2_phosphorylation_ratio,0.0,,CpcD,phycobilisome small rod linker polypeptide LR10,Table S9
+ssl3364,ssl3364,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,52,T,-0.100923,log2_phosphorylation_ratio,0.42427,,Ssl3364,CP12 polypeptide,Table S9
+ssl3364,ssl3364,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,52,T,-0.313512325286865,log2_phosphorylation_ratio,1.09770199175058,,Ssl3364,CP12 polypeptide,Table S9
+ssl3364,ssl3364,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,52,T,0.106982663273811,log2_phosphorylation_ratio,0.294022172743188,,Ssl3364,CP12 polypeptide,Table S9
+ssl3364,ssl3364,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,55,T,-0.187034,log2_phosphorylation_ratio,0.0,,Ssl3364,CP12 polypeptide,Table S9
+ssr1528,ssr1528,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,47,S,0.274053007364273,log2_phosphorylation_ratio,0.0,,Ssr1528,hypothetical protein,Table S9
+ssr1528,ssr1528,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,47,S,-0.195418000221252,log2_phosphorylation_ratio,0.0,,Ssr1528,hypothetical protein,Table S9
+ssr2831,ssr2831,spkB_vs_WT_HC,high_carbon,phosphoproteomics,phosphorylation,31,S,-1.7818,log2_phosphorylation_ratio,0.0,,PsaE,photosystem I subunit IV,Table S9
+ssr2831,ssr2831,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,31,S,-1.27998336156209,log2_phosphorylation_ratio,2.24741306799405,+,PsaE,photosystem I subunit IV,Table S9
+ssr2831,ssr2831,spkB_vs_WT_LC_24h,low_carbon_24h,phosphoproteomics,phosphorylation,31,S,-1.72390333811442,log2_phosphorylation_ratio,2.61418790460763,+,PsaE,photosystem I subunit IV,Table S9
+ssr3189,ssr3189,spkB_vs_WT_LC_3h,low_carbon_3h,phosphoproteomics,phosphorylation,46 or 47,S,0.337426006793976,log2_phosphorylation_ratio,0.0,,Ssr3189,hypothetical protein,Table S9

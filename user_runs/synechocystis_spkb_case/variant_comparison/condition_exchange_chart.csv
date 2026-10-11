@@ -1,0 +1,8 @@
+condition,condition_group,metric_key,metric_label,metric_category,value,abs_value,status,guidance
+default,default,objective_value,Growth objective,growth,0.06315,0.06315,ready,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,oxygen_pfba_flux,O2 uptake,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,co2_pfba_flux,CO2 secretion,exchange,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,acetate_flux,Acetate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,formate_flux,Formate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,pyruvate_flux,Pyruvate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.
+default,default,succinate_flux,Succinate,byproduct,,,missing,Chart-ready highO2/lowO2 phenotype and exchange metric; sign follows model flux convention.

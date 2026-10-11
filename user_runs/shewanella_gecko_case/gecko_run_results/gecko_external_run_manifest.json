@@ -1,0 +1,111 @@
+{
+  "status": "completed",
+  "message": "Shewanella GECKO external command completed.",
+  "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_package",
+  "output_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results",
+  "package_status": "ready",
+  "adapter_status": "adapter_configured",
+  "matlab_path": "D:\\Matlab\\bin\\matlab.EXE",
+  "gecko_home": "D:\\MatExt\\GECKO",
+  "gecko_home_exists": true,
+  "raven_home": "D:\\MatExt\\RAVEN",
+  "raven_home_exists": true,
+  "return_code": 0,
+  "timeout_seconds": 7200,
+  "expected_output_count": 8,
+  "available_output_count": 8,
+  "command": [
+    "D:\\Matlab\\bin\\matlab.EXE",
+    "-batch",
+    "run('D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_package\\shewanella_gecko_external_protocol.m')"
+  ],
+  "package_status_detail": {
+    "package_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_package",
+    "exists": true,
+    "missing_files": [],
+    "adapter_status": "adapter_configured",
+    "adapter_config_exists": true,
+    "adapter_file_exists": true,
+    "adapter_readiness_exists": true,
+    "status": "ready"
+  },
+  "ec_model_mode": "full_ecModel",
+  "adapter_file": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_package\\generated_adapter.m",
+  "output_status": [
+    {
+      "role": "full_ecmodel",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_full_ecModel.yml",
+      "exists": true,
+      "size_bytes": 5101883,
+      "required": true
+    },
+    {
+      "role": "high_ecmodel",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_highO2_ecModel.yml",
+      "exists": true,
+      "size_bytes": 5123243,
+      "required": true
+    },
+    {
+      "role": "low_ecmodel",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_lowO2_ecModel.yml",
+      "exists": true,
+      "size_bytes": 5123068,
+      "required": true
+    },
+    {
+      "role": "flux_high",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_flux_highO2.csv",
+      "exists": true,
+      "size_bytes": 120707,
+      "required": true
+    },
+    {
+      "role": "flux_low",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_flux_lowO2.csv",
+      "exists": true,
+      "size_bytes": 120734,
+      "required": true
+    },
+    {
+      "role": "flux_delta",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_flux_delta_high_vs_low.csv",
+      "exists": true,
+      "size_bytes": 79544,
+      "required": true
+    },
+    {
+      "role": "enzyme_usage_high",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_enzyme_usage_highO2.csv",
+      "exists": true,
+      "size_bytes": 10321,
+      "required": false
+    },
+    {
+      "role": "enzyme_usage_low",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_enzyme_usage_lowO2.csv",
+      "exists": true,
+      "size_bytes": 10321,
+      "required": false
+    }
+  ],
+  "files": {
+    "summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_external_run_summary.csv",
+    "manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_external_run_manifest.json",
+    "command": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_execution_command.txt",
+    "stdout": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_stdout.log",
+    "stderr": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_stderr.log",
+    "protocol": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_package\\shewanella_gecko_external_protocol.m",
+    "proteomics_high": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_proteomics_highO2.tsv",
+    "proteomics_low": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_proteomics_lowO2.tsv",
+    "condition_bounds": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_condition_bounds.csv",
+    "full_ecmodel": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_full_ecModel.yml",
+    "high_ecmodel": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_highO2_ecModel.yml",
+    "low_ecmodel": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\shewanella_lowO2_ecModel.yml",
+    "flux_high": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_flux_highO2.csv",
+    "flux_low": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_flux_lowO2.csv",
+    "flux_delta": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_flux_delta_high_vs_low.csv",
+    "enzyme_usage_high": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_enzyme_usage_highO2.csv",
+    "enzyme_usage_low": "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_run_results\\gecko_enzyme_usage_lowO2.csv"
+  }
+}

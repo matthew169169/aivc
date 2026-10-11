@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "enzyme_gecko__higho2",
+  "reference_variant_id": "baseline_gem__all",
+  "generation_method": "enzyme_gecko",
+  "condition": "highO2",
+  "source_model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "target_model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "evidence_files": [
+    "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\protein_abundance.csv",
+    "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\kcat_priors.csv",
+    "D:\\generate\\user_runs\\shewanella_gecko_case\\enzyme_results\\reaction_enzyme_capacity.csv",
+    "D:\\generate\\user_runs\\shewanella_gecko_case\\gecko_package\\kcat_table.tsv"
+  ],
+  "edit_record_mode": "inferred_legacy",
+  "edit_summary": {
+    "reaction_count": 2094,
+    "edit_type_counts": {
+      "unchanged": 1456,
+      "package_ready_only": 638
+    },
+    "evidence_row_count": 640
+  },
+  "edit_reaction_index": "D:\\generate\\user_runs\\shewanella_gecko_case\\workflow_results\\model_edit_reaction_index.csv"
+}

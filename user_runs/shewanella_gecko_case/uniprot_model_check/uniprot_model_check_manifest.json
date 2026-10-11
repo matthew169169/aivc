@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1.0",
+  "status": "completed_with_review_flags",
+  "message": "Review high-risk GPR or EC mismatch flags before trusting downstream constraints.",
+  "model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "network_access": "disabled",
+  "uniprot_cache_dir": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_cache",
+  "source_files": [
+    {
+      "role": "ml_priors",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\normalized_inputs\\omics\\ml_priors__gotenzymes2_kcat_priors.csv"
+    },
+    {
+      "role": "ml_priors",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\ml_priors__gotenzymes2_kcat_priors.csv"
+    },
+    {
+      "role": "id_alias_table",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\id_alias_table__shewanella_gene_aliases.csv"
+    },
+    {
+      "role": "uniprot_annotation",
+      "path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\omics\\uniprot_annotation__shewanella_functional_annotation.csv"
+    }
+  ],
+  "counts": {
+    "gene_rows": 1162,
+    "gpr_rows": 2094,
+    "reaction_rows": 2094,
+    "high_risk_flag_count": 928,
+    "inconclusive_reaction_count": 758,
+    "uniprot_requested_accessions": 0,
+    "uniprot_cache_hits": 0,
+    "uniprot_fetched": 0
+  },
+  "files": {
+    "uniprot_gene_coverage": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\uniprot_gene_coverage.csv",
+    "gpr_consistency_flags": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\gpr_consistency_flags.csv",
+    "reaction_annotation_flags": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\reaction_annotation_flags.csv",
+    "uniprot_enrichment_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\uniprot_enrichment_summary.csv",
+    "uniprot_enrichment_records": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\uniprot_enrichment_records.csv",
+    "uniprot_model_check_summary": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\uniprot_model_check_summary.csv",
+    "uniprot_model_check_manifest": "D:\\generate\\user_runs\\shewanella_gecko_case\\uniprot_model_check\\uniprot_model_check_manifest.json"
+  }
+}

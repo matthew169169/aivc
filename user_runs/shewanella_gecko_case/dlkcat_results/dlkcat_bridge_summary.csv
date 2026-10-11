@@ -1,0 +1,2 @@
+status,input_query_count,ready_query_count,reaction_count,ready_reaction_count,missing_sequence_count,missing_substrate_count,prediction_import_row_count,prediction_mapped_count,reaction_kcat_prior_count,guidance
+needs_sequence_or_smiles,9092,0,2094,0,8440,0,0,0,0,Provide protein sequences and substrate names or SMILES before running DLKcat.

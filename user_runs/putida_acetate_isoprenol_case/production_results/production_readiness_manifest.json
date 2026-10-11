@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1.0",
+  "status": "skipped_no_production_rows",
+  "production_results_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results",
+  "uniprot_model_check_dir": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\uniprot_model_check",
+  "kcat_priors_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\kcat_priors.csv",
+  "kcat_conflict_flags_path": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\generated_constraints\\kcat_conflict_flags.csv",
+  "files": {
+    "summary": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_readiness_summary.csv",
+    "target_readiness": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_target_readiness.csv",
+    "design_readiness": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_design_readiness.csv",
+    "gene_readiness": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_gene_readiness.csv",
+    "manifest": "D:\\generate\\user_runs\\putida_acetate_isoprenol_case\\production_results\\production_readiness_manifest.json"
+  },
+  "input_counts": {
+    "production_target_ranking": 0,
+    "production_design_targets": 0,
+    "production_gene_targets": 0,
+    "production_gecko_target_comparison": 0,
+    "production_gecko_design_comparison": 0,
+    "semantic_qc_reactions": 2927,
+    "uniprot_gene_evidence": 1462,
+    "kcat_prior_reactions": 0,
+    "kcat_conflict_reactions": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "eflux__lowo2",
+  "reference_variant_id": "baseline_gem__all",
+  "generation_method": "eflux",
+  "condition": "lowO2",
+  "source_model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "target_model_path": "D:\\generate\\user_runs\\shewanella_gecko_case\\inputs\\model\\model__iLJ1162.xml",
+  "evidence_files": [
+    "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\gene_expression_evidence.csv",
+    "D:\\generate\\user_runs\\shewanella_gecko_case\\generated_constraints\\reaction_expression_evidence.csv",
+    "D:\\generate\\user_runs\\shewanella_gecko_case\\transcriptomics_flux_results\\delta_fba_summary.csv"
+  ],
+  "edit_record_mode": "inferred_legacy",
+  "edit_summary": {
+    "reaction_count": 2094,
+    "edit_type_counts": {
+      "unchanged": 1456,
+      "evidence_mapped": 638
+    },
+    "evidence_row_count": 640
+  },
+  "edit_reaction_index": "D:\\generate\\user_runs\\shewanella_gecko_case\\workflow_results\\model_edit_reaction_index.csv"
+}

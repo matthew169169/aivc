@@ -1,0 +1,8 @@
+# Optional execution backends for full workflow functions
+# (FBA/pFBA via COBRA + GLPK, spreadsheet/omics helpers).
+# The core API/UI only needs requirements.txt; without these packages the
+# backend reports ready_minimal and COBRA-backed recompute stays unavailable,
+# while pre-generated run artifacts still display.
+cobra==0.31.1
+openpyxl>=3.1
+xlrd>=2.0
