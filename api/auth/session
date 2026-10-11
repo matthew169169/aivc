@@ -1,0 +1,7 @@
+{
+ "auth_enabled": false,
+ "configured": true,
+ "authenticated": true,
+ "expires_at": 0,
+ "session_ttl_seconds": 43200
+}

@@ -1,0 +1,11 @@
+[
+ {
+  "project_id": "default",
+  "name": "Active Omics-GEM Router workspace",
+  "root": ".",
+  "user_runs_dir": "./user_runs",
+  "examples_dir": "./examples",
+  "task_logs_dir": "./task_logs",
+  "app_root": "."
+ }
+]

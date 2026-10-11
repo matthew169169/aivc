@@ -40,4 +40,13 @@ python run_local.py
 
 ## GitHub Pages note
 
-Pages is static, so the live site no longer waits for a shared-password session. DataHub / run packages / SAMMI jobs still return unreachable until `run_local.py` is used. Model library trees and the original studio shell load without a login gate.
+Pages is static. The bundled JS is patched to be subpath-aware
+(`window.location.origin + pathname` as API base, relative
+`./model-library/` + `./ui_mockups/` links), and `api/health`,
+`api/auth/session`, `api/projects`, `api/workspace`, `api/case-studies`,
+`api/runs`, `api/environment/backend`, `api/resources/species`,
+`api/resources/atlas-summary`, `api/resources/search` are committed as
+static JSON snapshots generated from `resources/` — so cases, atlas data
+and images render live. Writes, jobs, uploads and run-scoped views still
+need `run_local.py`. Model library trees and the studio shell load without
+a login gate.
