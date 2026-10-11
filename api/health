@@ -1,8 +1,0 @@
-{
- "status": "ok",
- "service": "omics-gem-router-api",
- "app_root": ".",
- "root": ".",
- "workspace_root": ".",
- "user_runs_dir": "./user_runs"
-}

@@ -5,7 +5,30 @@ This repository clones the original web app from
 
 Live frontend: https://matthew169169.github.io/aivc/
 
-GitHub Pages hosts the original SPA. API-backed workflow views need the local backend below.
+Live API: https://aivc.onrender.com (deploy below) — the Pages site talks
+to it via `window.OMICS_GEM_API_BASE` in `index.html`/`404.html`.
+No static snapshots: every `/api/*` call hits the real FastAPI backend,
+so all functions (search, curation, runs, GECKO, SAMMI, ML-hybrid, jobs)
+work from the public site once the backend is up.
+
+## Deploy the backend (Render, free)
+
+One click (uses `render.yaml` in this repo):
+
+https://render.com/deploy?repo=https://github.com/matthew169169/aivc
+
+Keep the service name `aivc` so its URL is `https://aivc.onrender.com`
+(the URL wired into the frontend). If you pick another name, update the
+`OMICS_GEM_API_BASE` line in `index.html` and `404.html` and push.
+`render.yaml` already sets CORS for the Pages origin and disables the
+shared-password gate (`OMICS_GEM_AUTH_ENABLED=false`).
+
+Verify after deploy:
+
+```bash
+curl https://aivc.onrender.com/api/health
+curl https://aivc.onrender.com/api/case-studies
+```
 
 ## What is included
 
@@ -40,13 +63,9 @@ python run_local.py
 
 ## GitHub Pages note
 
-Pages is static. The bundled JS is patched to be subpath-aware
-(`window.location.origin + pathname` as API base, relative
-`./model-library/` + `./ui_mockups/` links), and `api/health`,
-`api/auth/session`, `api/projects`, `api/workspace`, `api/case-studies`,
-`api/runs`, `api/environment/backend`, `api/resources/species`,
-`api/resources/atlas-summary`, `api/resources/search` are committed as
-static JSON snapshots generated from `resources/` — so cases, atlas data
-and images render live. Writes, jobs, uploads and run-scoped views still
-need `run_local.py`. Model library trees and the studio shell load without
-a login gate.
+The bundled JS is subpath-aware (API base = `OMICS_GEM_API_BASE` override
+or `origin + pathname`, relative `./model-library/` + `./ui_mockups/`
+links), so the same build works locally, on Render, and on Pages.
+Pages is static hosting only — it serves the SPA shell and forwards every
+`/api/*` call to the Render backend above. The studio shell and model
+library load without a login gate.

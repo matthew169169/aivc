@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: aivc
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run_local.py
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.11
+      - key: OMICS_GEM_AUTH_ENABLED
+        value: false
+      - key: OMICS_GEM_ALLOWED_ORIGINS
+        value: https://matthew169169.github.io
