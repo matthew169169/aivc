@@ -1,0 +1,10 @@
+scope_id,scope_label,scientific_name,strain,taxon_id,aliases,taxonomy_group,query_terms,priority_tier,enabled
+scope_bacteria,Bacteria,bacteria,,2,bacterial;prokaryote,bacteria,bacteria;bacterial;prokaryote,1,true
+scope_archaea,Archaea,archaea,,2157,archaeal;prokaryote,archaea,archaea;archaeal;prokaryote,1,true
+scope_cyanobacteria,Cyanobacteria,cyanobacteria,,1117,cyanobacterium;photosynthetic bacteria,cyanobacteria,cyanobacteria;cyanobacterium;photosynthesis,1,true
+scope_yeasts,Yeasts,yeast,,4891,yeasts;Saccharomycetes;fungal yeast,yeast_fungi,yeast;yeasts;Saccharomyces;Komagataella;Pichia,1,true
+scope_filamentous_fungi,Filamentous fungi,filamentous fungi,,4751,fungi;mold;mould,filamentous_fungi,filamentous fungi;fungi;Aspergillus;Trichoderma,2,true
+scope_microbial_pathogens,Microbial pathogens,pathogenic microbes,,,pathogen;infection;antimicrobial,pathogen_bacteria,pathogen;infection;antibiotic;virulence;antimicrobial,2,true
+scope_industrial_microbes,Industrial microbes,industrial microbes,,,bioproduction;cell factory;fermentation,industrial_microbes,industrial microbe;cell factory;bioproduction;fermentation,2,true
+scope_environmental_microbes,Environmental microbes,environmental microbes,,,soil;marine;wastewater;environmental isolate,environmental_microbes,environmental microbe;soil;marine;wastewater;bioremediation,2,true
+scope_microalgae,Microalgae,microalgae,,,algae;algal;Chlamydomonas,microalgae,microalgae;algae;algal;Chlamydomonas,2,true

@@ -1,0 +1,46 @@
+organism_id,scientific_name,strain,taxon_id,aliases,taxonomy_group,biological_clade,model_ids,priority_tier,source,enabled,review_status,reason,promotion_status
+acidithiobacillus_ferrooxidans,Acidithiobacillus ferrooxidans,,920,Acidithiobacillus ferrooxidans,environmental_microbes,Bacteria / Environmental microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+acidithiobacillus_thiooxidans,Acidithiobacillus thiooxidans,,930,Acidithiobacillus thiooxidans,environmental_microbes,Bacteria / Environmental microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+bacillus_amyloliquefaciens,Bacillus amyloliquefaciens,,1390,Bacillus amyloliquefaciens,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+bacillus_cereus,Bacillus cereus,,1396,Bacillus cereus,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+bacillus_licheniformis,Bacillus licheniformis,,1402,Bacillus licheniformis,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+bacillus_megaterium,Bacillus megaterium,,1404,Priestia megaterium,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+bacillus_subtilis,Bacillus subtilis,,1423,Bacillus subtilis,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+bacillus_thuringiensis,Bacillus thuringiensis,,1428,Bacillus thuringiensis,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+escherichia_coli,Escherichia coli,,562,Escherichia coli,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+escherichia_fergusonii,Escherichia fergusonii,,564,Escherichia fergusonii,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+lacticaseibacillus_casei,Lacticaseibacillus casei,,1582,Lacticaseibacillus casei,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+lactiplantibacillus_plantarum,Lactiplantibacillus plantarum,,1590,Lactiplantibacillus plantarum,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+limosilactobacillus_reuteri,Limosilactobacillus reuteri,,1598,Limosilactobacillus reuteri,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+paenibacillus_polymyxa,Paenibacillus polymyxa,,1406,Paenibacillus polymyxa,industrial_microbes,Bacteria / Industrial microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+pseudomonas_aeruginosa,Pseudomonas aeruginosa,,287,Pseudomonas aeruginosa,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+pseudomonas_fluorescens,Pseudomonas fluorescens,,294,Pseudomonas fluorescens,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+pseudomonas_putida,Pseudomonas putida,,303,Pseudomonas putida,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+pseudomonas_syringae,Pseudomonas syringae,,317,Pseudomonas syringae,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+rhodopseudomonas_palustris,Rhodopseudomonas palustris,,1076,Rhodopseudomonas palustris,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+saccharomyces_cerevisiae,Saccharomyces cerevisiae,,4932,Saccharomyces cerevisiae,yeast_fungi,Fungi / Yeast,,3,taxonomy_enrichment_ncbi,true,ready,,add
+saccharomyces_pastorianus,Saccharomyces pastorianus,,27292,Saccharomyces pastorianus,yeast_fungi,Fungi / Yeast,,3,taxonomy_enrichment_ncbi,true,ready,,add
+schizosaccharomyces_pombe,Schizosaccharomyces pombe,,4896,Schizosaccharomyces pombe,yeast_fungi,Fungi / Yeast,,3,taxonomy_enrichment_ncbi,true,ready,,add
+shewanella_baltica,Shewanella baltica,,62322,Shewanella baltica,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+shewanella_oneidensis,Shewanella oneidensis,,70863,Shewanella oneidensis,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+synechocystis_sp,Synechocystis sp.,,1143,Synechocystis sp.,cyanobacteria,Bacteria / Cyanobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+thiobacillus_denitrificans,Thiobacillus denitrificans,,36861,Thiobacillus denitrificans,environmental_microbes,Bacteria / Environmental microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+zygosaccharomyces_bailii,Zygosaccharomyces bailii,,4954,Zygosaccharomyces bailii,yeast_fungi,Fungi / Yeast,,3,taxonomy_enrichment_ncbi,true,ready,,add
+zygosaccharomyces_rouxii,Zygosaccharomyces rouxii,,4956,Zygosaccharomyces rouxii,yeast_fungi,Fungi / Yeast,,3,taxonomy_enrichment_ncbi,true,ready,,add
+aliivibrio_fischeri,Aliivibrio fischeri,,668,Aliivibrio fischeri,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+bdellovibrio_bacteriovorus,Bdellovibrio bacteriovorus,,959,Bdellovibrio bacteriovorus,environmental_microbes,Bacteria / Environmental microbes,,3,taxonomy_enrichment_ncbi,true,ready,,add
+desulfovibrio_alaskensis,Desulfovibrio alaskensis,,58180,Oleidesulfovibrio alaskensis,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+desulfovibrio_vulgaris,Desulfovibrio vulgaris,,881,Nitratidesulfovibrio vulgaris,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+klebsiella_oxytoca,Klebsiella oxytoca,,571,Klebsiella oxytoca,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+klebsiella_pneumoniae,Klebsiella pneumoniae,,573,Klebsiella pneumoniae,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+mycobacterium_tuberculosis,Mycobacterium tuberculosis,,1773,Mycobacterium tuberculosis,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+salmonella_enterica,Salmonella enterica,,28901,Salmonella enterica,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+staphylococcus_aureus,Staphylococcus aureus,,1280,Staphylococcus aureus,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+staphylococcus_epidermidis,Staphylococcus epidermidis,,1282,Staphylococcus epidermidis,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+staphylococcus_saprophyticus,Staphylococcus saprophyticus,,29385,Staphylococcus saprophyticus,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+streptococcus_agalactiae,Streptococcus agalactiae,,1311,Streptococcus agalactiae,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+streptococcus_pneumoniae,Streptococcus pneumoniae,,1313,Streptococcus pneumoniae,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+streptococcus_pyogenes,Streptococcus pyogenes,,1314,Streptococcus pyogenes,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+vibrio_cholerae,Vibrio cholerae,,666,Vibrio cholerae,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+vibrio_natriegens,Vibrio natriegens,,691,Vibrio natriegens,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add
+vibrio_parahaemolyticus,Vibrio parahaemolyticus,,670,Vibrio parahaemolyticus,bacteria,Bacteria / Proteobacteria,,3,taxonomy_enrichment_ncbi,true,ready,,add

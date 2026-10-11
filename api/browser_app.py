@@ -8,7 +8,18 @@ from fastapi.responses import FileResponse, Response
 from .main import app
 
 
-DIST = Path(__file__).resolve().parents[1] / "frontend" / "dist"
+ROOT = Path(__file__).resolve().parents[1]
+_DIST_CANDIDATES = (ROOT / "frontend" / "dist", ROOT)
+
+
+def _resolve_dist() -> Path:
+    for candidate in _DIST_CANDIDATES:
+        if (candidate / "index.html").is_file() and (candidate / "assets").is_dir():
+            return candidate
+    return ROOT
+
+
+DIST = _resolve_dist()
 
 
 def frontend_file(url_path: str, dist: Path = DIST) -> Path:

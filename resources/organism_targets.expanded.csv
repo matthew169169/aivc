@@ -1,0 +1,353 @@
+organism_id,scientific_name,strain,taxon_id,aliases,taxonomy_group,biological_clade,model_ids,priority_tier,source,enabled,review_status
+ecoli_k12_mg1655,Escherichia coli,K-12 MG1655,511145,E. coli MG1655;MG1655;bacterium,bacteria,Bacteria / Proteobacteria,iJO1366;iML1515;iAF1260;iJR904,1,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;case_and_bigg,true,ready
+pseudomonas_putida_kt2440,Pseudomonas putida,KT2440,160488,P. putida KT2440;KT2440;bacterium,bacteria,Bacteria / Proteobacteria,iJN1463;iJN746,1,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;case_study,true,ready
+saccharomyces_cerevisiae_s288c,Saccharomyces cerevisiae,S288C,559292,yeast;S288C;S. cerevisiae,yeast_fungi,Fungi / Yeast,Yeast-GEM;iMM904;iND750,1,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+shewanella_oneidensis_mr1,Shewanella oneidensis,MR-1,211586,Shewanella MR-1;S. oneidensis MR-1;bacterium,bacteria,Bacteria / Proteobacteria,iLJ1162;iSO783,1,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;case_study,true,ready
+synechocystis_pcc6803,Synechocystis sp.,PCC 6803,1148,Synechocystis 6803;cyanobacterium PCC 6803,cyanobacteria,Bacteria / Cyanobacteria,iJN678;iSynCJ816,1,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;case_study,true,ready
+scope_archaea,archaea,,2157,archaeal;prokaryote,archaea,Archaea,model_metadata_pending,1,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+scope_bacteria,bacteria,,2,bacterial;prokaryote,bacteria,Bacteria / Other bacteria,model_metadata_pending,1,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+scope_cyanobacteria,cyanobacteria,,1117,cyanobacterium;photosynthetic bacteria,cyanobacteria,Bacteria / Cyanobacteria,model_metadata_pending,1,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+scope_yeasts,yeast,,4891,yeasts;Saccharomycetes;fungal yeast,yeast_fungi,Fungi / Yeast,model_metadata_pending,1,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+bacillus_subtilis_168,Bacillus subtilis,168,224308,B. subtilis 168;bacterium,bacteria,Bacteria / Bacillota,iYO844;iBsu1103,2,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+corynebacterium_glutamicum_atcc13032,Corynebacterium glutamicum,ATCC 13032,196627,C. glutamicum;industrial amino acid host,bacteria,Bacteria / Actinobacteria,iCW773;iCGB21FR,2,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+ecoli_bl21_de3,Escherichia coli,BL21(DE3),469008,E. coli BL21;BL21(DE3),bacteria,Bacteria / Proteobacteria,iECD_1391;iY75_1357,2,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+ecoli_w3110,Escherichia coli,W3110,316407,E. coli W3110;W3110,bacteria,Bacteria / Proteobacteria,iJO1366;iML1515,2,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+komagataella_phaffii_gs115,Komagataella phaffii,GS115 / Pichia pastoris,644223,Pichia pastoris;K. phaffii GS115,yeast_fungi,Fungi / Yeast,iMT1026;PichiaGEM,2,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+lactococcus_lactis_il1403,Lactococcus lactis,IL1403,272623,L. lactis IL1403;lactic acid bacterium,bacteria,Bacteria / Bacillota,iNF517;iAJ526,2,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+mycobacterium_tuberculosis_h37rv,Mycobacterium tuberculosis,H37Rv,83332,M. tuberculosis H37Rv;TB pathogen,bacteria,Bacteria / Actinobacteria,iNJ661;iEK1011,2,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+scope_filamentous_fungi,filamentous fungi,,4751,fungi;mold;mould,filamentous_fungi,Fungi / Filamentous fungi,model_metadata_pending,2,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+acinetobacter_baumannii_aye,Acinetobacter baumannii,AYE,509173,A. baumannii AYE,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,iAB5075;iCN718,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+aspergillus_niger_cbs51388,Aspergillus niger,CBS 513.88,425011,A. niger CBS51388,filamentous_fungi,Fungi / Filamentous fungi,iMA871;iHL1210,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+aspergillus_oryzae_rib40,Aspergillus oryzae,RIB40,510516,A. oryzae RIB40,filamentous_fungi,Fungi / Filamentous fungi,iWV1314;iHL1210,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+bacillus_licheniformis_dsm13,Bacillus licheniformis,DSM 13,279010,B. licheniformis DSM13,bacteria,Bacteria / Bacillota,iBli1042;iYO844,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+bacillus_megaterium_dsm319,Bacillus megaterium,DSM 319,592022,B. megaterium DSM319,bacteria,Bacteria / Bacillota,iMZ1055;iYO844,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+chlamydomonas_reinhardtii_cc125,Chlamydomonas reinhardtii,CC-125,3055,C. reinhardtii CC125,microalgae,Eukaryota / Microalgae,iRC1080;AlgaGEM,3,cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride;model_library,true,ready
+clostridium_acetobutylicum_atcc824,Clostridium acetobutylicum,ATCC 824,272562,C. acetobutylicum ATCC824,industrial_microbes,Bacteria / Industrial microbes,iCAC802;iCac967,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+clostridium_thermocellum_atcc27405,Clostridium thermocellum,ATCC 27405,203119,C. thermocellum ATCC27405,industrial_microbes,Bacteria / Industrial microbes,iSR432;iCth446,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+cupriavidus_necator_h16,Cupriavidus necator,H16,381666,Ralstonia eutropha H16;C. necator H16,bacteria,Bacteria / Other bacteria,iCN1361;RehMBEL1391,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+cupriavidus_pinatubonensis_jmp134,Cupriavidus pinatubonensis,JMP134,264198,Cupriavidus JMP134,bacteria,Bacteria / Other bacteria,iJP962;iCN1361,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+ecoli_b_rel606,Escherichia coli,B REL606,413997,E. coli B;REL606,bacteria,Bacteria / Proteobacteria,iECB_1328;iML1515,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+haloferax_volcanii_ds2,Haloferax volcanii,DS2,309800,H. volcanii DS2,archaea,Archaea,iHV817;iAF692,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+klebsiella_pneumoniae_mgh78578,Klebsiella pneumoniae,MGH 78578,272620,K. pneumoniae MGH78578,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,iYL1228;iKp1289,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+lactobacillus_plantarum_wcfs1,Lactiplantibacillus plantarum,WCFS1,220668,Lactobacillus plantarum WCFS1,bacteria,Bacteria / Bacillota,iLP728;iNF517,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+methanosarcina_acetivorans_c2a,Methanosarcina acetivorans,C2A,188937,M. acetivorans C2A,archaea,Archaea,iMB745;iVS941,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+mycobacterium_smegmatis_mc2155,Mycolicibacterium smegmatis,mc2 155,246196,Mycobacterium smegmatis mc2155,bacteria,Bacteria / Other bacteria,iNJ661m;iEK1011,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+pseudomonas_aeruginosa_pao1,Pseudomonas aeruginosa,PAO1,208964,P. aeruginosa PAO1,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,iPae1146;iMO1056,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+saccharomyces_cerevisiae_cenpk,Saccharomyces cerevisiae,CEN.PK,307796,S. cerevisiae CEN.PK,yeast_fungi,Fungi / Yeast,Yeast-GEM;iMM904,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+salmonella_typhimurium_lt2,Salmonella enterica,Typhimurium LT2,99287,S. Typhimurium LT2;Salmonella LT2,bacteria,Bacteria / Proteobacteria,STM_v1_0;iRR1083,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+schizosaccharomyces_pombe_972h,Schizosaccharomyces pombe,972h-,284812,S. pombe 972h,yeast_fungi,Fungi / Yeast,SpoMBEL1693;iSS884,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+staphylococcus_aureus_n315,Staphylococcus aureus,N315,158879,S. aureus N315,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,iSB619;iYS854,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+streptococcus_pyogenes_m1gas,Streptococcus pyogenes,M1 GAS,160490,S. pyogenes M1,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,iSP900;iYS854,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+streptomyces_coelicolor_a32,Streptomyces coelicolor,A3(2),100226,S. coelicolor A3(2),industrial_microbes,Bacteria / Industrial microbes,iMK1208;Sco_GEM,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+synechococcus_elongatus_pcc7942,Synechococcus elongatus,PCC 7942,1140,Synechococcus PCC7942,cyanobacteria,Bacteria / Cyanobacteria,iJB785;iSynCJ816,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+vibrio_cholerae_n16961,Vibrio cholerae,N16961,243277,V. cholerae N16961,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,iAM_Vc960;iVch1829,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+vibrio_natriegens_atcc14048,Vibrio natriegens,ATCC 14048,1219067,V. natriegens,bacteria,Bacteria / Proteobacteria,iLC858;iVnat,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+yarrowia_lipolytica_w29,Yarrowia lipolytica,W29,284591,Y. lipolytica W29,yeast_fungi,Fungi / Yeast,iYali4;YaliGEM,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+zymomonas_mobilis_zm4,Zymomonas mobilis,ZM4,264203,Z. mobilis ZM4,bacteria,Bacteria / Other bacteria,iZM363;iEM439,3,bigg_seed;cache:bigg;cache:expression_atlas;cache:geo;cache:metabolights;cache:omicsdi;cache:pride,true,ready
+scope_environmental_microbes,environmental microbes,,,soil;marine;wastewater;environmental isolate,environmental_microbes,Bacteria / Environmental microbes,model_metadata_pending,2,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,false,needs_taxonomy_review
+scope_industrial_microbes,industrial microbes,,,bioproduction;cell factory;fermentation,industrial_microbes,Bacteria / Industrial microbes,model_metadata_pending,2,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,false,needs_taxonomy_review
+scope_microalgae,microalgae,,,algae;algal;Chlamydomonas,microalgae,Eukaryota / Microalgae,model_metadata_pending,2,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,false,needs_taxonomy_review
+scope_microbial_pathogens,pathogenic microbes,,,pathogen;infection;antimicrobial,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,model_metadata_pending,2,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride,false,needs_taxonomy_review
+acaryochloris_marina,Acaryochloris marina,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+acetobacter_pasteurianus,Acetobacter pasteurianus,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+acidithiobacillus_ferrooxidans,Acidithiobacillus ferrooxidans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+acidithiobacillus_thiooxidans,Acidithiobacillus thiooxidans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+acidobacterium_capsulatum,Acidobacterium capsulatum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+acinetobacter_baumannii,Acinetobacter baumannii,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+acinetobacter_baylyi,Acinetobacter baylyi,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+aeromonas_hydrophila,Aeromonas hydrophila,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+aeropyrum_pernix,Aeropyrum pernix,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+agrobacterium_tumefaciens,Agrobacterium tumefaciens,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+akkermansia_muciniphila,Akkermansia muciniphila,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+alcanivorax_borkumensis,Alcanivorax borkumensis,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+aliivibrio_fischeri,Aliivibrio fischeri,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+anabaena_sp,Anabaena sp.,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+anaerostipes_hadrus,Anaerostipes hadrus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+archaeoglobus_fulgidus,Archaeoglobus fulgidus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+arthrospira_platensis,Arthrospira platensis,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+ashbya_gossypii,Ashbya gossypii,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+aspergillus_fumigatus,Aspergillus fumigatus,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+aspergillus_nidulans,Aspergillus nidulans,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+aspergillus_niger,Aspergillus niger,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+aspergillus_oryzae,Aspergillus oryzae,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+aspergillus_terreus,Aspergillus terreus,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+auxenochlorella_protothecoides,Auxenochlorella protothecoides,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+azoarcus_olearius,Azoarcus olearius,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+azotobacter_vinelandii,Azotobacter vinelandii,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacillus_amyloliquefaciens,Bacillus amyloliquefaciens,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacillus_cereus,Bacillus cereus,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacillus_licheniformis,Bacillus licheniformis,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacillus_megaterium,Bacillus megaterium,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacillus_subtilis,Bacillus subtilis,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacillus_thuringiensis,Bacillus thuringiensis,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacteroides_fragilis,Bacteroides fragilis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacteroides_ovatus,Bacteroides ovatus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bacteroides_thetaiotaomicron,Bacteroides thetaiotaomicron,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bartonella_henselae,Bartonella henselae,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+bdellovibrio_bacteriovorus,Bdellovibrio bacteriovorus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+beggiatoa_alba,Beggiatoa alba,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bifidobacterium_breve,Bifidobacterium breve,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bifidobacterium_longum,Bifidobacterium longum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+blautia_obeum,Blautia obeum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+bordetella_pertussis,Bordetella pertussis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+borrelia_burgdorferi,Borrelia burgdorferi,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+botrytis_cinerea,Botrytis cinerea,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+brettanomyces_bruxellensis,Brettanomyces bruxellensis,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+brucella_abortus,Brucella abortus,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+burkholderia_cenocepacia,Burkholderia cenocepacia,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+burkholderia_thailandensis,Burkholderia thailandensis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+campylobacter_jejuni,Campylobacter jejuni,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+candida_albicans,Candida albicans,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+candida_glabrata,Candida glabrata,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+candida_parapsilosis,Candida parapsilosis,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+candida_tropicalis,Candida tropicalis,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+candidatus_nitrososphaera_gargensis,Candidatus Nitrososphaera gargensis,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+caulobacter_crescentus,Caulobacter crescentus,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+chaetomium_globosum,Chaetomium globosum,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+chlamydia_pneumoniae,Chlamydia pneumoniae,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+chlamydia_trachomatis,Chlamydia trachomatis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+chlamydomonas_reinhardtii,Chlamydomonas reinhardtii,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+chlorella_sorokiniana,Chlorella sorokiniana,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+chlorella_vulgaris,Chlorella vulgaris,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+chlorobaculum_tepidum,Chlorobaculum tepidum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+chloroflexus_aurantiacus,Chloroflexus aurantiacus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+chromobacterium_violaceum,Chromobacterium violaceum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+chroococcidiopsis_thermalis,Chroococcidiopsis thermalis,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+citrobacter_freundii,Citrobacter freundii,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridioides_difficile,Clostridioides difficile,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridium_acetobutylicum,Clostridium acetobutylicum,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridium_autoethanogenum,Clostridium autoethanogenum,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridium_beijerinckii,Clostridium beijerinckii,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridium_botulinum,Clostridium botulinum,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridium_ljungdahlii,Clostridium ljungdahlii,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridium_perfringens,Clostridium perfringens,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+clostridium_thermocellum,Clostridium thermocellum,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+comamonas_testosteroni,Comamonas testosteroni,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+corynebacterium_ammoniagenes,Corynebacterium ammoniagenes,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+corynebacterium_diphtheriae,Corynebacterium diphtheriae,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+corynebacterium_efficiens,Corynebacterium efficiens,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+corynebacterium_glutamicum,Corynebacterium glutamicum,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+coxiella_burnetii,Coxiella burnetii,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+crocosphaera_watsonii,Crocosphaera watsonii,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+cryptococcus_neoformans,Cryptococcus neoformans,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+cupriavidus_necator,Cupriavidus necator,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+cupriavidus_pinatubonensis,Cupriavidus pinatubonensis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+cutibacterium_acnes,Cutibacterium acnes,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+cyanothece_sp,Cyanothece sp.,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+cyberlindnera_jadinii,Cyberlindnera jadinii,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+debaryomyces_hansenii,Debaryomyces hansenii,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+dechloromonas_aromatica,Dechloromonas aromatica,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+deinococcus_radiodurans,Deinococcus radiodurans,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+dekkera_bruxellensis,Dekkera bruxellensis,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+delftia_acidovorans,Delftia acidovorans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+desulfotomaculum_reducens,Desulfotomaculum reducens,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+desulfovibrio_alaskensis,Desulfovibrio alaskensis,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+desulfovibrio_vulgaris,Desulfovibrio vulgaris,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+dickeya_dadantii,Dickeya dadantii,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+dunaliella_salina,Dunaliella salina,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+enterobacter_cloacae,Enterobacter cloacae,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+enterococcus_faecalis,Enterococcus faecalis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+enterococcus_faecium,Enterococcus faecium,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+erwinia_amylovora,Erwinia amylovora,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+escherichia_coli,Escherichia coli,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+escherichia_fergusonii,Escherichia fergusonii,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+eubacterium_rectale,Eubacterium rectale,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+euglena_gracilis,Euglena gracilis,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+faecalibacterium_prausnitzii,Faecalibacterium prausnitzii,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+ferroplasma_acidarmanus,Ferroplasma acidarmanus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+francisella_tularensis,Francisella tularensis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+frankia_alni,Frankia alni,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+fremyella_diplosiphon,Fremyella diplosiphon,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+fusarium_graminearum,Fusarium graminearum,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+fusarium_oxysporum,Fusarium oxysporum,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+fusobacterium_nucleatum,Fusobacterium nucleatum,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+gardnerella_vaginalis,Gardnerella vaginalis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+gemmata_obscuriglobus,Gemmata obscuriglobus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+geobacillus_thermoglucosidasius,Geobacillus thermoglucosidasius,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+geobacter_metallireducens,Geobacter metallireducens,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+geobacter_sulfurreducens,Geobacter sulfurreducens,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+gloeobacter_violaceus,Gloeobacter violaceus,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+gluconobacter_oxydans,Gluconobacter oxydans,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+gordonia_bronchialis,Gordonia bronchialis,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+granulicella_tundricola,Granulicella tundricola,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+haematococcus_pluvialis,Haematococcus pluvialis,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+haemophilus_influenzae,Haemophilus influenzae,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+haloarcula_marismortui,Haloarcula marismortui,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+halobacterium_salinarum,Halobacterium salinarum,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+haloferax_volcanii,Haloferax volcanii,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+helicobacter_pylori,Helicobacter pylori,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+herbaspirillum_seropedicae,Herbaspirillum seropedicae,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+ignicoccus_hospitalis,Ignicoccus hospitalis,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+janthinobacterium_lividum,Janthinobacterium lividum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+klebsiella_oxytoca,Klebsiella oxytoca,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+klebsiella_pneumoniae,Klebsiella pneumoniae,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+kluyveromyces_lactis,Kluyveromyces lactis,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+kluyveromyces_marxianus,Kluyveromyces marxianus,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+kocuria_rhizophila,Kocuria rhizophila,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+komagataeibacter_xylinus,Komagataeibacter xylinus,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+komagataella_phaffii,Komagataella phaffii,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+ktedonobacter_racemifer,Ktedonobacter racemifer,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+lachancea_thermotolerans,Lachancea thermotolerans,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+lacticaseibacillus_casei,Lacticaseibacillus casei,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+lactiplantibacillus_plantarum,Lactiplantibacillus plantarum,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+lactococcus_lactis,Lactococcus lactis,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+legionella_pneumophila,Legionella pneumophila,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+leptolyngbya_boryana,Leptolyngbya boryana,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+leptospira_interrogans,Leptospira interrogans,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+leptospirillum_ferrooxidans,Leptospirillum ferrooxidans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+leuconostoc_mesenteroides,Leuconostoc mesenteroides,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+limosilactobacillus_reuteri,Limosilactobacillus reuteri,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+listeria_monocytogenes,Listeria monocytogenes,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+magnaporthe_oryzae,Magnaporthe oryzae,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+magnetospirillum_magneticum,Magnetospirillum magneticum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+marinobacter_hydrocarbonoclasticus,Marinobacter hydrocarbonoclasticus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+mesorhizobium_loti,Mesorhizobium loti,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+methanobacterium_formicicum,Methanobacterium formicicum,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+methanocaldococcus_jannaschii,Methanocaldococcus jannaschii,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+methanococcus_maripaludis,Methanococcus maripaludis,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+methanosarcina_acetivorans,Methanosarcina acetivorans,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+methanosarcina_barkeri,Methanosarcina barkeri,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+methanothermobacter_thermautotrophicus,Methanothermobacter thermautotrophicus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+methylobacterium_extorquens,Methylobacterium extorquens,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+methylococcus_capsulatus,Methylococcus capsulatus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+methylomicrobium_buryatense,Methylomicrobium buryatense,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+methylomonas_methanica,Methylomonas methanica,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+metschnikowia_pulcherrima,Metschnikowia pulcherrima,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+micrococcus_luteus,Micrococcus luteus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+microcystis_aeruginosa,Microcystis aeruginosa,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+micromonas_commoda,Micromonas commoda,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+monascus_purpureus,Monascus purpureus,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+moorella_thermoacetica,Moorella thermoacetica,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+moraxella_catarrhalis,Moraxella catarrhalis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+morganella_morganii,Morganella morganii,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+mortierella_alpina,Mortierella alpina,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+mucor_circinelloides,Mucor circinelloides,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+mycobacterium_bovis,Mycobacterium bovis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+mycobacterium_smegmatis,Mycobacterium smegmatis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+mycobacterium_tuberculosis,Mycobacterium tuberculosis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+mycoplasma_pneumoniae,Mycoplasma pneumoniae,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+nannochloropsis_gaditana,Nannochloropsis gaditana,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+nannochloropsis_oceanica,Nannochloropsis oceanica,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+natronomonas_pharaonis,Natronomonas pharaonis,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+neisseria_gonorrhoeae,Neisseria gonorrhoeae,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+neisseria_meningitidis,Neisseria meningitidis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+neurospora_crassa,Neurospora crassa,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+nitrobacter_hamburgensis,Nitrobacter hamburgensis,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+nitrobacter_winogradskyi,Nitrobacter winogradskyi,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+nitrosomonas_europaea,Nitrosomonas europaea,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+nitrosopumilus_maritimus,Nitrosopumilus maritimus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+nitrosospira_multiformis,Nitrosospira multiformis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+nitrospira_defluvii,Nitrospira defluvii,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+nitrospira_moscoviensis,Nitrospira moscoviensis,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+nostoc_punctiforme,Nostoc punctiforme,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+nostoc_sp,Nostoc sp.,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+novosphingobium_aromaticivorans,Novosphingobium aromaticivorans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+oenococcus_oeni,Oenococcus oeni,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+ogataea_polymorpha,Ogataea polymorpha,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+opitutus_terrae,Opitutus terrae,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+ostreococcus_tauri,Ostreococcus tauri,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+paenibacillus_polymyxa,Paenibacillus polymyxa,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+pantoea_ananatis,Pantoea ananatis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+parabacteroides_distasonis,Parabacteroides distasonis,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+paracoccus_denitrificans,Paracoccus denitrificans,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pectobacterium_carotovorum,Pectobacterium carotovorum,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pediococcus_pentosaceus,Pediococcus pentosaceus,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+pelobacter_carbinolicus,Pelobacter carbinolicus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+penicillium_chrysogenum,Penicillium chrysogenum,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+penicillium_rubens,Penicillium rubens,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+phaeodactylum_tricornutum,Phaeodactylum tricornutum,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+photobacterium_profundum,Photobacterium profundum,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pichia_pastoris,Pichia pastoris,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+planctomyces_limnophilus,Planctomyces limnophilus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+podospora_anserina,Podospora anserina,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+polaromonas_naphthalenivorans,Polaromonas naphthalenivorans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+porphyromonas_gingivalis,Porphyromonas gingivalis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+prevotella_intermedia,Prevotella intermedia,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+prochlorococcus_marinus,Prochlorococcus marinus,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+propionibacterium_freudenreichii,Propionibacterium freudenreichii,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+proteus_mirabilis,Proteus mirabilis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pseudomonas_aeruginosa,Pseudomonas aeruginosa,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pseudomonas_fluorescens,Pseudomonas fluorescens,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pseudomonas_putida,Pseudomonas putida,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pseudomonas_stutzeri,Pseudomonas stutzeri,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pseudomonas_syringae,Pseudomonas syringae,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+pseudonocardia_dioxanivorans,Pseudonocardia dioxanivorans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+pyrococcus_abyssi,Pyrococcus abyssi,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+pyrococcus_furiosus,Pyrococcus furiosus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+ralstonia_solanacearum,Ralstonia solanacearum,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhizobium_leguminosarum,Rhizobium leguminosarum,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhizopus_delemar,Rhizopus delemar,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhizopus_oryzae,Rhizopus oryzae,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhodobacter_sphaeroides,Rhodobacter sphaeroides,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhodococcus_erythropolis,Rhodococcus erythropolis,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhodococcus_jostii,Rhodococcus jostii,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhodococcus_opacus,Rhodococcus opacus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhodopseudomonas_palustris,Rhodopseudomonas palustris,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+rhodotorula_toruloides,Rhodotorula toruloides,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+rickettsia_prowazekii,Rickettsia prowazekii,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+roseburia_intestinalis,Roseburia intestinalis,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+ruminococcus_bromii,Ruminococcus bromii,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+saccharolobus_islandicus,Saccharolobus islandicus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+saccharomyces_boulardii,Saccharomyces boulardii,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+saccharomyces_cerevisiae,Saccharomyces cerevisiae,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+saccharomyces_pastorianus,Saccharomyces pastorianus,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+salmonella_enterica,Salmonella enterica,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+scheffersomyces_stipitis,Scheffersomyces stipitis,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+schizosaccharomyces_pombe,Schizosaccharomyces pombe,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+sclerotinia_sclerotiorum,Sclerotinia sclerotiorum,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+serratia_marcescens,Serratia marcescens,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+shewanella_baltica,Shewanella baltica,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+shewanella_oneidensis,Shewanella oneidensis,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+shigella_flexneri,Shigella flexneri,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+shigella_sonnei,Shigella sonnei,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+sinorhizobium_meliloti,Sinorhizobium meliloti,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+solibacter_usitatus,Solibacter usitatus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+sphingobium_japonicum,Sphingobium japonicum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+sphingomonas_wittichii,Sphingomonas wittichii,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+staphylococcus_aureus,Staphylococcus aureus,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+staphylococcus_epidermidis,Staphylococcus epidermidis,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+staphylococcus_saprophyticus,Staphylococcus saprophyticus,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+streptococcus_agalactiae,Streptococcus agalactiae,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+streptococcus_pneumoniae,Streptococcus pneumoniae,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+streptococcus_pyogenes,Streptococcus pyogenes,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+streptomyces_avermitilis,Streptomyces avermitilis,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+streptomyces_coelicolor,Streptomyces coelicolor,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+streptomyces_griseus,Streptomyces griseus,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+streptomyces_lividans,Streptomyces lividans,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+sulfolobus_acidocaldarius,Sulfolobus acidocaldarius,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+sulfolobus_solfataricus,Sulfolobus solfataricus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+synechococcus_elongatus,Synechococcus elongatus,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+synechococcus_sp,Synechococcus sp.,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+synechocystis_sp,Synechocystis sp.,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+talaromyces_marneffei,Talaromyces marneffei,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+tetraselmis_suecica,Tetraselmis suecica,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+thalassiosira_pseudonana,Thalassiosira pseudonana,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+thermoanaerobacterium_saccharolyticum,Thermoanaerobacterium saccharolyticum,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+thermococcus_kodakarensis,Thermococcus kodakarensis,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+thermococcus_onnurineus,Thermococcus onnurineus,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+thermoplasma_acidophilum,Thermoplasma acidophilum,,,,archaea,Archaea,,3,curated_microbe_seed,false,needs_taxonomy_review
+thermosynechococcus_elongatus,Thermosynechococcus elongatus,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+thermus_thermophilus,Thermus thermophilus,,,,industrial_microbes,Bacteria / Industrial microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+thiobacillus_denitrificans,Thiobacillus denitrificans,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+thiomonas_intermedia,Thiomonas intermedia,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+treponema_pallidum,Treponema pallidum,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+trichoderma_harzianum,Trichoderma harzianum,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+trichoderma_reesei,Trichoderma reesei,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+trichodesmium_erythraeum,Trichodesmium erythraeum,,,,cyanobacteria,Bacteria / Cyanobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+ureaplasma_urealyticum,Ureaplasma urealyticum,,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+ustilago_maydis,Ustilago maydis,,,,filamentous_fungi,Fungi / Filamentous fungi,,3,curated_microbe_seed,false,needs_taxonomy_review
+variovorax_paradoxus,Variovorax paradoxus,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+verrucomicrobium_spinosum,Verrucomicrobium spinosum,,,,environmental_microbes,Bacteria / Environmental microbes,,3,curated_microbe_seed,false,needs_taxonomy_review
+vibrio_cholerae,Vibrio cholerae,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+vibrio_natriegens,Vibrio natriegens,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+vibrio_parahaemolyticus,Vibrio parahaemolyticus,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+vibrio_vulnificus,Vibrio vulnificus,,,,bacteria,Bacteria / Proteobacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+volvox_carteri,Volvox carteri,,,,microalgae,Eukaryota / Microalgae,,3,curated_microbe_seed,false,needs_taxonomy_review
+wickerhamomyces_anomalus,Wickerhamomyces anomalus,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+wolbachia_pipientis,Wolbachia pipientis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+yarrowia_lipolytica,Yarrowia lipolytica,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+yersinia_pestis,Yersinia pestis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+yersinia_pseudotuberculosis,Yersinia pseudotuberculosis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review
+zygosaccharomyces_bailii,Zygosaccharomyces bailii,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+zygosaccharomyces_rouxii,Zygosaccharomyces rouxii,,,,yeast_fungi,Fungi / Yeast,,3,curated_microbe_seed,false,needs_taxonomy_review
+zymomonas_mobilis,Zymomonas mobilis,,,,bacteria,Bacteria / Other bacteria,,3,curated_microbe_seed,false,needs_taxonomy_review

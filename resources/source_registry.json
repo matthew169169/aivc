@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "description": "Metadata-only source registry for the Model & Omics Resource Atlas. These entries describe connector capabilities and safety boundaries; they do not authorize raw data downloads.",
+  "sources": [
+    {
+      "source_id": "bigg",
+      "connector_source": "bigg_cache",
+      "source_database": "BiGG",
+      "resource_kinds": ["model"],
+      "omics_types": ["model"],
+      "query_modes": ["model_id", "organism", "keyword"],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": false,
+      "default_limit": 0,
+      "readiness_default": "metadata_only",
+      "data_level": "model_metadata",
+      "api_reference": "http://bigg.ucsd.edu/api/v2/models",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_model_files",
+        "do_not_mark_external_metadata_ready_for_import"
+      ]
+    },
+    {
+      "source_id": "geo",
+      "connector_source": "geo_cache",
+      "source_database": "GEO",
+      "resource_kinds": ["omics"],
+      "omics_types": ["transcriptomics", "discovery_metadata"],
+      "query_modes": ["organism", "taxon_id", "keyword", "accession"],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "study_metadata",
+      "api_reference": "NCBI Entrez E-utilities",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_fastq_or_sra",
+        "requires_condition_curation",
+        "requires_gene_mapping"
+      ]
+    },
+    {
+      "source_id": "expression_atlas",
+      "connector_source": "expression_atlas_cache",
+      "source_database": "ExpressionAtlas",
+      "resource_kinds": ["omics"],
+      "omics_types": ["transcriptomics", "proteomics", "discovery_metadata"],
+      "query_modes": ["organism", "taxon_id", "keyword", "accession"],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "study_metadata",
+      "api_reference": "EBI Search REST API",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_processed_matrices",
+        "requires_condition_curation",
+        "requires_gene_mapping"
+      ]
+    },
+    {
+      "source_id": "pride",
+      "connector_source": "pride_cache",
+      "source_database": "PRIDE",
+      "resource_kinds": ["omics"],
+      "omics_types": ["proteomics", "discovery_metadata"],
+      "query_modes": ["organism", "taxon_id", "keyword", "accession"],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "project_metadata",
+      "api_reference": "PRIDE Archive API / EBI Search",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_raw_proteomics",
+        "requires_protein_mapping",
+        "requires_condition_curation"
+      ]
+    },
+    {
+      "source_id": "metabolights",
+      "connector_source": "metabolights_cache",
+      "source_database": "MetaboLights",
+      "resource_kinds": ["omics"],
+      "omics_types": ["metabolomics", "discovery_metadata"],
+      "query_modes": ["organism", "taxon_id", "keyword", "accession"],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "study_metadata",
+      "api_reference": "MetaboLights API / EBI Search",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_raw_metabolomics",
+        "requires_metabolite_mapping",
+        "metabolomics_is_analysis_evidence_by_default"
+      ]
+    },
+    {
+      "source_id": "omicsdi",
+      "connector_source": "omicsdi_cache",
+      "source_database": "OmicsDI",
+      "resource_kinds": ["omics"],
+      "omics_types": ["discovery_metadata", "multiomics"],
+      "query_modes": ["organism", "taxon_id", "keyword", "accession"],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "cross_omics_metadata",
+      "api_reference": "OmicsDI API",
+      "safety_boundaries": [
+        "metadata_only",
+        "discovery_index_only",
+        "do_not_infer_import_readiness",
+        "requires_source_specific_review"
+      ]
+    }
+  ]
+}

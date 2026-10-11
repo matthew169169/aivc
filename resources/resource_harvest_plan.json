@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "description": "Staged metadata-only harvesting plan for microbial Resource Atlas expansion.",
+  "safety_boundaries": [
+    "metadata_only",
+    "do_not_download_raw_data",
+    "do_not_generate_processed_matrices",
+    "preserve_and_merge_existing_cache",
+    "record_partial_guidance"
+  ],
+  "default_stage": "microbial_smoke",
+  "stages": [
+    {
+      "stage_id": "microbial_smoke",
+      "label": "Broad microbial smoke refresh",
+      "purpose": "Verify live connector availability with broad microbial scopes and small query budgets.",
+      "jobs": [
+        {
+          "source": "bigg",
+          "include_microbial_scopes": true,
+          "limit": 0,
+          "page_size": 0,
+          "max_pages": 0,
+          "max_queries": 0
+        },
+        {
+          "source": "geo",
+          "include_microbial_scopes": true,
+          "limit": 20,
+          "page_size": 2,
+          "max_pages": 1,
+          "max_queries": 3
+        },
+        {
+          "source": "expression_atlas",
+          "include_microbial_scopes": true,
+          "limit": 20,
+          "page_size": 2,
+          "max_pages": 1,
+          "max_queries": 3
+        },
+        {
+          "source": "pride",
+          "include_microbial_scopes": true,
+          "limit": 20,
+          "page_size": 2,
+          "max_pages": 1,
+          "max_queries": 3
+        },
+        {
+          "source": "metabolights",
+          "include_microbial_scopes": true,
+          "limit": 20,
+          "page_size": 2,
+          "max_pages": 1,
+          "max_queries": 3
+        },
+        {
+          "source": "omicsdi",
+          "include_microbial_scopes": true,
+          "limit": 20,
+          "page_size": 2,
+          "max_pages": 1,
+          "max_queries": 3
+        }
+      ]
+    },
+    {
+      "stage_id": "microbial_incremental",
+      "label": "Incremental microbial expansion",
+      "purpose": "Grow cache coverage while keeping API calls bounded and auditable.",
+      "jobs": [
+        {
+          "source": "bigg",
+          "include_microbial_scopes": true,
+          "limit": 0,
+          "page_size": 0,
+          "max_pages": 0,
+          "max_queries": 0
+        },
+        {
+          "source": "geo",
+          "include_microbial_scopes": true,
+          "limit": 200,
+          "page_size": 10,
+          "max_pages": 2,
+          "max_queries": 50
+        },
+        {
+          "source": "expression_atlas",
+          "include_microbial_scopes": true,
+          "limit": 150,
+          "page_size": 10,
+          "max_pages": 2,
+          "max_queries": 40
+        },
+        {
+          "source": "pride",
+          "include_microbial_scopes": true,
+          "limit": 200,
+          "page_size": 10,
+          "max_pages": 2,
+          "max_queries": 50
+        },
+        {
+          "source": "metabolights",
+          "include_microbial_scopes": true,
+          "limit": 150,
+          "page_size": 10,
+          "max_pages": 2,
+          "max_queries": 40
+        },
+        {
+          "source": "omicsdi",
+          "include_microbial_scopes": true,
+          "limit": 200,
+          "page_size": 10,
+          "max_pages": 2,
+          "max_queries": 50
+        }
+      ]
+    },
+    {
+      "stage_id": "microbial_deep",
+      "label": "Deep microbial metadata expansion",
+      "purpose": "Larger scheduled refresh for broader microbial discovery after smoke and incremental stages are stable.",
+      "jobs": [
+        {
+          "source": "bigg",
+          "include_microbial_scopes": true,
+          "limit": 0,
+          "page_size": 0,
+          "max_pages": 0,
+          "max_queries": 0
+        },
+        {
+          "source": "geo",
+          "include_microbial_scopes": true,
+          "limit": 1000,
+          "page_size": 25,
+          "max_pages": 4,
+          "max_queries": 200,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 3
+        },
+        {
+          "source": "expression_atlas",
+          "include_microbial_scopes": true,
+          "limit": 600,
+          "page_size": 25,
+          "max_pages": 4,
+          "max_queries": 150,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 3
+        },
+        {
+          "source": "pride",
+          "include_microbial_scopes": true,
+          "limit": 1000,
+          "page_size": 25,
+          "max_pages": 4,
+          "max_queries": 200,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 3
+        },
+        {
+          "source": "metabolights",
+          "include_microbial_scopes": true,
+          "limit": 600,
+          "page_size": 25,
+          "max_pages": 4,
+          "max_queries": 150,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 3
+        },
+        {
+          "source": "omicsdi",
+          "include_microbial_scopes": true,
+          "limit": 1000,
+          "page_size": 25,
+          "max_pages": 4,
+          "max_queries": 200,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 3
+        }
+      ]
+    },
+    {
+      "stage_id": "microbial_target_rotation",
+      "label": "Rotating microbial target batches",
+      "purpose": "Metadata-only scheduled target windows that rotate across the organism registry so broad updates do not repeatedly start from the first curated targets.",
+      "jobs": [
+        {
+          "source": "geo",
+          "include_microbial_scopes": true,
+          "limit": 500,
+          "page_size": 25,
+          "max_pages": 2,
+          "max_queries": 80,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 0,
+          "target_limit": 20
+        },
+        {
+          "source": "expression_atlas",
+          "include_microbial_scopes": true,
+          "limit": 300,
+          "page_size": 25,
+          "max_pages": 2,
+          "max_queries": 60,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 0,
+          "target_limit": 20
+        },
+        {
+          "source": "pride",
+          "include_microbial_scopes": true,
+          "limit": 500,
+          "page_size": 25,
+          "max_pages": 2,
+          "max_queries": 80,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 20,
+          "target_limit": 20
+        },
+        {
+          "source": "metabolights",
+          "include_microbial_scopes": true,
+          "limit": 300,
+          "page_size": 25,
+          "max_pages": 2,
+          "max_queries": 60,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 20,
+          "target_limit": 20
+        },
+        {
+          "source": "omicsdi",
+          "include_microbial_scopes": true,
+          "limit": 500,
+          "page_size": 25,
+          "max_pages": 2,
+          "max_queries": 80,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 40,
+          "target_limit": 20
+        }
+      ]
+    },
+    {
+      "stage_id": "microbial_connector_deepening_v1",
+      "label": "Connector deepening v1 bounded metadata harvest",
+      "purpose": "Bounded metadata-only deepening over reviewed production targets. Use the capped-query continuation runner separately for GEO/PRIDE backlog depth.",
+      "jobs": [
+        {
+          "source": "geo",
+          "include_microbial_scopes": false,
+          "limit": 600,
+          "page_size": 25,
+          "max_pages": 3,
+          "max_queries": 100,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 3,
+          "target_offset": 0,
+          "target_limit": 20
+        },
+        {
+          "source": "pride",
+          "include_microbial_scopes": false,
+          "limit": 600,
+          "page_size": 25,
+          "max_pages": 3,
+          "max_queries": 100,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 3,
+          "target_offset": 20,
+          "target_limit": 20
+        },
+        {
+          "source": "expression_atlas",
+          "include_microbial_scopes": false,
+          "limit": 400,
+          "page_size": 20,
+          "max_pages": 2,
+          "max_queries": 60,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 0,
+          "target_limit": 20
+        },
+        {
+          "source": "metabolights",
+          "include_microbial_scopes": false,
+          "limit": 300,
+          "page_size": 20,
+          "max_pages": 2,
+          "max_queries": 50,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 20,
+          "target_limit": 20
+        },
+        {
+          "source": "omicsdi",
+          "include_microbial_scopes": false,
+          "limit": 500,
+          "page_size": 25,
+          "max_pages": 2,
+          "max_queries": 80,
+          "query_partitions": "microbial_context",
+          "max_partitions_per_query": 2,
+          "target_offset": 0,
+          "target_limit": 20
+        }
+      ]
+    }
+  ]
+}

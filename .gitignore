@@ -1,3 +1,13 @@
 Omics-GEM-Studio-Windows-Browser-20260908-r2.zip-2.download/
 *.zip
 .DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+user_runs/
+task_logs/
+atlas_curation_workspaces/
+archived_runs/
+.runtime_cache/
+*.log

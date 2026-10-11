@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-28T13:38:29+00:00",
+  "status": "ready",
+  "summary": {
+    "rows_to_add": 0,
+    "skipped_existing": 0,
+    "conflicts": 0,
+    "rejected": 0,
+    "applied": false
+  },
+  "rows_to_add": [],
+  "skipped_existing": [],
+  "conflicts": [],
+  "rejected": [],
+  "guidance": "Review promotion dry-run only. organism_targets.csv was not modified."
+}

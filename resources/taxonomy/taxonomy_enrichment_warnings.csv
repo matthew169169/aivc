@@ -1,0 +1,6 @@
+organism_id,scientific_name,strain,query,match_status,warning,guidance
+geobacillus_thermoglucosidasius,Geobacillus thermoglucosidasius,,Geobacillus thermoglucosidasius,no_hit,no_hit,No NCBI taxonomy hit for this query.
+pseudomonas_stutzeri,Pseudomonas stutzeri,,Pseudomonas stutzeri,no_hit,no_hit,No NCBI taxonomy hit for this query.
+saccharomyces_boulardii,Saccharomyces boulardii,,Saccharomyces boulardii,genus_only,genus_only,NCBI result was not an accepted species/strain-level match.
+mycobacterium_bovis,Mycobacterium bovis,,Mycobacterium bovis,genus_only,genus_only,NCBI result was not an accepted species/strain-level match.
+mycobacterium_smegmatis,Mycobacterium smegmatis,,Mycobacterium smegmatis,no_hit,no_hit,No NCBI taxonomy hit for this query.

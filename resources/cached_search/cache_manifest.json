@@ -1,0 +1,1176 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-28T10:55:39Z",
+  "status": "partial",
+  "mode": "cached_first_seed",
+  "guidance": "Metadata-only cache. No raw data or processed matrices were downloaded.",
+  "target_registry": "D:\\generate\\resources\\organism_targets.csv",
+  "source_registry": "D:\\generate\\resources\\source_registry.json",
+  "query_theme_registry": "D:\\generate\\resources\\resource_query_themes.json",
+  "microbial_scope_registry": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+  "query": {
+    "source": "geo",
+    "organism": "",
+    "taxon_id": "",
+    "limit": 40,
+    "page_size": 5,
+    "max_pages": 1,
+    "max_queries": 2,
+    "include_microbial_scopes": false,
+    "query_partitions": "microbial_context",
+    "max_partitions_per_query": 1,
+    "target_offset": 0,
+    "target_limit": 2,
+    "default_source": "source_registry"
+  },
+  "sources": {
+    "geo_cache": {
+      "version": 1,
+      "source": "geo",
+      "connector_source": "geo_cache",
+      "source_database": "GEO",
+      "resource_kinds": [
+        "omics"
+      ],
+      "omics_types": [
+        "transcriptomics",
+        "discovery_metadata"
+      ],
+      "query_modes": [
+        "organism",
+        "taxon_id",
+        "keyword",
+        "accession"
+      ],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_limit": 0,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "study_metadata",
+      "api_reference": "NCBI Entrez E-utilities",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_fastq_or_sra",
+        "requires_condition_curation",
+        "requires_gene_mapping"
+      ],
+      "query_theme_count": 11,
+      "query_theme_omics_types": [
+        "transcriptomics"
+      ],
+      "query_theme_suffixes": [
+        "STRESS_TRANSCRIPTOMICS",
+        "CARBON_TRANSCRIPTOMICS",
+        "OXYGEN_TRANSCRIPTOMICS",
+        "PERTURBATION_TRANSCRIPTOMICS",
+        "BIOREACTOR_TRANSCRIPTOMICS",
+        "TEMPERATURE_TRANSCRIPTOMICS",
+        "PH_TRANSCRIPTOMICS",
+        "NUTRIENT_LIMITATION_TRANSCRIPTOMICS",
+        "DRUG_RESPONSE_TRANSCRIPTOMICS",
+        "STATIONARY_PHASE_TRANSCRIPTOMICS",
+        "EVOLUTION_ADAPTATION_TRANSCRIPTOMICS"
+      ],
+      "query_partition_registry": "D:\\generate\\resources\\resource_query_partitions.json",
+      "query_partition_modes": [
+        "microbial_context"
+      ],
+      "query_partition_count": 1,
+      "query_partition_suffixes": [
+        "carbon_energy"
+      ],
+      "microbial_scope_registry": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+      "microbial_scope_count": 9,
+      "microbial_scope_taxonomy_groups": [
+        "archaea",
+        "bacteria",
+        "cyanobacteria",
+        "environmental_microbes",
+        "filamentous_fungi",
+        "industrial_microbes",
+        "microalgae",
+        "pathogen_bacteria",
+        "yeast_fungi"
+      ],
+      "generated_at": "2026-06-28T10:55:39Z",
+      "mode": "live_metadata_merged_target_window",
+      "status": "cached",
+      "cache_status": "cached",
+      "record_count": 989,
+      "current_cache_records": 989,
+      "reported_hits": 12956,
+      "source_reported_total": 12956,
+      "harvested_records": 989,
+      "harvested_count": 989,
+      "live_reported_hits": 12956,
+      "live_harvested_records": 55,
+      "live_coverage_ratio": 0.0042,
+      "merged_existing_cache": true,
+      "existing_cache_records_before_merge": 989,
+      "live_returned_records_before_merge": 45,
+      "merged_cache_records": 989,
+      "coverage_ratio": 0.0763,
+      "failed_queries": 0,
+      "capped_queries": 2,
+      "last_updated": "2026-06-28T10:55:39Z",
+      "last_successful_update": "2026-06-28T10:55:39Z",
+      "query_count": 4,
+      "hit_count": 989,
+      "error_count": 0,
+      "raw_query_manifest": "D:\\generate\\resources\\cached_search\\geo\\raw\\query_manifest.json",
+      "normalized_cache": "D:\\generate\\resources\\cached_search\\geo\\normalized\\resources.json",
+      "legacy_cache": "D:\\generate\\resources\\cached_search\\geo\\series.json",
+      "guidance": "GEO live metadata harvest via NCBI E-utilities; no raw GEO files were downloaded. Deterministic cached seed rows were merged into the live metadata payload so stable local examples and curation fixtures remain available. Seed records=40; live records=10; merged records=45. Existing geo_cache cache was merged with the target-window harvest so scheduled batches accumulate microbial coverage. Existing records=989; batch records=45; merged records=989.",
+      "effective_limit": 40,
+      "effective_page_size": 5,
+      "effective_max_pages": 1,
+      "effective_max_queries": 2,
+      "effective_query_partitions": "microbial_context",
+      "effective_max_partitions_per_query": 1,
+      "effective_target_offset": 0,
+      "effective_target_limit": 2,
+      "path": "D:\\generate\\resources\\cached_search\\geo\\series.json",
+      "source_manifest": "D:\\generate\\resources\\cached_search\\geo\\source_manifest.json",
+      "updated_at": "2026-06-28T10:55:39Z"
+    },
+    "bigg_cache": {
+      "version": 1,
+      "source": "bigg",
+      "connector_source": "bigg_cache",
+      "source_database": "BiGG",
+      "resource_kinds": [
+        "model"
+      ],
+      "omics_types": [
+        "model"
+      ],
+      "query_modes": [
+        "model_id",
+        "organism",
+        "keyword"
+      ],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": false,
+      "default_limit": 0,
+      "default_page_size": 0,
+      "default_max_pages": 0,
+      "readiness_default": "metadata_only",
+      "data_level": "model_metadata",
+      "api_reference": "http://bigg.ucsd.edu/api/v2/models",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_model_files",
+        "do_not_mark_external_metadata_ready_for_import"
+      ],
+      "query_theme_count": 0,
+      "query_theme_omics_types": [],
+      "query_theme_suffixes": [],
+      "query_partition_registry": "D:\\generate\\resources\\resource_query_partitions.json",
+      "query_partition_modes": [],
+      "query_partition_count": 0,
+      "query_partition_suffixes": [],
+      "microbial_scope_registry": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+      "microbial_scope_count": 9,
+      "microbial_scope_taxonomy_groups": [
+        "archaea",
+        "bacteria",
+        "cyanobacteria",
+        "environmental_microbes",
+        "filamentous_fungi",
+        "industrial_microbes",
+        "microalgae",
+        "pathogen_bacteria",
+        "yeast_fungi"
+      ],
+      "generated_at": "2026-06-21T17:55:52Z",
+      "mode": "offline_seed",
+      "status": "cached",
+      "cache_status": "cached",
+      "record_count": 83,
+      "current_cache_records": 83,
+      "reported_hits": 83,
+      "source_reported_total": 83,
+      "harvested_records": 83,
+      "harvested_count": 83,
+      "live_reported_hits": 0,
+      "live_harvested_records": 0,
+      "live_coverage_ratio": "unknown",
+      "merged_existing_cache": false,
+      "existing_cache_records_before_merge": 0,
+      "live_returned_records_before_merge": 0,
+      "merged_cache_records": 0,
+      "coverage_ratio": 1.0,
+      "failed_queries": 0,
+      "capped_queries": 0,
+      "last_updated": "2026-06-21T17:55:52Z",
+      "last_successful_update": "2026-06-21T17:55:52Z",
+      "query_count": 40,
+      "hit_count": 83,
+      "error_count": 0,
+      "raw_query_manifest": "D:\\generate\\resources\\cached_search\\bigg\\raw\\query_manifest.json",
+      "normalized_cache": "D:\\generate\\resources\\cached_search\\bigg\\normalized\\resources.json",
+      "legacy_cache": "D:\\generate\\resources\\cached_search\\bigg\\models.json",
+      "guidance": "Metadata-only cache. Offline seed rows emulate connector output shape; no raw data were downloaded.",
+      "effective_limit": 0,
+      "effective_page_size": 100,
+      "effective_max_pages": 1,
+      "effective_max_queries": 0,
+      "effective_query_partitions": "none",
+      "effective_max_partitions_per_query": 0,
+      "path": "D:\\generate\\resources\\cached_search\\bigg\\models.json",
+      "source_manifest": "D:\\generate\\resources\\cached_search\\bigg\\source_manifest.json",
+      "updated_at": "2026-06-21T17:55:52Z"
+    },
+    "expression_atlas_cache": {
+      "version": 1,
+      "source": "expression_atlas",
+      "connector_source": "expression_atlas_cache",
+      "source_database": "ExpressionAtlas",
+      "resource_kinds": [
+        "omics"
+      ],
+      "omics_types": [
+        "transcriptomics",
+        "proteomics",
+        "discovery_metadata"
+      ],
+      "query_modes": [
+        "organism",
+        "taxon_id",
+        "keyword",
+        "accession"
+      ],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_limit": 0,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "study_metadata",
+      "api_reference": "EBI Search REST API",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_processed_matrices",
+        "requires_condition_curation",
+        "requires_gene_mapping"
+      ],
+      "query_theme_count": 8,
+      "query_theme_omics_types": [
+        "transcriptomics"
+      ],
+      "query_theme_suffixes": [
+        "BASELINE_EXPRESSION",
+        "CONDITION_EXPRESSION",
+        "DEVELOPMENT_EXPRESSION",
+        "STRAIN_EXPRESSION",
+        "TIMECOURSE_EXPRESSION",
+        "KNOCKOUT_EXPRESSION",
+        "MEDIA_EXPRESSION",
+        "STRESS_ATLAS_EXPRESSION"
+      ],
+      "query_partition_registry": "D:\\generate\\resources\\resource_query_partitions.json",
+      "query_partition_modes": [
+        "none"
+      ],
+      "query_partition_count": 0,
+      "query_partition_suffixes": [],
+      "microbial_scope_registry": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+      "microbial_scope_count": 9,
+      "microbial_scope_taxonomy_groups": [
+        "archaea",
+        "bacteria",
+        "cyanobacteria",
+        "environmental_microbes",
+        "filamentous_fungi",
+        "industrial_microbes",
+        "microalgae",
+        "pathogen_bacteria",
+        "yeast_fungi"
+      ],
+      "generated_at": "2026-06-21T16:21:54Z",
+      "mode": "live_metadata_merged_existing_cache",
+      "status": "cached",
+      "cache_status": "cached",
+      "record_count": 323,
+      "current_cache_records": 323,
+      "reported_hits": 323,
+      "source_reported_total": 323,
+      "harvested_records": 323,
+      "harvested_count": 323,
+      "live_reported_hits": 0,
+      "live_harvested_records": 0,
+      "live_coverage_ratio": "unknown",
+      "merged_existing_cache": true,
+      "existing_cache_records_before_merge": 323,
+      "live_returned_records_before_merge": 0,
+      "merged_cache_records": 323,
+      "coverage_ratio": 1.0,
+      "failed_queries": 0,
+      "capped_queries": 0,
+      "last_updated": "2026-06-21T16:21:54Z",
+      "last_successful_update": "2026-06-21T16:21:54Z",
+      "query_count": 41,
+      "hit_count": 323,
+      "error_count": 0,
+      "raw_query_manifest": "D:\\generate\\resources\\cached_search\\expression_atlas\\raw\\query_manifest.json",
+      "normalized_cache": "D:\\generate\\resources\\cached_search\\expression_atlas\\normalized\\resources.json",
+      "legacy_cache": "D:\\generate\\resources\\cached_search\\expression_atlas\\studies.json",
+      "guidance": "Expression Atlas live metadata harvest via EBI Search; no expression matrices were downloaded. Existing expression_atlas_cache cache was preserved and merged because the live metadata harvest returned 0 records, fewer than the existing 323 cached records. The merged cache now contains 323 records. Pass --allow-shrink to intentionally replace the cache with a smaller live result.",
+      "effective_limit": 150,
+      "effective_page_size": 10,
+      "effective_max_pages": 2,
+      "effective_max_queries": 40,
+      "effective_query_partitions": "none",
+      "effective_max_partitions_per_query": 0,
+      "path": "D:\\generate\\resources\\cached_search\\expression_atlas\\studies.json",
+      "source_manifest": "D:\\generate\\resources\\cached_search\\expression_atlas\\source_manifest.json",
+      "updated_at": "2026-06-21T16:21:54Z"
+    },
+    "pride_cache": {
+      "version": 1,
+      "source": "pride",
+      "connector_source": "pride_cache",
+      "source_database": "PRIDE",
+      "resource_kinds": [
+        "omics"
+      ],
+      "omics_types": [
+        "proteomics",
+        "discovery_metadata"
+      ],
+      "query_modes": [
+        "organism",
+        "taxon_id",
+        "keyword",
+        "accession"
+      ],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_limit": 0,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "project_metadata",
+      "api_reference": "PRIDE Archive API / EBI Search",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_raw_proteomics",
+        "requires_protein_mapping",
+        "requires_condition_curation"
+      ],
+      "query_theme_count": 9,
+      "query_theme_omics_types": [
+        "proteomics"
+      ],
+      "query_theme_suffixes": [
+        "GLOBAL_PROTEOMICS",
+        "ABSOLUTE_PROTEOMICS",
+        "MEMBRANE_PROTEOMICS",
+        "STRESS_PROTEOMICS",
+        "SECRETOME_PROTEOMICS",
+        "PHOSPHOPROTEOMICS",
+        "INTERACTION_PROTEOMICS",
+        "QUANTITATIVE_PROTEOMICS",
+        "THERMAL_PROTEOME_PROFILING"
+      ],
+      "query_partition_registry": "D:\\generate\\resources\\resource_query_partitions.json",
+      "query_partition_modes": [
+        "microbial_context"
+      ],
+      "query_partition_count": 3,
+      "query_partition_suffixes": [
+        "carbon_energy",
+        "oxygen_respiration",
+        "stress_tolerance"
+      ],
+      "microbial_scope_registry": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+      "microbial_scope_count": 9,
+      "microbial_scope_taxonomy_groups": [
+        "archaea",
+        "bacteria",
+        "cyanobacteria",
+        "environmental_microbes",
+        "filamentous_fungi",
+        "industrial_microbes",
+        "microalgae",
+        "pathogen_bacteria",
+        "yeast_fungi"
+      ],
+      "generated_at": "2026-06-21T17:48:55Z",
+      "mode": "live_metadata_merged_existing_cache",
+      "status": "cached",
+      "cache_status": "cached",
+      "record_count": 563,
+      "current_cache_records": 563,
+      "reported_hits": 2000,
+      "source_reported_total": 2000,
+      "harvested_records": 563,
+      "harvested_count": 563,
+      "live_reported_hits": 2563,
+      "live_harvested_records": 2563,
+      "live_coverage_ratio": 1.0,
+      "merged_existing_cache": true,
+      "existing_cache_records_before_merge": 2000,
+      "live_returned_records_before_merge": 563,
+      "merged_cache_records": 563,
+      "coverage_ratio": 0.2815,
+      "failed_queries": 0,
+      "capped_queries": 10,
+      "last_updated": "2026-06-21T17:48:55Z",
+      "last_successful_update": "2026-06-21T17:48:55Z",
+      "query_count": 12,
+      "hit_count": 563,
+      "error_count": 0,
+      "raw_query_manifest": "D:\\generate\\resources\\cached_search\\pride\\raw\\query_manifest.json",
+      "normalized_cache": "D:\\generate\\resources\\cached_search\\pride\\normalized\\resources.json",
+      "legacy_cache": "D:\\generate\\resources\\cached_search\\pride\\datasets.json",
+      "guidance": "PRIDE live metadata harvest; no raw mass spectrometry files were downloaded. Deterministic cached seed rows were merged into the live metadata payload so stable local examples and curation fixtures remain available. Seed records=363; live records=2000; merged records=563. Existing pride_cache cache was preserved and merged because the live metadata harvest returned 563 records, fewer than the existing 2000 cached records. The merged cache now contains 563 records. Pass --allow-shrink to intentionally replace the cache with a smaller live result.",
+      "effective_limit": 2000,
+      "effective_page_size": 25,
+      "effective_max_pages": 8,
+      "effective_max_queries": 200,
+      "effective_query_partitions": "microbial_context",
+      "effective_max_partitions_per_query": 3,
+      "path": "D:\\generate\\resources\\cached_search\\pride\\datasets.json",
+      "source_manifest": "D:\\generate\\resources\\cached_search\\pride\\source_manifest.json",
+      "updated_at": "2026-06-21T17:48:55Z"
+    },
+    "metabolights_cache": {
+      "version": 1,
+      "source": "metabolights",
+      "connector_source": "metabolights_cache",
+      "source_database": "MetaboLights",
+      "resource_kinds": [
+        "omics"
+      ],
+      "omics_types": [
+        "metabolomics",
+        "discovery_metadata"
+      ],
+      "query_modes": [
+        "organism",
+        "taxon_id",
+        "keyword",
+        "accession"
+      ],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_limit": 0,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "study_metadata",
+      "api_reference": "MetaboLights API / EBI Search",
+      "safety_boundaries": [
+        "metadata_only",
+        "do_not_download_raw_metabolomics",
+        "requires_metabolite_mapping",
+        "metabolomics_is_analysis_evidence_by_default"
+      ],
+      "query_theme_count": 7,
+      "query_theme_omics_types": [
+        "fluxomics",
+        "metabolomics"
+      ],
+      "query_theme_suffixes": [
+        "CENTRAL_CARBON_METABOLOMICS",
+        "TARGETED_METABOLOMICS",
+        "UNTARGETED_METABOLOMICS",
+        "FLUXOMICS_METADATA",
+        "LIPIDOMICS_METADATA",
+        "VOLATILE_METABOLOMICS",
+        "ISOTOPE_TRACING_METABOLOMICS"
+      ],
+      "query_partition_registry": "D:\\generate\\resources\\resource_query_partitions.json",
+      "query_partition_modes": [
+        "none"
+      ],
+      "query_partition_count": 0,
+      "query_partition_suffixes": [],
+      "microbial_scope_registry": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+      "microbial_scope_count": 9,
+      "microbial_scope_taxonomy_groups": [
+        "archaea",
+        "bacteria",
+        "cyanobacteria",
+        "environmental_microbes",
+        "filamentous_fungi",
+        "industrial_microbes",
+        "microalgae",
+        "pathogen_bacteria",
+        "yeast_fungi"
+      ],
+      "generated_at": "2026-06-21T16:23:26Z",
+      "mode": "live_metadata_merged_existing_cache",
+      "status": "cached",
+      "cache_status": "cached",
+      "record_count": 289,
+      "current_cache_records": 289,
+      "reported_hits": 0,
+      "source_reported_total": 0,
+      "harvested_records": 289,
+      "harvested_count": 289,
+      "live_reported_hits": 0,
+      "live_harvested_records": 14,
+      "live_coverage_ratio": "unknown",
+      "merged_existing_cache": true,
+      "existing_cache_records_before_merge": 289,
+      "live_returned_records_before_merge": 2,
+      "merged_cache_records": 289,
+      "coverage_ratio": "unknown",
+      "failed_queries": 0,
+      "capped_queries": 0,
+      "last_updated": "2026-06-21T16:23:26Z",
+      "last_successful_update": "2026-06-21T16:23:26Z",
+      "query_count": 41,
+      "hit_count": 289,
+      "error_count": 0,
+      "raw_query_manifest": "D:\\generate\\resources\\cached_search\\metabolights\\raw\\query_manifest.json",
+      "normalized_cache": "D:\\generate\\resources\\cached_search\\metabolights\\normalized\\resources.json",
+      "legacy_cache": "D:\\generate\\resources\\cached_search\\metabolights\\studies.json",
+      "guidance": "MetaboLights live metadata discovery via OmicsDI source links; no metabolomics raw files were downloaded. Existing metabolights_cache cache was preserved and merged because the live metadata harvest returned 2 records, fewer than the existing 289 cached records. The merged cache now contains 289 records. Pass --allow-shrink to intentionally replace the cache with a smaller live result.",
+      "effective_limit": 150,
+      "effective_page_size": 10,
+      "effective_max_pages": 2,
+      "effective_max_queries": 40,
+      "effective_query_partitions": "none",
+      "effective_max_partitions_per_query": 0,
+      "path": "D:\\generate\\resources\\cached_search\\metabolights\\studies.json",
+      "source_manifest": "D:\\generate\\resources\\cached_search\\metabolights\\source_manifest.json",
+      "updated_at": "2026-06-21T16:23:26Z"
+    },
+    "omicsdi_cache": {
+      "version": 1,
+      "source": "omicsdi",
+      "connector_source": "omicsdi_cache",
+      "source_database": "OmicsDI",
+      "resource_kinds": [
+        "omics"
+      ],
+      "omics_types": [
+        "discovery_metadata",
+        "multiomics"
+      ],
+      "query_modes": [
+        "organism",
+        "taxon_id",
+        "keyword",
+        "accession"
+      ],
+      "live_connector": true,
+      "cached_connector": true,
+      "supports_pagination": true,
+      "default_limit": 0,
+      "default_page_size": 100,
+      "default_max_pages": 1,
+      "readiness_default": "metadata_only",
+      "data_level": "cross_omics_metadata",
+      "api_reference": "OmicsDI API",
+      "safety_boundaries": [
+        "metadata_only",
+        "discovery_index_only",
+        "do_not_infer_import_readiness",
+        "requires_source_specific_review"
+      ],
+      "query_theme_count": 6,
+      "query_theme_omics_types": [
+        "discovery_metadata",
+        "multiomics"
+      ],
+      "query_theme_suffixes": [
+        "CROSS_OMICS",
+        "CONDITION_MULTIOMICS",
+        "MODEL_EVIDENCE_DISCOVERY",
+        "PUBLIC_DATA_DISCOVERY",
+        "PUBLICATION_COLLECTION_DISCOVERY",
+        "STRAIN_ATLAS_DISCOVERY"
+      ],
+      "query_partition_registry": "D:\\generate\\resources\\resource_query_partitions.json",
+      "query_partition_modes": [
+        "none"
+      ],
+      "query_partition_count": 0,
+      "query_partition_suffixes": [],
+      "microbial_scope_registry": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+      "microbial_scope_count": 9,
+      "microbial_scope_taxonomy_groups": [
+        "archaea",
+        "bacteria",
+        "cyanobacteria",
+        "environmental_microbes",
+        "filamentous_fungi",
+        "industrial_microbes",
+        "microalgae",
+        "pathogen_bacteria",
+        "yeast_fungi"
+      ],
+      "generated_at": "2026-06-21T16:24:34Z",
+      "mode": "live_metadata_merged_existing_cache",
+      "status": "cached",
+      "cache_status": "cached",
+      "record_count": 255,
+      "current_cache_records": 255,
+      "reported_hits": 255,
+      "source_reported_total": 255,
+      "harvested_records": 255,
+      "harvested_count": 255,
+      "live_reported_hits": 1,
+      "live_harvested_records": 1,
+      "live_coverage_ratio": 1.0,
+      "merged_existing_cache": true,
+      "existing_cache_records_before_merge": 255,
+      "live_returned_records_before_merge": 1,
+      "merged_cache_records": 255,
+      "coverage_ratio": 1.0,
+      "failed_queries": 0,
+      "capped_queries": 0,
+      "last_updated": "2026-06-21T16:24:34Z",
+      "last_successful_update": "2026-06-21T16:24:34Z",
+      "query_count": 51,
+      "hit_count": 255,
+      "error_count": 0,
+      "raw_query_manifest": "D:\\generate\\resources\\cached_search\\omicsdi\\raw\\query_manifest.json",
+      "normalized_cache": "D:\\generate\\resources\\cached_search\\omicsdi\\normalized\\resources.json",
+      "legacy_cache": "D:\\generate\\resources\\cached_search\\omicsdi\\datasets.json",
+      "guidance": "OmicsDI live metadata harvest; linked source raw data were not downloaded. Existing omicsdi_cache cache was preserved and merged because the live metadata harvest returned 1 records, fewer than the existing 255 cached records. The merged cache now contains 255 records. Pass --allow-shrink to intentionally replace the cache with a smaller live result.",
+      "effective_limit": 200,
+      "effective_page_size": 10,
+      "effective_max_pages": 2,
+      "effective_max_queries": 50,
+      "effective_query_partitions": "none",
+      "effective_max_partitions_per_query": 0,
+      "path": "D:\\generate\\resources\\cached_search\\omicsdi\\datasets.json",
+      "source_manifest": "D:\\generate\\resources\\cached_search\\omicsdi\\source_manifest.json",
+      "updated_at": "2026-06-21T16:24:34Z"
+    }
+  },
+  "total_records": 2502,
+  "unique_organisms": 49,
+  "unique_taxa": 45,
+  "taxonomy_groups": {
+    "actinobacteria": 6,
+    "anaerobic_bacteria": 12,
+    "archaea": 16,
+    "bacteria": 118,
+    "cyanobacteria": 16,
+    "environmental_microbes": 4,
+    "filamentous_fungi": 16,
+    "industrial_microbes": 4,
+    "microalgae": 10,
+    "pathogen_bacteria": 40,
+    "yeast_fungi": 34
+  },
+  "source_count": 6,
+  "query_count": 189,
+  "error_count": 0,
+  "reported_hits": 15617,
+  "harvested_records": 2502,
+  "failed_queries": 0,
+  "capped_queries": 12,
+  "target_registry_summary": {
+    "target_count": 40,
+    "taxonomy_groups": {
+      "actinobacteria": 1,
+      "anaerobic_bacteria": 2,
+      "archaea": 2,
+      "bacteria": 19,
+      "cyanobacteria": 2,
+      "filamentous_fungi": 2,
+      "microalgae": 1,
+      "pathogen_bacteria": 6,
+      "yeast_fungi": 5
+    },
+    "priority_tiers": {
+      "1": 5,
+      "2": 7,
+      "3": 28
+    },
+    "registry_path": "D:\\generate\\resources\\organism_targets.csv"
+  },
+  "source_registry_summary": {
+    "registry_path": "D:\\generate\\resources\\source_registry.json",
+    "source_count": 6,
+    "live_connector_count": 6,
+    "cached_connector_count": 6,
+    "metadata_only_count": 6,
+    "sources": {
+      "bigg_cache": {
+        "source_id": "bigg",
+        "source_database": "BiGG",
+        "resource_kinds": [
+          "model"
+        ],
+        "omics_types": [
+          "model"
+        ],
+        "live_connector": true,
+        "cached_connector": true,
+        "supports_pagination": false,
+        "readiness_default": "metadata_only",
+        "data_level": "model_metadata"
+      },
+      "expression_atlas_cache": {
+        "source_id": "expression_atlas",
+        "source_database": "ExpressionAtlas",
+        "resource_kinds": [
+          "omics"
+        ],
+        "omics_types": [
+          "transcriptomics",
+          "proteomics",
+          "discovery_metadata"
+        ],
+        "live_connector": true,
+        "cached_connector": true,
+        "supports_pagination": true,
+        "readiness_default": "metadata_only",
+        "data_level": "study_metadata"
+      },
+      "geo_cache": {
+        "source_id": "geo",
+        "source_database": "GEO",
+        "resource_kinds": [
+          "omics"
+        ],
+        "omics_types": [
+          "transcriptomics",
+          "discovery_metadata"
+        ],
+        "live_connector": true,
+        "cached_connector": true,
+        "supports_pagination": true,
+        "readiness_default": "metadata_only",
+        "data_level": "study_metadata"
+      },
+      "metabolights_cache": {
+        "source_id": "metabolights",
+        "source_database": "MetaboLights",
+        "resource_kinds": [
+          "omics"
+        ],
+        "omics_types": [
+          "metabolomics",
+          "discovery_metadata"
+        ],
+        "live_connector": true,
+        "cached_connector": true,
+        "supports_pagination": true,
+        "readiness_default": "metadata_only",
+        "data_level": "study_metadata"
+      },
+      "omicsdi_cache": {
+        "source_id": "omicsdi",
+        "source_database": "OmicsDI",
+        "resource_kinds": [
+          "omics"
+        ],
+        "omics_types": [
+          "discovery_metadata",
+          "multiomics"
+        ],
+        "live_connector": true,
+        "cached_connector": true,
+        "supports_pagination": true,
+        "readiness_default": "metadata_only",
+        "data_level": "cross_omics_metadata"
+      },
+      "pride_cache": {
+        "source_id": "pride",
+        "source_database": "PRIDE",
+        "resource_kinds": [
+          "omics"
+        ],
+        "omics_types": [
+          "proteomics",
+          "discovery_metadata"
+        ],
+        "live_connector": true,
+        "cached_connector": true,
+        "supports_pagination": true,
+        "readiness_default": "metadata_only",
+        "data_level": "project_metadata"
+      }
+    }
+  },
+  "query_theme_summary": {
+    "registry_path": "D:\\generate\\resources\\resource_query_themes.json",
+    "source_count": 5,
+    "theme_count": 41,
+    "sources": {
+      "expression_atlas": {
+        "theme_count": 8,
+        "omics_types": [
+          "transcriptomics"
+        ],
+        "theme_suffixes": [
+          "BASELINE_EXPRESSION",
+          "CONDITION_EXPRESSION",
+          "DEVELOPMENT_EXPRESSION",
+          "STRAIN_EXPRESSION",
+          "TIMECOURSE_EXPRESSION",
+          "KNOCKOUT_EXPRESSION",
+          "MEDIA_EXPRESSION",
+          "STRESS_ATLAS_EXPRESSION"
+        ]
+      },
+      "geo": {
+        "theme_count": 11,
+        "omics_types": [
+          "transcriptomics"
+        ],
+        "theme_suffixes": [
+          "STRESS_TRANSCRIPTOMICS",
+          "CARBON_TRANSCRIPTOMICS",
+          "OXYGEN_TRANSCRIPTOMICS",
+          "PERTURBATION_TRANSCRIPTOMICS",
+          "BIOREACTOR_TRANSCRIPTOMICS",
+          "TEMPERATURE_TRANSCRIPTOMICS",
+          "PH_TRANSCRIPTOMICS",
+          "NUTRIENT_LIMITATION_TRANSCRIPTOMICS",
+          "DRUG_RESPONSE_TRANSCRIPTOMICS",
+          "STATIONARY_PHASE_TRANSCRIPTOMICS",
+          "EVOLUTION_ADAPTATION_TRANSCRIPTOMICS"
+        ]
+      },
+      "metabolights": {
+        "theme_count": 7,
+        "omics_types": [
+          "fluxomics",
+          "metabolomics"
+        ],
+        "theme_suffixes": [
+          "CENTRAL_CARBON_METABOLOMICS",
+          "TARGETED_METABOLOMICS",
+          "UNTARGETED_METABOLOMICS",
+          "FLUXOMICS_METADATA",
+          "LIPIDOMICS_METADATA",
+          "VOLATILE_METABOLOMICS",
+          "ISOTOPE_TRACING_METABOLOMICS"
+        ]
+      },
+      "omicsdi": {
+        "theme_count": 6,
+        "omics_types": [
+          "discovery_metadata",
+          "multiomics"
+        ],
+        "theme_suffixes": [
+          "CROSS_OMICS",
+          "CONDITION_MULTIOMICS",
+          "MODEL_EVIDENCE_DISCOVERY",
+          "PUBLIC_DATA_DISCOVERY",
+          "PUBLICATION_COLLECTION_DISCOVERY",
+          "STRAIN_ATLAS_DISCOVERY"
+        ]
+      },
+      "pride": {
+        "theme_count": 9,
+        "omics_types": [
+          "proteomics"
+        ],
+        "theme_suffixes": [
+          "GLOBAL_PROTEOMICS",
+          "ABSOLUTE_PROTEOMICS",
+          "MEMBRANE_PROTEOMICS",
+          "STRESS_PROTEOMICS",
+          "SECRETOME_PROTEOMICS",
+          "PHOSPHOPROTEOMICS",
+          "INTERACTION_PROTEOMICS",
+          "QUANTITATIVE_PROTEOMICS",
+          "THERMAL_PROTEOME_PROFILING"
+        ]
+      }
+    }
+  },
+  "query_partition_summary": {
+    "registry_path": "D:\\generate\\resources\\resource_query_partitions.json",
+    "mode_count": 1,
+    "partition_count": 9,
+    "modes": {
+      "microbial_context": {
+        "partition_count": 9,
+        "partition_suffixes": [
+          "carbon_energy",
+          "stress_tolerance",
+          "oxygen_respiration",
+          "nitrogen_phosphate",
+          "temperature_ph",
+          "antibiotic_drug",
+          "biofilm_infection",
+          "industrial_fermentation",
+          "mutant_evolution"
+        ]
+      }
+    }
+  },
+  "microbial_scope_summary": {
+    "registry_path": "D:\\generate\\resources\\microbial_harvest_scopes.csv",
+    "scope_count": 9,
+    "taxonomy_groups": {
+      "archaea": 1,
+      "bacteria": 1,
+      "cyanobacteria": 1,
+      "environmental_microbes": 1,
+      "filamentous_fungi": 1,
+      "industrial_microbes": 1,
+      "microalgae": 1,
+      "pathogen_bacteria": 1,
+      "yeast_fungi": 1
+    },
+    "priority_tiers": {
+      "1": 4,
+      "2": 5
+    },
+    "scope_ids": [
+      "scope_archaea",
+      "scope_bacteria",
+      "scope_cyanobacteria",
+      "scope_environmental_microbes",
+      "scope_filamentous_fungi",
+      "scope_industrial_microbes",
+      "scope_microalgae",
+      "scope_microbial_pathogens",
+      "scope_yeasts"
+    ]
+  },
+  "harvest_qa_report_json": "D:\\generate\\resources\\cached_search\\resource_harvest_qa_report.json",
+  "harvest_qa_report_csv": "D:\\generate\\resources\\cached_search\\resource_harvest_qa_report.csv",
+  "harvest_qa_report_status": "partial",
+  "harvest_qa_report_summary": {
+    "total_records": 2502,
+    "reported_hits": 15617,
+    "harvested_records": 2502,
+    "query_count": 189,
+    "source_count": 6,
+    "failed_sources": 0,
+    "capped_sources": 2,
+    "empty_sources": 0,
+    "partial_sources": 0,
+    "unique_organisms": 49,
+    "unique_taxa": 45,
+    "mode": "cached_first_seed",
+    "target_registry_summary": {
+      "target_count": 40,
+      "taxonomy_groups": {
+        "actinobacteria": 1,
+        "anaerobic_bacteria": 2,
+        "archaea": 2,
+        "bacteria": 19,
+        "cyanobacteria": 2,
+        "filamentous_fungi": 2,
+        "microalgae": 1,
+        "pathogen_bacteria": 6,
+        "yeast_fungi": 5
+      },
+      "priority_tiers": {
+        "1": 5,
+        "2": 7,
+        "3": 28
+      },
+      "registry_path": "D:\\generate\\resources\\organism_targets.csv"
+    }
+  },
+  "capped_query_backlog_json": "D:\\generate\\resources\\cached_search\\resource_capped_query_backlog.json",
+  "capped_query_backlog_csv": "D:\\generate\\resources\\cached_search\\resource_capped_query_backlog.csv",
+  "capped_query_backlog_status": "partial",
+  "capped_query_backlog_summary": {
+    "capped_query_count": 12,
+    "capped_source_count": 2,
+    "known_remaining_estimate": 12936,
+    "unknown_remaining_queries": 10,
+    "missing_query_manifest_count": 0,
+    "by_source": {
+      "geo": 2,
+      "pride": 10
+    },
+    "by_partition": {
+      "carbon_energy": 6,
+      "oxygen_respiration": 3,
+      "stress_tolerance": 3
+    },
+    "by_omics_type": {
+      "proteomics": 10,
+      "transcriptomics": 2
+    }
+  },
+  "capped_query_continuation_plan_json": "D:\\generate\\resources\\cached_search\\resource_capped_query_continuation_plan.json",
+  "capped_query_continuation_plan_csv": "D:\\generate\\resources\\cached_search\\resource_capped_query_continuation_plan.csv",
+  "capped_query_continuation_plan_status": "ready",
+  "capped_query_continuation_plan_summary": {
+    "continuation_source_count": 2,
+    "capped_query_count": 12,
+    "known_remaining_estimate": 12936,
+    "unknown_remaining_queries": 10,
+    "commands_count": 2,
+    "sources": [
+      "geo",
+      "pride"
+    ]
+  },
+  "dedup_qa_report_json": "D:\\generate\\resources\\cached_search\\resource_dedup_qa_report.json",
+  "dedup_qa_report_csv": "D:\\generate\\resources\\cached_search\\resource_dedup_qa_report.csv",
+  "dedup_qa_report_status": "ready",
+  "dedup_qa_report_summary": {
+    "raw_records": 2524,
+    "deduplicated_records": 2513,
+    "canonical_group_count": 2513,
+    "duplicate_group_count": 11,
+    "cross_source_group_count": 6,
+    "duplicate_resource_count": 11,
+    "resource_index_path": "D:\\generate\\resources\\resource_index.json"
+  },
+  "target_candidate_report_json": "D:\\generate\\resources\\cached_search\\resource_target_candidates.json",
+  "target_candidate_report_csv": "D:\\generate\\resources\\cached_search\\resource_target_candidates.csv",
+  "target_candidate_report_status": "ready",
+  "target_candidate_report_summary": {
+    "candidate_count": 0,
+    "top_candidate_count": 0,
+    "registry_target_count": 40
+  },
+  "resource_schema_quality_report_json": "D:\\generate\\resources\\cached_search\\resource_schema_quality_report.json",
+  "resource_schema_quality_report_csv": "D:\\generate\\resources\\cached_search\\resource_schema_quality_report.csv",
+  "resource_field_completeness_csv": "D:\\generate\\resources\\cached_search\\resource_field_completeness.csv",
+  "resource_readiness_audit_json": "D:\\generate\\resources\\cached_search\\resource_readiness_audit.json",
+  "resource_readiness_audit_csv": "D:\\generate\\resources\\cached_search\\resource_readiness_audit.csv",
+  "resource_canonical_link_report_json": "D:\\generate\\resources\\cached_search\\resource_canonical_link_report.json",
+  "resource_canonical_link_report_csv": "D:\\generate\\resources\\cached_search\\resource_canonical_link_report.csv",
+  "resource_schema_quality_report_status": "ready",
+  "resource_schema_quality_report_summary": {
+    "resource_count": 2524,
+    "quality_grade_counts": {
+      "B": 2521,
+      "C": 3
+    },
+    "readiness_counts": {
+      "metadata_only": 2503,
+      "ready_for_reference": 3,
+      "unknown": 18
+    },
+    "ready_violation_count": 0,
+    "duplicate_group_count": 11,
+    "cross_source_group_count": 6
+  },
+  "resource_readiness_audit_status": "ready",
+  "resource_readiness_audit_summary": {
+    "readiness_counts": {
+      "metadata_only": 2503,
+      "ready_for_reference": 3,
+      "unknown": 18
+    },
+    "ready_violation_count": 0
+  },
+  "resource_canonical_link_report_status": "ready",
+  "resource_canonical_link_report_summary": {
+    "resource_count": 2524,
+    "canonical_group_count": 2513,
+    "duplicate_group_count": 11,
+    "cross_source_group_count": 6
+  },
+  "live_smoke_report_json": "D:\\generate\\resources\\cached_search\\resource_live_smoke_report.json",
+  "live_smoke_report_csv": "D:\\generate\\resources\\cached_search\\resource_live_smoke_report.csv",
+  "live_smoke_report_status": "ready",
+  "live_smoke_report_summary": {
+    "source_count": 6,
+    "passed_sources": 4,
+    "failed_sources": 0,
+    "no_record_sources": 2,
+    "offline_sources": 0,
+    "capped_queries": 2,
+    "reported_hits": 18741,
+    "harvested_records": 16,
+    "query_count": 90
+  },
+  "taxonomy_cache_json": "D:\\generate\\resources\\taxonomy\\taxonomy_cache.json",
+  "taxonomy_resolution_queue_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_resolution_queue.csv",
+  "taxonomy_resolution_warnings_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_resolution_warnings.csv",
+  "microbial_special_categories_csv": "D:\\generate\\resources\\taxonomy\\microbial_special_categories.csv",
+  "taxonomy_cache_status": "ready",
+  "taxonomy_cache_summary": {
+    "candidate_count": 352,
+    "ready_count": 40,
+    "needs_taxonomy_review_count": 303,
+    "special_category_count": 9,
+    "taxonomy_review_worklist_count": 303,
+    "taxonomy_groups": {
+      "archaea": 26,
+      "bacteria": 84,
+      "cyanobacteria": 20,
+      "environmental_microbes": 61,
+      "filamentous_fungi": 27,
+      "industrial_microbes": 39,
+      "microalgae": 16,
+      "pathogen_bacteria": 39,
+      "yeast_fungi": 31
+    },
+    "online_taxonomy_queries": 0
+  },
+  "taxonomy_review_worklist_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_review_worklist.csv",
+  "taxonomy_review_worklist_json": "D:\\generate\\resources\\taxonomy\\taxonomy_review_worklist.json",
+  "taxonomy_review_worklist_summary": {
+    "row_count": 303,
+    "artifact_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_review_worklist.csv",
+    "artifact_json": "D:\\generate\\resources\\taxonomy\\taxonomy_review_worklist.json"
+  },
+  "taxonomy_review_decisions_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_review_decisions.csv",
+  "taxonomy_review_decisions_json": "D:\\generate\\resources\\taxonomy\\taxonomy_review_decisions.json",
+  "taxonomy_review_summary_json": "D:\\generate\\resources\\taxonomy\\taxonomy_review_summary.json",
+  "organism_targets_reviewed_candidates_csv": "D:\\generate\\resources\\organism_targets.reviewed_candidates.csv",
+  "organism_targets_review_promotion_dry_run_json": "D:\\generate\\resources\\organism_targets_review_promotion_dry_run.json",
+  "organism_targets_review_promotion_dry_run_csv": "D:\\generate\\resources\\organism_targets_review_promotion_dry_run.csv",
+  "taxonomy_review_decision_summary": {
+    "version": 1,
+    "generated_at": "2026-06-28T13:38:29+00:00",
+    "status": "ready",
+    "worklist_rows": 303,
+    "decision_counts": {
+      "needs_taxon_id": 303
+    },
+    "reviewed_candidate_count": 0,
+    "promotion_dry_run": {
+      "rows_to_add": 0,
+      "skipped_existing": 0,
+      "conflicts": 0,
+      "rejected": 0,
+      "applied": false
+    },
+    "guidance": "Offline review only. Fill missing taxon_id/clade before promotion; no NCBI lookup or registry mutation was performed."
+  },
+  "taxonomy_enrichment_cache_json": "D:\\generate\\resources\\taxonomy\\taxonomy_enrichment_cache.json",
+  "taxonomy_enrichment_candidates_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_enrichment_candidates.csv",
+  "taxonomy_enrichment_candidates_json": "D:\\generate\\resources\\taxonomy\\taxonomy_enrichment_candidates.json",
+  "taxonomy_enrichment_warnings_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_enrichment_warnings.csv",
+  "taxonomy_review_decisions_enriched_csv": "D:\\generate\\resources\\taxonomy\\taxonomy_review_decisions.enriched.csv",
+  "organism_targets_enrichment_promotion_dry_run_json": "D:\\generate\\resources\\organism_targets_enrichment_promotion_dry_run.json",
+  "organism_targets_enrichment_promotion_dry_run_csv": "D:\\generate\\resources\\organism_targets_enrichment_promotion_dry_run.csv",
+  "taxonomy_enrichment_summary": {
+    "version": 1,
+    "generated_at": "2026-06-28T13:55:58+00:00",
+    "status": "ready",
+    "selected_count": 50,
+    "accepted_count": 45,
+    "warning_count": 5,
+    "online_ncbi": true,
+    "online_queries": 50,
+    "enrichment_status_counts": {
+      "accepted_exact": 42,
+      "accepted_synonym": 3,
+      "genus_only": 2,
+      "no_hit": 3
+    },
+    "promotion_dry_run": {
+      "rows_to_add": 45,
+      "skipped_existing": 0,
+      "conflicts": 0,
+      "rejected": 0,
+      "applied": false
+    },
+    "guidance": "Taxonomy enrichment is metadata-only and does not modify production target registries."
+  }
+}

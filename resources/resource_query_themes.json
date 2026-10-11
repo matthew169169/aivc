@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "description": "Metadata-only query themes for Resource Atlas cached connectors. These themes define offline seed and source-specific query strategy; they never authorize raw data downloads.",
+  "sources": {
+    "geo": [
+      {"suffix": "STRESS_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "stress transcriptomics", "sample_count": 24, "keywords": ["stress", "condition", "expression"]},
+      {"suffix": "CARBON_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "carbon source transcriptomics", "sample_count": 18, "keywords": ["carbon source", "growth", "expression"]},
+      {"suffix": "OXYGEN_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "oxygen response transcriptomics", "sample_count": 16, "keywords": ["oxygen", "aerobic", "anaerobic"]},
+      {"suffix": "PERTURBATION_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "perturbation transcriptomics", "sample_count": 20, "keywords": ["mutation", "knockout", "perturbation"]},
+      {"suffix": "BIOREACTOR_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "bioreactor transcriptomics", "sample_count": 12, "keywords": ["bioreactor", "batch", "fed-batch"]},
+      {"suffix": "TEMPERATURE_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "temperature shift transcriptomics", "sample_count": 14, "keywords": ["temperature", "heat shock", "cold shock"]},
+      {"suffix": "PH_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "pH response transcriptomics", "sample_count": 10, "keywords": ["pH", "acid stress", "alkaline stress"]},
+      {"suffix": "NUTRIENT_LIMITATION_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "nutrient limitation transcriptomics", "sample_count": 18, "keywords": ["nitrogen limitation", "phosphate limitation", "starvation"]},
+      {"suffix": "DRUG_RESPONSE_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "drug or inhibitor response transcriptomics", "sample_count": 16, "keywords": ["drug response", "inhibitor", "antibiotic"]},
+      {"suffix": "STATIONARY_PHASE_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "stationary phase transcriptomics", "sample_count": 12, "keywords": ["stationary phase", "growth phase", "time series"]},
+      {"suffix": "EVOLUTION_ADAPTATION_TRANSCRIPTOMICS", "omics_type": "transcriptomics", "title": "adaptive evolution transcriptomics", "sample_count": 14, "keywords": ["adaptive evolution", "tolerance", "strain adaptation"]}
+    ],
+    "expression_atlas": [
+      {"suffix": "BASELINE_EXPRESSION", "omics_type": "transcriptomics", "title": "baseline expression atlas", "sample_count": 18, "keywords": ["baseline expression", "condition metadata"]},
+      {"suffix": "CONDITION_EXPRESSION", "omics_type": "transcriptomics", "title": "condition expression atlas", "sample_count": 16, "keywords": ["condition", "expression atlas"]},
+      {"suffix": "DEVELOPMENT_EXPRESSION", "omics_type": "transcriptomics", "title": "development or phase expression atlas", "sample_count": 12, "keywords": ["phase", "development", "time series"]},
+      {"suffix": "STRAIN_EXPRESSION", "omics_type": "transcriptomics", "title": "strain comparison expression atlas", "sample_count": 14, "keywords": ["strain", "comparison", "expression"]},
+      {"suffix": "TIMECOURSE_EXPRESSION", "omics_type": "transcriptomics", "title": "time-course expression atlas", "sample_count": 20, "keywords": ["time course", "condition metadata"]},
+      {"suffix": "KNOCKOUT_EXPRESSION", "omics_type": "transcriptomics", "title": "knockout expression atlas", "sample_count": 12, "keywords": ["knockout", "mutant", "expression atlas"]},
+      {"suffix": "MEDIA_EXPRESSION", "omics_type": "transcriptomics", "title": "media condition expression atlas", "sample_count": 14, "keywords": ["media", "growth condition", "expression atlas"]},
+      {"suffix": "STRESS_ATLAS_EXPRESSION", "omics_type": "transcriptomics", "title": "stress expression atlas", "sample_count": 16, "keywords": ["stress", "environment", "expression atlas"]}
+    ],
+    "pride": [
+      {"suffix": "GLOBAL_PROTEOMICS", "omics_type": "proteomics", "title": "global proteomics", "sample_count": 18, "keywords": ["protein abundance", "proteomics"]},
+      {"suffix": "ABSOLUTE_PROTEOMICS", "omics_type": "proteomics", "title": "absolute proteomics", "sample_count": 12, "keywords": ["absolute proteomics", "protein copy number"]},
+      {"suffix": "MEMBRANE_PROTEOMICS", "omics_type": "proteomics", "title": "membrane proteomics", "sample_count": 10, "keywords": ["membrane", "transport", "proteomics"]},
+      {"suffix": "STRESS_PROTEOMICS", "omics_type": "proteomics", "title": "stress proteomics", "sample_count": 16, "keywords": ["stress", "protein abundance"]},
+      {"suffix": "SECRETOME_PROTEOMICS", "omics_type": "proteomics", "title": "secretome proteomics", "sample_count": 8, "keywords": ["secretome", "extracellular", "proteomics"]},
+      {"suffix": "PHOSPHOPROTEOMICS", "omics_type": "proteomics", "title": "phosphoproteomics", "sample_count": 10, "keywords": ["phosphoproteomics", "phosphorylation", "signaling"]},
+      {"suffix": "INTERACTION_PROTEOMICS", "omics_type": "proteomics", "title": "interaction proteomics", "sample_count": 8, "keywords": ["protein interaction", "pull-down", "complex"]},
+      {"suffix": "QUANTITATIVE_PROTEOMICS", "omics_type": "proteomics", "title": "quantitative proteomics", "sample_count": 18, "keywords": ["label-free", "TMT", "quantitative proteomics"]},
+      {"suffix": "THERMAL_PROTEOME_PROFILING", "omics_type": "proteomics", "title": "thermal proteome profiling", "sample_count": 10, "keywords": ["thermal proteome", "protein stability", "drug response"]}
+    ],
+    "metabolights": [
+      {"suffix": "CENTRAL_CARBON_METABOLOMICS", "omics_type": "metabolomics", "title": "central carbon metabolomics", "sample_count": 12, "keywords": ["central carbon", "metabolomics"]},
+      {"suffix": "TARGETED_METABOLOMICS", "omics_type": "metabolomics", "title": "targeted metabolomics", "sample_count": 10, "keywords": ["targeted metabolomics", "condition metadata"]},
+      {"suffix": "UNTARGETED_METABOLOMICS", "omics_type": "metabolomics", "title": "untargeted metabolomics", "sample_count": 14, "keywords": ["untargeted metabolomics", "LC-MS"]},
+      {"suffix": "FLUXOMICS_METADATA", "omics_type": "fluxomics", "title": "fluxomics metadata", "sample_count": 8, "keywords": ["fluxomics", "13C", "condition metadata"]},
+      {"suffix": "LIPIDOMICS_METADATA", "omics_type": "metabolomics", "title": "lipidomics metadata", "sample_count": 10, "keywords": ["lipidomics", "membrane", "LC-MS"]},
+      {"suffix": "VOLATILE_METABOLOMICS", "omics_type": "metabolomics", "title": "volatile metabolomics", "sample_count": 8, "keywords": ["volatile", "GC-MS", "fermentation"]},
+      {"suffix": "ISOTOPE_TRACING_METABOLOMICS", "omics_type": "metabolomics", "title": "isotope tracing metabolomics", "sample_count": 10, "keywords": ["isotope tracing", "13C", "metabolic flux"]}
+    ],
+    "omicsdi": [
+      {"suffix": "CROSS_OMICS", "omics_type": "multiomics", "title": "cross-omics discovery", "sample_count": 0, "keywords": ["multiomics", "discovery metadata"]},
+      {"suffix": "CONDITION_MULTIOMICS", "omics_type": "multiomics", "title": "condition-linked multiomics", "sample_count": 0, "keywords": ["condition", "multiomics"]},
+      {"suffix": "MODEL_EVIDENCE_DISCOVERY", "omics_type": "discovery_metadata", "title": "model evidence discovery", "sample_count": 0, "keywords": ["model evidence", "omics discovery"]},
+      {"suffix": "PUBLIC_DATA_DISCOVERY", "omics_type": "discovery_metadata", "title": "public omics discovery", "sample_count": 0, "keywords": ["public data", "metadata"]},
+      {"suffix": "PUBLICATION_COLLECTION_DISCOVERY", "omics_type": "discovery_metadata", "title": "publication-linked omics discovery", "sample_count": 0, "keywords": ["publication", "supplementary data", "multi-database"]},
+      {"suffix": "STRAIN_ATLAS_DISCOVERY", "omics_type": "discovery_metadata", "title": "strain resource atlas discovery", "sample_count": 0, "keywords": ["strain", "resource atlas", "omics discovery"]}
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "case_display_manifest_v1",
+  "generated_by": "case_study_readiness_checker",
+  "case_studies": [
+    {
+      "case_id": "shewanella_gecko_oxygen",
+      "run_id": "shewanella_gecko_case",
+      "hidden_from_case_dropdown": true,
+      "title": "Shewanella GECKO oxygen comparison",
+      "title_zh": "Shewanella GECKO 氧条件对比",
+      "story_title": "Complete oxygen-condition ecModel demonstration",
+      "story_title_zh": "完整氧条件 ecModel 展示案例",
+      "story_summary": "Compare the iLJ1162 reference GEM with the highO2 GECKO-ready ecModel. Use KEGG-derived submaps to explain kcat evidence, flux signals, and GECKO behavior.",
+      "story_summary_zh": "对比 iLJ1162 参考 GEM 与 highO2 GECKO-ready ecModel，用 KEGG 派生子图解释 kcat 证据、通量信号和 GECKO 行为。",
+      "organism_id": "shewanella_oneidensis_mr1",
+      "organism_name": "Shewanella oneidensis MR-1",
+      "default_query": "Shewanella iLJ1162 highO2 lowO2 GECKO",
+      "default_reference_variant_id": "baseline_gem__all",
+      "default_target_variant_id": "enzyme_gecko__higho2",
+      "default_annotation_type": "kegg_pathway",
+      "default_annotation_group_id": "rn00020",
+      "default_annotation_groups": [
+        "rn00020",
+        "rn00010",
+        "rn00030"
+      ],
+      "default_compare_view_mode": "difference",
+      "evidence_status_labels": {
+        "kcat": "ready",
+        "proteomics": "ready",
+        "flux_behavior": "ready",
+        "enzyme_capacity": "reaction-level unavailable",
+        "ecmodel": "partial"
+      },
+      "recommended_model_generation_methods": [
+        "baseline_gem",
+        "eflux",
+        "consensus_evidence",
+        "enzyme_gecko"
+      ],
+      "recommended_analysis_methods": [
+        "fba_pfba",
+        "eflux_delta_fba",
+        "evidence_comparison",
+        "production_ecfactory",
+        "readiness_gate"
+      ],
+      "key_evidence_types": [
+        "absolute_proteomics",
+        "relative_proteomics",
+        "kcat",
+        "condition_bounds",
+        "annotation",
+        "gecko_package"
+      ],
+      "expected_ecmodel": true,
+      "display_caveats": [
+        "GECKO enzyme pseudo reactions are interpreted as constraint evidence, not conventional GEM structural diff.",
+        "Reaction-level capacity is displayed only when an existing capacity table is available."
+      ],
+      "display_next_actions": [
+        "Open Model Compare and inspect TCA, glycolysis, and PPP KEGG-derived submaps.",
+        "Keep enzyme capacity marked unavailable unless reaction-level capacity output is present."
+      ]
+    },
+    {
+      "case_id": "putida_acetate_isoprenol",
+      "run_id": "putida_acetate_isoprenol_case",
+      "title": "P. putida acetate tolerance and isoprenol",
+      "title_zh": "P. putida 乙酸耐受与 isoprenol 论文案例",
+      "story_title": "Proteomics-driven acetate tolerance evidence case",
+      "story_title_zh": "蛋白组驱动的乙酸耐受证据案例",
+      "story_summary": "Use the P. putida acetate/isoprenol proteomics study to compare the reference model with a consensus context variant and explain acetate assimilation and MEP/isoprenol marker evidence.",
+      "story_summary_zh": "基于 P. putida 乙酸/isoprenol 蛋白组论文，对比参考模型与 consensus context 变体，解释乙酸同化、MEP/isoprenol marker 证据。",
+      "organism_id": "pseudomonas_putida_kt2440",
+      "organism_name": "Pseudomonas putida KT2440",
+      "default_query": "Pseudomonas putida iJN1463 acetate isoprenol proteomics",
+      "default_reference_variant_id": "baseline_gem__all",
+      "default_target_variant_id": "consensus_context__all",
+      "default_annotation_type": "custom_annotation",
+      "default_annotation_group_id": "acetate_assimilation",
+      "default_annotation_groups": [
+        "acetate_assimilation",
+        "glyoxylate_tca",
+        "isoprenol_mep"
+      ],
+      "default_compare_view_mode": "difference",
+      "evidence_status_labels": {
+        "proteomics": "ready",
+        "marker_annotation": "ready",
+        "kcat": "package-ready only",
+        "enzyme_capacity": "external ecModel pending",
+        "ecmodel": "external ecModel pending"
+      },
+      "recommended_model_generation_methods": [
+        "baseline_gem",
+        "consensus_evidence"
+      ],
+      "recommended_analysis_methods": [
+        "fba_pfba",
+        "evidence_comparison",
+        "ml_pca_lasso",
+        "condition_interpretation",
+        "readiness_gate"
+      ],
+      "key_evidence_types": [
+        "absolute_proteomics",
+        "relative_proteomics",
+        "kcat",
+        "annotation",
+        "condition_summary"
+      ],
+      "expected_ecmodel": false,
+      "display_caveats": [
+        "Use as proteomics plus kcat/package-ready evidence unless an external ecModel has been generated.",
+        "Capacity or enzyme usage should be shown as package-ready/not available when reaction-level output is absent."
+      ],
+      "display_next_actions": [
+        "Show proteomics and marker annotation evidence in Model Compare.",
+        "Keep capacity and ecModel outputs marked external pending until a real ecModel run exists."
+      ]
+    },
+    {
+      "case_id": "synechocystis_spkb_carbon",
+      "run_id": "synechocystis_spkb_case",
+      "title": "Synechocystis SpkB carbon limitation",
+      "title_zh": "Synechocystis SpkB 碳限制论文案例",
+      "story_title": "Evidence-only carbon limitation integration case",
+      "story_title_zh": "证据整合型碳限制案例",
+      "story_summary": "Use proteomics, phosphoproteomics, metabolomics, and phenotype evidence to explain the SpkB carbon-limitation response. Treat the case as evidence integration unless a protein pool and external ecModel run are provided.",
+      "story_summary_zh": "整合蛋白组、磷酸化蛋白组、代谢组与表型证据解释 SpkB 碳限制响应；在没有 protein pool 和外部 ecModel 运行前，按证据整合案例展示。",
+      "organism_id": "synechocystis_pcc6803",
+      "organism_name": "Synechocystis sp. PCC 6803",
+      "default_query": "Synechocystis iJN678 SpkB carbon limitation proteomics phosphoproteomics",
+      "default_reference_variant_id": "baseline_gem__all",
+      "default_target_variant_id": "consensus_context__all",
+      "default_annotation_type": "custom_annotation",
+      "default_annotation_group_id": "redox_quinone_flavin_eet",
+      "default_annotation_groups": [
+        "photosynthesis_ccm",
+        "carbon_nitrogen_metabolism",
+        "redox_quinone_flavin_eet"
+      ],
+      "default_compare_view_mode": "difference",
+      "evidence_status_labels": {
+        "proteomics": "ready",
+        "phosphoproteomics": "ready",
+        "metabolomics": "ready",
+        "kcat": "package-ready only",
+        "enzyme_capacity": "not generated",
+        "ecmodel": "evidence-only case"
+      },
+      "recommended_model_generation_methods": [
+        "baseline_gem",
+        "consensus_evidence"
+      ],
+      "recommended_analysis_methods": [
+        "fba_pfba",
+        "evidence_comparison",
+        "condition_interpretation",
+        "readiness_gate"
+      ],
+      "key_evidence_types": [
+        "relative_proteomics",
+        "phosphoproteomics",
+        "metabolomics",
+        "kcat",
+        "annotation"
+      ],
+      "expected_ecmodel": false,
+      "display_caveats": [
+        "This case is evidence-integration and kcat-ready unless a protein pool and external ecModel run are provided.",
+        "Do not report enzyme capacity as zero when reaction-level capacity is not generated."
+      ],
+      "display_next_actions": [
+        "Use Model Compare for pathway/proteomics/phosphoproteomics evidence.",
+        "Do not show enzyme capacity as available without protein pool and external ecModel output."
+      ]
+    },
+    {
+      "case_id": "shewanella_transcriptional_triggers_lac_lb",
+      "run_id": "shewanella_transcriptional_triggers_case",
+      "hidden_from_case_dropdown": true,
+      "title": "Shewanella transcriptional triggers in LAC/LB growth",
+      "title_zh": "Shewanella LAC/LB 生长动态转录触发因子论文复现",
+      "story_title": "Guarded evidence-chain reproduction of transcriptional triggers",
+      "story_title_zh": "转录触发因子证据链复现案例",
+      "story_summary": "Uses Supplement and GEO processed data to show Growth State Map, Trigger Timeline, GDM-lite, paper-reported D2T2 triggers, and paper-reported dFBA/glycogen scenarios. Model Compare only overlays paper evidence that maps through GEM GPRs; nitrogen/glycogen regulators that do not map to reaction-level GPRs remain pathway-level caveats.",
+      "story_summary_zh": "基于论文 Supplement 和 GEO processed matrix 展示 Growth State Map、Trigger Timeline、GDM-lite、论文报道的 D2T2 trigger 与 dFBA/glycogen scenario。Model Compare 只叠加可通过 GPR 真实映射到反应的 paper evidence；氮/糖原主线中未映射的调控基因保留为 pathway-level caveat。",
+      "organism_id": "shewanella_oneidensis_mr1",
+      "organism_name": "Shewanella oneidensis MR-1",
+      "default_query": "Shewanella transcriptional triggers LAC LB nitrogen glycogen GDM D2T2",
+      "default_reference_variant_id": "baseline_gem__all",
+      "default_target_variant_id": "paper_evidence_context__lac_transition",
+      "default_annotation_type": "custom_annotation",
+      "default_annotation_group_id": "nitrogen_glycogen_coupling",
+      "default_annotation_groups": [
+        "nitrogen_glycogen_coupling",
+        "lactate_utilization",
+        "oxygen_response",
+        "gluconeogenesis",
+        "growth_state_transition"
+      ],
+      "default_compare_view_mode": "side_by_side",
+      "evidence_status_labels": {
+        "expression_timecourse": "parsed / chart-ready",
+        "metabolite_glycogen": "parsed / chart-ready",
+        "GDM": "computed_lite",
+        "D2T2": "paper_reported_only",
+        "dFBA_glycogen": "paper_reported_model_prediction_available",
+        "paper_evidence_overlay": "partial_mapping_ready",
+        "bounds": "not_generated",
+        "enzyme_capacity": "not_applicable"
+      },
+      "recommended_model_generation_methods": [
+        "baseline_gem",
+        "eflux",
+        "consensus_evidence"
+      ],
+      "recommended_analysis_methods": [
+        "growth_state_map",
+        "trigger_timeline",
+        "pathway_evidence_map",
+        "gdm_lite",
+        "d2t2_lite",
+        "dfba_glycogen_guarded",
+        "readiness_gate"
+      ],
+      "key_evidence_types": [
+        "paper_reported_trigger_annotation",
+        "pathway_annotation",
+        "data_needed_manifest",
+        "growth_state_map_scaffold",
+        "trigger_timeline_scaffold"
+      ],
+      "expected_ecmodel": false,
+      "display_caveats": [
+        "GDM is a lightweight reproduction from processed expression and growth data, not the full original implementation.",
+        "D2T2 triggers and dFBA/glycogen curves are paper-reported tables; no full influence-network or solver recomputation is claimed.",
+        "Condition bounds, structural model edits, and enzyme capacity are not generated for this transcriptomics/metabolite paper.",
+        "Nitrogen/glycogen trigger genes are retained as paper evidence, but current iLJ1162 GPR mapping does not provide reaction-level overlay for that group.",
+        "Paper evidence reaction mapping is partial: 3 mapped genes, 14 unmapped genes."
+      ],
+      "display_next_actions": [
+        "Use Analysis to inspect Growth State Map, Trigger Timeline, GDM-lite, D2T2, and dFBA/glycogen panels.",
+        "Use the default nitrogen/glycogen group for the paper story; switch to gluconeogenesis to inspect evidence reactions that map through iLJ1162 GPRs.",
+        "Keep bounds, fresh dFBA, and enzyme capacity marked unavailable unless curated parameters or external outputs are added."
+      ]
+    },
+    {
+      "case_id": "shewanella_integrated_overview",
+      "run_id": "shewanella_gecko_case",
+      "title": "Shewanella integrated GECKO and trigger overview",
+      "title_zh": "Shewanella GECKO 与转录触发器综合展示",
+      "story_title": "Integrated Shewanella ecModel and paper-reproduction showcase",
+      "story_title_zh": "Shewanella ecModel 与论文复现综合案例",
+      "story_summary": "A single demonstration entry that links the GECKO oxygen-condition model comparison with the transcriptional-trigger paper reproduction workbench. Model Compare uses the GECKO run; Analysis and Summary use the trigger-paper run.",
+      "story_summary_zh": "一个统一展示入口：Model Compare 使用 GECKO 氧条件对比 run，Analysis 与 Summary 使用转录触发器论文复现 run。",
+      "organism_id": "shewanella_oneidensis_mr1",
+      "organism_name": "Shewanella oneidensis MR-1",
+      "default_query": "Shewanella GECKO oxygen transcriptional triggers GDM D2T2 glycogen",
+      "default_reference_variant_id": "baseline_gem__all",
+      "default_target_variant_id": "enzyme_gecko__higho2",
+      "default_annotation_type": "kegg_pathway",
+      "default_annotation_group_id": "rn00020",
+      "default_annotation_groups": [
+        "rn00020",
+        "rn00010",
+        "rn00030"
+      ],
+      "default_compare_view_mode": "side_by_side",
+      "composite_case": true,
+      "linked_runs": {
+        "gecko_oxygen": "shewanella_gecko_case",
+        "transcriptional_triggers": "shewanella_transcriptional_triggers_case"
+      },
+      "stage_run_map": {
+        "input": "shewanella_gecko_case",
+        "model_generator": "shewanella_gecko_case",
+        "model_compare": "shewanella_gecko_case",
+        "analysis": "shewanella_transcriptional_triggers_case",
+        "summary": "shewanella_transcriptional_triggers_case"
+      },
+      "default_compare_context": {
+        "run_id": "shewanella_gecko_case",
+        "reference_variant_id": "baseline_gem__all",
+        "target_variant_id": "enzyme_gecko__higho2",
+        "annotation_type": "kegg_pathway",
+        "annotation_group_id": "rn00020"
+      },
+      "default_analysis_context": {
+        "run_id": "shewanella_transcriptional_triggers_case",
+        "workbench": "paper_reproduction",
+        "report_preset": "shewanella_trigger_reproduction_report"
+      },
+      "evidence_status_labels": {
+        "GECKO_compare": "ready",
+        "kcat": "ready",
+        "proteomics": "ready",
+        "flux_behavior": "ready",
+        "trigger_analysis": "computed_lite",
+        "D2T2": "paper_reported_only",
+        "dFBA_glycogen": "paper_reported_model_prediction_available",
+        "enzyme_capacity": "reaction-level unavailable"
+      },
+      "recommended_model_generation_methods": [
+        "baseline_gem",
+        "eflux",
+        "consensus_evidence",
+        "enzyme_gecko"
+      ],
+      "recommended_analysis_methods": [
+        "growth_state_map",
+        "trigger_timeline",
+        "gdm_lite",
+        "d2t2_lite",
+        "dfba_glycogen_guarded",
+        "readiness_gate"
+      ],
+      "key_evidence_types": [
+        "absolute_proteomics",
+        "kcat",
+        "gecko_package",
+        "processed_expression_timecourse",
+        "metabolite_glycogen_timecourse",
+        "paper_reproduction_report"
+      ],
+      "expected_ecmodel": true,
+      "display_caveats": [
+        "This is a composite display case; it links two existing run packages instead of merging their files.",
+        "GECKO Compare evidence and trigger-paper Analysis evidence must remain stage-specific.",
+        "Fresh D2T2 recomputation, fresh dFBA solver runs, and fabricated enzyme capacity are out of scope."
+      ],
+      "display_next_actions": [
+        "Use Model Compare for GECKO oxygen-condition evidence and kcat/proteomics overlays.",
+        "Use Analysis and Summary for Growth State Map, Trigger Timeline, GDM-lite, D2T2 reported triggers, and dFBA/glycogen paper-reported curves."
+      ]
+    }
+  ]
+}

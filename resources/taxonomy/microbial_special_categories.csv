@@ -1,0 +1,10 @@
+organism_id,scientific_name,strain,taxon_id,special_category,resource_count,sources,guidance
+scope_archaea,archaea,,2157,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_bacteria,bacteria,,2,abstract_scope,10,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_cyanobacteria,cyanobacteria,,1117,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_environmental_microbes,environmental microbes,,,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_filamentous_fungi,filamentous fungi,,4751,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_industrial_microbes,industrial microbes,,,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_microalgae,microalgae,,,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_microbial_pathogens,pathogenic microbes,,,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.
+scope_yeasts,yeast,,4891,abstract_scope,0,cache:expression_atlas;cache:metabolights;cache:omicsdi;cache:pride;expanded_registry,Kept outside the normal microbial harvest queue.

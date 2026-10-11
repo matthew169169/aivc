@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "description": "Metadata-only query partitions for splitting broad microbial resource searches into auditable context slices. These partitions refine live metadata queries; they never authorize raw data downloads.",
+  "modes": {
+    "microbial_context": [
+      {
+        "suffix": "carbon_energy",
+        "title": "Carbon and energy metabolism",
+        "keywords": ["carbon", "glucose", "acetate", "metabolism", "energy"]
+      },
+      {
+        "suffix": "stress_tolerance",
+        "title": "Stress and tolerance",
+        "keywords": ["stress", "tolerance", "acid", "oxidative", "osmotic"]
+      },
+      {
+        "suffix": "oxygen_respiration",
+        "title": "Oxygen and respiration",
+        "keywords": ["oxygen", "aerobic", "anaerobic", "respiration"]
+      },
+      {
+        "suffix": "nitrogen_phosphate",
+        "title": "Nitrogen and phosphate limitation",
+        "keywords": ["nitrogen", "phosphate", "starvation", "limitation"]
+      },
+      {
+        "suffix": "temperature_ph",
+        "title": "Temperature and pH response",
+        "keywords": ["temperature", "heat shock", "cold shock", "pH"]
+      },
+      {
+        "suffix": "antibiotic_drug",
+        "title": "Antibiotic and inhibitor response",
+        "keywords": ["antibiotic", "drug", "inhibitor", "resistance"]
+      },
+      {
+        "suffix": "biofilm_infection",
+        "title": "Biofilm and infection",
+        "keywords": ["biofilm", "infection", "virulence", "host"]
+      },
+      {
+        "suffix": "industrial_fermentation",
+        "title": "Industrial and fermentation",
+        "keywords": ["fermentation", "bioreactor", "production", "industrial"]
+      },
+      {
+        "suffix": "mutant_evolution",
+        "title": "Mutation and adaptive evolution",
+        "keywords": ["mutant", "knockout", "adaptive evolution", "evolution"]
+      }
+    ]
+  }
+}

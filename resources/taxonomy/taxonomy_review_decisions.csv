@@ -1,0 +1,304 @@
+organism_id,scientific_name,strain,taxon_id,taxonomy_group,biological_clade,decision,reason,suggested_action,review_priority,resource_count,source_count,sources
+acidithiobacillus_ferrooxidans,Acidithiobacillus ferrooxidans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+acidithiobacillus_thiooxidans,Acidithiobacillus thiooxidans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+bacillus_amyloliquefaciens,Bacillus amyloliquefaciens,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+bacillus_cereus,Bacillus cereus,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+bacillus_licheniformis,Bacillus licheniformis,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+bacillus_megaterium,Bacillus megaterium,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+bacillus_subtilis,Bacillus subtilis,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+bacillus_thuringiensis,Bacillus thuringiensis,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+escherichia_coli,Escherichia coli,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+escherichia_fergusonii,Escherichia fergusonii,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+geobacillus_thermoglucosidasius,Geobacillus thermoglucosidasius,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+lacticaseibacillus_casei,Lacticaseibacillus casei,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+lactiplantibacillus_plantarum,Lactiplantibacillus plantarum,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+limosilactobacillus_reuteri,Limosilactobacillus reuteri,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+paenibacillus_polymyxa,Paenibacillus polymyxa,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+pseudomonas_aeruginosa,Pseudomonas aeruginosa,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+pseudomonas_fluorescens,Pseudomonas fluorescens,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+pseudomonas_putida,Pseudomonas putida,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+pseudomonas_stutzeri,Pseudomonas stutzeri,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+pseudomonas_syringae,Pseudomonas syringae,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+rhodopseudomonas_palustris,Rhodopseudomonas palustris,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+saccharomyces_boulardii,Saccharomyces boulardii,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+saccharomyces_cerevisiae,Saccharomyces cerevisiae,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+saccharomyces_pastorianus,Saccharomyces pastorianus,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+schizosaccharomyces_pombe,Schizosaccharomyces pombe,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+shewanella_baltica,Shewanella baltica,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+shewanella_oneidensis,Shewanella oneidensis,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+synechocystis_sp,Synechocystis sp.,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+thiobacillus_denitrificans,Thiobacillus denitrificans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+zygosaccharomyces_bailii,Zygosaccharomyces bailii,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+zygosaccharomyces_rouxii,Zygosaccharomyces rouxii,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+aliivibrio_fischeri,Aliivibrio fischeri,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+bdellovibrio_bacteriovorus,Bdellovibrio bacteriovorus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+desulfovibrio_alaskensis,Desulfovibrio alaskensis,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+desulfovibrio_vulgaris,Desulfovibrio vulgaris,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+klebsiella_oxytoca,Klebsiella oxytoca,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+klebsiella_pneumoniae,Klebsiella pneumoniae,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+mycobacterium_bovis,Mycobacterium bovis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+mycobacterium_smegmatis,Mycobacterium smegmatis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+mycobacterium_tuberculosis,Mycobacterium tuberculosis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+salmonella_enterica,Salmonella enterica,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+staphylococcus_aureus,Staphylococcus aureus,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+staphylococcus_epidermidis,Staphylococcus epidermidis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+staphylococcus_saprophyticus,Staphylococcus saprophyticus,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+streptococcus_agalactiae,Streptococcus agalactiae,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+streptococcus_pneumoniae,Streptococcus pneumoniae,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+streptococcus_pyogenes,Streptococcus pyogenes,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+vibrio_cholerae,Vibrio cholerae,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+vibrio_natriegens,Vibrio natriegens,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+vibrio_parahaemolyticus,Vibrio parahaemolyticus,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+vibrio_vulnificus,Vibrio vulnificus,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,medium,0,1,expanded_registry
+acaryochloris_marina,Acaryochloris marina,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+acetobacter_pasteurianus,Acetobacter pasteurianus,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+acidobacterium_capsulatum,Acidobacterium capsulatum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+acinetobacter_baumannii,Acinetobacter baumannii,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+acinetobacter_baylyi,Acinetobacter baylyi,,,bacteria,Bacteria / Proteobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+aeromonas_hydrophila,Aeromonas hydrophila,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+aeropyrum_pernix,Aeropyrum pernix,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+agrobacterium_tumefaciens,Agrobacterium tumefaciens,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+akkermansia_muciniphila,Akkermansia muciniphila,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+alcanivorax_borkumensis,Alcanivorax borkumensis,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+anabaena_sp,Anabaena sp.,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+anaerostipes_hadrus,Anaerostipes hadrus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+archaeoglobus_fulgidus,Archaeoglobus fulgidus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+arthrospira_platensis,Arthrospira platensis,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ashbya_gossypii,Ashbya gossypii,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+aspergillus_fumigatus,Aspergillus fumigatus,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+aspergillus_nidulans,Aspergillus nidulans,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+aspergillus_niger,Aspergillus niger,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+aspergillus_oryzae,Aspergillus oryzae,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+aspergillus_terreus,Aspergillus terreus,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+auxenochlorella_protothecoides,Auxenochlorella protothecoides,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+azoarcus_olearius,Azoarcus olearius,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+azotobacter_vinelandii,Azotobacter vinelandii,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+bacteroides_fragilis,Bacteroides fragilis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+bacteroides_ovatus,Bacteroides ovatus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+bacteroides_thetaiotaomicron,Bacteroides thetaiotaomicron,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+bartonella_henselae,Bartonella henselae,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+beggiatoa_alba,Beggiatoa alba,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+bifidobacterium_breve,Bifidobacterium breve,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+bifidobacterium_longum,Bifidobacterium longum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+blautia_obeum,Blautia obeum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+bordetella_pertussis,Bordetella pertussis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+borrelia_burgdorferi,Borrelia burgdorferi,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+botrytis_cinerea,Botrytis cinerea,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+brettanomyces_bruxellensis,Brettanomyces bruxellensis,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+brucella_abortus,Brucella abortus,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+burkholderia_cenocepacia,Burkholderia cenocepacia,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+burkholderia_thailandensis,Burkholderia thailandensis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+campylobacter_jejuni,Campylobacter jejuni,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+candida_albicans,Candida albicans,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+candida_glabrata,Candida glabrata,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+candida_parapsilosis,Candida parapsilosis,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+candida_tropicalis,Candida tropicalis,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+candidatus_nitrososphaera_gargensis,Candidatus Nitrososphaera gargensis,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+caulobacter_crescentus,Caulobacter crescentus,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chaetomium_globosum,Chaetomium globosum,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chlamydia_pneumoniae,Chlamydia pneumoniae,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chlamydia_trachomatis,Chlamydia trachomatis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chlamydomonas_reinhardtii,Chlamydomonas reinhardtii,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chlorella_sorokiniana,Chlorella sorokiniana,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chlorella_vulgaris,Chlorella vulgaris,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chlorobaculum_tepidum,Chlorobaculum tepidum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chloroflexus_aurantiacus,Chloroflexus aurantiacus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chromobacterium_violaceum,Chromobacterium violaceum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+chroococcidiopsis_thermalis,Chroococcidiopsis thermalis,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+citrobacter_freundii,Citrobacter freundii,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridioides_difficile,Clostridioides difficile,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridium_acetobutylicum,Clostridium acetobutylicum,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridium_autoethanogenum,Clostridium autoethanogenum,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridium_beijerinckii,Clostridium beijerinckii,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridium_botulinum,Clostridium botulinum,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridium_ljungdahlii,Clostridium ljungdahlii,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridium_perfringens,Clostridium perfringens,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+clostridium_thermocellum,Clostridium thermocellum,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+comamonas_testosteroni,Comamonas testosteroni,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+corynebacterium_ammoniagenes,Corynebacterium ammoniagenes,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+corynebacterium_diphtheriae,Corynebacterium diphtheriae,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+corynebacterium_efficiens,Corynebacterium efficiens,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+corynebacterium_glutamicum,Corynebacterium glutamicum,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+coxiella_burnetii,Coxiella burnetii,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+crocosphaera_watsonii,Crocosphaera watsonii,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+cryptococcus_neoformans,Cryptococcus neoformans,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+cupriavidus_necator,Cupriavidus necator,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+cupriavidus_pinatubonensis,Cupriavidus pinatubonensis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+cutibacterium_acnes,Cutibacterium acnes,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+cyanothece_sp,Cyanothece sp.,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+cyberlindnera_jadinii,Cyberlindnera jadinii,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+debaryomyces_hansenii,Debaryomyces hansenii,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+dechloromonas_aromatica,Dechloromonas aromatica,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+deinococcus_radiodurans,Deinococcus radiodurans,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+dekkera_bruxellensis,Dekkera bruxellensis,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+delftia_acidovorans,Delftia acidovorans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+desulfotomaculum_reducens,Desulfotomaculum reducens,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+dickeya_dadantii,Dickeya dadantii,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+dunaliella_salina,Dunaliella salina,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+enterobacter_cloacae,Enterobacter cloacae,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+enterococcus_faecalis,Enterococcus faecalis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+enterococcus_faecium,Enterococcus faecium,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+erwinia_amylovora,Erwinia amylovora,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+eubacterium_rectale,Eubacterium rectale,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+euglena_gracilis,Euglena gracilis,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+faecalibacterium_prausnitzii,Faecalibacterium prausnitzii,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ferroplasma_acidarmanus,Ferroplasma acidarmanus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+francisella_tularensis,Francisella tularensis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+frankia_alni,Frankia alni,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+fremyella_diplosiphon,Fremyella diplosiphon,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+fusarium_graminearum,Fusarium graminearum,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+fusarium_oxysporum,Fusarium oxysporum,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+fusobacterium_nucleatum,Fusobacterium nucleatum,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+gardnerella_vaginalis,Gardnerella vaginalis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+gemmata_obscuriglobus,Gemmata obscuriglobus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+geobacter_metallireducens,Geobacter metallireducens,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+geobacter_sulfurreducens,Geobacter sulfurreducens,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+gloeobacter_violaceus,Gloeobacter violaceus,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+gluconobacter_oxydans,Gluconobacter oxydans,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+gordonia_bronchialis,Gordonia bronchialis,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+granulicella_tundricola,Granulicella tundricola,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+haematococcus_pluvialis,Haematococcus pluvialis,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+haemophilus_influenzae,Haemophilus influenzae,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+haloarcula_marismortui,Haloarcula marismortui,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+halobacterium_salinarum,Halobacterium salinarum,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+haloferax_volcanii,Haloferax volcanii,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+helicobacter_pylori,Helicobacter pylori,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+herbaspirillum_seropedicae,Herbaspirillum seropedicae,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ignicoccus_hospitalis,Ignicoccus hospitalis,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+janthinobacterium_lividum,Janthinobacterium lividum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+kluyveromyces_lactis,Kluyveromyces lactis,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+kluyveromyces_marxianus,Kluyveromyces marxianus,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+kocuria_rhizophila,Kocuria rhizophila,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+komagataeibacter_xylinus,Komagataeibacter xylinus,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+komagataella_phaffii,Komagataella phaffii,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ktedonobacter_racemifer,Ktedonobacter racemifer,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+lachancea_thermotolerans,Lachancea thermotolerans,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+lactococcus_lactis,Lactococcus lactis,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+legionella_pneumophila,Legionella pneumophila,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+leptolyngbya_boryana,Leptolyngbya boryana,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+leptospira_interrogans,Leptospira interrogans,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+leptospirillum_ferrooxidans,Leptospirillum ferrooxidans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+leuconostoc_mesenteroides,Leuconostoc mesenteroides,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+listeria_monocytogenes,Listeria monocytogenes,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+magnaporthe_oryzae,Magnaporthe oryzae,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+magnetospirillum_magneticum,Magnetospirillum magneticum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+marinobacter_hydrocarbonoclasticus,Marinobacter hydrocarbonoclasticus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+mesorhizobium_loti,Mesorhizobium loti,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methanobacterium_formicicum,Methanobacterium formicicum,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methanocaldococcus_jannaschii,Methanocaldococcus jannaschii,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methanococcus_maripaludis,Methanococcus maripaludis,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methanosarcina_acetivorans,Methanosarcina acetivorans,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methanosarcina_barkeri,Methanosarcina barkeri,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methanothermobacter_thermautotrophicus,Methanothermobacter thermautotrophicus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methylobacterium_extorquens,Methylobacterium extorquens,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methylococcus_capsulatus,Methylococcus capsulatus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methylomicrobium_buryatense,Methylomicrobium buryatense,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+methylomonas_methanica,Methylomonas methanica,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+metschnikowia_pulcherrima,Metschnikowia pulcherrima,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+micrococcus_luteus,Micrococcus luteus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+microcystis_aeruginosa,Microcystis aeruginosa,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+micromonas_commoda,Micromonas commoda,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+monascus_purpureus,Monascus purpureus,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+moorella_thermoacetica,Moorella thermoacetica,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+moraxella_catarrhalis,Moraxella catarrhalis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+morganella_morganii,Morganella morganii,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+mortierella_alpina,Mortierella alpina,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+mucor_circinelloides,Mucor circinelloides,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+mycoplasma_pneumoniae,Mycoplasma pneumoniae,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nannochloropsis_gaditana,Nannochloropsis gaditana,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nannochloropsis_oceanica,Nannochloropsis oceanica,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+natronomonas_pharaonis,Natronomonas pharaonis,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+neisseria_gonorrhoeae,Neisseria gonorrhoeae,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+neisseria_meningitidis,Neisseria meningitidis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+neurospora_crassa,Neurospora crassa,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nitrobacter_hamburgensis,Nitrobacter hamburgensis,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nitrobacter_winogradskyi,Nitrobacter winogradskyi,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nitrosomonas_europaea,Nitrosomonas europaea,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nitrosopumilus_maritimus,Nitrosopumilus maritimus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nitrosospira_multiformis,Nitrosospira multiformis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nitrospira_defluvii,Nitrospira defluvii,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nitrospira_moscoviensis,Nitrospira moscoviensis,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nostoc_punctiforme,Nostoc punctiforme,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+nostoc_sp,Nostoc sp.,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+novosphingobium_aromaticivorans,Novosphingobium aromaticivorans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+oenococcus_oeni,Oenococcus oeni,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ogataea_polymorpha,Ogataea polymorpha,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+opitutus_terrae,Opitutus terrae,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ostreococcus_tauri,Ostreococcus tauri,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pantoea_ananatis,Pantoea ananatis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+parabacteroides_distasonis,Parabacteroides distasonis,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+paracoccus_denitrificans,Paracoccus denitrificans,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pectobacterium_carotovorum,Pectobacterium carotovorum,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pediococcus_pentosaceus,Pediococcus pentosaceus,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pelobacter_carbinolicus,Pelobacter carbinolicus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+penicillium_chrysogenum,Penicillium chrysogenum,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+penicillium_rubens,Penicillium rubens,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+phaeodactylum_tricornutum,Phaeodactylum tricornutum,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+photobacterium_profundum,Photobacterium profundum,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pichia_pastoris,Pichia pastoris,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+planctomyces_limnophilus,Planctomyces limnophilus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+podospora_anserina,Podospora anserina,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+polaromonas_naphthalenivorans,Polaromonas naphthalenivorans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+porphyromonas_gingivalis,Porphyromonas gingivalis,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+prevotella_intermedia,Prevotella intermedia,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+prochlorococcus_marinus,Prochlorococcus marinus,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+propionibacterium_freudenreichii,Propionibacterium freudenreichii,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+proteus_mirabilis,Proteus mirabilis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pseudonocardia_dioxanivorans,Pseudonocardia dioxanivorans,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pyrococcus_abyssi,Pyrococcus abyssi,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+pyrococcus_furiosus,Pyrococcus furiosus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ralstonia_solanacearum,Ralstonia solanacearum,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhizobium_leguminosarum,Rhizobium leguminosarum,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhizopus_delemar,Rhizopus delemar,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhizopus_oryzae,Rhizopus oryzae,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhodobacter_sphaeroides,Rhodobacter sphaeroides,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhodococcus_erythropolis,Rhodococcus erythropolis,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhodococcus_jostii,Rhodococcus jostii,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhodococcus_opacus,Rhodococcus opacus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rhodotorula_toruloides,Rhodotorula toruloides,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+rickettsia_prowazekii,Rickettsia prowazekii,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+roseburia_intestinalis,Roseburia intestinalis,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ruminococcus_bromii,Ruminococcus bromii,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+saccharolobus_islandicus,Saccharolobus islandicus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+scheffersomyces_stipitis,Scheffersomyces stipitis,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+sclerotinia_sclerotiorum,Sclerotinia sclerotiorum,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+serratia_marcescens,Serratia marcescens,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+shigella_flexneri,Shigella flexneri,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+shigella_sonnei,Shigella sonnei,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+sinorhizobium_meliloti,Sinorhizobium meliloti,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+solibacter_usitatus,Solibacter usitatus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+sphingobium_japonicum,Sphingobium japonicum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+sphingomonas_wittichii,Sphingomonas wittichii,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+streptomyces_avermitilis,Streptomyces avermitilis,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+streptomyces_coelicolor,Streptomyces coelicolor,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+streptomyces_griseus,Streptomyces griseus,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+streptomyces_lividans,Streptomyces lividans,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+sulfolobus_acidocaldarius,Sulfolobus acidocaldarius,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+sulfolobus_solfataricus,Sulfolobus solfataricus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+synechococcus_elongatus,Synechococcus elongatus,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+synechococcus_sp,Synechococcus sp.,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+talaromyces_marneffei,Talaromyces marneffei,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+tetraselmis_suecica,Tetraselmis suecica,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thalassiosira_pseudonana,Thalassiosira pseudonana,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thermoanaerobacterium_saccharolyticum,Thermoanaerobacterium saccharolyticum,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thermococcus_kodakarensis,Thermococcus kodakarensis,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thermococcus_onnurineus,Thermococcus onnurineus,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thermoplasma_acidophilum,Thermoplasma acidophilum,,,archaea,Archaea,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thermosynechococcus_elongatus,Thermosynechococcus elongatus,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thermus_thermophilus,Thermus thermophilus,,,industrial_microbes,Bacteria / Industrial microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+thiomonas_intermedia,Thiomonas intermedia,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+treponema_pallidum,Treponema pallidum,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+trichoderma_harzianum,Trichoderma harzianum,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+trichoderma_reesei,Trichoderma reesei,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+trichodesmium_erythraeum,Trichodesmium erythraeum,,,cyanobacteria,Bacteria / Cyanobacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ureaplasma_urealyticum,Ureaplasma urealyticum,,,pathogen_bacteria,Bacteria / Pathogen-associated bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+ustilago_maydis,Ustilago maydis,,,filamentous_fungi,Fungi / Filamentous fungi,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+variovorax_paradoxus,Variovorax paradoxus,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+verrucomicrobium_spinosum,Verrucomicrobium spinosum,,,environmental_microbes,Bacteria / Environmental microbes,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+volvox_carteri,Volvox carteri,,,microalgae,Eukaryota / Microalgae,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+wickerhamomyces_anomalus,Wickerhamomyces anomalus,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+wolbachia_pipientis,Wolbachia pipientis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+yarrowia_lipolytica,Yarrowia lipolytica,,,yeast_fungi,Fungi / Yeast,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+yersinia_pestis,Yersinia pestis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+yersinia_pseudotuberculosis,Yersinia pseudotuberculosis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry
+zymomonas_mobilis,Zymomonas mobilis,,,bacteria,Bacteria / Other bacteria,needs_taxon_id,missing_taxon_id,fill_taxon_id,low,0,1,expanded_registry

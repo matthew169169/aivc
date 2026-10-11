@@ -1,0 +1,10 @@
+metric,value
+target_count,352
+current_registry_count,40
+cache_candidate_count,2778
+curated_seed_count,303
+ready_count,45
+needs_taxonomy_review_count,307
+out_of_scope_count,0
+taxonomy_groups,"{""archaea"": 27, ""bacteria"": 85, ""cyanobacteria"": 21, ""environmental_microbes"": 62, ""filamentous_fungi"": 28, ""industrial_microbes"": 40, ""microalgae"": 17, ""pathogen_bacteria"": 40, ""yeast_fungi"": 32}"
+online_taxonomy_queries,0

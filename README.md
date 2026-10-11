@@ -1,50 +1,43 @@
-# Omics-GEM Studio — Original Web (20260908-r2)
+# Omics-GEM Studio clone
 
-This repo hosts the **original web** extracted from
-`Omics-GEM-Studio-Windows-Browser-20260908-r2.zip`, not a summary site.
+This repository clones the original web app from
+`Omics-GEM-Studio-Windows-Browser-20260908-r2` (OmicsGEM `frontend/dist` + FastAPI).
 
-## Contents (from `OmicsGEM/` in the bundle)
+Live frontend: https://matthew169169.github.io/aivc/
 
-- `index.html` + `assets/` — prebuilt React/Vite frontend (`frontend/dist`)
-- `model-library/` — lineage-tree SVGs/WebPs + draw-trees images
-- `ui_mockups/` — workflow stage mockup images
-- `api/` — FastAPI backend source (15 files): `main.py`, `services.py`,
-  `browser_app.py`, resource/curation/run-package helpers
+GitHub Pages hosts the original SPA. API-backed workflow views need the local backend below.
 
-Total: 113 frontend files (~25.9 MB) + 15 API files (~0.6 MB).
-The 6.3 GB Windows bundle itself (`.python/`, `case_studies/`, `paper/`,
-`user_runs/`, `tools/bin/*.exe`) is excluded — see `.gitignore`.
+## What is included
 
-## Live demo (frontend only)
+- Original React/Vite UI: `index.html`, `assets/`, `model-library/`, `ui_mockups/`
+- FastAPI backend: `api/`
+- Router library used by the backend: `omics_router/`
+- Compact resource atlas indexes: `resources/` (full Windows runtime, MATLAB/GECKO, and large run packages are not in git)
 
-GitHub Pages serves this directory statically:
-
-https://matthew169169.github.io/aivc/
-
-Note: API calls will fail on Pages (no backend) — UI shell, assets,
-model-library and mockups render; data views need the local backend below.
-
-## Run full app locally (Windows, from the bundle)
-
-```powershell
-cd D:\generate
-.\start_omics_gem_browser_app.ps1
-# → http://127.0.0.1:8765
-```
-
-Backend smoke:
-
-```powershell
-D:\generate\.venv\Scripts\python.exe -m pytest tests\test_fastapi_api.py
-```
-
-## Serve this exact frontend locally
+## Run the original app locally
 
 ```bash
-python3 -m http.server 8000
-# → http://localhost:8000
+cd aivc
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python run_local.py
 ```
 
-To wire it to a backend, run the FastAPI app from `api/` (needs
-`fastapi`, `uvicorn[standard]`, `python-multipart`) — entrypoint
-`api/browser_app.py` serves `frontend/dist` + API on one port.
+Open http://127.0.0.1:8765
+
+The UI talks to `/api/*` on the same origin. Shared-password auth is off by default for the clone (`OMICS_GEM_AUTH_ENABLED=false`).
+
+Optional:
+
+```bash
+export OMICS_GEM_PORT=8765
+export OMICS_GEM_AUTH_ENABLED=true
+export OMICS_GEM_PASSWORD_HASH=...
+export OMICS_GEM_SESSION_SECRET=...
+python run_local.py
+```
+
+## GitHub Pages note
+
+Pages is static. DataHub / run packages / SAMMI jobs return unreachable until `run_local.py` is used. Model library trees and the original studio shell still load on Pages.
