@@ -1,84 +1,100 @@
-# Omics-GEM Studio clone
+# Omics-GEM Studio
 
-This repository clones the original web app from
-`Omics-GEM-Studio-Windows-Browser-20260908-r2` (OmicsGEM `frontend/dist` + FastAPI).
+A browser workbench for GEM models, multi-omics evidence, analysis, and reports,
+based on the Omics-GEM Studio Windows browser distribution.
 
-Live frontend: https://matthew169169.github.io/aivc/
+- [Public app](https://matthew169169.github.io/aivc/)
+- [Live API health](https://aivc-tcls.onrender.com/api/health)
+- [API documentation](https://aivc-tcls.onrender.com/docs)
 
-Live API: https://aivc.onrender.com (deploy below) — the Pages site talks
-to it via `window.OMICS_GEM_API_BASE` in `index.html`/`404.html`.
-No static snapshots: every `/api/*` call hits the real FastAPI backend,
-so all functions (search, curation, runs, GECKO, SAMMI, ML-hybrid, jobs)
-work from the public site once the backend is up.
+GitHub Pages hosts the frontend; the Python service performs computations and
+stores run packages. The Pages frontend uses `https://aivc-tcls.onrender.com`.
 
-## Deploy the backend (Render, free)
+## Run locally
 
-One click (uses `render.yaml` in this repo):
-
-https://render.com/deploy?repo=https://github.com/matthew169169/aivc
-
-Keep the service name `aivc` so its URL is `https://aivc.onrender.com`
-(the URL wired into the frontend). If you pick another name, update the
-`OMICS_GEM_API_BASE` line in `index.html` and `404.html` and push.
-`render.yaml` already sets CORS for the Pages origin and disables the
-shared-password gate (`OMICS_GEM_AUTH_ENABLED=false`).
-
-Verify after deploy:
+Python 3.13 is the tested runtime. Install the solver and spreadsheet dependencies
+as well as the API dependencies to enable the Python analysis workflows:
 
 ```bash
-curl https://aivc.onrender.com/api/health
-curl https://aivc.onrender.com/api/case-studies
-```
-
-## What is included
-
-- Original React/Vite UI: `index.html`, `assets/`, `model-library/`, `ui_mockups/`
-- FastAPI backend: `api/`
-- Router library used by the backend: `omics_router/`
-- Compact resource atlas indexes: `resources/` (full Windows runtime, MATLAB/GECKO, and large run packages are not in git)
-- Seeded demo Run Packages in `user_runs/` (from the release bundle):
-  `shewanella_gecko_case`, `putida_acetate_isoprenol_case`,
-  `synechocystis_spkb_case` — all verify `ready` (comparison, analysis,
-  reports, SAMMI checker passed, 0 failed jobs). Open any of them (or its
-  case) in Input and the Summary "Issues to fix" panel clears.
-- Clone fixes vs the Windows bundle:
-  - `relocate_package_path` (`omics_router/constraints.py`): run packages
-    store `D:\generate` absolute model paths; the backend re-anchors them
-    under the package on any machine (also unblocks FBA/SAMMI on Render).
-  - Server-aware environment check (`api/services.py`): the current
-    interpreter counts when it satisfies `requirements.txt` instead of
-    demanding a Windows `.venv`; install `requirements-optional.txt`
-    (COBRA) for full `ready` status.
-
-## Run the original app locally
-
-```bash
-cd aivc
-python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+python3.13 -m venv .venv
+source .venv/bin/activate
+# Windows: .venv\Scripts\activate
+python -m pip install -r requirements.txt -r requirements-optional.txt
 python run_local.py
 ```
 
-Open http://127.0.0.1:8765
+Open http://127.0.0.1:8765. The frontend uses the local API automatically.
+`OMICS_GEM_HOST` and `OMICS_GEM_PORT` override the bind address and port.
+A core-only installation with `requirements.txt` can display existing artifacts,
+but cannot recompute COBRA-backed analyses.
 
-The UI talks to `/api/*` on the same origin. Shared-password auth is off by default for the clone (`OMICS_GEM_AUTH_ENABLED=false`).
+## Available workflows
 
-Optional:
+| Function | Runtime or input requirement |
+| --- | --- |
+| Resource Atlas search, species, filters, details, templates | Bundled resource index and cached metadata |
+| Candidate staging and curation workspaces | Local model plus ready evidence, or uploaded curated tables |
+| Projects, workspace switching, uploads, imports, archive and restore | Writable backend workspace |
+| Built-in example presets | Shewanella, Putida, and Synechocystis packages are included |
+| Baseline model generation, FBA, pFBA, FVA, E-Flux and production analyses | COBRA/GLPK and suitable model/omics/condition inputs |
+| Comparison, interactive network maps, SAMMI session export and reports | Staged model and generated or bundled artifacts |
+| ML/HYBRID profiles, lightweight benchmarks and exports | Feature matrix and appropriate target column |
+| FASTcore execution | Separately installed TROPPO backend |
+| Thermodynamic execution | Separately installed pyTFA and a compatible thermodynamic database |
+| External GECKO execution | MATLAB, GECKO, RAVEN and a configured solver |
+| External DLKcat, MEMOTE and deep-learning integrations | Their separate runtimes and configured input/output locations |
+| Native SAMMI application | Optional standalone assets; the built-in interactive viewer and session export work independently |
 
-```bash
-export OMICS_GEM_PORT=8765
-export OMICS_GEM_AUTH_ENABLED=true
-export OMICS_GEM_PASSWORD_HASH=...
-export OMICS_GEM_SESSION_SECRET=...
-python run_local.py
+External runtimes are not included in the Render deployment. Their readiness and
+missing requirements appear in Settings. Generated export packages do not mean
+an external computation has run. Infeasible scientific conditions and analysis
+failures retain their status labels; they are not replaced with successful or
+zero-valued results.
+
+The three bundled run packages include existing comparison, analysis, report and
+SAMMI artifacts. Their input maps and exported file links resolve after moving
+between Windows, macOS and Linux. Atlas entries use these same bundled inputs.
+
+`POST /api/projects` creates and activates a workspace (optional `name` and
+`project_id`). `POST /api/runs/{run_id}/pipeline` executes the same workflow as
+`POST /api/runs/{run_id}/workflow/run`, accepting the same optional selections.
+Jobs expose their execution result and logs through `/api/jobs`.
+
+## Deploy the backend
+
+[Deploy on Render](https://render.com/deploy?repo=https://github.com/matthew169169/aivc)
+using `render.yaml`. The build installs both dependency files and fails if the
+analysis dependencies cannot be installed. Render checks `/api/health`.
+
+A new Render service can receive a different hostname. Update the default in
+`assets/api-bootstrap.js` to that service's URL, or open the Pages app with an
+explicit API address:
+
+```text
+https://matthew169169.github.io/aivc/?api=https%3A%2F%2Fyour-service.onrender.com
 ```
 
-## GitHub Pages note
+The override applies to that page load; stale saved API addresses are not reused.
+Keep `OMICS_GEM_ALLOWED_ORIGINS=https://matthew169169.github.io` on the backend.
+The existing deployed service is `aivc-tcls.onrender.com`.
 
-The bundled JS is subpath-aware (API base = `OMICS_GEM_API_BASE` override
-or `origin + pathname`, relative `./model-library/` + `./ui_mockups/`
-links), so the same build works locally, on Render, and on Pages.
-Pages is static hosting only — it serves the SPA shell and forwards every
-`/api/*` call to the Render backend above. The studio shell and model
-library load without a login gate.
+Render's free filesystem is temporary. Uploaded data, new projects, jobs and
+analysis outputs can be lost on restart or redeploy; use persistent storage for
+work that must survive. A sleeping free service may take time to respond.
+
+Shared-password authentication is off by default for this public demonstration.
+To enable it, configure `OMICS_GEM_AUTH_ENABLED=true`,
+`OMICS_GEM_PASSWORD_HASH`, and `OMICS_GEM_SESSION_SECRET`.
+
+## Checks
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest -q
+node --test tests/test_api_bootstrap.cjs
+```
+
+GitHub Actions runs the checks on Linux and Windows with Python 3.13. Tests use
+temporary workspaces and cover uploads, moved Windows packages, an actual FBA
+solve, omics mapping, job statuses, maps/SAMMI export, reports, ML exports,
+projects, Atlas staging, curation, examples and file-access boundaries.

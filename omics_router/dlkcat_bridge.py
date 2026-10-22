@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from .constraints import read_package_input_map
 from .constraints import CORE_NS, parse_sbml_gpr_rules, parse_sbml_index, read_csv_records, write_csv, write_json
 
 
@@ -218,7 +219,7 @@ def package_annotation_sources(package_dir: Path) -> list[dict[str, str]]:
     for map_path in [package_dir / "normalized_inputs" / "normalized_input_map.csv", package_dir / "input_file_map.csv"]:
         if not map_path.exists():
             continue
-        for row in read_csv_records(map_path):
+        for row in read_package_input_map(package_dir, normalized=map_path.parent.name == "normalized_inputs"):
             path_text = row.get("path", "")
             path = Path(path_text) if path_text else package_dir / str(row.get("relative_path", ""))
             if path.exists():

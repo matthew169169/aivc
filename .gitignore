@@ -14,3 +14,6 @@ atlas_curation_workspaces/
 archived_runs/
 .runtime_cache/
 *.log
+
+workspaces/
+.pytest_cache/

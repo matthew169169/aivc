@@ -14,6 +14,7 @@ from .cobra_runner import (
     get_cobra_reaction,
     group_by_condition,
 )
+from .constraints import read_package_input_map, resolve_package_input_path
 from .constraints import parse_sbml_gpr_rules, parse_sbml_index, read_csv_records, write_csv, write_json
 
 
@@ -1377,16 +1378,12 @@ def find_staged_table(package: Path, role: str) -> Path | None:
     for map_path in (package / "normalized_inputs" / "normalized_input_map.csv", package / "input_file_map.csv"):
         if not map_path.exists() or map_path.stat().st_size == 0:
             continue
-        for row in read_csv_records(map_path):
+        for row in read_package_input_map(package, normalized=map_path.parent.name == "normalized_inputs"):
             if row.get("role") != role:
                 continue
-            path_text = row.get("path", "")
-            path = Path(path_text) if path_text else Path()
-            if path_text and path.exists():
+            path = resolve_package_input_path(package, row)
+            if path is not None:
                 return path
-            candidate = package / str(row.get("relative_path", ""))
-            if candidate.exists():
-                return candidate
     return None
 
 
@@ -1451,17 +1448,7 @@ def _safe_read_csv(path: str | Path) -> list[dict[str, str]]:
 
 
 def _resolve_package_path(package: Path, row: dict[str, object]) -> Path | None:
-    path_text = str(row.get("path") or "")
-    if path_text:
-        path = Path(path_text)
-        if path.exists():
-            return path
-    relative_path = str(row.get("relative_path") or row.get("source_relative_path") or "")
-    if relative_path:
-        candidate = package / relative_path
-        if candidate.exists():
-            return candidate
-    return None
+    return resolve_package_input_path(package, row)
 
 
 def _align_rows_to_columns(rows: list[dict[str, object]], columns: list[str]) -> list[dict[str, object]]:

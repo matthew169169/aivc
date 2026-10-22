@@ -14,6 +14,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from .constraints import read_package_input_map
 from .constraints import (
     CORE_NS,
     FBC_NS,
@@ -298,7 +299,7 @@ def iter_package_annotation_tables(package: Path) -> list[tuple[str, Path]]:
     ):
         if not map_path.exists() or map_path.stat().st_size == 0:
             continue
-        for row in read_csv_records(map_path):
+        for row in read_package_input_map(package, normalized=map_path.parent.name == "normalized_inputs"):
             role = row.get("role", "")
             if role not in ANNOTATION_ROLES:
                 continue

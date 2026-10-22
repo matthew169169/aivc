@@ -17,7 +17,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Iterable, Any
 
-from .constraints import read_csv_records, write_csv, write_json
+from .constraints import relocate_package_path, read_csv_records, write_csv, write_json
 from .model_generation import normalize_selected_model_variant_ids, read_model_variant_registry
 from .sammi_visualization import parse_sbml_reactions
 
@@ -2122,7 +2122,10 @@ def model_paths(package: Path) -> list[Path]:
 
 
 def resolve_package_path(package: Path, path_text: str) -> Path:
-    path = Path(str(path_text or ""))
+    relocated = relocate_package_path(package, path_text)
+    if relocated is not None:
+        return relocated
+    path = Path(str(path_text or "__missing__").replace("\\", "/"))
     return path if path.is_absolute() else package / path
 
 

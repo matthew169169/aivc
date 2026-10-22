@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from .constraints import read_csv_records, write_csv, write_json
+from .constraints import read_csv_records, relocate_package_path, write_csv, write_json
 from .sammi_interactive_render import build_sammi_interactive_render
 from .sammi_visualization import sammi_vendor_status
 
@@ -113,9 +113,9 @@ def list_sammi_native_exports(package_dir: str | Path, *, variant_id: str = "") 
         if variant_id and discovered_variant != variant_id:
             continue
         files = manifest.get("files", {}) if isinstance(manifest.get("files"), dict) else {}
-        launch_path = Path(str(files.get("launch") or output / "sammi_native_launch.html"))
-        check_path = Path(str(files.get("check_json") or output / "sammi_native_export_check.json"))
-        session_file = Path(str(files.get("session") or session_path))
+        launch_path = relocate_package_path(package, files.get("launch")) or output / "sammi_native_launch.html"
+        check_path = relocate_package_path(package, files.get("check_json")) or output / "sammi_native_export_check.json"
+        session_file = relocate_package_path(package, files.get("session")) or session_path
         modified_at = _latest_mtime(
             [
                 manifest_path,

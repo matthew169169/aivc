@@ -53,6 +53,7 @@ from .services import (
     list_example_run_presets,
     list_jobs,
     list_projects,
+    create_project_workspace,
     list_runs,
     create_resource_curation_workspace,
     get_resource_curation_workspace,
@@ -70,7 +71,7 @@ from .services import (
     run_annotation_groups,
     run_atlas_resource_manifest,
     stage_resource_curation_workspace_run,
-    legacy_pipeline_stub_job,
+    create_pipeline_job,
     reset_workspace_root,
     resolve_safe_file,
     run_gecko_adapter_preview,
@@ -176,6 +177,11 @@ class WorkspaceRootRequest(BaseModel):
     root: str
     create: bool = False
     persist: bool = True
+
+
+class ProjectCreateRequest(BaseModel):
+    name: str = "New project"
+    project_id: str = ""
 
 
 class RunPackageImportRequest(BaseModel):
@@ -372,14 +378,9 @@ def projects() -> dict[str, Any]:
 
 
 @app.post("/api/projects")
-def create_project() -> dict[str, Any]:
-    return {
-        "status": "legacy_stub",
-        "message": (
-            "Project creation is handled by DataHub upload/import/example preset flows. "
-            "Use /api/workspace/root only to switch the active workspace root."
-        ),
-    }
+def create_project(request: ProjectCreateRequest | None = None) -> dict[str, Any]:
+    payload = request or ProjectCreateRequest()
+    return _handle(lambda: create_project_workspace(payload.name, payload.project_id))
 
 
 @app.get("/api/workspace")
@@ -682,8 +683,8 @@ def archive_run(run_id: str, request: RunArchiveRequest) -> dict[str, Any]:
 
 
 @app.post("/api/runs/{run_id}/pipeline")
-def pipeline(run_id: str) -> dict[str, Any]:
-    return _handle(lambda: legacy_pipeline_stub_job(run_id))
+def pipeline(run_id: str, request: WorkflowRunRequest | None = None) -> dict[str, Any]:
+    return _handle(lambda: create_pipeline_job(run_id, _model_data(request) if request else {}))
 
 
 @app.post("/api/runs/{run_id}/workflow/run")

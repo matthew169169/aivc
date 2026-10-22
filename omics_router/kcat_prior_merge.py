@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from .constraints import read_package_input_map
 from .constraints import build_kcat_prior_table, parse_sbml_index, read_csv_records, write_csv, write_json
 
 
@@ -517,7 +518,7 @@ def package_sources(package_dir: Path) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for map_path in [package_dir / "normalized_inputs" / "normalized_input_map.csv", package_dir / "input_file_map.csv"]:
         if map_path.exists() and map_path.stat().st_size > 0:
-            rows.extend(read_csv_records(map_path))
+            rows.extend(read_package_input_map(package_dir, normalized=map_path.parent.name == "normalized_inputs"))
     return rows
 
 

@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
 
-from .constraints import SbmlModelIndex, parse_sbml_index, read_csv_records, write_csv, write_json
+from .constraints import read_package_input_map, resolve_package_input_path, SbmlModelIndex, parse_sbml_index, read_csv_records, write_csv, write_json
 
 
 @dataclass(slots=True)
@@ -616,10 +616,7 @@ def _alias_summary_row(
 
 
 def _read_input_map(package: Path) -> list[dict[str, str]]:
-    path = package / "input_file_map.csv"
-    if not path.exists() or path.stat().st_size == 0:
-        return []
-    return read_csv_records(path)
+    return read_package_input_map(package)
 
 
 def _find_model_path(package: Path, input_rows: list[dict[str, str]]) -> Path | None:
@@ -631,17 +628,7 @@ def _find_model_path(package: Path, input_rows: list[dict[str, str]]) -> Path | 
 
 
 def _resolve_input_path(package: Path, row: dict[str, str]) -> Path | None:
-    direct_text = row.get("path", "")
-    if direct_text:
-        direct = Path(direct_text)
-        if direct.exists():
-            return direct
-    relative = row.get("relative_path", "")
-    if relative:
-        candidate = package / relative
-        if candidate.exists():
-            return candidate
-    return None
+    return resolve_package_input_path(package, row)
 
 
 def _read_table_records(path: Path) -> list[dict[str, str]]:

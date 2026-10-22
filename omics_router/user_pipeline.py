@@ -20,6 +20,8 @@ from .constraints import (
     build_relative_protein_evidence_table,
     parse_sbml_index,
     read_csv_records,
+    read_package_input_map,
+    resolve_package_input_path,
     split_context_method_inputs,
     write_csv,
     write_json,
@@ -28,7 +30,7 @@ from .context import build_context_reaction_policy, protected_reactions_from_out
 from .dlkcat_bridge import run_dlkcat_bridge
 from .dlkcat_runner import run_dlkcat_external_workflow
 from .evidence_comparison import run_evidence_mode_comparison
-from .id_mapping import NORMALIZED_INPUT_MAP, run_id_mapping_review
+from .id_mapping import run_id_mapping_review
 from .interpretation import run_condition_interpretation_dashboard
 from .enzyme_constraints import run_enzyme_constraint_workflow
 from .gecko_export import export_gecko_package
@@ -814,12 +816,9 @@ def find_staged_model_path(package_dir: str | Path) -> Path | None:
     package = Path(package_dir)
     for row in read_input_map(package):
         if row.get("kind") == "model":
-            path = Path(row.get("path", ""))
-            if path.exists():
+            path = resolve_package_input_path(package, row)
+            if path is not None:
                 return path
-            candidate = package / str(row.get("relative_path", ""))
-            if candidate.exists():
-                return candidate
     return None
 
 
@@ -851,13 +850,9 @@ def find_staged_omics_path(package_dir: str | Path, role: str) -> Path | None:
     package = Path(package_dir)
     for row in [*read_normalized_input_map(package), *read_input_map(package)]:
         if row.get("kind") == "omics_table" and row.get("role") == role:
-            path_text = row.get("path", "")
-            path = Path(path_text) if path_text else Path()
-            if path_text and path.exists():
+            path = resolve_package_input_path(package, row)
+            if path is not None:
                 return path
-            candidate = package / str(row.get("relative_path", ""))
-            if candidate.exists():
-                return candidate
     return None
 
 
@@ -1353,19 +1348,12 @@ def run_transcriptomics_step(
 def read_input_map(package_dir: str | Path) -> list[dict[str, str]]:
     """Read a staged package input map."""
 
-    path = Path(package_dir) / "input_file_map.csv"
-    if not path.exists() or path.stat().st_size == 0:
-        return []
-    return read_csv_records(path)
+    return read_package_input_map(package_dir)
 
 
 def read_normalized_input_map(package_dir: str | Path) -> list[dict[str, str]]:
     """Read alias-normalized input map when available."""
-
-    path = Path(package_dir) / "normalized_inputs" / NORMALIZED_INPUT_MAP
-    if not path.exists() or path.stat().st_size == 0:
-        return []
-    return read_csv_records(path)
+    return read_package_input_map(package_dir, normalized=True)
 
 
 def write_custom_input_overview(package_dir: str | Path, pipeline_dir: str | Path) -> list[dict[str, object]]:

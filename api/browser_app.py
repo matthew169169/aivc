@@ -31,6 +31,8 @@ def frontend_file(url_path: str, dist: Path = DIST) -> Path:
     if not candidate.is_relative_to(root):
         raise HTTPException(404, "Not found")
     if candidate.is_file():
+        if url_path.split("/", 1)[0] not in {"assets", "model-library", "ui_mockups"} and url_path not in {"index.html", "favicon.ico", "robots.txt"}:
+            raise HTTPException(404, "Not found")
         return candidate
     if Path(url_path).suffix or url_path.startswith("assets/"):
         raise HTTPException(404, "Not found")

@@ -64,7 +64,7 @@
       "gene_count": 1162,
       "objective_status": "known",
       "external_url": "",
-      "local_path": "case_studies/shewanella_fresh_workflow_inputs/upload_ready/model/iLJ1162.xml",
+      "local_path": "user_runs/shewanella_gecko_case/inputs/model/model__iLJ1162.xml",
       "readiness": "ready_for_reference",
       "readiness_reason": "Local SBML model is included in the Shewanella fresh workflow input package."
     },
@@ -81,7 +81,7 @@
       "gene_count": 817,
       "objective_status": "known",
       "external_url": "",
-      "local_path": "case_studies/synechocystis_spkb_case_inputs/upload_ready/model/iJN678.xml",
+      "local_path": "user_runs/synechocystis_spkb_case/inputs/model/model__iJN678.xml",
       "readiness": "ready_for_reference",
       "readiness_reason": "Local iJN678 SBML model is included in the Synechocystis SpkB carbon-limitation case input package."
     },
@@ -99,7 +99,7 @@
       "gene_count": 6722,
       "objective_status": "known",
       "external_url": "",
-      "local_path": "case_studies/putida_acetate_isoprenol_case_inputs/upload_ready/model/iJN1463.xml",
+      "local_path": "user_runs/putida_acetate_isoprenol_case/inputs/model/model__iJN1463.xml",
       "readiness": "ready_for_reference",
       "readiness_reason": "Local iJN1463 SBML model is included in the P. putida acetate/isoprenol case input package."
     },
@@ -167,7 +167,7 @@
       "readiness_reason": "Upload-ready absolute proteomics CSV is included in the Shewanella fresh workflow input package.",
       "supported_methods": ["Consensus Context", "GECKO-ready", "Model Compare", "Summary evidence"],
       "external_url": "",
-      "local_path": "case_studies/shewanella_fresh_workflow_inputs/upload_ready/omics/absolute_proteomics_shewanella.csv",
+      "local_path": "user_runs/shewanella_gecko_case/inputs/omics/absolute_proteomics__absolute_proteomics_shewanella.csv",
       "last_checked_at": "2026-06-17"
     },
     {
@@ -187,7 +187,7 @@
       "readiness_reason": "Upload-ready relative proteomics CSV is included for condition comparison.",
       "supported_methods": ["Consensus Context", "Model Compare", "Analysis overlay"],
       "external_url": "",
-      "local_path": "case_studies/shewanella_fresh_workflow_inputs/upload_ready/omics/relative_proteomics_shewanella.csv",
+      "local_path": "user_runs/shewanella_gecko_case/inputs/omics/relative_proteomics__relative_proteomics_shewanella.csv",
       "last_checked_at": "2026-06-17"
     },
     {
@@ -207,7 +207,7 @@
       "readiness_reason": "Reaction/enzyme kcat prior table is available in upload-ready form.",
       "supported_methods": ["GECKO-ready", "Model Compare", "Analysis overlay"],
       "external_url": "",
-      "local_path": "case_studies/shewanella_fresh_workflow_inputs/upload_ready/omics/gotenzymes2_kcat_priors.csv",
+      "local_path": "user_runs/shewanella_gecko_case/inputs/omics/ml_priors__gotenzymes2_kcat_priors.csv",
       "last_checked_at": "2026-06-17"
     },
     {
@@ -227,7 +227,7 @@
       "readiness_reason": "Condition exchange bounds table is available for workflow input.",
       "supported_methods": ["E-Flux", "Consensus Context", "Model Compare", "Summary evidence"],
       "external_url": "",
-      "local_path": "case_studies/shewanella_fresh_workflow_inputs/upload_ready/condition/condition_exchange_bounds_shewanella.csv",
+      "local_path": "user_runs/shewanella_gecko_case/inputs/condition/condition_exchange_bounds__condition_exchange_bounds_shewanella.csv",
       "last_checked_at": "2026-06-17"
     },
     {
@@ -267,7 +267,7 @@
       "readiness_reason": "Upload-ready relative proteomics CSV from Table S7 is included in the Synechocystis SpkB case package.",
       "supported_methods": ["Consensus Context", "Model Compare", "Analysis evidence"],
       "external_url": "",
-      "local_path": "case_studies/synechocystis_spkb_case_inputs/upload_ready/omics/relative_proteomics_spkb_vs_wt.csv",
+      "local_path": "user_runs/synechocystis_spkb_case/inputs/omics/relative_proteomics__relative_proteomics_spkb_vs_wt.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -287,7 +287,7 @@
       "readiness_reason": "Upload-ready carbon-limitation proteomics CSV from Table S8 is included in the Synechocystis case package.",
       "supported_methods": ["Consensus Context", "Model Compare", "Analysis evidence"],
       "external_url": "",
-      "local_path": "case_studies/synechocystis_spkb_case_inputs/upload_ready/omics/relative_proteomics_carbon_limitation.csv",
+      "local_path": "user_runs/synechocystis_spkb_case/inputs/omics/relative_proteomics__relative_proteomics_carbon_limitation.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -307,7 +307,7 @@
       "readiness_reason": "Upload-ready metabolite validation table from Table S5 is available for Analysis and Summary evidence.",
       "supported_methods": ["Analysis evidence", "Summary evidence"],
       "external_url": "",
-      "local_path": "case_studies/synechocystis_spkb_case_inputs/upload_ready/omics/metabolomics_spkb_hc_lc_validation.csv",
+      "local_path": "user_runs/synechocystis_spkb_case/inputs/omics/intracellular_metabolomics__metabolomics_spkb_hc_lc_validation.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -327,7 +327,7 @@
       "readiness_reason": "Upload-ready phosphoproteomics evidence table from Table S9 is available as interpretation evidence.",
       "supported_methods": ["Analysis evidence", "Summary evidence"],
       "external_url": "",
-      "local_path": "case_studies/synechocystis_spkb_case_inputs/upload_ready/omics/phosphoproteomics_spkb_evidence.csv",
+      "local_path": "user_runs/synechocystis_spkb_case/inputs/omics/custom_annotation__phosphoproteomics_spkb_evidence.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -347,7 +347,7 @@
       "readiness_reason": "Upload-ready annotation and validation tables are included for case interpretation.",
       "supported_methods": ["Model Compare", "Analysis evidence", "Summary evidence"],
       "external_url": "",
-      "local_path": "case_studies/synechocystis_spkb_case_inputs/upload_ready/omics/synechocystis_spk_gene_annotation.csv",
+      "local_path": "user_runs/synechocystis_spkb_case/inputs/omics/custom_annotation__synechocystis_spk_gene_annotation.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -367,7 +367,7 @@
       "readiness_reason": "Upload-ready absolute proteomics table is included in the P. putida acetate/isoprenol case package.",
       "supported_methods": ["Consensus Context", "Model Compare", "Analysis evidence"],
       "external_url": "",
-      "local_path": "case_studies/putida_acetate_isoprenol_case_inputs/upload_ready/omics/absolute_proteomics_putida.csv",
+      "local_path": "user_runs/putida_acetate_isoprenol_case/inputs/omics/absolute_proteomics__absolute_proteomics_putida.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -387,7 +387,7 @@
       "readiness_reason": "Upload-ready condition contrast proteomics table is available for evidence comparison.",
       "supported_methods": ["Consensus Context", "Model Compare", "Analysis evidence"],
       "external_url": "",
-      "local_path": "case_studies/putida_acetate_isoprenol_case_inputs/upload_ready/omics/relative_proteomics_putida_condition_response.csv",
+      "local_path": "user_runs/putida_acetate_isoprenol_case/inputs/omics/relative_proteomics__relative_proteomics_putida_condition_response.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -407,7 +407,7 @@
       "readiness_reason": "Upload-ready strain contrast proteomics table is available for acetate-tolerance interpretation.",
       "supported_methods": ["Consensus Context", "Model Compare", "Analysis evidence"],
       "external_url": "",
-      "local_path": "case_studies/putida_acetate_isoprenol_case_inputs/upload_ready/omics/relative_proteomics_putida_strain_response.csv",
+      "local_path": "user_runs/putida_acetate_isoprenol_case/inputs/omics/relative_proteomics__relative_proteomics_putida_strain_response.csv",
       "last_checked_at": "2026-06-18"
     },
     {
@@ -427,7 +427,7 @@
       "readiness_reason": "Upload-ready condition summary and marker annotation tables are included for case interpretation.",
       "supported_methods": ["Model Compare", "Analysis evidence", "Summary evidence"],
       "external_url": "",
-      "local_path": "case_studies/putida_acetate_isoprenol_case_inputs/upload_ready/omics/putida_marker_annotation.csv",
+      "local_path": "user_runs/putida_acetate_isoprenol_case/inputs/omics/custom_annotation__putida_marker_annotation.csv",
       "last_checked_at": "2026-06-18"
     },
     {

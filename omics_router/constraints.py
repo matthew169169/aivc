@@ -57,6 +57,33 @@ def relocate_package_path(package: str | Path, value: object) -> Path | None:
     return None
 
 
+def resolve_package_input_path(package: str | Path, row: dict[str, Any]) -> Path | None:
+    """Resolve a mapped file after a run package moves between machines.
+
+    Prefer the package's own copy over an old absolute source path. Empty
+    values and directories must never count as an input file.
+    """
+    for key in ("relative_path", "path", "source_relative_path"):
+        path = relocate_package_path(package, row.get(key))
+        if path is not None and path.is_file():
+            return path
+    return None
+
+
+def read_package_input_map(package: str | Path, *, normalized: bool = False) -> list[dict[str, str]]:
+    """Read an input map with file paths resolved for the current runtime."""
+    root = Path(package)
+    path = root / "normalized_inputs" / "normalized_input_map.csv" if normalized else root / "input_file_map.csv"
+    if not path.is_file() or path.stat().st_size == 0:
+        return []
+    rows = read_csv_records(path)
+    for row in rows:
+        resolved = resolve_package_input_path(root, row)
+        if resolved is not None:
+            row["path"] = str(resolved)
+    return rows
+
+
 @dataclass(slots=True)
 class SbmlModelIndex:
     """Small identifier index extracted from an SBML/FBC model."""
@@ -136,6 +163,10 @@ def parse_sbml_index(path: str | Path) -> SbmlModelIndex:
             for value in (gene_id, label, name):
                 if value:
                     index.gene_aliases[_normalize_id(value)] = model_gene
+                    # COBRA's SBML writer prefixes gene identifiers with G_.
+                    # Omics tables normally use the unprefixed biological ID.
+                    if value.startswith("G_"):
+                        index.gene_aliases.setdefault(_normalize_id(value[2:]), model_gene)
 
     return index
 

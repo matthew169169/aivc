@@ -25,7 +25,7 @@ from pathlib import Path
 from typing import Any, Callable, Iterable
 
 from omics_router.local_config import apply_local_backend_env, load_local_backend_config, save_local_backend_config
-from omics_router.constraints import relocate_package_path
+from omics_router.constraints import relocate_package_path, read_package_input_map
 from omics_router.gecko_adapter import build_gecko_adapter_files, run_gecko_adapter_probe
 from omics_router.gecko_runner import run_shewanella_gecko_external_workflow, validate_gecko_package
 from omics_router.ml_hybrid_profile import (
@@ -991,7 +991,7 @@ def run_atlas_resource_manifest(run_id: str) -> dict[str, Any]:
         if str(row.get("readiness") or "") in {"metadata_only", "raw_data_only", "license_or_access_limited"}
     ]
     staged_files: list[dict[str, Any]] = []
-    input_rows = read_csv_rows(package / "input_file_map.csv")
+    input_rows = read_package_input_map(package)
     for row in input_rows:
         path_text = str(row.get("path") or "")
         if not path_text:
@@ -1489,8 +1489,8 @@ def backend_environment_readiness() -> dict[str, Any]:
         "external_dependencies": external_dependencies,
         "external_dependency_config": external_config,
         "sammi_vendor": sammi_vendor,
-        "repair_command": r".\start_omics_gem_router.ps1 -RecreateVenv",
-        "minimal_repair_command": r".\start_omics_gem_router.ps1 -Minimal",
+        "repair_command": f'{sys.executable} -m pip install -r requirements.txt -r requirements-optional.txt',
+        "minimal_repair_command": f'{sys.executable} -m pip install -r requirements.txt',
         "bootstrap_command": r".\tools\bootstrap_desktop_env.ps1 -Mode Minimal",
         "desktop_bootstrap_command": r".\start_omics_gem_desktop.ps1",
         "runtime_bootstrap_command": r".\tools\bootstrap_desktop_env.ps1 -RuntimeOnly -Mode Minimal",
@@ -1698,15 +1698,34 @@ def create_external_dependency_deep_check_job(payload: dict[str, Any] | None = N
 
 
 def list_projects() -> list[dict[str, Any]]:
-    return [
-        build_project_row(
-            workspace_root=WORKSPACE_ROOT,
-            user_runs_dir=USER_RUNS_DIR,
-            examples_dir=EXAMPLES_DIR,
-            task_logs_dir=TASK_LOGS_DIR,
-            app_root=APP_ROOT,
-        )
-    ]
+    roots = [WORKSPACE_ROOT]
+    managed = APP_ROOT / "workspaces"
+    if managed.is_dir():
+        roots.extend(path for path in sorted(managed.iterdir())
+                     if path.is_dir() and (path / "project_metadata.json").is_file() and path.resolve() != WORKSPACE_ROOT.resolve())
+    projects = []
+    for root in roots:
+        row = build_project_row(workspace_root=root, user_runs_dir=root / "user_runs",
+                                examples_dir=root / "examples", task_logs_dir=root / "task_logs", app_root=APP_ROOT)
+        metadata = read_json_object(root / "project_metadata.json")
+        row["project_id"] = str(metadata.get("project_id") or row["project_id"])
+        row["name"] = str(metadata.get("name") or row["name"])
+        projects.append(row)
+    return projects
+
+
+def create_project_workspace(name: str, project_id: str = "") -> dict[str, Any]:
+    """Create and activate an isolated workspace for a new project."""
+    identifier = project_id or f"project_{uuid.uuid4().hex[:12]}"
+    if identifier != _sanitize_run_id(identifier) or not re_match_job_id(identifier):
+        raise ApiError(400, "project_id may contain only letters, numbers, underscore, and dash.")
+    root = APP_ROOT / "workspaces" / identifier
+    if root.exists():
+        raise ApiError(409, f"Project already exists: {identifier}")
+    root.mkdir(parents=True)
+    write_json(root / "project_metadata.json", {"project_id": identifier, "name": name.strip() or identifier})
+    workspace = set_workspace_root(str(root), create=True, persist=True)
+    return {"status": "created", "project": list_projects()[0], "workspace": workspace}
 
 
 def workspace_status() -> dict[str, Any]:
@@ -1812,29 +1831,36 @@ def import_run_package(source_path: str, *, target_run_id: str = "", dry_run: bo
     return result
 
 
+def _builtin_example_packages() -> list[Path]:
+    examples = APP_ROOT / "examples"
+    packages = sorted(path for path in examples.iterdir() if path.is_dir() and _looks_like_run_package(path)) if examples.is_dir() else []
+    for run_id in ("shewanella_gecko_case", "putida_acetate_isoprenol_case", "synechocystis_spkb_case"):
+        package = APP_ROOT / "user_runs" / run_id
+        if package.is_dir() and _looks_like_run_package(package) and not any(p.name == run_id for p in packages):
+            packages.append(package)
+    return packages
+
+
 def list_example_run_presets() -> dict[str, Any]:
     examples_root = APP_ROOT / "examples"
     rows: list[dict[str, Any]] = []
-    if examples_root.exists():
-        for path in sorted(examples_root.iterdir()):
-            if not path.is_dir() or not _looks_like_run_package(path):
-                continue
-            preset_id = _sanitize_run_id(path.name)
-            overview = _safe_run_overview(path)
-            rows.append(
-                {
-                    "preset_id": preset_id,
-                    "name": path.name,
-                    "source_path": str(path.resolve()),
-                    "suggested_target_run_id": _next_available_run_id(preset_id),
-                    "input_count": overview.get("input_count", 0),
-                    "model_variant_count": overview.get("model_variant_count", 0),
-                    "report_count": overview.get("report_count", 0),
-                    "visualization_count": overview.get("visualization_count", 0),
-                    "last_modified": overview.get("last_modified", 0),
-                    "import_status": "target_exists" if (USER_RUNS_DIR / preset_id).exists() else "importable",
-                }
-            )
+    for path in _builtin_example_packages():
+        preset_id = _sanitize_run_id(path.name)
+        overview = _safe_run_overview(path)
+        rows.append(
+            {
+                "preset_id": preset_id,
+                "name": path.name,
+                "source_path": str(path.resolve()),
+                "suggested_target_run_id": _next_available_run_id(preset_id),
+                "input_count": overview.get("input_count", 0),
+                "model_variant_count": overview.get("model_variant_count", 0),
+                "report_count": overview.get("report_count", 0),
+                "visualization_count": overview.get("visualization_count", 0),
+                "last_modified": overview.get("last_modified", 0),
+                "import_status": "target_exists" if (USER_RUNS_DIR / preset_id).exists() else "importable",
+            }
+        )
     return {
         "examples_root": str(examples_root),
         "workspace_root": str(WORKSPACE_ROOT),
@@ -1848,8 +1874,8 @@ def import_example_run_preset(preset_id: str, *, target_run_id: str = "", dry_ru
     normalized = _sanitize_run_id(preset_id)
     if not normalized or normalized != preset_id:
         raise ApiError(400, "Invalid preset_id.")
-    source = (APP_ROOT / "examples" / normalized).resolve()
-    if not source.exists() or not source.is_dir() or not _looks_like_run_package(source):
+    source = next((path for path in _builtin_example_packages() if path.name == normalized), None)
+    if source is None:
         raise ApiError(404, f"Example run preset not found: {preset_id}")
     target = target_run_id.strip() if target_run_id else _next_available_run_id(normalized)
     result = import_run_package(str(source), target_run_id=target, dry_run=dry_run)
@@ -2128,7 +2154,7 @@ def list_runs() -> list[dict[str, Any]]:
 
 def run_summary(run_id: str) -> dict[str, Any]:
     package = resolve_run_package(run_id)
-    input_rows = read_csv_rows(package / "input_file_map.csv")
+    input_rows = read_package_input_map(package)
     registry_rows = read_model_variant_registry(package)
     report_files = _relative_files(package, package / "report_results", "*.html")
     visualization_manifests = _relative_files(package, package / "visualization_results" / "sammi", "*/sammi_package_manifest.json")
@@ -5923,22 +5949,9 @@ def create_gecko_external_run_job(run_id: str, payload: dict[str, Any]) -> dict[
     return run_sync_job("gecko_external_run", run_id, callback, final_status=final_status)
 
 
-def legacy_pipeline_stub_job(run_id: str) -> dict[str, Any]:
-    resolve_run_package(run_id)
-
-    def callback(log_path: Path) -> dict[str, Any]:
-        message = (
-            "Legacy pipeline stub: full asynchronous pipeline execution is not implemented in this endpoint. "
-            "Use POST /api/runs/{run_id}/workflow/run for the guided Model & Analysis workflow."
-        )
-        log_path.write_text(message + "\n", encoding="utf-8")
-        return {
-            "result_status": "legacy_stub",
-            "message": message,
-            "recommended_endpoint": f"/api/runs/{run_id}/workflow/run",
-        }
-
-    return run_sync_job("pipeline", run_id, callback, final_status="skipped")
+def create_pipeline_job(run_id: str, payload: dict[str, Any] | None = None) -> dict[str, Any]:
+    """Run the guided workflow for clients using the original pipeline route."""
+    return create_user_workflow_job(run_id, payload or {})
 
 
 def create_backend_environment_repair_job(payload: dict[str, Any]) -> dict[str, Any]:
@@ -5956,23 +5969,11 @@ def create_backend_environment_repair_job(payload: dict[str, Any]) -> dict[str, 
             "Live API repair cannot recreate .venv because the current backend may be running inside it. "
             "Close the desktop/API backend and run .\\start_omics_gem_router.ps1 -RecreateVenv from a terminal.",
         )
-    script = APP_ROOT / "tools" / "repair_backend_env.ps1"
-    if not script.exists():
-        raise ApiError(404, f"Repair script not found: {script}")
-
-    ps_mode = "Minimal" if mode == "minimal" else "Full"
-    command = [
-        "powershell",
-        "-NoProfile",
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        str(script),
-        "-Mode",
-        ps_mode,
-    ]
-    if recreate_venv:
-        command.append("-RecreateVenv")
+    # Use the running interpreter on every platform; the release's Windows
+    # repair script is not part of browser/server installations.
+    command = [sys.executable, "-m", "pip", "install", "-r", str(APP_ROOT / "requirements.txt")]
+    if mode == "full":
+        command.extend(["-r", str(APP_ROOT / "requirements-optional.txt")])
     final_status = "skipped" if dry_run else "completed"
 
     def callback(log_path: Path) -> dict[str, Any]:
@@ -6045,7 +6046,7 @@ def run_sync_job(
         result = callback(log_path)
         status.update(
             {
-                "status": final_status,
+                "status": _job_result_status(result, final_status),
                 "updated_at": time.time(),
                 "elapsed_seconds": round(time.time() - started, 6),
                 "result": result,
@@ -6063,6 +6064,16 @@ def run_sync_job(
         )
     write_json(status_path, status)
     return status
+
+
+def _job_result_status(result: dict[str, Any], fallback: str) -> str:
+    """Propagate execution failures even when a runner returns normally."""
+    result_status = str(result.get("result_status") or result.get("status") or "").lower()
+    if result_status in {"failed", "error", "input_missing", "parse_failed", "missing_model"} or result_status.endswith("_failed"):
+        return "failed"
+    if result_status.startswith("skipped") or result_status == "dry_run":
+        return "skipped"
+    return fallback
 
 
 def get_job(job_id: str) -> dict[str, Any]:
@@ -6103,10 +6114,21 @@ def get_job_logs(job_id: str) -> dict[str, str]:
 
 
 def resolve_safe_file(path_text: str) -> Path:
-    # Bundled reference data follows the app; user_runs follows the selected workspace.
-    candidate = Path(path_text)
-    if not candidate.is_absolute() and candidate.parts and candidate.parts[0] in {"case_studies", "resources"}:
-        path_text = str(APP_ROOT / candidate)
+    # Stored manifests can contain paths from the machine that built the run.
+    # Relocate only known workspace/app trees, then apply the usual access check.
+    if not path_text:
+        raise ApiError(400, "Missing file path.")
+    normalized = path_text.replace("\\", "/")
+    candidate = Path(normalized)
+    if not candidate.is_file():
+        parts = normalized.split("/")
+        for marker, root in (("user_runs", WORKSPACE_ROOT), ("examples", WORKSPACE_ROOT),
+                             ("resources", APP_ROOT), ("case_studies", APP_ROOT),
+                             ("model-library", APP_ROOT), ("ui_mockups", APP_ROOT)):
+            if marker in parts:
+                candidate = root.joinpath(*parts[parts.index(marker):])
+                break
+    path_text = str(candidate)
     return resolve_safe_file_path(
         path_text,
         workspace_root=WORKSPACE_ROOT,
@@ -7756,7 +7778,7 @@ def case_study_readiness(case_id: str, *, write_artifact: bool = True) -> dict[s
     inventory = package_context.get("artifact_inventory", {}) if isinstance(package_context.get("artifact_inventory"), dict) else {}
     variant_context = package_context.get("variant_context", {}) if isinstance(package_context.get("variant_context"), dict) else {}
     optional_evidence = inventory.get("optional_evidence", {}) if isinstance(inventory.get("optional_evidence"), dict) else {}
-    input_rows = read_csv_rows(package / "input_file_map.csv")
+    input_rows = read_package_input_map(package)
     model_rows = [
         row
         for row in input_rows
