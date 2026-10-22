@@ -8,6 +8,8 @@ from api import services
 @pytest.fixture
 def client(tmp_path, monkeypatch):
     monkeypatch.setenv("OMICS_GEM_AUTH_ENABLED", "false")
+    monkeypatch.setenv("OMICS_GEM_JOB_MODE", "inline")
+    monkeypatch.setattr(services, "DATA_ROOT", tmp_path)
     monkeypatch.setattr(services, "WORKSPACE_ROOT", tmp_path)
     monkeypatch.setattr(services, "USER_RUNS_DIR", tmp_path / "user_runs")
     monkeypatch.setattr(services, "EXAMPLES_DIR", tmp_path / "examples")

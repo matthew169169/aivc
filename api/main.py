@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+from contextlib import asynccontextmanager
 from typing import Any
 
 from fastapi import FastAPI, File, Form, HTTPException, Query, Request, Response, UploadFile
@@ -21,6 +22,8 @@ from .auth import (
 from .services import (
     ApiError,
     api_health,
+    start_background_jobs,
+    stop_background_jobs,
     backend_environment_readiness,
     case_study_prepare_lite,
     case_study_prepare_preview,
@@ -279,7 +282,17 @@ class GeckoExternalRunRequest(BaseModel):
     dry_run: bool = False
 
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    start_background_jobs()
+    try:
+        yield
+    finally:
+        stop_background_jobs()
+
+
 app = FastAPI(
+    lifespan=lifespan,
     title="Omics-GEM Router API",
     version="0.1.0",
     description="Local API prototype for run packages, model variants, reports, and SAMMI-compatible visualizations.",
@@ -905,7 +918,10 @@ def files(
 
 def _handle(callback):
     try:
-        return callback()
+        result = callback()
+        if isinstance(result, dict) and result.get("job_id") and result.get("status") == "queued":
+            return JSONResponse(result, status_code=202)
+        return result
     except ApiError as exc:
         raise HTTPException(status_code=exc.status_code, detail=exc.detail) from exc
 

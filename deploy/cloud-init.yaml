@@ -1,0 +1,12 @@
+#cloud-config
+# Oracle Always Free VM: Ubuntu 24.04, VM.Standard.A1.Flex, at most 2 OCPU/12 GB.
+# This only installs the application prerequisites on the VM you explicitly create.
+package_update: true
+packages:
+  - docker.io
+  - docker-compose-v2
+  - git
+runcmd:
+  - [systemctl, enable, --now, docker]
+  - [git, clone, 'https://github.com/matthew169169/aivc.git', /opt/aivc]
+final_message: 'Application source is in /opt/aivc. Follow docs/FREE_CLOUD.md to configure HTTPS and the workbench password.'

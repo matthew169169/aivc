@@ -24,6 +24,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Callable, Iterable
 
+from api.background_jobs import JobQueue, JobQueueError, recover_interrupted_jobs, run_inline, result_status
+from api.runtime_paths import data_root, seed_cloud_workspace
+from api.source_cache import SourceCache
+
 from omics_router.local_config import apply_local_backend_env, load_local_backend_config, save_local_backend_config
 from omics_router.constraints import relocate_package_path, read_package_input_map
 from omics_router.gecko_adapter import build_gecko_adapter_files, run_gecko_adapter_probe
@@ -161,13 +165,16 @@ from api.workspace_helpers import (
 
 ROOT = Path(__file__).resolve().parents[1]
 APP_ROOT = ROOT
-WORKSPACE_CONFIG_PATH = APP_ROOT / "api_workspace_config.json"
-WORKSPACE_ROOT = APP_ROOT
+DATA_ROOT = data_root(APP_ROOT)
+WORKSPACE_CONFIG_PATH = DATA_ROOT / "api_workspace_config.json"
+WORKSPACE_ROOT = DATA_ROOT
 USER_RUNS_DIR = WORKSPACE_ROOT / "user_runs"
 EXAMPLES_DIR = WORKSPACE_ROOT / "examples"
 TASK_LOGS_DIR = WORKSPACE_ROOT / "task_logs"
 ATLAS_CURATION_WORKSPACES_DIR = WORKSPACE_ROOT / "atlas_curation_workspaces"
 ALLOWED_FILE_ROOTS = (WORKSPACE_ROOT, APP_ROOT)
+BACKGROUND_JOBS = JobQueue(workers=1, capacity=8)
+RESOURCE_INDEX_CACHE = SourceCache()
 RESOURCE_INDEX_PATH = APP_ROOT / "resources" / "resource_index.json"
 RESOURCE_ORGANISM_TARGETS_PATH = APP_ROOT / "resources" / "organism_targets.csv"
 RESOURCE_LINEAGE_IMAGE_MANIFEST_PATH = APP_ROOT / "resources" / "lineage_tree_images" / "image_manifest.json"
@@ -199,6 +206,9 @@ def api_health() -> dict[str, Any]:
     return {
         "status": "ok",
         "service": "omics-gem-router-api",
+        "version": os.environ.get("OMICS_GEM_VERSION") or os.environ.get("RENDER_GIT_COMMIT", "development"),
+        "job_mode": os.environ.get("OMICS_GEM_JOB_MODE", "background"),
+        "queue": BACKGROUND_JOBS.stats(),
         "app_root": str(APP_ROOT),
         "root": str(WORKSPACE_ROOT),
         "workspace_root": str(WORKSPACE_ROOT),
@@ -1699,7 +1709,7 @@ def create_external_dependency_deep_check_job(payload: dict[str, Any] | None = N
 
 def list_projects() -> list[dict[str, Any]]:
     roots = [WORKSPACE_ROOT]
-    managed = APP_ROOT / "workspaces"
+    managed = DATA_ROOT / "workspaces"
     if managed.is_dir():
         roots.extend(path for path in sorted(managed.iterdir())
                      if path.is_dir() and (path / "project_metadata.json").is_file() and path.resolve() != WORKSPACE_ROOT.resolve())
@@ -1716,10 +1726,12 @@ def list_projects() -> list[dict[str, Any]]:
 
 def create_project_workspace(name: str, project_id: str = "") -> dict[str, Any]:
     """Create and activate an isolated workspace for a new project."""
+    if BACKGROUND_JOBS.has_active(TASK_LOGS_DIR):
+        raise ApiError(409, "Wait for active jobs to finish before creating another workspace.")
     identifier = project_id or f"project_{uuid.uuid4().hex[:12]}"
     if identifier != _sanitize_run_id(identifier) or not re_match_job_id(identifier):
         raise ApiError(400, "project_id may contain only letters, numbers, underscore, and dash.")
-    root = APP_ROOT / "workspaces" / identifier
+    root = DATA_ROOT / "workspaces" / identifier
     if root.exists():
         raise ApiError(409, f"Project already exists: {identifier}")
     root.mkdir(parents=True)
@@ -1741,7 +1753,8 @@ def workspace_status() -> dict[str, Any]:
         config_path=WORKSPACE_CONFIG_PATH,
         configured_root=configured_root,
         source="config" if configured_root else "default",
-        is_default=_same_path(WORKSPACE_ROOT, APP_ROOT),
+        is_default=_same_path(WORKSPACE_ROOT, DATA_ROOT),
+        default_workspace_root=DATA_ROOT,
         exists=exists,
         is_dir=WORKSPACE_ROOT.is_dir(),
         writable=os.access(WORKSPACE_ROOT, os.W_OK) if exists else False,
@@ -1750,6 +1763,8 @@ def workspace_status() -> dict[str, Any]:
 
 
 def set_workspace_root(path_text: str, *, create: bool = False, persist: bool = True) -> dict[str, Any]:
+    if BACKGROUND_JOBS.has_active(TASK_LOGS_DIR):
+        raise ApiError(409, "Wait for active jobs to finish before switching workspaces.")
     if not path_text or not str(path_text).strip():
         raise ApiError(400, "Missing workspace root path.")
     resolved = resolve_directory_candidate_path(path_text, base_root=APP_ROOT)
@@ -1766,7 +1781,9 @@ def set_workspace_root(path_text: str, *, create: bool = False, persist: bool = 
 
 
 def reset_workspace_root(*, persist: bool = True) -> dict[str, Any]:
-    _apply_workspace_root(APP_ROOT, persist=persist)
+    if BACKGROUND_JOBS.has_active(TASK_LOGS_DIR):
+        raise ApiError(409, "Wait for active jobs to finish before resetting the workspace.")
+    _apply_workspace_root(DATA_ROOT, persist=persist)
     _initialize_workspace_dirs()
     return workspace_status()
 
@@ -2060,6 +2077,8 @@ def archive_run_package(run_id: str, *, dry_run: bool = True, confirm_run_id: st
 
 
 def create_archive_run_job(run_id: str, payload: dict[str, Any]) -> dict[str, Any]:
+    if BACKGROUND_JOBS.has_active(TASK_LOGS_DIR, run_id):
+        raise ApiError(409, "Wait for the active job on this run before archiving it.")
     dry_run = bool(payload.get("dry_run", True))
     confirm_run_id = str(payload.get("confirm_run_id", ""))
     if not dry_run and confirm_run_id != run_id:
@@ -6027,53 +6046,30 @@ def run_sync_job(
     *,
     final_status: str = "completed",
 ) -> dict[str, Any]:
-    TASK_LOGS_DIR.mkdir(parents=True, exist_ok=True)
-    job_id = f"{job_type}_{uuid.uuid4().hex[:12]}"
-    status_path = TASK_LOGS_DIR / f"{job_id}.json"
-    log_path = TASK_LOGS_DIR / f"{job_id}.log"
-    started = time.time()
-    status: dict[str, Any] = {
-        "job_id": job_id,
-        "job_type": job_type,
-        "run_id": run_id,
-        "status": "running",
-        "created_at": started,
-        "updated_at": started,
-        "log_path": str(log_path),
-    }
-    write_json(status_path, status)
+    """Submit work without holding an HTTP request open (inline mode for scripts)."""
+    if os.environ.get("OMICS_GEM_JOB_MODE", "background").lower() == "inline":
+        return run_inline(job_type, run_id, TASK_LOGS_DIR, callback, final_status=final_status)
     try:
-        result = callback(log_path)
-        status.update(
-            {
-                "status": _job_result_status(result, final_status),
-                "updated_at": time.time(),
-                "elapsed_seconds": round(time.time() - started, 6),
-                "result": result,
-            }
-        )
-    except Exception as exc:
-        log_path.write_text((log_path.read_text(encoding="utf-8") if log_path.exists() else "") + f"ERROR: {type(exc).__name__}: {exc}\n", encoding="utf-8")
-        status.update(
-            {
-                "status": "failed",
-                "updated_at": time.time(),
-                "elapsed_seconds": round(time.time() - started, 6),
-                "error": f"{type(exc).__name__}: {exc}",
-            }
-        )
-    write_json(status_path, status)
-    return status
+        return BACKGROUND_JOBS.submit(job_type, run_id, TASK_LOGS_DIR, callback, final_status=final_status)
+    except JobQueueError as exc:
+        raise ApiError(exc.status_code, exc.detail) from exc
+
+
+def start_background_jobs() -> None:
+    roots = {TASK_LOGS_DIR.resolve(), (DATA_ROOT / "task_logs").resolve()}
+    managed = DATA_ROOT / "workspaces"
+    if managed.is_dir():
+        roots.update((root / "task_logs").resolve() for root in managed.iterdir() if root.is_dir())
+    for root in roots:
+        recover_interrupted_jobs(root)
+
+
+def stop_background_jobs() -> None:
+    BACKGROUND_JOBS.shutdown()
 
 
 def _job_result_status(result: dict[str, Any], fallback: str) -> str:
-    """Propagate execution failures even when a runner returns normally."""
-    result_status = str(result.get("result_status") or result.get("status") or "").lower()
-    if result_status in {"failed", "error", "input_missing", "parse_failed", "missing_model"} or result_status.endswith("_failed"):
-        return "failed"
-    if result_status.startswith("skipped") or result_status == "dry_run":
-        return "skipped"
-    return fallback
+    return result_status(result, fallback)
 
 
 def get_job(job_id: str) -> dict[str, Any]:
@@ -6203,6 +6199,12 @@ def read_json_object(path: Path) -> dict[str, Any]:
 
 
 def load_resource_index() -> dict[str, Any]:
+    paths = [RESOURCE_INDEX_PATH, RESOURCE_CACHE_MANIFEST_PATH, RESOURCE_TARGET_CANDIDATE_REPORT_PATH,
+             *(path for _, path in RESOURCE_CONNECTOR_CACHE_FILES)]
+    return RESOURCE_INDEX_CACHE.get(paths, _load_resource_index_uncached)
+
+
+def _load_resource_index_uncached() -> dict[str, Any]:
     if not RESOURCE_INDEX_PATH.exists():
         return {
             "version": 1,
@@ -8906,4 +8908,6 @@ def _initialize_workspace_from_config() -> None:
         _apply_workspace_root(resolved, persist=False)
 
 
+if DATA_ROOT != APP_ROOT:
+    seed_cloud_workspace(APP_ROOT, DATA_ROOT)
 _initialize_workspace_from_config()

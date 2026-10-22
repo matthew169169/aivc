@@ -7,7 +7,11 @@ based on the Omics-GEM Studio Windows browser distribution.
 - [Live API health](https://aivc-tcls.onrender.com/api/health)
 - [API documentation](https://aivc-tcls.onrender.com/docs)
 
-GitHub Pages hosts the frontend; the Python service performs computations and
+For a free cloud VM with one website address and persistent storage, see
+[the cloud deployment guide](docs/FREE_CLOUD.md). No software needs to run on
+your personal device. Docker images are tested on Linux x86 and ARM in CI.
+
+GitHub Pages currently hosts the frontend; the Python service performs computations and
 stores run packages. The Pages frontend uses `https://aivc-tcls.onrender.com`.
 
 ## Run locally
@@ -58,7 +62,11 @@ between Windows, macOS and Linux. Atlas entries use these same bundled inputs.
 `POST /api/projects` creates and activates a workspace (optional `name` and
 `project_id`). `POST /api/runs/{run_id}/pipeline` executes the same workflow as
 `POST /api/runs/{run_id}/workflow/run`, accepting the same optional selections.
-Jobs expose their execution result and logs through `/api/jobs`. The case menu
+Jobs expose their execution result and logs through `/api/jobs`. Computations
+return HTTP 202 and execute in a bounded background queue; the browser follows
+the job until it finishes. Duplicate submissions for an active run are rejected.
+Jobs interrupted by a server restart are marked failed with a retry explanation.
+Set `OMICS_GEM_JOB_MODE=inline` only for scripts that require synchronous results. The case menu
 uses the latest saved readiness check; opening the case readiness endpoint runs
 the detailed validation and refreshes that result.
 
@@ -93,7 +101,7 @@ To enable it, configure `OMICS_GEM_AUTH_ENABLED=true`,
 ```bash
 python -m pip install -r requirements-dev.txt
 python -m pytest -q
-node --test tests/test_api_bootstrap.cjs
+node --test tests/test_api_bootstrap.cjs tests/test_api_transport.cjs
 ```
 
 GitHub Actions runs the checks on Linux and Windows with Python 3.13. Tests use

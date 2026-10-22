@@ -24,4 +24,4 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m compileall -q api omics_router
       - run: python -m pytest -q
-      - run: node --test tests/test_api_bootstrap.cjs
+      - run: node --test tests/test_api_bootstrap.cjs tests/test_api_transport.cjs

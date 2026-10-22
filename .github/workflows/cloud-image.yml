@@ -1,0 +1,47 @@
+name: Cloud image checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  image:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: ubuntu-24.04
+            architecture: amd64
+          - runner: ubuntu-24.04-arm
+            architecture: arm64
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - name: Build native cloud image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          load: true
+          tags: aivc:ci
+          build-args: VCS_REF=${{ github.sha }}
+          cache-from: type=gha,scope=cloud-${{ matrix.architecture }}
+          cache-to: type=gha,mode=max,scope=cloud-${{ matrix.architecture }}
+      - name: Validate cloud configuration
+        run: |
+          STUDIO_DOMAIN=example.com STUDIO_ORIGIN=https://example.com OMICS_GEM_PASSWORD_HASH=ci-only OMICS_GEM_SESSION_SECRET=ci-only docker compose config --quiet
+          docker run --rm -v "$PWD/deploy/Caddyfile:/etc/caddy/Caddyfile:ro" -e STUDIO_DOMAIN=example.com caddy:2-alpine caddy validate --config /etc/caddy/Caddyfile
+      - name: Start the image with persistent storage
+        run: docker run -d --name studio-ci --mount source=studio-ci-data,target=/data -e OMICS_GEM_AUTH_ENABLED=false aivc:ci
+      - name: Test the HTTP API and actual solver
+        run: docker exec studio-ci python tools/smoke_cloud.py
+      - name: Restart with the same data volume
+        run: |
+          docker restart studio-ci
+          docker exec studio-ci python tools/smoke_cloud.py --verify-restart
+      - name: Show container diagnostics
+        if: failure()
+        run: docker logs studio-ci || true

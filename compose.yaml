@@ -1,0 +1,55 @@
+name: omics-gem-studio
+services:
+  studio:
+    image: ${STUDIO_IMAGE:-aivc:cloud}
+    build:
+      context: .
+      args:
+        VCS_REF: ${STUDIO_VERSION:-development}
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 30s
+    environment:
+      OMICS_GEM_DATA_DIR: /data
+      OMICS_GEM_JOB_MODE: background
+      OMICS_GEM_AUTH_ENABLED: ${OMICS_GEM_AUTH_ENABLED:-true}
+      OMICS_GEM_PASSWORD_HASH: ${OMICS_GEM_PASSWORD_HASH:?Set the password hash in deploy/cloud.env}
+      OMICS_GEM_SESSION_SECRET: ${OMICS_GEM_SESSION_SECRET:?Set the session secret in deploy/cloud.env}
+      OMICS_GEM_COOKIE_SECURE: 'true'
+      OMICS_GEM_ALLOWED_ORIGINS: ${STUDIO_ORIGIN:?Set the HTTPS site origin in deploy/cloud.env}
+    volumes:
+      - studio-data:/data
+    expose:
+      - '8765'
+    mem_limit: 8g
+    cpus: 1.75
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  gateway:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      STUDIO_DOMAIN: ${STUDIO_DOMAIN:?Set the site hostname in deploy/cloud.env}
+    ports:
+      - '80:80'
+      - '443:443'
+      - '443:443/udp'
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      studio:
+        condition: service_healthy
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+volumes:
+  studio-data:
+  caddy-data:
+  caddy-config:

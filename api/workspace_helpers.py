@@ -54,12 +54,13 @@ def build_workspace_status_payload(
     is_dir: bool,
     writable: bool,
     allowed_file_roots: tuple[Path, ...],
+    default_workspace_root: Path | None = None,
 ) -> dict[str, object]:
     return {
         "status": "configured" if exists else "missing",
         "app_root": str(app_root),
         "workspace_root": str(workspace_root),
-        "default_workspace_root": str(app_root),
+        "default_workspace_root": str(default_workspace_root or app_root),
         "user_runs_dir": str(user_runs_dir),
         "examples_dir": str(examples_dir),
         "task_logs_dir": str(task_logs_dir),

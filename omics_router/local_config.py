@@ -9,7 +9,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_CONFIG_PATH = ROOT / "local_backend_config.json"
+DEFAULT_CONFIG_PATH = Path(os.environ.get("OMICS_GEM_DATA_DIR") or ROOT) / "local_backend_config.json"
 BACKEND_ENV_KEYS = {
     "matlab_cmd": "MATLAB_CMD",
     "gecko_home": "GECKO_HOME",
@@ -50,6 +50,7 @@ def save_local_backend_config(
         if str(config.get(key, "")).strip()
     }
     output = Path(path or DEFAULT_CONFIG_PATH)
+    output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(normalized, ensure_ascii=False, indent=2), encoding="utf-8")
     return normalized
 

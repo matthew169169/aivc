@@ -21,7 +21,7 @@ def main() -> None:
     host = os.environ.get("OMICS_GEM_HOST") or ("0.0.0.0" if "PORT" in os.environ else "127.0.0.1")
     port = int(os.environ.get("OMICS_GEM_PORT", os.environ.get("PORT", "8765")))
     print(f"Omics-GEM Studio → http://{host}:{port}")
-    uvicorn.run("api.browser_app:app", host=host, port=port, reload=False)
+    uvicorn.run("api.browser_app:app", host=host, port=port, reload=False, workers=1)
 
 
 if __name__ == "__main__":

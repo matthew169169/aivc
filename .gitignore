@@ -17,3 +17,9 @@ archived_runs/
 
 workspaces/
 .pytest_cache/
+
+.env
+.env.*
+!*.env.example
+deploy/*.env
+deploy/backups/
