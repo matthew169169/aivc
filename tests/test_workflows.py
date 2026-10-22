@@ -178,3 +178,16 @@ def test_builtin_examples_available_in_new_workspace(client):
     assert {"shewanella_gecko_case", "putida_acetate_isoprenol_case", "synechocystis_spkb_case"} <= ids
     response = client.post("/api/workspace/import-example-preset", json={"preset_id": "synechocystis_spkb_case", "dry_run": True})
     assert response.status_code == 200, response.text
+
+
+def test_case_listing_does_not_execute_comparison_qa(client, monkeypatch):
+    root = Path(__file__).resolve().parents[1]
+    monkeypatch.setattr(services, "USER_RUNS_DIR", root / "user_runs")
+    def unexpected_check(*args, **kwargs):
+        raise AssertionError("Listing cases must not trigger deep comparison QA")
+    monkeypatch.setattr(services, "case_study_readiness", unexpected_check)
+    response = client.get("/api/case-studies")
+    assert response.status_code == 200, response.text
+    cases = response.json()["case_studies"]
+    assert len(cases) == 3
+    assert all(case["readiness_source"] == "saved_check" for case in cases)

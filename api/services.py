@@ -7281,9 +7281,16 @@ def list_case_studies() -> dict[str, Any]:
         if bool(case.get("hidden_from_case_dropdown")):
             continue
         try:
-            readiness = case_study_readiness(str(case.get("case_id") or ""), write_artifact=False)
+            package = resolve_run_package(str(case.get("run_id") or ""))
+            # The dropdown is a listing, not a request to run comparison QA.
+            # Detailed readiness checks refresh this saved result explicitly.
+            readiness = read_json_object(package / "case_study" / "case_display_readiness.json")
+            if not readiness:
+                readiness = {"overall_status": "not_checked", "guidance": "Open this case to check readiness."}
+            case["readiness_source"] = "saved_check" if readiness.get("case_id") else "not_checked"
         except ApiError:
-            readiness = {"overall_status": "missing_artifact", "guidance": "Case readiness could not be checked."}
+            readiness = {"overall_status": "missing_artifact", "guidance": "Case run package is missing."}
+            case["readiness_source"] = "missing_package"
         case["readiness_status"] = readiness.get("overall_status", "partial")
         case["readiness_guidance"] = readiness.get("guidance", "")
         studies.append(case)

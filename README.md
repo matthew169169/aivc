@@ -58,7 +58,9 @@ between Windows, macOS and Linux. Atlas entries use these same bundled inputs.
 `POST /api/projects` creates and activates a workspace (optional `name` and
 `project_id`). `POST /api/runs/{run_id}/pipeline` executes the same workflow as
 `POST /api/runs/{run_id}/workflow/run`, accepting the same optional selections.
-Jobs expose their execution result and logs through `/api/jobs`.
+Jobs expose their execution result and logs through `/api/jobs`. The case menu
+uses the latest saved readiness check; opening the case readiness endpoint runs
+the detailed validation and refreshes that result.
 
 ## Deploy the backend
 
