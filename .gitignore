@@ -1,5 +1,8 @@
 Omics-GEM-Studio-Windows-Browser-20260908-r2.zip-2.download/
 *.zip
+!assets/browser/*.zip
+browser/node_modules/
+browser-failure.png
 .DS_Store
 __pycache__/
 *.py[cod]

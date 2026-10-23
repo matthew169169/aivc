@@ -1,0 +1,37 @@
+name: Browser execution checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check deterministic browser archives
+        run: |
+          python tools/build_browser_bundle.py
+          git diff --exit-code -- assets/browser
+      - run: npm install --prefix browser --ignore-scripts --no-package-lock
+      - run: browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Test with only a static website (no API server)
+        run: |
+          python -m http.server 4173 > /tmp/static-site.log 2>&1 &
+          node tests/browser_smoke.cjs
+      - name: Browser failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-failure
+          path: browser-failure.png
+          retention-days: 1
+          if-no-files-found: ignore

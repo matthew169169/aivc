@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "pyodide": "0.29.3",
+  "bundles": {
+    "application": {
+      "file": "application-12151562a463.zip",
+      "sha256": "12151562a463f003edc6b04668e34c604a1a5d380369a4a9828cb92f2e22df21",
+      "bytes": 12035425
+    },
+    "examples": {
+      "file": "examples-6396ea094051.zip",
+      "sha256": "6396ea094051cffab333551ab84106c3505f1e02e8267861d5123599ed57e5ed",
+      "bytes": 33332311
+    }
+  }
+}

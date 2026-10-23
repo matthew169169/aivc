@@ -8,8 +8,8 @@ function base(hostname, search = '', configured) {
   vm.runInNewContext(source, { window, URL, URLSearchParams });
   return window.OMICS_GEM_API_BASE;
 }
-test('Pages uses the deployed backend; server uses same origin', () => {
-  assert.equal(base('matthew169169.github.io'), 'https://aivc-tcls.onrender.com');
+test('Pages uses the browser engine; server uses same origin', () => {
+  assert.equal(base('matthew169169.github.io'), 'https://matthew169169.github.io/aivc/browser-api');
   assert.equal(base('localhost'), 'https://localhost');
 });
 test('explicit API links work without retaining stale overrides', () => {
@@ -18,6 +18,6 @@ test('explicit API links work without retaining stale overrides', () => {
 });
 test('invalid URLs and credentials retain the default', () => {
   for (const api of ['javascript:alert(1)', 'invalid', 'https://user:password@example.com', 'https://example.com/?secret=1']) {
-    assert.equal(base('matthew169169.github.io', '?api=' + encodeURIComponent(api)), 'https://aivc-tcls.onrender.com');
+    assert.equal(base('matthew169169.github.io', '?api=' + encodeURIComponent(api)), 'https://matthew169169.github.io/aivc/browser-api');
   }
 });

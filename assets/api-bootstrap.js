@@ -2,6 +2,7 @@
 (function () {
   var override = new URLSearchParams(window.location.search).get("api");
   var base = window.OMICS_GEM_API_BASE;
+  var requestedMode = new URLSearchParams(window.location.search).get("mode");
   if (override) {
     try {
       var url = new URL(override);
@@ -10,10 +11,11 @@
       }
     } catch (_) { /* Keep the configured default when the URL is invalid. */ }
   }
-  if (!base) {
-    base = /\.github\.io$/i.test(window.location.hostname)
-      ? "https://aivc-tcls.onrender.com"
-      : window.location.origin;
-  }
+  var browserMode = requestedMode === "browser" || (!base && /\.github\.io$/i.test(window.location.hostname));
+  if (browserMode) {
+    var source = typeof document !== "undefined" && document.currentScript ? document.currentScript.src : window.location.origin + "/aivc/assets/api-bootstrap.js";
+    base = new URL("../browser-api", source).href;
+  } else if (!base) base = window.location.origin;
+  window.OMICS_GEM_EXECUTION_MODE = browserMode ? "browser" : "server";
   window.OMICS_GEM_API_BASE = base.replace(/\/$/, "");
 })();

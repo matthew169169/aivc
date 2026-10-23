@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "description": "Browser integration tests only; users do not install Node or Python",
+  "devDependencies": { "playwright": "1.62.1" }
+}
