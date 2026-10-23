@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "pyodide": "0.29.3",
-  "client_version": "d834a985e019",
+  "client_version": "de0583c5bfe8",
   "bundles": {
     "application": {
-      "file": "application-757931c017c9.zip",
-      "sha256": "757931c017c916d625693eba43a7d1e937ecadb6f2b39e900631ea189fa093b5",
-      "bytes": 12036056
+      "file": "application-8c338ad33525.zip",
+      "sha256": "8c338ad33525138e1f3b90d7f508b231dd5fdf58f3730b4420b121c0fbcf14f0",
+      "bytes": 12036078
     },
     "examples": {
       "file": "examples-13fa230d32ed.zip",

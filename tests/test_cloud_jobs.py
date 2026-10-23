@@ -40,6 +40,10 @@ def test_background_response_does_not_block_health_or_allow_workspace_switch(cli
         assert entered.wait(2)
         assert client.get('/api/health').json()['queue']['active_jobs'] == 1
         assert client.get('/api/jobs/' + job['job_id']).json()['status'] == 'running'
+        queued = queue.submit('test', 'other', services.TASK_LOGS_DIR, lambda log: {'status': 'completed'})
+        queued_status = client.get('/api/jobs/' + queued['job_id'])
+        assert queued_status.status_code == 200
+        assert queued_status.json()['status'] == 'queued'
         assert client.post('/api/runs/portable/workflow/run', json={}).status_code == 409
         assert client.post('/api/workspace/reset').status_code == 409
         assert client.post('/api/workspace/root', json={'root': str(services.WORKSPACE_ROOT)}).status_code == 409

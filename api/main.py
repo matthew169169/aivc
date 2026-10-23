@@ -882,7 +882,7 @@ def ml_hybrid_profile(run_id: str, request: MlHybridProfileRequest) -> dict[str,
 
 @app.get("/api/jobs/{job_id}")
 def job(job_id: str) -> dict[str, Any]:
-    return _handle(lambda: get_job(job_id))
+    return _handle(lambda: get_job(job_id), accepted=False)
 
 
 @app.get("/api/jobs")
@@ -916,10 +916,10 @@ def files(
     return FileResponse(str(resolved), filename=resolved.name)
 
 
-def _handle(callback):
+def _handle(callback, *, accepted: bool = True):
     try:
         result = callback()
-        if isinstance(result, dict) and result.get("job_id") and result.get("status") == "queued":
+        if accepted and isinstance(result, dict) and result.get("job_id") and result.get("status") == "queued":
             return JSONResponse(result, status_code=202)
         return result
     except ApiError as exc:
