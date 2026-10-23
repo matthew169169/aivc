@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "pyodide": "0.29.3",
-  "client_version": "ea2de80d54fc",
+  "client_version": "d834a985e019",
   "bundles": {
     "application": {
       "file": "application-757931c017c9.zip",

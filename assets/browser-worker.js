@@ -1,10 +1,10 @@
 /* Dedicated browser Python worker. Requests never leave this worker for a server. */
 "use strict";
-let python, initialization, science, spreadsheets, storageWarning, chain = Promise.resolve();
+let python, initialization, science, spreadsheets, storageWarning, engineReady = false, chain = Promise.resolve();
 const runtimeBase = new URL("./browser/", self.location.href);
 function status(message, state = "loading") {
   if (storageWarning && state === "ready") { message = storageWarning; state = "error"; }
-  self.postMessage({ type: "status", message, state });
+  self.postMessage({ type: "status", message, state, initialized: engineReady });
 }
 function sync(populate = false) {
   return new Promise((resolve, reject) => python.FS.syncfs(populate, error => error ? reject(error) : resolve()));
@@ -57,6 +57,7 @@ await micropip.install('python-multipart==0.0.20')
 from browser import runtime
 runtime.APP = runtime.initialize()
 `);
+    engineReady = true;
     try { await sync(); } catch (error) {
       storageWarning = "Browser storage could not be saved. Keep this tab open and use Back up projects. " + String(error.message || error);
     }

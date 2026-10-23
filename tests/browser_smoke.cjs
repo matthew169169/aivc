@@ -2,7 +2,7 @@
 const assert = require('node:assert/strict');
 const { chromium } = require('../browser/node_modules/playwright');
 const fs = require('node:fs');
-const base = process.env.BROWSER_TEST_URL || 'http://127.0.0.1:4173/?mode=browser';
+const base = process.env.BROWSER_TEST_URL || 'http://127.0.0.1:4173/?mode=browser&lang=en';
 const xml = `<?xml version="1.0" encoding="utf-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1" fbc:required="false">
 <model id="browser_test" fbc:strict="true">
@@ -35,12 +35,21 @@ async function api(page, path, data) {
   page.on('pageerror', error => { errors.push(error.message); console.log('Page error:', error.message); });
   page.on('worker', worker => worker.on('console', message => console.log('Worker:', message.text().slice(0, 1000))));
   try {
+    let allowInitialization;
+    const initializationGate = new Promise(resolve => { allowInitialization = resolve; });
+    await context.route('**/assets/browser/manifest.json', async route => { await initializationGate; await route.continue(); });
     await page.goto(base);
+    await page.getByText('Loading browser…', { exact: true }).waitFor();
+    assert.equal(await page.getByText('API offline', { exact: true }).count(), 0);
+    allowInitialization();
     const health = await api(page, '/api/health');
     assert.equal(health.execution_mode, 'browser');
     assert.equal(health.api_server_required, false);
     assert.equal((await api(page, '/api/case-studies')).case_studies.length, 3);
     assert.ok((await api(page, '/api/runs')).runs.length >= 3);
+    await page.getByText('Browser ready', { exact: true }).waitFor();
+    assert.equal(await page.getByRole('button', { name: 'Refresh backend', exact: true }).count(), 0);
+    assert.equal(await page.getByRole('button', { name: 'Refresh workspace', exact: true }).count(), 1);
     console.log('PASS: browser boot, saved examples and API-free catalog');
     const uploaded = await page.evaluate(async xml => {
       const body = new FormData();
@@ -102,6 +111,18 @@ async function api(page, path, data) {
     await page.reload();
     assert.equal((await api(page, '/api/runs/browser_smoke/summary')).run_id, 'browser_smoke');
     console.log('PASS: uploaded model and results survive reload');
+    const failedContext = await browser.newContext();
+    await failedContext.route('**/assets/browser/manifest.json', route => route.fulfill({ status: 503, body: 'Test: runtime download unavailable' }));
+    const failedPage = await failedContext.newPage();
+    await failedPage.goto(base);
+    await failedPage.getByText('Browser failed to start', { exact: true }).waitFor();
+    const startupAlert = failedPage.getByRole('alert').filter({ hasText: 'The browser engine could not start' });
+    await startupAlert.waitFor();
+    assert.match(await startupAlert.innerText(), /runtime manifest could not be loaded/);
+    assert.equal(await failedPage.getByText('API offline', { exact: true }).count(), 0);
+    assert.equal(await failedPage.getByRole('button', { name: 'Try again', exact: true }).count(), 1);
+    await failedContext.close();
+    console.log('PASS: browser loading, ready and startup failure show actual engine status');
     assert.deepEqual(forbidden, [], 'The browser must never contact the previous API server');
     assert.deepEqual(errors, [], 'Uncaught browser errors');
     console.log('Browser integration checks passed.');

@@ -113,7 +113,7 @@ def test_visualization_report_and_ml_jobs(client, model_bytes):
 
 def test_static_and_file_boundaries(client):
     assert client.get("/").status_code == 200
-    assert client.get("/assets/index-19a21b9757.js").status_code == 200
+    assert client.get("/assets/index-d344697e80.js").status_code == 200
     assert client.get("/api/unknown").status_code == 404
     assert client.get("/assets/missing.js").status_code == 404
     assert client.get("/.git/config").status_code == 404

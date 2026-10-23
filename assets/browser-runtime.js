@@ -1,6 +1,24 @@
 /* Enable the same workbench on static hosting, backed by Python in a worker. */
 (function () {
   "use strict";
+  const browserMode = window.OMICS_GEM_EXECUTION_MODE === "browser";
+  window.OMICS_GEM_BROWSER_STATUS = { state: "loading", initialized: false, message: "Preparing browser mode…" };
+  window.OMICS_GEM_USE_RUNTIME_STATUS = function (React) {
+    const [current, update] = React.useState(() => window.OMICS_GEM_BROWSER_STATUS);
+    React.useEffect(() => {
+      if (!browserMode) return;
+      const changed = event => update(event.detail);
+      window.addEventListener("omics-browser-status", changed);
+      update(window.OMICS_GEM_BROWSER_STATUS);
+      return () => window.removeEventListener("omics-browser-status", changed);
+    }, []);
+    if (!browserMode) return null;
+    const label = current.state === "error"
+      ? (current.initialized ? "Browser needs attention" : "Browser failed to start")
+      : current.state === "loading" ? (current.initialized ? "Loading tools…" : "Loading browser…")
+      : current.state === "working" ? "Browser working" : "Browser ready";
+    return { label, ready: current.initialized && current.state !== "error", message: current.message };
+  };
   if (window.OMICS_GEM_EXECUTION_MODE !== "browser") return;
   const scriptURL = new URL(document.currentScript.src);
   const siteRoot = new URL("../", scriptURL);
@@ -8,23 +26,35 @@
   const originalFetch = window.fetch.bind(window);
   const workerURL = new URL("browser-worker.js", scriptURL);
   workerURL.search = scriptURL.search;
-  const worker = new Worker(workerURL);
+  let worker;
   const pending = new Map();
-  let sequence = 0, banner, messageText = "Preparing browser mode…";
+  let sequence = 0, banner, startupError, startupDetail, messageText = "Preparing browser mode…";
   let closed = false;
-  function show(message, state) {
+  function show(message, state, initialized) {
     messageText = message;
+    const previous = window.OMICS_GEM_BROWSER_STATUS;
+    const current = { state: state || "loading", initialized: typeof initialized === "boolean" ? initialized : previous.initialized || state === "ready", message };
+    window.OMICS_GEM_BROWSER_STATUS = current;
+    window.dispatchEvent(new CustomEvent("omics-browser-status", { detail: current }));
     if (banner) { banner.textContent = message; banner.dataset.state = state || "loading"; }
+    if (startupError) {
+      startupError.hidden = current.initialized || current.state !== "error";
+      startupDetail.textContent = message.split("\n").filter(Boolean).slice(-1)[0].slice(0, 700);
+    }
   }
-  worker.onmessage = event => {
+  try { worker = new Worker(workerURL); } catch (error) {
+    closed = true;
+    show("This browser could not start the calculation worker. " + error.message, "error", false);
+  }
+  if (worker) worker.onmessage = event => {
     const message = event.data;
-    if (message.type === "status") { show(message.message, message.state); return; }
+    if (message.type === "status") { show(message.message, message.state, message.initialized); return; }
     const task = pending.get(message.id);
     if (!task) return;
     pending.delete(message.id);
     message.type === "error" ? task.reject(new Error(message.error)) : task.resolve(message.result);
   };
-  worker.onerror = error => {
+  if (worker) worker.onerror = error => {
     closed = true;
     const detail = "The browser engine stopped. Reload to recover saved work. " + (error.message || "");
     show(detail, "error");
@@ -112,6 +142,22 @@
     note.style.cssText = "width:100%;font-size:11px;color:#526c7b";
     bar.append(banner, backup, restore, input, note);
     document.body.append(bar);
+    startupError = document.createElement("section");
+    startupError.setAttribute("role", "alert");
+    startupError.style.cssText = "position:fixed;top:74px;right:16px;z-index:99991;max-width:min(540px,90vw);padding:16px;border:1px solid #d79b69;border-radius:10px;background:#fff8ed;color:#543419;font:14px/1.5 system-ui;box-shadow:0 4px 20px #39210822";
+    const title = document.createElement("strong");
+    title.textContent = "The browser engine could not start";
+    startupDetail = document.createElement("p");
+    const explanation = document.createElement("p");
+    explanation.textContent = "No API server is required. First use needs internet access to download the browser runtime.";
+    const retry = document.createElement("button");
+    retry.textContent = "Try again";
+    retry.onclick = () => window.location.reload();
+    startupError.append(title, startupDetail, explanation, retry);
+    document.body.append(startupError);
+    const latest = window.OMICS_GEM_BROWSER_STATUS;
+    startupError.hidden = latest.initialized || latest.state !== "error";
+    startupDetail.textContent = latest.message.split("\n").filter(Boolean).slice(-1)[0].slice(0, 700);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", controls); else controls();
   if ("serviceWorker" in navigator) {

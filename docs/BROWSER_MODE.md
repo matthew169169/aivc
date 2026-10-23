@@ -12,6 +12,9 @@ The first visit downloads about **43 MB** of application/example archives plus
 the Python runtime. Scientific packages download on the first calculation.
 Loading progress appears at the bottom of the workbench. Keep the tab open while
 calculating; large models take time and use your device's CPU and memory.
+The top indicator shows **Loading browser**, **Browser ready**, or a browser
+startup failure. A failure displays its actual cause and a retry button; it does
+not mean you need to configure a remote API server.
 Internet access is needed to load the site and its runtime packages. This is not
 a promise of complete offline operation.
 
