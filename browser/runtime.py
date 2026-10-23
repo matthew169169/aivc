@@ -10,6 +10,7 @@ import subprocess
 import zipfile
 from pathlib import Path, PurePosixPath
 
+DATA_DIR = Path("/data")
 
 def initialize():
     os.environ.update(OMICS_GEM_DATA_DIR="/data", OMICS_GEM_JOB_MODE="inline", OMICS_GEM_AUTH_ENABLED="false", OMICS_GEM_BROWSER="true")
@@ -45,9 +46,9 @@ def backup():
     output = io.BytesIO()
     with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("browser-backup.json", json.dumps({"format": "omics-gem-browser", "version": 1}))
-        for path in sorted(Path("/data").rglob("*")):
+        for path in sorted(DATA_DIR.rglob("*")):
             if path.is_file() and not path.is_symlink():
-                archive.write(path, "data/" + path.relative_to("/data").as_posix())
+                archive.write(path, "data/" + path.relative_to(DATA_DIR).as_posix())
     return output.getvalue()
 
 
@@ -65,8 +66,8 @@ def restore(data):
             name = PurePosixPath(entry.filename)
             if not entry.filename.startswith("data/") or ".." in name.parts or "\\" in entry.filename or (entry.external_attr >> 16) & 0o170000 == 0o120000:
                 raise ValueError("The backup contains an unsafe file path.")
-            target = (Path("/data") / Path(*name.parts[1:])).resolve()
-            if not target.is_relative_to(Path("/data").resolve()):
+            target = (DATA_DIR / Path(*name.parts[1:])).resolve()
+            if not target.is_relative_to(DATA_DIR.resolve()):
                 raise ValueError("The backup contains an unsafe file path.")
             total += entry.file_size
             if total > 768 * 1024 * 1024 or len(entries) >= 25000:
@@ -89,6 +90,10 @@ async def handle(payload):
     request = json.loads(payload)
     path, method = request["path"], request.get("method", "GET")
     body = base64.b64decode(request.get("body", ""))
+    if method == "POST" and path == "/api/workspace/root":
+        settings = json.loads(body)
+        if not Path(settings.get("root", "")).resolve().is_relative_to(DATA_DIR.resolve()):
+            return response(422, json.dumps({"detail": "Browser workspaces must be inside /data so they are saved. Use Projects to create or switch projects; device filesystem paths are not available."}).encode())
     if path.split("?", 1)[0] == "/api/browser/capabilities":
         return response(200, json.dumps(capabilities()).encode())
     if path.split("?", 1)[0] == "/api/browser/backup" and method == "GET":

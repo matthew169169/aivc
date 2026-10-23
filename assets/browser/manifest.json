@@ -3,9 +3,9 @@
   "pyodide": "0.29.3",
   "bundles": {
     "application": {
-      "file": "application-12151562a463.zip",
-      "sha256": "12151562a463f003edc6b04668e34c604a1a5d380369a4a9828cb92f2e22df21",
-      "bytes": 12035425
+      "file": "application-16d088c13afa.zip",
+      "sha256": "16d088c13afad7b55191f4814365a2531c57d08f571396cad563a10d693a7af2",
+      "bytes": 12035561
     },
     "examples": {
       "file": "examples-13fa230d32ed.zip",

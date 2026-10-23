@@ -1,8 +1,11 @@
 /* Dedicated browser Python worker. Requests never leave this worker for a server. */
 "use strict";
-let python, initialization, science, chain = Promise.resolve();
+let python, initialization, science, spreadsheets, storageWarning, chain = Promise.resolve();
 const runtimeBase = new URL("./browser/", self.location.href);
-function status(message, state = "loading") { self.postMessage({ type: "status", message, state }); }
+function status(message, state = "loading") {
+  if (storageWarning && state === "ready") { message = storageWarning; state = "error"; }
+  self.postMessage({ type: "status", message, state });
+}
 function sync(populate = false) {
   return new Promise((resolve, reject) => python.FS.syncfs(populate, error => error ? reject(error) : resolve()));
 }
@@ -54,7 +57,9 @@ await micropip.install('python-multipart==0.0.20')
 from browser import runtime
 runtime.APP = runtime.initialize()
 `);
-    await sync();
+    try { await sync(); } catch (error) {
+      storageWarning = "Browser storage could not be saved. Keep this tab open and use Back up projects. " + String(error.message || error);
+    }
     status("Browser mode ready · files stay in this browser", "ready");
   })();
   return initialization;
@@ -63,9 +68,9 @@ async function loadScience() {
   if (science) return science;
   science = (async () => {
     status("Loading the browser solver for the first calculation…");
-    await python.loadPackage(["numpy", "pandas", "scipy", "swiglpk", "optlang", "rich", "ruamel.yaml"]);
+    await python.loadPackage(["numpy", "pandas", "scipy", "swiglpk", "sympy", "rich", "ruamel.yaml"]);
     await python.runPythonAsync(`
-await micropip.install(['appdirs==1.4.4', 'depinfo==2.2.0', 'future==1.0.0', 'openpyxl==3.1.5', 'xlrd==2.0.2'])
+await micropip.install(['appdirs==1.4.4', 'depinfo==2.2.0', 'future==1.0.0', 'optlang==1.9.0'])
 await micropip.install('cobra==0.31.1', deps=False)
 from browser.sbml import install
 install()
@@ -78,18 +83,25 @@ cobra.Configuration().processes = 1
   return science;
 }
 function needsScience(request) {
-  return request.method !== "GET" && !request.path.startsWith("/api/auth/") && !request.path.startsWith("/api/browser/") && !request.path.endsWith("/workflow/state");
+  return request.method !== "GET" && /^\/api\/runs\/[^/]+\/(pipeline|workflow\/run|ml-hybrid\/profiles)(\/|$)/.test(request.path);
+}
+async function loadSpreadsheets() {
+  if (!spreadsheets) spreadsheets = python.runPythonAsync("await micropip.install(['openpyxl==3.1.5', 'xlrd==2.0.2'])").catch(error => { spreadsheets = null; throw error; });
+  return spreadsheets;
 }
 async function request(message) {
   await initialize();
+  if (message.request.method !== "GET") await loadSpreadsheets();
   if (needsScience(message.request)) await loadScience();
   python.globals.set("browser_request_json", JSON.stringify(message.request));
   status(message.request.method === "GET" ? "Opening project data…" : "Calculating in your browser…", "working");
   try {
     const result = JSON.parse(await python.runPythonAsync("await runtime.handle(browser_request_json)"));
-    if (message.request.method !== "GET" || message.request.path.startsWith("/api/browser/backup")) {
+    if (message.request.method !== "GET") {
       status("Saving changes in this browser…", "working");
-      await sync();
+      try { await sync(); storageWarning = null; } catch (error) {
+        storageWarning = "The calculation finished, but browser storage could not be saved. Keep this tab open and use Back up projects. " + String(error.message || error);
+      }
     }
     self.postMessage({ type: "response", id: message.id, result });
     status("Browser mode · saved on this device", "ready");
