@@ -329,3 +329,11 @@ def install():
     for name in ("read_sbml_model", "write_sbml_model", "validate_sbml_model", "CobraSBMLError"):
         setattr(module, name, globals()[name])
     sys.modules["cobra.io.sbml"] = module
+    # COBRA imports its optional network model loader eagerly, and that module
+    # also imports libSBML. Uploaded/bundled models use the adapter above; do not
+    # pretend a browser has a working native repository downloader.
+    remote = types.ModuleType("cobra.io.web.load")
+    def unavailable(*args, **kwargs):
+        raise CobraSBMLError("Automatic COBRA repository downloads are unavailable in browser mode. Upload an SBML model or use a bundled example.")
+    remote.load_model = unavailable
+    sys.modules["cobra.io.web.load"] = remote

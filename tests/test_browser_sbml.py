@@ -1,5 +1,8 @@
 """Compare the browser SBML reader against real libSBML/COBRA results."""
 import io
+import os
+import subprocess
+import sys
 from pathlib import Path
 import pytest
 from browser import sbml
@@ -66,3 +69,26 @@ def test_browser_reader_rejects_dynamic_models_and_missing_objective(model_bytes
     sbml.write_sbml_model(model, output)
     with pytest.raises(sbml.CobraSBMLError, match='No nonzero objective'):
         sbml.read_sbml_model(io.StringIO(output.getvalue()))
+
+
+def test_cobra_imports_without_native_libsbml(tmp_path):
+    program = '''
+import importlib.abc, sys
+class NoLibSBML(importlib.abc.MetaPathFinder):
+    def find_spec(self, fullname, *args):
+        if fullname == 'libsbml' or fullname.startswith('libsbml.'):
+            raise ImportError('Native libSBML is intentionally unavailable')
+sys.meta_path.insert(0, NoLibSBML())
+from omics_router.cobra_runner import _redirect_cobra_cache
+_redirect_cobra_cache()
+from browser.sbml import install
+install()
+import cobra
+from cobra.io import read_sbml_model
+assert read_sbml_model.__module__ == 'browser.sbml'
+assert 'libsbml' not in sys.modules
+print('COBRA imports with the browser SBML adapter')
+'''
+    environment = {**os.environ, 'XDG_CACHE_HOME': str(tmp_path), 'LOCALAPPDATA': str(tmp_path)}
+    result = subprocess.run([sys.executable, '-c', program], capture_output=True, text=True, env=environment)
+    assert result.returncode == 0, result.stderr
