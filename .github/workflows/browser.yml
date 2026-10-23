@@ -20,7 +20,7 @@ jobs:
       - name: Check deterministic browser archives
         run: |
           python tools/build_browser_bundle.py
-          git diff --exit-code -- assets/browser
+          git diff --exit-code -- assets/browser index.html 404.html frontend/dist/index.html
       - run: npm install --prefix browser --ignore-scripts --no-package-lock
       - run: browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Test with only a static website (no API server)

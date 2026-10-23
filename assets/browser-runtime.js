@@ -6,7 +6,9 @@
   const siteRoot = new URL("../", scriptURL);
   const base = window.OMICS_GEM_API_BASE;
   const originalFetch = window.fetch.bind(window);
-  const worker = new Worker(new URL("browser-worker.js", scriptURL));
+  const workerURL = new URL("browser-worker.js", scriptURL);
+  workerURL.search = scriptURL.search;
+  const worker = new Worker(workerURL);
   const pending = new Map();
   let sequence = 0, banner, messageText = "Preparing browser mode…";
   let closed = false;
@@ -123,7 +125,9 @@
         event.ports[0].postMessage({ result });
       } catch (error) { event.ports[0].postMessage({ error: error.message }); }
     });
-    navigator.serviceWorker.register(new URL("browser-sw.js", siteRoot), { scope: siteRoot.pathname }).catch(error => show("Browser file downloads need service-worker access: " + error.message, "error"));
+    const serviceURL = new URL("browser-sw.js", siteRoot);
+    serviceURL.search = scriptURL.search;
+    navigator.serviceWorker.register(serviceURL, { scope: siteRoot.pathname, updateViaCache: "none" }).catch(error => show("Browser file downloads need service-worker access: " + error.message, "error"));
   } else show("This browser needs service-worker support for report previews and downloads.", "error");
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   window.OMICS_GEM_BROWSER = { call, base };

@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import io
 import json
+import re
 import subprocess
 import zipfile
 from pathlib import Path
@@ -43,7 +44,14 @@ def build():
                 previous.unlink()
         manifests[name] = {"file": filename, "sha256": digest, "bytes": len(data)}
         print(f"{name}: {len(data) / 1024 / 1024:.1f} MB")
-    (OUTPUT / "manifest.json").write_text(json.dumps({"schema": 1, "pyodide": "0.29.3", "bundles": manifests}, indent=2) + "\n")
+    client_files = [ROOT / "assets" / name for name in ("api-bootstrap.js", "api-transport.js", "cloud-status.js", "browser-runtime.js", "browser-worker.js")]
+    client_files.append(ROOT / "browser-sw.js")
+    version = hashlib.sha256(b"".join(path.read_bytes() for path in client_files) + json.dumps(manifests, sort_keys=True).encode()).hexdigest()[:12]
+    for name in ("index.html", "404.html", "frontend/dist/index.html"):
+        page = ROOT / name
+        content = re.sub(r'(src="\./assets/(?:api-bootstrap|api-transport|cloud-status|browser-runtime)\.js)(?:\?v=[^\"]*)?"', rf'\1?v={version}"', page.read_text())
+        page.write_text(content)
+    (OUTPUT / "manifest.json").write_text(json.dumps({"schema": 1, "pyodide": "0.29.3", "client_version": version, "bundles": manifests}, indent=2) + "\n")
 
 
 if __name__ == "__main__":
