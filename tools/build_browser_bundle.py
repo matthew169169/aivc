@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import io
 import json
+import subprocess
 import zipfile
 from pathlib import Path
 
@@ -27,9 +28,10 @@ def archive(paths):
 def build():
     OUTPUT.mkdir(parents=True, exist_ok=True)
     manifests = {}
+    tracked = set(subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0"))
     groups = {
         "application": [p for root in ("api", "omics_router", "browser") for p in (ROOT / root).rglob("*.py")] + [ROOT / "requirements.txt", ROOT / "requirements-optional.txt"] + [p for root in ("resources", "case_studies", "model-library") for p in (ROOT / root).rglob("*")],
-        "examples": [p for name in ("shewanella_gecko_case", "putida_acetate_isoprenol_case", "synechocystis_spkb_case") for p in (ROOT / "user_runs" / name).rglob("*")],
+        "examples": [p for name in ("shewanella_gecko_case", "putida_acetate_isoprenol_case", "synechocystis_spkb_case") for p in (ROOT / "user_runs" / name).rglob("*") if p.relative_to(ROOT).as_posix() in tracked],
     }
     for name, paths in groups.items():
         data = archive(paths)
