@@ -91,9 +91,24 @@ async def handle(payload):
     path, method = request["path"], request.get("method", "GET")
     body = base64.b64decode(request.get("body", ""))
     if method == "POST" and path == "/api/workspace/root":
-        settings = json.loads(body)
+        try:
+            settings = json.loads(body)
+        except (ValueError, TypeError):
+            return response(422, b'{"detail":"Invalid workspace settings JSON."}')
         if not Path(settings.get("root", "")).resolve().is_relative_to(DATA_DIR.resolve()):
             return response(422, json.dumps({"detail": "Browser workspaces must be inside /data so they are saved. Use Projects to create or switch projects; device filesystem paths are not available."}).encode())
+    if method == "POST" and (path.endswith("/workflow/run") or path.endswith("/pipeline")):
+        try:
+            settings = json.loads(body or b"{}")
+            fba = settings.get("analysis_parameters", {}).get("fba_pfba", {})
+            parallel = int(fba.get("fva_processes", 1)) > 1
+        except (ValueError, TypeError, AttributeError):
+            parallel = False  # Leave malformed values to the normal request validator.
+            settings = {}
+        if parallel:
+            return response(422, b'{"detail":"Browser FVA supports one process. Set fva_processes to 1; multiple native processes require a server."}')
+        if settings.get("run_gecko_external"):
+            return response(422, b'{"detail":"External GECKO execution requires MATLAB and a compatible server. Disable external execution to prepare/export the package in browser mode."}')
     if path.split("?", 1)[0] == "/api/browser/capabilities":
         return response(200, json.dumps(capabilities()).encode())
     if path.split("?", 1)[0] == "/api/browser/backup" and method == "GET":

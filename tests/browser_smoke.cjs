@@ -50,7 +50,7 @@ async function api(page, path, data) {
       return response.json();
     }, xml);
     assert.equal(uploaded.run_id, 'browser_smoke');
-    const job = await api(page, '/api/runs/browser_smoke/workflow/run', { model_generation_methods: ['baseline_gem'], analysis_modules: ['fba_pfba'] });
+    const job = await api(page, '/api/runs/browser_smoke/workflow/run', { model_generation_methods: ['baseline_gem'], analysis_modules: ['fba_pfba'], analysis_parameters: { fba_pfba: { run_pfba: true, run_fva: true, fva_reaction_scope: 'all_reactions', fva_processes: 1 } } });
     assert.equal(job.status, 'completed', JSON.stringify(job));
     const fba = await page.evaluate(async path => {
       const response = await fetch(window.OMICS_GEM_API_BASE + '/api/files?path=' + encodeURIComponent(path + '/variant_cobra_results/variant_fba_summary.csv'));
@@ -60,12 +60,27 @@ async function api(page, path, data) {
     assert.match(fba, /optimal/);
     const lines = fba.trim().split(/\r?\n/), header = lines[0].split(','), values = lines[1].split(',');
     assert.equal(Number(values[header.indexOf('objective_value')]), 8, fba);
-    console.log('PASS: real browser FBA objective=8');
+    assert.equal(values[header.indexOf('pfba_status')], 'optimal', fba);
+    assert.equal(values[header.indexOf('fva_status')], 'completed', fba);
+    console.log('PASS: real browser FBA objective=8, pFBA and single-process FVA');
     for (const [path, data] of [['visualizations/interactive-render', { variant_id: 'baseline_gem', top_n: 20 }], ['visualizations/sammi-native-export', { variant_id: 'baseline_gem' }], ['reports', {}]]) {
       const result = await api(page, '/api/runs/browser_smoke/' + path, data);
       assert.equal(result.status, 'completed', JSON.stringify(result));
     }
     console.log('PASS: browser maps, SAMMI export and reports');
+    assert.equal((await api(page, '/api/runs/browser_smoke/archive', { dry_run: false, confirm_run_id: 'browser_smoke' })).status, 'completed');
+    assert.equal((await api(page, '/api/runs/archived/browser_smoke/restore', { dry_run: false, confirm_run_id: 'browser_smoke' })).status, 'completed');
+    const created = await api(page, '/api/projects', { project_id: 'browser_project', name: 'Browser research' });
+    assert.equal(created.project.name, 'Browser research');
+    assert.match((await api(page, '/api/workspace')).workspace_root, /workspaces\/browser_project$/);
+    await api(page, '/api/workspace/reset', {});
+    assert.equal((await api(page, '/api/runs/browser_smoke/summary')).run_id, 'browser_smoke');
+    console.log('PASS: browser archive, restore and project switching');
+    const candidate = await api(page, '/api/resources/candidate-package/preview', { resource_ids: ['model_synechocystis_ijn678_spkb_case', 'omics_synechocystis_spkb_annotation_validation'], run_id: 'browser_atlas' });
+    assert.equal(candidate.can_stage, true);
+    const staged = await api(page, '/api/resources/candidate-package/stage', { resource_ids: ['model_synechocystis_ijn678_spkb_case', 'omics_synechocystis_spkb_annotation_validation'], run_id: 'browser_atlas' });
+    assert.equal(staged.run_id, 'browser_atlas');
+    console.log('PASS: browser Atlas candidate staging');
     const capabilities = await api(page, '/api/browser/capabilities');
     assert.ok(capabilities.unavailable.includes('MATLAB'));
     const backup = await page.evaluate(async () => {
